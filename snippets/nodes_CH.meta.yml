@@ -1,18 +1,16 @@
 proxies:
-- name: 12|CHANEL@v2rayngzendegimamad_Aq
-  password: 3a10983a-d8b3-4b16-b3d5-fe3ed7ec724c
-  port: 80
-  server: ru.mochizuki.top
-  sni: ru.mochizuki.top
+- client-fingerprint: chrome
+  name: 15|CH_speednode_0041
+  network: ws
+  port: 8880
+  server: 185.18.250.63
+  servername: jp.laoyoutiao.link
+  skip-cert-verify: false
   tls: false
-  type: hysteria2
-- name: 12|CHANEL@v2rayngzendegimamad2
-  obfs: salamander
-  obfs-password: 7d9dff369a11f6e0
-  password: 81ea378b37931b23
-  port: 7373
-  server: 77.221.158.52
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
