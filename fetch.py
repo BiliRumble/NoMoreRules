@@ -1027,15 +1027,7 @@ def main():
     print("正在写出 Clash & Meta 订阅...")
     keywords: List[str] = []
     suffixes: List[str] = []
-    match_rule = None
-    for rule in conf['rules']:
-        tmp = rule.strip().split(',')
-        if tmp[0] == 'MATCH':
-            match_rule = rule
-            break
-    if match_rule is None:
-        match_rule = 'MATCH,DIRECT'
-    conf['rules'] = [match_rule]
+    conf['rules'] = ['MATCH,DIRECT']
 
     # Clash & Meta
     global_fp: Optional[str] = conf.get('global-client-fingerprint', None)
