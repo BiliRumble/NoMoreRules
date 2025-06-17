@@ -16,6 +16,8 @@ on:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     - name: 迁出代码
       uses: actions/checkout@v4
@@ -42,6 +44,7 @@ jobs:
     - name: 推送更改
       uses: ad-m/github-push-action@master
       with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: master
 
     - name: 计算要清除缓存的文件
