@@ -38,10 +38,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国|@ripaojiedian
+  name: 13,14|美国|@ripaojiedian
   network: ws
-  port: 80
+  port: '80'
   server: SssssssW.222560.XYz
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -53,7 +54,7 @@ proxies:
     path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 13|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -66,10 +67,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国3|@ripaojiedian
+  name: 13,14|美国3|@ripaojiedian
   network: ws
-  port: 80
+  port: '80'
   server: iIiiI8.222560.xYZ
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -79,37 +81,3 @@ proxies:
     headers:
       Host: iiiii8.222560.xyz
     path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ
-- alterId: 2
-  cipher: auto
-  name: 13|美国|@ripaojiedian
-  network: ws
-  port: '30828'
-  server: v28.heduian.link
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
-- name: 13|美国3|@ripaojiedian
-  network: tcp
-  password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
-  port: 15229
-  server: 35eb0e91-sy0cg0-t7fz1r-8rja.cu.plebai.net
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: 13|美国4|@ripaojiedian
-  network: ws
-  port: '30828'
-  server: 111.26.109.79
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
