@@ -17,11 +17,11 @@ proxies:
     path: /634c5c4f9782
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 13|🇯🇵 日本|@ripaojiedian
+  name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506131022370-2YdmYEMC2J.download.microsoft.com
+    host: 202506131022370-aYizjb0Fb6.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -29,22 +29,40 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 13|🇯🇵 日本2|@ripaojiedian
-  password: b44864e5b56d
+  name: 12|🇯🇵 日本2|@ripaojiedian
+  password: 264727317ef6
   plugin: v2ray-plugin
   plugin-opts:
-    host: jplistv1.dashengjs.net
+    host: kr9v1.3ci.xyz
     mode: websocket
     mux: true
-    path: /ooojkqzttghm
+    path: /ylikhqxcjfeb
     skip-cert-verify: false
     tls: true
-  port: 443
-  server: 163.61.206.64
+  port: 34808
+  server: kr9v1.3ci.xyz
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 13,14|日本3|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12|🇯🇵 日本4|@ripaojiedian
+  port: 10331
+  server: 45.159.50.131
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 0a75ed35-1138-4991-88a0-9b2a59702fce
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇯🇵 日本5|@ripaojiedian
+  password: dwz1GtF7
+  port: 30232
+  server: 112.54.160.36
+  tfo: false
+  type: ss
+- name: 13|日本3|@ripaojiedian
   network: tcp
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
@@ -54,26 +72,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 13|🇯🇵 日本4|@ripaojiedian
-  port: 41302
-  server: 183.236.51.38
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 13|🇯🇵 日本5|@ripaojiedian
-  password: dwz1GtF7
-  port: 30232
-  server: 112.54.160.36
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 14|日本4|@ripaojiedian
+  name: 13|日本4|@ripaojiedian
   network: tcp
   port: '41302'
   server: 183.236.51.38
@@ -83,7 +82,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 14|日本v2|@ripaojiedian
+  name: 13|日本v2|@ripaojiedian
   network: kcp
   port: '36668'
   server: 8.211.175.53

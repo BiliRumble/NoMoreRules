@@ -35,53 +35,57 @@ proxies:
   sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
   type: trojan
   udp: true
-- alterId: 2
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 13,14|美国|@ripaojiedian
+  name: 12|🇺🇸 美国|@ripaojiedian
   network: ws
-  port: '30828'
-  server: v28.heduian.link
-  servername: ''
+  port: 80
+  server: SssssssW.222560.XYz
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 393b1061-d615-459a-8616-3f9447bdff5a
   ws-opts:
     headers:
-      Host: ocbc.com
-    path: /oooo
+      Host: sssssssw.222560.xyz
+    path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 13|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506131022370-2YdmYEMC2J.download.microsoft.com
+    host: 202506131022370-aYizjb0Fb6.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 13|🇺🇸 美国3|@ripaojiedian
-  password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
-  port: 15229
-  server: 35eb0e91-sy0cg0-t7fz1r-8rja.cu.plebai.net
-  skip-cert-verify: false
-  sni: 35eb0e91-sy0cg0-t7fz1r-8rja.cu.plebai.net
-  type: trojan
-- alterId: 2
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 13,14|美国4|@ripaojiedian
+  name: 12|🇺🇸 美国3|@ripaojiedian
   network: ws
-  port: '30828'
-  server: 111.26.109.79
-  servername: ''
+  port: 80
+  server: iIiiI8.222560.xYZ
   skip-cert-verify: false
   tfo: false
+  tls: false
+  type: vmess
+  uuid: 393b1061-d615-459a-8616-3f9447bdff5a
+  ws-opts:
+    headers:
+      Host: iiiii8.222560.xyz
+    path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ
+- alterId: 2
+  cipher: auto
+  name: 13|美国|@ripaojiedian
+  network: ws
+  port: '30828'
+  server: v28.heduian.link
+  servername: ''
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -89,9 +93,23 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: 14|美国3|@ripaojiedian
+- name: 13|美国3|@ripaojiedian
   network: tcp
   password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
   port: 15229
   server: 35eb0e91-sy0cg0-t7fz1r-8rja.cu.plebai.net
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: 13|美国4|@ripaojiedian
+  network: ws
+  port: '30828'
+  server: 111.26.109.79
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
