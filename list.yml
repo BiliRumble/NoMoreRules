@@ -1,4 +1,4 @@
-# Update: 2025-06-23 17:14
+# Update: 2025-06-23 20:21
 allow-lan: false
 dns:
   enable: true
@@ -368,6 +368,67 @@ proxies:
   tls: false
   type: vmess
   uuid: b798372a-54c8-4597-969e-8b00d2f76c09
+- name: 15|CN_speednode_0033
+  password: e2d4ffbd-d0fa-4074-b844-9e8b4e34cd4c
+  port: 38027
+  server: relay001.xiaoniuyun.cc
+  skip-cert-verify: false
+  sni: ua001.xiaoniuyun.cc
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0034
+  password: 2b1ed981-6547-4094-998b-06a3323d6f6c
+  port: 21332
+  server: xd-js.timiwc.com
+  skip-cert-verify: true
+  sni: k65.tudou211.com
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0035
+  password: 2b1ed981-6547-4094-998b-06a3323d6f6c
+  port: 21603
+  server: xd-js.timiwc.com
+  skip-cert-verify: true
+  sni: k61.tudou211.com
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0036
+  password: VdWBGFmg
+  port: 23770
+  server: 36.151.251.62
+  skip-cert-verify: true
+  sni: 36.151.251.62
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0037
+  password: VdWBGFmg
+  port: 23770
+  server: 36.151.251.62
+  skip-cert-verify: true
+  sni: TG.WangCai2
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0038
+  password: xHiFGGTy
+  port: 23770
+  server: 36.151.251.62
+  skip-cert-verify: true
+  sni: TG.WangCai2
+  type: trojan
+  udp: true
+- name: 15|US_speednode_0264
+  network: ws
+  password: 509ed9b7-8d64-4204-8ec8-6b749020ac3f
+  port: 443
+  server: 104.21.3.189
+  skip-cert-verify: true
+  sni: CcCVfGTyU.89060004.Xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: CcCVfGTyU.89060004.Xyz
+    path: /5MkU0nARgHwk3aXBStn7
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -379,40 +440,47 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13|🇭🇰 香港6|@ripaojiedian
-  - 13|🇭🇰 香港8|@ripaojiedian
-  - 13|🇯🇵 日本5|@ripaojiedian
-  - 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-  - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-  - 13,14|香港4|@ripaojiedian
-  - 13,14|韩国2|@ripaojiedian
-  - 14|香港3|@ripaojiedian
-  - 14|日本v2|@ripaojiedian
-  - 13|🇯🇵 日本2|@ripaojiedian
-  - 14|香港5|@ripaojiedian
-  - 13|🇭🇰 香港5|@ripaojiedian
-  - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
-  - 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-  - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 13|🇭🇰 香港3|@ripaojiedian
-  - 13,14|香港7|@ripaojiedian
-  - 13|🇹🇼 台湾2|@ripaojiedian
-  - 14|香港8|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
-  - 13|🇺🇸 美国2|@ripaojiedian
-  - 13|🇯🇵 日本|@ripaojiedian
-  - 13|🇰🇷 韩国|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
-  - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-  - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
   - 2|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-  - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-  - 13|🇸🇬 新加坡|@ripaojiedian
-  - 2|🇰🇷2 |  1.5MB/s|44%|Openai
+  - 13|🇹🇼 台湾2|@ripaojiedian
+  - 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   - 14|台湾v2|@ripaojiedian
+  - 15|CN_speednode_0038
+  - 13,14|韩国2|@ripaojiedian
+  - 14|香港5|@ripaojiedian
+  - 15|CN_speednode_0036
+  - 13,14|美国|@ripaojiedian
+  - 13|🇸🇬 新加坡|@ripaojiedian
+  - 13,14|香港7|@ripaojiedian
+  - 13|🇯🇵 日本2|@ripaojiedian
+  - 13|🇰🇷 韩国|@ripaojiedian
+  - 15|US_speednode_0264
+  - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  - 15|CN_speednode_0035
+  - 15|CN_speednode_0034
+  - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
   - 13|🇹🇼 台湾|@ripaojiedian
+  - 2|🇰🇷2 |  1.5MB/s|44%|Openai
+  - 13|🇺🇸 美国2|@ripaojiedian
+  - 14|香港8|@ripaojiedian
+  - 15|CN_speednode_0033
+  - 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+  - 13|🇭🇰 香港6|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 13|🇯🇵 日本5|@ripaojiedian
   - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+  - 14|日本v2|@ripaojiedian
+  - 14|香港3|@ripaojiedian
+  - 13|🇭🇰 香港8|@ripaojiedian
+  - 13|tg频道:@ripaojiedian
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  - 15|CN_speednode_0037
+  - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
+  - 13|🇭🇰 香港5|@ripaojiedian
+  - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+  - 13|🇭🇰 香港3|@ripaojiedian
+  - 13|🇯🇵 日本|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
