@@ -1,4 +1,4 @@
-# Update: 2025-06-30 05:09
+# Update: 2025-06-30 08:57
 allow-lan: false
 dns:
   enable: true
@@ -1833,9 +1833,9 @@ proxies:
   type: hysteria2
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
-  password: qawszxc123
+  password: yijian0503
   port: 443
-  server: 52.221.255.116
+  server: 43.203.249.172
   tfo: false
   type: ss
 - alterId: 2
@@ -1856,64 +1856,94 @@ proxies:
     path: /oooo
 - cipher: aes-256-gcm
   name: 13|🇭🇰 香港2|@ripaojiedian
-  password: 941cbc4237e0
+  password: 0b191076d18f
   plugin: v2ray-plugin
   plugin-opts:
-    host: kh36v1.dsjsapp.com
+    host: hk6v1.dsjsapp.com
     mode: websocket
     mux: true
-    path: /tkzhhylcfuf
+    path: /ugiibpkbca
     skip-cert-verify: false
     tls: true
   port: 636
-  server: 121.127.231.239
+  server: 156.251.179.136
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: auto
   name: 13|🇭🇰 香港3|@ripaojiedian
-  password: PJ3O8HS49CM9VVGN
-  port: 15004
-  server: 8tv68qhq.slashdevslashnetslashtun.net
+  port: 59149
+  server: 43.247.134.201
+  skip-cert-verify: false
   tfo: false
-  type: ss
-- cipher: aes-256-gcm
+  tls: false
+  type: vmess
+  uuid: efbdabeb-68df-4cd0-959d-7d4f4b508609
+- alterId: 64
+  cipher: auto
+  name: 13|🇭🇰 香港4|@ripaojiedian
+  port: 46621
+  server: 183.236.51.37
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
   name: 13|🇹🇼 台湾|@ripaojiedian
-  password: dwz1GtF7
-  port: 30015
-  server: 120.233.128.98
+  port: 19490
+  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: fc7b534b-9188-4d81-b804-55b4eb91cd6e
 - cipher: rc4-md5
   name: 13|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506261935105-0ppQRz8sLh.download.microsoft.com
+    host: 202506261935105-8wt2dE37PQ.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 13|🇯🇵 日本3|@ripaojiedian
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 9898
-  server: 54.178.162.204
+  name: 13|🇯🇵 日本2|@ripaojiedian
+  password: ac9df7aab595
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jp5v1.8vote.cn
+    mode: websocket
+    mux: true
+    path: /jlyoefhqt
+    skip-cert-verify: false
+    tls: true
+  port: 36937
+  server: 137.220.142.140
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 13|🇯🇵 日本2|@ripaojiedian
-  password: 08f0c77ed619
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: xwkr1v1.dsjsapi.net
-    mode: websocket
-    mux: true
-    path: /yjriebtdvghs
-    skip-cert-verify: false
-    tls: true
-  port: 636
-  server: 43.226.17.54
+  name: 13|🇯🇵 日本3|@ripaojiedian
+  password: QZVFNGZY8253LZYP
+  port: 18008
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: 13|🇯🇵 日本4|@ripaojiedian
+  password: MNOORIVKRQF4KGJP
+  port: 18009
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: 13|🇯🇵 日本5|@ripaojiedian
+  password: WHTSN6UOO84T3RVI
+  port: 18013
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - name: 13,14|韩国|@ripaojiedian
@@ -1942,16 +1972,16 @@ proxies:
     path: /oooo
 - cipher: aes-256-gcm
   name: 13|🇸🇬 新加坡|@ripaojiedian
-  password: 983UF5QK58NAQNHZ
-  port: 16011
+  password: 04D2BH6DL7ZKTXXT
+  port: 16013
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   name: 13|🇸🇬 新加坡2|@ripaojiedian
-  password: RJ7MXLK2KHIN2B4U
-  port: 16009
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  password: LRSYNWEIHPN4BAVH
+  port: 16014
+  server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -1959,17 +1989,10 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506261935105-0ppQRz8sLh.download.microsoft.com
+    host: 202506261935105-8wt2dE37PQ.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 13|🇻🇳 越南|@ripaojiedian
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.163.218.2
   tfo: false
   type: ss
 - alterId: 2
@@ -1988,6 +2011,33 @@ proxies:
     headers:
       Host: v24.heduian.link
     path: /oooo
+- cipher: aes-256-cfb
+  name: 13|🇻🇳 越南|@ripaojiedian
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.163.218.2
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|香港3|@ripaojiedian
+  network: tcp
+  port: '59149'
+  server: 43.247.134.201
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: efbdabeb-68df-4cd0-959d-7d4f4b508609
+- alterId: 64
+  cipher: auto
+  name: 14|香港4|@ripaojiedian
+  network: tcp
+  port: '46621'
+  server: 183.236.51.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 14|香港v2|@ripaojiedian
@@ -2000,6 +2050,16 @@ proxies:
   uuid: dd0d30ae-a4d1-4d1e-8553-42bfff66fd27
 - alterId: 0
   cipher: auto
+  name: 14|台湾|@ripaojiedian
+  network: tcp
+  port: '19490'
+  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fc7b534b-9188-4d81-b804-55b4eb91cd6e
+- alterId: 0
+  cipher: auto
   name: 14|台湾v2|@ripaojiedian
   network: kcp
   port: '5663'
@@ -2008,16 +2068,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 986b3bc8-d0fb-4b60-b01f-28164e44cd48
-- alterId: 0
-  cipher: auto
-  name: 14|日本v2|@ripaojiedian
-  network: kcp
-  port: '47628'
-  server: 47.74.43.182
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8d05bf8-bc4d-4599-9a3a-8dce9c223815
 - name: 15|AE_speednode_0001
   network: ws
   port: 8880
@@ -5382,445 +5432,450 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 3|🇫🇷2 |  2.2MB/s|25%|Youtube|Ope...
-  - 15|US_speednode_0225
-  - '12|Channel id: @ShadowProxy66🇺🇸 #4'
-  - 15|NL_speednode_0107
-  - 3|🇺🇸92 |  3.4MB/s|46%|Openai
-  - 15|FR_speednode_0057
-  - 15|US_speednode_0214
-  - 15|US_speednode_0233
-  - 3|🇩🇪3 |  2.6MB/s|20%|Openai
-  - 11|IRAN 9 (@Outline_Vpn)
-  - 3|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-  - 15|FI_speednode_0055
-  - 15|JP_speednode_0089
-  - 3|🇺🇸85 |  1.9MB/s|14%|Openai
-  - 15|GB_speednode_0068
-  - 15|US_speednode_0208
-  - 3|🇺🇸86 |  3.0MB/s|46%|Openai
-  - 3|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
-  - 15|CA_speednode_0012
-  - 15|KZ_speednode_0092
-  - 15|US_speednode_0206
-  - 3|🇺🇸80 |  2.9MB/s|46%|Openai
-  - 11|@Selinc
-  - 15|DE_speednode_0046
-  - 15|CY_speednode_0034
-  - 15|NL_speednode_0115
-  - 3|🌀5-LI |  2.0MB/s|0%|Openai
-  - 15|RU_speednode_0148
-  - 3|🇮🇳1 |  1.7MB/s|61%|Disney|Open...
-  - 15|RU_speednode_0139
-  - 3|🇺🇸56 |  1.5MB/s|30%|Openai
-  - 3|🇺🇸120 |  1.4MB/s
-  - 3|🇺🇸76 |  1.0MB/s|46%|Openai
-  - 3|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
-  - 3|🇺🇸113 |  2.0MB/s|14%|Openai
-  - 3|🇰🇷2 |  1.5MB/s|44%|Openai
-  - 15|RU_speednode_0138
-  - 15|US_speednode_0236
-  - 15|NL_speednode_0106
-  - 15|GB_speednode_0078
-  - 15|GB_speednode_0070
-  - 3|🇺🇸99 |  4.8MB/s|0%|Openai|Gemi...
-  - 15|RU_speednode_0127
-  - 3|🌀2-TR |  1.2MB/s|0%|Netflix|Di...
-  - 15|LU_speednode_0104
-  - 15|CR_speednode_0032
-  - 15|KZ_speednode_0094
-  - 15|RU_speednode_0141
-  - 15|US_speednode_0193
-  - 15|SC_speednode_0151
-  - '12|Channel id: @ShadowProxy66🇺🇸'
-  - 15|IR_speednode_0087
-  - 3|🇺🇸101 |  1.6MB/s|14%|Openai
-  - 15|US_speednode_0202
-  - 15|US_speednode_0224
-  - 15|AU_speednode_0007
-  - 15|US_speednode_0232
-  - 15|IR_speednode_0084
-  - 3|🇺🇸128 |  1.7MB/s|14%|Openai
-  - 3|🇺🇸70 |  1.7MB/s|Openai
-  - 15|CH_speednode_0016
-  - 15|LT_speednode_0101
-  - 15|RU_speednode_0133
-  - 3|🇺🇸18 |  2.8MB/s|0%|Netflix|Ope...
-  - 3|🇺🇸50 |  1.3MB/s|20%|Disney|Ope...
-  - 15|RU_speednode_0142
-  - 15|NL_speednode_0111
-  - 15|US_speednode_0197
-  - 13|🇭🇰 香港3|@ripaojiedian
-  - 15|US_speednode_0217
-  - 3|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-  - 3|🇺🇸75 |  2.0MB/s|14%|Openai
-  - 3|🇺🇸22 |  1.7MB/s|30%|Openai
-  - 15|RU_speednode_0145
-  - 15|GB_speednode_0061
-  - 3|🇺🇸15 |  2.5MB/s|30%|Openai
-  - 3|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
-  - 15|US_speednode_0180
-  - 15|US_speednode_0248
-  - 3|🇺🇸87 |  3.5MB/s|46%|Openai
-  - 15|US_speednode_0194
-  - 15|US_speednode_0176
-  - 15|US_speednode_0221
-  - 15|RU_speednode_0146
-  - 15|NL_speednode_0116
-  - 15|KZ_speednode_0093
-  - 15|RU_speednode_0125
-  - 15|RU_speednode_0131
-  - 3|🇺🇸73 |  1.9MB/s|50%|Openai|Gem...
-  - '12|Channel id: @ShadowProxy66🇺🇸 #3'
-  - 3|🇺🇸61 |  1.0MB/s|Disney
-  - 3|🇺🇸31 |  2.3MB/s|14%|Openai
-  - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-  - 3|🇺🇸14 |  1.7MB/s|30%|Openai
-  - 3|🇺🇸102 |  1.1MB/s|14%|Openai
-  - 3|🇺🇸107 |  1.8MB/s|14%|Openai
-  - 15|ES_speednode_0053
-  - 15|US_speednode_0228
-  - '12|Channel id: @ShadowProxy66🇺🇸 #5'
-  - 15|US_speednode_0222
-  - 15|US_speednode_0212
-  - 15|NL_speednode_0114
-  - 3|🇺🇸12 |  2.2MB/s|30%|Openai
-  - 3|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
-  - 3|🇺🇸84 |  4.0MB/s|30%|Openai
-  - 3|🇺🇸106 |  1.8MB/s|14%|Openai
-  - 15|US_speednode_0229
-  - 3|🇺🇸118 |  1.9MB/s|50%|Openai
-  - 15|AE_speednode_0001
-  - 3|🇺🇸78 |  4.2MB/s|0%|Openai|Gemi...
-  - '12|Channel id: @ShadowProxy66🇺🇸 #1'
-  - 3|🇺🇸91 |  4.3MB/s|46%|Openai
-  - 3|🇺🇸40 |  3.3MB/s|14%|Openai
-  - 15|US_speednode_0165
-  - 15|BR_speednode_0010
-  - 3|🇩🇪1 |  1.5MB/s|0%|Openai
-  - 15|RU_speednode_0144
-  - 3|🇺🇸104 |  2.1MB/s
-  - 15|SG_speednode_0153
-  - 3|🇫🇷5 |  3.1MB/s|36%|Openai
-  - 11|@meli_proxyy
-  - 15|NZ_speednode_0122
-  - 13|🇹🇼 台湾|@ripaojiedian
-  - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-  - 3|🇺🇸77 |  3.1MB/s|14%|Openai
-  - 15|AT_speednode_0006
-  - 14|日本v2|@ripaojiedian
-  - 3|🇺🇸30 |  3.5MB/s|0%|Openai|Gemi...
-  - 3|🇺🇸116 |  1.2MB/s
-  - 15|GB_speednode_0069
-  - 15|SI_speednode_0157
-  - 3|🇺🇸66 |  3.7MB/s|46%|Openai
-  - 3|🇦🇪1 |  1.2MB/s|0%|Disney|Opena...
-  - 15|US_speednode_0181
-  - 15|SG_speednode_0155
-  - 15|NL_speednode_0118
-  - 15|US_speednode_0168
-  - 15|US_speednode_0163
-  - 15|GB_speednode_0065
-  - 3|🇮🇷1 |  1.3MB/s|0%|Openai
-  - 15|ZA_speednode_0256
-  - 3|🇩🇪6 |  4.3MB/s|0%|Disney|Opena...
-  - 3|🇺🇸111 |  1.0MB/s|61%|Disney
-  - 15|US_speednode_0220
-  - 3|🇺🇸7 |  1.2MB/s|46%|Openai
-  - 15|NL_speednode_0105
-  - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
-  - 3|🇫🇷7 |  3.3MB/s|36%|Openai
-  - 15|NL_speednode_0108
-  - 15|US_speednode_0219
-  - 3|🇺🇸9 |  4.6MB/s|Disney|Openai
-  - 15|NL_speednode_0110
-  - 15|US_speednode_0240
-  - 15|CA_speednode_0013
-  - 3|🇺🇸100 |  1.3MB/s
-  - 15|RU_speednode_0137
-  - 15|US_speednode_0192
-  - '12|Channel id: @ShadowProxy66🇷🇺'
-  - 15|CA_speednode_0015
-  - 3|🇺🇸20 |  3.0MB/s|30%|Openai
-  - 15|LB_speednode_0096
-  - 15|US_speednode_0237
-  - 3|🇺🇸1 |  4.4MB/s|30%|Openai
-  - 13,14|韩国|@ripaojiedian
   - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-  - 15|US_speednode_0238
-  - 15|LT_speednode_0098
-  - 3|🇺🇸123 |  1.3MB/s|61%|Disney|Op...
-  - 15|CZ_speednode_0038
-  - 15|CR_speednode_0031
-  - 15|DE_speednode_0045
-  - 15|ES_speednode_0051
-  - 15|US_speednode_0211
-  - 15|LT_speednode_0097
-  - 15|US_speednode_0247
-  - '12|Channel id: @ShadowProxy66🇸🇬'
-  - 15|RU_speednode_0136
-  - 15|US_speednode_0191
-  - 15|SG_speednode_0154
-  - 15|US_speednode_0205
-  - 3|🇺🇸34 |  2.8MB/s|14%|Openai
-  - 3|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
-  - 15|ZA_speednode_0258
-  - 3|🇺🇸38 |  1.3MB/s|46%|Openai
-  - 3|🇺🇸117 |  2.6MB/s|0%|Openai|Gem...
-  - 15|US_speednode_0177
-  - 15|US_speednode_0175
-  - 15|DE_speednode_0043
-  - 3|🇺🇸52 |  4.8MB/s|33%|Disney|Ope...
-  - 14|香港v2|@ripaojiedian
-  - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-  - 15|US_speednode_0231
-  - 3|🇸🇬2 |  2.8MB/s|61%|Youtube|Ope...
-  - 3|🇺🇸21 |  2.2MB/s|30%|Openai
-  - 15|LT_speednode_0102
-  - 3|🇺🇸10 |  2.0MB/s|0%|Netflix|Dis...
-  - 15|RU_speednode_0147
-  - 3|🇺🇸74 |  2.6MB/s|14%|Openai
-  - 15|US_speednode_0230
-  - 3|🇺🇸103 |  3.2MB/s
-  - 3|🇺🇸25 |  4.3MB/s|30%|Openai
-  - '3,12|Channel id: @ShadowProxy66🇺🇸 #2'
-  - 3|🇺🇸51 |  3.5MB/s|30%|Openai
-  - 15|NN_speednode_0121
-  - 15|NL_speednode_0117
-  - 13|🇯🇵 日本3|@ripaojiedian
-  - 3|🇺🇸33 |  2.8MB/s|30%|Openai
-  - 15|NL_speednode_0113
-  - 13,14|美国3|@ripaojiedian
-  - 15|US_speednode_0250
-  - 3|🇺🇸98 |  1.3MB/s
-  - 3|🇺🇸26 |  1.3MB/s|30%|Openai
-  - 15|RU_speednode_0130
-  - '12|⚡️ @vpnserverrr (Hysteria) #2'
-  - 15|ES_speednode_0050
-  - 15|GB_speednode_0080
-  - 3|🇩🇪4 |  2.8MB/s|13%|Netflix|You...
-  - 15|RU_speednode_0134
-  - 15|ES_speednode_0054
-  - 15|GB_speednode_0076
-  - 15|GB_speednode_0063
-  - 15|SI_speednode_0161
-  - 3|🇺🇸8 |  1.2MB/s|14%|Openai
-  - 3|🇺🇸112 |  2.7MB/s|14%|Openai
-  - 15|US_speednode_0215
+  - 15|US_speednode_0176
+  - 3|🇺🇸66 |  3.7MB/s|46%|Openai
+  - 3|🇺🇸6 |  1.3MB/s|46%|Openai
+  - 3|🇩🇪3 |  2.6MB/s|20%|Openai
   - 15|DE_speednode_0041
-  - 15|CA_speednode_0014
+  - 15|GB_speednode_0079
+  - 3|🇩🇪1 |  1.5MB/s|0%|Openai
+  - 3|🇺🇸119 |  1.2MB/s
+  - 15|CZ_speednode_0037
+  - 15|GB_speednode_0063
+  - 15|US_speednode_0187
+  - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  - 3|🇺🇸29 |  2.9MB/s|30%|Openai
+  - 15|DE_speednode_0046
+  - 3|🇺🇸25 |  4.3MB/s|30%|Openai
+  - 3|🇺🇸115 |  2.8MB/s|46%|Openai
+  - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+  - 15|DE_speednode_0044
+  - 15|NL_speednode_0105
+  - 15|US_speednode_0235
+  - 3|🇺🇸99 |  4.8MB/s|0%|Openai|Gemi...
+  - 14|香港3|@ripaojiedian
+  - 15|US_speednode_0199
+  - 3|🇺🇸46 |  2.3MB/s|62%|Netflix|Di...
+  - 3|🇺🇸70 |  1.7MB/s|Openai
+  - 15|US_speednode_0222
+  - 3|🇺🇸105 |  2.9MB/s
+  - 3|🇺🇸117 |  2.6MB/s|0%|Openai|Gem...
+  - 3|🇺🇸51 |  3.5MB/s|30%|Openai
+  - 3|🇺🇸18 |  2.8MB/s|0%|Netflix|Ope...
   - 15|US_speednode_0251
-  - 15|LT_speednode_0100
-  - 13|tg频道:@ripaojiedian
-  - 3|🇷🇺1 |  2.5MB/s|50%
+  - 3|🇺🇸5 |  2.0MB/s|46%|Openai
+  - 3|🇺🇸27 |  1.1MB/s|30%|Openai
+  - 3|🇺🇸10 |  2.0MB/s|0%|Netflix|Dis...
+  - 15|KZ_speednode_0094
+  - 15|US_speednode_0241
+  - 3|🇺🇸86 |  3.0MB/s|46%|Openai
+  - 15|ZA_speednode_0256
+  - 15|SC_speednode_0150
+  - 3|🇺🇸81 |  4.1MB/s|46%|Openai
+  - 3|🇮🇷1 |  1.3MB/s|0%|Openai
+  - 15|US_speednode_0184
+  - 3|🇺🇸130 |  1.5MB/s|46%|Openai
+  - 3|🇺🇸23 |  2.0MB/s|30%|Openai
   - 3|🇺🇸110 |  3.1MB/s|46%|Openai
   - 13,14|美国|@ripaojiedian
-  - 15|FR_speednode_0056
-  - 13|🇯🇵 日本|@ripaojiedian
-  - 3|🇺🇸29 |  2.9MB/s|30%|Openai
-  - 15|US_speednode_0187
-  - 15|NN_speednode_0119
-  - 3|🇺🇸27 |  1.1MB/s|30%|Openai
-  - 15|CR_speednode_0030
-  - 15|AU_speednode_0008
-  - 15|DE_speednode_0044
-  - 3|🇫🇷4 |  1.8MB/s|36%|Openai
-  - 3|🇺🇸121 |  1.2MB/s
-  - 3|🇫🇷3 |  4.1MB/s|36%|Openai
-  - 3|🇺🇸125 |  1.5MB/s|14%|Openai
-  - 3|🇳🇱1 |  1.1MB/s|59%|Youtube|Ope...
-  - 15|US_speednode_0188
-  - 3|🇺🇸13 |  3.1MB/s|30%|Openai
-  - 3|🇺🇸96 |  2.4MB/s
-  - 15|RU_speednode_0143
-  - 3|🇰🇷3 |  1.3MB/s|61%|Disney|Open...
-  - 15|US_speednode_0243
-  - 3|🇺🇸89 |  2.7MB/s|14%|Openai
-  - 15|US_speednode_0173
-  - 15|CR_speednode_0029
-  - 15|US_speednode_0198
-  - 3|🇺🇸122 |  1.4MB/s
-  - 3|🇺🇸4 |  2.4MB/s|46%|Openai
-  - 15|US_speednode_0164
-  - 15|US_speednode_0196
-  - 15|KZ_speednode_0091
-  - '12|Channel id: @ShadowProxy66🇺🇸 #6'
-  - 3|🇺🇸83 |  2.0MB/s|46%|Openai
-  - 15|DE_speednode_0042
-  - 3|🇺🇸72 |  2.2MB/s|14%|Openai
-  - 15|US_speednode_0200
-  - 15|GB_speednode_0064
-  - 3|🇺🇸32 |  1.7MB/s|14%|Openai
-  - 15|DE_speednode_0048
-  - 15|NL_speednode_0112
-  - 3|🌀1-MD |  1.8MB/s|44%|Youtube|O...
-  - 3|🇺🇸95 |  3.1MB/s|46%|Openai
-  - 15|AM_speednode_0004
-  - 3|🇺🇸24 |  1.4MB/s|30%|Openai
-  - 14|台湾v2|@ripaojiedian
-  - 15|US_speednode_0239
-  - 15|EE_speednode_0049
-  - '12|Channel id: @ShadowProxy66🇫🇷'
-  - 15|SI_speednode_0156
-  - 15|US_speednode_0253
-  - 15|HK_speednode_0081
-  - 15|CY_speednode_0033
-  - 15|RU_speednode_0140
-  - 3|🇺🇸97 |  2.2MB/s|14%|Openai
-  - 15|CZ_speednode_0037
-  - 15|AM_speednode_0003
-  - 15|US_speednode_0209
-  - 15|US_speednode_0174
-  - 15|GB_speednode_0062
-  - 15|GB_speednode_0075
-  - 15|JO_speednode_0088
-  - 3|🇺🇸109 |  3.2MB/s
-  - 12|⚡️ @vpnserverrr (Hysteria)
-  - 15|US_speednode_0185
-  - 3|🇺🇸37 |  1.6MB/s|46%|Openai
-  - 15|IR_speednode_0085
-  - 15|US_speednode_0167
-  - 15|SI_speednode_0159
-  - 15|LU_speednode_0103
-  - 3|🇺🇸71 |  1.0MB/s|0%|Openai|Gemi...
-  - 3|🇺🇸39 |  1.0MB/s|14%|Openai
-  - 3|🇺🇸93 |  1.8MB/s|14%|Openai
-  - 15|US_speednode_0245
-  - 11|IRAN 4 (@Outline_Vpn)
-  - 15|US_speednode_0213
-  - '12|⚡️ @vpnserverrr (Hysteria) #1'
-  - 15|US_speednode_0249
-  - 3|🇺🇸127 |  3.1MB/s|14%|Openai
-  - 3|🇺🇸105 |  2.9MB/s
-  - 15|US_speednode_0189
-  - 3|🇫🇷1 |  3.4MB/s|15%|Openai
-  - 15|US_speednode_0179
-  - 15|RU_speednode_0126
-  - 15|BG_speednode_0009
-  - 13|🇯🇵 日本2|@ripaojiedian
-  - 15|BR_speednode_0011
-  - 3|🌀6-CY |  4.9MB/s|44%|Openai
-  - 3|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-  - 3|🇺🇸19 |  1.5MB/s|30%|Openai
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 15|US_speednode_0172
-  - 15|GB_speednode_0067
-  - 3|🇺🇸82 |  1.3MB/s
-  - 15|US_speednode_0210
-  - 15|US_speednode_0195
-  - 15|RU_speednode_0124
-  - 3|🇺🇸36 |  3.0MB/s|14%|Openai
-  - '12|Channel id: @ShadowProxy66🇨🇦'
-  - 15|ES_speednode_0052
-  - 3|🇺🇸46 |  2.3MB/s|62%|Netflix|Di...
-  - 3|🇸🇬3 |  1.2MB/s|30%|Disney|Open...
-  - 15|FR_speednode_0059
-  - 15|ZA_speednode_0259
-  - 3|🇺🇸41 |  4.7MB/s|48%|Openai
-  - 15|NL_speednode_0109
-  - 15|RU_speednode_0129
-  - 3|🇺🇸57 |  4.1MB/s|30%|Openai
-  - 15|US_speednode_0184
-  - 15|US_speednode_0223
-  - 15|US_speednode_0169
-  - 15|US_speednode_0170
-  - 3|🇺🇸6 |  1.3MB/s|46%|Openai
-  - 3|🇺🇸5 |  2.0MB/s|46%|Openai
-  - 15|LB_speednode_0095
-  - 15|US_speednode_0190
-  - 15|NN_speednode_0120
-  - 15|US_speednode_0178
-  - 15|US_speednode_0166
-  - 15|US_speednode_0241
-  - 3|🇺🇸67 |  2.6MB/s|46%|Openai
-  - 3|🇺🇸16 |  4.2MB/s|Openai
-  - 3|🇺🇸114 |  2.7MB/s|46%|Openai
-  - 3|🇺🇸81 |  4.1MB/s|46%|Openai
-  - 15|UA_speednode_0162
-  - 3|🇺🇸58 |  4.2MB/s|30%|Openai
-  - 3|🇺🇸126 |  2.0MB/s|14%|Openai
-  - 3|🇺🇸53 |  1.9MB/s|61%|Disney
-  - 3|🇺🇸94 |  1.2MB/s|14%|Openai
-  - '12|Channel id: @ShadowProxy66🇬🇧'
-  - 15|US_speednode_0218
-  - 3|🇺🇸124 |  1.2MB/s|46%|Openai
-  - 15|US_speednode_0244
-  - 3|🇫🇷6 |  1.5MB/s|36%|Openai
-  - 15|AT_speednode_0005
-  - 15|GB_speednode_0072
-  - 15|SI_speednode_0158
-  - 15|US_speednode_0207
-  - 15|SA_speednode_0149
-  - 15|SC_speednode_0150
-  - 15|US_speednode_0227
-  - 13|🇻🇳 越南|@ripaojiedian
-  - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-  - 15|ZA_speednode_0257
-  - 13,14|香港|@ripaojiedian
+  - 14|台湾|@ripaojiedian
   - 15|US_speednode_0171
-  - 3|🇺🇸44 |  2.4MB/s|46%|Openai
-  - 15|GB_speednode_0074
-  - 3|🇺🇸47 |  1.0MB/s|0%|Disney|Open...
-  - 15|US_speednode_0226
-  - 3|🇺🇸28 |  1.3MB/s|30%|Openai
-  - 15|CZ_speednode_0036
-  - 3|🇺🇸23 |  2.0MB/s|30%|Openai
-  - 15|RU_speednode_0135
-  - 3|🇺🇸79 |  1.7MB/s|30%|Openai
-  - 15|VN_speednode_0254
-  - 3|🇺🇸129 |  2.7MB/s|14%|Openai
-  - 15|US_speednode_0199
-  - 11,12|@drakvpn🐉
-  - 3|🇺🇸90 |  2.3MB/s|46%|Openai
-  - 3|🇺🇸108 |  1.4MB/s
-  - 15|VN_speednode_0255
-  - 3|🇺🇸115 |  2.8MB/s|46%|Openai
-  - 15|SI_speednode_0160
-  - 13|🇸🇬 新加坡2|@ripaojiedian
+  - 3|🇺🇸20 |  3.0MB/s|30%|Openai
+  - 15|IR_speednode_0084
+  - 15|RU_speednode_0125
+  - 15|US_speednode_0244
+  - 15|CH_speednode_0016
   - 15|CY_speednode_0035
+  - 15|NL_speednode_0118
+  - 15|AU_speednode_0007
+  - 15|ZA_speednode_0258
+  - 13|🇯🇵 日本2|@ripaojiedian
+  - 15|US_speednode_0237
+  - 15|HK_speednode_0081
+  - 15|NL_speednode_0110
+  - 3|🇺🇸58 |  4.2MB/s|30%|Openai
+  - 15|NL_speednode_0112
+  - 15|US_speednode_0217
+  - 15|US_speednode_0220
+  - 15|US_speednode_0169
+  - 15|LT_speednode_0102
+  - 15|US_speednode_0230
   - 15|US_speednode_0242
-  - 15|US_speednode_0216
-  - 15|IR_speednode_0083
-  - 15|SG_speednode_0152
-  - 15|GB_speednode_0066
-  - 15|AE_speednode_0002
-  - 15|DE_speednode_0047
-  - 15|GB_speednode_0077
-  - 15|US_speednode_0183
-  - 3|🇺🇸130 |  1.5MB/s|46%|Openai
-  - 15|GB_speednode_0071
-  - 15|IR_speednode_0086
-  - 3|🇩🇪2 |  1.3MB/s|0%|Openai
-  - 3|🇺🇸3 |  1.3MB/s|46%|Openai
-  - 3|🇺🇸35 |  3.0MB/s|0%|Openai|Gemi...
-  - 3|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-  - 3|🇺🇦1 |  3.3MB/s|0%|Openai
-  - 3|🇺🇸119 |  1.2MB/s
-  - 15|RU_speednode_0128
-  - 15|US_speednode_0235
-  - 3|🇺🇸60 |  2.7MB/s|14%|Openai
-  - 15|LT_speednode_0099
-  - 13|🇺🇸 美国2|@ripaojiedian
-  - 15|CZ_speednode_0039
-  - 3|🇺🇸49 |  4.0MB/s|30%|Openai
-  - 3|🇺🇸2 |  4.4MB/s|30%|Openai
-  - 3|🇺🇸55 |  3.5MB/s|30%|Openai
-  - 15|US_speednode_0246
-  - 3|🇺🇸59 |  4.7MB/s|30%|Openai
-  - 15|US_speednode_0186
-  - 15|US_speednode_0252
-  - 3|🇺🇸11 |  1.4MB/s|30%|Openai
-  - 3|🇺🇸88 |  1.1MB/s
-  - 15|DE_speednode_0040
-  - 13|🇸🇬 新加坡|@ripaojiedian
-  - 15|RU_speednode_0132
+  - 15|AE_speednode_0001
+  - 3|🇺🇸16 |  4.2MB/s|Openai
+  - 3|🇺🇸1 |  4.4MB/s|30%|Openai
+  - 3|🇰🇷2 |  1.5MB/s|44%|Openai
+  - 15|RU_speednode_0136
+  - 3|🇺🇸72 |  2.2MB/s|14%|Openai
+  - 15|AU_speednode_0008
+  - 15|RU_speednode_0129
   - 3|🇺🇸54 |  4.6MB/s|30%|Openai
-  - 3|🇺🇸48 |  1.4MB/s|0%|Disney|Open...
-  - 15|GB_speednode_0073
+  - '12|Channel id: @ShadowProxy66🇺🇸 #6'
+  - 3|🇺🇸55 |  3.5MB/s|30%|Openai
+  - 15|AT_speednode_0006
+  - 15|US_speednode_0218
+  - 3|🇺🇸104 |  2.1MB/s
+  - 3|🇺🇸2 |  4.4MB/s|30%|Openai
+  - 3|🇺🇸40 |  3.3MB/s|14%|Openai
+  - 15|DE_speednode_0042
+  - 15|US_speednode_0209
+  - 15|NL_speednode_0114
+  - 15|US_speednode_0249
+  - 15|US_speednode_0219
+  - 3|🇺🇸101 |  1.6MB/s|14%|Openai
+  - 3|🇺🇸92 |  3.4MB/s|46%|Openai
+  - 15|US_speednode_0213
+  - 15|VN_speednode_0254
+  - 3|🇺🇸84 |  4.0MB/s|30%|Openai
+  - 15|US_speednode_0214
+  - 15|CY_speednode_0033
+  - 15|US_speednode_0207
+  - 15|US_speednode_0253
+  - 15|VN_speednode_0255
+  - 15|CZ_speednode_0038
+  - 3|🇺🇸80 |  2.9MB/s|46%|Openai
+  - 3|🇺🇸39 |  1.0MB/s|14%|Openai
+  - 15|EE_speednode_0049
+  - 3|🇺🇸47 |  1.0MB/s|0%|Disney|Open...
+  - 15|UA_speednode_0162
+  - 3|🇺🇸14 |  1.7MB/s|30%|Openai
+  - 15|US_speednode_0221
+  - 15|RU_speednode_0130
+  - 3|🇺🇸90 |  2.3MB/s|46%|Openai
+  - 15|US_speednode_0243
+  - 3|🇺🇸76 |  1.0MB/s|46%|Openai
+  - 15|US_speednode_0168
+  - 15|ES_speednode_0052
+  - 15|LU_speednode_0103
+  - 15|NL_speednode_0108
+  - 3|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
   - 15|US_speednode_0182
+  - 15|LT_speednode_0099
+  - 13|🇸🇬 新加坡|@ripaojiedian
+  - 15|NN_speednode_0121
+  - 15|CR_speednode_0030
+  - 15|US_speednode_0238
+  - 13|🇹🇼 台湾|@ripaojiedian
+  - 3|🇺🇸7 |  1.2MB/s|46%|Openai
+  - 15|AM_speednode_0004
+  - 15|GB_speednode_0071
+  - 3|🇺🇸111 |  1.0MB/s|61%|Disney
+  - 3|🇺🇸30 |  3.5MB/s|0%|Openai|Gemi...
+  - 13|🇭🇰 香港3|@ripaojiedian
+  - 15|US_speednode_0173
+  - 15|CZ_speednode_0036
+  - 15|US_speednode_0165
+  - 15|FI_speednode_0055
+  - 15|GB_speednode_0072
+  - 3|🇳🇱1 |  1.1MB/s|59%|Youtube|Ope...
+  - 3|🇺🇸56 |  1.5MB/s|30%|Openai
+  - 15|SG_speednode_0152
+  - 15|BG_speednode_0009
+  - 12|⚡️ @vpnserverrr (Hysteria)
+  - 3|🇺🇸88 |  1.1MB/s
+  - 3|🇺🇸109 |  3.2MB/s
+  - 15|GB_speednode_0073
+  - 3|🇺🇸113 |  2.0MB/s|14%|Openai
+  - 15|CR_speednode_0032
+  - 15|LB_speednode_0096
+  - 15|US_speednode_0172
+  - '12|Channel id: @ShadowProxy66🇫🇷'
+  - 15|CR_speednode_0029
+  - 13|🇯🇵 日本3|@ripaojiedian
+  - 3|🇺🇸19 |  1.5MB/s|30%|Openai
+  - 15|NL_speednode_0109
+  - 15|RU_speednode_0128
+  - 15|US_speednode_0208
+  - 15|US_speednode_0195
+  - 3|🇺🇸129 |  2.7MB/s|14%|Openai
+  - 3|🇦🇪1 |  1.2MB/s|0%|Disney|Opena...
+  - 15|NL_speednode_0116
+  - 13|🇺🇸 美国2|@ripaojiedian
+  - 3|🇩🇪6 |  4.3MB/s|0%|Disney|Opena...
+  - 15|US_speednode_0185
+  - 15|CY_speednode_0034
+  - 3|🇸🇬2 |  2.8MB/s|61%|Youtube|Ope...
+  - 3|🇺🇸26 |  1.3MB/s|30%|Openai
+  - 15|RU_speednode_0140
+  - 3|🇺🇸71 |  1.0MB/s|0%|Openai|Gemi...
+  - 3|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
+  - 15|RU_speednode_0137
+  - 15|FR_speednode_0057
+  - 3|🇺🇸91 |  4.3MB/s|46%|Openai
+  - 15|NL_speednode_0107
+  - 3|🇺🇸32 |  1.7MB/s|14%|Openai
+  - 3|🇺🇸77 |  3.1MB/s|14%|Openai
+  - 3|🇺🇸31 |  2.3MB/s|14%|Openai
+  - 15|US_speednode_0245
+  - 3|🇺🇸121 |  1.2MB/s
+  - 3|🇺🇸9 |  4.6MB/s|Disney|Openai
+  - 15|ZA_speednode_0257
+  - 15|IR_speednode_0087
+  - 15|RU_speednode_0141
+  - '12|Channel id: @ShadowProxy66🇨🇦'
+  - 15|DE_speednode_0047
+  - 15|SG_speednode_0154
+  - 3|🌀2-TR |  1.2MB/s|0%|Netflix|Di...
+  - 15|CA_speednode_0015
+  - 14|香港v2|@ripaojiedian
+  - 3|🇫🇷4 |  1.8MB/s|36%|Openai
+  - '12|Channel id: @ShadowProxy66🇸🇬'
+  - 15|JO_speednode_0088
+  - 3|🇺🇸36 |  3.0MB/s|14%|Openai
+  - 3|🇺🇸126 |  2.0MB/s|14%|Openai
+  - 15|SI_speednode_0156
+  - 15|US_speednode_0233
+  - 15|CZ_speednode_0039
+  - 15|US_speednode_0179
+  - 15|LT_speednode_0100
+  - 15|SG_speednode_0153
+  - 15|GB_speednode_0064
+  - 15|US_speednode_0232
+  - 3|🇺🇸61 |  1.0MB/s|Disney
+  - 13,14|美国3|@ripaojiedian
+  - 15|RU_speednode_0142
+  - 13,14|韩国|@ripaojiedian
+  - 15|RU_speednode_0133
+  - 15|GB_speednode_0077
+  - 3|🇺🇸106 |  1.8MB/s|14%|Openai
+  - 15|GB_speednode_0078
+  - 15|US_speednode_0236
+  - 3|🇮🇳1 |  1.7MB/s|61%|Disney|Open...
+  - 13|tg频道:@ripaojiedian
+  - 3|🇫🇷3 |  4.1MB/s|36%|Openai
+  - 15|ES_speednode_0053
+  - 3|🇺🇸33 |  2.8MB/s|30%|Openai
+  - 3|🇺🇸8 |  1.2MB/s|14%|Openai
+  - 15|US_speednode_0223
+  - '3,12|Channel id: @ShadowProxy66🇺🇸 #2'
+  - 11|@Selinc
+  - 3|🇺🇸11 |  1.4MB/s|30%|Openai
+  - 15|GB_speednode_0065
+  - 15|US_speednode_0212
+  - 3|🇺🇸50 |  1.3MB/s|20%|Disney|Ope...
+  - 3|🇺🇸89 |  2.7MB/s|14%|Openai
+  - 15|US_speednode_0239
+  - 15|LT_speednode_0097
+  - 3|🇺🇸79 |  1.7MB/s|30%|Openai
+  - 15|BR_speednode_0011
   - 3|🇺🇸65 |  4.4MB/s|0%|Openai|Gemi...
+  - 15|RU_speednode_0132
+  - 3|🇺🇸21 |  2.2MB/s|30%|Openai
+  - 3|🇺🇸12 |  2.2MB/s|30%|Openai
+  - 15|CA_speednode_0012
+  - '12|Channel id: @ShadowProxy66🇺🇸'
+  - 15|NL_speednode_0111
+  - 15|NL_speednode_0115
+  - 13|🇻🇳 越南|@ripaojiedian
+  - 15|DE_speednode_0040
+  - 15|RU_speednode_0146
+  - 3|🇺🇸123 |  1.3MB/s|61%|Disney|Op...
+  - 15|US_speednode_0247
+  - 3|🇺🇸34 |  2.8MB/s|14%|Openai
+  - 3|🇺🇸95 |  3.1MB/s|46%|Openai
+  - 15|SI_speednode_0159
+  - 15|BR_speednode_0010
+  - '12|Channel id: @ShadowProxy66🇷🇺'
+  - 3|🇺🇸82 |  1.3MB/s
+  - 15|RU_speednode_0148
+  - 15|ZA_speednode_0259
+  - 15|IR_speednode_0083
+  - 3|🇺🇸57 |  4.1MB/s|30%|Openai
+  - 15|SC_speednode_0151
+  - 15|US_speednode_0250
+  - 3|🇺🇸100 |  1.3MB/s
+  - 3|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
+  - 15|FR_speednode_0056
+  - 3|🇺🇸83 |  2.0MB/s|46%|Openai
+  - 3|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  - 15|US_speednode_0246
+  - 3|🇺🇸94 |  1.2MB/s|14%|Openai
+  - 15|US_speednode_0166
+  - 15|US_speednode_0248
+  - 3|🇺🇸107 |  1.8MB/s|14%|Openai
+  - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+  - 15|US_speednode_0189
+  - 15|US_speednode_0205
+  - 15|US_speednode_0190
+  - 15|US_speednode_0180
+  - 15|LT_speednode_0101
+  - 15|RU_speednode_0134
+  - 13|🇯🇵 日本4|@ripaojiedian
+  - 15|ES_speednode_0051
+  - 15|FR_speednode_0059
+  - 15|SI_speednode_0157
+  - 15|AE_speednode_0002
+  - 15|LB_speednode_0095
+  - '12|Channel id: @ShadowProxy66🇺🇸 #4'
+  - 15|GB_speednode_0069
+  - 3|🇺🇸59 |  4.7MB/s|30%|Openai
+  - 11|@meli_proxyy
+  - 15|DE_speednode_0048
+  - 15|US_speednode_0193
+  - 3|🇺🇸96 |  2.4MB/s
+  - 15|GB_speednode_0074
+  - 11,12|@drakvpn🐉
+  - 3|🇺🇸124 |  1.2MB/s|46%|Openai
+  - 15|RU_speednode_0144
+  - 3|🇺🇸120 |  1.4MB/s
+  - 3|🇺🇸4 |  2.4MB/s|46%|Openai
+  - 15|IR_speednode_0086
+  - 15|US_speednode_0188
+  - 3|🌀6-CY |  4.9MB/s|44%|Openai
+  - 13|🇯🇵 日本5|@ripaojiedian
+  - 15|GB_speednode_0061
+  - 15|RU_speednode_0127
+  - 15|US_speednode_0200
+  - 3|🇸🇬3 |  1.2MB/s|30%|Disney|Open...
+  - 15|US_speednode_0229
+  - '12|Channel id: @ShadowProxy66🇺🇸 #3'
+  - 3|🇺🇸41 |  4.7MB/s|48%|Openai
+  - 15|US_speednode_0170
+  - 3|🇫🇷5 |  3.1MB/s|36%|Openai
+  - 3|🇺🇸93 |  1.8MB/s|14%|Openai
+  - 15|US_speednode_0226
+  - 15|US_speednode_0196
+  - 3|🇺🇸116 |  1.2MB/s
+  - 15|GB_speednode_0062
+  - 15|GB_speednode_0066
+  - '12|⚡️ @vpnserverrr (Hysteria) #1'
+  - 3|🇺🇸13 |  3.1MB/s|30%|Openai
+  - 15|US_speednode_0211
+  - 14|台湾v2|@ripaojiedian
+  - 15|US_speednode_0163
+  - 15|GB_speednode_0080
+  - 15|NN_speednode_0120
+  - 15|US_speednode_0177
+  - 15|NL_speednode_0113
+  - 15|NN_speednode_0119
+  - 15|RU_speednode_0143
+  - 3|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+  - 15|DE_speednode_0043
+  - 3|🇺🇸78 |  4.2MB/s|0%|Openai|Gemi...
+  - 3|🇺🇸53 |  1.9MB/s|61%|Disney
+  - 11|IRAN 9 (@Outline_Vpn)
+  - 15|US_speednode_0183
+  - 15|US_speednode_0215
+  - 3|🇺🇸60 |  2.7MB/s|14%|Openai
+  - 13|🇯🇵 日本|@ripaojiedian
+  - 3|🇺🇸28 |  1.3MB/s|30%|Openai
+  - 15|US_speednode_0228
+  - 3|🇺🇸102 |  1.1MB/s|14%|Openai
+  - 15|RU_speednode_0135
+  - 15|GB_speednode_0067
+  - 15|US_speednode_0191
+  - 15|RU_speednode_0138
+  - 15|RU_speednode_0124
+  - 3|🇺🇸67 |  2.6MB/s|46%|Openai
+  - 15|US_speednode_0216
+  - 3|🌀1-MD |  1.8MB/s|44%|Youtube|O...
+  - 15|SG_speednode_0155
+  - 3|🇺🇸22 |  1.7MB/s|30%|Openai
+  - 3|🇺🇸98 |  1.3MB/s
+  - 15|ES_speednode_0050
+  - 3|🇺🇸35 |  3.0MB/s|0%|Openai|Gemi...
+  - 3|🇺🇸48 |  1.4MB/s|0%|Disney|Open...
+  - 3|🌀5-LI |  2.0MB/s|0%|Openai
+  - 15|GB_speednode_0070
+  - 3|🇺🇸73 |  1.9MB/s|50%|Openai|Gem...
+  - 3|🇫🇷6 |  1.5MB/s|36%|Openai
+  - 15|US_speednode_0206
+  - 15|RU_speednode_0145
+  - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  - 14|香港4|@ripaojiedian
+  - 15|US_speednode_0202
+  - 3|🇺🇸85 |  1.9MB/s|14%|Openai
+  - 15|AM_speednode_0003
+  - 3|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+  - 3|🇺🇸127 |  3.1MB/s|14%|Openai
+  - 3|🇺🇸112 |  2.7MB/s|14%|Openai
+  - 3|🇺🇸118 |  1.9MB/s|50%|Openai
+  - 15|CA_speednode_0014
+  - 3|🇷🇺1 |  2.5MB/s|50%
+  - 3|🇺🇸128 |  1.7MB/s|14%|Openai
+  - 15|GB_speednode_0076
+  - 15|NL_speednode_0106
+  - 15|US_speednode_0224
+  - 15|DE_speednode_0045
+  - 13,14|香港|@ripaojiedian
+  - 3|🇺🇸103 |  3.2MB/s
+  - 3|🇺🇸97 |  2.2MB/s|14%|Openai
+  - 3|🇺🇸38 |  1.3MB/s|46%|Openai
+  - 15|US_speednode_0227
+  - 15|KZ_speednode_0091
+  - 3|🇩🇪2 |  1.3MB/s|0%|Openai
+  - 3|🇺🇸108 |  1.4MB/s
+  - 3|🇺🇦1 |  3.3MB/s|0%|Openai
+  - 15|US_speednode_0181
+  - 3|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
+  - 15|RU_speednode_0131
   - 3|🇺🇸17 |  2.5MB/s|30%|Openai
-  - 15|GB_speednode_0079
+  - 3|🇺🇸24 |  1.4MB/s|30%|Openai
+  - 3|🇺🇸15 |  2.5MB/s|30%|Openai
+  - 15|US_speednode_0175
+  - 15|US_speednode_0164
+  - 15|KZ_speednode_0092
+  - 15|US_speednode_0174
+  - 3|🇺🇸37 |  1.6MB/s|46%|Openai
+  - 15|US_speednode_0186
+  - 3|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
+  - 15|RU_speednode_0147
+  - 15|US_speednode_0225
+  - 3|🇺🇸122 |  1.4MB/s
+  - '12|⚡️ @vpnserverrr (Hysteria) #2'
+  - 15|GB_speednode_0075
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 15|NL_speednode_0117
+  - 3|🇺🇸49 |  4.0MB/s|30%|Openai
+  - 3|🇰🇷3 |  1.3MB/s|61%|Disney|Open...
+  - 15|SI_speednode_0158
+  - 3|🇺🇸3 |  1.3MB/s|46%|Openai
+  - 15|US_speednode_0178
+  - 15|CR_speednode_0031
+  - 15|US_speednode_0194
+  - 15|US_speednode_0167
+  - 15|US_speednode_0210
+  - 3|🇫🇷7 |  3.3MB/s|36%|Openai
+  - 3|🇺🇸125 |  1.5MB/s|14%|Openai
+  - 3|🇺🇸44 |  2.4MB/s|46%|Openai
+  - 15|RU_speednode_0126
+  - 15|US_speednode_0197
+  - 15|SI_speednode_0160
+  - 15|NZ_speednode_0122
+  - 11|IRAN 4 (@Outline_Vpn)
+  - 3|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
+  - 15|GB_speednode_0068
+  - 15|JP_speednode_0089
+  - 13|🇸🇬 新加坡2|@ripaojiedian
+  - 3|🇺🇸114 |  2.7MB/s|46%|Openai
+  - '12|Channel id: @ShadowProxy66🇺🇸 #5'
+  - 15|LT_speednode_0098
+  - 15|RU_speednode_0139
+  - 15|US_speednode_0231
+  - 15|CA_speednode_0013
+  - 15|AT_speednode_0005
+  - 15|ES_speednode_0054
+  - 15|IR_speednode_0085
+  - 3|🇫🇷1 |  3.4MB/s|15%|Openai
+  - 15|US_speednode_0240
+  - 3|🇫🇷2 |  2.2MB/s|25%|Youtube|Ope...
+  - 15|US_speednode_0252
+  - 15|LU_speednode_0104
+  - 3|🇺🇸87 |  3.5MB/s|46%|Openai
+  - '12|Channel id: @ShadowProxy66🇺🇸 #1'
+  - 3|🇺🇸75 |  2.0MB/s|14%|Openai
+  - '12|Channel id: @ShadowProxy66🇬🇧'
+  - 15|SI_speednode_0161
+  - 15|US_speednode_0192
+  - 3|🇺🇸52 |  4.8MB/s|33%|Disney|Ope...
+  - 3|🇩🇪4 |  2.8MB/s|13%|Netflix|You...
+  - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
+  - 15|SA_speednode_0149
+  - 3|🇺🇸74 |  2.6MB/s|14%|Openai
+  - 15|US_speednode_0198
+  - 13|🇭🇰 香港4|@ripaojiedian
+  - 15|KZ_speednode_0093
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -5878,9 +5933,10 @@ proxy-groups:
   proxies:
   - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   - 13|🇯🇵 日本|@ripaojiedian
-  - 13|🇯🇵 日本3|@ripaojiedian
   - 13|🇯🇵 日本2|@ripaojiedian
-  - 14|日本v2|@ripaojiedian
+  - 13|🇯🇵 日本3|@ripaojiedian
+  - 13|🇯🇵 日本4|@ripaojiedian
+  - 13|🇯🇵 日本5|@ripaojiedian
   - 15|JP_speednode_0089
   type: select
 - name: 🇺🇸 美国
@@ -6115,6 +6171,7 @@ proxy-groups:
   proxies:
   - 3|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
   - 13|🇹🇼 台湾|@ripaojiedian
+  - 14|台湾|@ripaojiedian
   - 14|台湾v2|@ripaojiedian
   type: select
 - name: 🇨🇳 中国
@@ -6127,6 +6184,9 @@ proxy-groups:
   - 13,14|香港|@ripaojiedian
   - 13|🇭🇰 香港2|@ripaojiedian
   - 13|🇭🇰 香港3|@ripaojiedian
+  - 13|🇭🇰 香港4|@ripaojiedian
+  - 14|香港3|@ripaojiedian
+  - 14|香港4|@ripaojiedian
   - 14|香港v2|@ripaojiedian
   - 15|HK_speednode_0081
   type: select
