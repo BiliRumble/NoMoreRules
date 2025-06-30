@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -15,6 +15,13 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
+- name: 11|@v2Source🇯🇵
+  password: 40832071-2b95-4934-968d-c7797b2d53a9
+  port: 46901
+  server: xgshsvfdw.aliyunn.cc
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 13|🇯🇵 日本|@ripaojiedian
