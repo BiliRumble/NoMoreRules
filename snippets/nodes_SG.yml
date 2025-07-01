@@ -9,23 +9,25 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 13|🇸🇬 新加坡|@ripaojiedian
-  password: 04D2BH6DL7ZKTXXT
-  port: 16013
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 13|🇸🇬 新加坡2|@ripaojiedian
-  password: LRSYNWEIHPN4BAVH
-  port: 16014
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- name: 15|SG_speednode_0155
+- client-fingerprint: chrome
+  name: 12,13|新加坡|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 25618
+  server: 36.151.192.60
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 12,13|新加坡2|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 32765
+  server: 36.151.192.60
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- name: 14|SG_speednode_0155
   network: ws
   password: wb6368
   port: 2087

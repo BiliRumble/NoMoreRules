@@ -37,34 +37,52 @@ proxies:
   udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 13|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506261935105-8wt2dE37PQ.download.microsoft.com
+    host: 202506261935105-EWzC7QCi0k.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 2
+- client-fingerprint: chrome
+  name: 12,13|美国3|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 5975
+  server: 36.151.192.60
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 12,13|美国4|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 15821
+  server: 36.151.192.60
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 13,14|美国3|@ripaojiedian
+  name: 12,13|美国5|@ripaojiedian
   network: ws
-  port: '30824'
-  server: v24.heduian.link
-  servername: ''
+  port: '443'
+  server: api.jquery.com
+  servername: admin.kasrax.ir
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
   ws-opts:
     headers:
-      Host: v24.heduian.link
-    path: /oooo
-- name: 15|US_speednode_0253
+      Host: admin.kasrax.ir
+    path: /us.kkp.me.eu.org/aa
+- name: 14|US_speednode_0253
   network: ws
   password: c7f423b7-ced8-43da-a9ae-e906cb4a222c
   port: 443

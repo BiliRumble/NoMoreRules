@@ -15,67 +15,54 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
-- name: 11|@v2Source🇯🇵
-  password: 40832071-2b95-4934-968d-c7797b2d53a9
-  port: 46901
-  server: xgshsvfdw.aliyunn.cc
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 13|🇯🇵 日本|@ripaojiedian
+  name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506261935105-8wt2dE37PQ.download.microsoft.com
+    host: 202506261935105-EWzC7QCi0k.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- client-fingerprint: chrome
+  name: 12,13|日本3|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 2001
+  server: 36.151.192.60
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 12,13|日本4|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 53248
+  server: 36.151.192.60
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 13|🇯🇵 日本2|@ripaojiedian
-  password: ac9df7aab595
+  name: 12|🇯🇵 日本2|@ripaojiedian
+  password: a9febce8f14c
   plugin: v2ray-plugin
   plugin-opts:
-    host: jp5v1.8vote.cn
+    host: tw42v1.dsjsapp.com
     mode: websocket
     mux: true
-    path: /jlyoefhqt
+    path: /jnqsuxfmnog
     skip-cert-verify: false
     tls: true
-  port: 36937
-  server: 137.220.142.140
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 13|🇯🇵 日本3|@ripaojiedian
-  password: QZVFNGZY8253LZYP
-  port: 18008
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 13|🇯🇵 日本4|@ripaojiedian
-  password: MNOORIVKRQF4KGJP
-  port: 18009
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 13|🇯🇵 日本5|@ripaojiedian
-  password: WHTSN6UOO84T3RVI
-  port: 18013
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 636
+  server: 111.246.1.198
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 15|JP_speednode_0089
+  name: 14|JP_speednode_0089
   network: ws
   port: 8880
   server: 103.116.7.13
