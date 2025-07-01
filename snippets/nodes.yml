@@ -117,7 +117,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 12|tg频道:@ripaojiedian
+  name: 13|tg频道:@ripaojiedian
   password: awsps0501
   port: 443
   server: 43.207.76.238
@@ -125,7 +125,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: 12,13|香港|@ripaojiedian
+  name: 13,14|香港|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -140,7 +140,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: aes-256-gcm
-  name: 12|🇭🇰 香港2|@ripaojiedian
+  name: 13|🇭🇰 香港2|@ripaojiedian
   password: f917888c6f39
   plugin: v2ray-plugin
   plugin-opts:
@@ -156,7 +156,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|🇭🇰 香港3|@ripaojiedian
+  name: 13|🇭🇰 香港3|@ripaojiedian
   port: 59149
   server: 43.247.134.201
   skip-cert-verify: false
@@ -166,7 +166,7 @@ proxies:
   uuid: efbdabeb-68df-4cd0-959d-7d4f4b508609
 - alterId: 64
   cipher: auto
-  name: 12|🇭🇰 香港4|@ripaojiedian
+  name: 13|🇭🇰 香港4|@ripaojiedian
   port: 41911
   server: 183.236.51.37
   skip-cert-verify: false
@@ -175,14 +175,14 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
-  name: 12|🇭🇰 香港5|@ripaojiedian
+  name: 13|🇭🇰 香港5|@ripaojiedian
   password: ZMOmCcKew5oDwrnCg8OMXsOUwovChUlUwpbCn8Oyw67Dm186EsOUKgVVw6t1GsOrw6A=
   port: 443
   server: 156.226.173.104
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: 12|🇯🇵 日本|@ripaojiedian
+  name: 13|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -192,7 +192,7 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 2001
@@ -200,7 +200,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 12,13|日本4|@ripaojiedian
+- name: 13,14|日本4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 53248
@@ -209,7 +209,7 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - cipher: aes-256-gcm
-  name: 12|🇯🇵 日本2|@ripaojiedian
+  name: 13|🇯🇵 日本2|@ripaojiedian
   password: a9febce8f14c
   plugin: v2ray-plugin
   plugin-opts:
@@ -223,7 +223,7 @@ proxies:
   server: 111.246.1.198
   tfo: false
   type: ss
-- name: 12,13|韩国|@ripaojiedian
+- name: 13,14|韩国|@ripaojiedian
   network: tcp
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
@@ -232,7 +232,7 @@ proxies:
   sni: www.yrtok.com
   type: trojan
 - cipher: aes-256-cfb
-  name: 12|🇰🇷 韩国2|@ripaojiedian
+  name: 13|🇰🇷 韩国2|@ripaojiedian
   password: qwerREWQ@@
   port: 56780
   server: 222.112.15.140
@@ -240,7 +240,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: 12,13|美国|@ripaojiedian
+  name: 13,14|美国|@ripaojiedian
   network: ws
   port: '30828'
   server: 111.26.109.79
@@ -254,7 +254,7 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: 12,13|新加坡|@ripaojiedian
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 25618
@@ -262,7 +262,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 32765
@@ -271,7 +271,7 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - cipher: rc4-md5
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 13|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -281,7 +281,7 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 12,13|美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 5975
@@ -289,7 +289,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 12,13|美国4|@ripaojiedian
+- name: 13,14|美国4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 15821
@@ -299,7 +299,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 12,13|美国5|@ripaojiedian
+  name: 13,14|美国5|@ripaojiedian
   network: ws
   port: '443'
   server: api.jquery.com
@@ -314,7 +314,7 @@ proxies:
       Host: admin.kasrax.ir
     path: /us.kkp.me.eu.org/aa
 - cipher: aes-256-cfb
-  name: 12|🇻🇳 越南|@ripaojiedian
+  name: 13|🇻🇳 越南|@ripaojiedian
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 103.163.218.2
@@ -322,7 +322,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|香港3|@ripaojiedian
+  name: 14|香港3|@ripaojiedian
   network: tcp
   port: '59149'
   server: 43.247.134.201
@@ -332,7 +332,7 @@ proxies:
   uuid: efbdabeb-68df-4cd0-959d-7d4f4b508609
 - alterId: 64
   cipher: auto
-  name: 13|香港4|@ripaojiedian
+  name: 14|香港4|@ripaojiedian
   network: tcp
   port: '41911'
   server: 183.236.51.37
@@ -342,7 +342,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13|香港v2|@ripaojiedian
+  name: 14|香港v2|@ripaojiedian
   network: kcp
   port: '34833'
   server: 47.76.28.43
@@ -352,7 +352,7 @@ proxies:
   uuid: dd0d30ae-a4d1-4d1e-8553-42bfff66fd27
 - alterId: 0
   cipher: auto
-  name: 13|台湾v2|@ripaojiedian
+  name: 14|台湾v2|@ripaojiedian
   network: kcp
   port: '5663'
   server: 118.194.253.15
@@ -360,7 +360,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 986b3bc8-d0fb-4b60-b01f-28164e44cd48
-- name: 14|CN_speednode_0022
+- name: 15|CN_speednode_0022
   password: b483bf41-79d4-48df-bec6-30a756a3bd6b
   port: 42765
   server: js-12f83a8c.kaiqsz.com
@@ -368,7 +368,7 @@ proxies:
   sni: mmbiz1.redapricotcloud.com
   type: trojan
   udp: true
-- name: 14|US_speednode_0265
+- name: 15|US_speednode_0265
   network: ws
   password: juzi
   port: 443
@@ -381,7 +381,7 @@ proxies:
     headers:
       Host: juzi8186-sr1.pages.dev
     path: /
-- name: 14|US_speednode_0269
+- name: 15|US_speednode_0269
   network: ws
   password: juzi
   port: 443
