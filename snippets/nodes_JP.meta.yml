@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -17,27 +17,42 @@ proxies:
     path: /634c5c4f9782
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 13|🇯🇵 日本|@ripaojiedian
+  name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507020089439-ZZW4Z8jpet.download.microsoft.com
+    host: 202506101686237-pCdX1ZAl7Y.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇯🇵 日本3|@ripaojiedian
+  password: 781bb54c-f089-48df-8102-01288a81eb10
+  port: 44721
+  server: jsyd.piaomiaoxu.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇯🇵 日本2|@ripaojiedian
+  password: 887bfcf43b52
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jp6v1.lingjfjkm002.com
+    mode: websocket
+    mux: true
+    path: /svynueogf
+    skip-cert-verify: false
+    tls: true
+  port: 636
+  server: 137.220.142.143
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
-  name: 13,14|日本3|@ripaojiedian
-  network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 2176
-  server: 36.151.192.60
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 13,14|日本4|@ripaojiedian
+  name: 12,13|日本4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 4445
@@ -45,38 +60,22 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 13|🇯🇵 日本2|@ripaojiedian
-  password: 823e135ed103
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: jp7v1.lingjfjkm002.com
-    mode: websocket
-    mux: true
-    path: /dchlbvrbbotc
-    skip-cert-verify: false
-    tls: true
-  port: 636
-  server: 137.220.191.38
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
-  name: 13|🇯🇵 日本5|@ripaojiedian
+  name: 12|🇯🇵 日本5|@ripaojiedian
   password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
   port: 27233
   server: 096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com
   skip-cert-verify: false
   sni: 096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com
   type: trojan
-- name: 14|日本5|@ripaojiedian
+- name: 13|日本5|@ripaojiedian
   network: tcp
   password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
   port: 27233
   server: 096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com
   type: trojan
 - client-fingerprint: chrome
-  name: 15|JP_speednode_0068
+  name: 14|JP_speednode_0068
   network: ws
   port: 8880
   server: 103.116.7.177
