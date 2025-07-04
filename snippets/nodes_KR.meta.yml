@@ -1,5 +1,5 @@
 proxies:
-- name: 2|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
+- name: 3|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
   network: ws
   port: 8880
   server: 216.116.134.20
@@ -14,13 +14,13 @@ proxies:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
 - cipher: aes-256-cfb
-  name: 2|🇰🇷2 |  1.5MB/s|44%|Openai
+  name: 3|🇰🇷2 |  1.5MB/s|44%|Openai
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
   type: ss
 - client-fingerprint: chrome
-  name: 2|🇰🇷3 |  1.3MB/s|61%|Disney|Open...
+  name: 3|🇰🇷3 |  1.3MB/s|61%|Disney|Open...
   network: ws
   port: 8880
   server: 212.183.88.20
@@ -33,14 +33,14 @@ proxies:
     path: /?ed=2560
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国|@ripaojiedian
+  name: 13|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
   port: 15098
   server: p222.panda001.net
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 12,13|韩国2|@ripaojiedian
+  name: 13,14|韩国2|@ripaojiedian
   network: tcp
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   port: 6668
@@ -51,7 +51,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
+  name: 13,14|美国|@ripaojiedian
   network: ws
   port: '30828'
   server: 111.26.109.79
@@ -66,7 +66,7 @@ proxies:
       Host: ocbc.com
     path: /oooo
 - client-fingerprint: chrome
-  name: 12,13|韩国4|@ripaojiedian
+  name: 13,14|韩国4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 20615
@@ -75,22 +75,7 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: random
-  name: 14|KR_speednode_0060
-  network: ws
-  port: 12097
-  server: 59.14.189.230
-  servername: oty.myto.ip-ddns.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f2146d13-aa93-4210-9500-50fd3fed7bc8
-  ws-opts:
-    headers:
-      Host: oty.myto.ip-ddns.com
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 14|KR_speednode_0061
+  name: 15|KR_speednode_0055
   network: ws
   port: 12097
   server: 59.14.189.230
@@ -104,20 +89,18 @@ proxies:
     headers:
       Host: mot.majusti.dpdns.org
     path: /?ed=2560
-- alpn:
-  - h3
-  client-fingerprint: random
-  name: 14|KR_speednode_0062
+- client-fingerprint: random
+  name: 15|KR_speednode_0056
   network: ws
-  port: 50000
-  server: 222.113.39.207
-  servername: edmx.aimercc.filegear-sg.me
+  port: 12097
+  server: 59.14.189.230
+  servername: oty.myto.ip-ddns.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: f2146d13-aa93-4210-9500-50fd3fed7bc8
   ws-opts:
     headers:
-      Host: edmx.aimercc.filegear-sg.me
+      Host: oty.myto.ip-ddns.com
     path: /?ed=2560
