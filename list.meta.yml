@@ -1,4 +1,4 @@
-# Update: 2025-07-11 05:11
+# Update: 2025-07-11 08:55
 allow-lan: false
 dns:
   enable: true
@@ -1133,7 +1133,7 @@ proxies:
   tls: true
   type: socks5
 - auth: 5CBqBh6MeDq6GajcilBiDg==
-  name: '3,12|Channel id: @ShadowProxy66🇺🇸 #2'
+  name: '3,10,12|Channel id: @ShadowProxy66🇺🇸 #2'
   password: 5CBqBh6MeDq6GajcilBiDg==
   port: 61001
   server: 192.227.152.86
@@ -1679,6 +1679,75 @@ proxies:
         Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /
   xudp: true
+- name: 10|NetAccount
+  obfs: salamander
+  obfs-password: rPvCrCom7ETCNOvA
+  password: 0c4c1a89-5645-4fc2-9e3b-ab09aa44e933
+  port: 13563
+  server: 62.72.163.159
+  sni: h2.gzcloud.shop
+  tls: false
+  type: hysteria2
+- name: '10|Channel id: @ShadowProxy66 #1'
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 443
+  server: uk.saigonfly.com
+  tls: false
+  type: hysteria2
+- name: '10|NetAccount #2'
+  password: 928a3318-b103-4f5f-ac80-1efd6f05d3d7
+  port: 50000
+  server: 47.238.98.245
+  skip-cert-verify: true
+  sni: ali.xiao666666.site
+  tls: false
+  type: hysteria2
+- name: 10,11| @V2RayTheKyo و   ش
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  port: 35000
+  server: 206.71.158.40
+  skip-cert-verify: false
+  sni: pichondan.com
+  tls: false
+  type: hysteria2
+- name: 10,11|🇩🇪 《@V2RayTheKyo》 وصل شدی عضو ...
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  port: 35000
+  server: 77.90.52.69
+  skip-cert-verify: false
+  sni: pichondan.com
+  tls: false
+  type: hysteria2
+- name: 10,11|🇳🇱 《@V2RayTheKyo》 وصل شدی عضو ...
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 35000
+  server: yapc-1.adamhayward.co.uk
+  skip-cert-verify: false
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '10,11|⚜️Telegram: @IP_CF #3'
+  password: dongtaiwang.com
+  port: 50850
+  server: 45.129.2.108
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 10,11,12|@drakvpn🐉
+  password: dongtaiwang.com
+  port: 12904
+  server: 46.17.41.5
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
 - name: '10,11|@vpnv2r4y✔️㉿ ᵛᵖⁿ یوتیوب️ #1'
   password: nfsn666
   port: 8888
@@ -2015,32 +2084,20 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: '11|Telegram:@config_proxy '
+  password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
+  port: 47262
+  server: 40.233.73.221
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: 11| @V2aryng_vpn کانی ان
   password: 924abf1e-375d-4918-8b20-1047ef3dbb57
   port: 10119
   server: kor.pddwdf.store
   skip-cert-verify: true
   sni: kor.pddwdf.store
-  tls: false
-  type: hysteria2
-- name: 11| @V2RayTheKyo و   ش
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  port: 35000
-  server: 206.71.158.40
-  skip-cert-verify: false
-  sni: pichondan.com
-  tls: false
-  type: hysteria2
-- name: 11|🇩🇪 《@V2RayTheKyo》 وصل شدی عضو ...
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  port: 35000
-  server: 77.90.52.69
-  skip-cert-verify: false
-  sni: pichondan.com
   tls: false
   type: hysteria2
 - name: '11|@V2rayNG3 #4'
@@ -2157,16 +2214,6 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 11|🇳🇱 《@V2RayTheKyo》 وصل شدی عضو ...
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 35000
-  server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: false
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
 - name: '11|✅ @V2aryng_vpn کانفینگ رایگان #3'
   password: YidTdI17j06K1PFBUWdzWDVZXc
   port: 33562
@@ -2252,14 +2299,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '11|⚜️Telegram: @IP_CF #3'
-  password: dongtaiwang.com
-  port: 50850
-  server: 45.129.2.108
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: '11|@V2rayNG3 #8'
   password: dongtaiwang.com
   port: 50717
@@ -2274,14 +2313,6 @@ proxies:
   server: 46.17.41.217
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 11,12|@drakvpn🐉
-  password: dongtaiwang.com
-  port: 12904
-  server: 46.17.41.5
-  skip-cert-verify: true
-  sni: apple.com
   tls: false
   type: hysteria2
 - name: '11,12|Channel id: @ShadowProxy66🇫🇷'
@@ -2387,7 +2418,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '11| 𝐧: @vpnz4  '
+- name: '11|𝐞𝐥𝐞𝐚: 𝐂𝐧𝐠_𝐭'
   obfs: salamander
   obfs-password: The_Sefr-salamdash
   password: user12.myserverSEFR097
@@ -2421,7 +2452,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '12|Channel id: @ShadowProxy66🇷🇺'
+- name: '12|Channel id: @ShadowProxy66🇷🇺 #1'
   password: dongtaiwang.com
   port: 30033
   server: 45.129.2.108
@@ -2436,7 +2467,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '12|Channel id: @ShadowProxy66🇬🇧'
+- name: '12|Channel id: @ShadowProxy66🇬🇧 #1'
   password: e48d6377dda26840
   port: 42353
   server: 185.184.70.120
@@ -2506,18 +2537,21 @@ proxies:
   type: hysteria2
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
-  password: qawszxc123
+  password: awsps0501
   port: 443
-  server: 13.212.187.83
+  server: 54.168.210.205
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
-  password: ELNP3E9X426OSUVK
-  port: 15006
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 58236
+  server: 103.224.80.92
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 829218e3-9f74-4303-88da-a9d84f0c7852
 - cipher: aes-256-gcm
   name: 13|🇭🇰 香港2|@ripaojiedian
   password: 9bfdde71b4c0
@@ -2533,29 +2567,19 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰 香港3|@ripaojiedian
-  port: 33291
-  server: 103.224.80.103
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e6925cbe-51b9-40e9-b57e-85b6f026499b
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 51083
-  server: 36.151.192.27
+  port: 9141
+  server: 36.151.192.59
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 444
-  server: 36.151.192.27
+  port: 24903
+  server: 36.151.192.59
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -2566,19 +2590,12 @@ proxies:
   server: 155.117.228.70
   skip-cert-verify: true
   type: trojan
-- cipher: aes-256-gcm
-  name: 13|🇭🇰 香港7|@ripaojiedian
-  password: ZX9F8KK21O60YK9T
-  port: 15015
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
 - cipher: rc4-md5
   name: 13|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-KILVHWQpc0.download.microsoft.com
+    host: 202507031938065-e8zxTxmqk7.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -2602,63 +2619,55 @@ proxies:
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 21829
-  server: 36.151.251.58
+  port: 41225
+  server: 36.151.192.26
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - name: 13,14|日本4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 53248
-  server: 36.151.192.27
+  port: 4445
+  server: 36.151.192.26
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: aes-256-gcm
-  name: 13|🇯🇵 日本5|@ripaojiedian
-  password: 0ANIPMQ8V4PH2BQO
-  port: 18002
-  server: ti3hyra4.slashdevslashnetslashtun.net
+- cipher: aes-256-cfb
+  name: 13|🇰🇷 韩国|@ripaojiedian
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.90.63.177
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 13,14|美国|@ripaojiedian
-  network: ws
-  port: '30828'
-  server: 111.26.109.79
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
+- name: 13,14|韩国2|@ripaojiedian
+  network: tcp
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 6668
+  server: 3.34.143.101
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
 - name: 13,14|韩国4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 4448
-  server: 36.151.192.27
+  port: 16158
+  server: 36.151.192.59
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 4446
-  server: 36.151.192.27
+  port: 7571
+  server: 36.151.192.26
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 10600
-  server: 36.156.102.123
+  port: 32765
+  server: 36.151.192.26
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -2667,7 +2676,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-KILVHWQpc0.download.microsoft.com
+    host: 202507031938065-e8zxTxmqk7.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -2677,40 +2686,28 @@ proxies:
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 4447
-  server: 36.151.192.27
+  server: 36.151.192.26
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - name: 13,14|美国4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 8657
-  server: 36.156.102.123
+  port: 34719
+  server: 36.151.192.26
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 13|🇺🇸 美国5|@ripaojiedian
-  network: ws
-  password: d6b8011a-c725-435a-9fec-bf6d3530392c
-  port: 2083
-  server: 194.53.53.249
-  skip-cert-verify: false
-  sni: vle.amclubdns.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: vle.amclubdns.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
 - alterId: 0
   cipher: auto
-  name: 14|香港3|@ripaojiedian
+  name: 14|香港|@ripaojiedian
   network: tcp
-  port: '33291'
-  server: 103.224.80.103
+  port: '58236'
+  server: 103.224.80.92
   servername: ''
   tls: false
   type: vmess
-  uuid: e6925cbe-51b9-40e9-b57e-85b6f026499b
+  uuid: 829218e3-9f74-4303-88da-a9d84f0c7852
 - alterId: 0
   cipher: none
   name: 14|香港v2|@ripaojiedian
@@ -2731,18 +2728,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 9f9f395b-e9b2-4cfd-85b3-0425f0e11ad7
-- name: 14|美国5|@ripaojiedian
-  network: ws
-  password: d6b8011a-c725-435a-9fec-bf6d3530392c
-  port: 2083
-  server: 194.53.53.249
-  skip-cert-verify: true
-  sni: vle.amclubdns.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: vle.amclubdns.dpdns.org
-    path: '%2F%3Fed%3D2560%26PROT_TYPE%3Dtrojan'
 - name: 15|BG_speednode_0001
   network: ws
   port: 8880
@@ -3819,374 +3804,374 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 3|🇺🇸112 |  2.7MB/s|14%|Openai
-  - 15|LT_speednode_0034
-  - 3|🇺🇸36 |  3.0MB/s|14%|Openai
-  - '11|⚜️Telegram: @IP_CF #3'
-  - 15|DE_speednode_0006
-  - 15|VN_speednode_0078
-  - 11|لمان 🇩🇪 @V2xay
-  - 3|🇺🇸84 |  4.0MB/s|30%|Openai
-  - 13|🇭🇰 香港3|@ripaojiedian
-  - 3|🇺🇸41 |  4.7MB/s|48%|Openai
-  - 3|🇺🇸77 |  3.1MB/s|14%|Openai
-  - 3|🇺🇸100 |  1.3MB/s
-  - 3|🇺🇸48 |  1.4MB/s|0%|Disney|Open...
-  - 11|IRAN 4 (@Outline_Vpn)
-  - 11|@Mahdi2000_m ql_0366
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - '3,12|Channel id: @ShadowProxy66🇺🇸 #2'
-  - 3|🇳🇱1 |  1.1MB/s|59%|Youtube|Ope...
-  - 15|GB_speednode_0030
-  - 3|🇸🇬3 |  1.2MB/s|30%|Disney|Open...
-  - '11|@meli_proxyy #3'
-  - 3|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-  - 11|🇩🇪 @game_file2020
-  - 3|🇺🇸59 |  4.7MB/s|30%|Openai
-  - 15|US_speednode_0064
-  - '11|@V2rayNG3 #4'
-  - 3|🇺🇸15 |  2.5MB/s|30%|Openai
-  - 3|🇺🇸26 |  1.3MB/s|30%|Openai
-  - 11|🇪 @game_file2020
-  - 3|🇺🇸119 |  1.2MB/s
-  - '11|@V2rayNG3 #5'
-  - 11|@vpnv2r4y✔️㉿ ᵛᵖⁿ یوتیوب️
-  - 13|🇯🇵 日本2|@ripaojiedian
-  - '11|@Filter_breaker | Germany #1'
-  - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-  - 13|🇯🇵 日本5|@ripaojiedian
-  - 3|🇺🇸6 |  1.3MB/s|46%|Openai
-  - 11|🇸 @game_file2020
-  - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-  - 15|GB_speednode_0023
-  - 15|US_speednode_0045
-  - 3|🇩🇪2 |  1.3MB/s|0%|Openai
-  - 15|FR_speednode_0013
-  - '11|@V2rayNG3 #7'
-  - '11|🇧 @game_file2020 #1'
-  - 3|🇺🇸81 |  4.1MB/s|46%|Openai
-  - 3|🇺🇸57 |  4.1MB/s|30%|Openai
-  - 15|DE_speednode_0010
-  - 13,14|美国|@ripaojiedian
-  - 15|VN_speednode_0073
-  - 3|🇺🇸14 |  1.7MB/s|30%|Openai
-  - 3|🇺🇸87 |  3.5MB/s|46%|Openai
-  - 15|GB_speednode_0022
-  - 3|🇺🇸49 |  4.0MB/s|30%|Openai
-  - 3|🇺🇸24 |  1.4MB/s|30%|Openai
-  - 3|🇺🇸108 |  1.4MB/s
-  - 15|CH_speednode_0003
-  - 15|RU_speednode_0040
-  - 13,14|新加坡|@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
   - 3|🇺🇸107 |  1.8MB/s|14%|Openai
-  - '11|🇩🇪 @game_file2020 #1'
-  - 3|🇺🇸22 |  1.7MB/s|30%|Openai
-  - 3|🇦🇪1 |  1.2MB/s|0%|Disney|Opena...
-  - 15|GB_speednode_0016
-  - 11|@vpnv2r4y️  یو️
-  - 11,12|@drakvpn🐉
-  - 11|@Mahdi2000_m ql_0367
-  - '11|@V2rayNG3 #1'
-  - 15|GB_speednode_0019
-  - '11|@Filter_breaker | Germany #2'
-  - 15|US_speednode_0057
-  - 3|🇺🇸116 |  1.2MB/s
-  - 15|VN_speednode_0074
-  - '11|🇩🇪 《@V2RayTheKyo》 وصل شدی عضو ... #1'
-  - '11|🇷 @game_file2020 #1'
-  - 15|ES_speednode_0011
-  - '11|@Filter_breaker | Germany #3'
-  - 13,14|新加坡2|@ripaojiedian
-  - 15|US_speednode_0050
-  - 11|@game_file2020500 GB
-  - 15|NL_speednode_0036
-  - 3|🇺🇸53 |  1.9MB/s|61%|Disney
-  - 3|🇺🇸10 |  2.0MB/s|0%|Netflix|Dis...
-  - 3|🇺🇸102 |  1.1MB/s|14%|Openai
-  - '11| 𝐧: @vpnz4  '
-  - 14|香港3|@ripaojiedian
-  - 3|🇺🇸103 |  3.2MB/s
-  - 3|🇺🇸35 |  3.0MB/s|0%|Openai|Gemi...
-  - '11|✅ @V2aryng_vpn کانفینگ رایگان #3'
-  - 13|🇯🇵 日本|@ripaojiedian
-  - 11|@Filter_breaker | United Kingd...
-  - 3|🇺🇸7 |  1.2MB/s|46%|Openai
-  - 15|BG_speednode_0001
-  - '11|🇸 @game_file2020 #2'
-  - 3|🇺🇸30 |  3.5MB/s|0%|Openai|Gemi...
-  - 12|⚡️ @vpnserverrr (Hysteria)
-  - 3|🇩🇪3 |  2.6MB/s|20%|Openai
-  - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-  - 3|🇺🇸128 |  1.7MB/s|14%|Openai
-  - 3|🇺🇸125 |  1.5MB/s|14%|Openai
-  - 3|🇩🇪4 |  2.8MB/s|13%|Netflix|You...
-  - 15|US_speednode_0049
-  - 3|🇺🇸76 |  1.0MB/s|46%|Openai
-  - '12|⚡️ @vpnserverrr (Hysteria) #2'
-  - 15|US_speednode_0063
-  - 11|IRAN 9 (@Outline_Vpn)
-  - 15|US_speednode_0068
-  - 13|tg频道:@ripaojiedian
-  - 3|🇺🇸51 |  3.5MB/s|30%|Openai
-  - 15|US_speednode_0060
-  - 3|🌀2-TR |  1.2MB/s|0%|Netflix|Di...
-  - 3|🇺🇸123 |  1.3MB/s|61%|Disney|Op...
-  - '11|⚜️Telegram: @IP_CF #1'
-  - 3|🇺🇸129 |  2.7MB/s|14%|Openai
-  - 3|🇺🇸109 |  3.2MB/s
-  - 13,14|美国4|@ripaojiedian
-  - 3|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-  - 15|RU_speednode_0042
-  - 3|🇺🇸38 |  1.3MB/s|46%|Openai
-  - '11|@v2rayng_fars 🚀 Telegram #1'
-  - '12|Channel id: @ShadowProxy66🇺🇸 #5'
-  - 11|🇦🇺 @game_file2020
-  - '11|@V2aryng_vpn #5'
-  - 3|🇺🇸16 |  4.2MB/s|Openai
-  - 3|🇺🇸75 |  2.0MB/s|14%|Openai
-  - 15|CY_speednode_0004
-  - 15|ES_speednode_0012
-  - 15|RU_speednode_0039
-  - 3|🇺🇸74 |  2.6MB/s|14%|Openai
-  - 3|🇺🇸124 |  1.2MB/s|46%|Openai
-  - 15|US_speednode_0070
-  - 11| @V2RayTheKyo و   ش
-  - '11|@V2rayNG3 #9'
-  - 15|GB_speednode_0021
-  - 3|🇺🇸58 |  4.2MB/s|30%|Openai
-  - 15|US_speednode_0052
-  - 3|🇺🇸80 |  2.9MB/s|46%|Openai
-  - 3|🇺🇸33 |  2.8MB/s|30%|Openai
-  - '11|🇺🇸USA-Hysteria2-@Filter_breake... #1'
-  - 11|🇳🇱 《@V2RayTheKyo》 وصل شدی عضو ...
-  - 15|GB_speednode_0020
-  - 3|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
-  - 11|🇦 @game_file2020
-  - '11|🇹🇷 @game_file2020 #1'
-  - 3|🇺🇸94 |  1.2MB/s|14%|Openai
-  - 3|🇺🇸32 |  1.7MB/s|14%|Openai
-  - 3|🌀1-MD |  1.8MB/s|44%|Youtube|O...
-  - 3|🇺🇸8 |  1.2MB/s|14%|Openai
-  - 3|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-  - 3|🇩🇪6 |  4.3MB/s|0%|Disney|Opena...
-  - 3|🇰🇷2 |  1.5MB/s|44%|Openai
-  - 3|🇺🇸37 |  1.6MB/s|46%|Openai
-  - 13|🇺🇸 美国5|@ripaojiedian
-  - 13|🇭🇰 香港7|@ripaojiedian
-  - 3|🇺🇸99 |  4.8MB/s|0%|Openai|Gemi...
-  - 15|US_speednode_0048
-  - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-  - 3|🇺🇸11 |  1.4MB/s|30%|Openai
-  - 3|🇺🇸82 |  1.3MB/s
-  - 3|🇺🇸25 |  4.3MB/s|30%|Openai
-  - 14|日本v2|@ripaojiedian
-  - 15|US_speednode_0053
-  - 15|GB_speednode_0018
-  - 11|@meli_proxyy
-  - 11|🇺🇸USA-Hysteria2-@Filter_breake...
-  - '11|🇧 @game_file2020 #3'
-  - 3|🇺🇸56 |  1.5MB/s|30%|Openai
-  - '11,12|Channel id: @ShadowProxy66🇨🇦'
-  - 3|🇺🇸83 |  2.0MB/s|46%|Openai
-  - 11|✅ @V2aryng_vpn کانفینگ رایگان
-  - 3|🇺🇸72 |  2.2MB/s|14%|Openai
-  - 3|🇺🇸104 |  2.1MB/s
-  - 3|🇺🇸71 |  1.0MB/s|0%|Openai|Gemi...
-  - 3|🇺🇸20 |  3.0MB/s|30%|Openai
-  - 11|@VpnFreak |Trade1|
-  - 15|US_speednode_0061
-  - 11|@v2ray313 کانالمون ️
-  - 13,14|日本4|@ripaojiedian
-  - 3|🇺🇸55 |  3.5MB/s|30%|Openai
-  - '11|@V2rayNG3 #8'
-  - 3|🇺🇸98 |  1.3MB/s
-  - 15|GB_speednode_0024
-  - 3|🇫🇷1 |  3.4MB/s|15%|Openai
-  - 3|🇺🇸28 |  1.3MB/s|30%|Openai
-  - 15|US_speednode_0065
-  - 3|🇺🇸17 |  2.5MB/s|30%|Openai
-  - 15|VN_speednode_0079
-  - 3|🇺🇸21 |  2.2MB/s|30%|Openai
-  - 3|🇺🇸127 |  3.1MB/s|14%|Openai
-  - 15|VN_speednode_0076
-  - 11|🇷 @game_file2020
-  - 3|🇺🇸78 |  4.2MB/s|0%|Openai|Gemi...
-  - 3|🇺🇸23 |  2.0MB/s|30%|Openai
-  - 15|US_speednode_0047
+  - 15|GB_speednode_0017
   - 15|VN_speednode_0077
-  - '11,12|Channel id: @ShadowProxy66🇺🇸'
-  - 3|🇫🇷4 |  1.8MB/s|36%|Openai
-  - 15|US_speednode_0051
-  - '12|Channel id: @ShadowProxy66🇺🇸 #4'
-  - 15|GB_speednode_0031
-  - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-  - 14|美国5|@ripaojiedian
-  - 3|🇺🇸96 |  2.4MB/s
-  - 3|🇺🇸97 |  2.2MB/s|14%|Openai
-  - 15|DE_speednode_0008
-  - 11| @V2aryng_vpn کانفینگ رایگان
-  - 3|🇺🇸113 |  2.0MB/s|14%|Openai
-  - 11|🇩🇪 《@V2RayTheKyo》 وصل شدی عضو ...
-  - 3|🇺🇸73 |  1.9MB/s|50%|Openai|Gem...
-  - 3|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
+  - 3|🇺🇸34 |  2.8MB/s|14%|Openai
+  - '11|@V2rayNG3 #8'
+  - 11|🇩🇪 @game_file2020
   - '11|✅ @V2aryng_vpn کانفینگ رایگان #4'
-  - '11|🇺🇸USA-Hysteria2-@Filter_breake... #2'
-  - '11|@V2rayNG3 #3'
-  - 13,14|日本3|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - '12|Channel id: @ShadowProxy66🇷🇺'
-  - 3|🇺🇸50 |  1.3MB/s|20%|Disney|Ope...
-  - 15|GB_speednode_0027
-  - '11|@V2aryng_vpn #4'
-  - 14|香港v2|@ripaojiedian
-  - 3|🇫🇷5 |  3.1MB/s|36%|Openai
-  - 3|🇺🇸92 |  3.4MB/s|46%|Openai
-  - 11|@Capoit
-  - 3|🇺🇸85 |  1.9MB/s|14%|Openai
-  - '11|🇦🇺 @game_file2020 #1'
-  - 3|🇺🇸19 |  1.5MB/s|30%|Openai
-  - '11|🇺🇸USA-Hysteria2-@Filter_breake... #3'
-  - 3|🇮🇷1 |  1.3MB/s|0%|Openai
-  - 11|🇧🇷 @game_file2020
-  - '11|🇦 @game_file2020 #1'
-  - 3|🇺🇸27 |  1.1MB/s|30%|Openai
-  - 15|US_speednode_0067
-  - 3|🇺🇸40 |  3.3MB/s|14%|Openai
-  - 3|🇺🇸44 |  2.4MB/s|46%|Openai
-  - '11| @game_file2020 #1'
-  - '11|🇧 @game_file2020 #2'
-  - 15|GB_speednode_0026
-  - '12|Channel id: @ShadowProxy66🇺🇸 #3'
-  - 3|🇺🇸79 |  1.7MB/s|30%|Openai
-  - 15|US_speednode_0069
-  - 15|LU_speednode_0035
-  - 3|🇺🇸110 |  3.1MB/s|46%|Openai
-  - 15|GB_speednode_0029
-  - 3|🇺🇸12 |  2.2MB/s|30%|Openai
-  - 3|🇫🇷2 |  2.2MB/s|25%|Youtube|Ope...
-  - 15|GB_speednode_0032
-  - '11|@V2aryng_vpn #2'
-  - '12|Channel id: @ShadowProxy66🇬🇧'
-  - 15|US_speednode_0056
-  - 3|🇺🇦1 |  3.3MB/s|0%|Openai
-  - 3|🇺🇸117 |  2.6MB/s|0%|Openai|Gem...
-  - 3|🇺🇸111 |  1.0MB/s|61%|Disney
-  - 3|🇺🇸70 |  1.7MB/s|Openai
-  - 3|🇺🇸54 |  4.6MB/s|30%|Openai
-  - 3|🇺🇸2 |  4.4MB/s|30%|Openai
-  - 15|US_speednode_0071
-  - 3|🇺🇸88 |  1.1MB/s
-  - '3,11|@V2aryng_vpn #6'
-  - 3|🇫🇷7 |  3.3MB/s|36%|Openai
-  - 15|US_speednode_0058
-  - 11|@V2rayNG3
-  - 3|🇺🇸89 |  2.7MB/s|14%|Openai
-  - '11|🇦 @game_file2020 #2'
-  - 15|US_speednode_0072
-  - '10,11|@vpnv2r4y✔️㉿ ᵛᵖⁿ یوتیوب️ #1'
-  - '12|⚡️ @vpnserverrr (Hysteria) #1'
+  - 15|US_speednode_0065
+  - 15|DE_speednode_0005
   - 3|🇷🇺1 |  2.5MB/s|50%
-  - '11|@v2ray313 کانال '
+  - 3|🌀6-CY |  4.9MB/s|44%|Openai
+  - '12|Channel id: @ShadowProxy66🇺🇸 #5'
+  - 14|香港|@ripaojiedian
+  - 11|@Mahdi2000_m ql_0365
+  - 3|🇺🇸31 |  2.3MB/s|14%|Openai
+  - '11|🇦 @game_file2020 #2'
+  - 15|US_speednode_0064
+  - 3|🇺🇸95 |  3.1MB/s|46%|Openai
+  - 3|🇺🇸89 |  2.7MB/s|14%|Openai
+  - 3|🇺🇸70 |  1.7MB/s|Openai
+  - 3|🇺🇸92 |  3.4MB/s|46%|Openai
+  - 15|US_speednode_0062
+  - 3|🇺🇸61 |  1.0MB/s|Disney
+  - 3|🇺🇸100 |  1.3MB/s
+  - 11|IRAN 9 (@Outline_Vpn)
+  - 3|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+  - 3|🇺🇸87 |  3.5MB/s|46%|Openai
+  - 15|GB_speednode_0026
+  - 3|🇺🇸32 |  1.7MB/s|14%|Openai
+  - 3|🇺🇸74 |  2.6MB/s|14%|Openai
+  - 11|🇹🇷 @game_file2020
+  - '12|Channel id: @ShadowProxy66🇷🇺 #1'
+  - 15|RU_speednode_0039
+  - 10,11,12|@drakvpn🐉
+  - 11|🇺🇸USA-Hysteria2-@Filter_breake...
+  - 15|LT_speednode_0034
+  - 3|🇺🇸15 |  2.5MB/s|30%|Openai
+  - '11|✅ @V2aryng_vpn کانفینگ رایگان #5'
+  - 3|🇺🇸5 |  2.0MB/s|46%|Openai
+  - '11|@Filter_breaker | Germany #2'
+  - 3|🇫🇷3 |  4.1MB/s|36%|Openai
+  - 3|🇺🇸10 |  2.0MB/s|0%|Netflix|Dis...
+  - 3|🇺🇸111 |  1.0MB/s|61%|Disney
+  - 11|لمان 🇩🇪 @V2xay
+  - 15|GB_speednode_0016
+  - 15|RU_speednode_0038
+  - '11|🇺🇸USA-Hysteria2-@Filter_breake... #2'
+  - 3|🇺🇸84 |  4.0MB/s|30%|Openai
+  - 3|🇺🇸36 |  3.0MB/s|14%|Openai
+  - 3|🇺🇸6 |  1.3MB/s|46%|Openai
+  - 3|🇺🇸37 |  1.6MB/s|46%|Openai
+  - 10,11|🇩🇪 《@V2RayTheKyo》 وصل شدی عضو ...
+  - 15|DE_speednode_0009
+  - '12|Channel id: @ShadowProxy66🇬🇧 #1'
+  - 15|BG_speednode_0001
+  - 15|ES_speednode_0012
+  - 3|🇮🇷1 |  1.3MB/s|0%|Openai
+  - 3|🇸🇬2 |  2.8MB/s|61%|Youtube|Ope...
+  - 11|✅ @V2aryng_vpn کانفینگ رایگان
+  - 3|🇮🇳1 |  1.7MB/s|61%|Disney|Open...
+  - 3|🇺🇸35 |  3.0MB/s|0%|Openai|Gemi...
+  - 15|DE_speednode_0006
+  - 11|🇦 @game_file2020
+  - 3|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
+  - 15|US_speednode_0068
   - 15|US_speednode_0059
+  - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  - 11|🇸 @game_file2020
+  - 15|US_speednode_0055
+  - 3|🇺🇸17 |  2.5MB/s|30%|Openai
+  - 3|🇺🇸47 |  1.0MB/s|0%|Disney|Open...
+  - 15|CY_speednode_0004
+  - 3|🇺🇸46 |  2.3MB/s|62%|Netflix|Di...
+  - 3|🇺🇸44 |  2.4MB/s|46%|Openai
+  - 13|🇯🇵 日本2|@ripaojiedian
+  - '11|@V2rayNG3 #1'
+  - 3|🇺🇸50 |  1.3MB/s|20%|Disney|Ope...
+  - 3|🇩🇪3 |  2.6MB/s|20%|Openai
+  - 3|🇺🇸124 |  1.2MB/s|46%|Openai
+  - 11| @game_file2020
+  - 3|🇺🇸130 |  1.5MB/s|46%|Openai
+  - 3|🇺🇸54 |  4.6MB/s|30%|Openai
+  - 3|🇺🇸82 |  1.3MB/s
+  - 3|🇺🇸85 |  1.9MB/s|14%|Openai
+  - '11|@V2rayNG3 #6'
+  - 15|US_speednode_0067
+  - '11|🇧 @game_file2020 #3'
+  - 15|US_speednode_0070
+  - 10,11|🇳🇱 《@V2RayTheKyo》 وصل شدی عضو ...
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 15|GB_speednode_0032
+  - 3|🇺🇸128 |  1.7MB/s|14%|Openai
+  - 15|RU_speednode_0040
+  - '11|@V2aryng_vpn #7'
+  - 3|🇺🇸118 |  1.9MB/s|50%|Openai
+  - 15|DE_speednode_0008
+  - 13|🇯🇵 日本|@ripaojiedian
   - 3|🇺🇸101 |  1.6MB/s|14%|Openai
   - 15|US_speednode_0066
-  - '11|✅ @V2aryng_vpn کانفینگ رایگان #2'
-  - 3|🇺🇸61 |  1.0MB/s|Disney
-  - 11|@VpnFreak |Trade3|
-  - 15|KZ_speednode_0033
-  - 3|🇺🇸13 |  3.1MB/s|30%|Openai
-  - 3|🇺🇸3 |  1.3MB/s|46%|Openai
-  - 3|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
-  - 15|GB_speednode_0028
-  - '12|Channel id: @ShadowProxy66🇺🇸 #1'
-  - 15|GB_speednode_0017
-  - 3|🇺🇸91 |  4.3MB/s|46%|Openai
-  - 15|US_speednode_0055
-  - 3|🇺🇸5 |  2.0MB/s|46%|Openai
-  - 15|DE_speednode_0009
-  - 3|🇺🇸120 |  1.4MB/s
-  - 3|🌀6-CY |  4.9MB/s|44%|Openai
-  - 3|🇺🇸95 |  3.1MB/s|46%|Openai
-  - 11|@VpnFreak |Trade2|
-  - 3|🇺🇸52 |  4.8MB/s|33%|Disney|Ope...
-  - '11|🇧🇷 @game_file2020 #2'
-  - '11|Telegram: @IP_CF'
-  - '11|✅ @V2aryng_vpn کانفینگ رایگان #5'
-  - 3|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
-  - 3|🇸🇬2 |  2.8MB/s|61%|Youtube|Ope...
-  - 15|DE_speednode_0007
-  - 3|🇺🇸86 |  3.0MB/s|46%|Openai
-  - 11| @V2aryng_vpn کانی ان
-  - 11|@Filter_breaker | Germany
-  - '11|🇧🇷 @game_file2020 #1'
   - 3|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 15|VN_speednode_0075
-  - 3|🇺🇸29 |  2.9MB/s|30%|Openai
-  - 15|US_speednode_0054
-  - 13,14|韩国4|@ripaojiedian
-  - 3|🇺🇸106 |  1.8MB/s|14%|Openai
-  - '12|Channel id: @ShadowProxy66🇸🇬'
-  - 3|🇺🇸118 |  1.9MB/s|50%|Openai
-  - 3|🇺🇸122 |  1.4MB/s
-  - '11|@V2rayNG3 #2'
-  - 15|US_speednode_0062
-  - 3|🇺🇸66 |  3.7MB/s|46%|Openai
-  - 15|GB_speednode_0025
-  - '11|@V2aryng_vpn #7'
-  - 15|US_speednode_0044
-  - 11|🇹🇷 @game_file2020
-  - 3|🇺🇸46 |  2.3MB/s|62%|Netflix|Di...
-  - 15|RU_speednode_0041
-  - '11|🇩🇪 《@V2RayTheKyo》 وصل شدی عضو ... #2'
-  - 15|NN_speednode_0037
-  - 3|🇮🇳1 |  1.7MB/s|61%|Disney|Open...
-  - 13,14|香港6|@ripaojiedian
-  - 3|🇺🇸114 |  2.7MB/s|46%|Openai
-  - 3|🇺🇸9 |  4.6MB/s|Disney|Openai
-  - 3|🇩🇪1 |  1.5MB/s|0%|Openai
-  - 3|🇺🇸34 |  2.8MB/s|14%|Openai
-  - 3|🇺🇸65 |  4.4MB/s|0%|Openai|Gemi...
-  - '11|@V2rayNG3 #6'
-  - 11|@Mahdi2000_m ql_0365
-  - 15|US_speednode_0046
-  - '11|@v2ray313 کانالمون '
-  - '11,12|Channel id: @ShadowProxy66🇫🇷'
-  - 15|CH_speednode_0002
-  - 15|DE_speednode_0005
-  - 3|🇫🇷6 |  1.5MB/s|36%|Openai
-  - '11| @game_file2020 #3'
-  - '12|Channel id: @ShadowProxy66🇺🇸 #6'
-  - 3|🇺🇸39 |  1.0MB/s|14%|Openai
+  - 3|🇺🇸86 |  3.0MB/s|46%|Openai
+  - 3|🇺🇸16 |  4.2MB/s|Openai
+  - 15|US_speednode_0048
+  - '12|Channel id: @ShadowProxy66🇺🇸 #1'
+  - '11|@Filter_breaker | Germany #3'
   - 3|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-  - 11| @game_file2020
-  - 3|🇺🇸4 |  2.4MB/s|46%|Openai
-  - 3|🇺🇸93 |  1.8MB/s|14%|Openai
-  - 3|🇺🇸90 |  2.3MB/s|46%|Openai
-  - 3|🇺🇸31 |  2.3MB/s|14%|Openai
-  - '11|🇸 @game_file2020 #1'
-  - 3|🇺🇸1 |  4.4MB/s|30%|Openai
-  - 13|🇺🇸 美国2|@ripaojiedian
-  - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
-  - 15|RU_speednode_0038
-  - 3|🇺🇸67 |  2.6MB/s|46%|Openai
-  - 11|@Filter_breaker | United State...
-  - 3|🌀5-LI |  2.0MB/s|0%|Openai
-  - 3|🇰🇷3 |  1.3MB/s|61%|Disney|Open...
-  - 13,14|美国3|@ripaojiedian
-  - 3|🇫🇷3 |  4.1MB/s|36%|Openai
-  - 3|🇺🇸130 |  1.5MB/s|46%|Openai
-  - '11| @game_file2020 #2'
-  - 3|🇺🇸115 |  2.8MB/s|46%|Openai
-  - 3|🇺🇸18 |  2.8MB/s|0%|Netflix|Ope...
-  - 11|🇿🇦 @game_file2020
-  - 3|🇺🇸47 |  1.0MB/s|0%|Disney|Open...
-  - 3|🇺🇸126 |  2.0MB/s|14%|Openai
-  - '11|✅ @V2aryng_vpn کانفینگ رایگان #1'
-  - 3|🇺🇸121 |  1.2MB/s
   - 11|🇧 @game_file2020
+  - 13,14|香港6|@ripaojiedian
+  - 3|🇺🇸51 |  3.5MB/s|30%|Openai
+  - 3|🇺🇸22 |  1.7MB/s|30%|Openai
+  - 3|🇺🇸83 |  2.0MB/s|46%|Openai
+  - 3|🇺🇸113 |  2.0MB/s|14%|Openai
+  - '12|⚡️ @vpnserverrr (Hysteria) #1'
+  - 3|🇺🇸3 |  1.3MB/s|46%|Openai
+  - 15|US_speednode_0053
+  - 15|US_speednode_0052
+  - 15|CH_speednode_0003
+  - '11|Telegram: @IP_CF'
+  - 11|🇷 @game_file2020
+  - '11|🇺🇸USA-Hysteria2-@Filter_breake... #1'
+  - 13,14|日本3|@ripaojiedian
+  - 3|🇺🇸119 |  1.2MB/s
+  - 3|🇰🇷2 |  1.5MB/s|44%|Openai
+  - 13,14|新加坡|@ripaojiedian
+  - '11|𝐞𝐥𝐞𝐚: 𝐂𝐧𝐠_𝐭'
+  - 3|🇺🇸30 |  3.5MB/s|0%|Openai|Gemi...
+  - 3|🇺🇸112 |  2.7MB/s|14%|Openai
+  - 3|🇺🇸73 |  1.9MB/s|50%|Openai|Gem...
+  - 15|ES_speednode_0011
+  - 15|GB_speednode_0031
+  - '11|🇦🇺 @game_file2020 #1'
+  - 3|🇦🇪1 |  1.2MB/s|0%|Disney|Opena...
+  - 3|🇺🇸57 |  4.1MB/s|30%|Openai
+  - '11,12|Channel id: @ShadowProxy66🇺🇸'
+  - 3|🇺🇸72 |  2.2MB/s|14%|Openai
+  - 3|🇺🇸24 |  1.4MB/s|30%|Openai
+  - 3|🇫🇷7 |  3.3MB/s|36%|Openai
+  - 15|US_speednode_0049
+  - '11|✅ @V2aryng_vpn کانفینگ رایگان #2'
+  - 11|@VpnFreak |Trade2|
+  - 3|🇺🇸58 |  4.2MB/s|30%|Openai
+  - '11|Telegram:@config_proxy '
+  - 3|🇩🇪6 |  4.3MB/s|0%|Disney|Opena...
+  - 3|🇺🇸18 |  2.8MB/s|0%|Netflix|Ope...
+  - '11|🇸 @game_file2020 #2'
+  - 15|NN_speednode_0037
+  - 3|🇰🇷3 |  1.3MB/s|61%|Disney|Open...
+  - '10|NetAccount #2'
+  - 3|🇺🇸110 |  3.1MB/s|46%|Openai
+  - 15|VN_speednode_0076
+  - 11|@meli_proxyy
+  - 15|FR_speednode_0013
+  - 11|🇦🇺 @game_file2020
+  - '11,12|Channel id: @ShadowProxy66🇨🇦'
+  - 3|🇺🇸53 |  1.9MB/s|61%|Disney
+  - 3|🇺🇸126 |  2.0MB/s|14%|Openai
+  - 13,14|韩国2|@ripaojiedian
+  - 13,14|韩国4|@ripaojiedian
+  - 15|US_speednode_0072
+  - '12|Channel id: @ShadowProxy66🇸🇬'
+  - 3|🇺🇸25 |  4.3MB/s|30%|Openai
+  - 11|@Mahdi2000_m ql_0367
+  - 11|@v2ray313 کانالمون ️
+  - 11|@vpnv2r4y✔️㉿ ᵛᵖⁿ یوتیوب️
+  - 15|GB_speednode_0021
+  - 3|🇺🇸12 |  2.2MB/s|30%|Openai
+  - '11|🇩🇪 《@V2RayTheKyo》 وصل شدی عضو ... #2'
+  - 3|🇺🇸99 |  4.8MB/s|0%|Openai|Gemi...
+  - '11| @game_file2020 #3'
+  - '11|🇧 @game_file2020 #1'
+  - 3|🇺🇸67 |  2.6MB/s|46%|Openai
+  - '11|🇩🇪 @game_file2020 #1'
+  - 15|US_speednode_0063
+  - 3|🇺🇸26 |  1.3MB/s|30%|Openai
+  - 15|VN_speednode_0073
+  - 3|🇺🇸7 |  1.2MB/s|46%|Openai
+  - 15|VN_speednode_0078
+  - 3|🇺🇸13 |  3.1MB/s|30%|Openai
+  - 3|🇺🇸2 |  4.4MB/s|30%|Openai
+  - 15|US_speednode_0060
+  - 3|🇺🇸114 |  2.7MB/s|46%|Openai
+  - 15|VN_speednode_0079
+  - '12|⚡️ @vpnserverrr (Hysteria) #2'
+  - 13|tg频道:@ripaojiedian
+  - 3|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
+  - 3|🇺🇸115 |  2.8MB/s|46%|Openai
+  - '12|Channel id: @ShadowProxy66🇺🇸 #6'
+  - 3|🇺🇸21 |  2.2MB/s|30%|Openai
+  - 12|⚡️ @vpnserverrr (Hysteria)
+  - '11|@V2rayNG3 #7'
+  - 3|🇺🇸94 |  1.2MB/s|14%|Openai
+  - 15|KZ_speednode_0033
+  - 11|@Filter_breaker | United State...
+  - '10,11|⚜️Telegram: @IP_CF #3'
+  - 3|🇺🇸116 |  1.2MB/s
+  - 11|🇪 @game_file2020
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 15|GB_speednode_0019
+  - '3,10,12|Channel id: @ShadowProxy66🇺🇸 #2'
+  - 3|🇺🇸88 |  1.1MB/s
+  - 11| @V2aryng_vpn کانفینگ رایگان
+  - '12|Channel id: @ShadowProxy66🇺🇸 #4'
+  - 15|VN_speednode_0074
+  - '11|@v2rayng_fars 🚀 Telegram #1'
+  - 11|@Filter_breaker | Germany
+  - 3|🇺🇸121 |  1.2MB/s
+  - 3|🇺🇸97 |  2.2MB/s|14%|Openai
+  - 15|LU_speednode_0035
+  - 3|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
+  - '11|@V2rayNG3 #9'
+  - 3|🇺🇸56 |  1.5MB/s|30%|Openai
+  - '11|@v2ray313 کانالمون '
+  - 3|🇺🇸90 |  2.3MB/s|46%|Openai
+  - 11|@game_file2020500 GB
+  - '11|@V2rayNG3 #5'
+  - 11|🇧🇷 @game_file2020
+  - '12|Channel id: @ShadowProxy66🇺🇸 #3'
+  - 15|US_speednode_0047
+  - 11|@VpnFreak |Trade1|
+  - '11|✅ @V2aryng_vpn کانفینگ رایگان #3'
+  - 3|🇺🇸125 |  1.5MB/s|14%|Openai
+  - '11| @game_file2020 #1'
+  - '11|🇩🇪 《@V2RayTheKyo》 وصل شدی عضو ... #1'
+  - 3|🇺🇸40 |  3.3MB/s|14%|Openai
+  - 3|🇺🇸109 |  3.2MB/s
+  - 3|🇺🇦1 |  3.3MB/s|0%|Openai
+  - 13,14|香港4|@ripaojiedian
+  - 3|🇺🇸38 |  1.3MB/s|46%|Openai
+  - 3|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+  - '11|🇸 @game_file2020 #1'
+  - 3|🇺🇸71 |  1.0MB/s|0%|Openai|Gemi...
+  - 3|🇺🇸117 |  2.6MB/s|0%|Openai|Gem...
+  - 13,14|美国3|@ripaojiedian
+  - 15|GB_speednode_0029
+  - '11|@V2aryng_vpn #5'
+  - 3|🇫🇷1 |  3.4MB/s|15%|Openai
+  - 13,14|美国4|@ripaojiedian
+  - 3|🇺🇸33 |  2.8MB/s|30%|Openai
+  - '3,11|@V2aryng_vpn #6'
+  - 15|VN_speednode_0075
+  - 3|🇺🇸98 |  1.3MB/s
+  - 11|@V2rayNG3
+  - 13|🇺🇸 美国2|@ripaojiedian
+  - 13,14|新加坡2|@ripaojiedian
+  - 3|🇫🇷2 |  2.2MB/s|25%|Youtube|Ope...
+  - 11|@Filter_breaker | United Kingd...
+  - 3|🇺🇸103 |  3.2MB/s
+  - 3|🇺🇸106 |  1.8MB/s|14%|Openai
+  - 15|RU_speednode_0041
+  - '11|🇺🇸USA-Hysteria2-@Filter_breake... #3'
+  - 15|GB_speednode_0020
+  - '11|@V2rayNG3 #4'
+  - 3|🇩🇪2 |  1.3MB/s|0%|Openai
+  - 3|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  - '11|🇦 @game_file2020 #1'
+  - 15|GB_speednode_0023
+  - '11|⚜️Telegram: @IP_CF #1'
+  - 3|🇺🇸75 |  2.0MB/s|14%|Openai
+  - 3|🇺🇸79 |  1.7MB/s|30%|Openai
+  - 3|🇺🇸52 |  4.8MB/s|33%|Disney|Ope...
+  - '11|🇹🇷 @game_file2020 #1'
+  - 10,11| @V2RayTheKyo و   ش
+  - 15|GB_speednode_0028
+  - '11| @game_file2020 #2'
+  - 3|🇺🇸1 |  4.4MB/s|30%|Openai
+  - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  - 3|🇺🇸96 |  2.4MB/s
+  - 15|GB_speednode_0022
+  - 15|US_speednode_0044
+  - 3|🇫🇷4 |  1.8MB/s|36%|Openai
+  - 3|🇺🇸28 |  1.3MB/s|30%|Openai
+  - 3|🇺🇸20 |  3.0MB/s|30%|Openai
+  - 3|🌀2-TR |  1.2MB/s|0%|Netflix|Di...
+  - '10,11|@vpnv2r4y✔️㉿ ᵛᵖⁿ یوتیوب️ #1'
+  - 13|🇰🇷 韩国|@ripaojiedian
+  - '10|Channel id: @ShadowProxy66 #1'
+  - '11|@meli_proxyy #3'
+  - '11,12|Channel id: @ShadowProxy66🇫🇷'
+  - 13,14|日本4|@ripaojiedian
+  - 15|NL_speednode_0036
+  - 15|US_speednode_0069
+  - '11|🇷 @game_file2020 #1'
+  - 15|DE_speednode_0007
+  - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+  - '11|✅ @V2aryng_vpn کانفینگ رایگان #1'
+  - 3|🇩🇪1 |  1.5MB/s|0%|Openai
+  - 15|US_speednode_0051
+  - 11|@vpnv2r4y️  یو️
+  - '11|🇧🇷 @game_file2020 #2'
+  - 15|US_speednode_0050
+  - 3|🌀5-LI |  2.0MB/s|0%|Openai
+  - 3|🇺🇸80 |  2.9MB/s|46%|Openai
+  - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+  - 3|🇺🇸123 |  1.3MB/s|61%|Disney|Op...
+  - 3|🇺🇸78 |  4.2MB/s|0%|Openai|Gemi...
+  - 3|🇺🇸104 |  2.1MB/s
+  - 11| @V2aryng_vpn کانی ان
+  - 11|IRAN 4 (@Outline_Vpn)
+  - 3|🇺🇸91 |  4.3MB/s|46%|Openai
+  - 3|🇺🇸65 |  4.4MB/s|0%|Openai|Gemi...
+  - 11|@Capoit
+  - 3|🇺🇸127 |  3.1MB/s|14%|Openai
+  - 3|🇺🇸4 |  2.4MB/s|46%|Openai
+  - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  - 15|GB_speednode_0027
+  - 3|🇺🇸49 |  4.0MB/s|30%|Openai
+  - 14|香港v2|@ripaojiedian
+  - 15|US_speednode_0054
+  - 3|🇸🇬3 |  1.2MB/s|30%|Disney|Open...
+  - 15|US_speednode_0058
+  - 3|🇺🇸8 |  1.2MB/s|14%|Openai
+  - 3|🇺🇸77 |  3.1MB/s|14%|Openai
+  - 11|🇿🇦 @game_file2020
+  - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
+  - 15|CH_speednode_0002
+  - 3|🇺🇸81 |  4.1MB/s|46%|Openai
+  - 13,14|香港5|@ripaojiedian
+  - 15|RU_speednode_0042
+  - 3|🇺🇸59 |  4.7MB/s|30%|Openai
+  - 3|🇺🇸76 |  1.0MB/s|46%|Openai
+  - 15|US_speednode_0057
+  - 3|🇺🇸11 |  1.4MB/s|30%|Openai
+  - 3|🇺🇸93 |  1.8MB/s|14%|Openai
+  - '11|🇧 @game_file2020 #2'
+  - '11|@v2ray313 کانال '
+  - 15|GB_speednode_0018
+  - 3|🇺🇸39 |  1.0MB/s|14%|Openai
+  - 3|🇩🇪4 |  2.8MB/s|13%|Netflix|You...
+  - 15|US_speednode_0071
+  - 15|US_speednode_0056
+  - 3|🇺🇸29 |  2.9MB/s|30%|Openai
+  - 3|🇺🇸122 |  1.4MB/s
+  - 3|🇺🇸19 |  1.5MB/s|30%|Openai
+  - 15|GB_speednode_0025
+  - 3|🇺🇸102 |  1.1MB/s|14%|Openai
+  - 11|@VpnFreak |Trade3|
+  - 3|🇫🇷5 |  3.1MB/s|36%|Openai
+  - 11|@Mahdi2000_m ql_0366
+  - 3|🇺🇸129 |  2.7MB/s|14%|Openai
+  - 3|🌀1-MD |  1.8MB/s|44%|Youtube|O...
+  - 3|🇺🇸66 |  3.7MB/s|46%|Openai
+  - 10|NetAccount
+  - '11|@V2rayNG3 #3'
+  - 15|US_speednode_0061
+  - 15|US_speednode_0045
+  - 14|日本v2|@ripaojiedian
+  - 3|🇫🇷6 |  1.5MB/s|36%|Openai
+  - 3|🇺🇸108 |  1.4MB/s
+  - '11|🇧🇷 @game_file2020 #1'
+  - '11|@V2rayNG3 #2'
+  - 3|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
+  - 3|🇺🇸27 |  1.1MB/s|30%|Openai
+  - 3|🇺🇸14 |  1.7MB/s|30%|Openai
+  - 3|🇺🇸9 |  4.6MB/s|Disney|Openai
+  - 15|DE_speednode_0010
   - 3|🇺🇸60 |  2.7MB/s|14%|Openai
+  - 3|🇺🇸23 |  2.0MB/s|30%|Openai
+  - 3|🇺🇸120 |  1.4MB/s
+  - 3|🇺🇸41 |  4.7MB/s|48%|Openai
+  - 3|🇺🇸48 |  1.4MB/s|0%|Disney|Open...
+  - 15|US_speednode_0046
+  - 3|🇳🇱1 |  1.1MB/s|59%|Youtube|Ope...
+  - 3|🇺🇸55 |  3.5MB/s|30%|Openai
+  - '11|@V2aryng_vpn #4'
+  - '11|@V2aryng_vpn #2'
+  - '11|@Filter_breaker | Germany #1'
+  - 15|GB_speednode_0024
+  - 15|GB_speednode_0030
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -4247,7 +4232,6 @@ proxy-groups:
   - 13|🇯🇵 日本2|@ripaojiedian
   - 13,14|日本3|@ripaojiedian
   - 13,14|日本4|@ripaojiedian
-  - 13|🇯🇵 日本5|@ripaojiedian
   - 14|日本v2|@ripaojiedian
   type: select
 - name: 🇺🇸 美国
@@ -4319,7 +4303,7 @@ proxy-groups:
   - 3|🇺🇸65 |  4.4MB/s|0%|Openai|Gemi...
   - 3|🇺🇸66 |  3.7MB/s|46%|Openai
   - 3|🇺🇸67 |  2.6MB/s|46%|Openai
-  - '3,12|Channel id: @ShadowProxy66🇺🇸 #2'
+  - '3,10,12|Channel id: @ShadowProxy66🇺🇸 #2'
   - 3|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
   - 3|🇺🇸70 |  1.7MB/s|Openai
   - 3|🇺🇸71 |  1.0MB/s|0%|Openai|Gemi...
@@ -4391,8 +4375,6 @@ proxy-groups:
   - 13|🇺🇸 美国2|@ripaojiedian
   - 13,14|美国3|@ripaojiedian
   - 13,14|美国4|@ripaojiedian
-  - 13|🇺🇸 美国5|@ripaojiedian
-  - 14|美国5|@ripaojiedian
   - 15|US_speednode_0044
   - 15|US_speednode_0045
   - 15|US_speednode_0046
@@ -4434,15 +4416,14 @@ proxy-groups:
 - name: 🇭🇰 香港
   proxies:
   - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  - '10|NetAccount #2'
   - '10,11|@vpnv2r4y✔️㉿ ᵛᵖⁿ یوتیوب️ #1'
   - 13|🇭🇰 香港|@ripaojiedian
   - 13|🇭🇰 香港2|@ripaojiedian
-  - 13|🇭🇰 香港3|@ripaojiedian
   - 13,14|香港4|@ripaojiedian
   - 13,14|香港5|@ripaojiedian
   - 13,14|香港6|@ripaojiedian
-  - 13|🇭🇰 香港7|@ripaojiedian
-  - 14|香港3|@ripaojiedian
+  - 14|香港|@ripaojiedian
   - 14|香港v2|@ripaojiedian
   type: select
 - name: 🇨🇦 加拿大
@@ -4471,8 +4452,9 @@ proxy-groups:
   type: select
 - name: 🇬🇧 英国
   proxies:
+  - 10,11|🇳🇱 《@V2RayTheKyo》 وصل شدی عضو ...
   - 11|@game_file2020500 GB
-  - '12|Channel id: @ShadowProxy66🇬🇧'
+  - '12|Channel id: @ShadowProxy66🇬🇧 #1'
   - 15|GB_speednode_0016
   - 15|GB_speednode_0017
   - 15|GB_speednode_0018
@@ -4496,13 +4478,15 @@ proxy-groups:
   - 3|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
   - 3|🇰🇷2 |  1.5MB/s|44%|Openai
   - 3|🇰🇷3 |  1.3MB/s|61%|Disney|Open...
-  - 13,14|美国|@ripaojiedian
+  - 13|🇰🇷 韩国|@ripaojiedian
+  - 13,14|韩国2|@ripaojiedian
   - 13,14|韩国4|@ripaojiedian
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
   - 3|🇷🇺1 |  2.5MB/s|50%
-  - '12|Channel id: @ShadowProxy66🇷🇺'
+  - 10,11,12|@drakvpn🐉
+  - '12|Channel id: @ShadowProxy66🇷🇺 #1'
   - 15|RU_speednode_0038
   - 15|RU_speednode_0039
   - 15|RU_speednode_0040
