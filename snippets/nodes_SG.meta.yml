@@ -70,6 +70,14 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 13|🇸🇬 新加坡3|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  tfo: false
+  type: ss
 - name: 15|SG_speednode_0107
   network: ws
   password: ttfang
