@@ -1,4 +1,4 @@
-# Update: 2025-07-14 08:58
+# Update: 2025-07-14 11:58
 allow-lan: false
 dns:
   enable: true
@@ -384,7 +384,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 803dfb35-0ae6-4540-9715-7182fc043187
-- name: 15|ES_speednode_0069
+- name: 15|ES_speednode_0047
   network: ws
   password: trojan
   port: 8443
@@ -397,20 +397,7 @@ proxies:
     headers:
       Host: store.timimi.dpdns.org
     path: /
-- name: 15|GB_speednode_0094
-  network: ws
-  password: trojan
-  port: 443
-  server: 91.193.58.0
-  skip-cert-verify: true
-  sni: wahaha.yingyangkuaixian.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: wahaha.yingyangkuaixian.dpdns.org
-    path: /?ed=2560
-- name: 15|KZ_speednode_0121
+- name: 15|KZ_speednode_0076
   network: ws
   password: tg-fq521free
   port: 443
@@ -423,7 +410,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: 15|RU_speednode_0179
+- name: 15|RU_speednode_0115
   network: ws
   password: tg-fq521free
   port: 443
@@ -436,7 +423,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: 15|US_speednode_0288
+- name: 15|US_speednode_0224
   network: ws
   password: tg-fq521free
   port: 443
@@ -449,7 +436,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: 15|US_speednode_0346
+- name: 15|US_speednode_0227
   network: ws
   password: tg-fq521free
   port: 443
@@ -473,49 +460,48 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13,14|韩国2|@ripaojiedian
-  - 15|US_speednode_0288
-  - 13,14|新加坡|@ripaojiedian
-  - 13|🇻🇳 越南|@ripaojiedian
-  - 3|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-  - 13,14|日本3|@ripaojiedian
-  - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-  - 13,14|香港5|@ripaojiedian
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 15|GB_speednode_0094
-  - 13,14|新加坡2|@ripaojiedian
-  - 13|🇯🇵 日本|@ripaojiedian
-  - 15|ES_speednode_0069
-  - 13,14|美国4|@ripaojiedian
-  - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-  - 13|🇭🇰 香港7|@ripaojiedian
-  - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
-  - 13|🇭🇰 香港3|@ripaojiedian
-  - 13,14|香港6|@ripaojiedian
-  - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-  - 14|香港3|@ripaojiedian
-  - 13|🇸🇬 新加坡3|@ripaojiedian
-  - 15|KZ_speednode_0121
-  - 13,14|香港4|@ripaojiedian
-  - 13,14|韩国|@ripaojiedian
-  - 14|香港7|@ripaojiedian
-  - 15|US_speednode_0346
-  - 15|RU_speednode_0179
-  - 13,14|香港|@ripaojiedian
-  - 13|🇺🇸 美国2|@ripaojiedian
-  - 13,14|美国3|@ripaojiedian
-  - 13|🇯🇵 日本2|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
-  - 3|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
   - 3|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-  - 13,14|日本4|@ripaojiedian
+  - 15|ES_speednode_0047
   - 3|🇰🇷2 |  1.5MB/s|44%|Openai
-  - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-  - 14|新加坡3|@ripaojiedian
-  - 14|香港v2|@ripaojiedian
-  - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  - 14|香港7|@ripaojiedian
+  - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+  - 13,14|新加坡2|@ripaojiedian
+  - 15|US_speednode_0227
+  - 13,14|香港4|@ripaojiedian
+  - 13|tg频道:@ripaojiedian
+  - 13,14|韩国|@ripaojiedian
   - 3|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  - 15|RU_speednode_0115
+  - 15|US_speednode_0224
+  - 3|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+  - 13,14|香港6|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+  - 13,14|日本4|@ripaojiedian
+  - 13,14|美国3|@ripaojiedian
+  - 13,14|美国4|@ripaojiedian
+  - 15|KZ_speednode_0076
+  - 14|新加坡3|@ripaojiedian
+  - 14|香港3|@ripaojiedian
+  - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  - 13|🇺🇸 美国2|@ripaojiedian
+  - 13|🇯🇵 日本|@ripaojiedian
+  - 13,14|香港|@ripaojiedian
+  - 14|香港v2|@ripaojiedian
+  - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
+  - 13,14|日本3|@ripaojiedian
+  - 13|🇻🇳 越南|@ripaojiedian
+  - 13|🇸🇬 新加坡3|@ripaojiedian
+  - 13|🇭🇰 香港7|@ripaojiedian
   - 14|日本v2|@ripaojiedian
+  - 13,14|韩国2|@ripaojiedian
+  - 13|🇯🇵 日本2|@ripaojiedian
+  - 13,14|香港5|@ripaojiedian
+  - 13|🇭🇰 香港3|@ripaojiedian
+  - 3|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
   type: fallback
   url: https://www.google.com/
 - interval: 300
