@@ -1,4 +1,4 @@
-# Update: 2025-07-18 14:17
+# Update: 2025-07-18 17:15
 allow-lan: false
 dns:
   enable: true
@@ -173,7 +173,7 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- name: 13,14,15|CN_speednode_0015
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 1122
@@ -181,7 +181,6 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-  udp: true
 - name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: da631e61-bead-4c9c-8bd7-7bea82f736ae
@@ -190,7 +189,7 @@ proxies:
   skip-cert-verify: false
   sni: nkrpjj.cn
   type: trojan
-- name: 13,14,15|CN_speednode_0014
+- name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 9141
@@ -198,7 +197,6 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-  udp: true
 - name: 13,14|香港6|@ripaojiedian
   network: tcp
   password: 7367d04e-4c59-4dff-a50e-12e730a09891
@@ -242,7 +240,7 @@ proxies:
   server: 137.220.191.40
   tfo: false
   type: ss
-- name: 13,14,15|CN_speednode_0011
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 53248
@@ -250,8 +248,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-  udp: true
-- name: 13,14,15|CN_speednode_0010
+- name: 13,14|日本4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 41225
@@ -259,8 +256,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-  udp: true
-- name: 13,14,15|CN_speednode_0012
+- name: 13,14|韩国|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 16158
@@ -268,8 +264,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-  udp: true
-- name: 13,14,15|CN_speednode_0017
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 44123
@@ -277,8 +272,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-  udp: true
-- name: 13,14,15|CN_speednode_0013
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 32765
@@ -286,7 +280,6 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-  udp: true
 - cipher: rc4-md5
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
@@ -298,7 +291,7 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 13,14,15|CN_speednode_0018
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 4447
@@ -306,8 +299,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-  udp: true
-- name: 13,14,15|CN_speednode_0016
+- name: 13,14|美国4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 13855
@@ -315,7 +307,6 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-  udp: true
 - cipher: aes-256-gcm
   name: 13|🇦🇹 奥地利|@ripaojiedian
   password: TG:@Enkelte_notif&&TG:@Notif_Chat
@@ -360,20 +351,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 2a37eb45-4cdd-4c2e-914e-ed2f972e4003
-- name: 15|ES_speednode_0029
-  network: ws
-  password: trojan
-  port: 8443
-  server: 109.234.211.66
-  skip-cert-verify: false
-  sni: store.timimi.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: store.timimi.dpdns.org
-    path: /
-- name: 15|GB_speednode_0047
+- name: 15|GB_speednode_0028
   network: ws
   password: trojan
   port: 443
@@ -386,20 +364,7 @@ proxies:
     headers:
       Host: wahaha.yingyangkuaixian.dpdns.org
     path: /
-- name: 15|KZ_speednode_0057
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 194.76.18.129
-  skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: 15|RU_speednode_0074
+- name: 15|RU_speednode_0040
   network: ws
   password: tg-fq521free
   port: 443
@@ -412,20 +377,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: 15|TW_speednode_0079
-  network: ws
-  password: ttfang
-  port: 81
-  server: 103.106.230.186
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: /
-- name: 15|US_speednode_0122
+- name: 15|US_speednode_0077
   network: ws
   password: tg-fq521free
   port: 443
@@ -449,46 +401,43 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|香港v2|@ripaojiedian
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 13,14,15|CN_speednode_0014
-  - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-  - 15|ES_speednode_0029
-  - 13,14,15|CN_speednode_0018
-  - 13,14,15|CN_speednode_0013
-  - 15|RU_speednode_0074
-  - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
-  - 13,14|香港3|@ripaojiedian
-  - 15|GB_speednode_0047
-  - 15|KZ_speednode_0057
-  - 15|TW_speednode_0079
-  - 14|日本v2|@ripaojiedian
-  - 3|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-  - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-  - 3|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-  - 13|tg频道:@ripaojiedian
-  - 13,14,15|CN_speednode_0012
+  - 15|RU_speednode_0040
   - 13|🇯🇵 日本|@ripaojiedian
-  - 13,14|香港|@ripaojiedian
-  - 13|🇻🇳 越南|@ripaojiedian
-  - 3|🇰🇷2 |  1.5MB/s|44%|Openai
-  - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-  - 3|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-  - 13,14,15|CN_speednode_0017
-  - 13|🇺🇸 美国2|@ripaojiedian
-  - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-  - 15|US_speednode_0122
-  - 13,14,15|CN_speednode_0016
-  - 13,14|香港6|@ripaojiedian
-  - 13|🇹🇼 台湾|@ripaojiedian
   - 3|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-  - 13|🇦🇹 奥地利|@ripaojiedian
-  - 13,14,15|CN_speednode_0015
-  - 14|台湾|@ripaojiedian
+  - 3|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
   - 13|🇯🇵 日本2|@ripaojiedian
-  - 13,14,15|CN_speednode_0010
+  - 3|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+  - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
+  - 13,14|香港|@ripaojiedian
+  - 13,14|香港3|@ripaojiedian
+  - 13|🇦🇹 奥地利|@ripaojiedian
+  - 13,14|香港6|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 15|GB_speednode_0028
+  - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+  - 3|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 14|香港v2|@ripaojiedian
+  - 14|台湾|@ripaojiedian
+  - 13|tg频道:@ripaojiedian
+  - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+  - 13,14|新加坡2|@ripaojiedian
+  - 13|🇻🇳 越南|@ripaojiedian
+  - 13|🇺🇸 美国2|@ripaojiedian
+  - 13,14|美国4|@ripaojiedian
+  - 13|🇹🇼 台湾|@ripaojiedian
+  - 14|日本v2|@ripaojiedian
+  - 3|🇰🇷2 |  1.5MB/s|44%|Openai
   - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-  - 13,14,15|CN_speednode_0011
+  - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  - 13,14|新加坡|@ripaojiedian
+  - 15|US_speednode_0077
+  - 13,14|日本4|@ripaojiedian
+  - 13,14|香港5|@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
+  - 13,14|美国3|@ripaojiedian
+  - 13,14|韩国|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
