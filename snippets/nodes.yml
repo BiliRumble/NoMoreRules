@@ -332,7 +332,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 2a37eb45-4cdd-4c2e-914e-ed2f972e4003
-- name: 15|GB_speednode_0028
+- name: 15|GB_speednode_0050
+  password: '74260628090146500'
+  port: 443
+  server: stirring-parakeet.shiner427.skin
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 15|GB_speednode_0065
   network: ws
   password: trojan
   port: 443
@@ -344,30 +351,4 @@ proxies:
   ws-opts:
     headers:
       Host: wahaha.yingyangkuaixian.dpdns.org
-    path: /
-- name: 15|RU_speednode_0040
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 45.67.215.95
-  skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: 15|US_speednode_0077
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 198.62.62.67
-  skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
     path: /
