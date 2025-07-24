@@ -407,6 +407,8 @@ class Node:
             # TODO: Fake UUID
             # if self.type == 'vmess' and len(self.data['uuid']) != len(DEFAULT_UUID):
             #     return True
+            if 'obfs' in self.data and 'obfs-password' not in self.data:
+                return True
             if 'sni' in self.data and 'google.com' in self.data['sni'].lower():
                 # That's not designed for China
                 self.data['sni'] = 'www.bing.com'
