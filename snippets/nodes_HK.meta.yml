@@ -13,73 +13,40 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 13|🇭🇰 香港6|@ripaojiedian
-  port: 36519
-  server: 183.236.51.38
-  skip-cert-verify: false
-  tfo: false
+- name: 10|🇰香港2
+  password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae
+  port: 443
+  server: 89.185.27.133
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 13,14,15|CN_speednode_0043
-  network: tcp
-  password: 85f133142f04dbf6547da33895cfabb3
-  port: 39001
-  server: 120.233.128.68
+  type: hysteria2
+- name: 10|🇭🇰香港
+  password: Wo9rLCYw6gzcfTgIu11mhBVciVs
+  port: 29282
+  server: 47.74.34.102
   skip-cert-verify: true
-  sni: 120.233.128.68
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 13|🇭🇰 香港2|@ripaojiedian
-  password: 1450cecfb93f
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: kh36v1.pmxiaonan.xyz
-    mode: websocket
-    mux: true
-    path: /simieepvt
-    skip-cert-verify: false
-    tls: true
-  port: 15116
-  server: kh36v1.pmxiaonan.xyz
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 13,14|香港4|@ripaojiedian
-  network: tcp
-  password: 85f133142f04dbf6547da33895cfabb3
-  port: 39001
-  server: 113.99.140.184
+  tls: false
+  type: hysteria2
+- name: '10|🇭🇰香港 #1'
+  password: b57bbf70-8958-4ae5-b6fd-bcf39b81900c
+  port: 63518
+  server: ovo.5188666.xyz
   skip-cert-verify: true
-  sni: www.yrtok.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 13,14|香港5|@ripaojiedian
-  network: ws
-  port: '8443'
-  server: 104.18.42.62
-  servername: hk2.huaweiwuu5.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 48469ac3-9fe7-4fb3-9320-6c8b0494c4f7
-  ws-opts:
-    headers:
-      Host: hk2.huaweiwuu5.xyz
-    path: /
+  tls: false
+  type: hysteria2
+- name: 10|🇭🇰香港2
+  password: b866d83a-d301-4270-b699-40f322bf52fb
+  port: 443
+  server: 89.185.27.133
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 13,14|香港7|@ripaojiedian
+  name: 13,14|香港|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -93,113 +60,76 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 13|🇭🇰 香港2|@ripaojiedian
+  password: 9bfdde71b4c0
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: newroot2v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /cauejypbltqt
+    skip-cert-verify: false
+    tls: true
+  port: 636
+  server: 103.103.245.158
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 14|香港6|@ripaojiedian
+  client-fingerprint: chrome
+  name: 13|🇭🇰 香港3|@ripaojiedian
+  port: 11200
+  server: 43.247.135.254
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1edd0cbc-7fde-4c9d-9909-1fc0e2a8f6aa
+- client-fingerprint: chrome
+  name: 13,14|香港4|@ripaojiedian
   network: tcp
-  port: '36519'
-  server: 183.236.51.38
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 2078
+  server: 36.151.192.238
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 13,14|香港5|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 443
+  server: 36.151.251.7
+  skip-cert-verify: false
+  sni: m.avhxc.cn
+  type: trojan
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 13|🇭🇰 香港6|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 103.149.183.154
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|香港3|@ripaojiedian
+  network: tcp
+  port: '11200'
+  server: 43.247.135.254
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 1edd0cbc-7fde-4c9d-9909-1fc0e2a8f6aa
 - alterId: 0
   cipher: auto
   name: 14|香港v2|@ripaojiedian
   network: kcp
-  port: '10655'
-  server: 43.99.247.11
+  port: '63101'
+  server: 47.76.160.154
   servername: ''
   tls: false
   type: vmess
-  uuid: cd9d6687-d1c0-49d9-89fa-2ac90940b17a
-- client-fingerprint: chrome
-  name: 15|HK_speednode_0124
-  network: ws
-  port: 8880
-  server: 45.192.222.63
-  servername: jp.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 15|HK_speednode_0125
-  network: ws
-  port: 8880
-  server: 154.211.8.63
-  servername: jp.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 15|HK_speednode_0126
-  network: ws
-  port: 8880
-  server: 45.192.224.213
-  servername: jp.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 15|HK_speednode_0127
-  network: ws
-  port: 8880
-  server: 45.192.224.63
-  servername: jp.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 15|HK_speednode_0128
-  network: ws
-  port: 8880
-  server: 154.218.15.63
-  servername: jp.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 15|HK_speednode_0129
-  network: ws
-  port: 8880
-  server: 45.192.223.63
-  servername: jp.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+  uuid: ba47c516-0c18-49d5-9548-6370c835e163
