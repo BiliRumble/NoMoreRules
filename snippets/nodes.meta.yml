@@ -1639,30 +1639,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: 10|日本
-  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
-  port: 443
-  server: 153.121.42.218
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: 10|日本2
-  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
-  port: 443
-  server: 45.11.1.62
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: 10|未命名
-  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
-  port: 443
-  server: 87.254.23.104
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: '10|日本 #1'
   password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
   port: 443
   server: aws-linkhy17.liangxin1.xyz
@@ -1670,7 +1646,7 @@ proxies:
   sni: www.apple.com.cn
   tls: false
   type: hysteria2
-- name: '10|未命名 #1'
+- name: 10|未命名
   password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
   port: 443
   server: aws-linkhy2.liangxin1.xyz
@@ -1678,7 +1654,7 @@ proxies:
   sni: www.tesla.cn
   tls: false
   type: hysteria2
-- name: '10|未命名 #2'
+- name: '10|未命名 #1'
   password: 37d19f09-5fa4-4ad0-8484-55050b582a29
   port: 2056
   server: zp1.eyucdn.xyz
@@ -1727,7 +1703,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 10|美国🇺🇸
+- name: 10|🇺🇸
   password: RKrGw4dSUwK3YAvqdQI8tcqNl0
   port: 34060
   server: 35.94.124.236
@@ -1742,7 +1718,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|未命名 #3'
+- name: '10|未命名 #2'
   password: a914681a-8dda-4c98-8468-c313f5539b14
   port: 2056
   server: sg3.eyucdn.xyz
@@ -1805,7 +1781,7 @@ proxies:
   sni: www.teslaautomation.de
   tls: false
   type: hysteria2
-- name: '10|未命名 #4'
+- name: '10|未命名 #3'
   password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
   port: 10086
   server: asg.pagate.top
