@@ -1857,6 +1857,14 @@ proxies:
   tls: false
   type: hysteria2
 - name: 11|@V2rayNG3
+  password: '123456'
+  port: 443
+  server: 192.3.85.237
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '11|@V2rayNG3 #1'
   password: 15cca331-9e92-449d-93b0-25f82203595f
   port: 20309
   server: gb.gomeow.online
@@ -1880,7 +1888,7 @@ proxies:
   sni: us10.s2fjeyeeyafe.bond
   tls: false
   type: hysteria2
-- name: '11|@V2rayNG3 #1'
+- name: '11|@V2rayNG3 #2'
   obfs: salamander
   obfs-password: de8287cd33b05fa3
   password: 22f2c759db51b3d0
@@ -1888,6 +1896,14 @@ proxies:
   server: 109.120.135.123
   skip-cert-verify: true
   sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 11|10 https://dafei.de
+  password: 27e473f8-d610-4b04-bdf7-d0c39b47c897
+  port: 45000
+  server: 23.80.81.213
+  skip-cert-verify: true
+  sni: www.apple.com
   tls: false
   type: hysteria2
 - name: 11|v2raybluecrystal2
@@ -1917,12 +1933,36 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '11|@V2rayNG3 #2'
+- name: 11|美国10 付费推荐：https://dafei.de
+  password: 527a7c04-9a2c-4fdb-aa18-37337e62e917
+  port: 45000
+  server: 107.174.41.101
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: false
+  type: hysteria2
+- name: '11|美国10 付费推荐：https://dafei.de #1'
+  password: 67828a6e-0144-4e57-8169-2447a3dd2e61
+  port: 45000
+  server: 23.80.81.213
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: false
+  type: hysteria2
+- name: '11|@V2rayNG3 #3'
   password: 75577117-ABCD-DCBA-AAAA-CC777775577B
   port: 7777
   server: s15.serv00.com
   skip-cert-verify: true
   sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '11|美国10 付费推荐：https://dafei.de #2'
+  password: 8a104bc2-a8d1-4f38-8c29-17176a68b7d5
+  port: 45000
+  server: 23.80.81.213
+  skip-cert-verify: true
+  sni: www.apple.com
   tls: false
   type: hysteria2
 - name: 11|telegram  @v2rayNG_Matsuri
@@ -1955,7 +1995,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|@V2rayNG3 #3'
+- name: '11|@V2rayNG3 #4'
   obfs: salamander
   obfs-password: '@azadi_az_inja_migzare'
   password: '@azadi_az_inja_migzare'
@@ -1965,7 +2005,7 @@ proxies:
   sni: all-v4.dgi000.store
   tls: false
   type: hysteria2
-- name: '11|@V2rayNG3 #4'
+- name: '11|@V2rayNG3 #5'
   obfs: salamander
   obfs-password: bipbip
   password: AtTK3tiEA0
@@ -1974,7 +2014,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '11|@V2rayNG3 #5'
+- name: '11|@V2rayNG3 #6'
   obfs: salamander
   obfs-password: bleepbloop
   password: AtTK3tiEA0
@@ -1983,7 +2023,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '11|@V2rayNG3 #6'
+- name: '11|@V2rayNG3 #7'
   obfs: salamander
   obfs-password: bluhbluh
   password: AtTK3tiEA0
@@ -2164,6 +2204,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: '11|美国10 付费推荐：https://dafei.de #3'
+  password: dac2d4dd-9a4d-4eb0-92a6-028532caed52
+  port: 45000
+  server: 107.174.41.101
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: false
+  type: hysteria2
 - name: 11|🇹🇷¹ @VpnHubMarKeT  @VpnHubMarK...
   obfs: salamander
   obfs-password: VpnHubMarKeT
@@ -2190,7 +2238,7 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: '11|@V2rayNG3 #7'
+- name: '11|@V2rayNG3 #8'
   password: dongtaiwang.com
   port: 50717
   server: 46.17.41.189
@@ -2242,7 +2290,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '11|@V2rayNG3 #8'
+- name: '11|@V2rayNG3 #9'
   obfs: salamander
   obfs-password: dbc688df29e582d3
   password: f8e40931bbb827df
