@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  name: 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
   port: 49291
   server: 183.236.51.38
   skip-cert-verify: false
@@ -10,7 +10,7 @@ proxies:
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
-  name: 13,14|新加坡|@ripaojiedian
+  name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 443
@@ -19,7 +19,7 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|新加坡2|@ripaojiedian
+  name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 406
@@ -28,7 +28,7 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|新加坡3|@ripaojiedian
+  name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf
   port: 443
@@ -36,123 +36,7 @@ proxies:
   skip-cert-verify: false
   sni: sg.mjt000.com
   type: trojan
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 13,14|新加坡4|@ripaojiedian
-  network: ws
-  port: '30839'
-  server: v39.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 13|🇸🇬 新加坡5|@ripaojiedian
-  port: 3683
-  server: 51e48c04-t0fds0-t3fjp7-cdfn.82.iwskwai.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
-- alterId: 0
-  cipher: auto
-  name: 14|新加坡5|@ripaojiedian
-  network: tcp
-  port: '3683'
-  server: 51e48c04-t0fds0-t3fjp7-cdfn.82.iwskwai.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
-- name: 15|SG_speednode_0049
-  network: ws
-  password: Aimer
-  port: 443
-  server: 27.50.49.136
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 15|SG_speednode_0050
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 27.50.49.47
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 15|SG_speednode_0051
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 27.50.48.115
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 15|SG_speednode_0052
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 27.50.49.251
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 15|SG_speednode_0053
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 27.50.49.209
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 15|SG_speednode_0054
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 27.50.49.177
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 15|SG_speednode_0055
+- name: 14|SG_speednode_0096
   network: ws
   password: Aimer
   port: 8443
@@ -165,20 +49,7 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 15|SG_speednode_0056
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 27.50.49.242
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 15|SG_speednode_0057
+- name: 14|SG_speednode_0097
   network: ws
   password: Aimer
   port: 8443
@@ -191,3 +62,16 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
+- name: 14|SG_speednode_0098
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 92.243.74.180
+  skip-cert-verify: true
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /
