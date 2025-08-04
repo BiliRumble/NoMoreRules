@@ -1,4 +1,4 @@
-# Update: 2025-08-04 09:02
+# Update: 2025-08-04 12:11
 allow-lan: false
 dns:
   enable: true
@@ -364,7 +364,7 @@ proxies:
     headers:
       Host: xXcdvFgt.191268.XYz
     path: '%2FctdmgeIg3NII3ibrzzKXJGy3S1'
-- name: 15|JP_speednode_0062
+- name: 15|JP_speednode_0064
   network: ws
   password: Aimer
   port: 2083
@@ -377,7 +377,7 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 15|JP_speednode_0063
+- name: 15|JP_speednode_0065
   network: ws
   password: Aimer
   port: 2096
@@ -390,7 +390,7 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 15|JP_speednode_0064
+- name: 15|JP_speednode_0066
   network: ws
   password: Aimer
   port: 2087
@@ -403,19 +403,6 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 15|KZ_speednode_0069
-  network: ws
-  password: Aimer
-  port: 443
-  server: 31.43.179.27
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /
 - name: 15|KZ_speednode_0070
   network: ws
   password: Aimer
@@ -428,7 +415,7 @@ proxies:
   ws-opts:
     headers:
       Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
+    path: /
 - name: 15|SC_speednode_0087
   network: ws
   password: Aimer
@@ -454,7 +441,7 @@ proxies:
   ws-opts:
     headers:
       Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
+    path: /
 - name: 15|SG_speednode_0091
   network: ws
   password: Aimer
@@ -480,12 +467,12 @@ proxies:
   ws-opts:
     headers:
       Host: epga.aimercc.dpdns.org
-    path: /
-- name: 15|US_speednode_0154
+    path: /?ed=2560
+- name: 15|US_speednode_0151
   network: ws
   password: Aimer
-  port: 2053
-  server: 167.68.4.199
+  port: 2083
+  server: 198.62.62.192
   skip-cert-verify: true
   sni: epga.aimercc.dpdns.org
   type: trojan
@@ -494,20 +481,20 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 15|US_speednode_0155
+- name: 15|US_speednode_0152
   network: ws
-  password: tg-fq521free
-  port: 443
-  server: 198.62.62.67
-  skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
+  password: Aimer
+  port: 2083
+  server: 198.62.62.192
+  skip-cert-verify: true
+  sni: epga.aimercc.dpdns.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: torjan.xn--xhq44j.eu.org
+      Host: epga.aimercc.dpdns.org
     path: /
-- name: 15|US_speednode_0156
+- name: 15|US_speednode_0153
   network: ws
   password: Aimer
   port: 2083
@@ -520,24 +507,11 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 15|US_speednode_0157
+- name: 15|US_speednode_0155
   network: ws
   password: Aimer
   port: 2083
-  server: 198.62.62.192
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /
-- name: 15|US_speednode_0158
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 198.62.62.192
+  server: 192.200.160.35
   skip-cert-verify: true
   sni: epga.aimercc.dpdns.org
   type: trojan
@@ -546,7 +520,20 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 15|US_speednode_0159
+- name: 15|US_speednode_0156
+  network: ws
+  password: Aimer
+  port: 443
+  server: 192.0.54.7
+  skip-cert-verify: true
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 15|US_speednode_0157
   network: ws
   password: Aimer
   port: 8443
@@ -559,11 +546,24 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
+- name: 15|US_speednode_0159
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 66.81.247.230
+  skip-cert-verify: true
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
 - name: 15|US_speednode_0160
   network: ws
   password: Aimer
-  port: 443
-  server: 192.0.54.7
+  port: 2083
+  server: 130.250.137.63
   skip-cert-verify: true
   sni: epga.aimercc.dpdns.org
   type: trojan
@@ -601,8 +601,8 @@ proxies:
 - name: 15|US_speednode_0163
   network: ws
   password: Aimer
-  port: 2087
-  server: 167.68.5.248
+  port: 8443
+  server: 167.68.4.131
   skip-cert-verify: true
   sni: epga.aimercc.dpdns.org
   type: trojan
@@ -614,8 +614,8 @@ proxies:
 - name: 15|US_speednode_0164
   network: ws
   password: Aimer
-  port: 2083
-  server: 130.250.137.63
+  port: 2087
+  server: 167.68.5.248
   skip-cert-verify: true
   sni: epga.aimercc.dpdns.org
   type: trojan
@@ -625,71 +625,6 @@ proxies:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
 - name: 15|US_speednode_0165
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 167.68.4.131
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 15|US_speednode_0166
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 66.81.247.230
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 15|US_speednode_0167
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 216.24.57.1
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 15|US_speednode_0168
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 192.200.160.35
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 15|US_speednode_0169
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 216.24.57.30
-  skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: 15|US_speednode_0170
   network: ws
   password: Aimer
   port: 2053
@@ -702,11 +637,24 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 15|US_speednode_0171
+- name: 15|US_speednode_0166
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 216.24.57.30
+  skip-cert-verify: false
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+- name: 15|US_speednode_0167
   network: ws
   password: Aimer
-  port: 2087
-  server: 161.145.150.26
+  port: 2053
+  server: 167.68.4.199
   skip-cert-verify: true
   sni: epga.aimercc.dpdns.org
   type: trojan
@@ -715,11 +663,37 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 15|US_speednode_0172
+- name: 15|US_speednode_0168
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 216.24.57.1
+  skip-cert-verify: true
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 15|US_speednode_0169
   network: ws
   password: Aimer
   port: 2096
   server: 135.84.64.77
+  skip-cert-verify: true
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 15|US_speednode_0170
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 161.145.150.26
   skip-cert-verify: true
   sni: epga.aimercc.dpdns.org
   type: trojan
@@ -739,67 +713,65 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 3|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-  - 15|US_speednode_0158
-  - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-  - 13|🇺🇸 美国2|@ripaojiedian
-  - 15|SC_speednode_0087
-  - 13,14|香港|@ripaojiedian
-  - 15|US_speednode_0155
-  - 13,14|新加坡2|@ripaojiedian
-  - 15|US_speednode_0167
-  - 3|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-  - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-  - 15|US_speednode_0154
-  - 13|🇺🇸 美国|@ripaojiedian
-  - 14|日本v2|@ripaojiedian
-  - 15|US_speednode_0162
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 13,14|香港3|@ripaojiedian
-  - 3|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-  - 15|KZ_speednode_0069
-  - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-  - 15|US_speednode_0171
   - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-  - 15|US_speednode_0163
-  - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-  - 15|US_speednode_0161
-  - 13|🇭🇰 香港7|@ripaojiedian
-  - 15|US_speednode_0160
-  - 15|US_speednode_0170
-  - 3|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-  - 15|JP_speednode_0062
-  - 15|US_speednode_0169
-  - 13,14|香港6|@ripaojiedian
-  - 13|🇯🇵 日本2|@ripaojiedian
-  - 15|JP_speednode_0064
-  - 3|🇰🇷2 |  1.5MB/s|44%|Openai
-  - 13,14|香港5|@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
-  - 15|US_speednode_0166
-  - 15|US_speednode_0164
-  - 13,14|日本4|@ripaojiedian
-  - 13,14|美国4|@ripaojiedian
-  - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
   - 15|SG_speednode_0092
   - 13,14|日本3|@ripaojiedian
-  - 13,14|美国3|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
+  - 13|🇺🇸 美国|@ripaojiedian
+  - 15|JP_speednode_0064
+  - 15|US_speednode_0167
+  - 15|JP_speednode_0065
+  - 15|KZ_speednode_0070
+  - 13,14|香港5|@ripaojiedian
+  - 13|🇯🇵 日本|@ripaojiedian
+  - 15|US_speednode_0161
+  - 3|🇰🇷2 |  1.5MB/s|44%|Openai
+  - 13|tg频道:@ripaojiedian
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 15|US_speednode_0169
+  - 15|SG_speednode_0090
+  - 15|JP_speednode_0066
+  - 13|🇯🇵 日本2|@ripaojiedian
+  - 13,14|香港6|@ripaojiedian
+  - 15|SC_speednode_0087
+  - 15|US_speednode_0166
+  - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  - 3|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+  - 15|US_speednode_0160
+  - 13|🇺🇸 美国2|@ripaojiedian
+  - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+  - 15|SG_speednode_0091
+  - 15|US_speednode_0152
+  - 15|US_speednode_0159
+  - 15|US_speednode_0163
+  - 15|US_speednode_0157
+  - 15|US_speednode_0153
   - 14|香港v2|@ripaojiedian
   - 15|US_speednode_0168
-  - 15|US_speednode_0156
-  - 15|KZ_speednode_0070
-  - 15|US_speednode_0157
+  - 15|US_speednode_0151
+  - 13,14|香港3|@ripaojiedian
+  - 3|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  - 13,14|日本4|@ripaojiedian
   - 14|美国|@ripaojiedian
-  - 15|SG_speednode_0090
-  - 13,14|新加坡|@ripaojiedian
-  - 15|US_speednode_0172
-  - 15|JP_speednode_0063
-  - 15|US_speednode_0159
-  - 13|🇯🇵 日本|@ripaojiedian
-  - 15|SG_speednode_0091
+  - 15|US_speednode_0162
+  - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
+  - 13,14|美国4|@ripaojiedian
+  - 14|日本v2|@ripaojiedian
+  - 15|US_speednode_0164
   - 15|US_speednode_0165
-  - 13,14|新加坡3|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
+  - 15|US_speednode_0170
+  - 3|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+  - 15|US_speednode_0156
+  - 15|US_speednode_0155
+  - 3|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+  - 13,14|美国3|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 13,14|新加坡2|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 13|🇭🇰 香港7|@ripaojiedian
+  - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  - 13,14|香港|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
