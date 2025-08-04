@@ -1,4 +1,4 @@
-# Update: 2025-08-04 05:10
+# Update: 2025-08-04 09:02
 allow-lan: false
 dns:
   enable: true
@@ -139,7 +139,7 @@ proxies:
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.110.161.102
+  server: 13.234.32.160
   tfo: false
   type: ss
 - alterId: 2
@@ -221,22 +221,19 @@ proxies:
   skip-cert-verify: true
   sni: www.ithome.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13|🇹🇼 台湾2|@ripaojiedian
-  port: 3687
-  server: 615c0f38-t0h8g0-tgxeiy-3kis.77.iwskwai.com
-  skip-cert-verify: false
+- cipher: chacha20-ietf
+  name: 13|🇭🇰 香港7|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 103.149.183.154
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 117fc3d8-fd04-11ed-b345-f23c93136cb3
+  type: ss
 - cipher: rc4-md5
   name: 13|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-Ykh074r9Rq.download.microsoft.com
+    host: 202507282137611-5Up7OUIi18.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -273,26 +270,18 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 13,14|韩国|@ripaojiedian
-  network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 443
-  server: 34.64.53.92
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 443
-  server: 157.230.32.243
+  port: 1601
+  server: 36.156.102.125
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 406
+  port: 697
   server: 36.156.102.125
   skip-cert-verify: true
   sni: www.baidu.com
@@ -322,7 +311,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-Ykh074r9Rq.download.microsoft.com
+    host: 202507282137611-5Up7OUIi18.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -331,7 +320,7 @@ proxies:
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 472
+  port: 329
   server: 36.156.102.125
   skip-cert-verify: true
   sni: www.baidu.com
@@ -339,8 +328,8 @@ proxies:
 - name: 13,14|美国4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 347
-  server: 36.156.102.125
+  port: 443
+  server: 143.110.155.169
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -348,22 +337,12 @@ proxies:
   cipher: auto
   name: 14|香港v2|@ripaojiedian
   network: kcp
-  port: '3423'
-  server: 8.217.129.229
+  port: '32791'
+  server: 47.243.95.92
   servername: ''
   tls: false
   type: vmess
-  uuid: 97a3cf03-66d6-4d65-aa3e-33eb6c709be7
-- alterId: 0
-  cipher: auto
-  name: 14|台湾2|@ripaojiedian
-  network: tcp
-  port: '3687'
-  server: 615c0f38-t0h8g0-tgxeiy-3kis.77.iwskwai.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 117fc3d8-fd04-11ed-b345-f23c93136cb3
+  uuid: 892ed9b7-70b2-48cb-8334-7c59e4e10daa
 - alterId: 0
   cipher: auto
   name: 14|日本v2|@ripaojiedian
@@ -760,69 +739,67 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 15|SG_speednode_0091
-  - 15|US_speednode_0165
-  - 15|US_speednode_0164
-  - 13|🇯🇵 日本|@ripaojiedian
-  - 15|US_speednode_0158
-  - 15|US_speednode_0157
-  - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-  - 13,14|香港5|@ripaojiedian
-  - 15|US_speednode_0159
-  - 13,14|新加坡2|@ripaojiedian
-  - 13,14|新加坡3|@ripaojiedian
-  - 14|美国|@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 13,14|美国4|@ripaojiedian
-  - 15|US_speednode_0170
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 15|JP_speednode_0063
   - 3|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-  - 15|SC_speednode_0087
-  - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
-  - 15|KZ_speednode_0069
-  - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-  - 15|US_speednode_0171
-  - 13,14|香港3|@ripaojiedian
+  - 15|US_speednode_0158
   - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-  - 13|tg频道:@ripaojiedian
-  - 15|US_speednode_0166
-  - 3|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-  - 15|US_speednode_0156
-  - 13|🇺🇸 美国|@ripaojiedian
-  - 15|US_speednode_0160
-  - 15|US_speednode_0161
-  - 15|US_speednode_0163
-  - 15|KZ_speednode_0070
-  - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-  - 15|US_speednode_0162
-  - 13,14|香港|@ripaojiedian
-  - 15|US_speednode_0169
-  - 13,14|韩国|@ripaojiedian
-  - 14|台湾2|@ripaojiedian
-  - 14|日本v2|@ripaojiedian
-  - 15|US_speednode_0167
-  - 13,14|日本4|@ripaojiedian
-  - 15|US_speednode_0168
-  - 3|🇰🇷2 |  1.5MB/s|44%|Openai
-  - 3|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
   - 13|🇺🇸 美国2|@ripaojiedian
-  - 13|🇯🇵 日本2|@ripaojiedian
-  - 15|SG_speednode_0090
-  - 15|JP_speednode_0062
-  - 13,14|香港6|@ripaojiedian
-  - 15|US_speednode_0172
+  - 15|SC_speednode_0087
+  - 13,14|香港|@ripaojiedian
+  - 15|US_speednode_0155
+  - 13,14|新加坡2|@ripaojiedian
+  - 15|US_speednode_0167
+  - 3|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  - 15|US_speednode_0154
+  - 13|🇺🇸 美国|@ripaojiedian
+  - 14|日本v2|@ripaojiedian
+  - 15|US_speednode_0162
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 13,14|香港3|@ripaojiedian
+  - 3|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+  - 15|KZ_speednode_0069
   - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+  - 15|US_speednode_0171
+  - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+  - 15|US_speednode_0163
+  - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  - 15|US_speednode_0161
+  - 13|🇭🇰 香港7|@ripaojiedian
+  - 15|US_speednode_0160
+  - 15|US_speednode_0170
+  - 3|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+  - 15|JP_speednode_0062
+  - 15|US_speednode_0169
+  - 13,14|香港6|@ripaojiedian
+  - 13|🇯🇵 日本2|@ripaojiedian
+  - 15|JP_speednode_0064
+  - 3|🇰🇷2 |  1.5MB/s|44%|Openai
+  - 13,14|香港5|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 15|US_speednode_0166
+  - 15|US_speednode_0164
+  - 13,14|日本4|@ripaojiedian
+  - 13,14|美国4|@ripaojiedian
+  - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
+  - 15|SG_speednode_0092
   - 13,14|日本3|@ripaojiedian
   - 13,14|美国3|@ripaojiedian
   - 14|香港v2|@ripaojiedian
-  - 3|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-  - 15|US_speednode_0154
-  - 15|SG_speednode_0092
-  - 15|JP_speednode_0064
-  - 15|US_speednode_0155
-  - 13|🇹🇼 台湾2|@ripaojiedian
+  - 15|US_speednode_0168
+  - 15|US_speednode_0156
+  - 15|KZ_speednode_0070
+  - 15|US_speednode_0157
+  - 14|美国|@ripaojiedian
+  - 15|SG_speednode_0090
+  - 13,14|新加坡|@ripaojiedian
+  - 15|US_speednode_0172
+  - 15|JP_speednode_0063
+  - 15|US_speednode_0159
+  - 13|🇯🇵 日本|@ripaojiedian
+  - 15|SG_speednode_0091
+  - 15|US_speednode_0165
+  - 13,14|新加坡3|@ripaojiedian
+  - 13|tg频道:@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
