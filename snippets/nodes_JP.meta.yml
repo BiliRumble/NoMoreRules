@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -24,14 +24,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '10|Channel id: @ShadowProxy66🇯🇵'
-  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
-  port: 443
-  server: 153.121.42.218
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: '10|Channel id: @ShadowProxy66🇯🇵 #1'
   password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
   port: 443
   server: 45.11.1.62
@@ -63,7 +55,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|Channel id: @ShadowProxy66🇯🇵 #2'
+- name: '10|Channel id: @ShadowProxy66🇯🇵 #1'
   password: wl4HYN9PPKs8d8IzGIt4yKqt0
   port: 53348
   server: 47.74.34.102
@@ -117,3 +109,18 @@ proxies:
   tls: false
   type: vmess
   uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
+- client-fingerprint: chrome
+  name: 15|JP_speednode_0071
+  network: ws
+  port: 8880
+  server: 103.116.7.177
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
