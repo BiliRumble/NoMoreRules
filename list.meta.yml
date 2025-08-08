@@ -1,4 +1,4 @@
-# Update: 2025-08-09 02:13
+# Update: 2025-08-09 05:09
 allow-lan: false
 dns:
   enable: true
@@ -2030,13 +2030,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 11|  @V2xay
-  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
-  port: 3234
-  server: 209.141.47.127
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: '11|美国10 付费推荐：https://dafei.de #1'
   password: 67828a6e-0144-4e57-8169-2447a3dd2e61
   port: 45000
@@ -2102,16 +2095,6 @@ proxies:
   port: 35000
   server: 206.71.158.40
   skip-cert-verify: false
-  sni: pichondan.com
-  tls: false
-  type: hysteria2
-- name: 11|آم 🇩🇪 @V2xay
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  port: 35000
-  server: 77.90.52.69
-  skip-cert-verify: true
   sni: pichondan.com
   tls: false
   type: hysteria2
@@ -2231,7 +2214,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '11|آلمان 🇩🇪 @V2xay #1'
+- name: 11| 🇩🇪 @V2xay
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -2277,7 +2260,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 11|کاا  ا  و مل  prox@
+- name: 11|انا  ا  و مل  prox@
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -2354,14 +2337,6 @@ proxies:
   password: dongtaiwang.com
   port: 50717
   server: 46.17.41.189
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 11| 🇺 @V2xay
-  password: dongtaiwang.com
-  port: 30033
-  server: 46.17.41.217
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
@@ -2513,15 +2488,6 @@ proxies:
   port: 7431
   server: 18.141.229.199
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '11|آلمان 🇩🇪 @V2xay #2'
-  obfs: salamander
-  obfs-password: The_Sefr-salamdash
-  password: user12.myserverSEFR097
-  port: 443
-  server: knock.zone1.center
-  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: 11|@SaghiVpnXBOT 🇩🇪[🇩🇪]
@@ -4485,419 +4451,415 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 15|US_speednode_0107
-  - 15|US_speednode_0123
-  - 15|DE_speednode_0017
-  - 15|GB_speednode_0028
-  - 15|RU_speednode_0089
-  - 3|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
-  - 3|🇺🇸110 |  3.1MB/s|46%|Openai
-  - 11|v2raybluecrystal4-tur
-  - 15|LT_speednode_0070
-  - 15|GB_speednode_0054
-  - 10|未命名
-  - 15|US_speednode_0118
-  - '10,11|🛡️ @FreakConfig #2'
-  - 11|2025|++telegram@v2raybluecryst...
-  - 3|🇺🇸6 |  1.3MB/s|46%|Openai
-  - 3|🇺🇸112 |  2.7MB/s|14%|Openai
-  - 15|GB_speednode_0055
-  - 15|LT_speednode_0072
-  - 15|CH_speednode_0015
-  - 3|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-  - 3|🇺🇸12 |  2.2MB/s|30%|Openai
-  - 15|US_speednode_0119
-  - 3|🇺🇸107 |  1.8MB/s|14%|Openai
-  - 3|🇺🇸90 |  2.3MB/s|46%|Openai
-  - 11|@SaghiVpnXBOT 🇩🇪[🇩🇪]
-  - 15|RU_speednode_0093
-  - 15|ES_speednode_0021
-  - 3|🇺🇸57 |  4.1MB/s|30%|Openai
-  - 15|US_speednode_0116
-  - 13,14|韩国2|@ripaojiedian
-  - 3|🇺🇸116 |  1.2MB/s
-  - 3|🌀2-TR |  1.2MB/s|0%|Netflix|Di...
-  - 15|US_speednode_0117
-  - '11|美国10 付费推荐：https://dafei.de #2'
-  - 3|🇺🇸40 |  3.3MB/s|14%|Openai
-  - 3|🇺🇸91 |  4.3MB/s|46%|Openai
-  - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-  - 15|GB_speednode_0027
-  - 3|🇺🇸58 |  4.2MB/s|30%|Openai
-  - '11|v2raybluecrystal3 #2'
-  - '11|@V2rayNG3 #1'
-  - 15|AE_speednode_0006
-  - 15|LT_speednode_0071
-  - 11|v2raybluecrystal-hou
-  - 3|🇺🇸77 |  3.1MB/s|14%|Openai
-  - '11|@V2rayNG3 #6'
-  - 3|🇸🇬3 |  1.2MB/s|30%|Disney|Open...
-  - 15|DE_speednode_0019
-  - 15|SG_speednode_0097
-  - '10|未命名 #2'
-  - '11|@V2rayNG3 #2'
-  - 15|JP_speednode_0064
-  - 3|🇺🇸98 |  1.3MB/s
-  - 3|🇺🇸27 |  1.1MB/s|30%|Openai
-  - 10,11|GB 🇬🇧 | @v2xay
-  - 3|🇺🇸92 |  3.4MB/s|46%|Openai
-  - 11|v2raybluecrystal3
-  - 15|RU_speednode_0086
-  - 11|v2raybluecrystal3-ind
-  - 15|GB_speednode_0057
-  - '10|Channel id: @ShadowProxy66🇷'
-  - 15|GB_speednode_0036
-  - 11|v2raybluecrystal2-hou
-  - 3|🇺🇸59 |  4.7MB/s|30%|Openai
-  - 3|🇸🇬2 |  2.8MB/s|61%|Youtube|Ope...
-  - 11|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
-  - 3|🇺🇸54 |  4.6MB/s|30%|Openai
-  - 3|🇫🇷7 |  3.3MB/s|36%|Openai
-  - 3|🇺🇸49 |  4.0MB/s|30%|Openai
-  - '10|Channel id: @ShadowProxy66 #1'
-  - 15|GB_speednode_0044
-  - 15|SG_speednode_0098
-  - 3|🇺🇸1 |  4.4MB/s|30%|Openai
-  - 15|AU_speednode_0009
-  - 15|RU_speednode_0095
-  - 15|ES_speednode_0023
-  - 3|🇺🇸2 |  4.4MB/s|30%|Openai
-  - 3|🇺🇸67 |  2.6MB/s|46%|Openai
-  - '11|آلمان 🇩🇪 @V2xay #1'
-  - '11|آلمان 🇩🇪 @V2xay #2'
-  - 3|🌀5-LI |  2.0MB/s|0%|Openai
-  - '10|zeshtobad #4'
-  - 3|🇺🇸20 |  3.0MB/s|30%|Openai
-  - 15|KZ_speednode_0068
-  - 15|RU_speednode_0096
-  - 15|JO_speednode_0059
-  - 3|🇺🇸15 |  2.5MB/s|30%|Openai
-  - 3|🇺🇸5 |  2.0MB/s|46%|Openai
-  - 11|v2raybluecrystal3-ger
-  - 3|🇫🇷5 |  3.1MB/s|36%|Openai
-  - 15|LU_speednode_0078
-  - 15|GB_speednode_0053
-  - 15|CH_speednode_0016
-  - 15|JO_speednode_0062
-  - 14|日本v2|@ripaojiedian
-  - 3|🇫🇷4 |  1.8MB/s|36%|Openai
-  - 11|美国10 付费推荐：https://dafei.de
-  - 3|🇺🇸88 |  1.1MB/s
-  - '11|v2raybluecrystal #1'
-  - 15|GB_speednode_0050
-  - 3|🇺🇸114 |  2.7MB/s|46%|Openai
-  - 15|AT_speednode_0007
-  - 3|🇺🇸31 |  2.3MB/s|14%|Openai
-  - 11|v2raybluecrystal2-ind
-  - 15|CA_speednode_0014
-  - 11|10 https://dafei.de
-  - 15|GB_speednode_0048
-  - 13|🇺🇸 美国2|@ripaojiedian
-  - 3|🇺🇸130 |  1.5MB/s|46%|Openai
-  - '11|美国10 付费推荐：https://dafei.de #1'
-  - 15|KZ_speednode_0066
-  - 13|🇹🇼 台湾|@ripaojiedian
-  - 15|GB_speednode_0051
-  - 3|🇺🇸128 |  1.7MB/s|14%|Openai
-  - 15|RU_speednode_0090
-  - 3|🇺🇸82 |  1.3MB/s
-  - 3|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-  - 3|🇺🇸101 |  1.6MB/s|14%|Openai
-  - 15|GB_speednode_0046
-  - 10|🇯🇵日本东京2
-  - '10|未命名 #3'
-  - 3|🇺🇸22 |  1.7MB/s|30%|Openai
-  - 15|GB_speednode_0043
-  - 15|JO_speednode_0063
-  - 15|RU_speednode_0094
-  - 15|SI_speednode_0099
-  - 15|DE_speednode_0018
-  - 3|🇺🇸21 |  2.2MB/s|30%|Openai
-  - 3|🇩🇪3 |  2.6MB/s|20%|Openai
-  - '11|v2raybluecrystal3 #3'
-  - 15|UA_speednode_0103
-  - 15|US_speednode_0111
-  - 15|LT_speednode_0074
-  - 3|🌀1-MD |  1.8MB/s|44%|Youtube|O...
-  - 3|🇦🇪1 |  1.2MB/s|0%|Disney|Opena...
-  - '11|v2raybluecrystal #3'
-  - 15|GB_speednode_0032
-  - 15|RU_speednode_0088
-  - 11|@Daily_Configs
-  - 3|🇺🇸29 |  2.9MB/s|30%|Openai
-  - 3|🇺🇸36 |  3.0MB/s|14%|Openai
-  - 15|LT_speednode_0073
-  - 3|🇺🇸53 |  1.9MB/s|61%|Disney
-  - 10|🇸🇬新加坡
-  - 13,14|美国3|@ripaojiedian
-  - 3|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-  - 15|FR_speednode_0025
-  - '10|Channel id: @ShadowProxy66🇯🇵 #1'
-  - '10|Channel id: @ShadowProxy66🇺🇸 #2'
-  - 3|🇺🇸34 |  2.8MB/s|14%|Openai
-  - 15|KZ_speednode_0069
-  - 15|LU_speednode_0081
-  - 3|🇺🇸102 |  1.1MB/s|14%|Openai
-  - 15|GB_speednode_0037
-  - 3|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
-  - 3|🇺🇸86 |  3.0MB/s|46%|Openai
-  - 3|🇫🇷6 |  1.5MB/s|36%|Openai
-  - 3|🇺🇸94 |  1.2MB/s|14%|Openai
-  - '11|MCI-@Tunder_vpn #2'
-  - 3|🇺🇸74 |  2.6MB/s|14%|Openai
-  - 11|کاا  ا  و مل  prox@
-  - 15|US_speednode_0112
-  - 15|KZ_speednode_0067
-  - 3|🇺🇸8 |  1.2MB/s|14%|Openai
-  - 3|🇺🇸56 |  1.5MB/s|30%|Openai
-  - 15|LU_speednode_0080
-  - 15|ES_speednode_0022
-  - 15|GB_speednode_0029
-  - 3|🇺🇸84 |  4.0MB/s|30%|Openai
-  - 15|BG_speednode_0011
-  - 3|🇺🇸108 |  1.4MB/s
-  - 3|🇺🇸99 |  4.8MB/s|0%|Openai|Gemi...
-  - 10|🇭🇰香港
-  - 13,14|韩国|@ripaojiedian
-  - 3|🇺🇸111 |  1.0MB/s|61%|Disney
-  - 15|GB_speednode_0039
-  - 3|🇺🇸87 |  3.5MB/s|46%|Openai
-  - '11|v2raybluecrystal3 #1'
-  - 15|GB_speednode_0033
-  - 15|LU_speednode_0082
-  - 15|JO_speednode_0061
-  - 15|SI_speednode_0101
-  - 3|🇺🇸3 |  1.3MB/s|46%|Openai
-  - 15|AE_speednode_0004
-  - 3|🇺🇸47 |  1.0MB/s|0%|Disney|Open...
-  - 13,14|香港6|@ripaojiedian
-  - '11|🛡️ @FreakConfig #1'
-  - 15|GB_speednode_0052
-  - '11|v2raybluecrystal2 #1'
-  - 3|🌀6-CY |  4.9MB/s|44%|Openai
-  - 15|GB_speednode_0042
-  - '10|Channel id: @ShadowProxy66 #2'
-  - 15|NZ_speednode_0084
-  - 13,14|美国4|@ripaojiedian
-  - 3|🇺🇸117 |  2.6MB/s|0%|Openai|Gem...
-  - '10|Channel id: @ShadowProxy66🇸🇬'
-  - 3|🇺🇸78 |  4.2MB/s|0%|Openai|Gemi...
-  - 15|LU_speednode_0079
-  - 15|DE_speednode_0020
-  - 3|🇺🇸71 |  1.0MB/s|0%|Openai|Gemi...
-  - 15|GB_speednode_0034
-  - 11|@GVgg#v2raybluecrystal3-tur
-  - 11|🇩🇪 @VPNHubMaRKeT ♾  @VpnHubMar...
-  - 3|🇺🇸50 |  1.3MB/s|20%|Disney|Ope...
-  - 3|🇺🇸125 |  1.5MB/s|14%|Openai
-  - 15|SI_speednode_0100
-  - 3|🇺🇸17 |  2.5MB/s|30%|Openai
-  - '11|v2raybluecrystal #2'
-  - 13,14|日本4|@ripaojiedian
-  - 3|🇺🇸44 |  2.4MB/s|46%|Openai
-  - 15|LT_speednode_0076
-  - 15|GB_speednode_0041
-  - 15|AE_speednode_0001
-  - 3|🇺🇸46 |  2.3MB/s|62%|Netflix|Di...
-  - 3|🇺🇸4 |  2.4MB/s|46%|Openai
-  - 15|LT_speednode_0077
-  - 3|🇺🇸51 |  3.5MB/s|30%|Openai
-  - 3|🇺🇸26 |  1.3MB/s|30%|Openai
-  - 15|US_speednode_0110
-  - 3|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
-  - '11|@V2rayNG3 #8'
-  - 10|zeshtobad
-  - '11|@V2rayNG3 #9'
-  - 13,14|日本3|@ripaojiedian
-  - '11|@Daily_Configs #1'
-  - 15|AE_speednode_0002
-  - 3|🇺🇸96 |  2.4MB/s
-  - '11|2025|++telegram@v2raybluecryst... #1'
-  - 3|🇺🇸103 |  3.2MB/s
-  - 3|🇺🇦1 |  3.3MB/s|0%|Openai
-  - 3|🇺🇸113 |  2.0MB/s|14%|Openai
-  - 3|🇺🇸115 |  2.8MB/s|46%|Openai
-  - 3|🇺🇸109 |  3.2MB/s
-  - 11|v2raybluecrystal-la
-  - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-  - 3|🇺🇸79 |  1.7MB/s|30%|Openai
-  - 15|GB_speednode_0040
-  - 3|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-  - 3|🇺🇸37 |  1.6MB/s|46%|Openai
-  - 3|🇩🇪4 |  2.8MB/s|13%|Netflix|You...
-  - '10|🇭🇰香港 #1'
-  - 3|🇺🇸123 |  1.3MB/s|61%|Disney|Op...
-  - 3|🇺🇸121 |  1.2MB/s
-  - 11|  @V2xay
-  - 3|🇺🇸28 |  1.3MB/s|30%|Openai
-  - 14|美国|@ripaojiedian
-  - '10|zeshtobad #2'
-  - 3|🇩🇪2 |  1.3MB/s|0%|Openai
-  - 3|🇺🇸48 |  1.4MB/s|0%|Disney|Open...
-  - 3|🇺🇸100 |  1.3MB/s
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - '11|美国10 付费推荐：https://dafei.de #3'
-  - 3|🇷🇺1 |  2.5MB/s|50%
-  - 3|🇺🇸52 |  4.8MB/s|33%|Disney|Ope...
-  - 3|🇺🇸25 |  4.3MB/s|30%|Openai
-  - 10,11|🇬@FreakConfig
-  - 3|🇺🇸120 |  1.4MB/s
-  - 3|🇩🇪6 |  4.3MB/s|0%|Disney|Opena...
-  - 11|🇹🇷¹ @VpnHubMarKeT  @VpnHubMarK...
-  - 3|🇺🇸129 |  2.7MB/s|14%|Openai
-  - '10|Channel id: @ShadowProxy66🇯🇵'
-  - 11|v2raybluecrystal-ind
-  - 3|🇺🇸83 |  2.0MB/s|46%|Openai
-  - 15|GB_speednode_0049
-  - 3|🇺🇸104 |  2.1MB/s
-  - 3|🇺🇸13 |  3.1MB/s|30%|Openai
-  - 3|🇺🇸127 |  3.1MB/s|14%|Openai
-  - 3|🇺🇸61 |  1.0MB/s|Disney
-  - 13|🇯🇵 日本|@ripaojiedian
-  - 15|JO_speednode_0060
-  - 3|🇺🇸97 |  2.2MB/s|14%|Openai
-  - 3|🇺🇸122 |  1.4MB/s
-  - 11|v2raybluecrystal-tur
-  - 3|🇺🇸65 |  4.4MB/s|0%|Openai|Gemi...
-  - 11|آم 🇩🇪 @V2xay
-  - 3|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
-  - 10|🇺🇸美国 加 拉 DIGITALOCEAN-ASN
-  - '11|v2raybluecrystal2 #3'
-  - 15|GB_speednode_0031
-  - 11|🇱telegram  @v2rayNG_Matsuri
-  - 3|🇺🇸32 |  1.7MB/s|14%|Openai
-  - 15|AE_speednode_0005
-  - 10|东京
-  - 11|️ @FreakConfig
-  - 10|🇺🇸
-  - 3|🇺🇸60 |  2.7MB/s|14%|Openai
-  - 15|AU_speednode_0008
-  - 13,14|日本5|@ripaojiedian
-  - 15|RU_speednode_0092
-  - 11|v2raybluecrystal2-tur
-  - 3|🇺🇸118 |  1.9MB/s|50%|Openai
-  - 3|🇺🇸105 |  2.9MB/s
-  - 10|新加坡
-  - 11|v2raybluecrystal2-ger
-  - 3|🇺🇸10 |  2.0MB/s|0%|Netflix|Dis...
-  - 3|🇺🇸11 |  1.4MB/s|30%|Openai
-  - '11|MCI-@Tunder_vpn #3'
-  - 3|🇺🇸23 |  2.0MB/s|30%|Openai
-  - 15|GB_speednode_0047
-  - 3|🇺🇸9 |  4.6MB/s|Disney|Openai
-  - 15|US_speednode_0104
-  - 15|GB_speednode_0038
-  - 3|🇫🇷3 |  4.1MB/s|36%|Openai
-  - 3|🇺🇸95 |  3.1MB/s|46%|Openai
-  - 15|GB_speednode_0058
-  - 11|FR 2 🇷 | @v2xay
-  - 14|香港v2|@ripaojiedian
-  - 3|🇺🇸19 |  1.5MB/s|30%|Openai
-  - '11|@V2rayNG3 #4'
-  - 10|🇭🇰香港2
-  - 11| 🇺 @V2xay
-  - 3|🇺🇸81 |  4.1MB/s|46%|Openai
-  - 10|🇯🇵日本
-  - 3|🇺🇸89 |  2.7MB/s|14%|Openai
-  - 10|🇯🇵日本东京
-  - 3|🇮🇳1 |  1.7MB/s|61%|Disney|Open...
-  - 13,14|新加坡|@ripaojiedian
-  - 3|🇰🇷2 |  1.5MB/s|44%|Openai
-  - 3|🇺🇸119 |  1.2MB/s
-  - 15|US_speednode_0108
-  - 15|AE_speednode_0003
-  - 3|🇺🇸70 |  1.7MB/s|Openai
-  - 15|ES_speednode_0024
-  - 13,14|新加坡2|@ripaojiedian
-  - 3|🇺🇸66 |  3.7MB/s|46%|Openai
-  - 13|🇺🇸 美国|@ripaojiedian
-  - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
-  - 11|@V2ray1_Ng
-  - 15|US_speednode_0105
-  - 3|🇺🇸18 |  2.8MB/s|0%|Netflix|Ope...
-  - 15|LT_speednode_0075
-  - 11|GB 1  | @v2xay
-  - 3|🇳🇱1 |  1.1MB/s|59%|Youtube|Ope...
-  - 3|🇺🇸24 |  1.4MB/s|30%|Openai
-  - '10|Channel id: @ShadowProxy66🇸'
-  - '10|Channel id: @ShadowProxy66🇺🇸 #1'
   - 15|FR_speednode_0026
-  - 3|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
-  - 10|🇰香港2
-  - 11|🛡️ @FreakConfig
-  - 11|v2raybluecrystal-ger
-  - 3|🇺🇸38 |  1.3MB/s|46%|Openai
-  - 11|v2raybluecrystal2-la
-  - 3|🇺🇸14 |  1.7MB/s|30%|Openai
-  - 11|v2raybluecrystal2
-  - 15|US_speednode_0122
-  - 15|CA_speednode_0013
-  - 3|🇺🇸39 |  1.0MB/s|14%|Openai
-  - 3|🇺🇸55 |  3.5MB/s|30%|Openai
-  - 15|GB_speednode_0035
-  - 11|🇮telegram ➠ @v2rayNG_Matsuri
-  - 15|KZ_speednode_0065
-  - 15|US_speednode_0109
-  - '11|@V2rayNG3 #7'
-  - 3|🇺🇸106 |  1.8MB/s|14%|Openai
-  - 10|日本Hy2-3
-  - '11|MCI-@Tunder_vpn #1'
-  - 3|🇩🇪1 |  1.5MB/s|0%|Openai
-  - 15|BG_speednode_0012
-  - 15|NL_speednode_0083
-  - '11|@V2rayNG3 #5'
-  - '10|Channel id: @ShadowProxy66🇵'
-  - 13,14|香港4|@ripaojiedian
-  - 3|🇺🇸126 |  2.0MB/s|14%|Openai
-  - 11|v2raybluecrystal3-hou
-  - 3|🇺🇸73 |  1.9MB/s|50%|Openai|Gem...
-  - 15|GB_speednode_0030
-  - 3|🇺🇸35 |  3.0MB/s|0%|Openai|Gemi...
-  - 3|🇺🇸85 |  1.9MB/s|14%|Openai
-  - 3|🇺🇸80 |  2.9MB/s|46%|Openai
-  - 15|US_speednode_0121
-  - '11|@V2rayNG3 #3'
-  - 11|@Configology
-  - 3|🇺🇸124 |  1.2MB/s|46%|Openai
-  - 13|🇻🇳 越南|@ripaojiedian
-  - 3|🇺🇸30 |  3.5MB/s|0%|Openai|Gemi...
-  - '10|Channel id: @ShadowProxy66'
-  - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-  - 11|v2raybluecrystal3-la
-  - 3|🇺🇸76 |  1.0MB/s|46%|Openai
-  - 15|SI_speednode_0102
-  - 3,10|IraneAzad_Net_549
-  - 3|🇫🇷1 |  3.4MB/s|15%|Openai
-  - 15|GB_speednode_0056
-  - 3|🇰🇷3 |  1.3MB/s|61%|Disney|Open...
-  - 11|@V2rayNG3
-  - 11|v2raybluecrystal
-  - 15|GB_speednode_0045
-  - '10|未命名 #1'
-  - 3|🇺🇸93 |  1.8MB/s|14%|Openai
-  - '11|v2raybluecrystal2 #2'
-  - 15|US_speednode_0106
-  - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-  - 15|RU_speednode_0087
-  - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-  - 13,14|香港|@ripaojiedian
+  - '10|Channel id: @ShadowProxy66🇺🇸 #2'
   - 15|RU_speednode_0085
-  - 15|US_speednode_0113
-  - 15|US_speednode_0120
-  - 13|🇯🇵 日本2|@ripaojiedian
-  - 15|US_speednode_0114
-  - 11|MCI-@Tunder_vpn
-  - 3|🇺🇸72 |  2.2MB/s|14%|Openai
-  - 3|🇺🇸7 |  1.2MB/s|46%|Openai
-  - 13|tg频道:@ripaojiedian
   - 3|🇺🇸16 |  4.2MB/s|Openai
-  - 15|US_speednode_0115
-  - 15|RU_speednode_0091
-  - 15|AU_speednode_0010
-  - 3|🇮🇷1 |  1.3MB/s|0%|Openai
+  - 15|AE_speednode_0003
+  - '10|Channel id: @ShadowProxy66🇯🇵'
+  - 15|GB_speednode_0035
+  - 11|@V2rayNG3
+  - 15|LT_speednode_0073
+  - 15|ES_speednode_0023
+  - 3|🇺🇸47 |  1.0MB/s|0%|Disney|Open...
+  - '11|v2raybluecrystal2 #1'
+  - 3|🇺🇸3 |  1.3MB/s|46%|Openai
+  - '10|Channel id: @ShadowProxy66'
+  - 3|🇺🇸32 |  1.7MB/s|14%|Openai
+  - 3|🇺🇸56 |  1.5MB/s|30%|Openai
+  - 15|US_speednode_0104
+  - 3|🇺🇸89 |  2.7MB/s|14%|Openai
+  - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+  - '11|MCI-@Tunder_vpn #2'
+  - '11|@V2rayNG3 #6'
+  - 15|ES_speednode_0022
+  - '10|Channel id: @ShadowProxy66🇵'
+  - '10|Channel id: @ShadowProxy66🇷'
+  - 15|GB_speednode_0056
+  - 15|GB_speednode_0045
+  - '11|@V2rayNG3 #9'
+  - 10|🇺🇸美国 加 拉 DIGITALOCEAN-ASN
+  - '10|Channel id: @ShadowProxy66 #2'
+  - '11|美国10 付费推荐：https://dafei.de #3'
+  - 15|KZ_speednode_0069
+  - 3|🇮🇳1 |  1.7MB/s|61%|Disney|Open...
+  - 11|v2raybluecrystal-ind
+  - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  - 10|东京
+  - 3|🌀6-CY |  4.9MB/s|44%|Openai
+  - 15|GB_speednode_0044
+  - 3|🇫🇷4 |  1.8MB/s|36%|Openai
+  - 3|🇺🇸90 |  2.3MB/s|46%|Openai
+  - '10,11|🛡️ @FreakConfig #2'
+  - '11|美国10 付费推荐：https://dafei.de #2'
+  - 13,14|香港4|@ripaojiedian
+  - 15|RU_speednode_0087
+  - 3|🇺🇸97 |  2.2MB/s|14%|Openai
+  - 3|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+  - 15|GB_speednode_0037
+  - 3|🇫🇷1 |  3.4MB/s|15%|Openai
+  - 3|🇺🇸52 |  4.8MB/s|33%|Disney|Ope...
+  - 15|US_speednode_0112
+  - 15|AE_speednode_0005
   - 3|🇺🇸75 |  2.0MB/s|14%|Openai
+  - 15|UA_speednode_0103
+  - 15|LU_speednode_0080
+  - 15|CH_speednode_0016
+  - 3|🇺🇸121 |  1.2MB/s
+  - 3|🇺🇸22 |  1.7MB/s|30%|Openai
+  - 3|🇺🇸108 |  1.4MB/s
+  - 3|🇺🇸31 |  2.3MB/s|14%|Openai
+  - 3|🇺🇸99 |  4.8MB/s|0%|Openai|Gemi...
+  - 15|SI_speednode_0099
+  - 3|🇦🇪1 |  1.2MB/s|0%|Disney|Opena...
+  - 13|🇹🇼 台湾|@ripaojiedian
+  - 15|DE_speednode_0017
+  - 13,14|韩国|@ripaojiedian
+  - 15|GB_speednode_0028
+  - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  - 3|🇺🇸128 |  1.7MB/s|14%|Openai
+  - 15|GB_speednode_0049
+  - 15|RU_speednode_0088
+  - 15|SI_speednode_0101
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 3|🇺🇸26 |  1.3MB/s|30%|Openai
+  - 3|🇺🇸48 |  1.4MB/s|0%|Disney|Open...
+  - 15|GB_speednode_0038
+  - 14|日本v2|@ripaojiedian
+  - 3|🇺🇸109 |  3.2MB/s
+  - 15|US_speednode_0105
+  - 15|LU_speednode_0078
+  - 3|🇺🇸129 |  2.7MB/s|14%|Openai
+  - 3|🇺🇸117 |  2.6MB/s|0%|Openai|Gem...
+  - 3|🇰🇷3 |  1.3MB/s|61%|Disney|Open...
+  - 15|US_speednode_0118
+  - 3|🇺🇸17 |  2.5MB/s|30%|Openai
+  - 3|🇺🇸12 |  2.2MB/s|30%|Openai
+  - 15|JO_speednode_0060
+  - 3|🇺🇦1 |  3.3MB/s|0%|Openai
+  - 3|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
+  - 3|🇺🇸1 |  4.4MB/s|30%|Openai
+  - 3|🇺🇸34 |  2.8MB/s|14%|Openai
+  - 3|🇺🇸36 |  3.0MB/s|14%|Openai
+  - 3|🇩🇪3 |  2.6MB/s|20%|Openai
+  - 3|🇸🇬3 |  1.2MB/s|30%|Disney|Open...
+  - 3|🇷🇺1 |  2.5MB/s|50%
+  - 3|🌀2-TR |  1.2MB/s|0%|Netflix|Di...
+  - 13,14|韩国2|@ripaojiedian
+  - 15|US_speednode_0122
+  - 3|🇺🇸46 |  2.3MB/s|62%|Netflix|Di...
+  - 11|FR 2 🇷 | @v2xay
+  - 15|GB_speednode_0050
+  - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
+  - 3|🇺🇸77 |  3.1MB/s|14%|Openai
+  - 15|JO_speednode_0061
+  - 3|🇺🇸39 |  1.0MB/s|14%|Openai
+  - 3|🇺🇸18 |  2.8MB/s|0%|Netflix|Ope...
+  - 3|🇺🇸51 |  3.5MB/s|30%|Openai
+  - 3|🇺🇸70 |  1.7MB/s|Openai
+  - 3|🇺🇸20 |  3.0MB/s|30%|Openai
+  - 13,14|日本3|@ripaojiedian
+  - 3|🇺🇸73 |  1.9MB/s|50%|Openai|Gem...
+  - 3|🇺🇸126 |  2.0MB/s|14%|Openai
+  - 15|RU_speednode_0090
+  - 15|GB_speednode_0055
+  - 15|US_speednode_0120
+  - 3|🇺🇸115 |  2.8MB/s|46%|Openai
+  - 15|NL_speednode_0083
+  - 3|🇺🇸71 |  1.0MB/s|0%|Openai|Gemi...
+  - '10|zeshtobad #2'
+  - 15|AU_speednode_0009
+  - 10|日本Hy2-3
+  - 15|AU_speednode_0010
+  - 15|RU_speednode_0092
+  - 11|️ @FreakConfig
+  - 3|🇫🇷7 |  3.3MB/s|36%|Openai
+  - 15|AT_speednode_0007
+  - 3|🇺🇸119 |  1.2MB/s
+  - 15|GB_speednode_0040
+  - 3|🇫🇷5 |  3.1MB/s|36%|Openai
+  - '11|v2raybluecrystal2 #3'
+  - 15|RU_speednode_0095
+  - 10|🇯🇵日本
+  - 3|🇺🇸83 |  2.0MB/s|46%|Openai
+  - 15|LT_speednode_0074
+  - 3|🇺🇸61 |  1.0MB/s|Disney
+  - 3|🇳🇱1 |  1.1MB/s|59%|Youtube|Ope...
+  - 11|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+  - 3|🇺🇸65 |  4.4MB/s|0%|Openai|Gemi...
+  - 3|🇺🇸6 |  1.3MB/s|46%|Openai
+  - 3|🇺🇸10 |  2.0MB/s|0%|Netflix|Dis...
+  - '11|v2raybluecrystal3 #1'
+  - 15|US_speednode_0121
+  - 15|RU_speednode_0086
+  - 3|🇺🇸37 |  1.6MB/s|46%|Openai
+  - 3|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+  - 3|🇺🇸14 |  1.7MB/s|30%|Openai
+  - 15|GB_speednode_0032
+  - 13,14|香港|@ripaojiedian
+  - 15|GB_speednode_0039
+  - 15|AE_speednode_0002
+  - 3|🇺🇸44 |  2.4MB/s|46%|Openai
+  - '11|@V2rayNG3 #2'
+  - 15|GB_speednode_0034
+  - 15|GB_speednode_0041
+  - 3|🇺🇸80 |  2.9MB/s|46%|Openai
+  - 13|🇯🇵 日本2|@ripaojiedian
+  - 3|🇫🇷6 |  1.5MB/s|36%|Openai
+  - 15|CA_speednode_0014
+  - 11|🇮telegram ➠ @v2rayNG_Matsuri
+  - 3|🇺🇸9 |  4.6MB/s|Disney|Openai
+  - 11|v2raybluecrystal2-ger
+  - 3|🇺🇸67 |  2.6MB/s|46%|Openai
+  - 3|🇺🇸4 |  2.4MB/s|46%|Openai
+  - 15|AE_speednode_0001
+  - 3|🇩🇪2 |  1.3MB/s|0%|Openai
+  - 15|GB_speednode_0051
+  - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+  - 15|AE_speednode_0004
+  - 3|🌀1-MD |  1.8MB/s|44%|Youtube|O...
+  - 3|🇺🇸74 |  2.6MB/s|14%|Openai
+  - 3|🇺🇸76 |  1.0MB/s|46%|Openai
+  - 11|v2raybluecrystal2-ind
+  - 15|DE_speednode_0018
+  - 10|zeshtobad
+  - 15|LT_speednode_0070
+  - 3|🇺🇸11 |  1.4MB/s|30%|Openai
+  - '11|v2raybluecrystal3 #2'
+  - '11|v2raybluecrystal #3'
+  - 3|🇺🇸59 |  4.7MB/s|30%|Openai
+  - 3|🇺🇸13 |  3.1MB/s|30%|Openai
+  - 3|🇺🇸123 |  1.3MB/s|61%|Disney|Op...
+  - 11| 🇩🇪 @V2xay
+  - 3|🇺🇸105 |  2.9MB/s
+  - 15|GB_speednode_0033
+  - 15|CA_speednode_0013
+  - 3|🇺🇸53 |  1.9MB/s|61%|Disney
+  - 3|🇺🇸79 |  1.7MB/s|30%|Openai
+  - 15|KZ_speednode_0066
+  - 3|🇺🇸28 |  1.3MB/s|30%|Openai
+  - 10|🇸🇬新加坡
+  - 3|🇺🇸88 |  1.1MB/s
+  - 13,14|新加坡2|@ripaojiedian
+  - '11|@V2rayNG3 #3'
+  - 3|🇺🇸35 |  3.0MB/s|0%|Openai|Gemi...
+  - 10|🇯🇵日本东京2
+  - 15|AU_speednode_0008
+  - '10|🇭🇰香港 #1'
+  - 11|🇩🇪 @VPNHubMaRKeT ♾  @VpnHubMar...
+  - 15|LT_speednode_0077
+  - 3|🌀5-LI |  2.0MB/s|0%|Openai
+  - 3|🇺🇸112 |  2.7MB/s|14%|Openai
+  - '10|zeshtobad #4'
+  - '10|未命名 #3'
+  - 10|🇯🇵日本东京
+  - 15|GB_speednode_0027
+  - 15|US_speednode_0114
+  - 11|v2raybluecrystal-la
+  - 3|🇩🇪1 |  1.5MB/s|0%|Openai
+  - 15|US_speednode_0106
+  - 3|🇺🇸130 |  1.5MB/s|46%|Openai
+  - '11|@V2rayNG3 #8'
+  - 11|v2raybluecrystal2
+  - 15|NZ_speednode_0084
+  - 3|🇺🇸120 |  1.4MB/s
+  - 3|🇺🇸122 |  1.4MB/s
+  - 10|🇭🇰香港
+  - 11|v2raybluecrystal-ger
+  - 11|v2raybluecrystal3-ger
+  - 15|GB_speednode_0046
+  - 3|🇺🇸55 |  3.5MB/s|30%|Openai
+  - 3|🇺🇸81 |  4.1MB/s|46%|Openai
+  - '11|@V2rayNG3 #4'
+  - 14|香港v2|@ripaojiedian
+  - 15|KZ_speednode_0067
+  - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  - '11|MCI-@Tunder_vpn #3'
+  - 15|US_speednode_0107
+  - 15|RU_speednode_0089
+  - 3|🇺🇸86 |  3.0MB/s|46%|Openai
+  - 15|GB_speednode_0029
+  - 11|@Daily_Configs
+  - 3|🇺🇸116 |  1.2MB/s
+  - 3|🇺🇸113 |  2.0MB/s|14%|Openai
+  - 15|JP_speednode_0064
+  - 15|US_speednode_0113
+  - 15|GB_speednode_0057
+  - 3|🇺🇸8 |  1.2MB/s|14%|Openai
+  - 3|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
+  - 10,11|🇬@FreakConfig
+  - 15|RU_speednode_0094
+  - 3|🇸🇬2 |  2.8MB/s|61%|Youtube|Ope...
+  - '10|Channel id: @ShadowProxy66🇺🇸 #1'
+  - 15|FR_speednode_0025
+  - 3|🇺🇸40 |  3.3MB/s|14%|Openai
+  - 3|🇺🇸29 |  2.9MB/s|30%|Openai
+  - 3|🇺🇸78 |  4.2MB/s|0%|Openai|Gemi...
+  - 15|GB_speednode_0052
+  - 11|MCI-@Tunder_vpn
+  - 3|🇺🇸50 |  1.3MB/s|20%|Disney|Ope...
+  - 13,14|香港6|@ripaojiedian
+  - 15|GB_speednode_0042
+  - '11|@V2rayNG3 #1'
+  - 13,14|新加坡|@ripaojiedian
+  - 15|GB_speednode_0036
+  - 3|🇩🇪4 |  2.8MB/s|13%|Netflix|You...
+  - 14|美国|@ripaojiedian
+  - 11|v2raybluecrystal3-la
+  - 3|🇺🇸95 |  3.1MB/s|46%|Openai
+  - 11|美国10 付费推荐：https://dafei.de
+  - 15|RU_speednode_0093
+  - 3|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+  - '11|2025|++telegram@v2raybluecryst... #1'
+  - '10|Channel id: @ShadowProxy66🇸'
+  - 11|GB 1  | @v2xay
+  - 10|🇺🇸
+  - '11|v2raybluecrystal #1'
+  - 15|LU_speednode_0082
+  - 3|🇺🇸92 |  3.4MB/s|46%|Openai
+  - 15|LT_speednode_0072
+  - 3|🇺🇸87 |  3.5MB/s|46%|Openai
+  - 11|🛡️ @FreakConfig
+  - 3|🇺🇸49 |  4.0MB/s|30%|Openai
+  - 11|v2raybluecrystal2-hou
+  - 3|🇺🇸7 |  1.2MB/s|46%|Openai
+  - 13,14|日本4|@ripaojiedian
+  - 3|🇺🇸72 |  2.2MB/s|14%|Openai
+  - 15|SG_speednode_0097
+  - 15|US_speednode_0119
+  - 3|🇺🇸103 |  3.2MB/s
+  - '11|美国10 付费推荐：https://dafei.de #1'
+  - 3|🇺🇸102 |  1.1MB/s|14%|Openai
+  - 15|KZ_speednode_0065
+  - 11|v2raybluecrystal3
+  - 15|BG_speednode_0012
+  - 3|🇺🇸98 |  1.3MB/s
+  - '11|@V2rayNG3 #7'
+  - '11|🛡️ @FreakConfig #1'
+  - 15|GB_speednode_0030
+  - 3|🇺🇸118 |  1.9MB/s|50%|Openai
+  - '10|未命名 #1'
+  - 15|LU_speednode_0079
+  - 15|BG_speednode_0011
+  - 11|v2raybluecrystal-tur
+  - 15|SG_speednode_0098
+  - 13,14|美国4|@ripaojiedian
+  - 11|v2raybluecrystal
+  - 15|CH_speednode_0015
+  - 3|🇺🇸54 |  4.6MB/s|30%|Openai
+  - 15|JO_speednode_0063
+  - 15|GB_speednode_0043
   - 3|🇺🇸33 |  2.8MB/s|30%|Openai
+  - 11|@V2ray1_Ng
+  - '11|@V2rayNG3 #5'
+  - 15|GB_speednode_0031
+  - '10|Channel id: @ShadowProxy66🇯🇵 #1'
+  - 15|GB_speednode_0048
+  - 3|🇺🇸15 |  2.5MB/s|30%|Openai
+  - 3|🇺🇸96 |  2.4MB/s
+  - 3|🇺🇸110 |  3.1MB/s|46%|Openai
+  - 3|🇺🇸107 |  1.8MB/s|14%|Openai
+  - 15|US_speednode_0115
+  - 3|🇺🇸2 |  4.4MB/s|30%|Openai
+  - 13|🇯🇵 日本|@ripaojiedian
+  - '11|v2raybluecrystal2 #2'
+  - 3|🇺🇸23 |  2.0MB/s|30%|Openai
+  - 15|US_speednode_0110
+  - 3|🇺🇸125 |  1.5MB/s|14%|Openai
+  - 11|10 https://dafei.de
+  - 3|🇺🇸85 |  1.9MB/s|14%|Openai
+  - 15|LT_speednode_0071
+  - 15|RU_speednode_0091
+  - 15|ES_speednode_0024
+  - 11|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+  - 15|US_speednode_0111
+  - 11|🇹🇷¹ @VpnHubMarKeT  @VpnHubMarK...
+  - 15|US_speednode_0117
+  - 11|v2raybluecrystal3-ind
+  - 13|tg频道:@ripaojiedian
+  - '11|MCI-@Tunder_vpn #1'
+  - 3|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
+  - 3|🇮🇷1 |  1.3MB/s|0%|Openai
+  - 3|🇺🇸94 |  1.2MB/s|14%|Openai
+  - 15|DE_speednode_0019
+  - 11|v2raybluecrystal2-tur
+  - 10|新加坡
+  - 15|GB_speednode_0047
+  - 15|US_speednode_0116
+  - 3|🇺🇸19 |  1.5MB/s|30%|Openai
+  - 11|@GVgg#v2raybluecrystal3-tur
+  - 15|JO_speednode_0062
+  - 15|US_speednode_0123
+  - 11|2025|++telegram@v2raybluecryst...
+  - '11|@Daily_Configs #1'
+  - 3|🇺🇸58 |  4.2MB/s|30%|Openai
+  - 3|🇺🇸60 |  2.7MB/s|14%|Openai
+  - '11|v2raybluecrystal #2'
+  - 3|🇺🇸114 |  2.7MB/s|46%|Openai
+  - 3|🇺🇸27 |  1.1MB/s|30%|Openai
+  - 3|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  - 11|@Configology
+  - 15|LT_speednode_0076
+  - 3|🇺🇸84 |  4.0MB/s|30%|Openai
+  - 15|DE_speednode_0020
+  - 13|🇺🇸 美国2|@ripaojiedian
+  - 11|انا  ا  و مل  prox@
+  - 3|🇺🇸82 |  1.3MB/s
+  - 13,14|美国3|@ripaojiedian
+  - 15|SI_speednode_0102
+  - 3|🇺🇸21 |  2.2MB/s|30%|Openai
+  - 10|未命名
+  - 3|🇺🇸25 |  4.3MB/s|30%|Openai
+  - 11|v2raybluecrystal3-hou
   - '10|zeshtobad #1'
+  - 3|🇺🇸57 |  4.1MB/s|30%|Openai
+  - 3|🇺🇸91 |  4.3MB/s|46%|Openai
+  - 11|🇱telegram  @v2rayNG_Matsuri
+  - '10|未命名 #2'
+  - 15|AE_speednode_0006
+  - 15|LT_speednode_0075
+  - 3|🇺🇸66 |  3.7MB/s|46%|Openai
+  - 10|🇭🇰香港2
+  - 3|🇰🇷2 |  1.5MB/s|44%|Openai
+  - 15|US_speednode_0108
+  - 3|🇺🇸100 |  1.3MB/s
+  - 3|🇺🇸111 |  1.0MB/s|61%|Disney
+  - 3|🇺🇸93 |  1.8MB/s|14%|Openai
+  - 15|LU_speednode_0081
+  - 10,11|GB 🇬🇧 | @v2xay
+  - 13,14|日本5|@ripaojiedian
+  - 3|🇺🇸104 |  2.1MB/s
+  - 3|🇺🇸124 |  1.2MB/s|46%|Openai
+  - 15|RU_speednode_0096
+  - 3|🇺🇸101 |  1.6MB/s|14%|Openai
+  - 3,10|IraneAzad_Net_549
+  - 15|US_speednode_0109
+  - 15|ES_speednode_0021
+  - 15|JO_speednode_0059
+  - 15|KZ_speednode_0068
+  - 3|🇺🇸30 |  3.5MB/s|0%|Openai|Gemi...
+  - 3|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
+  - 3|🇫🇷3 |  4.1MB/s|36%|Openai
+  - 3|🇺🇸127 |  3.1MB/s|14%|Openai
+  - 13|🇺🇸 美国|@ripaojiedian
+  - 3|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
+  - 13|🇻🇳 越南|@ripaojiedian
+  - 11|v2raybluecrystal4-tur
+  - 11|v2raybluecrystal-hou
+  - 3|🇺🇸38 |  1.3MB/s|46%|Openai
+  - '11|v2raybluecrystal3 #3'
+  - 15|GB_speednode_0054
+  - 15|SI_speednode_0100
+  - 3|🇺🇸106 |  1.8MB/s|14%|Openai
+  - 15|GB_speednode_0053
+  - '10|Channel id: @ShadowProxy66 #1'
+  - 11|v2raybluecrystal2-la
+  - '10|Channel id: @ShadowProxy66🇸🇬'
+  - 3|🇺🇸5 |  2.0MB/s|46%|Openai
+  - 15|GB_speednode_0058
+  - 3|🇺🇸24 |  1.4MB/s|30%|Openai
+  - 3|🇩🇪6 |  4.3MB/s|0%|Disney|Opena...
+  - 10|🇰香港2
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -5254,11 +5216,9 @@ proxy-groups:
   - 3|🇩🇪4 |  2.8MB/s|13%|Netflix|You...
   - 3|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
   - 3|🇩🇪6 |  4.3MB/s|0%|Disney|Opena...
-  - 11|آم 🇩🇪 @V2xay
   - 11|🇩🇪 @VPNHubMaRKeT ♾  @VpnHubMar...
-  - '11|آلمان 🇩🇪 @V2xay #1'
+  - 11| 🇩🇪 @V2xay
   - 11|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
-  - '11|آلمان 🇩🇪 @V2xay #2'
   - 11|@SaghiVpnXBOT 🇩🇪[🇩🇪]
   - 15|DE_speednode_0017
   - 15|DE_speednode_0018
