@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  name: 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
   port: 49291
   server: 183.236.51.38
   skip-cert-verify: false
@@ -9,7 +9,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 2|🇸🇬2 |  2.8MB/s|61%|Youtube|Ope...
+- name: 3|🇸🇬2 |  2.8MB/s|61%|Youtube|Ope...
   network: ws
   port: 443
   server: 64.176.38.232
@@ -23,7 +23,7 @@ proxies:
     headers:
       Host: lighter-missouri-hydrocodone-yeast.trycloudflare.com
     path: /e46d518d-4a20-4f9a-873d-a86e9455321c-vless?ed=2048
-- name: 2|🇸🇬3 |  1.2MB/s|30%|Disney|Open...
+- name: 3|🇸🇬3 |  1.2MB/s|30%|Disney|Open...
   network: ws
   port: 8880
   server: 154.197.108.20
@@ -45,7 +45,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '10|SG #1'
+- name: '10|未命名 #3'
   password: 5OiuCsPmULZ0lJwts89fegLJE
   port: 17193
   server: 54.169.224.169
@@ -61,6 +61,14 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: 10|新加坡
+  password: a914681a-8dda-4c98-8468-c313f5539b14
+  port: 2056
+  server: sg3.eyucdn.xyz
+  skip-cert-verify: true
+  sni: sg3.eyucdn.xyz
+  tls: false
+  type: hysteria2
 - name: 10|🇸新加坡
   password: e10ea0d5-4244-4aec-9ba0-cafe77cc6d90
   port: 443
@@ -69,7 +77,7 @@ proxies:
   sni: www.teslaautomation.de
   tls: false
   type: hysteria2
-- name: 10|新加坡
+- name: '10|新加坡 #1'
   password: lPK6OZ9ouqyXrCghO6ohUbbN5g
   port: 33131
   server: 8.222.183.55
@@ -77,7 +85,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '10|新加坡 #1'
+- name: '10|新加坡 #2'
   password: vlJbyJEtcNjHvV6dnkZ1Z4VjpI
   port: 10264
   server: 13.212.75.22
