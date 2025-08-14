@@ -1,4 +1,4 @@
-# Update: 2025-08-14 05:09
+# Update: 2025-08-14 08:54
 allow-lan: false
 dns:
   enable: true
@@ -139,7 +139,7 @@ proxies:
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 15.188.74.209
+  server: 51.44.179.14
   tfo: false
   type: ss
 - alterId: 2
@@ -173,22 +173,16 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 13,14|香港3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  servername: ''
+  name: 13|🇭🇰 香港3|@ripaojiedian
+  port: 44470
+  server: 43.247.135.176
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+  uuid: f7adceb1-556b-44f4-a2c2-20f3e06e2001
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -212,29 +206,12 @@ proxies:
   skip-cert-verify: true
   sni: www.ithome.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰 香港7|@ripaojiedian
-  port: 44470
-  server: 43.247.135.176
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: f7adceb1-556b-44f4-a2c2-20f3e06e2001
-- name: 13,14|台湾2|@ripaojiedian
-  network: tcp
-  password: be76ac23-8ff8-4afe-a86e-5153f4ce869d
-  port: 25004
-  server: 8.134.93.116
-  skip-cert-verify: true
-  type: trojan
 - cipher: rc4-md5
   name: 13|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-oza3DJO8nv.download.microsoft.com
+    host: 202507282137611-pwlP10l6s0.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -272,6 +249,13 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - cipher: chacha20-ietf-poly1305
+  name: 13|🇯🇵 日本5|@ripaojiedian
+  password: 628726b8-9371-4bdd-aab5-d864a492a492
+  port: 35782
+  server: t1.fttos.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 13|🇰🇷 韩国|@ripaojiedian
   password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
   port: 19852
@@ -301,6 +285,22 @@ proxies:
   server: 8.148.194.255
   skip-cert-verify: true
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13,14|新加坡4|@ripaojiedian
+  network: ws
+  port: '16618'
+  server: t.cnmjcn.cyou
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 42c37c6c-9ad9-42dc-99d6-afd3c100a563
+  ws-opts:
+    headers:
+      Host: e5406c2f4f42756d4a4089ffcd58947b.mobgslb.tbcache.com
+    path: /
 - name: 13|🇺🇸 美国|@ripaojiedian
   network: ws
   password: 7248e825-887c-48b9-83bc-c26bc6392bf8
@@ -318,7 +318,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-oza3DJO8nv.download.microsoft.com
+    host: 202507282137611-pwlP10l6s0.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -342,7 +342,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 14|香港7|@ripaojiedian
+  name: 14|香港3|@ripaojiedian
   network: tcp
   port: '44470'
   server: 43.247.135.176
@@ -1276,110 +1276,110 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 15|US_speednode_0273
-  - 15|US_speednode_0267
-  - 15|SC_speednode_0167
-  - 15|US_speednode_0222
-  - 15|KR_speednode_0073
-  - 3|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-  - 13|🇭🇰 香港7|@ripaojiedian
-  - 15|JP_speednode_0067
-  - 13,14|香港4|@ripaojiedian
-  - 15|KR_speednode_0079
-  - 15|US_speednode_0259
-  - 15|US_speednode_0249
-  - 13|tg频道:@ripaojiedian
-  - 15|US_speednode_0277
-  - 15|KR_speednode_0070
-  - 13|🇺🇸 美国2|@ripaojiedian
-  - 13,14|新加坡3|@ripaojiedian
-  - 13|🇰🇷 韩国|@ripaojiedian
-  - 13,14|日本4|@ripaojiedian
-  - 15|HK_speednode_0061
-  - 15|RU_speednode_0159
-  - 14|美国|@ripaojiedian
-  - 15|AM_speednode_0016
-  - 15|KR_speednode_0076
-  - 15|US_speednode_0272
-  - 15|SG_speednode_0173
-  - 15|KR_speednode_0071
-  - 15|US_speednode_0270
-  - 13|🇯🇵 日本|@ripaojiedian
-  - 13,14|日本3|@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 15|US_speednode_0246
-  - 15|KZ_speednode_0087
-  - 13,14|美国4|@ripaojiedian
-  - 15|AM_speednode_0013
-  - 3|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 15|US_speednode_0266
-  - 15|US_speednode_0265
-  - 15|KR_speednode_0075
-  - 15|SG_speednode_0172
-  - 13,14|美国3|@ripaojiedian
-  - 13,14|新加坡2|@ripaojiedian
-  - 15|SG_speednode_0174
-  - 13,14|台湾2|@ripaojiedian
-  - 15|RU_speednode_0156
-  - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-  - 15|KR_speednode_0072
-  - 15|RU_speednode_0162
-  - 15|US_speednode_0274
-  - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
   - 14|香港v2|@ripaojiedian
-  - 3|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-  - 15|AM_speednode_0011
-  - 15|AM_speednode_0014
-  - 15|AM_speednode_0012
-  - 13,14|香港6|@ripaojiedian
-  - 14|日本v2|@ripaojiedian
+  - 15|US_speednode_0265
+  - 15|RU_speednode_0158
+  - 15|US_speednode_0222
   - 15|US_speednode_0254
-  - 15|AM_speednode_0017
-  - 13|🇯🇵 日本2|@ripaojiedian
-  - 15|KR_speednode_0077
-  - 15|KR_speednode_0074
-  - 15|US_speednode_0271
-  - 15|US_speednode_0276
-  - 13|🇺🇸 美国|@ripaojiedian
-  - 15|RU_speednode_0161
-  - 15|RU_speednode_0163
-  - 3|🇰🇷2 |  1.5MB/s|44%|Openai
-  - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-  - 13,14|香港3|@ripaojiedian
-  - 15|AM_speednode_0015
-  - 15|US_speednode_0263
-  - 15|US_speednode_0264
-  - 15|SG_speednode_0171
-  - 15|SC_speednode_0168
-  - 15|RU_speednode_0157
-  - 15|US_speednode_0255
-  - 3|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-  - 15|US_speednode_0250
-  - 15|US_speednode_0279
-  - 15|SG_speednode_0175
-  - 15|US_speednode_0269
-  - 15|US_speednode_0278
-  - 15|KR_speednode_0078
-  - 15|HK_speednode_0062
-  - 15|SC_speednode_0166
-  - 15|US_speednode_0261
+  - 3|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+  - 15|JP_speednode_0067
+  - 15|SG_speednode_0173
   - 15|US_speednode_0268
+  - 15|US_speednode_0276
   - 13,14|香港|@ripaojiedian
-  - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-  - 13|🇭🇰 香港5|@ripaojiedian
-  - 15|US_speednode_0256
+  - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
+  - 15|SC_speednode_0167
+  - 13|🇯🇵 日本5|@ripaojiedian
+  - 13|🇰🇷 韩国|@ripaojiedian
+  - 15|AM_speednode_0016
+  - 15|RU_speednode_0162
+  - 13,14|新加坡3|@ripaojiedian
+  - 15|KR_speednode_0077
+  - 15|AM_speednode_0017
   - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-  - 15|US_speednode_0262
-  - 14|香港7|@ripaojiedian
+  - 13,14|香港6|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 13,14|美国4|@ripaojiedian
+  - 13,14|新加坡4|@ripaojiedian
+  - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+  - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  - 15|KZ_speednode_0087
+  - 15|US_speednode_0249
+  - 3|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+  - 15|US_speednode_0270
+  - 15|RU_speednode_0163
+  - 14|日本v2|@ripaojiedian
+  - 15|US_speednode_0256
+  - 15|US_speednode_0279
+  - 13,14|新加坡2|@ripaojiedian
+  - 15|US_speednode_0264
+  - 15|US_speednode_0266
+  - 13|🇯🇵 日本2|@ripaojiedian
+  - 15|JP_speednode_0069
+  - 15|US_speednode_0278
+  - 15|AM_speednode_0014
+  - 15|HK_speednode_0062
+  - 14|香港3|@ripaojiedian
+  - 13|🇭🇰 香港3|@ripaojiedian
+  - 15|US_speednode_0275
+  - 15|US_speednode_0272
+  - 13,14|美国3|@ripaojiedian
+  - 15|SC_speednode_0166
+  - 15|US_speednode_0250
+  - 13,14|日本3|@ripaojiedian
+  - 14|美国|@ripaojiedian
+  - 15|SG_speednode_0171
+  - 15|KR_speednode_0075
+  - 15|US_speednode_0246
+  - 3|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+  - 13|🇯🇵 日本|@ripaojiedian
+  - 15|KR_speednode_0070
+  - 13|🇭🇰 香港5|@ripaojiedian
+  - 15|SC_speednode_0168
+  - 15|RU_speednode_0160
+  - 13|🇺🇸 美国|@ripaojiedian
+  - 15|US_speednode_0273
+  - 15|KR_speednode_0079
+  - 15|KR_speednode_0071
   - 15|LT_speednode_0096
   - 15|US_speednode_0260
-  - 15|JP_speednode_0069
-  - 15|RU_speednode_0160
-  - 15|RU_speednode_0158
-  - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-  - 15|US_speednode_0275
+  - 15|AM_speednode_0012
+  - 15|US_speednode_0255
+  - 13,14|新加坡|@ripaojiedian
+  - 15|SG_speednode_0175
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 15|US_speednode_0274
+  - 15|AM_speednode_0013
+  - 15|SG_speednode_0172
+  - 15|HK_speednode_0061
+  - 15|US_speednode_0263
+  - 15|AM_speednode_0011
+  - 13,14|日本4|@ripaojiedian
+  - 15|US_speednode_0259
+  - 15|SG_speednode_0174
+  - 15|KR_speednode_0073
+  - 3|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+  - 15|KR_speednode_0076
   - 15|SC_speednode_0165
+  - 15|RU_speednode_0157
+  - 15|RU_speednode_0159
+  - 15|US_speednode_0262
+  - 15|US_speednode_0277
+  - 15|KR_speednode_0078
+  - 3|🇰🇷2 |  1.5MB/s|44%|Openai
+  - 15|US_speednode_0261
+  - 13|tg频道:@ripaojiedian
+  - 15|US_speednode_0269
+  - 15|RU_speednode_0161
+  - 15|AM_speednode_0015
+  - 15|KR_speednode_0072
+  - 15|US_speednode_0267
+  - 15|US_speednode_0271
+  - 15|RU_speednode_0156
+  - 13|🇺🇸 美国2|@ripaojiedian
+  - 15|KR_speednode_0074
   type: fallback
   url: https://www.google.com/
 - interval: 300
