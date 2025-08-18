@@ -9,6 +9,13 @@ proxies:
   sni: hl1.gy6688.xyz
   tls: false
   type: hysteria2
+- name: 10|Hysteria
+  password: 1JA6CF8JMUDvoz6zfm5qHwlN3Wo
+  port: 4410
+  server: 43.207.119.98
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: 10|Hy2-3
   password: 1c473b13-502d-47eb-8cf8-70a38d56c5bd
   port: 443
@@ -95,13 +102,6 @@ proxies:
   server: 54.255.144.66
   skip-cert-verify: true
   sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '10|Telegram:@config_proxy '
-  password: 45cc0b3a-0adb-4dcc-8f54-4ba3d2cc274e
-  port: 49382
-  server: 185.126.255.78
-  sni: real.getafreenode.sbs
   tls: false
   type: hysteria2
 - name: 10|🇺🇸
@@ -329,14 +329,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|Telegram:@config_proxy 😍 #6'
-  password: de8854c7-fa17-4266-ae18-50a9732a0c4e
-  port: 3001
-  server: 198.23.130.221
-  skip-cert-verify: true
-  sni: us2.1010991.xyz
-  tls: false
-  type: hysteria2
 - name: 10|🇺🇸美国
   password: de8854c7-fa17-4266-ae18-50a9732a0c4e
   port: 3001
@@ -520,38 +512,6 @@ proxies:
   server: 107.174.41.101
   skip-cert-verify: true
   sni: www.apple.com
-  tls: false
-  type: hysteria2
-- name: 11|MCI-@Tunder_vpn
-  password: 627712cf-d0e1-4545-81fb-241e7fda0284
-  port: 443
-  server: 108.181.23.241
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '11|MCI-@Tunder_vpn #1'
-  password: 627712cf-d0e1-4545-81fb-241e7fda0284
-  port: 443
-  server: 108.181.23.249
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '11|MCI-@Tunder_vpn #2'
-  password: 627712cf-d0e1-4545-81fb-241e7fda0284
-  port: 443
-  server: 108.181.23.255
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '11|MCI-@Tunder_vpn #3'
-  password: 627712cf-d0e1-4545-81fb-241e7fda0284
-  port: 443
-  server: 204.10.194.86
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '11|@V2rayNG3 #3'
