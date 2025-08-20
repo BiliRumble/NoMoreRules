@@ -377,7 +377,7 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: '10,11|🛡️ @FreakConfig #1'
+- name: 10,11|️ @FreakConfig
   password: dongtaiwang.com
   port: 22222
   server: 208.87.243.187
@@ -487,15 +487,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '11|未命名 #4'
-  obfs: salamander
-  obfs-password: '7859542545'
-  password: 01telegram-ID-free_vpn0088
-  port: 40725
-  server: sumibi.org.sumibi.org
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: 11|@V2rayNG3
   password: '123456'
   port: 443
@@ -542,6 +533,14 @@ proxies:
   password: 75577117-ABCD-DCBA-AAAA-CC777775577B
   port: 7777
   server: s15.serv00.com
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 11|ان های ی د نل ترا💎 Config_Raye...
+  password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28
+  port: 31468
+  server: 77.223.214.193
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
@@ -652,7 +651,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|🛡️ @FreakConfig #2'
+- name: '11|🛡️ @FreakConfig #1'
   password: kWlrCka5jzfKbD2z7ucwANEdZM
   port: 26404
   server: 47.245.53.59
@@ -695,7 +694,7 @@ proxies:
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.215.235.115
+  server: 51.44.212.37
   tfo: false
   type: ss
 - alterId: 2
@@ -777,7 +776,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-3bI5FffInl.download.microsoft.com
+    host: 202508150964186-dmRA1xMJaG.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -814,6 +813,20 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- cipher: aes-128-gcm
+  name: 13|🇰🇷 韩国|@ripaojiedian
+  password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
+  port: 13882
+  server: hanguo01.tmdns-sing.top
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 13|🇰🇷 韩国2|@ripaojiedian
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  tfo: false
+  type: ss
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -822,13 +835,6 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: aes-128-gcm
-  name: 13|🇰🇷 韩国|@ripaojiedian
-  password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
-  port: 13882
-  server: hanguo01.tmdns-sing.top
-  tfo: false
-  type: ss
 - name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -838,10 +844,10 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - cipher: aes-128-gcm
-  name: 13|🇸🇬 新加坡3|@ripaojiedian
+  name: 13|🇺🇸 美国|@ripaojiedian
   password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
-  port: 13886
-  server: xinjiapo.tmdns-sing.top
+  port: 13892
+  server: usa022.tmdns-sing.top
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -849,17 +855,10 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-3bI5FffInl.download.microsoft.com
+    host: 202508150964186-dmRA1xMJaG.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  name: 13|🇺🇸 美国|@ripaojiedian
-  password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
-  port: 13892
-  server: usa022.tmdns-sing.top
   tfo: false
   type: ss
 - name: 13,14|美国3|@ripaojiedian
@@ -878,11 +877,11 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: aes-256-cfb
-  name: 13|🇻🇳 越南|@ripaojiedian
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.31
+- cipher: aes-128-gcm
+  name: 13|🇮🇩 印尼|@ripaojiedian
+  password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
+  port: 13879
+  server: yinni01.tmdns-sing.top
   tfo: false
   type: ss
 - alterId: 0
