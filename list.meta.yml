@@ -1,4 +1,4 @@
-# Update: 2025-08-21 23:11
+# Update: 2025-08-22 02:15
 allow-lan: false
 dns:
   enable: true
@@ -65,15 +65,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|Channel id: @@singbox1'
-  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
-  port: 443
-  server: 153.121.42.218
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: 10|🇵日本
+- name: 10|日本
   password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
   port: 443
   server: aws-linkhy17.liangxin1.xyz
@@ -249,14 +241,6 @@ proxies:
   sni: hsxg.huasuan666.top
   tls: false
   type: hysteria2
-- name: '10|Channel id: @@singbox1🇨🇦 #1'
-  password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
-  port: 54530
-  server: 192.18.150.167
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 10|2@oneclickvpnkeys
   obfs: salamander
   obfs-password: GdQ4bgvT8RFwuWi2
@@ -265,20 +249,6 @@ proxies:
   server: net2025.afsharidempire.uk
   skip-cert-verify: true
   sni: net2025.afsharidempire.uk
-  tls: false
-  type: hysteria2
-- name: '10|Channel id: @@singbox1 #1'
-  password: 942b9cb8-92fa-46ac-ae91-f69c8234434b
-  port: 46502
-  server: 172.252.236.213
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: '10|Channel id: @@singbox1🇦'
-  password: 942b9cb8-92fa-46ac-ae91-f69c8234434b
-  port: 59494
-  server: 185.126.255.78
-  sni: real.getafreenode.sbs
   tls: false
   type: hysteria2
 - name: 10|HK
@@ -444,14 +414,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|Channel id: @@singbox1🇰 #2'
-  password: cc83a02b-90ea-403b-9c76-27e4be95f637
-  port: 50256
-  server: 154.204.181.230
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: '10|🇭🇰香港 #2'
   password: de8854c7-fa17-4266-ae18-50a9732a0c4e
   port: 3001
@@ -530,7 +492,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '10|Channel id: @ShadowProxy66🇭🇰 #1'
+- name: '10|Channel id: @ShadowProxy66🇭🇰 #2'
   password: nfsn666
   port: 8888
   server: 45.207.222.138
@@ -538,7 +500,7 @@ proxies:
   sni: hk.nfsn666.gq
   tls: false
   type: hysteria2
-- name: 10|日本
+- name: '10|日本 #1'
   password: oATw4IRtuUOozpOLFflGnWjtg
   port: 18219
   server: 52.193.71.150
@@ -1465,160 +1427,155 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - '10|新加坡 #2'
-  - 10|🇸US
-  - 13|🇹🇼 台湾|@ripaojiedian
-  - '10|SG #2'
-  - '10|Channel id: @@singbox1🇰 #2'
-  - 15|GB_speednode_0017
-  - 10|DE
-  - 13|🇯🇵 日本|@ripaojiedian
-  - '10|Channel id: @@singbox1 #1'
-  - 14|香港3|@ripaojiedian
-  - 15|GB_speednode_0019
-  - 10|Hy2-3
-  - 14|香港7|@ripaojiedian
-  - 15|GB_speednode_0010
-  - 15|US_speednode_0028
-  - '10|UK #1'
-  - '10|Channel id: @ShadowProxy66🇸'
-  - '10|JP #1'
-  - 13,14|美国3|@ripaojiedian
-  - 13|🇭🇰 香港5|@ripaojiedian
-  - 13,14|日本4|@ripaojiedian
-  - 15|GB_speednode_0018
-  - 15|GB_speednode_0008
-  - 11| @Cyber_Ta🌐
-  - 13|🇯🇵 日本2|@ripaojiedian
   - 15|US_speednode_0026
-  - 10|🇸🇬新加坡
-  - 14|香港8|@ripaojiedian
-  - 15|GB_speednode_0013
-  - 10|2@oneclickvpnkeys
-  - 10|🇰香港2
-  - '11|@V2rayNG3 #2'
-  - '11|@V2rayNG3 #4'
-  - 13|🇰🇷 韩国|@ripaojiedian
-  - '10|🇭🇰香港 #1'
-  - 15|GB_speednode_0011
-  - 10,11|️ @FreakConfig
-  - 15|GB_speednode_0014
-  - '10|HK #1'
   - 10,11|@Daily_Configs
-  - '11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3'
-  - 10|🍰28@oneclickvpnkeys
-  - 10|香港
-  - '10|Channel id: @ShadowProxy66🇭🇰 #1'
-  - 11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-  - 13|tg频道:@ripaojiedian
-  - 10|东京
-  - 13,14|香港6|@ripaojiedian
-  - 11|🇰🇷 @Cyber_Ta🌐
-  - 10|新加坡
-  - 11|美国10 付费推荐：https://dafei.de
-  - 10|India
-  - '10|Channel id: @ShadowProxy66🇬🇧'
-  - 10|🧁80@oneclickvpnkeys
-  - 13|🇭🇰 香港3|@ripaojiedian
-  - 13|🇰🇷 韩国2|@ripaojiedian
-  - '11|@V2rayNG3 #1'
-  - 15|US_speednode_0024
-  - 11|@V2rayNG3
-  - '11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1'
-  - 10|Hysteria
-  - '11|@V2rayNG3 #9'
-  - 15|US_speednode_0029
-  - 10|FR
-  - 10|UK
-  - '11|@V2rayNG3 #8'
-  - 13,14|新加坡|@ripaojiedian
-  - 10|🇺🇸
-  - 10|🇵日本
-  - '10|未命名 #1'
   - 10|US
-  - 13,14|香港|@ripaojiedian
-  - 10,11|ان های ی د نل ترا💎 Config_Raye...
-  - 10|🇭🇰香港
-  - 15|US_speednode_0030
-  - '10|SG #4'
-  - 15|US_speednode_0027
-  - 10|🚜57@oneclickvpnkeys
-  - 13|🇻🇳 越南|@ripaojiedian
-  - 15|GB_speednode_0016
-  - 11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
-  - 10|HK
-  - 10,11| 𝗝𝗼𝗶𝗻 ➠ @Viturey
-  - '10,11|@Daily_Configs #3'
-  - 10|🇯🇵日本东京
-  - 13,14|新加坡2|@ripaojiedian
-  - 10|🇭🇰香港2
-  - 13|🇺🇸 美国|@ripaojiedian
-  - 10|SG
-  - 11|@SaghiVpnXBOT 🇩🇪[🇩🇪]
-  - 10|🇯🇵日本东京2
-  - 11|@V2ray1_Ng
-  - '10|Channel id: @@singbox1🇦'
-  - 10|🇸🇬SG
-  - '11|☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #1'
-  - '10|Channel id: @@singbox1'
-  - 10|🇭🇰HK
-  - 10|JP
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 10|日本
-  - 15|GB_speednode_0005
-  - 13,14|美国4|@ripaojiedian
-  - 15|RU_speednode_0022
-  - '11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1'
-  - 13|🇺🇸 美国2|@ripaojiedian
-  - 15|GB_speednode_0015
-  - 10|🧁79@oneclickvpnkeys
-  - '10,11|@Daily_Configs #2'
-  - '10|JP #2'
-  - 13|🇭🇰 香港8|@ripaojiedian
-  - '11|@V2rayNG3 #7'
-  - 10|🍰30@oneclickvpnkeys
-  - '10|未命名 #3'
-  - 10|🇺🇸美国
-  - 13|🇭🇰 香港7|@ripaojiedian
-  - 10|🧁78@oneclickvpnkeys
-  - '10|Channel id: @ShadowProxy66🇺🇸'
-  - 13,14|日本3|@ripaojiedian
-  - 15|RU_speednode_0023
-  - 11|10 https://dafei.de
-  - '11| @Cyber_Ta🌐 #1'
-  - 11|☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey
   - '10|SG #1'
-  - '11|@V2rayNG3 #3'
-  - 10|37@oneclickvpnkeys
-  - 15|HK_speednode_0020
-  - 15|US_speednode_0031
-  - 15|GB_speednode_0006
-  - 11|@v2rayNGcloud
-  - '10|未命名 #2'
-  - 15|GB_speednode_0012
-  - '10|🇭🇰香港 #2'
-  - '10|新加坡 #1'
-  - 10|🇯🇵日本
-  - 15|US_speednode_0025
-  - 10|未命名
+  - '10,11|@Daily_Configs #3'
+  - '11|☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #1'
+  - 15|US_speednode_0027
+  - 11|🇰🇷 @Cyber_Ta🌐
+  - 10|🍰28@oneclickvpnkeys
+  - 13|tg频道:@ripaojiedian
   - '10|香港 #1'
-  - '11|@V2rayNG3 #6'
-  - '10,11|@Daily_Configs #1'
-  - '11|@V2rayNG3 #5'
-  - 15|GB_speednode_0007
-  - 10|98@oneclickvpnkeys
-  - 10,11|@Selinc
-  - '11|🛡️ @FreakConfig #1'
-  - '10|Channel id: @@singbox1🇨🇦 #1'
+  - 10|🧁80@oneclickvpnkeys
+  - 10|🍰30@oneclickvpnkeys
+  - '11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1'
+  - 10,11| 𝗝𝗼𝗶𝗻 ➠ @Viturey
+  - 10|🇸US
   - 15|GB_speednode_0009
-  - '10|Channel id: @ShadowProxy66🇨🇦'
-  - 14|香港v2|@ripaojiedian
-  - 15|RU_speednode_0021
-  - 10|美国🇺🇸
-  - '10|US #1'
+  - 13|🇰🇷 韩国2|@ripaojiedian
+  - 15|RU_speednode_0022
   - 10|🇺
-  - 14|日本v2|@ripaojiedian
+  - 14|香港8|@ripaojiedian
+  - 14|香港7|@ripaojiedian
+  - 15|US_speednode_0030
+  - '10|🇭🇰香港 #2'
+  - 13|🇭🇰 香港7|@ripaojiedian
+  - 15|RU_speednode_0021
+  - 11|☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey
+  - 13,14|香港|@ripaojiedian
+  - '10,11|@Daily_Configs #1'
+  - '10|JP #2'
+  - '11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1'
+  - 10|新加坡
+  - 13|🇯🇵 日本|@ripaojiedian
+  - 10|Hy2-3
+  - 15|US_speednode_0031
+  - '11|@V2rayNG3 #3'
+  - 10|🇭🇰香港
+  - '11|@V2rayNG3 #5'
+  - 15|US_speednode_0024
+  - '11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3'
+  - 10|🚜57@oneclickvpnkeys
+  - 10|香港
+  - 13,14|香港6|@ripaojiedian
+  - '10|JP #1'
+  - 10,11|ان های ی د نل ترا💎 Config_Raye...
+  - 10|🇯🇵日本东京
+  - 13|🇺🇸 美国2|@ripaojiedian
+  - '11|@V2rayNG3 #2'
+  - 10|India
+  - '10|Channel id: @ShadowProxy66🇺🇸'
+  - 11|@V2rayNG3
+  - 13|🇹🇼 台湾|@ripaojiedian
+  - '11|@V2rayNG3 #1'
+  - 15|US_speednode_0029
+  - 14|香港3|@ripaojiedian
+  - 11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
+  - 10|98@oneclickvpnkeys
+  - 10|HK
+  - 15|GB_speednode_0017
+  - 10|Hysteria
+  - 10|🧁78@oneclickvpnkeys
+  - 15|GB_speednode_0018
+  - '10|US #1'
+  - 10|🇸🇬SG
+  - '10|新加坡 #1'
+  - '10|🇭🇰香港 #1'
   - 13,14|香港4|@ripaojiedian
+  - 15|GB_speednode_0006
+  - 10|SG
+  - 11| @Cyber_Ta🌐
+  - 11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
+  - 15|GB_speednode_0008
+  - 15|GB_speednode_0007
+  - 11|10 https://dafei.de
+  - 13|🇭🇰 香港5|@ripaojiedian
+  - '10|Channel id: @ShadowProxy66🇨🇦'
+  - 10|日本
+  - 13,14|日本4|@ripaojiedian
+  - 15|GB_speednode_0012
+  - 10|🇭🇰HK
+  - 10|美国🇺🇸
+  - '10|UK #1'
+  - 15|GB_speednode_0013
+  - 15|US_speednode_0025
+  - '10|HK #1'
+  - '11|🛡️ @FreakConfig #1'
+  - 10|未命名
+  - 13,14|美国3|@ripaojiedian
+  - 10,11|️ @FreakConfig
+  - 10|🧁79@oneclickvpnkeys
+  - '11|@V2rayNG3 #8'
+  - 13|🇭🇰 香港3|@ripaojiedian
+  - '11|@V2rayNG3 #4'
+  - 10|2@oneclickvpnkeys
+  - 11|@v2rayNGcloud
+  - 15|HK_speednode_0020
+  - 15|GB_speednode_0015
+  - '10,11|@Daily_Configs #2'
+  - 10|🇯🇵日本东京2
+  - 10|DE
+  - 15|GB_speednode_0011
+  - 13,14|新加坡2|@ripaojiedian
+  - 10|🇺🇸美国
+  - 13|🇭🇰 香港8|@ripaojiedian
+  - 10|🇯🇵日本
+  - 10|UK
+  - 10|🇺🇸
+  - 15|GB_speednode_0010
+  - 15|GB_speednode_0014
+  - 10|🇰香港2
+  - '10|Channel id: @ShadowProxy66🇭🇰 #2'
+  - '10|SG #2'
+  - '11| @Cyber_Ta🌐 #1'
+  - 15|GB_speednode_0016
+  - '11|@V2rayNG3 #9'
+  - 10|🇸🇬新加坡
+  - 14|香港v2|@ripaojiedian
+  - 15|US_speednode_0028
+  - 10|37@oneclickvpnkeys
+  - 14|日本v2|@ripaojiedian
+  - 10|FR
+  - 10|JP
+  - '10|未命名 #3'
+  - 10|🇭🇰香港2
+  - 13|🇰🇷 韩国|@ripaojiedian
+  - '10|Channel id: @ShadowProxy66🇸'
+  - '11|@V2rayNG3 #7'
+  - 13,14|新加坡|@ripaojiedian
+  - '10|日本 #1'
+  - '10|新加坡 #2'
+  - '10|SG #4'
+  - 10|东京
+  - '11|@V2rayNG3 #6'
+  - 10,11|@Selinc
+  - 15|GB_speednode_0005
+  - 13|🇺🇸 美国|@ripaojiedian
+  - 15|RU_speednode_0023
+  - 13,14|日本3|@ripaojiedian
+  - '10|未命名 #1'
+  - 13,14|美国4|@ripaojiedian
+  - 11|美国10 付费推荐：https://dafei.de
+  - '10|未命名 #2'
+  - '10|Channel id: @ShadowProxy66🇬🇧'
+  - 15|GB_speednode_0019
+  - 11|@V2ray1_Ng
+  - 13|🇯🇵 日本2|@ripaojiedian
+  - 13|🇻🇳 越南|@ripaojiedian
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 11|@SaghiVpnXBOT 🇩🇪[🇩🇪]
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1674,11 +1631,11 @@ proxy-groups:
   type: select
 - name: 🇯🇵 日本
   proxies:
-  - 10|🇵日本
+  - 10|日本
   - 10|🇯🇵日本
   - 10|🇯🇵日本东京2
   - 10|🇯🇵日本东京
-  - 10|日本
+  - '10|日本 #1'
   - 10|JP
   - '10|JP #1'
   - '10|JP #2'
@@ -1729,7 +1686,7 @@ proxy-groups:
   - '10|🇭🇰香港 #1'
   - 10|🇭🇰香港2
   - '10|🇭🇰香港 #2'
-  - '10|Channel id: @ShadowProxy66🇭🇰 #1'
+  - '10|Channel id: @ShadowProxy66🇭🇰 #2'
   - 13,14|香港|@ripaojiedian
   - 13|🇭🇰 香港2|@ripaojiedian
   - 13|🇭🇰 香港3|@ripaojiedian
@@ -1746,7 +1703,7 @@ proxy-groups:
   type: select
 - name: 🇨🇦 加拿大
   proxies:
-  - '10|Channel id: @@singbox1🇨🇦 #1'
+  - REJECT
   type: select
 - name: 🇫🇷 法国
   proxies:
@@ -1754,13 +1711,12 @@ proxy-groups:
   type: select
 - name: 🇸🇬 新加坡
   proxies:
+  - '10|SG #1'
   - '10|SG #2'
   - '10|未命名 #2'
   - '10|SG #4'
-  - 10|🍰30@oneclickvpnkeys
   - 10|新加坡
   - 10|🇸🇬新加坡
-  - '10,11|@Daily_Configs #3'
   - '10|新加坡 #1'
   - '10|新加坡 #2'
   - 13,14|新加坡|@ripaojiedian
