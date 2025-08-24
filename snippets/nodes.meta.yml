@@ -102,7 +102,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 10|SG
+- name: 10,11|@Daily_Configs
   password: 3hszBhqVsUhqOOFWJlev6k6Tkc
   port: 22509
   server: 47.129.224.62
@@ -231,7 +231,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10,11|@Daily_Configs #1'
+- name: '10,11|@Daily_Configs #2'
   obfs: salamander
   obfs-password: aA@8795
   password: FREEEE_7.87958795
@@ -289,7 +289,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '10,11|@Daily_Configs #3'
+- name: '10,11|@Daily_Configs #5'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -338,7 +338,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '10,11|@Daily_Configs #4'
+- name: '10,11|@Daily_Configs #6'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -827,11 +827,19 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: '11|@Daily_Configs #2'
+- name: '11|@Daily_Configs #3'
   password: NjEkAYYNqFKUbrksyW1COBtdpU
   port: 2428
   server: 47.239.220.214
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '11|@Daily_Configs #4'
+  password: RzQrEkAmnGs86IhmSVUk9Q5cn9M
+  port: 30308
+  server: 47.236.104.81
+  skip-cert-verify: true
+  sni: bing.com
   tls: false
   type: hysteria2
 - name: 11|v2raybluecrystal3-hou
@@ -970,7 +978,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '11|@Daily_Configs #5'
+- name: '11|@Daily_Configs #7'
   password: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099
   port: 43057
   server: 203.174.82.145
