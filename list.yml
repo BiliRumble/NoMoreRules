@@ -1,4 +1,4 @@
-# Update: 2025-09-01 20:20
+# Update: 2025-09-01 23:10
 allow-lan: false
 dns:
   enable: true
@@ -254,6 +254,45 @@ proxies:
   tls: false
   type: vmess
   uuid: 8a9150bc-b9c8-40ac-be83-aaec45176a81
+- name: 14|CR_speednode_0005
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 190.93.247.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: 14|RU_speednode_0011
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 194.53.53.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: 14|US_speednode_0049
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 209.94.90.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -265,30 +304,33 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12|tg频道:@ripaojiedian
-  - 12|🇹🇼 台湾|@ripaojiedian
+  - 12,13|香港6|@ripaojiedian
   - 12|🇯🇵 日本2|@ripaojiedian
-  - 12|🇺🇸 美国2|@ripaojiedian
   - 12|🇹🇼 台湾2|@ripaojiedian
-  - 13|香港3|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
+  - 12|🇭🇰 香港5|@ripaojiedian
+  - 14|US_speednode_0049
+  - 12|🇭🇰 香港3|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
   - 12,13|美国4|@ripaojiedian
-  - 12|🇸🇬 新加坡4|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 13|香港5|@ripaojiedian
+  - 12|🇹🇼 台湾|@ripaojiedian
+  - 14|RU_speednode_0011
   - 12,13|新加坡3|@ripaojiedian
   - 12,13|日本3|@ripaojiedian
-  - 12,13|香港6|@ripaojiedian
+  - 12|🇺🇸 美国2|@ripaojiedian
   - 12|🇭🇰 香港2|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
-  - 12|🇭🇰 香港3|@ripaojiedian
-  - 12|🇯🇵 日本|@ripaojiedian
-  - 13|香港v2|@ripaojiedian
-  - 13|香港5|@ripaojiedian
   - 13|日本v2|@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
   - 12,13|香港|@ripaojiedian
-  - 12|🇭🇰 香港5|@ripaojiedian
+  - 12|🇯🇵 日本|@ripaojiedian
+  - 12,13|新加坡|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 12|🇸🇬 新加坡4|@ripaojiedian
   - 12,13|日本4|@ripaojiedian
+  - 12,13|新加坡2|@ripaojiedian
+  - 13|香港v2|@ripaojiedian
+  - 13|香港3|@ripaojiedian
+  - 14|CR_speednode_0005
   type: fallback
   url: https://www.google.com/
 - interval: 300
