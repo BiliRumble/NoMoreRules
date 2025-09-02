@@ -1,4 +1,4 @@
-# Update: 2025-09-03 02:13
+# Update: 2025-09-03 05:08
 allow-lan: false
 dns:
   enable: true
@@ -34,14 +34,6 @@ proxies:
   server: chervhill.hajalii.com
   skip-cert-verify: false
   sni: chervhill.hajalii.com
-  tls: false
-  type: hysteria2
-- name: 10| @Hddify
-  password: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b
-  port: 43429
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
   tls: false
   type: hysteria2
 - name: 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
@@ -81,6 +73,14 @@ proxies:
   port: 20340
   server: 77.90.50.59
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '10|@FreakConfig #1'
+  password: 934766f0-204c-42be-8cf7-9afc2a8b5eaf
+  port: 22156
+  server: hsyg.huasuan666.top
+  skip-cert-verify: true
+  sni: hsyg.huasuan666.top
   tls: false
   type: hysteria2
 - name: 10|→ @Hddify
@@ -139,7 +139,7 @@ proxies:
   sni: anymath.ir
   tls: false
   type: hysteria2
-- name: '10|@FreakConfig #1'
+- name: '10|@FreakConfig #2'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -170,7 +170,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 10|🇳🇱@FreakConfig
+- name: '10|🇳🇱@FreakConfig #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -190,17 +190,17 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 10|کانفیگ های بیشتر در چنل تلگرام...
+- name: '10|𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
   port: 36600
   server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '10|@FreakConfig #2'
+- name: '10|@FreakConfig #3'
   password: dongtaiwang.com
   port: 63015
   server: 108.181.5.130
@@ -794,78 +794,78 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|GB_speednode_0014
-  - 12,13|香港6|@ripaojiedian
-  - 14|DE_speednode_0011
-  - '10|@FreakConfig #1'
-  - 12|🇯🇵 日本2|@ripaojiedian
-  - 10|→ @Hddify
+  - '10|🇩🇪@FreakConfig #2'
+  - 14|US_speednode_0036
+  - 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
   - 12,13|新加坡|@ripaojiedian
-  - 12,13|香港5|@ripaojiedian
-  - '10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1'
+  - '10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3'
+  - '10|@FreakConfig #3'
+  - 12,13|香港6|@ripaojiedian
+  - 12,13|美国4|@ripaojiedian
+  - 10|@FreakConfig
+  - 12|🇸🇬 新加坡4|@ripaojiedian
+  - 14|RU_speednode_0022
+  - 12,13|香港3|@ripaojiedian
+  - 13|香港v2|@ripaojiedian
+  - '10|☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #1'
+  - 12,13|新加坡2|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 14|IR_speednode_0018
+  - 10|@Mr_Config_Group✌️
+  - 12|🇹🇼 台湾2|@ripaojiedian
   - 12,13|新加坡3|@ripaojiedian
-  - 14|DE_speednode_0010
-  - 12|🇹🇼 台湾3|@ripaojiedian
+  - 14|US_speednode_0025
+  - 12,13|香港5|@ripaojiedian
+  - 10|ان های ی د نل ترا💎 Config_Raye...
+  - 14|GB_speednode_0014
   - 13|台湾2|@ripaojiedian
+  - 14|IR_speednode_0019
+  - '10|@Change_IP1-HYS #1'
+  - '10|@Change_IP1-HYS #3'
+  - '10|@FreakConfig #1'
+  - 14|CR_speednode_0008
+  - 12,13|日本4|@ripaojiedian
+  - 12|🇹🇼 台湾|@ripaojiedian
+  - 14|DE_speednode_0011
+  - 12|🇯🇵 日本2|@ripaojiedian
+  - '10|🇳🇱@FreakConfig #1'
+  - 14|DE_speednode_0010
+  - 13|日本v2|@ripaojiedian
   - 14|US_speednode_0032
-  - 14|US_speednode_0029
+  - 10|🇩🇪@FreakConfig
+  - 14|US_speednode_0027
+  - 14|US_speednode_0037
+  - 10|💎کانفیگ های بیشتر در چنل تلگرا...
+  - 12,13|美国3|@ripaojiedian
+  - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+  - 14|IR_speednode_0017
+  - '10|𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee'
+  - 10|@Change_IP1-HYS
+  - 12|🇭🇰 香港2|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - '9|Channel id: @proxy_kafee🇯🇵'
+  - 12|🇺🇸 美国2|@ripaojiedian
   - 14|ES_speednode_0012
   - '10|@Change_IP1-HYS #2'
-  - 12|🇸🇬 新加坡4|@ripaojiedian
-  - 14|IR_speednode_0017
+  - 14|US_speednode_0035
+  - 12|🇹🇼 台湾3|@ripaojiedian
+  - 14|US_speednode_0029
+  - 12|🇯🇵 日本|@ripaojiedian
+  - 14|US_speednode_0026
+  - '10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1'
+  - 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
+  - 14|US_speednode_0034
+  - 14|US_speednode_0033
+  - 14|CH_speednode_0001
   - 14|US_speednode_0031
   - 14|US_speednode_0030
-  - 10| @Hddify
-  - 10|@Change_IP1-HYS
-  - 10|کانفیگ های بیشتر در چنل تلگرام...
-  - 14|US_speednode_0027
-  - 12|🇯🇵 日本|@ripaojiedian
-  - '9|Channel id: @proxy_kafee🇯🇵'
-  - 12,13|日本3|@ripaojiedian
-  - 12,13|美国4|@ripaojiedian
-  - '10|@Change_IP1-HYS #4'
-  - 14|US_speednode_0025
-  - '10|@Change_IP1-HYS #1'
-  - 13|香港v2|@ripaojiedian
-  - 14|US_speednode_0037
-  - '10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3'
-  - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-  - 14|CR_speednode_0008
-  - 10|@Mr_Config_Group✌️
-  - 12|🇹🇼 台湾|@ripaojiedian
-  - 14|RU_speednode_0022
-  - 10|🇩🇪@FreakConfig
-  - 14|CH_speednode_0001
-  - 14|US_speednode_0026
-  - 14|US_speednode_0033
-  - 14|IR_speednode_0018
-  - 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-  - 12|🇺🇸 美国2|@ripaojiedian
-  - '10|🇩🇪@FreakConfig #2'
-  - '10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1'
   - 10|未命名
-  - 10|@FreakConfig
-  - 14|US_speednode_0036
-  - 10|ان های ی د نل ترا💎 Config_Raye...
-  - 12|🇹🇼 台湾2|@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
-  - 14|US_speednode_0034
-  - 12,13|日本4|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
-  - '10|@FreakConfig #2'
-  - 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
-  - 12|🇭🇰 香港2|@ripaojiedian
-  - '10|☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #1'
-  - '10|@Change_IP1-HYS #3'
-  - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
-  - 12,13|香港3|@ripaojiedian
-  - 10|🇳🇱@FreakConfig
-  - 12,13|新加坡2|@ripaojiedian
-  - 13|日本v2|@ripaojiedian
-  - 14|US_speednode_0035
   - 12,13|香港|@ripaojiedian
-  - 14|IR_speednode_0019
+  - '10|@Change_IP1-HYS #4'
+  - 10|→ @Hddify
+  - '10|@FreakConfig #2'
   - 12|tg频道:@ripaojiedian
+  - '10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1'
   type: fallback
   url: https://www.google.com/
 - interval: 300
