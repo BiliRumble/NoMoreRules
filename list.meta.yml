@@ -1,4 +1,4 @@
-# Update: 2025-09-04 08:46
+# Update: 2025-09-04 11:21
 allow-lan: false
 dns:
   enable: true
@@ -561,24 +561,45 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: 15|HK_speednode_0002
-  password: <password>
-  port: 8443
-  server: 9497cfdb-sx4v40-t1bnjq-1krtb.hkt.cdnhuawei.com
-  tls: true
-  type: http
+- name: 15|ES_speednode_0003
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.238.228.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
   udp: true
-  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- name: 15|HK_speednode_0003
-  password: <password>
-  port: 8443
-  server: dd902adc-sxc9s0-t1bnjq-1krtb.hkt.cdnhuawei.com
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: 15|GB_speednode_0004
+  port: 443
+  reality-opts:
+    public-key: fjPySr9gszKltxP8Smt0iu8ktqezOGptg2YVmWvxlUI
+  server: 194.156.65.28
+  servername: cloudflare.com
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  uuid: 21792da3-074f-4d55-8a6b-4d84c5c0f682
 - flow: xtls-rprx-vision
-  name: 15|IQ_speednode_0005
+  name: 15|IL_speednode_0007
+  port: 443
+  reality-opts:
+    public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
+    short-id: 55e6af1a35e64a98
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  servername: i2pd.website
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+- flow: xtls-rprx-vision
+  name: 15|IQ_speednode_0008
   port: 443
   reality-opts:
     public-key: GyivnLvG6JEO7xV9PI12Z0XTLZJGClBHOcpHwSfrsj4
@@ -591,43 +612,57 @@ proxies:
   udp: true
   uuid: 6035325d-399a-5148-9126-29cedfd5966a
 - flow: xtls-rprx-vision
-  name: 15|IQ_speednode_0006
-  port: 443
+  name: 15|IR_speednode_0009
+  port: 44443
   reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-  server: deu246.bypassall.org
-  servername: www.bing.com
+    public-key: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ
+  server: hybrid.arvancloud.online
+  servername: www.speedtest.net
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b4b8aa1f-77d2-4851-a5a4-f78886f3e997
-- name: 15|NL_speednode_0007
-  port: 34045
-  reality-opts:
-    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-    short-id: e8ab71d0
-  server: 5.61.50.192
-  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
 - flow: xtls-rprx-vision
-  name: 15|RU_speednode_0008
-  port: 443
+  name: 15|IR_speednode_0010
+  port: 44443
   reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: 8453e5fd9af927
-  server: ru-nl01-vlr01.tcp-reset-club.net
-  servername: hls-svod.itunes.apple.com
+    public-key: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ
+  server: 193.151.135.21
+  servername: www.speedtest.net
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ee67c9fd-0dc1-4fca-ad59-4dfac221a9f2
-- name: 15|RU_speednode_0009
+  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
+- name: 15|KZ_speednode_0011
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.176.26.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: 15|NL_speednode_0014
+  network: ws
+  port: 80
+  server: 185.18.184.66
+  servername: hello.96xckkzx.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: hello.96xckkzx.workers.dev
+    path: /🔒
+- name: 15|RU_speednode_0015
   network: ws
   password: slch2024
   port: 2096
@@ -640,7 +675,20 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /TelegramU0001F1E8U0001F1F3
-- name: 15|RU_speednode_0010
+- name: 15|RU_speednode_0016
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.174.138.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: 15|RU_speednode_0017
   network: ws
   password: slch2024
   port: 2096
@@ -653,20 +701,63 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: 15|US_speednode_0011
+- name: 15|US_speednode_0021
   network: ws
-  password: 318cab24-ec99-40a6-a54a-0db9c661a3d0
-  port: 443
-  server: aio.proxybox.dpdns.org
+  packet-encoding: xudp
+  port: 2082
+  server: 159.112.235.174
+  servername: workerr.schodog1.workers.dev
   skip-cert-verify: false
-  sni: aio.proxybox.dpdns.org
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47e9a0db-50c6-4522-8819-502c55b06dde
+  ws-opts:
+    headers:
+      Host: workerr.schodog1.workers.dev
+    path: /?ed=2048
+- name: 15|US_speednode_0022
+  network: ws
+  port: 80
+  server: 104.21.81.174
+  servername: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
+  ws-opts:
+    headers:
+      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
+    path: /wP3dwCyRAVyMJFfW?ed=2560
+- name: 15|US_speednode_0023
+  network: ws
+  port: 2052
+  server: 104.21.7.50
+  servername: sWEeT-DIsK-b69d.TUdTudtrUHtRU.wOrkERS.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0d710c53-876d-401f-97f0-6bd1a8db941a
+  ws-opts:
+    headers:
+      Host: sWEeT-DIsK-b69d.TUdTudtrUHtRU.wOrkERS.dev
+    path: /
+- name: 15|US_speednode_0024
+  network: ws
+  password: trojan
+  port: 443
+  server: 104.24.57.5
+  skip-cert-verify: false
+  sni: azadnet2-dl4.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: aio.proxybox.dpdns.org
-    path: /188.34.160.97-2053
-- name: 15|US_speednode_0012
+      Host: azadnet2-dl4.pages.dev
+    path: /?ed=2560
+- name: 15|US_speednode_0025
   network: ws
   password: slch2024
   port: 2096
@@ -679,7 +770,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: 15|US_speednode_0013
+- name: 15|US_speednode_0026
   network: ws
   port: 80
   server: 63.141.128.34
@@ -693,20 +784,21 @@ proxies:
     headers:
       Host: b.jOin.zEdMoDeOn.oNl.
     path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0014
+- name: 15|US_speednode_0027
+  network: ws
   port: 443
-  reality-opts:
-    public-key: 0n_NS2q2bvgpgQt0-gNmGNXTH-B0aqaJdE1A40sjsyE
-  server: 64.81.117.172
-  servername: ts2.tc.mm.bing.net
+  server: 198.62.62.2
+  servername: smn2.gerlemondns.info
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 0cd07402-0edb-4890-808d-cd6f0e2625ee
-- name: 15|US_speednode_0015
+  uuid: 598b4251-fd03-48fe-b12d-630ac3adf2e5
+  ws-opts:
+    headers:
+      Host: smn2.gerlemondns.info
+    path: /hjgfdws
+- name: 15|US_speednode_0028
   network: ws
   password: slch2024
   port: 2096
@@ -719,11 +811,36 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: 15|US_speednode_0016
+- name: 15|US_speednode_0029
   network: ws
   password: slch2024
   port: 2096
   server: 199.68.156.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: 15|US_speednode_0031
+  port: 34045
+  reality-opts:
+    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+    short-id: e8ab71d0
+  server: 172.233.201.93
+  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+- name: 15|US_speednode_0032
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 216.24.57.195
   skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -743,79 +860,87 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 15|IQ_speednode_0006
-  - 14|香港v2|@ripaojiedian
-  - 11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
-  - '11|@Daily_Configs #4'
-  - 11|@Mr_Config_Group✌️
-  - 13|🇺🇸 美国2|@ripaojiedian
-  - 15|US_speednode_0016
-  - 15|RU_speednode_0008
-  - '11|@Daily_Configs #3'
-  - 13,14|香港4|@ripaojiedian
-  - 13,14|香港|@ripaojiedian
-  - 15|HK_speednode_0003
-  - '11|@Change_IP1-HYS #2'
-  - 11|未命名
-  - 13|🇹🇼 台湾5|@ripaojiedian
-  - '11|🇳🇱@FreakConfig #2'
-  - '11|𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee'
-  - 15|US_speednode_0014
-  - 11|@Change_IP1-HYS
-  - '11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3'
-  - 13,14|新加坡2|@ripaojiedian
-  - '11|@Change_IP1-HYS #4'
-  - 13,14|美国4|@ripaojiedian
-  - 11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-  - '11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1'
-  - '11|🇩🇪@FreakConfig #2'
-  - 14|日本v2|@ripaojiedian
-  - '11|@Daily_Configs #1'
-  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
-  - '11|@FreakConfig #1'
-  - 11|🇩🇪@FreakConfig
-  - 13|🇭🇰 香港3|@ripaojiedian
-  - 13|🇹🇼 台湾2|@ripaojiedian
-  - 11|@Daily_Configs
+  - 15|US_speednode_0029
+  - 15|RU_speednode_0017
   - '11|@Daily_Configs #5'
-  - 15|RU_speednode_0010
-  - 13|tg频道:@ripaojiedian
-  - 15|RU_speednode_0009
   - 13|🇯🇵 日本|@ripaojiedian
-  - 14|香港3|@ripaojiedian
-  - 13|🇹🇼 台湾3|@ripaojiedian
-  - 13,14|新加坡3|@ripaojiedian
-  - '10|Channel id: @proxy_kafee🇯🇵'
-  - 13,14|日本3|@ripaojiedian
-  - 11|ان های ی د نل ترا💎 Config_Raye...
-  - 13|🇹🇼 台湾4|@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 15|US_speednode_0012
-  - 15|CH_speednode_0001
-  - 13|🇹🇼 台湾|@ripaojiedian
-  - 15|US_speednode_0015
-  - 11|@vpnserverrr
-  - 11|@FreakConfig
-  - 11|🇳🇱@FreakConfig
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - '11|@Change_IP1-HYS #3'
-  - '11|@Change_IP1-HYS #1'
-  - 15|IQ_speednode_0005
-  - '11|@FreakConfig #2'
-  - 13,14|美国3|@ripaojiedian
-  - 11|→ @Hddify
-  - '11|☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #1'
-  - '11|@Daily_Configs #7'
-  - 15|US_speednode_0011
-  - 11|@SaghiVpnXBOT 🇩🇪[🇩🇪]
-  - 13,14|香港6|@ripaojiedian
-  - 15|HK_speednode_0002
+  - 15|IR_speednode_0010
+  - 15|IQ_speednode_0008
   - 14|台湾2|@ripaojiedian
+  - 14|香港v2|@ripaojiedian
+  - 11|未命名
+  - 14|香港3|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
+  - '11|@Change_IP1-HYS #2'
+  - 13,14|香港6|@ripaojiedian
+  - 11|@Daily_Configs
+  - 13,14|香港|@ripaojiedian
+  - 15|KZ_speednode_0011
+  - 13,14|新加坡|@ripaojiedian
   - 13,14|日本4|@ripaojiedian
-  - '11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1'
-  - 15|US_speednode_0013
-  - 15|NL_speednode_0007
+  - 13,14|新加坡2|@ripaojiedian
+  - '11|@Change_IP1-HYS #1'
+  - 15|RU_speednode_0016
+  - 11|@Change_IP1-HYS
+  - 13|🇹🇼 台湾|@ripaojiedian
+  - 15|GB_speednode_0004
+  - 15|US_speednode_0024
+  - 13,14|日本3|@ripaojiedian
+  - 15|US_speednode_0031
+  - 13|🇹🇼 台湾4|@ripaojiedian
+  - 15|US_speednode_0032
+  - 14|日本v2|@ripaojiedian
+  - '11|@FreakConfig #1'
   - 13|🇯🇵 日本2|@ripaojiedian
+  - '11|𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee'
+  - '11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3'
+  - '11|@Daily_Configs #3'
+  - '11|☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #1'
+  - 13|🇹🇼 台湾2|@ripaojiedian
+  - 15|US_speednode_0027
+  - '11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1'
+  - 15|NL_speednode_0014
+  - 15|CH_speednode_0001
+  - 15|US_speednode_0022
+  - 11|🇳🇱@FreakConfig
+  - 11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
+  - 11|@FreakConfig
+  - 11|→ @Hddify
+  - 13|tg频道:@ripaojiedian
+  - 15|US_speednode_0026
+  - 15|ES_speednode_0003
+  - 11|🇩🇪@FreakConfig
+  - 13,14|美国4|@ripaojiedian
+  - '11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1'
+  - 15|US_speednode_0028
+  - '11|@Change_IP1-HYS #4'
+  - 11|ان های ی د نل ترا💎 Config_Raye...
+  - 15|RU_speednode_0015
+  - 11|@vpnserverrr
+  - 13|🇹🇼 台湾3|@ripaojiedian
+  - '11|@Change_IP1-HYS #3'
+  - 15|US_speednode_0021
+  - 15|IR_speednode_0009
+  - 15|US_speednode_0025
+  - 11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 15|IL_speednode_0007
+  - 13|🇺🇸 美国2|@ripaojiedian
+  - 15|US_speednode_0023
+  - '11|@Daily_Configs #4'
+  - 13,14|香港4|@ripaojiedian
+  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
+  - 13|🇭🇰 香港3|@ripaojiedian
+  - '11|@Daily_Configs #1'
+  - 11|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+  - 13|🇹🇼 台湾5|@ripaojiedian
+  - '11|🇩🇪@FreakConfig #2'
+  - '11|🇳🇱@FreakConfig #2'
+  - 13,14|美国3|@ripaojiedian
+  - 11|@Mr_Config_Group✌️
+  - '11|@FreakConfig #2'
+  - '10|Channel id: @proxy_kafee🇯🇵'
+  - '11|@Daily_Configs #7'
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -883,12 +1008,17 @@ proxy-groups:
   - 13|🇺🇸 美国2|@ripaojiedian
   - 13,14|美国3|@ripaojiedian
   - 13,14|美国4|@ripaojiedian
-  - 15|US_speednode_0011
-  - 15|US_speednode_0012
-  - 15|US_speednode_0013
-  - 15|US_speednode_0014
-  - 15|US_speednode_0015
-  - 15|US_speednode_0016
+  - 15|US_speednode_0021
+  - 15|US_speednode_0022
+  - 15|US_speednode_0023
+  - 15|US_speednode_0024
+  - 15|US_speednode_0025
+  - 15|US_speednode_0026
+  - 15|US_speednode_0027
+  - 15|US_speednode_0028
+  - 15|US_speednode_0029
+  - 15|US_speednode_0031
+  - 15|US_speednode_0032
   type: select
 - name: 🇨🇳 台湾
   proxies:
@@ -912,8 +1042,6 @@ proxy-groups:
   - 13,14|香港6|@ripaojiedian
   - 14|香港3|@ripaojiedian
   - 14|香港v2|@ripaojiedian
-  - 15|HK_speednode_0002
-  - 15|HK_speednode_0003
   type: select
 - name: 🇨🇦 加拿大
   proxies:
@@ -931,7 +1059,7 @@ proxy-groups:
   type: select
 - name: 🇬🇧 英国
   proxies:
-  - REJECT
+  - 15|GB_speednode_0004
   type: select
 - name: 🇰🇷 韩国
   proxies:
@@ -939,9 +1067,9 @@ proxy-groups:
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
-  - 15|RU_speednode_0008
-  - 15|RU_speednode_0009
-  - 15|RU_speednode_0010
+  - 15|RU_speednode_0015
+  - 15|RU_speednode_0016
+  - 15|RU_speednode_0017
   type: select
 - name: 🇩🇪 德国
   proxies:
