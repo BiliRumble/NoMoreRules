@@ -1,4 +1,4 @@
-# Update: 2025-09-07 05:07
+# Update: 2025-09-07 08:52
 allow-lan: false
 dns:
   enable: true
@@ -74,6 +74,14 @@ proxies:
   server: 172.252.236.213
   skip-cert-verify: false
   sni: real.getafreenode.sbs
+  tls: false
+  type: hysteria2
+- name: 11|@HiByeVPNN️
+  password: 77b85b4f-8f73-495c-b919-a8fb386ca541
+  port: 22160
+  server: hsels.huasuan666.top
+  skip-cert-verify: true
+  sni: hsels.huasuan666.top
   tls: false
   type: hysteria2
 - name: 11|کانفیگ های ی د نل تگام💎 Config...
@@ -437,7 +445,8 @@ proxies:
     headers:
       Host: hkt.gotochinatown.net
     path: /
-- name: 13|🇭🇰 香港4|@ripaojiedian
+- name: 13,14|香港6|@ripaojiedian
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
   server: 219.77.97.194
@@ -454,32 +463,25 @@ proxies:
   tls: false
   type: vmess
   uuid: f9575b63-7410-4c76-88db-91c24a429ea8
-- name: 13|🇭🇰 香港6|@ripaojiedian
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 219.73.55.195
-  skip-cert-verify: true
-  sni: 23.45.86.28
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 13|🇹🇼 台湾|@ripaojiedian
-  password: e690cd6f-6c50-42e2-8b51-570e95a9be19
-  port: 10065
-  server: 125.231.72.120
+  password: a6b95ee6-1adf-47e5-8bd0-85b73584388e
+  port: 10021
+  server: 118.170.216.58
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 13|🇹🇼 台湾2|@ripaojiedian
-  password: 674ee5a2-42e6-4c9f-ab6f-885f9c8e71c9
-  port: 10065
-  server: 125.231.72.120
+  password: 8488005c-1793-4623-b429-0ab6721601fa
+  port: 10030
+  server: 118.170.202.98
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 13|🇹🇼 台湾3|@ripaojiedian
-  password: 140e4cb2-a874-414b-a58b-c0300720fa7d
-  port: 10066
-  server: 59.126.32.59
+  password: 6d8eb657-3d4e-49d9-ac16-2968c5e8d1a3
+  port: 10007
+  server: 125.229.191.101
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -487,7 +489,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509031722041-Q3bErDTbkB.download.microsoft.com
+    host: 202509031722041-JFOtqRTqqb.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -524,17 +526,6 @@ proxies:
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
-- cipher: aes-128-gcm
-  name: 13|🇰🇷 韩国|@ripaojiedian
-  password: VXPipi29nxMO
-  plugin: obfs
-  plugin-opts:
-    host: 182039459a34f64238143cd31ddebbc914362.taobao.com
-    mode: http
-  port: 1052
-  server: kr2.qiangdong.xyz
-  tfo: false
-  type: ss
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -572,7 +563,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509031722041-Q3bErDTbkB.download.microsoft.com
+    host: 202509031722041-JFOtqRTqqb.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -594,14 +585,6 @@ proxies:
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
-- name: 14|香港4|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 441
-  server: 18.162.156.99
-  skip-cert-verify: true
-  sni: 23.45.86.28
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 14|香港5|@ripaojiedian
@@ -612,14 +595,6 @@ proxies:
   tls: false
   type: vmess
   uuid: f9575b63-7410-4c76-88db-91c24a429ea8
-- name: 14|香港6|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 18.162.147.157
-  skip-cert-verify: true
-  sni: 23.45.86.28
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 14|香港v2|@ripaojiedian
@@ -1134,110 +1109,107 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - '11|☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #1'
-  - 15|GB_speednode_0019
-  - 15|US_speednode_0042
-  - 11|🇺🇲@FreakConfig
-  - 15|ES_speednode_0012
-  - '11|@Daily_Configs <== کانال تلگرا... #2'
-  - 15|NL_speednode_0034
-  - 15|US_speednode_0046
-  - 15|LU_speednode_0033
-  - 11|@V2RAYNG_1378
-  - 13|tg频道:@ripaojiedian
-  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
-  - 15|ES_speednode_0014
-  - 11|@Change_IP1-HYS
-  - 13|🇯🇵 日本2|@ripaojiedian
-  - '11|@Change_IP1-HYS #4'
-  - 15|RU_speednode_0039
-  - 15|FR_speednode_0017
-  - '11|@Daily_Configs #3'
-  - 15|US_speednode_0044
-  - 13|🇹🇼 台湾|@ripaojiedian
-  - '11|@Change_IP1-HYS #2'
-  - '11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1'
-  - 11|@vpnserverrr👈
-  - 15|RU_speednode_0037
-  - 15|ES_speednode_0015
-  - 13,14|日本3|@ripaojiedian
-  - 15|IR_speednode_0027
+  - 13|🇭🇰 香港5|@ripaojiedian
   - 11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
-  - '11|@FreakConfig #2'
-  - '11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1'
-  - 11|@FreakConfig
-  - 15|IL_speednode_0024
+  - 13,14|新加坡3|@ripaojiedian
+  - 15|CY_speednode_0007
+  - 11|🇺🇲@FreakConfig
+  - 11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
+  - 11|🇵@FreakConfig
+  - 11|@HiByeVPNN️
+  - '11|@Daily_Configs #5'
+  - '11|@Daily_Configs #3'
+  - 15|LU_speednode_0033
+  - 15|GB_speednode_0019
+  - 13,14|香港6|@ripaojiedian
+  - 15|US_speednode_0042
+  - 15|RU_speednode_0035
+  - 13,14|美国3|@ripaojiedian
+  - 15|US_speednode_0044
+  - 15|US_speednode_0048
+  - 15|US_speednode_0045
+  - '11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1'
+  - 15|RU_speednode_0039
+  - 15|ES_speednode_0010
+  - 13|tg频道:@ripaojiedian
   - 11|@Daily_Configs <== کانال تلگرا...
   - '11|@Change_IP1-HYS #3'
-  - 11|@Daily_Configs IPv4
-  - '11|@Daily_Configs #8'
-  - 13,14|香港|@ripaojiedian
-  - '11|🇩🇪@FreakConfig #2'
-  - '11|@FreakConfig #3'
-  - 11|@Mr_Config_Group✌️
-  - 13|🇭🇰 香港5|@ripaojiedian
-  - 15|FR_speednode_0016
-  - 13|🇭🇰 香港4|@ripaojiedian
-  - 15|RU_speednode_0038
-  - 13|🇭🇰 香港6|@ripaojiedian
-  - 15|RU_speednode_0040
-  - '11|@Daily_Configs #5'
-  - 15|AT_speednode_0001
-  - 15|RU_speednode_0035
-  - 13|🇺🇸 美国2|@ripaojiedian
-  - 13,14|日本4|@ripaojiedian
-  - 15|IR_speednode_0026
-  - 15|CZ_speednode_0008
-  - 15|GB_speednode_0018
-  - 13,14|香港3|@ripaojiedian
-  - 15|US_speednode_0043
-  - 11|🇩🇪@FreakConfig
-  - 13,14|新加坡2|@ripaojiedian
-  - '11|@Daily_Configs #4'
-  - 14|日本v2|@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 13,14|新加坡3|@ripaojiedian
-  - 11|→ @Hddify
-  - 11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 14|香港4|@ripaojiedian
-  - 11|All-@IRAN_V2RAY1
-  - 14|香港5|@ripaojiedian
-  - '11|All-@IRAN_V2RAY1 #3'
-  - '11|All-@IRAN_V2RAY1 #1'
-  - 13|🇯🇵 日本|@ripaojiedian
-  - 15|ES_speednode_0011
-  - 15|CY_speednode_0007
-  - 13,14|美国3|@ripaojiedian
-  - 15|DE_speednode_0009
-  - 15|US_speednode_0045
-  - 13|🇹🇼 台湾3|@ripaojiedian
-  - 11|کانفیگ های ی د نل تگام💎 Config...
-  - 15|RU_speednode_0036
-  - '11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3'
-  - 15|US_speednode_0041
-  - 15|IR_speednode_0025
-  - 15|LU_speednode_0032
-  - 11|🇵@FreakConfig
-  - 13|🇰🇷 韩国|@ripaojiedian
-  - '10|Channel id: @proxy_kafee🇯🇵'
-  - 14|香港6|@ripaojiedian
-  - 15|US_speednode_0047
-  - 15|US_speednode_0049
-  - '11|𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee'
-  - '11|@Daily_Configs #1'
   - 13|🇹🇼 台湾2|@ripaojiedian
-  - 15|US_speednode_0048
-  - 11|@SaghiVpnXBOT 🇩🇪[🇩🇪]
-  - 15|ES_speednode_0010
-  - 15|KZ_speednode_0029
+  - 15|IR_speednode_0026
+  - 15|DE_speednode_0009
+  - 11|@FreakConfig
+  - 13,14|日本3|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 15|RU_speednode_0037
+  - '11|@Change_IP1-HYS #2'
+  - '11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1'
+  - 11|@Change_IP1-HYS
+  - 15|US_speednode_0041
   - 15|ES_speednode_0013
-  - 13,14|美国4|@ripaojiedian
-  - '11|@Daily_Configs IPv4 #1'
-  - '11|@FreakConfig #1'
+  - 11|→ @Hddify
   - '11|@Change_IP1-HYS #1'
+  - '10|Channel id: @proxy_kafee🇯🇵'
   - 11|@Daily_Configs
+  - '11|@Daily_Configs #8'
+  - 15|IL_speednode_0024
   - 14|香港v2|@ripaojiedian
+  - 14|香港5|@ripaojiedian
+  - 15|ES_speednode_0015
+  - 13|🇯🇵 日本2|@ripaojiedian
+  - 11|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+  - '11|𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee'
+  - 15|GB_speednode_0018
+  - 15|ES_speednode_0011
+  - 15|FR_speednode_0016
+  - 15|ES_speednode_0014
+  - 15|IR_speednode_0025
+  - 15|RU_speednode_0036
+  - 15|US_speednode_0047
+  - 11|@vpnserverrr👈
+  - 11|کانفیگ های ی د نل تگام💎 Config...
+  - '11|@FreakConfig #1'
+  - 13,14|香港|@ripaojiedian
+  - 13|🇯🇵 日本|@ripaojiedian
+  - '11|All-@IRAN_V2RAY1 #1'
+  - '11|@Change_IP1-HYS #4'
+  - 13|🇹🇼 台湾|@ripaojiedian
+  - 15|AT_speednode_0001
+  - 14|日本v2|@ripaojiedian
+  - '11|All-@IRAN_V2RAY1 #3'
+  - 15|KZ_speednode_0029
+  - 11|All-@IRAN_V2RAY1
+  - 11|@Daily_Configs IPv4
+  - 15|RU_speednode_0038
+  - 13|🇹🇼 台湾3|@ripaojiedian
+  - 13,14|日本4|@ripaojiedian
+  - 11|@Mr_Config_Group✌️
+  - '11|🇩🇪@FreakConfig #2'
+  - 11|🇩🇪@FreakConfig
+  - 15|NL_speednode_0034
+  - '11|@Daily_Configs #4'
+  - 15|CZ_speednode_0008
+  - 11|@V2RAYNG_1378
+  - '11|@Daily_Configs <== کانال تلگرا... #2'
+  - 15|LU_speednode_0032
+  - 15|RU_speednode_0040
+  - 13,14|美国4|@ripaojiedian
+  - 15|US_speednode_0046
+  - '11|@FreakConfig #2'
+  - 13,14|新加坡2|@ripaojiedian
+  - 15|US_speednode_0043
+  - '11|☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #1'
+  - '11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3'
+  - 13|🇺🇸 美国2|@ripaojiedian
+  - 15|FR_speednode_0017
+  - '11|@Daily_Configs #1'
+  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
+  - 15|US_speednode_0049
+  - '11|@Daily_Configs IPv4 #1'
+  - 15|IR_speednode_0027
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - '11|@FreakConfig #3'
+  - 15|ES_speednode_0012
+  - 13,14|香港3|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1330,12 +1302,9 @@ proxy-groups:
   - 13,14|香港|@ripaojiedian
   - 13|🇭🇰 香港2|@ripaojiedian
   - 13,14|香港3|@ripaojiedian
-  - 13|🇭🇰 香港4|@ripaojiedian
+  - 13,14|香港6|@ripaojiedian
   - 13|🇭🇰 香港5|@ripaojiedian
-  - 13|🇭🇰 香港6|@ripaojiedian
-  - 14|香港4|@ripaojiedian
   - 14|香港5|@ripaojiedian
-  - 14|香港6|@ripaojiedian
   - 14|香港v2|@ripaojiedian
   type: select
 - name: 🇨🇦 加拿大
@@ -1360,7 +1329,7 @@ proxy-groups:
   type: select
 - name: 🇰🇷 韩国
   proxies:
-  - 13|🇰🇷 韩国|@ripaojiedian
+  - REJECT
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
