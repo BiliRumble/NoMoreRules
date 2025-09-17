@@ -1,4 +1,4 @@
-# Update: 2025-09-17 17:11
+# Update: 2025-09-17 20:20
 allow-lan: false
 dns:
   enable: true
@@ -274,14 +274,19 @@ proxies:
   tls: false
   type: vmess
   uuid: c53d41d1-7d56-43ce-9994-408780c6476a
-- name: 14|CN_speednode_0004
-  password: 2fd0d127-266d-4d0b-b453-f94659a132fc
-  port: 12000
-  server: 106.75.134.1
-  skip-cert-verify: true
-  sni: aliyun.com
+- name: 14|US_speednode_0026
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: epge.muarua.filegear-sg.me
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: /?ed=2560
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -293,33 +298,33 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12|tg频道:@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
-  - 12|🇻🇳 越南|@ripaojiedian
-  - 13|美国|@ripaojiedian
-  - 12|🇯🇵 日本|@ripaojiedian
-  - 12|🇭🇰 香港2|@ripaojiedian
-  - 12|🇭🇰 香港3|@ripaojiedian
-  - 12,13|香港|@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
-  - 12|🇺🇸 美国2|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
-  - 13|香港3|@ripaojiedian
-  - 12,13|日本4|@ripaojiedian
-  - 12,13|美国4|@ripaojiedian
-  - 13|日本v2|@ripaojiedian
-  - 12,13|香港6|@ripaojiedian
   - 13|香港7|@ripaojiedian
-  - 12|🇯🇵 日本2|@ripaojiedian
-  - 13|香港v2|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
   - 12|🇯🇵 日本5|@ripaojiedian
-  - 12|🇺🇸 美国|@ripaojiedian
-  - 12|🇭🇰 香港7|@ripaojiedian
-  - 14|CN_speednode_0004
+  - 12,13|日本4|@ripaojiedian
+  - 12|🇯🇵 日本2|@ripaojiedian
+  - 12,13|香港|@ripaojiedian
   - 12|🇭🇰 香港5|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 14|US_speednode_0026
+  - 13|美国|@ripaojiedian
+  - 12|🇭🇰 香港7|@ripaojiedian
+  - 12|🇻🇳 越南|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - 12|🇺🇸 美国|@ripaojiedian
+  - 12|🇭🇰 香港2|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 12|🇯🇵 日本|@ripaojiedian
+  - 12,13|新加坡|@ripaojiedian
+  - 13|日本v2|@ripaojiedian
+  - 12,13|新加坡3|@ripaojiedian
+  - 12,13|新加坡2|@ripaojiedian
+  - 13|香港3|@ripaojiedian
+  - 12|🇭🇰 香港3|@ripaojiedian
+  - 12,13|香港6|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 13|香港v2|@ripaojiedian
+  - 12|🇺🇸 美国2|@ripaojiedian
+  - 12,13|美国4|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
