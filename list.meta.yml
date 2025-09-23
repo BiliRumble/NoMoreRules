@@ -1,4 +1,4 @@
-# Update: 2025-09-23 23:11
+# Update: 2025-09-24 02:15
 allow-lan: false
 dns:
   enable: true
@@ -18,6 +18,14 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
+- name: '10|Channel id: @ShadowProxy66🇯🇵'
+  password: fabd2b79-693a-4a37-827c-6d299e8813b1
+  port: 443
+  server: 133.18.163.202
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
 - name: 11|🇩🇪@EXPRESSVPN_420 ➠ همه اپراتو...
   password: 3QlSMKyqLp
   port: 443
@@ -38,6 +46,13 @@ proxies:
   password: 6803bc9b-1157-431b-8f73-970a6deb741f
   port: 29854
   server: fra-nb-02.linlujs.pw
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 11|telegram-@vpnserverrr
+  password: 682c7978-e3eb-44e0-924c-607144495681
+  port: 24568
+  server: fra-nb-01.linlujs.pw
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -159,7 +174,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|telegram-@ISVvpn #1'
+- name: '11|telegram-@ISVvpn #2'
   password: f872db91-57c2-41c7-aad0-561b4cb674bf
   port: 25684
   server: us-nb-01.linlujs.pw
@@ -887,80 +902,82 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 15|NL_speednode_0022
-  - 11|usa-telegram-@ISVvpn
-  - 15|FR_speednode_0006
-  - '11|DE-telegram-@ISVvpn   :  '
   - 11|@V2RAYNG_1378
-  - 13|🇯🇵 日本2|@ripaojiedian
-  - 15|SE_speednode_0027
-  - 15|DE_speednode_0005
-  - 13,14|新加坡|@ripaojiedian
-  - 14|香港v2|@ripaojiedian
-  - 15|KR_speednode_0016
-  - 15|SG_speednode_0031
-  - '11|WI-FI--@IRAN_V2RAY1 #1'
-  - 11|کای ها یش ر ن ترا💎 Config_Raye...
-  - 13,14|日本3|@ripaojiedian
-  - 15|JP_speednode_0015
-  - 11|🇩🇪@EXPRESSVPN_420 ➠ همه اپراتو...
-  - 13,14|香港6|@ripaojiedian
-  - 15|HK_speednode_0008
-  - 15|US_speednode_0033
-  - 15|US_speednode_0034
-  - 15|DE_speednode_0004
-  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
-  - 15|HK_speednode_0009
-  - 13,14|香港4|@ripaojiedian
-  - 13,14|日本4|@ripaojiedian
-  - 15|NL_speednode_0020
-  - 15|NL_speednode_0021
-  - 13|tg频道:@ripaojiedian
-  - 14|日本v2|@ripaojiedian
-  - 11|telegram-@ISVvpn
-  - 15|KR_speednode_0017
-  - 15|LV_speednode_0018
-  - 15|RU_speednode_0024
-  - 15|BG_speednode_0002
-  - 13|🇺🇸 美国2|@ripaojiedian
-  - 13,14|美国4|@ripaojiedian
-  - 15|AT_speednode_0001
-  - '11|All-@IRAN_V2RAY1 #1'
-  - '11|@IRAN_V2RAY1 #1'
-  - 13,14|美国|@ripaojiedian
-  - 13|🇻🇳 越南|@ripaojiedian
-  - 14|香港3|@ripaojiedian
-  - 13,14|新加坡2|@ripaojiedian
-  - '11|💎کانفیگ های بیشتر در چنل تلگرا... #1'
-  - 13|🇯🇵 日本|@ripaojiedian
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 11|All--@IRAN_V2RAY1
-  - 15|HK_speednode_0010
-  - 15|RU_speednode_0026
-  - 15|US_speednode_0035
-  - 11|@vpnserverrr
-  - 15|DE_speednode_0003
-  - 15|IT_speednode_0012
   - 15|SG_speednode_0030
-  - 13,14|美国3|@ripaojiedian
-  - 13|🇭🇰 香港3|@ripaojiedian
-  - 15|FR_speednode_0007
-  - 13,14|香港|@ripaojiedian
-  - 11|WI-FI--@IRAN_V2RAY1
-  - 15|US_speednode_0036
   - 15|SE_speednode_0028
-  - '11|telegram-@ISVvpn #1'
-  - 15|IN_speednode_0011
-  - 13,14|新加坡3|@ripaojiedian
-  - 15|RU_speednode_0025
-  - 13,14|日本5|@ripaojiedian
+  - 15|DE_speednode_0005
   - 15|SE_speednode_0029
-  - 15|TW_speednode_0032
-  - 15|RU_speednode_0023
-  - 15|JP_speednode_0014
-  - 15|IT_speednode_0013
-  - 11|All-@IRAN_V2RAY1
+  - 13|🇻🇳 越南|@ripaojiedian
+  - 11|🇩🇪@EXPRESSVPN_420 ➠ همه اپراتو...
+  - 13|🇯🇵 日本2|@ripaojiedian
+  - 11|telegram-@vpnserverrr
+  - 13|tg频道:@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 13|🇺🇸 美国2|@ripaojiedian
+  - 15|SE_speednode_0027
+  - 15|DE_speednode_0004
+  - 15|HK_speednode_0008
+  - 15|IT_speednode_0012
+  - 15|AT_speednode_0001
+  - 13|🇭🇰 香港3|@ripaojiedian
+  - 11|کای ها یش ر ن ترا💎 Config_Raye...
+  - '11|telegram-@ISVvpn #2'
+  - 15|NL_speednode_0021
+  - 15|FR_speednode_0007
+  - '11|All-@IRAN_V2RAY1 #1'
+  - 13,14|日本5|@ripaojiedian
+  - 15|RU_speednode_0024
+  - 15|RU_speednode_0026
+  - '11|@IRAN_V2RAY1 #1'
+  - 11|WI-FI--@IRAN_V2RAY1
+  - 15|NL_speednode_0020
+  - 13,14|美国|@ripaojiedian
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 15|HK_speednode_0010
+  - 14|香港3|@ripaojiedian
+  - 15|NL_speednode_0022
+  - 13,14|美国3|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
   - '11|All-@IRAN_V2RAY1 #3'
+  - 15|HK_speednode_0009
+  - 15|DE_speednode_0003
+  - 15|SG_speednode_0031
+  - 15|RU_speednode_0025
+  - 13,14|新加坡2|@ripaojiedian
+  - 15|RU_speednode_0023
+  - 15|US_speednode_0033
+  - 14|香港v2|@ripaojiedian
+  - 15|FR_speednode_0006
+  - 15|US_speednode_0036
+  - 13|🇯🇵 日本|@ripaojiedian
+  - 15|KR_speednode_0017
+  - 15|US_speednode_0034
+  - '11|WI-FI--@IRAN_V2RAY1 #1'
+  - 15|IT_speednode_0013
+  - 13,14|日本3|@ripaojiedian
+  - 15|IN_speednode_0011
+  - 15|JP_speednode_0014
+  - 15|TW_speednode_0032
+  - 15|US_speednode_0035
+  - '11|💎کانفیگ های بیشتر در چنل تلگرا... #1'
+  - 13,14|日本4|@ripaojiedian
+  - 15|KR_speednode_0016
+  - 11|@vpnserverrr
+  - 13,14|新加坡3|@ripaojiedian
+  - 11|All-@IRAN_V2RAY1
+  - 13,14|香港|@ripaojiedian
+  - 11|All--@IRAN_V2RAY1
+  - 14|日本v2|@ripaojiedian
+  - '11|DE-telegram-@ISVvpn   :  '
+  - 13,14|香港6|@ripaojiedian
+  - 15|JP_speednode_0015
+  - 11|usa-telegram-@ISVvpn
+  - 15|LV_speednode_0018
+  - 11|telegram-@ISVvpn
+  - '10|Channel id: @ShadowProxy66🇯🇵'
+  - 15|BG_speednode_0002
+  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
+  - 13,14|美国4|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1016,6 +1033,7 @@ proxy-groups:
   type: select
 - name: 🇯🇵 日本
   proxies:
+  - '10|Channel id: @ShadowProxy66🇯🇵'
   - 13|🇯🇵 日本|@ripaojiedian
   - 13|🇯🇵 日本2|@ripaojiedian
   - 13,14|日本3|@ripaojiedian
