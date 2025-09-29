@@ -1,4 +1,4 @@
-# Update: 2025-09-29 14:16
+# Update: 2025-09-29 17:12
 allow-lan: false
 dns:
   enable: true
@@ -198,7 +198,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '10|💎کانفیگ های بیشتر در چنل تلگرا... #1'
+- name: 10|💎کانفیگ های بیشتر در چنل تلگرا...
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -209,6 +209,16 @@ proxies:
   tls: false
   type: hysteria2
 - name: '10|@Daily_Configs #2'
+  obfs: salamander
+  obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
+  password: biadailyconfigs
+  port: 443
+  server: 103.249.133.79
+  skip-cert-verify: true
+  sni: microsoft.com
+  tls: false
+  type: hysteria2
+- name: '10|@Daily_Configs #3'
   obfs: salamander
   obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
   password: bsnnajjbjsjnjjjbbbsbjajhjnnwjnbudn
@@ -238,7 +248,7 @@ proxies:
   sni: slack.com
   tls: false
   type: hysteria2
-- name: '10|@Daily_Configs #3'
+- name: '10|@Daily_Configs #4'
   obfs: salamander
   obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP
   password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs
@@ -248,20 +258,10 @@ proxies:
   sni: slack.com
   tls: false
   type: hysteria2
-- name: '10|@Daily_Configs #5'
-  obfs: salamander
-  obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
-  password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs
-  port: 443
-  server: 103.249.133.79
-  skip-cert-verify: true
-  sni: microsoft.com
-  tls: false
-  type: hysteria2
 - name: '10|@Daily_Configs #6'
   obfs: salamander
   obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
-  password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_
+  password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs
   port: 443
   server: 103.249.133.79
   skip-cert-verify: true
@@ -271,7 +271,7 @@ proxies:
 - name: '10|@Daily_Configs #7'
   obfs: salamander
   obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
-  password: dailyconfigschannel
+  password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_
   port: 443
   server: 103.249.133.79
   skip-cert-verify: true
@@ -279,6 +279,16 @@ proxies:
   tls: false
   type: hysteria2
 - name: '10|@Daily_Configs #8'
+  obfs: salamander
+  obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
+  password: dailyconfigschannel
+  port: 443
+  server: 103.249.133.79
+  skip-cert-verify: true
+  sni: microsoft.com
+  tls: false
+  type: hysteria2
+- name: '10|@Daily_Configs #9'
   obfs: salamander
   obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP
   password: dailyconfigsdailyconfigsdailyconfigsdailyconfigs
@@ -288,13 +298,21 @@ proxies:
   sni: slack.com
   tls: false
   type: hysteria2
-- name: '10|@Daily_Configs #10'
+- name: '10|@Daily_Configs #11'
   obfs: salamander
   obfs-password: JBPVtqk1kMBGleBcLZ
   password: df36ace8-640b-42bb-8169-198901af6d9e
   port: 46129
   server: 185.184.68.7.sslip.io
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 10|🇲@FreakConfig
+  password: dongtaiwang.com
+  port: 22222
+  server: 208.87.243.187
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '10|r♡ya #2'
@@ -322,7 +340,7 @@ proxies:
   sni: slack.com
   tls: false
   type: hysteria2
-- name: '10|@Daily_Configs #11'
+- name: '10|@Daily_Configs #12'
   obfs: salamander
   obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
   password: joindailyconfigschanel
@@ -330,16 +348,6 @@ proxies:
   server: 103.249.133.79
   skip-cert-verify: true
   sni: microsoft.com
-  tls: false
-  type: hysteria2
-- name: 10|@Daily_Configs IPv4
-  obfs: salamander
-  obfs-password: tqfg2P0b7p8fcjCbcRqj4lHleH5jcvBs
-  password: kanale_dailyconfigs
-  port: 443
-  server: 95.181.174.31
-  skip-cert-verify: true
-  sni: slack.com
   tls: false
   type: hysteria2
 - name: 10|🇺🇲@FreakConfig
@@ -380,7 +388,7 @@ proxies:
   sni: slack.com
   tls: false
   type: hysteria2
-- name: '10|@Daily_Configs #12'
+- name: '10|@Daily_Configs #13'
   obfs: salamander
   obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP
   password: zanzendegiazadi
@@ -1027,98 +1035,99 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - '10|Channel id: @vpnserverrr🇺'
-  - 14|SE_speednode_0017
-  - 14|US_speednode_0034
-  - '10|r♡ya #2'
-  - 12|🇭🇰 香港2|@ripaojiedian
-  - 12,13|香港6|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
-  - 14|US_speednode_0030
-  - 14|DE_speednode_0003
-  - 14|US_speednode_0024
-  - '10|@Daily_Configs #7'
-  - 10|@Daily_Configs == کانال تلگرام
-  - 14|US_speednode_0026
-  - 10|@Daily_Configs
-  - 10|🇳🇱@FreakConfig
-  - 13|印度尼西亚|@ripaojiedian
-  - 14|US_speednode_0025
-  - 14|RU_speednode_0015
-  - 12,13|香港4|@ripaojiedian
-  - 13|香港v2|@ripaojiedian
-  - 14|US_speednode_0031
-  - 14|SG_speednode_0019
-  - 14|AE_speednode_0001
-  - '10|@Daily_Configs #5'
-  - 14|GB_speednode_0008
   - '10|All-@IRAN_V2RAY1 #2'
-  - 12|tg频道:@ripaojiedian
-  - 12|🇻🇳 越南|@ripaojiedian
-  - 12|🇮🇩 印度尼西亚|@ripaojiedian
-  - 10|All-@IRAN_V2RAY1
-  - 10|Telegram:@Daily_Configs
-  - 14|US_speednode_0032
-  - 10|@FreakConfig
-  - 14|SE_speednode_0018
-  - 13|日本v2|@ripaojiedian
-  - '10|@Daily_Configs #12'
-  - 10|telegram-@ISVvpn
-  - 14|SG_speednode_0020
-  - '10|All-@IRAN_V2RAY1 #1'
-  - '10|💎کانفیگ های بیشتر در چنل تلگرا... #1'
-  - '10|DE-telegram-@ISVvpn   :  '
-  - 14|GB_speednode_0009
-  - '10|@Daily_Configs #6'
-  - 10|@Daily_Configs <== کانا تلگرام
-  - '10|🇩🇪@EXPRESSVPN_420   '
-  - 14|US_speednode_0036
-  - 14|FR_speednode_0005
-  - '10|Channel id: @vpnserverrr🇺🇸'
-  - 14|US_speednode_0037
-  - '10|🇺🇲@FreakConfig #1'
-  - 13|韩国|@ripaojiedian
-  - '10|All-@IRAN_V2RAY1 #3'
-  - '10|@Daily_Configs <== کانال تلگرا... #1'
-  - 10|All--@IRAN_V2RAY1
-  - '10|@Daily_Configs #8'
-  - 12,13|美国2|@ripaojiedian
-  - 14|US_speednode_0033
-  - 14|US_speednode_0035
-  - 12,13|新加坡|@ripaojiedian
-  - 12,13|美国|@ripaojiedian
-  - '10|@Daily_Configs #11'
-  - 10|usa-telegram-@ISVvpn
-  - 10|🇺🇲@FreakConfig
-  - '10|@Daily_Configs <== کانال تلگرا... #3'
-  - 12,13|日本2|@ripaojiedian
-  - '10|@Daily_Configs #1'
-  - '10|🇳🇱@FreakConfig #1'
-  - 14|IT_speednode_0011
-  - 12|🇰🇷 韩国|@ripaojiedian
-  - '10|@IRAN_V2RAY1 #1'
-  - 14|US_speednode_0022
-  - 14|US_speednode_0027
-  - 12,13|日本3|@ripaojiedian
-  - 10|کای ها یش ر ن ترا💎 Config_Raye...
-  - 10|telegram-@vpnserverrr
-  - '10|@Daily_Configs #2'
-  - '10|@Daily_Configs #3'
-  - '10|telegram-@ISVvpn #2'
-  - '10|@Daily_Configs #10'
-  - '10|Channel id: @vpnserverrr'
-  - 10|@Daily_Configs IPv4
-  - 14|FR_speednode_0007
-  - 14|KR_speednode_0012
-  - 14|RU_speednode_0014
-  - 14|KR_speednode_0013
-  - 14|US_speednode_0021
-  - 10|🇩🇪@FreakConfig
-  - 14|RU_speednode_0016
+  - 14|US_speednode_0025
   - 14|DE_speednode_0002
+  - 10|usa-telegram-@ISVvpn
+  - 14|US_speednode_0037
+  - '10|DE-telegram-@ISVvpn   :  '
+  - 10|Telegram:@Daily_Configs
+  - 14|IT_speednode_0011
+  - 10|💎کانفیگ های بیشتر در چنل تلگرا...
+  - '10|@IRAN_V2RAY1 #1'
+  - 10|کای ها یش ر ن ترا💎 Config_Raye...
+  - 13|印度尼西亚|@ripaojiedian
+  - 14|US_speednode_0021
+  - 12,13|美国|@ripaojiedian
+  - 14|US_speednode_0032
+  - '10|@Daily_Configs #4'
+  - 14|GB_speednode_0008
+  - 14|US_speednode_0031
+  - '10|@Daily_Configs #2'
+  - 13|日本v2|@ripaojiedian
+  - 10|telegram-@vpnserverrr
+  - 10|All--@IRAN_V2RAY1
+  - 10|🇲@FreakConfig
+  - 10|🇳🇱@FreakConfig
+  - 10|🇩🇪@FreakConfig
+  - '10|@Daily_Configs #9'
+  - '10|r♡ya #2'
+  - '10|@Daily_Configs #11'
+  - 12,13|香港4|@ripaojiedian
+  - '10|All-@IRAN_V2RAY1 #1'
+  - 12|tg频道:@ripaojiedian
+  - '10|Channel id: @vpnserverrr'
+  - '10|@Daily_Configs #1'
+  - 12,13|新加坡2|@ripaojiedian
+  - 12|🇰🇷 韩国|@ripaojiedian
   - 12,13|香港|@ripaojiedian
-  - 14|FR_speednode_0006
+  - '10|@Daily_Configs #12'
+  - 14|RU_speednode_0016
+  - 12,13|美国2|@ripaojiedian
   - 14|US_speednode_0028
+  - 14|RU_speednode_0014
+  - 14|US_speednode_0027
+  - 10|@FreakConfig
+  - 14|US_speednode_0036
+  - 14|US_speednode_0026
+  - '10|@Daily_Configs <== کانال تلگرا... #1'
+  - '10|@Daily_Configs #6'
+  - 14|RU_speednode_0015
+  - 13|韩国|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 14|US_speednode_0033
+  - 14|SE_speednode_0018
+  - 14|AE_speednode_0001
+  - 12,13|香港6|@ripaojiedian
+  - 12|🇭🇰 香港2|@ripaojiedian
+  - 14|SE_speednode_0017
+  - '10|@Daily_Configs <== کانال تلگرا... #3'
+  - '10|🇳🇱@FreakConfig #1'
+  - '10|telegram-@ISVvpn #2'
+  - 10|@Daily_Configs <== کانا تلگرام
+  - '10|Channel id: @vpnserverrr🇺'
+  - 14|GB_speednode_0009
+  - 14|FR_speednode_0007
+  - 14|US_speednode_0024
+  - 14|SG_speednode_0019
+  - '10|@Daily_Configs #3'
+  - '10|🇺🇲@FreakConfig #1'
+  - 14|US_speednode_0035
+  - 12|🇮🇩 印度尼西亚|@ripaojiedian
+  - 14|FR_speednode_0005
+  - 14|DE_speednode_0003
+  - 14|US_speednode_0034
+  - '10|All-@IRAN_V2RAY1 #3'
+  - 12,13|日本2|@ripaojiedian
+  - 12,13|新加坡|@ripaojiedian
+  - 14|US_speednode_0030
+  - 10|@Daily_Configs
+  - '10|@Daily_Configs #13'
+  - '10|@Daily_Configs #8'
+  - 10|telegram-@ISVvpn
+  - 14|KR_speednode_0013
+  - 10|@Daily_Configs == کانال تلگرام
+  - 14|US_speednode_0022
+  - '10|Channel id: @vpnserverrr🇺🇸'
+  - 13|香港v2|@ripaojiedian
+  - 10|All-@IRAN_V2RAY1
+  - '10|🇩🇪@EXPRESSVPN_420   '
+  - '10|@Daily_Configs #7'
+  - 14|SG_speednode_0020
+  - 10|🇺🇲@FreakConfig
+  - 12|🇻🇳 越南|@ripaojiedian
+  - 14|FR_speednode_0006
+  - 14|KR_speednode_0012
   type: fallback
   url: https://www.google.com/
 - interval: 300
