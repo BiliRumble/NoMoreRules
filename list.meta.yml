@@ -1,4 +1,4 @@
-# Update: 2025-09-29 08:49
+# Update: 2025-09-29 11:31
 allow-lan: false
 dns:
   enable: true
@@ -312,16 +312,6 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 11|@Daily_Configs IPv4
-  obfs: salamander
-  obfs-password: tqfg2P0b7p8fcjCbcRqj4lHleH5jcvBs
-  password: joinbededailyconfigs
-  port: 443
-  server: 95.181.174.31
-  skip-cert-verify: true
-  sni: slack.com
-  tls: false
-  type: hysteria2
 - name: 11|@Daily_Configs == کانال تلگرام
   obfs: salamander
   obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP
@@ -342,7 +332,7 @@ proxies:
   sni: microsoft.com
   tls: false
   type: hysteria2
-- name: '11|@Daily_Configs IPv4 #1'
+- name: 11|@Daily_Configs IPv4
   obfs: salamander
   obfs-password: tqfg2P0b7p8fcjCbcRqj4lHleH5jcvBs
   password: kanale_dailyconfigs
@@ -1037,99 +1027,98 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13|tg频道:@ripaojiedian
-  - '11|@Daily_Configs #2'
-  - '11|🇩🇪@EXPRESSVPN_420   '
-  - 15|FR_speednode_0007
-  - 11|🇳🇱@FreakConfig
-  - '11|@Daily_Configs #10'
-  - '11|@Daily_Configs #12'
-  - 15|US_speednode_0022
-  - 13,14|美国|@ripaojiedian
-  - '11|All-@IRAN_V2RAY1 #2'
-  - 15|FR_speednode_0005
-  - 11|All-@IRAN_V2RAY1
-  - 13,14|新加坡2|@ripaojiedian
-  - 15|IT_speednode_0011
-  - 11|@Daily_Configs <== کانا تلگرام
-  - 15|KR_speednode_0012
-  - 11|Telegram:@Daily_Configs
-  - 15|KR_speednode_0013
-  - 13,14|香港|@ripaojiedian
-  - '11|All-@IRAN_V2RAY1 #3'
-  - '11|Channel id: @vpnserverrr🇺🇸'
-  - '11|@Daily_Configs #8'
-  - 15|US_speednode_0026
-  - 11|@Daily_Configs
-  - 13,14|日本2|@ripaojiedian
-  - 13|🇻🇳 越南|@ripaojiedian
-  - 15|FR_speednode_0006
-  - 15|RU_speednode_0016
-  - '11|@Daily_Configs #1'
-  - '11|Channel id: @vpnserverrr🇺'
-  - 15|US_speednode_0033
-  - 15|SG_speednode_0019
-  - '11|🇺🇲@FreakConfig #1'
-  - 15|DE_speednode_0002
-  - 15|US_speednode_0034
-  - 15|US_speednode_0032
-  - 14|韩国|@ripaojiedian
-  - 15|SE_speednode_0018
-  - 15|US_speednode_0027
-  - 15|US_speednode_0037
-  - 11|@Daily_Configs == کانال تلگرام
-  - 13|🇮🇩 印度尼西亚|@ripaojiedian
-  - 15|GB_speednode_0009
-  - 11|telegram-@ISVvpn
-  - 15|US_speednode_0035
-  - '11|@Daily_Configs <== کانال تلگرا... #3'
-  - 13,14|香港4|@ripaojiedian
-  - 11|کای ها یش ر ن ترا💎 Config_Raye...
-  - 11|@Daily_Configs IPv4
-  - 15|US_speednode_0036
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 13|🇰🇷 韩国|@ripaojiedian
-  - '11|🇳🇱@FreakConfig #1'
-  - 14|香港v2|@ripaojiedian
-  - 15|DE_speednode_0003
-  - 11|All--@IRAN_V2RAY1
-  - 11|🇺🇲@FreakConfig
-  - '11|@Daily_Configs IPv4 #1'
-  - '11|Channel id: @vpnserverrr'
-  - '11|All-@IRAN_V2RAY1 #1'
-  - '11|@Daily_Configs #3'
-  - 14|日本v2|@ripaojiedian
-  - 15|SG_speednode_0020
   - 11|🇩🇪@FreakConfig
-  - 13,14|香港6|@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 15|US_speednode_0024
-  - 11|telegram-@vpnserverrr
-  - 11|usa-telegram-@ISVvpn
-  - 15|SE_speednode_0017
-  - '11|@Daily_Configs <== کانال تلگرا... #1'
-  - 15|RU_speednode_0014
-  - '11|💎کانفیگ های بیشتر در چنل تلگرا... #1'
-  - '11|telegram-@ISVvpn #2'
-  - 15|GB_speednode_0008
-  - '11|@Daily_Configs #11'
-  - 15|AE_speednode_0001
-  - '11|@IRAN_V2RAY1 #1'
-  - '11|@Daily_Configs #6'
-  - 15|US_speednode_0021
-  - 11|@FreakConfig
-  - 15|US_speednode_0028
-  - 15|US_speednode_0030
-  - 13,14|日本3|@ripaojiedian
-  - 14|印度尼西亚|@ripaojiedian
-  - 15|US_speednode_0031
-  - '11|DE-telegram-@ISVvpn   :  '
+  - 15|US_speednode_0032
   - '11|r♡ya #2'
-  - 15|RU_speednode_0015
-  - 15|US_speednode_0025
-  - '11|@Daily_Configs #5'
-  - '11|@Daily_Configs #7'
+  - 13,14|美国|@ripaojiedian
+  - 13|🇰🇷 韩国|@ripaojiedian
   - 13,14|美国2|@ripaojiedian
+  - 15|RU_speednode_0015
+  - 13,14|日本2|@ripaojiedian
+  - 15|US_speednode_0035
+  - '11|🇳🇱@FreakConfig #1'
+  - 15|SG_speednode_0019
+  - '11|All-@IRAN_V2RAY1 #3'
+  - 14|香港v2|@ripaojiedian
+  - 11|Telegram:@Daily_Configs
+  - 15|KR_speednode_0012
+  - 11|🇳🇱@FreakConfig
+  - 15|US_speednode_0030
+  - 15|GB_speednode_0008
+  - 15|US_speednode_0033
+  - 15|DE_speednode_0002
+  - 15|US_speednode_0037
+  - '11|Channel id: @vpnserverrr'
+  - 11|🇺🇲@FreakConfig
+  - '11|@Daily_Configs #1'
+  - 13,14|新加坡2|@ripaojiedian
+  - '11|💎کانفیگ های بیشتر در چنل تلگرا... #1'
+  - 15|FR_speednode_0006
+  - 13,14|香港4|@ripaojiedian
+  - 15|SG_speednode_0020
+  - '11|@Daily_Configs #5'
+  - '11|@Daily_Configs #3'
+  - 11|@Daily_Configs IPv4
+  - 14|韩国|@ripaojiedian
+  - 15|US_speednode_0026
+  - 14|印度尼西亚|@ripaojiedian
+  - '11|@Daily_Configs #7'
+  - 15|US_speednode_0027
+  - 11|@Daily_Configs <== کانا تلگرام
+  - 11|telegram-@vpnserverrr
+  - 15|FR_speednode_0005
+  - 15|DE_speednode_0003
+  - '11|🇺🇲@FreakConfig #1'
+  - '11|@Daily_Configs <== کانال تلگرا... #3'
+  - 11|telegram-@ISVvpn
+  - 11|usa-telegram-@ISVvpn
+  - 15|KR_speednode_0013
+  - '11|@Daily_Configs #11'
+  - 15|US_speednode_0031
+  - 15|US_speednode_0036
+  - '11|@Daily_Configs #12'
+  - 15|AE_speednode_0001
+  - 11|All--@IRAN_V2RAY1
+  - 13,14|新加坡|@ripaojiedian
+  - 15|RU_speednode_0014
+  - 11|کای ها یش ر ن ترا💎 Config_Raye...
+  - 11|@FreakConfig
+  - 15|IT_speednode_0011
+  - 13|🇮🇩 印度尼西亚|@ripaojiedian
+  - '11|@IRAN_V2RAY1 #1'
+  - '11|@Daily_Configs #10'
+  - 13,14|香港6|@ripaojiedian
+  - 13|🇻🇳 越南|@ripaojiedian
+  - '11|🇩🇪@EXPRESSVPN_420   '
+  - 11|@Daily_Configs
+  - '11|@Daily_Configs #2'
+  - '11|DE-telegram-@ISVvpn   :  '
+  - 15|US_speednode_0034
+  - 15|US_speednode_0022
+  - 15|US_speednode_0021
+  - 15|FR_speednode_0007
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 11|All-@IRAN_V2RAY1
+  - 13,14|日本3|@ripaojiedian
+  - '11|@Daily_Configs #8'
+  - 15|SE_speednode_0017
+  - 13|tg频道:@ripaojiedian
+  - '11|@Daily_Configs <== کانال تلگرا... #1'
+  - '11|All-@IRAN_V2RAY1 #2'
+  - 14|日本v2|@ripaojiedian
+  - 15|GB_speednode_0009
+  - 15|US_speednode_0025
+  - '11|Channel id: @vpnserverrr🇺'
+  - 15|SE_speednode_0018
+  - '11|All-@IRAN_V2RAY1 #1'
+  - 15|RU_speednode_0016
+  - '11|Channel id: @vpnserverrr🇺🇸'
+  - 15|US_speednode_0024
+  - 15|US_speednode_0028
+  - 11|@Daily_Configs == کانال تلگرام
+  - '11|@Daily_Configs #6'
+  - 13,14|香港|@ripaojiedian
+  - '11|telegram-@ISVvpn #2'
   type: fallback
   url: https://www.google.com/
 - interval: 300

@@ -293,16 +293,6 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 11|@Daily_Configs IPv4
-  obfs: salamander
-  obfs-password: tqfg2P0b7p8fcjCbcRqj4lHleH5jcvBs
-  password: joinbededailyconfigs
-  port: 443
-  server: 95.181.174.31
-  skip-cert-verify: true
-  sni: slack.com
-  tls: false
-  type: hysteria2
 - name: 11|@Daily_Configs == کانال تلگرام
   obfs: salamander
   obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP
@@ -323,7 +313,7 @@ proxies:
   sni: microsoft.com
   tls: false
   type: hysteria2
-- name: '11|@Daily_Configs IPv4 #1'
+- name: 11|@Daily_Configs IPv4
   obfs: salamander
   obfs-password: tqfg2P0b7p8fcjCbcRqj4lHleH5jcvBs
   password: kanale_dailyconfigs
