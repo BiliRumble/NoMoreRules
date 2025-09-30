@@ -1,4 +1,4 @@
-# Update: 2025-09-30 08:48
+# Update: 2025-09-30 11:25
 allow-lan: false
 dns:
   enable: true
@@ -19,7 +19,7 @@ mixed-port: 7890
 mode: rule
 proxies:
 - cipher: aes-256-cfb
-  name: 13|tg频道:@ripaojiedian
+  name: 12|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
   server: 3.250.25.159
@@ -27,7 +27,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: 13,14|香港|@ripaojiedian
+  name: 12,13|香港|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -42,7 +42,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: aes-256-gcm
-  name: 13|🇭🇰 香港2|@ripaojiedian
+  name: 12|🇭🇰 香港2|@ripaojiedian
   password: ccf426f1fe78
   plugin: v2ray-plugin
   plugin-opts:
@@ -58,7 +58,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13,14|香港3|@ripaojiedian
+  name: 12,13|香港3|@ripaojiedian
   network: ws
   port: '31469'
   server: 149.30.232.103
@@ -72,7 +72,7 @@ proxies:
     headers:
       Host: ''
     path: /arki?ed=2048
-- name: 13,14|香港4|@ripaojiedian
+- name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 446
@@ -82,7 +82,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 13,14|香港5|@ripaojiedian
+  name: 12,13|香港5|@ripaojiedian
   network: ws
   port: '80'
   server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -96,7 +96,7 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: 13,14|香港6|@ripaojiedian
+- name: 12,13|香港6|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -105,7 +105,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: aes-128-gcm
-  name: 13|🇯🇵 日本|@ripaojiedian
+  name: 12|🇯🇵 日本|@ripaojiedian
   password: 722a54414ae6ee706ac9
   plugin: obfs
   plugin-opts:
@@ -115,7 +115,7 @@ proxies:
   server: jp07.jd.kunlunpx.com
   tfo: false
   type: ss
-- name: 13,14|日本2|@ripaojiedian
+- name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3160
@@ -123,7 +123,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|日本3|@ripaojiedian
+- name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1802
@@ -132,7 +132,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: aes-256-cfb
-  name: 13|🇰🇷 韩国|@ripaojiedian
+  name: 12|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
   port: 2520
   server: 121.170.203.147
@@ -140,7 +140,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🇰🇷 韩国2|@ripaojiedian
+  name: 12|🇰🇷 韩国2|@ripaojiedian
   port: 55879
   server: 210.109.205.158
   skip-cert-verify: false
@@ -148,7 +148,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 7cc8bff2-1e5c-45d1-a3e7-b35e8f25cbbe
-- name: 13,14|新加坡|@ripaojiedian
+- name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4397
@@ -156,7 +156,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡2|@ripaojiedian
+- name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3043
@@ -164,7 +164,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国|@ripaojiedian
+- name: 12,13|美国|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3294
@@ -172,7 +172,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国2|@ripaojiedian
+- name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 5343
@@ -182,7 +182,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 13|🇺🇸 美国3|@ripaojiedian
+  name: 12|🇺🇸 美国3|@ripaojiedian
   port: 57518
   server: 23.236.68.161
   skip-cert-verify: false
@@ -191,7 +191,7 @@ proxies:
   type: vmess
   uuid: e47902b2-928b-41ec-a868-ed3d1d4bec76
 - cipher: aes-256-cfb
-  name: 13|🇻🇳 越南|@ripaojiedian
+  name: 12|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.42
@@ -199,7 +199,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 14|香港v2|@ripaojiedian
+  name: 13|香港v2|@ripaojiedian
   network: kcp
   port: '5043'
   server: 47.242.186.1
@@ -209,7 +209,7 @@ proxies:
   uuid: 93c35277-ee3f-4ab2-9d9e-462b97a8795f
 - alterId: 0
   cipher: auto
-  name: 14|日本v2|@ripaojiedian
+  name: 13|日本v2|@ripaojiedian
   network: kcp
   port: '20932'
   server: 43.207.83.60
@@ -219,7 +219,7 @@ proxies:
   uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d
 - alterId: 0
   cipher: auto
-  name: 14|韩国2|@ripaojiedian
+  name: 13|韩国2|@ripaojiedian
   network: tcp
   port: '55879'
   server: 210.109.205.158
@@ -229,7 +229,7 @@ proxies:
   uuid: 7cc8bff2-1e5c-45d1-a3e7-b35e8f25cbbe
 - alterId: 0
   cipher: auto
-  name: 14|美国3|@ripaojiedian
+  name: 13|美国3|@ripaojiedian
   network: tcp
   port: '57518'
   server: 23.236.68.161
@@ -248,28 +248,28 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13|🇺🇸 美国3|@ripaojiedian
-  - 13,14|美国2|@ripaojiedian
-  - 13,14|日本2|@ripaojiedian
-  - 13|🇰🇷 韩国2|@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 13,14|日本3|@ripaojiedian
-  - 14|美国3|@ripaojiedian
-  - 13|🇯🇵 日本|@ripaojiedian
-  - 14|韩国2|@ripaojiedian
-  - 14|香港v2|@ripaojiedian
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 14|日本v2|@ripaojiedian
-  - 13,14|新加坡2|@ripaojiedian
-  - 13,14|香港|@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
-  - 13,14|美国|@ripaojiedian
-  - 13|🇻🇳 越南|@ripaojiedian
-  - 13|🇰🇷 韩国|@ripaojiedian
-  - 13,14|香港6|@ripaojiedian
-  - 13,14|香港3|@ripaojiedian
+  - 12,13|香港5|@ripaojiedian
+  - 12,13|香港6|@ripaojiedian
+  - 13|日本v2|@ripaojiedian
+  - 12|🇰🇷 韩国2|@ripaojiedian
+  - 12,13|新加坡|@ripaojiedian
+  - 12|🇻🇳 越南|@ripaojiedian
+  - 13|香港v2|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 13|韩国2|@ripaojiedian
+  - 12|🇰🇷 韩国|@ripaojiedian
+  - 12|🇯🇵 日本|@ripaojiedian
+  - 12|🇺🇸 美国3|@ripaojiedian
+  - 12,13|新加坡2|@ripaojiedian
+  - 12,13|香港|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 12|🇭🇰 香港2|@ripaojiedian
+  - 12,13|日本2|@ripaojiedian
+  - 12,13|美国2|@ripaojiedian
+  - 13|美国3|@ripaojiedian
+  - 12,13|香港3|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - 12,13|美国|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
