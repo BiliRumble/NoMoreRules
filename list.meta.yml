@@ -1,4 +1,4 @@
-# Update: 2025-09-30 23:09
+# Update: 2025-10-01 02:14
 allow-lan: false
 dns:
   enable: true
@@ -24,14 +24,6 @@ proxies:
   server: de1.jueduibupao.top
   skip-cert-verify: true
   sni: de1.jueduibupao.top
-  tls: false
-  type: hysteria2
-- name: 11|@FreakConfig
-  password: 20050105zhu
-  port: 51541
-  server: 204.44.110.129
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: 11|🇩🇪@FreakConfig
@@ -238,26 +230,6 @@ proxies:
   sni: microsoft.com
   tls: false
   type: hysteria2
-- name: 11|@Daily_Configs <== کانا تلگرام
-  obfs: salamander
-  obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP
-  password: daily_configs
-  port: 443
-  server: 95.181.174.31
-  skip-cert-verify: true
-  sni: slack.com
-  tls: false
-  type: hysteria2
-- name: '11|@Daily_Configs <== کانال تلگرا... #1'
-  obfs: salamander
-  obfs-password: tqfg2P0b7p8fcjCbcRqj4lHleH5jcvBs
-  password: daily_configs
-  port: 443
-  server: 95.181.174.31
-  skip-cert-verify: true
-  sni: slack.com
-  tls: false
-  type: hysteria2
 - name: '11|@Daily_Configs #4'
   obfs: salamander
   obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP
@@ -340,7 +312,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 11|@Daily_Configs == کانال تلگرام
+- name: 11|@Daily_Configs == کانا تلگرام
   obfs: salamander
   obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP
   password: joindailyconfigs
@@ -378,7 +350,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '11|@Daily_Configs <== کانال تلگرا... #3'
+- name: 11|@Daily_Configs <== کانال تلگرا...
   obfs: salamander
   obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP
   password: mahsaamini
@@ -714,78 +686,75 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - '11|@Daily_Configs #1'
-  - '11|@Daily_Configs #6'
-  - 13,14|美国2|@ripaojiedian
-  - '11|@Daily_Configs #11'
-  - 11|@FreakConfig
-  - '11|r♡ya #2'
-  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
-  - '11|@Daily_Configs #14'
-  - 11|🇲@FreakConfig
-  - 15|BG_speednode_0002
-  - 13|🇰🇷 韩国|@ripaojiedian
-  - 13|🇯🇵 日本|@ripaojiedian
-  - 15|AE_speednode_0001
-  - '11|@Daily_Configs #12'
-  - 11|MCI---4
-  - 11|telegram-@vpnserverrr
-  - '11|🇺🇲@FreakConfig #1'
-  - 11|🇳🇱@FreakConfig
-  - 11|🇺🇲@FreakConfig
-  - 13,14|香港5|@ripaojiedian
-  - 13,14|香港3|@ripaojiedian
-  - 13,14|日本3|@ripaojiedian
-  - 13,14|新加坡2|@ripaojiedian
-  - '11|@Daily_Configs #3'
   - '11|@IRAN_V2RAY1 #1'
-  - 11|Telegram:@Daily_Configs
-  - 14|日本v2|@ripaojiedian
-  - '11|Channel id: @vpnserverrr🇺🇸'
-  - '11|All-@IRAN_V2RAY1 #2'
-  - '11|Channel id: @vpnserverrr'
-  - 14|美国3|@ripaojiedian
-  - '11|@Daily_Configs #9'
-  - 13|🇻🇳 越南|@ripaojiedian
-  - 15|US_speednode_0021
-  - 11|telegram-@ISVvpn
-  - 11|@Daily_Configs
-  - 13,14|美国|@ripaojiedian
-  - 11|All-@IRAN_V2RAY1
-  - 11|@Daily_Configs <== کانا تلگرام
-  - 13|🇺🇸 美国3|@ripaojiedian
-  - '11|@Daily_Configs #8'
-  - '11|All-@IRAN_V2RAY1 #1'
-  - '11|Channel id: @vpnserverrr🇺'
-  - '11|DE-telegram-@ISVvpn   :  '
-  - '11|All-@IRAN_V2RAY1 #3'
-  - 13|🇰🇷 韩国2|@ripaojiedian
   - '11|@V2rayNGVPN <= کانفیگ رایگان #1'
-  - 13,14|香港6|@ripaojiedian
-  - 11|All--@IRAN_V2RAY1
-  - 11|@Daily_Configs == کانال تلگرام
-  - 11|کای ها یش ر ن ترا💎 Config_Raye...
-  - 14|韩国2|@ripaojiedian
-  - 11|usa-telegram-@ISVvpn
-  - 11|@V2rayNGVPN <= کانفیگ رایگان
-  - '11|🇳🇱@FreakConfig #1'
-  - 13,14|香港|@ripaojiedian
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
-  - 13,14|日本2|@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - '11|@Daily_Configs <== کانال تلگرا... #1'
-  - '11|@Daily_Configs #7'
-  - 11|🇩🇪@FreakConfig
-  - '11|@Daily_Configs #4'
-  - '11|@Daily_Configs #13'
-  - 15|US_speednode_0020
-  - '11|🇩🇪@EXPRESSVPN_420   '
-  - '11|@Daily_Configs <== کانال تلگرا... #3'
+  - 11|telegram-@vpnserverrr
+  - 13|🇺🇸 美国3|@ripaojiedian
+  - 14|美国3|@ripaojiedian
+  - '11|All-@IRAN_V2RAY1 #3'
+  - 11|🇺🇲@FreakConfig
+  - '11|Channel id: @vpnserverrr🇺🇸'
   - 15|CN_speednode_0016
-  - 14|香港v2|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
+  - 13,14|香港|@ripaojiedian
+  - '11|Channel id: @vpnserverrr'
+  - 13|🇰🇷 韩国|@ripaojiedian
+  - 14|日本v2|@ripaojiedian
+  - 11|telegram-@ISVvpn
+  - 11|MCI---4
+  - 13,14|日本2|@ripaojiedian
+  - 11|@Daily_Configs <== کانال تلگرا...
+  - 15|AE_speednode_0001
+  - '11|All-@IRAN_V2RAY1 #2'
+  - 11|All-@IRAN_V2RAY1
+  - 13,14|美国2|@ripaojiedian
+  - '11|@Daily_Configs #6'
+  - '11|@Daily_Configs #9'
+  - 11|Telegram:@Daily_Configs
+  - 13|🇯🇵 日本|@ripaojiedian
   - '11|telegram-@ISVvpn #2'
+  - 11|All--@IRAN_V2RAY1
+  - 13,14|新加坡2|@ripaojiedian
+  - '11|DE-telegram-@ISVvpn   :  '
+  - 11|@Daily_Configs
+  - '11|@Daily_Configs #11'
+  - 13|🇻🇳 越南|@ripaojiedian
+  - 15|US_speednode_0020
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - '11|🇳🇱@FreakConfig #1'
+  - 11|🇲@FreakConfig
+  - 15|US_speednode_0021
+  - 11|usa-telegram-@ISVvpn
+  - '11|Channel id: @vpnserverrr🇺'
+  - '11|@Daily_Configs #1'
+  - '11|@Daily_Configs #3'
+  - '11|r♡ya #2'
+  - 13|🇰🇷 韩国2|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - '11|All-@IRAN_V2RAY1 #1'
+  - 13,14|新加坡|@ripaojiedian
+  - 13,14|香港3|@ripaojiedian
+  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
+  - 11|@V2rayNGVPN <= کانفیگ رایگان
+  - '11|@Daily_Configs #8'
+  - 13,14|香港5|@ripaojiedian
+  - 15|BG_speednode_0002
+  - 14|香港v2|@ripaojiedian
+  - '11|@Daily_Configs #13'
+  - '11|@Daily_Configs #4'
+  - '11|@Daily_Configs #14'
+  - 11|🇳🇱@FreakConfig
+  - '11|🇺🇲@FreakConfig #1'
+  - 13|tg频道:@ripaojiedian
+  - 14|韩国2|@ripaojiedian
+  - '11|@Daily_Configs #7'
+  - '11|@Daily_Configs #12'
+  - 13,14|美国|@ripaojiedian
+  - 13,14|香港6|@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
+  - '11|🇩🇪@EXPRESSVPN_420   '
+  - 11|@Daily_Configs == کانا تلگرام
+  - 11|کای ها یش ر ن ترا💎 Config_Raye...
+  - 11|🇩🇪@FreakConfig
   type: fallback
   url: https://www.google.com/
 - interval: 300
