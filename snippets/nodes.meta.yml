@@ -627,62 +627,7 @@ proxies:
   type: vmess
   uuid: e47902b2-928b-41ec-a868-ed3d1d4bec76
 - flow: xtls-rprx-vision
-  name: 15|IL_speednode_0049
-  port: 443
-  reality-opts:
-    public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
-    short-id: 55e6af1a35e64a98
-  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-  servername: i2pd.website
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
-- flow: xtls-rprx-vision
-  name: 15|IR_speednode_0051
-  port: 44443
-  reality-opts:
-    public-key: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ
-  server: 193.151.135.21
-  servername: www.speedtest.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-- flow: xtls-rprx-vision
-  name: 15|IR_speednode_0052
-  port: 44443
-  reality-opts:
-    public-key: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ
-  server: hybrid.arvancloud.online
-  servername: www.speedtest.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-- name: 15|JP_speednode_0053
-  network: ws
-  port: 36003
-  server: 141.11.138.192
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6a08090f-4e15-49c8-c442-b9c4ab26d196
-- name: 15|JP_speednode_0054
-  network: ws
-  port: 28008
-  server: 103.93.76.157
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: ba11eedf-b03f-452e-b7cb-b1bf92c82b49
-- flow: xtls-rprx-vision
-  name: 15|US_speednode_0057
+  name: 15|US_speednode_0020
   port: 443
   reality-opts:
     public-key: aG4c_fm7Ylea93OdC1PhCNIDc3DeAsrcxdQMOCppXAU
