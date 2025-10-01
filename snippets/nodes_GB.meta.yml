@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+- name: 15|GB_speednode_0006
+  password: R8ufkVqwRZAgtwjyrA
+  port: 443
+  server: uk-1.fishchipsexpress.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 15|GB_speednode_0007
+  password: R8ufkVqwRZAgtwjyrA
+  port: 443
+  server: uk-1.fishchipsexpress.com
+  skip-cert-verify: false
+  sni: uk-1.fishchipsexpress.com
+  type: trojan
+  udp: true
