@@ -1,4 +1,4 @@
-# Update: 2025-10-02 14:15
+# Update: 2025-10-02 17:10
 allow-lan: false
 dns:
   enable: true
@@ -138,7 +138,7 @@ proxies:
   sni: drhystuichdfy.samanidempire.org
   tls: false
   type: hysteria2
-- name: '11|@Daily_Configs #1'
+- name: '11|@Daily_Configs #2'
   obfs: salamander
   obfs-password: GdQ4bgvT8RFwuWi2
   password: 8864aa9f-7517-4fd5-aef1-32050eb3095d
@@ -218,7 +218,7 @@ proxies:
   sni: kotlet.arshiacomplus.dpdns.org
   tls: false
   type: hysteria2
-- name: '11|@Daily_Configs #3'
+- name: '11|@Daily_Configs #5'
   obfs: salamander
   obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
   password: biadailyconfigs
@@ -228,7 +228,7 @@ proxies:
   sni: microsoft.com
   tls: false
   type: hysteria2
-- name: '11|@Daily_Configs #4'
+- name: '11|@Daily_Configs #6'
   obfs: salamander
   obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
   password: bsnnajjbjsjnjjjbbbsbjajhjnnwjnbudn
@@ -238,7 +238,7 @@ proxies:
   sni: microsoft.com
   tls: false
   type: hysteria2
-- name: '11|@Daily_Configs #5'
+- name: '11|@Daily_Configs #7'
   obfs: salamander
   obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP
   password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs
@@ -248,7 +248,7 @@ proxies:
   sni: slack.com
   tls: false
   type: hysteria2
-- name: '11|@Daily_Configs #7'
+- name: '11|@Daily_Configs #9'
   obfs: salamander
   obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
   password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs
@@ -258,7 +258,7 @@ proxies:
   sni: microsoft.com
   tls: false
   type: hysteria2
-- name: '11|@Daily_Configs #8'
+- name: '11|@Daily_Configs #10'
   obfs: salamander
   obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
   password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_
@@ -268,7 +268,7 @@ proxies:
   sni: microsoft.com
   tls: false
   type: hysteria2
-- name: '11|@Daily_Configs #9'
+- name: '11|@Daily_Configs #11'
   obfs: salamander
   obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
   password: dailyconfigschannel
@@ -278,7 +278,7 @@ proxies:
   sni: microsoft.com
   tls: false
   type: hysteria2
-- name: '11|@Daily_Configs #10'
+- name: '11|@Daily_Configs #12'
   obfs: salamander
   obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP
   password: dailyconfigsdailyconfigsdailyconfigsdailyconfigs
@@ -288,7 +288,7 @@ proxies:
   sni: slack.com
   tls: false
   type: hysteria2
-- name: '11|@Daily_Configs #12'
+- name: '11|@Daily_Configs #14'
   obfs: salamander
   obfs-password: JBPVtqk1kMBGleBcLZ
   password: df36ace8-640b-42bb-8169-198901af6d9e
@@ -330,7 +330,7 @@ proxies:
   sni: slack.com
   tls: false
   type: hysteria2
-- name: '11|@Daily_Configs #13'
+- name: '11|@Daily_Configs #16'
   obfs: salamander
   obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
   password: joindailyconfigschanel
@@ -368,7 +368,15 @@ proxies:
   sni: slack.com
   tls: false
   type: hysteria2
-- name: '11|@Daily_Configs #15'
+- name: '11|@Daily_Configs #17'
+  password: zanzendegiazadi
+  port: 443
+  server: 103.249.133.79
+  skip-cert-verify: true
+  sni: ubuntu.com
+  tls: false
+  type: hysteria2
+- name: '11|@Daily_Configs #18'
   obfs: salamander
   obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP
   password: zanzendegiazadi
@@ -376,14 +384,6 @@ proxies:
   server: 95.181.174.31
   skip-cert-verify: true
   sni: slack.com
-  tls: false
-  type: hysteria2
-- name: '11|@Daily_Configs #14'
-  password: zanzendegiazadi
-  port: 443
-  server: 103.249.133.79
-  skip-cert-verify: true
-  sni: ubuntu.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -527,7 +527,15 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 15|AT_speednode_0002
+- name: 15|AE_speednode_0002
+  port: 123
+  server: 93.127.180.102
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6889a1d2-fb40-4fe6-ba30-8ff731799394
+- name: 15|AT_speednode_0003
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -539,8 +547,28 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+- name: 15|CA_speednode_0005
+  port: 8080
+  reality-opts:
+    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
+    short-id: 27cfa05000c23cc4
+  server: 81.19.140.20
+  servername: yandex.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+- name: 15|CN_speednode_0006
+  password: 2fd0d127-266d-4d0b-b453-f94659a132fc
+  port: 12000
+  server: 106.75.134.1
+  skip-cert-verify: true
+  sni: aliyun.com
+  type: trojan
+  udp: true
 - flow: xtls-rprx-vision
-  name: 15|IL_speednode_0009
+  name: 15|IL_speednode_0014
   port: 443
   reality-opts:
     public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
@@ -553,7 +581,7 @@ proxies:
   udp: true
   uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
 - flow: xtls-rprx-vision
-  name: 15|IN_speednode_0011
+  name: 15|IN_speednode_0015
   port: 443
   reality-opts:
     public-key: YPOvUT8wDaEaMQGlWFySLMJ8VFFvSQ8ptzoA6NsdBxM
@@ -565,19 +593,7 @@ proxies:
   type: vless
   udp: true
   uuid: 9d0d265d-0df6-4bcd-b029-9407a88ec2d8
-- name: 15|IR_speednode_0012
-  port: 8080
-  reality-opts:
-    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-    short-id: 27cfa05000c23cc4
-  server: 62.60.232.40
-  servername: yandex.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 15|JP_speednode_0013
+- name: 15|JP_speednode_0016
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -589,16 +605,7 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 15|KR_speednode_0014
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
-- name: 15|KZ_speednode_0015
+- name: 15|KZ_speednode_0018
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -610,7 +617,7 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 15|LB_speednode_0016
+- name: 15|LB_speednode_0019
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -622,19 +629,7 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 15|NL_speednode_0017
-  port: 8080
-  reality-opts:
-    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-    short-id: 27cfa05000c23cc4
-  server: 194.87.31.155
-  servername: yandex.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 15|NL_speednode_0018
+- name: 15|NL_speednode_0020
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -646,7 +641,24 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 15|PL_speednode_0019
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 15|NN_speednode_0021
+  network: ws
+  port: 443
+  server: 103.160.204.50
+  servername: vless8-ekh.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  ws-opts:
+    headers:
+      Host: vless8-ekh.pages.dev
+    path: /?ed=2560
+- name: 15|PL_speednode_0022
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -658,7 +670,7 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 15|PL_speednode_0020
+- name: 15|PL_speednode_0023
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -670,7 +682,7 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 15|PT_speednode_0021
+- name: 15|PT_speednode_0024
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -682,7 +694,7 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 15|RU_speednode_0022
+- name: 15|RU_speednode_0025
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -694,7 +706,7 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 15|RU_speednode_0023
+- name: 15|RU_speednode_0026
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -706,6 +718,95 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+- flow: xtls-rprx-vision
+  name: 15|US_speednode_0030
+  port: 30227
+  reality-opts:
+    public-key: y0QO-mD8hrDE3rV7C8BX-gQiCANoasGKQlq2ReIVXkI
+  server: 216.133.149.235
+  servername: aws.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9a54bad8-538d-4744-b7bc-640629840490
+- name: 15|US_speednode_0031
+  network: ws
+  port: 443
+  server: 162.159.43.92
+  servername: juzi.634676.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0c0537c3-f0fb-40e6-bd59-f5038e1855ed
+  ws-opts:
+    headers:
+      Host: juzi.634676.xyz
+    path: /?ed=2560
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  name: 15|US_speednode_0032
+  network: ws
+  port: 443
+  server: aliakb3435.pages.dev
+  servername: aLiAkB3435.paGES.dEV
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97c4550f-8ecc-42fa-ae66-3b550c986cd2
+  ws-opts:
+    headers:
+      Host: aliakb3435.pages.dev
+    path: /PLe847RCOx5eWYOx?ed=2560
+- name: 15|US_speednode_0034
+  network: ws
+  port: 2082
+  server: www.speedtest.net
+  servername: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: ef2ee52b-adb6-4d73-9439-5a540dbb621a
+  ws-opts:
+    headers:
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+- alpn:
+  - h2
+  - http/1.1
+  name: 15|US_speednode_0035
+  network: ws
+  port: 443
+  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+  servername: smits.feronix.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 44e16031-bde2-407a-b629-ae4b84e7e49f
+  ws-opts:
+    headers:
+      Host: smits.feronix.org
+    path: /
+- name: 15|US_speednode_0037
+  network: ws
+  port: 80
+  server: mstr.fastly80.hosting-ip.com
+  servername: gm195.io
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d46fbe10-7982-4229-b461-4afef5c690fa
+  ws-opts:
+    headers:
+      Host: gm195.io
+    path: /admin
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -717,77 +818,84 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - '11|@Daily_Configs #1'
-  - '11|WI-FI--@IRAN_V2RAY1 #1'
-  - '11|🇺🇲@FreakConfig #1'
-  - '11|All-@IRAN_V2RAY1 #1'
-  - 13,14|日本2|@ripaojiedian
-  - '11|Channel id: @vpnserverrr🇺🇸'
-  - '11|@FreakConfig #1'
-  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
-  - '11|Channel id: @vpnserverrr'
-  - '11|@Daily_Configs #7'
-  - '11|@Daily_Configs #10'
-  - '11|@Daily_Configs #15'
-  - '11|DE-telegram-@ISVvpn   :  '
-  - 13,14|香港4|@ripaojiedian
-  - 13,14|美国2|@ripaojiedian
-  - 11|@FreakConfig
-  - 11|MCI-@IRAN_V2RAY1
-  - 13,14|新加坡2|@ripaojiedian
-  - 15|KR_speednode_0014
-  - 15|NL_speednode_0018
-  - '11|🇳🇱@FreakConfig #1'
-  - 13,14|新加坡|@ripaojiedian
-  - 13,14|香港6|@ripaojiedian
   - '11|All-@IRAN_V2RAY1 #2'
-  - '11|Channel id: @vpnserverrr🇺'
-  - '11|@Daily_Configs #4'
-  - '11|@Daily_Configs #12'
-  - 11|All--@IRAN_V2RAY1
-  - 15|PT_speednode_0021
-  - 14|日本v2|@ripaojiedian
-  - 13,14|日本3|@ripaojiedian
-  - 15|RU_speednode_0023
-  - 15|AT_speednode_0002
-  - 15|PL_speednode_0019
-  - 15|RU_speednode_0022
-  - '11|@Daily_Configs #5'
-  - 15|JP_speednode_0013
-  - 15|AE_speednode_0001
-  - 11|telegram-@ISVvpn
-  - 11|کای ها یش ر ن ترا💎 Config_Raye...
-  - '11|@Daily_Configs #9'
-  - 11|🇲@FreakConfig
-  - '11|@Daily_Configs #13'
-  - '11|🇩🇪@EXPRESSVPN_420   '
-  - 11|🇩🇪@FreakConfig
-  - 11|🇺🇲@FreakConfig
-  - '11|@Daily_Configs #8'
-  - 13|tg频道:@ripaojiedian
-  - 11|All-@IRAN_V2RAY1
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 15|IR_speednode_0012
-  - 11|@Daily_Configs == کانا تلگرام
-  - 15|LB_speednode_0016
+  - 15|IL_speednode_0014
   - '11|@Daily_Configs #14'
-  - '11|@IRAN_V2RAY1 #1'
-  - 15|IL_speednode_0009
-  - 15|NL_speednode_0017
-  - 13,14|美国|@ripaojiedian
-  - 14|香港v2|@ripaojiedian
-  - 11|telegram-@vpnserverrr
+  - '11|@Daily_Configs #2'
+  - 15|US_speednode_0032
+  - '11|@Daily_Configs #18'
+  - 15|NN_speednode_0021
+  - '11|@Daily_Configs #10'
+  - 11|@FreakConfig
+  - 11|All-@IRAN_V2RAY1
+  - '11|@Daily_Configs #9'
+  - 11|کای ها یش ر ن ترا💎 Config_Raye...
+  - '11|@Daily_Configs #5'
+  - 15|IN_speednode_0015
+  - 15|NL_speednode_0020
   - 11|@Daily_Configs
-  - 11|usa-telegram-@ISVvpn
-  - 13,14|香港|@ripaojiedian
-  - 13|🇻🇳 越南|@ripaojiedian
-  - 15|PL_speednode_0020
-  - 11|Telegram:@Daily_Configs
-  - 15|KZ_speednode_0015
-  - 15|IN_speednode_0011
-  - '11|@Daily_Configs #3'
+  - '11|Channel id: @vpnserverrr🇺🇸'
+  - 15|AE_speednode_0002
+  - 15|AE_speednode_0001
+  - '11|@FreakConfig #1'
+  - 15|RU_speednode_0026
+  - '11|🇩🇪@EXPRESSVPN_420   '
   - '11|All-@IRAN_V2RAY1 #3'
+  - 15|PL_speednode_0023
+  - 11|telegram-@vpnserverrr
+  - '11|@IRAN_V2RAY1 #1'
   - '11|telegram-@ISVvpn #2'
+  - 13,14|新加坡2|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
+  - 15|US_speednode_0030
+  - '11|@Daily_Configs #17'
+  - 11|usa-telegram-@ISVvpn
+  - 13,14|日本3|@ripaojiedian
+  - 11|🇲@FreakConfig
+  - '11|@Daily_Configs #11'
+  - 15|US_speednode_0035
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 15|CA_speednode_0005
+  - 14|香港v2|@ripaojiedian
+  - 13|🇻🇳 越南|@ripaojiedian
+  - '11|🇳🇱@FreakConfig #1'
+  - '11|@Daily_Configs #6'
+  - 15|AT_speednode_0003
+  - 15|LB_speednode_0019
+  - 15|KZ_speednode_0018
+  - '11|@Daily_Configs #7'
+  - 15|PL_speednode_0022
+  - 15|JP_speednode_0016
+  - 11|🇩🇪@FreakConfig
+  - '11|Channel id: @vpnserverrr'
+  - 13,14|新加坡|@ripaojiedian
+  - 14|日本v2|@ripaojiedian
+  - 13,14|美国|@ripaojiedian
+  - 15|US_speednode_0037
+  - '11|WI-FI--@IRAN_V2RAY1 #1'
+  - 15|PT_speednode_0024
+  - 15|RU_speednode_0025
+  - 13,14|日本2|@ripaojiedian
+  - 11|@Daily_Configs == کانا تلگرام
+  - '11|All-@IRAN_V2RAY1 #1'
+  - '11|@Daily_Configs #16'
+  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
+  - '11|🇺🇲@FreakConfig #1'
+  - 13,14|香港|@ripaojiedian
+  - 11|MCI-@IRAN_V2RAY1
+  - 11|Telegram:@Daily_Configs
+  - '11|Channel id: @vpnserverrr🇺'
+  - 15|US_speednode_0031
+  - 11|All--@IRAN_V2RAY1
+  - 13,14|香港6|@ripaojiedian
+  - 11|🇺🇲@FreakConfig
+  - '11|DE-telegram-@ISVvpn   :  '
+  - 15|CN_speednode_0006
+  - 11|telegram-@ISVvpn
+  - 13|tg频道:@ripaojiedian
+  - 15|US_speednode_0034
+  - '11|@Daily_Configs #12'
+  - 13,14|香港4|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -846,13 +954,19 @@ proxy-groups:
   - 13,14|日本2|@ripaojiedian
   - 13,14|日本3|@ripaojiedian
   - 14|日本v2|@ripaojiedian
-  - 15|JP_speednode_0013
+  - 15|JP_speednode_0016
   type: select
 - name: 🇺🇸 美国
   proxies:
   - '11|Channel id: @vpnserverrr🇺🇸'
   - 13,14|美国|@ripaojiedian
   - 13,14|美国2|@ripaojiedian
+  - 15|US_speednode_0030
+  - 15|US_speednode_0031
+  - 15|US_speednode_0032
+  - 15|US_speednode_0034
+  - 15|US_speednode_0035
+  - 15|US_speednode_0037
   type: select
 - name: 🇨🇳 台湾
   proxies:
@@ -860,7 +974,7 @@ proxy-groups:
   type: select
 - name: 🇨🇳 中国
   proxies:
-  - REJECT
+  - 15|CN_speednode_0006
   type: select
 - name: 🇭🇰 香港
   proxies:
@@ -872,7 +986,7 @@ proxy-groups:
   type: select
 - name: 🇨🇦 加拿大
   proxies:
-  - REJECT
+  - 15|CA_speednode_0005
   type: select
 - name: 🇫🇷 法国
   proxies:
@@ -889,16 +1003,15 @@ proxy-groups:
   type: select
 - name: 🇰🇷 韩国
   proxies:
-  - 15|KR_speednode_0014
+  - REJECT
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
-  - 15|RU_speednode_0022
-  - 15|RU_speednode_0023
+  - 15|RU_speednode_0025
+  - 15|RU_speednode_0026
   type: select
 - name: 🇩🇪 德国
   proxies:
-  - 11|🇩🇪@FreakConfig
   - '11|🇩🇪@EXPRESSVPN_420   '
   - '11|DE-telegram-@ISVvpn   :  '
   type: select
