@@ -1,4 +1,4 @@
-# Update: 2025-10-03 08:46
+# Update: 2025-10-03 11:21
 allow-lan: false
 dns:
   enable: true
@@ -131,31 +131,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 14|香港v2|@ripaojiedian
-  network: kcp
-  port: '54483'
-  server: 13.231.211.146
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dc2fd6a5-36fe-4b06-8b31-a5c5d26add98
-- alterId: 0
-  cipher: auto
-  name: 14|日本v2|@ripaojiedian
-  network: kcp
-  port: '20932'
-  server: 43.207.83.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d
-- name: 14|美国|@ripaojiedian
+  name: 14|香港3|@ripaojiedian
   network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 6752
-  server: 160.16.124.55
-  sni: www.nintendogames.net
-  type: trojan
+  port: '12114'
+  server: 103.224.80.49
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aa92855a-9932-4e87-b5c2-4aed159c7c78
 - name: 15|CN_speednode_0006
   password: 2fd0d127-266d-4d0b-b453-f94659a132fc
   port: 12000
@@ -188,23 +171,21 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13,14|美国2|@ripaojiedian
-  - 14|香港v2|@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
-  - 15|CN_speednode_0006
-  - 13,14|香港6|@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 14|美国|@ripaojiedian
-  - 13|🇭🇰 香港3|@ripaojiedian
-  - 13,14|新加坡2|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
-  - 13,14|香港|@ripaojiedian
-  - 13,14|日本2|@ripaojiedian
-  - 13|🇻🇳 越南|@ripaojiedian
-  - 14|日本v2|@ripaojiedian
-  - 15|US_speednode_0032
-  - 13|🇭🇰 香港2|@ripaojiedian
   - 13,14|日本3|@ripaojiedian
+  - 14|香港3|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
+  - 13|tg频道:@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 15|CN_speednode_0006
+  - 13|🇭🇰 香港3|@ripaojiedian
+  - 13,14|香港6|@ripaojiedian
+  - 13,14|香港|@ripaojiedian
+  - 13|🇻🇳 越南|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 15|US_speednode_0032
+  - 13,14|日本2|@ripaojiedian
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 13,14|新加坡2|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
