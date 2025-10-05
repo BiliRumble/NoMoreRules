@@ -1,4 +1,4 @@
-# Update: 2025-10-05 05:08
+# Update: 2025-10-05 08:53
 allow-lan: false
 dns:
   enable: true
@@ -436,6 +436,13 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- cipher: aes-128-gcm
+  name: 12|🇯🇵 日本|@ripaojiedian
+  password: be0a39a72e
+  port: 28303
+  server: 670ead.gkzltp.xyz
+  tfo: false
+  type: ss
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -468,6 +475,23 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 新加坡3|@ripaojiedian
+  port: 49513
+  server: laeg.hsymanuscript.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 55a374b6-3108-4b65-a987-a0926ddbfba6
+- cipher: aes-256-cfb
+  name: 12|🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.15
+  tfo: false
+  type: ss
 - name: 12,13|美国|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -484,13 +508,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: aes-256-cfb
-  name: 12|🇻🇳 越南|@ripaojiedian
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.198
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 13|香港3|@ripaojiedian
@@ -501,6 +518,16 @@ proxies:
   tls: false
   type: vmess
   uuid: ccc37b1b-4ef0-430c-b1e1-20bf96fcff8c
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡3|@ripaojiedian
+  network: tcp
+  port: '49513'
+  server: laeg.hsymanuscript.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 55a374b6-3108-4b65-a987-a0926ddbfba6
 - name: 14|AE_speednode_0001
   port: 8080
   reality-opts:
@@ -761,79 +788,82 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|IR_speednode_0013
-  - 10|🇩🇪@EXPRESSVPN_420   ارا
-  - 14|GR_speednode_0005
-  - 10|All-@IRAN_V2RAY1
-  - 10|کانفیگ ها یش ر ن تگا💎 Config_R...
-  - 14|NL_speednode_0018
-  - '10|telegram-@ISVvpn #2'
-  - 12|🇭🇰 香港3|@ripaojiedian
-  - '10|All-@IRAN_V2RAY1 #1'
-  - 14|KR_speednode_0014
-  - 14|RU_speednode_0020
-  - 14|RU_speednode_0025
-  - '10|All-@IRAN_V2RAY1 #2'
-  - '10|@Daily_Configs #9'
-  - '10|@Daily_Configs #10'
-  - 10|All--@IRAN_V2RAY1
-  - 10|@Daily_Configs
-  - '10|@Daily_Configs #13'
-  - 12,13|香港4|@ripaojiedian
-  - 12,13|日本2|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
-  - '10|WI-FI--@IRAN_V2RAY1 #1'
-  - '10|@Daily_Configs #11'
-  - 10|🇺🇲@FreakConfig
-  - 10|🇬@FreakConfig
-  - 12,13|美国2|@ripaojiedian
-  - 14|RU_speednode_0021
   - '10|@Daily_Configs #8'
-  - '10|🇳🇱@FreakConfig #1'
-  - '10|@Daily_Configs #14'
-  - 14|NL_speednode_0016
-  - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-  - '10|@IRAN_V2RAY1 #2'
-  - 12,13|香港6|@ripaojiedian
-  - 13|香港3|@ripaojiedian
+  - 10|🇬@FreakConfig
   - 14|SC_speednode_0026
-  - 10|@V2rayNGVPN <=  یگان
-  - '10|Channel id: @vpnserverrr🇺🇸'
   - 12|tg频道:@ripaojiedian
-  - '10|🇺🇲@FreakConfig #1'
-  - 12|🇭🇰 香港2|@ripaojiedian
-  - 14|LB_speednode_0015
-  - 12,13|香港|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - '10|All-@IRAN_V2RAY1 #3'
-  - 10|@FreakConfig
-  - '10|@Daily_Configs #6'
-  - 10|usa-telegram-@ISVvpn
-  - '10|@Daily_Configs #15'
-  - 14|AE_speednode_0001
-  - 10|🇲@FreakConfig
-  - 14|GB_speednode_0004
-  - '9|Channel id: @ShadowProxy66🇬🇧'
-  - 14|US_speednode_0027
-  - 12,13|香港5|@ripaojiedian
-  - '10|DE-telegram-@ISVvpn   : یا '
-  - 12,13|美国|@ripaojiedian
-  - '10|@Daily_Configs #2'
-  - 14|PL_speednode_0019
+  - 10|All-@IRAN_V2RAY1
+  - 14|RU_speednode_0020
   - '10|@FreakConfig #1'
-  - '10|@Daily_Configs #7'
-  - 14|RU_speednode_0022
-  - 12,13|新加坡|@ripaojiedian
+  - '10|telegram-@ISVvpn #2'
+  - 12,13|香港4|@ripaojiedian
+  - 14|AE_speednode_0001
   - 14|AT_speednode_0002
-  - 10|telegram-@vpnserverrr
-  - '10|Channel id: @vpnserverrr🇺'
-  - 14|RU_speednode_0024
-  - 14|NL_speednode_0017
-  - '10|Channel id: @vpnserverrr'
-  - 12|🇻🇳 越南|@ripaojiedian
-  - 14|DE_speednode_0003
+  - 14|LB_speednode_0015
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|RU_speednode_0025
+  - 12|🇭🇰 香港3|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 12,13|美国|@ripaojiedian
+  - 13|新加坡3|@ripaojiedian
+  - 10|usa-telegram-@ISVvpn
+  - '10|@Daily_Configs #6'
+  - 10|@FreakConfig
+  - 12,13|新加坡|@ripaojiedian
   - 10|telegram-@ISVvpn
+  - '10|Channel id: @vpnserverrr'
+  - 14|KR_speednode_0014
+  - 12|🇭🇰 香港2|@ripaojiedian
+  - '10|@Daily_Configs #7'
+  - 10|🇺🇲@FreakConfig
+  - '10|All-@IRAN_V2RAY1 #1'
+  - 10|@Daily_Configs
+  - '10|@Daily_Configs #10'
+  - 14|DE_speednode_0003
+  - 14|IR_speednode_0013
+  - 12,13|香港5|@ripaojiedian
+  - '10|@IRAN_V2RAY1 #2'
+  - 14|GB_speednode_0004
+  - 14|GR_speednode_0005
+  - 14|RU_speednode_0024
+  - 13|香港3|@ripaojiedian
+  - '10|@Daily_Configs #14'
+  - 10|telegram-@vpnserverrr
+  - '10|All-@IRAN_V2RAY1 #3'
+  - '10|@Daily_Configs #9'
+  - 10|🇲@FreakConfig
+  - 12|🇯🇵 日本|@ripaojiedian
+  - 14|PL_speednode_0019
+  - 12|🇸🇬 新加坡3|@ripaojiedian
+  - 14|NL_speednode_0016
+  - '10|@Daily_Configs #11'
+  - 12,13|日本2|@ripaojiedian
+  - 14|US_speednode_0027
+  - 10|@V2rayNGVPN <=  یگان
+  - 14|RU_speednode_0021
+  - '10|Channel id: @vpnserverrr🇺🇸'
+  - 10|All--@IRAN_V2RAY1
+  - '10|WI-FI--@IRAN_V2RAY1 #1'
+  - 12|🇻🇳 越南|@ripaojiedian
+  - 10|کانفیگ ها یش ر ن تگا💎 Config_R...
+  - 12,13|美国2|@ripaojiedian
   - 14|RU_speednode_0023
+  - '9|Channel id: @ShadowProxy66🇬🇧'
+  - '10|Channel id: @vpnserverrr🇺'
+  - 14|RU_speednode_0022
+  - 14|NL_speednode_0017
+  - '10|@Daily_Configs #13'
+  - 14|NL_speednode_0018
+  - 10|💎کانفیگ های بیشتر در چنل تلگرا...
+  - '10|@Daily_Configs #15'
+  - '10|@Daily_Configs #2'
+  - '10|All-@IRAN_V2RAY1 #2'
+  - '10|🇺🇲@FreakConfig #1'
+  - '10|DE-telegram-@ISVvpn   : یا '
+  - 12,13|香港|@ripaojiedian
+  - 12,13|香港6|@ripaojiedian
+  - 10|🇩🇪@EXPRESSVPN_420   ارا
+  - '10|🇳🇱@FreakConfig #1'
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -889,6 +919,7 @@ proxy-groups:
   type: select
 - name: 🇯🇵 日本
   proxies:
+  - 12|🇯🇵 日本|@ripaojiedian
   - 12,13|日本2|@ripaojiedian
   - 12,13|日本3|@ripaojiedian
   type: select
@@ -929,6 +960,8 @@ proxy-groups:
   proxies:
   - 12,13|新加坡|@ripaojiedian
   - 12,13|新加坡2|@ripaojiedian
+  - 12|🇸🇬 新加坡3|@ripaojiedian
+  - 13|新加坡3|@ripaojiedian
   type: select
 - name: 🇬🇧 英国
   proxies:
