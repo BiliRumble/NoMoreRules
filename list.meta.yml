@@ -1,4 +1,4 @@
-# Update: 2025-10-07 08:47
+# Update: 2025-10-07 11:24
 allow-lan: false
 dns:
   enable: true
@@ -34,14 +34,6 @@ proxies:
   server: de1.jueduibupao.top
   skip-cert-verify: true
   sni: de1.jueduibupao.top
-  tls: false
-  type: hysteria2
-- name: 11|@IRAN_V2RAY1
-  password: 2429bee3-e0c1-47dd-b420-75e6512b184b
-  port: 30300
-  server: 40.233.82.111
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: 11|@Daily_Configs
@@ -144,7 +136,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|@IRAN_V2RAY1 #2'
+- name: '11|@IRAN_V2RAY1 #1'
   obfs: salamander
   obfs-password: U1wBrYQyFm
   password: 80747420-96c4-4a2f-83e6-eea4e46beb09
@@ -310,14 +302,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 11|🇲@FreakConfig
-  password: dongtaiwang.com
-  port: 22222
-  server: 208.87.243.187
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: '11|WI-FI--@IRAN_V2RAY1 #1'
   password: dongtaiwang.com
   port: 5355
@@ -341,15 +325,6 @@ proxies:
   server: 103.249.133.79
   skip-cert-verify: true
   sni: microsoft.com
-  tls: false
-  type: hysteria2
-- name: 11|🇺🇲@FreakConfig
-  obfs: salamander
-  obfs-password: uvahwuicbhwabhvlhv
-  password: lHoYmNZmLe
-  port: 53713
-  server: pouria.3dfigures.ir
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '11|@Daily_Configs #14'
@@ -896,93 +871,90 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 11|usa-telegram-@ISVvpn
-  - 15|GB_speednode_0012
-  - 13,14|香港6|@ripaojiedian
-  - 11|All--@IRAN_V2RAY1
-  - '11|🇳🇱@FreakConfig #1'
-  - 15|FR_speednode_0011
-  - 15|KR_speednode_0019
-  - '11|All-@IRAN_V2RAY1 #1'
-  - '11|@IRAN_V2RAY1 #2'
-  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
-  - 13|tg频道:@ripaojiedian
-  - 15|SC_speednode_0030
-  - 13,14|新加坡2|@ripaojiedian
-  - 13|🇸🇬 新加坡3|@ripaojiedian
-  - 11|@sunflowerplato
-  - '11|@Daily_Configs #5'
-  - 15|MY_speednode_0021
-  - 13|🇭🇰 香港5|@ripaojiedian
-  - '11|All-@IRAN_V2RAY1 #2'
-  - 15|CH_speednode_0005
-  - '11|@sunflowerplato🌻 #2'
-  - '11|telegram-@ISVvpn #2'
-  - 13|🇻🇳 越南|@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
-  - 15|DE_speednode_0010
-  - 13,14|美国2|@ripaojiedian
-  - 11|telegram-@vpnserverrr
-  - 15|RU_speednode_0027
-  - 15|IR_speednode_0014
-  - '11|@Daily_Configs #15'
-  - '11|WI-FI--@IRAN_V2RAY1 #1'
-  - 14|香港5|@ripaojiedian
-  - 11|کای ها یش ر ن ترا💎 Config_Raye...
-  - 15|CN_speednode_0007
-  - 11|🇬@FreakConfig
-  - '11|Channel id: @vpnserverrr🇺'
-  - '11|DE-telegram-@ISVvpn   :  '
-  - 15|AT_speednode_0002
-  - 15|BG_speednode_0003
-  - '10|Channel id: @ShadowProxy66🇬🇧'
-  - 15|MY_speednode_0022
-  - 13,14|香港|@ripaojiedian
-  - '11|@Daily_Configs #13'
-  - 13,14|美国|@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 15|CA_speednode_0004
-  - 13,14|日本|@ripaojiedian
-  - '11|Channel id: @vpnserverrr🇺🇸'
-  - 14|香港3|@ripaojiedian
-  - 11|@sunflowerplato🌻
-  - 15|PL_speednode_0024
-  - 14|新加坡3|@ripaojiedian
-  - 15|LB_speednode_0020
-  - '11|@Daily_Configs #6'
-  - 15|IR_speednode_0017
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 11|telegram-@ISVvpn
-  - '11|@Daily_Configs #10'
-  - 15|AE_speednode_0001
-  - 11|@Daily_Configs
-  - 13,14|日本2|@ripaojiedian
-  - '11|@FreakConfig #1'
-  - 15|RU_speednode_0025
-  - 11|🇺🇲@FreakConfig
-  - 13,14|日本3|@ripaojiedian
-  - 15|DE_speednode_0009
-  - 15|RU_speednode_0029
-  - 15|RU_speednode_0028
-  - 11|All-@IRAN_V2RAY1
   - '11|@Daily_Configs #8'
-  - 13|🇭🇰 香港3|@ripaojiedian
-  - 11|@FreakConfig
-  - '11|Channel id: @vpnserverrr'
-  - 15|NL_speednode_0023
+  - 11|کای ها یش ر ن ترا💎 Config_Raye...
+  - 15|BG_speednode_0003
+  - 13|🇻🇳 越南|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
+  - '11|@Daily_Configs #10'
+  - '11|@Daily_Configs #15'
+  - '11|@sunflowerplato🌻 #2'
+  - 13,14|新加坡|@ripaojiedian
+  - 13,14|香港|@ripaojiedian
+  - 15|IR_speednode_0017
+  - 15|LB_speednode_0020
+  - 15|FR_speednode_0011
+  - '11|All-@IRAN_V2RAY1 #1'
+  - 15|MY_speednode_0022
+  - 11|All-@IRAN_V2RAY1
+  - '11|@Daily_Configs #13'
+  - 15|SC_speednode_0030
+  - 14|新加坡3|@ripaojiedian
+  - 11|telegram-@vpnserverrr
   - '11|@EXPRESSVPN_420   '
-  - 15|JP_speednode_0018
-  - '11|All-@IRAN_V2RAY1 #3'
-  - '11|@Daily_Configs #14'
-  - '11|@sunflowerplato🌻 #1'
-  - '11|@Daily_Configs #9'
-  - 15|IR_speednode_0013
-  - 11|🇲@FreakConfig
-  - '11|@Daily_Configs #1'
-  - 15|IR_speednode_0015
-  - 15|IR_speednode_0016
+  - 11|@sunflowerplato
+  - '11|Channel id: @vpnserverrr🇺'
+  - 13,14|日本|@ripaojiedian
+  - 13|🇸🇬 新加坡3|@ripaojiedian
+  - '11|All-@IRAN_V2RAY1 #2'
+  - 11|usa-telegram-@ISVvpn
+  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
+  - 11|telegram-@ISVvpn
+  - '11|Channel id: @vpnserverrr🇺🇸'
+  - 15|RU_speednode_0027
+  - 15|NL_speednode_0023
+  - '10|Channel id: @ShadowProxy66🇬🇧'
+  - '11|@Daily_Configs #5'
+  - '11|Channel id: @vpnserverrr'
+  - '11|WI-FI--@IRAN_V2RAY1 #1'
+  - 13,14|香港6|@ripaojiedian
+  - 15|AE_speednode_0001
   - 15|RU_speednode_0026
-  - 11|@IRAN_V2RAY1
+  - 13,14|美国|@ripaojiedian
+  - 15|CA_speednode_0004
+  - '11|🇳🇱@FreakConfig #1'
+  - 13|tg频道:@ripaojiedian
+  - 15|CN_speednode_0007
+  - 15|RU_speednode_0025
+  - 14|香港3|@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 15|PL_speednode_0024
+  - 13|🇭🇰 香港3|@ripaojiedian
+  - 11|@Daily_Configs
+  - 15|JP_speednode_0018
+  - 15|KR_speednode_0019
+  - 15|DE_speednode_0009
+  - 11|@FreakConfig
+  - 13,14|日本3|@ripaojiedian
+  - '11|@Daily_Configs #14'
+  - 15|IR_speednode_0014
+  - '11|All-@IRAN_V2RAY1 #3'
+  - '11|@FreakConfig #1'
+  - 14|香港5|@ripaojiedian
+  - '11|@Daily_Configs #1'
+  - 15|RU_speednode_0028
+  - 15|GB_speednode_0012
+  - 15|AT_speednode_0002
+  - 15|IR_speednode_0015
+  - 15|DE_speednode_0010
+  - '11|DE-telegram-@ISVvpn   :  '
+  - 15|RU_speednode_0029
+  - 15|IR_speednode_0016
+  - 11|@sunflowerplato🌻
+  - '11|@sunflowerplato🌻 #1'
+  - 11|🇬@FreakConfig
+  - '11|@Daily_Configs #6'
+  - '11|@Daily_Configs #9'
+  - 13|🇭🇰 香港5|@ripaojiedian
+  - 11|All--@IRAN_V2RAY1
+  - 15|MY_speednode_0021
+  - 15|IR_speednode_0013
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - '11|@IRAN_V2RAY1 #1'
+  - 15|CH_speednode_0005
+  - 13,14|新加坡2|@ripaojiedian
+  - '11|telegram-@ISVvpn #2'
   type: fallback
   url: https://www.google.com/
 - interval: 300
