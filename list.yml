@@ -1,4 +1,4 @@
-# Update: 2025-10-16 14:16
+# Update: 2025-10-16 17:12
 allow-lan: false
 dns:
   enable: true
@@ -189,14 +189,6 @@ proxies:
   tls: false
   type: vmess
   uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774
-- name: 15|CN_speednode_0002
-  password: e531d1bc-a56f-4e1a-a295-1442369a19c1
-  port: 26004
-  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -208,26 +200,25 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13,14|香港6|@ripaojiedian
-  - 13,14|美国2|@ripaojiedian
-  - 13,14|日本3|@ripaojiedian
   - 13|🇸🇬 新加坡4|@ripaojiedian
-  - 13,14|日本2|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
-  - 13,14|新加坡2|@ripaojiedian
-  - 14|新加坡3|@ripaojiedian
+  - 13|🇦🇺 澳大利亚|@ripaojiedian
   - 13,14|香港|@ripaojiedian
-  - 14|新加坡4|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
   - 13|🇬🇧 英国|@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 13,14|香港6|@ripaojiedian
+  - 14|新加坡4|@ripaojiedian
   - 13,14|美国|@ripaojiedian
-  - 13|🇸🇬 新加坡3|@ripaojiedian
-  - 15|CN_speednode_0002
+  - 14|新加坡3|@ripaojiedian
   - 13|🇻🇳 越南|@ripaojiedian
   - 13,14|香港3|@ripaojiedian
-  - 13|🇦🇺 澳大利亚|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
+  - 13|🇸🇬 新加坡3|@ripaojiedian
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 13|tg频道:@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
+  - 13,14|新加坡2|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
