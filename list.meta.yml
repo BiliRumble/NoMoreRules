@@ -1,4 +1,4 @@
-# Update: 2025-10-18 23:08
+# Update: 2025-10-19 02:12
 allow-lan: false
 dns:
   enable: true
@@ -74,6 +74,30 @@ proxies:
   server: de.eyucdn.xyz
   skip-cert-verify: true
   sni: de.eyucdn.xyz
+  tls: false
+  type: hysteria2
+- name: 11|@meli_proxyy
+  password: 571ec94e-613c-430a-93de-397d3d237475
+  port: 22155
+  server: 213.108.198.123
+  skip-cert-verify: true
+  sni: hsdg.huasuan666.top
+  tls: false
+  type: hysteria2
+- name: '11|@meli_proxyy #1'
+  password: 571ec94e-613c-430a-93de-397d3d237475
+  port: 22155
+  server: hsdg.huasuan666.top
+  skip-cert-verify: true
+  sni: hsdg.huasuan666.top
+  tls: false
+  type: hysteria2
+- name: '11|@meli_proxyy #2'
+  password: 571ec94e-613c-430a-93de-397d3d237475
+  port: 22157
+  server: hshl.huasuan666.top
+  skip-cert-verify: true
+  sni: hshl.huasuan666.top
   tls: false
   type: hysteria2
 - name: '11|@Daily_Configs #2'
@@ -212,6 +236,16 @@ proxies:
   sni: drhystuichdfy.samanidempire.org
   tls: false
   type: hysteria2
+- name: 11|@V2rayNGVPN <= کانفیگ رایگان
+  obfs: salamander
+  obfs-password: U1wBrYQyFm
+  password: 80747420-96c4-4a2f-83e6-eea4e46beb09
+  port: 20335
+  server: drhystuichdfy.samanidempire.org
+  skip-cert-verify: true
+  sni: drhystuichdfy.samanidempire.org@meli_proxyy
+  tls: false
+  type: hysteria2
 - name: 11|🇳🇱 - NL - @freeOnlineVPN
   obfs: salamander
   obfs-password: GdQ4bgvT8RFwuWi2
@@ -268,7 +302,7 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: '11|🇳🇱 - NL - @freeOnlineVPN #2'
+- name: '11|🇳🇱 - NL - @freeOnlineVPN #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -278,7 +312,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '11|🇳🇱 - NL - @freeOnlineVPN #4'
+- name: '11|🇳🇱@FreakConfig #2'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -288,7 +322,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '11|🇳🇱 - NL - @freeOnlineVPN #7'
+- name: '11|🇳🇱@FreakConfig #3'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -298,7 +332,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '11|🇳🇱 - NL - @freeOnlineVPN #10'
+- name: '11|@Daily_Configs #10'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -308,7 +342,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '11|🇳🇱 - NL - @freeOnlineVPN #12'
+- name: '11|All-@IRAN_V2RAY1 #3'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -318,7 +352,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '11|🇳🇱 - NL - @freeOnlineVPN #14'
+- name: '11|🇳🇱 - NL - @freeOnlineVPN #2'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -336,6 +370,38 @@ proxies:
   server: 81.168.83.89
   skip-cert-verify: true
   sni: kotlet.arshiacomplus.dpdns.org
+  tls: false
+  type: hysteria2
+- name: 11|🇪@FreakConfig
+  password: ada5516d-f772-414f-b11c-2faec29b5424
+  port: 30000
+  server: de2.oomz.ru
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '11|🇩🇪@FreakConfig #2'
+  password: ada5516d-f772-414f-b11c-2faec29b5424
+  port: 30000
+  server: de3.oomz.ru
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '11|🇱@FreakConfig #1'
+  password: ada5516d-f772-414f-b11c-2faec29b5424
+  port: 30000
+  server: nl1.oomz.ru
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '11|🇱@FreakConfig #2'
+  password: ada5516d-f772-414f-b11c-2faec29b5424
+  port: 30000
+  server: nl2.oomz.ru
+  skip-cert-verify: true
+  sni: bing.com
   tls: false
   type: hysteria2
 - name: '11| @AblNet7 🇺🇸 机场推荐 #1'
@@ -966,95 +1032,103 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - '11|🇳🇱 - NL - @freeOnlineVPN #12'
   - 15|RU_speednode_0020
-  - 13,14|新加坡2|@ripaojiedian
-  - 15|KR_speednode_0013
-  - 11|Tel:@Daily_Configs
-  - 15|RU_speednode_0025
-  - '11|@Daily_Configs #14'
-  - 15|NL_speednode_0017
-  - 13,14|新加坡|@ripaojiedian
-  - 13,14|日本2|@ripaojiedian
-  - 15|NL_speednode_0019
-  - 15|RU_speednode_0023
-  - 15|KR_speednode_0005
-  - 11|WI-FI--@IRAN_V2RAY1
-  - 15|KR_speednode_0011
-  - '11|Channel id: @vpnserverrr'
-  - 15|KR_speednode_0008
-  - 15|KR_speednode_0014
-  - 15|KR_speednode_0006
-  - 15|US_speednode_0036
-  - 11|telegram-@ISVvpn
-  - '11|@Daily_Configs #2'
-  - 13|🇸🇬 新加坡5|@ripaojiedian
-  - 13,14|美国2|@ripaojiedian
-  - '11|Channel id: @vpnserverrr🇺'
-  - '11| @AblNet7 🇺🇸 机场推荐 #1'
-  - 11|All--@IRAN_V2RAY1
-  - 15|RU_speednode_0027
-  - 15|DE_speednode_0003
-  - 13,14|日本3|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
-  - 11|🇳🇱 - NL - @freeOnlineVPN
-  - 15|KR_speednode_0007
-  - 11|🇬🇧 - GB - @freeOnlineVPN
   - '11|MCi--@IRAN_V2RAY1 #3'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #4'
-  - 13,14|香港5|@ripaojiedian
-  - 11|@FreakConfig
-  - 15|CN_speednode_0002
-  - 11|@IRAN_V2RAY1
-  - 15|RU_speednode_0021
-  - 11|@sunflowerplato
-  - 11|کای  یش ر ن را💎 Config_Rayegan...
-  - 15|KR_speednode_0016
-  - '11|🇩🇪@FreakConfig #1'
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - '11|DE-telegram-@ISVvpn   :  '
-  - 13,14|香港4|@ripaojiedian
+  - 13|🇸🇬 新加坡4|@ripaojiedian
+  - '11|@Daily_Configs #10'
+  - '11|@meli_proxyy #2'
+  - '11|🇳🇱@FreakConfig #3'
+  - '11|All-@IRAN_V2RAY1 #3'
   - 15|KR_speednode_0012
+  - 13,14|香港|@ripaojiedian
+  - '11|telegram-@ISVvpn #2'
+  - '11|telegram-@ISVvpn #1'
+  - 15|NL_speednode_0018
+  - '11|🇳🇱@FreakConfig #2'
+  - 11|🔐 @AblNet7 🇸 机场推荐
+  - 11|🇬🇧 - GB - @freeOnlineVPN
+  - 11|🇱@FreakConfig
+  - 13,14|美国|@ripaojiedian
+  - 15|KR_speednode_0014
+  - 15|RU_speednode_0022
+  - 15|KR_speednode_0006
+  - '11|Channel id: @vpnserverrr'
+  - 11|All--@IRAN_V2RAY1
+  - 11|@Mr_Config_Group✌️
+  - '11|🇩🇪@FreakConfig #1'
+  - 11|🔐 @AblNet7 🇦 机场推荐
+  - 15|KR_speednode_0010
+  - 13,14|新加坡|@ripaojiedian
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 15|US_speednode_0037
+  - 11|@V2rayNGVPN <= کانفیگ رایگان
+  - 15|US_speednode_0036
+  - 15|KR_speednode_0016
+  - '11|Telegram: @Daily_Configs'
+  - '11|@Daily_Configs #14'
+  - '11|@meli_proxyy #1'
+  - '11|🇸🇪 - SE - @freeOnlineVPN #1'
+  - '11|🇱@FreakConfig #2'
+  - 15|NL_speednode_0017
+  - 13|tg频道:@ripaojiedian
+  - 11|telegram-@ISVvpn
+  - 11|@Daily_Configs
+  - 11|کای  یش ر ن را💎 Config_Rayegan...
+  - '11|All-@IRAN_V2RAY1 #1'
+  - '11| @AblNet7 🇺🇸 机场推荐 #1'
+  - 11|🇪@FreakConfig
+  - '11|🇳🇱 - NL - @freeOnlineVPN #2'
+  - '11|🇳🇱 - NL - @freeOnlineVPN #1'
+  - 15|RU_speednode_0024
+  - 15|KR_speednode_0009
+  - 11|Tel:@Daily_Configs
+  - 15|DE_speednode_0003
   - '11|@FreakConfig #1'
+  - 11|@FreakConfig
+  - '11|@sunflowerplato #1'
+  - 15|KR_speednode_0015
+  - 13|🇸🇬 新加坡3|@ripaojiedian
+  - '11|Channel id: @vpnserverrr🇺🇸'
+  - '11|DE-telegram-@ISVvpn   :  '
+  - 13,14|香港5|@ripaojiedian
+  - '11|🇱@FreakConfig #1'
+  - 15|NL_speednode_0019
+  - 11|🇳🇱 - NL - @freeOnlineVPN
+  - 15|RU_speednode_0028
+  - 15|KR_speednode_0008
+  - '11|🇸🇪 - SE - @freeOnlineVPN #3'
+  - 13|🇸🇬 新加坡5|@ripaojiedian
   - 15|RU_speednode_0026
   - 11|usa-telegram-@ISVvpn
-  - '11|@FreakConfig #2'
-  - 13,14|香港|@ripaojiedian
-  - 15|KR_speednode_0010
-  - 15|KR_speednode_0015
-  - '11|@Daily_Configs #5'
-  - 11|🔐 @AblNet7 🇦 机场推荐
-  - 11| @AblNet7 🇺🇸 机场推荐
-  - '11|🇳🇱 - NL - @freeOnlineVPN #2'
-  - 11|🇩🇪@FreakConfig
-  - 15|RU_speednode_0028
-  - 15|US_speednode_0038
   - 15|TW_speednode_0035
-  - '11|🇳🇱 - NL - @freeOnlineVPN #10'
-  - 15|RU_speednode_0024
-  - 13|🇸🇬 新加坡3|@ripaojiedian
-  - 11|🔐 @AblNet7 🇸 机场推荐
-  - '11|@sunflowerplato #1'
+  - 11|@meli_proxyy
   - '11|WI-FI--@IRAN_V2RAY1 #1'
-  - 15|KR_speednode_0009
-  - 11|@Mr_Config_Group✌️
-  - 13|🇸🇬 新加坡4|@ripaojiedian
-  - '11|🇳🇱 - NL - @freeOnlineVPN #14'
-  - '11|telegram-@ISVvpn #2'
-  - 15|NL_speednode_0018
-  - 15|RU_speednode_0022
-  - '11|🇸🇪 - SE - @freeOnlineVPN #3'
-  - 13,14|美国|@ripaojiedian
-  - 11|🇱@FreakConfig
-  - '11|Channel id: @vpnserverrr🇺🇸'
-  - 11|@Daily_Configs
-  - 15|US_speednode_0037
+  - 11|@sunflowerplato
+  - 13,14|日本2|@ripaojiedian
+  - 15|RU_speednode_0021
+  - '11|🇩🇪@FreakConfig #2'
+  - 15|RU_speednode_0023
+  - 11|WI-FI--@IRAN_V2RAY1
+  - 11|🇩🇪@FreakConfig
+  - '11|Channel id: @vpnserverrr🇺'
+  - 15|KR_speednode_0005
+  - 15|CN_speednode_0002
+  - 11|@IRAN_V2RAY1
+  - 13,14|日本3|@ripaojiedian
+  - 15|RU_speednode_0027
+  - 15|US_speednode_0038
+  - 13,14|香港4|@ripaojiedian
+  - '11|@Daily_Configs #2'
+  - 13,14|美国2|@ripaojiedian
+  - 15|RU_speednode_0025
+  - 11| @AblNet7 🇺🇸 机场推荐
+  - 15|KR_speednode_0011
+  - '11|@Daily_Configs #5'
+  - 15|KR_speednode_0007
+  - '11|@FreakConfig #2'
   - 11|🇳🇱@FreakConfig
-  - '11|All-@IRAN_V2RAY1 #1'
-  - '11|🇸🇪 - SE - @freeOnlineVPN #1'
-  - '11|Telegram: @Daily_Configs'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #7'
-  - '11|telegram-@ISVvpn #1'
+  - 15|KR_speednode_0013
+  - 13,14|新加坡2|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1189,6 +1263,7 @@ proxy-groups:
   proxies:
   - 11|🇩🇪@FreakConfig
   - '11|DE-telegram-@ISVvpn   :  '
+  - '11|🇩🇪@FreakConfig #2'
   - 15|DE_speednode_0003
   type: select
 rules:
