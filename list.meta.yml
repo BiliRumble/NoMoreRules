@@ -1,4 +1,4 @@
-# Update: 2025-10-21 05:09
+# Update: 2025-10-21 08:50
 allow-lan: false
 dns:
   enable: true
@@ -694,80 +694,96 @@ proxies:
   tls: false
   type: vmess
   uuid: 7f75e117-5cfe-40b9-b18f-d46fa6add969
-- name: 13,14|美国|@ripaojiedian
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2381
-  server: 202.181.103.235
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 443
+  server: 203.198.122.55
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4556
-  server: 36.151.195.112
+  port: 4451
+  server: 36.150.215.138
   skip-cert-verify: true
   type: trojan
-- name: 13,14,15|CN_speednode_0009
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 811
+  port: 2145
   server: 36.151.251.18
   skip-cert-verify: true
   type: trojan
-  udp: true
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 1331
-  server: 160.16.57.238
-  skip-cert-verify: true
-  sni: www.baidu.com
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 4452
+  server: 160.16.136.130
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 3161
-  server: 160.16.57.238
-  skip-cert-verify: true
-  sni: www.baidu.com
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 1331
+  server: 160.16.136.130
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 5041
-  server: 202.181.103.246
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 5321
+  server: 160.16.68.250
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡2|@ripaojiedian
   network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
+  password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2283
   server: 202.181.103.246
   skip-cert-verify: true
-  sni: www.nintendogames.net
+  sni: www.baidu.com
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 44095
+  port: 2088
   server: 36.156.102.115
   skip-cert-verify: true
   type: trojan
-- cipher: chacha20-ietf
-  name: 13|🇸🇬 新加坡4|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
+- alterId: 2
+  cipher: auto
+  name: 13,14|新加坡4|@ripaojiedian
+  network: ws
+  port: '30839'
+  server: v39.heduian.link
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- name: 13,14|美国|@ripaojiedian
+  network: tcp
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 2467
+  server: 160.16.68.250
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2467
-  server: 202.181.103.235
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 2381
+  server: 160.16.68.250
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -781,6 +797,16 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  name: 13|🇺🇸 美国4|@ripaojiedian
+  port: 47083
+  server: 124.236.46.114
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: fd49381f-9fd8-4403-8698-48331a4d775d
+- alterId: 0
+  cipher: auto
   name: 14|香港3|@ripaojiedian
   network: tcp
   port: '58509'
@@ -789,6 +815,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 7f75e117-5cfe-40b9-b18f-d46fa6add969
+- alterId: 0
+  cipher: auto
+  name: 14|美国4|@ripaojiedian
+  network: tcp
+  port: '47083'
+  server: 124.236.46.114
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fd49381f-9fd8-4403-8698-48331a4d775d
 - name: 15|AE_speednode_0001
   network: ws
   port: 2053
@@ -812,6 +848,13 @@ proxies:
   type: http
   udp: true
   username: dd247fc262
+- name: 15|CN_speednode_0009
+  password: BxceQaOe
+  port: 811
+  server: 36.151.251.18
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 15|GB_speednode_0010
@@ -1242,127 +1285,131 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 15|IR_speednode_0014
-  - '11|未命名 #7'
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 11|@IRAN_V2RAY1
-  - 15|HK_speednode_0011
-  - 11|gb03
-  - 15|KR_speednode_0032
-  - 11|🇬🇧 - GB - @freeOnlineVPN
-  - '11|@Daily_Configs #2'
-  - '11|r♡ya #4'
-  - '11|未命名 #8'
-  - 13,14|香港5|@ripaojiedian
-  - 15|TW_speednode_0036
-  - '11|r♡ya #2'
-  - 15|KR_speednode_0028
-  - 15|GB_speednode_0010
-  - 11|🏴‍☠️@FreakConfig
-  - 15|KR_speednode_0029
-  - 13,14|美国2|@ripaojiedian
-  - '11|🇱@FreakConfig #1'
-  - '11|@sunflowerplato🌻 #1'
-  - 11|usa-telegram-@ISVvpn
-  - '11|@meli_proxyy #6'
-  - '11|MCi--@IRAN_V2RAY1 #3'
-  - 15|KR_speednode_0015
-  - 13,14,15|CN_speednode_0008
-  - 13|🇸🇬 新加坡4|@ripaojiedian
-  - 15|KR_speednode_0034
-  - '11|r♡ya #5'
-  - 11|tehuicloud.top
-  - 15|KR_speednode_0018
-  - 15|KR_speednode_0035
-  - 13|🇭🇰 香港3|@ripaojiedian
-  - 15|UA_speednode_0037
-  - '11|Channel id: @vpnserverrr'
-  - '11|🇸🇪 - SE - @freeOnlineVPN #1'
-  - '11|telegram-@ISVvpn #1'
-  - 11|rya
-  - 11|tw02
-  - 11|Tel:@Daily_Configs
-  - 15|KR_speednode_0017
-  - 15|KR_speednode_0026
-  - '11|All-@IRAN_V2RAY1 #3'
   - 11|kr01
-  - 11|🇩🇪@FreakConfig
-  - 11|@V2rayNGVPN <= کانفیگ رایگان
-  - '11|Channel id: @vpnserverrr🇺'
-  - 11|de01
-  - '11|未命名 #2'
-  - 15|KR_speednode_0033
-  - 11|tw01
-  - 15|KR_speednode_0027
-  - 13,14|香港|@ripaojiedian
-  - '11|@meli_proxyy #1'
-  - '11|🇳🇱@FreakConfig #1'
-  - 15|KR_speednode_0023
-  - 11|@Mr_Config_Group✌️
-  - 11|未命名
-  - 11|us02
-  - '11|All-@IRAN_V2RAY1 #1'
-  - 15|HK_speednode_0012
-  - '11| @AblNet7 🇺🇸 机场推荐 #1'
-  - 15|IL_speednode_0013
-  - '11|未命名 #6'
-  - 15|KR_speednode_0025
-  - 13,14|新加坡3|@ripaojiedian
-  - 11|🇳🇱@FreakConfig
-  - '11|未命名 #5'
-  - 11|🇪@FreakConfig
-  - '11|@FreakConfig #1'
-  - 13,14,15|CN_speednode_0009
-  - 15|KR_speednode_0020
-  - 15|KR_speednode_0030
-  - 15|KR_speednode_0016
-  - 11|gb01
-  - 11|🇱@FreakConfig
-  - 15|KR_speednode_0031
-  - 11|🔐 @AblNet7 🇦 机场推荐
-  - 15|US_speednode_0039
-  - '11|MCi--@IRAN_V2RAY1 #1'
-  - '11|@Daily_Configs #3'
-  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
-  - 15|KR_speednode_0024
   - 11|：期
-  - 13,14|美国|@ripaojiedian
-  - '11|未命名 #4'
-  - '11|Channel id: @vpnserverrr🇺🇸'
-  - 11|telegram-@ISVvpn
-  - 11|کانفیگ ای یش ر ن را💎 Config_Ra...
-  - '11|@sunflowerplato🌻 #2'
-  - 11|de02
-  - 14|香港3|@ripaojiedian
-  - 15|KR_speednode_0019
-  - '11|🇳🇱@FreakConfig #2'
-  - 11|MCi--@IRAN_V2RAY1
-  - 11|🇳🇱 - NL - @freeOnlineVPN
-  - 15|AE_speednode_0001
-  - 11|gb02
-  - 15|KR_speednode_0021
-  - 11|WI-FI--@IRAN_V2RAY1
-  - '11|💎کانفیگ های بیشتر در چنل تلگرا... #1'
-  - 13,14|新加坡|@ripaojiedian
-  - '11|telegram-@ISVvpn #2'
-  - 11|@meli_proxyy
-  - '11|r♡ya #6'
-  - '11|Telegram: @Daily_Configs'
-  - 15|KR_speednode_0022
-  - 15|CN_speednode_0005
-  - '11|@meli_proxyy #4'
-  - 11| @AblNet7 🇺🇸 机场推荐
-  - '11|🇳🇱@FreakConfig #3'
-  - 13,14|日本2|@ripaojiedian
-  - 11|tw03
-  - 11|hk01
-  - 13|tg频道:@ripaojiedian
+  - '11|Channel id: @vpnserverrr🇺'
+  - '11|未命名 #7'
   - 11|🔐 @AblNet7 🇸 机场推荐
+  - '11|🇱@FreakConfig #1'
+  - 15|KR_speednode_0029
+  - 15|KR_speednode_0021
+  - 11|🇳🇱 - NL - @freeOnlineVPN
+  - 13|tg频道:@ripaojiedian
+  - 11|@Mr_Config_Group✌️
+  - 11|🇬🇧 - GB - @freeOnlineVPN
+  - 11|🔐 @AblNet7 🇦 机场推荐
+  - 11|🇳🇱@FreakConfig
+  - '11|telegram-@ISVvpn #1'
+  - '11|🇳🇱@FreakConfig #1'
+  - 15|HK_speednode_0011
+  - 13|🇺🇸 美国4|@ripaojiedian
   - 15|US_speednode_0038
-  - 13,14|新加坡2|@ripaojiedian
-  - '11|@meli_proxyy #3'
-  - '11|DE-telegram-@ISVvpn   : کا '
+  - '11|@meli_proxyy #6'
+  - 15|KR_speednode_0030
+  - 11|🏴‍☠️@FreakConfig
+  - '11|@Daily_Configs #3'
+  - '11|未命名 #6'
+  - 15|TW_speednode_0036
+  - '11|未命名 #2'
+  - 13,14|美国2|@ripaojiedian
+  - 11|tw02
+  - 11|🇩🇪@FreakConfig
+  - '11|@meli_proxyy #4'
+  - 11|Tel:@Daily_Configs
+  - 13,14|美国|@ripaojiedian
+  - 15|KR_speednode_0022
+  - 11|MCi--@IRAN_V2RAY1
+  - '11|Channel id: @vpnserverrr🇺🇸'
+  - '11|telegram-@ISVvpn #2'
+  - 15|KR_speednode_0034
+  - '11|💎کانفیگ های بیشتر در چنل تلگرا... #1'
+  - 15|KR_speednode_0016
+  - 15|UA_speednode_0037
+  - 11|@meli_proxyy
   - 13,14|日本3|@ripaojiedian
+  - '11|@meli_proxyy #3'
+  - '11|🇸🇪 - SE - @freeOnlineVPN #1'
+  - 15|HK_speednode_0012
+  - 13,14|香港|@ripaojiedian
+  - 11| @AblNet7 🇺🇸 机场推荐
+  - '11|@sunflowerplato🌻 #1'
+  - 15|KR_speednode_0027
+  - 15|AE_speednode_0001
+  - '11|MCi--@IRAN_V2RAY1 #3'
+  - 15|KR_speednode_0023
+  - 11|telegram-@ISVvpn
+  - 11|🇪@FreakConfig
+  - 15|KR_speednode_0028
+  - '11|🇳🇱@FreakConfig #2'
+  - 13,14|日本2|@ripaojiedian
+  - 15|KR_speednode_0017
+  - 11|de02
+  - 15|KR_speednode_0024
+  - 15|IR_speednode_0014
+  - 11|@V2rayNGVPN <= کانفیگ رایگان
+  - 11|tw03
+  - 13,14|新加坡|@ripaojiedian
+  - 11|gb03
+  - 15|GB_speednode_0010
+  - '11|未命名 #5'
+  - 13,14|日本|@ripaojiedian
+  - 11|tehuicloud.top
+  - 15|KR_speednode_0033
+  - 15|KR_speednode_0026
+  - 11|🇱@FreakConfig
+  - '11|All-@IRAN_V2RAY1 #1'
+  - 11|gb01
+  - 11|hk01
+  - 11|tw01
+  - 11|gb02
+  - 13,14|香港4|@ripaojiedian
+  - 15|CN_speednode_0005
+  - 15|IL_speednode_0013
+  - 11|未命名
+  - '11|MCi--@IRAN_V2RAY1 #1'
+  - 11|usa-telegram-@ISVvpn
+  - 11|WI-FI--@IRAN_V2RAY1
+  - '11|🇳🇱@FreakConfig #3'
+  - '11|r♡ya #5'
+  - 15|KR_speednode_0032
+  - 11|us02
+  - 15|KR_speednode_0019
+  - 11|@IRAN_V2RAY1
+  - 15|KR_speednode_0025
+  - '11|@FreakConfig #1'
+  - '11|DE-telegram-@ISVvpn   : کا '
+  - '11| @AblNet7 🇺🇸 机场推荐 #1'
+  - 13,14,15|CN_speednode_0008
+  - '11|未命名 #4'
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - '11|@meli_proxyy #1'
+  - '11|r♡ya #6'
+  - 15|KR_speednode_0031
+  - 11|rya
+  - 15|KR_speednode_0020
+  - 15|KR_speednode_0035
+  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
+  - 13,14|新加坡2|@ripaojiedian
+  - '11|Channel id: @vpnserverrr'
+  - 14|香港3|@ripaojiedian
+  - 15|KR_speednode_0015
+  - '11|未命名 #8'
+  - 11|de01
+  - 15|US_speednode_0039
+  - 11|کانفیگ ای یش ر ن را💎 Config_Ra...
+  - 15|KR_speednode_0018
+  - 13,14|新加坡3|@ripaojiedian
+  - 13,14|新加坡4|@ripaojiedian
+  - 15|CN_speednode_0009
+  - 13,14|香港5|@ripaojiedian
+  - '11|r♡ya #4'
+  - '11|@sunflowerplato🌻 #2'
+  - '11|r♡ya #2'
+  - '11|All-@IRAN_V2RAY1 #3'
+  - '11|Telegram: @Daily_Configs'
+  - '11|@Daily_Configs #2'
+  - 13|🇭🇰 香港3|@ripaojiedian
+  - 14|美国4|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1418,7 +1465,7 @@ proxy-groups:
   type: select
 - name: 🇯🇵 日本
   proxies:
-  - 13,14,15|CN_speednode_0009
+  - 13,14|日本|@ripaojiedian
   - 13,14|日本2|@ripaojiedian
   - 13,14|日本3|@ripaojiedian
   type: select
@@ -1426,8 +1473,11 @@ proxy-groups:
   proxies:
   - '11|Channel id: @vpnserverrr🇺🇸'
   - 11| @AblNet7 🇺🇸 机场推荐
+  - 13,14|美国|@ripaojiedian
   - 13,14|美国2|@ripaojiedian
   - 13,14,15|CN_speednode_0008
+  - 13|🇺🇸 美国4|@ripaojiedian
+  - 14|美国4|@ripaojiedian
   - 15|US_speednode_0038
   - 15|US_speednode_0039
   type: select
@@ -1438,13 +1488,14 @@ proxy-groups:
 - name: 🇨🇳 中国
   proxies:
   - 15|CN_speednode_0005
+  - 15|CN_speednode_0009
   type: select
 - name: 🇭🇰 香港
   proxies:
   - 13,14|香港|@ripaojiedian
   - 13|🇭🇰 香港2|@ripaojiedian
   - 13|🇭🇰 香港3|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
   - 13,14|香港5|@ripaojiedian
   - 14|香港3|@ripaojiedian
   - 15|HK_speednode_0011
@@ -1463,7 +1514,7 @@ proxy-groups:
   - 13,14|新加坡|@ripaojiedian
   - 13,14|新加坡2|@ripaojiedian
   - 13,14|新加坡3|@ripaojiedian
-  - 13|🇸🇬 新加坡4|@ripaojiedian
+  - 13,14|新加坡4|@ripaojiedian
   type: select
 - name: 🇬🇧 英国
   proxies:
