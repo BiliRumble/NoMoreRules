@@ -1,4 +1,4 @@
-# Update: 2025-10-23 20:21
+# Update: 2025-10-23 23:11
 allow-lan: false
 dns:
   enable: true
@@ -767,119 +767,48 @@ proxies:
   skip-cert-verify: true
   type: trojan
 - flow: xtls-rprx-vision
-  name: 15|CH_speednode_0001
+  name: 15|AU_speednode_0001
   port: 8443
   reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-    short-id: 43dcff53849b81e6
-  server: auto.quattro-tech.ru
-  servername: auto.quattro-tech.ru
+    public-key: blSlAMMTv5UdIZiQd6VtBlS7kfZJ9xpw9H95Ouohbxs
+    short-id: 4bb9dbdad476124c
+  server: 82.97.241.50
+  servername: ya.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5c44b52f-361e-45c5-bd12-dc72f28397ce
-- flow: xtls-rprx-vision
-  name: 15|CH_speednode_0002
-  port: 8443
+  uuid: 3a4524bb-5d17-4c09-b523-6ab1e1a41d81
+- name: 15|DE_speednode_0002
+  port: 6666
   reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-    short-id: 43dcff53849b81e6
-  server: 83.228.208.219
-  servername: auto.quattro-tech.ru
+    public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
+    short-id: b525ecd2fc
+  server: 188.68.53.100
+  servername: Tgju.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5c44b52f-361e-45c5-bd12-dc72f28397ce
-- name: 15|CN_speednode_0003
-  password: 80c9752a41
-  port: 20443
-  server: nat-hk-37465.strongpipe.cloud
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: dd247fc262
-- name: 15|CN_speednode_0004
-  password: BxceQaOe
-  port: 4451
-  server: 36.150.215.138
-  skip-cert-verify: true
-  sni: 36.150.215.138
-  type: trojan
-  udp: true
-- name: 15|HK_speednode_0005
-  network: ws
-  port: 18622
-  server: 210.6.207.42
-  servername: gaosir.unfeeling.sbs
+  uuid: 0abf9050-c7be-464d-80af-24094c2b97de
+- http-opts:
+    headers:
+      Host:
+      - Telewebion.com
+    method: GET
+    path:
+    - /
+  name: 15|IR_speednode_0007
+  network: http
+  port: 20532
+  server: 94.182.137.12
+  servername: Telewebion.com
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram@freecodes/?ed=2560
-- name: 15|HK_speednode_0006
-  network: ws
-  port: 443
-  server: 47.76.218.163
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram@freecodes/?ed=2560
-- name: 15|KR_speednode_0007
-  network: ws
-  port: 12312
-  server: 211.48.77.114
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560
-- name: 15|KR_speednode_0008
-  network: ws
-  port: 10001
-  server: 119.201.195.135
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔
+  uuid: 8496c102-4094-4dd3-ad63-7bb7a35cbaee
 - name: 15|KR_speednode_0009
-  network: ws
-  port: 50001
-  server: 106.252.245.199
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560
-- name: 15|KR_speednode_0010
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -888,10 +817,24 @@ proxies:
   type: http
   udp: true
   username: test
+- name: 15|KR_speednode_0010
+  network: ws
+  port: 12219
+  server: 121.131.242.29
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram🇨🇳@WangCai2/?ed=2560
 - name: 15|KR_speednode_0011
   network: ws
-  port: 12185
-  server: 121.173.93.124
+  port: 443
+  server: 129.154.223.155
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: false
   tls: true
@@ -904,22 +847,8 @@ proxies:
     path: /Telegram🇨🇳@WangCai2/?ed=2560
 - name: 15|KR_speednode_0012
   network: ws
-  port: 12576
-  server: 183.101.243.99
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram@freecodes/?ed=2560
-- name: 15|KR_speednode_0013
-  network: ws
-  port: 30067
-  server: 112.156.154.95
+  port: 27443
+  server: 211.229.77.184
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: false
   tls: true
@@ -930,7 +859,174 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /X@节点狂魔/?ed=2560
-- name: 15|SG_speednode_0014
+- flow: xtls-rprx-vision
+  name: 15|PL_speednode_0013
+  port: 8443
+  reality-opts:
+    public-key: blSlAMMTv5UdIZiQd6VtBlS7kfZJ9xpw9H95Ouohbxs
+    short-id: 4bb9dbdad476124c
+  server: 90.156.228.109
+  servername: www.ya.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3a4524bb-5d17-4c09-b523-6ab1e1a41d81
+- name: 15|RU_speednode_0014
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
+- name: 15|RU_speednode_0015
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /XU0001F1E8U0001F1F3@节点狂魔/?ed=2560
+- name: 15|RU_speednode_0016
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 15|RU_speednode_0017
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram@freecodes/?ed=2560
+- name: 15|RU_speednode_0018
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /freecodes@节点狂魔/?ed=2560
+- name: 15|RU_speednode_0019
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram🇨🇳@WangCai2/?ed=2560
+- name: 15|RU_speednode_0020
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 15|RU_speednode_0021
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /TelegramU0001F1E8U0001F1F3@freecodes/?ed=2560
+- name: 15|RU_speednode_0022
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /XU0001F1E8U0001F1F3@节点狂魔
+- name: 15|RU_speednode_0023
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /security=tls
+- name: 15|RU_speednode_0024
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /
+- name: 15|SG_speednode_0025
   network: ws
   port: 443
   server: 185.114.78.230
@@ -944,7 +1040,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳@WangCai2/?ed=2560
-- name: 15|SG_speednode_0015
+- name: 15|SG_speednode_0026
   network: ws
   port: 443
   server: 185.114.78.230
@@ -958,21 +1054,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
-- name: 15|TW_speednode_0016
-  network: ws
-  port: 443
-  server: 167.179.27.92
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram🇨🇳@WangCai2/?ed=2560
-- name: 15|TW_speednode_0017
+- name: 15|TW_speednode_0027
   network: ws
   port: 443
   server: 167.179.27.92
@@ -986,6 +1068,113 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
+- name: 15|US_speednode_0030
+  network: ws
+  port: 2096
+  server: 104.19.50.238
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /telegramU0001F1E8U0001F1F3@wangcai2/?ed=2560
+- name: 15|US_speednode_0031
+  network: ws
+  password: T@_WvT8Ho@LW%w_,
+  port: 2053
+  server: nop-55q.pages.dev
+  skip-cert-verify: false
+  sni: NOp-55q.pAgEs.dEv
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: NOp-55q.pAgEs.dEv
+    path: /trGPZDfetEwuO25SAs
+- name: 15|US_speednode_0032
+  network: ws
+  port: 2096
+  server: 195.13.45.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔
+- name: 15|US_speednode_0033
+  network: ws
+  port: 2096
+  server: 195.13.45.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔security=tls
+- name: 15|US_speednode_0034
+  network: ws
+  port: 2082
+  server: www.speedtest.net
+  servername: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 03fc8922-b80e-4aff-91e9-2023a17ed647
+  ws-opts:
+    headers:
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+- flow: xtls-rprx-vision
+  name: 15|US_speednode_0035
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: e499f276e7bd6420
+  server: us01-xr03.vpnvezdehod.net
+  servername: hls-svod.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb64d6b8-b3ed-48a2-9662-af2c65352215
+- flow: xtls-rprx-vision
+  name: 15|US_speednode_0036
+  port: 443
+  reality-opts:
+    public-key: rx-WlBtZDaTXoXBgdmw1zopgdNOtaHPkaR7TAi7naBQ
+  server: 3.236.251.7
+  servername: www.paypal.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 359bb8b1-d8b3-4ab1-905c-c7829935ace0
+- flow: xtls-rprx-vision
+  name: 15|US_speednode_0037
+  port: 443
+  reality-opts:
+    public-key: aHaFXlvmkeCV60wfe60DD9w00WE1euQfH6jtDq5iYkI
+    short-id: 7e44612b079459
+  server: us.nitroo-tech.ru
+  servername: mirror.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f31f5fe0-0a42-436a-be94-437330801388
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -997,110 +1186,123 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 15|CH_speednode_0002
-  - '11|MCi--@IRAN_V2RAY1 #3'
-  - 14|日本4|@ripaojiedian
-  - 13|🇯🇵 日本4|@ripaojiedian
-  - 11|🇪@FreakConfig
-  - 13,14|香港|@ripaojiedian
-  - '11|All-@V2rayAlpha--11 #1'
-  - 13|🇸🇬 新加坡4|@ripaojiedian
-  - '11|🇳🇱 - NL - @freeOnlineVPN #14'
-  - 15|TW_speednode_0016
-  - 11|All--@V2rayAlpha--9
-  - 15|KR_speednode_0013
-  - '11|🔐 @AblNet7  机场推荐 #1'
-  - 11|rya
-  - '11|@sunflowerplato🌻 #2'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #2'
-  - 11|WiFi-@V2rayAlpha--7
-  - 11|@V2rayAlpha--All-3
-  - '11|Telegram: @Daily_Configs'
-  - 11|MCI-@V2rayAlpha--2
+  - '11|All-@V2rayAlpha--8 #1'
+  - 11|All-@V2rayAlpha--7
+  - 11|usa-telegram-@ISVvpn
+  - 15|RU_speednode_0020
+  - 14|新加坡4|@ripaojiedian
+  - 15|RU_speednode_0017
+  - 11|🔐 @AblNet7 🇺🇸 机场推荐
+  - 15|TW_speednode_0027
+  - 15|US_speednode_0035
   - '11|🇳🇱@FreakConfig #6'
-  - '11|@Daily_Configs #9'
-  - 15|HK_speednode_0005
+  - 15|US_speednode_0032
+  - 15|US_speednode_0033
+  - 11|@FreakConfig
+  - '11|@meli_proxyy #3'
+  - 11|WI-FI--@IRAN_V2RAY1
+  - '11|🇳🇱 - NL - @freeOnlineVPN #6'
+  - 13,14|新加坡2|@ripaojiedian
+  - 15|RU_speednode_0015
+  - '11|🇳🇱 - NL - @freeOnlineVPN #2'
+  - 15|KR_speednode_0010
+  - 15|US_speednode_0036
   - 13,14|美国2|@ripaojiedian
-  - '11|@meli_proxyy #2'
-  - '11|DE-telegram-@ISVvpn   :  '
-  - '11|@sunflowerplato🌻 #4'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #7'
+  - '11|🇸🇪 - SE - @freeOnlineVPN #3'
+  - 11|🔐 @AblNet7  机场推荐
+  - 13,14|美国|@ripaojiedian
   - 13,14|日本2|@ripaojiedian
-  - '11|telegram-@ISVvpn #1'
+  - 11|telegram-@ISVvpn
+  - '11|🇳🇱 - NL - @freeOnlineVPN #22'
+  - '11|All-@V2rayAlpha--11 #1'
+  - 11|All-@V2rayAlpha--16
+  - 14|台湾|@ripaojiedian
+  - 15|RU_speednode_0018
+  - 13,14|香港6|@ripaojiedian
+  - '11|🇳🇱 - NL - @freeOnlineVPN #14'
+  - '11|🔐 @AblNet7  机场推荐 #1'
+  - 11|All-@V2rayAlpha--15
   - 11|🇧 - GB - @freeOnlineVPN
-  - 11|All-@V2rayAlpha--6
-  - '11|🇱@FreakConfig #1'
+  - 11|WiFi-@V2rayAlpha--5
+  - '11|🇸🇪 - SE - @freeOnlineVPN #1'
+  - 11|🇪@FreakConfig
+  - 15|KR_speednode_0011
+  - 15|RU_speednode_0022
+  - 13,14|新加坡|@ripaojiedian
   - '11|🇳🇱@FreakConfig #1'
+  - 15|DE_speednode_0002
+  - 13,14|美国3|@ripaojiedian
+  - 13|🇯🇵 日本4|@ripaojiedian
+  - 11|🇱@FreakConfig
+  - '11|🇳🇱@FreakConfig #3'
+  - 13,14|香港|@ripaojiedian
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 15|KR_speednode_0009
+  - 15|SG_speednode_0026
+  - '11|🇳🇱 - NL - @freeOnlineVPN #19'
+  - 11|MCI-@V2rayAlpha--5
+  - 15|US_speednode_0037
+  - 15|RU_speednode_0014
+  - 11|کای  یش ر ن را💎 Config_Rayegan...
+  - 15|RU_speednode_0024
+  - 13|🇭🇰 香港3|@ripaojiedian
+  - 15|PL_speednode_0013
+  - 15|RU_speednode_0021
+  - '11|r♡ya #5'
+  - 15|AU_speednode_0001
+  - 11|@Mr_Config_Group✌️
+  - 15|US_speednode_0030
+  - 13,14|新加坡3|@ripaojiedian
+  - 11|🇳🇱@FreakConfig
+  - '11|🇱@FreakConfig #1'
+  - 13,14|香港5|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 15|SG_speednode_0025
+  - 11|All--@V2rayAlpha--9
+  - '11|r♡ya #4'
   - '11| @vistav2ray  👈کانا '
+  - 11|@meli_proxyy
+  - '11|🇳🇱 - NL - @freeOnlineVPN #7'
+  - '11|🇳🇱 - NL - @freeOnlineVPN #1'
+  - 14|日本4|@ripaojiedian
+  - 11|https://t.me/Selinc
+  - '11|DE-telegram-@ISVvpn   :  '
+  - '11|@meli_proxyy #2'
+  - 15|RU_speednode_0019
+  - 13|🇸🇬 新加坡4|@ripaojiedian
   - '11|🇳🇱 - NL - @freeOnlineVPN #10'
   - 15|KR_speednode_0012
-  - 11|All-@V2rayAlpha--15
-  - '11|🇸🇪 - SE - @freeOnlineVPN #1'
-  - 13,14|新加坡3|@ripaojiedian
-  - 13,14|香港6|@ripaojiedian
-  - 11|未命名
-  - 13,14|新加坡2|@ripaojiedian
-  - 15|CH_speednode_0001
-  - 13,14|日本3|@ripaojiedian
-  - 11|usa-telegram-@ISVvpn
-  - 11|🇱@FreakConfig
-  - 11|WiFi-@V2rayAlpha--5
-  - 11|MCI-@V2rayAlpha--5
-  - 14|台湾|@ripaojiedian
-  - 11|https://t.me/Selinc
-  - 15|KR_speednode_0010
-  - 11|All-@V2rayAlpha--16
-  - 15|CN_speednode_0004
-  - 15|KR_speednode_0009
-  - 13|🇭🇰 香港3|@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 11|WI-FI--@IRAN_V2RAY1
-  - '11|🇬🇧 - GB - @freeOnlineVPN #2'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #19'
-  - 13|🇹🇼 台湾|@ripaojiedian
-  - '11|All-@V2rayAlpha--8 #1'
-  - 11|telegram-@ISVvpn
-  - 11|@meli_proxyy
-  - 11|🇳🇱@FreakConfig
-  - 13,14|美国|@ripaojiedian
-  - '11|MCi--@IRAN_V2RAY1 #1'
-  - '11|@meli_proxyy #3'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #22'
-  - 15|HK_speednode_0006
-  - '11|r♡ya #5'
-  - 15|SG_speednode_0015
-  - 11|WiFi-@V2rayAlpha--6
-  - '11|🇳🇱 - NL - @freeOnlineVPN #6'
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 13,14|美国3|@ripaojiedian
-  - '11|r♡ya #4'
-  - 11|All-@V2rayAlpha--17
-  - 11|کای  یش ر ن را💎 Config_Rayegan...
-  - 13|tg频道:@ripaojiedian
-  - '11|🇳🇱 - NL - @freeOnlineVPN #1'
-  - 14|新加坡4|@ripaojiedian
-  - 11|🔐 @AblNet7  机场推荐
-  - 15|KR_speednode_0008
-  - 15|SG_speednode_0014
-  - 15|KR_speednode_0011
-  - 15|KR_speednode_0007
-  - 13,14|香港5|@ripaojiedian
-  - 15|TW_speednode_0017
-  - 13,14|日本|@ripaojiedian
-  - '11|🇳🇱@FreakConfig #3'
-  - '11|telegram-@ISVvpn #2'
-  - 11|Tel:@Daily_Configs
-  - 11|@Mr_Config_Group✌️
-  - 11|MCi--@IRAN_V2RAY1
-  - 15|CN_speednode_0003
-  - 11|All-@V2rayAlpha--7
-  - 11| @AblNet7 🇺🇸 机场推荐
-  - 11|@FreakConfig
-  - 11|🔐 @AblNet7 🇺🇸 机场推荐
-  - 13,14|香港4|@ripaojiedian
-  - 11|All-@V2rayAlpha--10
-  - '11|🇸🇪 - SE - @freeOnlineVPN #3'
   - 11|All-@V2rayAlpha--11
+  - 11|Tel:@Daily_Configs
+  - '11|@sunflowerplato🌻 #2'
+  - 11|All-@V2rayAlpha--10
+  - 11|@V2rayAlpha--All-3
+  - 15|RU_speednode_0016
+  - 11|All-@V2rayAlpha--17
+  - '11|MCi--@IRAN_V2RAY1 #1'
+  - 11| @AblNet7 🇺🇸 机场推荐
+  - '11|MCi--@IRAN_V2RAY1 #3'
+  - '11|@sunflowerplato🌻 #4'
+  - 13,14|日本3|@ripaojiedian
+  - 11|WiFi-@V2rayAlpha--7
+  - 15|IR_speednode_0007
+  - '11|telegram-@ISVvpn #1'
+  - '11|@Daily_Configs #9'
+  - '11|telegram-@ISVvpn #2'
+  - 13,14|日本|@ripaojiedian
+  - 15|RU_speednode_0023
+  - 13|🇹🇼 台湾|@ripaojiedian
+  - '11|Telegram: @Daily_Configs'
+  - 13|tg频道:@ripaojiedian
+  - 11|All-@V2rayAlpha--6
+  - 15|US_speednode_0031
+  - 15|US_speednode_0034
+  - 11|rya
+  - 11|WiFi-@V2rayAlpha--6
+  - 11|MCi--@IRAN_V2RAY1
+  - '11|🇬🇧 - GB - @freeOnlineVPN #2'
+  - 11|MCI-@V2rayAlpha--2
+  - 11|未命名
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1168,18 +1370,24 @@ proxy-groups:
   - 13,14|美国|@ripaojiedian
   - 13,14|美国2|@ripaojiedian
   - 13,14|美国3|@ripaojiedian
+  - 15|US_speednode_0030
+  - 15|US_speednode_0031
+  - 15|US_speednode_0032
+  - 15|US_speednode_0033
+  - 15|US_speednode_0034
+  - 15|US_speednode_0035
+  - 15|US_speednode_0036
+  - 15|US_speednode_0037
   type: select
 - name: 🇨🇳 台湾
   proxies:
   - 13|🇹🇼 台湾|@ripaojiedian
   - 14|台湾|@ripaojiedian
-  - 15|TW_speednode_0016
-  - 15|TW_speednode_0017
+  - 15|TW_speednode_0027
   type: select
 - name: 🇨🇳 中国
   proxies:
-  - 15|CN_speednode_0003
-  - 15|CN_speednode_0004
+  - REJECT
   type: select
 - name: 🇭🇰 香港
   proxies:
@@ -1189,8 +1397,6 @@ proxy-groups:
   - 13,14|香港4|@ripaojiedian
   - 13,14|香港5|@ripaojiedian
   - 13,14|香港6|@ripaojiedian
-  - 15|HK_speednode_0005
-  - 15|HK_speednode_0006
   type: select
 - name: 🇨🇦 加拿大
   proxies:
@@ -1207,8 +1413,8 @@ proxy-groups:
   - 13,14|新加坡3|@ripaojiedian
   - 13|🇸🇬 新加坡4|@ripaojiedian
   - 14|新加坡4|@ripaojiedian
-  - 15|SG_speednode_0014
-  - 15|SG_speednode_0015
+  - 15|SG_speednode_0025
+  - 15|SG_speednode_0026
   type: select
 - name: 🇬🇧 英国
   proxies:
@@ -1217,21 +1423,29 @@ proxy-groups:
   type: select
 - name: 🇰🇷 韩国
   proxies:
-  - 15|KR_speednode_0007
-  - 15|KR_speednode_0008
   - 15|KR_speednode_0009
   - 15|KR_speednode_0010
   - 15|KR_speednode_0011
   - 15|KR_speednode_0012
-  - 15|KR_speednode_0013
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
-  - REJECT
+  - 15|RU_speednode_0014
+  - 15|RU_speednode_0015
+  - 15|RU_speednode_0016
+  - 15|RU_speednode_0017
+  - 15|RU_speednode_0018
+  - 15|RU_speednode_0019
+  - 15|RU_speednode_0020
+  - 15|RU_speednode_0021
+  - 15|RU_speednode_0022
+  - 15|RU_speednode_0023
+  - 15|RU_speednode_0024
   type: select
 - name: 🇩🇪 德国
   proxies:
   - '11|DE-telegram-@ISVvpn   :  '
+  - 15|DE_speednode_0002
   type: select
 rules:
 - MATCH,DIRECT
