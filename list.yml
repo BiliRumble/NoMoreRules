@@ -1,4 +1,4 @@
-# Update: 2025-10-25 14:14
+# Update: 2025-10-25 17:09
 allow-lan: false
 dns:
   enable: true
@@ -66,7 +66,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 40731c98-9514-4e75-b78e-58311d214095
-- name: 12,13|香港4|@ripaojiedian
+- name: 12,13,14|HK_speednode_0012
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 443
@@ -74,13 +74,15 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|香港5|@ripaojiedian
+  udp: true
+- name: 12,13,14|CN_speednode_0002
   network: tcp
   password: BxceQaOe
   port: 4451
   server: 36.151.251.23
   skip-cert-verify: true
   type: trojan
+  udp: true
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -128,13 +130,14 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡3|@ripaojiedian
+- name: 12,13,14|CN_speednode_0001
   network: tcp
   password: BxceQaOe
   port: 24392
   server: 36.151.251.35
   skip-cert-verify: true
   type: trojan
+  udp: true
 - name: 12,13|美国|@ripaojiedian
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
@@ -168,7 +171,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 40731c98-9514-4e75-b78e-58311d214095
-- name: 14|US_speednode_0028
+- name: 14|US_speednode_0042
   network: ws
   password: T@_WvT8Ho@LW%w_,
   port: 2053
@@ -192,24 +195,24 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12,13|日本|@ripaojiedian
-  - 12,13|香港|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
-  - 12,13|美国|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
-  - 12,13|日本2|@ripaojiedian
-  - 14|US_speednode_0028
-  - 12,13|日本3|@ripaojiedian
-  - 12,13|美国2|@ripaojiedian
-  - 12,13|香港5|@ripaojiedian
-  - 13|香港3|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
   - 12|tg频道:@ripaojiedian
-  - 12|🇭🇰 香港2|@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
-  - 12,13|日本4|@ripaojiedian
+  - 12,13|日本2|@ripaojiedian
   - 12|🇭🇰 香港3|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
+  - 12,13,14|CN_speednode_0002
+  - 12,13,14|HK_speednode_0012
+  - 12,13|日本|@ripaojiedian
+  - 12,13|新加坡2|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 12,13,14|CN_speednode_0001
+  - 12,13|美国2|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 12,13|美国|@ripaojiedian
+  - 14|US_speednode_0042
+  - 12,13|新加坡|@ripaojiedian
+  - 12|🇭🇰 香港2|@ripaojiedian
+  - 12,13|日本4|@ripaojiedian
+  - 13|香港3|@ripaojiedian
+  - 12,13|香港|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
