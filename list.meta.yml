@@ -1,4 +1,4 @@
-# Update: 2025-10-30 08:52
+# Update: 2025-10-30 11:37
 allow-lan: false
 dns:
   enable: true
@@ -74,6 +74,13 @@ proxies:
   server: 31.57.241.25
   skip-cert-verify: true
   sni: d.eans.top
+  tls: false
+  type: hysteria2
+- name: 10|All-@V2rayAlpha--3
+  password: 4a25ab9e-66e3-435a-97a4-276b5c3a1947
+  port: 443
+  server: hk.xn--9kqw1xbnu.shop
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 10|All-@V2rayAlpha--7
@@ -345,14 +352,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|WiFi-@V2rayAlpha--5
-  password: 934766f0-204c-42be-8cf7-9afc2a8b5eaf
-  port: 22156
-  server: hsyg.huasuan666.top
-  skip-cert-verify: true
-  sni: hsyg.huasuan666.top
-  tls: false
-  type: hysteria2
 - name: 10| @AblNet7 🇺🇸 机场推荐
   password: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
   port: 63979
@@ -367,6 +366,14 @@ proxies:
   server: els1.dimoyun.top
   skip-cert-verify: true
   sni: els1.dimoyun.top
+  tls: false
+  type: hysteria2
+- name: '10|All-@V2rayAlpha--2 #1'
+  password: MxiGoEDnLJELZicwCXwsADPdF4
+  port: 29609
+  server: 43.201.45.216
+  skip-cert-verify: true
+  sni: bing.com
   tls: false
   type: hysteria2
 - name: '10|🇳🇱@FreakConfig #2'
@@ -489,7 +496,7 @@ proxies:
   sni: hl01.mistea.top
   tls: false
   type: hysteria2
-- name: '10|@meli_proxyy #8'
+- name: 10|All-@V2rayAlpha--1
   password: c232f411-96b5-4b07-b2f7-66a434725ffb
   port: 23892
   server: 38.45.89.97
@@ -1228,125 +1235,126 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|RU_speednode_0020
-  - 14|RU_speednode_0018
-  - 14|RU_speednode_0019
-  - 10|🇳🇱@FreakConfig
-  - 12,13|新加坡|@ripaojiedian
-  - 14|HK_speednode_0011
-  - 14|CN_speednode_0001
-  - 14|RU_speednode_0021
-  - 10|https://t.me/Selinc
-  - 10|telegram--MTMVPN 5
-  - 10|telegram--MTMVPN10
-  - 10| @AblNet7 🇺🇸 机场推荐
-  - 10|All-@V2rayAlpha--11
-  - 10|telegram--MTMVPN 18
-  - 14|US_speednode_0037
-  - '10|🇳🇱@FreakConfig #3'
-  - 12,13|香港|@ripaojiedian
-  - 14|TW_speednode_0032
-  - '10|🇳🇱@FreakConfig #2'
-  - 10|All--@V2rayAlpha--8
-  - 10|All-@V2rayAlpha--17
-  - 14|HK_speednode_0010
-  - 10|@Daily_Configs
-  - '10| @vistav2ray  👈کانا '
-  - '10|🇳🇱@FreakConfig #4'
-  - 10|WiFi-@V2rayAlpha--7
-  - 10|telegram--MTMVPN 2
-  - 14|US_speednode_0035
-  - 13|香港6|@ripaojiedian
-  - 14|KR_speednode_0014
-  - 10|All-@V2rayAlpha--10
-  - 14|RU_speednode_0023
-  - 12,13|美国3|@ripaojiedian
-  - 12,13|香港3|@ripaojiedian
-  - 12,13|日本|@ripaojiedian
-  - '10|@FreakConfig #1'
-  - '10|@meli_proxyy #8'
-  - 10|usa-telegram-@ISVvpn
-  - '10|All-@V2rayAlpha--6 #1'
-  - 10|All--@V2rayAlpha--7
-  - '10|@sunflowerplato🌻 #4'
-  - 14|KR_speednode_0016
-  - 14|RU_speednode_0025
-  - '10|@Daily_Configs #1'
-  - '10|telegram-@ISVvpn #1'
-  - 12|🇸🇬 新加坡4|@ripaojiedian
-  - 10|@Mr_Config_Group✌️
-  - '10|MCI-@V2rayAlpha--3 #1'
-  - 10|All--@V2rayAlpha--1
-  - 10|telegram-@ISVvpn
-  - 10|All-@V2rayAlpha--15
-  - '10|@Daily_Configs #3'
-  - 14|KR_speednode_0015
-  - 14|US_speednode_0036
-  - '10|MCi--@IRAN_V2RAY1 #1'
-  - 12,13|美国2|@ripaojiedian
-  - 10|🇱@FreakConfig
-  - 14|HK_speednode_0006
-  - 14|JP_speednode_0013
-  - 10|🔐 @AblNet7 🇪 机场推荐
-  - '10|🇩🇪@FreakConfig #1'
-  - 10|All--@V2rayAlpha--2
-  - 12,13|日本2|@ripaojiedian
-  - '10|All--@V2rayAlpha--5 #1'
-  - '10|All-@IRAN_V2RAY1 #4'
-  - 10|All-@V2rayAlpha--16
-  - 12|🇭🇰 香港2|@ripaojiedian
-  - 14|RU_speednode_0028
-  - 10|telegram--MTMVPN 6
-  - 12,13|台湾|@ripaojiedian
-  - 14|HK_speednode_0009
-  - 10|@FreakConfig
-  - 14|HK_speednode_0012
-  - 10|MCI-@V2rayAlpha--5
-  - 12|🇭🇰 香港6|@ripaojiedian
-  - '10|telegram-@ISVvpn #2'
-  - '10|All-@V2rayAlpha--8 #2'
-  - 12,13|美国|@ripaojiedian
-  - 14|RU_speednode_0024
-  - 10|🔐 @AblNet7  机场推荐
-  - '10|🔐 @AblNet7  机场推荐 #1'
-  - '10| @AblNet7 🇺🇸 机场推荐 #1'
-  - '9|Channel id: @ShadowProxy66🇯🇵'
-  - 12,13|香港5|@ripaojiedian
-  - 14|SG_speednode_0030
-  - 10|telegram--MTMVPN 22
-  - 14|RU_speednode_0027
-  - 14|HK_speednode_0007
-  - 10|MCI-@V2rayAlpha--2
-  - 12|tg频道:@ripaojiedian
-  - '10|DE-telegram-@ISVvpn   :  '
   - '10|@sunflowerplato🌻 #2'
-  - 12,13|日本3|@ripaojiedian
-  - 10|telegram--MTMVPN 13
-  - 14|TW_speednode_0033
-  - '10|🇳🇱@FreakConfig #1'
-  - 10|MCi--@IRAN_V2RAY1
-  - 14|CN_speednode_0002
-  - '10|All-@V2rayAlpha--11 #1'
-  - 10|@Selinc
-  - '10|MCI-@V2rayAlpha--3 #2'
-  - '10|All-@IRAN_V2RAY1 #3'
-  - 12,13|香港4|@ripaojiedian
-  - 10|All--@V2rayAlpha--9
-  - 14|HK_speednode_0008
-  - 10|کای  یش ر ن را💎 Config_Rayegan...
-  - 14|RU_speednode_0026
-  - 14|RU_speednode_0017
-  - 12,13|新加坡5|@ripaojiedian
-  - 14|RU_speednode_0029
-  - 10|WiFi-@V2rayAlpha--5
-  - 10|WiFi-@V2rayAlpha--6
-  - 10|All-@V2rayAlpha--7
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|SG_speednode_0031
-  - 14|RU_speednode_0022
-  - 12,13|新加坡2|@ripaojiedian
   - '10|MCi--@IRAN_V2RAY1 #3'
+  - 14|RU_speednode_0022
+  - 10|All-@V2rayAlpha--11
+  - 10|telegram--MTMVPN 2
+  - '10|🇳🇱@FreakConfig #3'
+  - 10|WiFi-@V2rayAlpha--6
+  - 12,13|新加坡|@ripaojiedian
+  - '10|All-@V2rayAlpha--6 #1'
+  - 14|HK_speednode_0010
+  - 14|HK_speednode_0009
+  - 14|RU_speednode_0029
+  - 12,13|美国3|@ripaojiedian
+  - 14|CN_speednode_0001
+  - 14|US_speednode_0035
+  - '10| @vistav2ray  👈کانا '
+  - '10|All-@V2rayAlpha--2 #1'
+  - 14|SG_speednode_0030
+  - 10|telegram--MTMVPN 5
+  - 12,13|新加坡3|@ripaojiedian
+  - 14|RU_speednode_0017
+  - 14|RU_speednode_0023
+  - '10|@sunflowerplato🌻 #4'
+  - 12,13|香港3|@ripaojiedian
+  - 10|All--@V2rayAlpha--1
+  - 14|TW_speednode_0032
+  - 10|All--@V2rayAlpha--9
+  - 10|All--@V2rayAlpha--8
+  - 10|telegram--MTMVPN 22
+  - 14|RU_speednode_0018
+  - 12,13|香港|@ripaojiedian
+  - 14|RU_speednode_0026
+  - 10|All-@V2rayAlpha--17
+  - 14|HK_speednode_0006
+  - 12,13|美国|@ripaojiedian
+  - 10| @AblNet7 🇺🇸 机场推荐
+  - 14|JP_speednode_0013
+  - 14|RU_speednode_0020
+  - 12,13|新加坡2|@ripaojiedian
+  - '10|@Daily_Configs #3'
+  - 10|MCi--@IRAN_V2RAY1
+  - 10|telegram-@ISVvpn
+  - '10|🇳🇱@FreakConfig #2'
+  - '10|DE-telegram-@ISVvpn   :  '
+  - 14|RU_speednode_0028
+  - '10|telegram-@ISVvpn #1'
+  - 14|HK_speednode_0008
+  - '10|🇩🇪@FreakConfig #1'
+  - 14|US_speednode_0037
+  - 12,13|日本|@ripaojiedian
+  - '10|All-@V2rayAlpha--11 #1'
+  - '9|Channel id: @ShadowProxy66🇯🇵'
+  - 14|KR_speednode_0014
+  - 14|RU_speednode_0027
+  - 14|TW_speednode_0033
+  - 10|All-@V2rayAlpha--15
+  - '10|🇳🇱@FreakConfig #4'
+  - 14|RU_speednode_0024
+  - 10|@FreakConfig
+  - 10|🔐 @AblNet7 🇪 机场推荐
+  - 10|MCI-@V2rayAlpha--2
+  - '10|telegram-@ISVvpn #2'
+  - 12,13|新加坡5|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - '10|MCI-@V2rayAlpha--3 #1'
   - 10|✅ @vistav2ray  👈👈کانال ما
+  - 10|All-@V2rayAlpha--1
+  - 10|All--@V2rayAlpha--7
+  - 10|@Mr_Config_Group✌️
+  - 10|@Selinc
+  - 10|All--@V2rayAlpha--2
+  - 10|کای  یش ر ن را💎 Config_Rayegan...
+  - 10|telegram--MTMVPN10
+  - 10|All-@V2rayAlpha--7
+  - 14|US_speednode_0036
+  - 12|🇭🇰 香港2|@ripaojiedian
+  - '10|All--@V2rayAlpha--5 #1'
+  - 14|HK_speednode_0007
+  - 12,13|香港5|@ripaojiedian
+  - 10|@Daily_Configs
+  - 10|telegram--MTMVPN 13
+  - 10|All-@V2rayAlpha--3
+  - 10|All-@V2rayAlpha--10
+  - '10|All-@V2rayAlpha--8 #2'
+  - 12,13|日本2|@ripaojiedian
+  - 14|HK_speednode_0011
+  - '10|MCi--@IRAN_V2RAY1 #1'
+  - 10|MCI-@V2rayAlpha--5
+  - 12|🇸🇬 新加坡4|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 10|telegram--MTMVPN 6
+  - 10|All-@V2rayAlpha--16
+  - 12,13|美国2|@ripaojiedian
+  - 10|telegram--MTMVPN 18
+  - 10|🇳🇱@FreakConfig
+  - '10|All-@IRAN_V2RAY1 #4'
+  - '10| @AblNet7 🇺🇸 机场推荐 #1'
+  - 10|🇱@FreakConfig
+  - 14|SG_speednode_0031
+  - 13|香港6|@ripaojiedian
+  - '10|🇳🇱@FreakConfig #1'
+  - 12,13|台湾|@ripaojiedian
+  - 10|https://t.me/Selinc
+  - 14|RU_speednode_0019
+  - 14|RU_speednode_0021
+  - '10|🔐 @AblNet7  机场推荐 #1'
+  - 10|usa-telegram-@ISVvpn
+  - 10|WiFi-@V2rayAlpha--7
+  - '10|MCI-@V2rayAlpha--3 #2'
+  - 14|KR_speednode_0016
+  - 14|HK_speednode_0012
+  - '10|@FreakConfig #1'
+  - '10|@Daily_Configs #1'
+  - 12|🇭🇰 香港6|@ripaojiedian
+  - '10|All-@IRAN_V2RAY1 #3'
+  - 14|KR_speednode_0015
+  - 14|CN_speednode_0002
+  - 10|🔐 @AblNet7  机场推荐
+  - 14|RU_speednode_0025
   type: fallback
   url: https://www.google.com/
 - interval: 300
