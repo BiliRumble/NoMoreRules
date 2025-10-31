@@ -1,4 +1,4 @@
-# Update: 2025-10-31 17:11
+# Update: 2025-10-31 20:21
 allow-lan: false
 dns:
   enable: true
@@ -649,7 +649,7 @@ proxies:
   server: 58.152.53.3
   skip-cert-verify: true
   type: trojan
-- name: 13,14|台湾|@ripaojiedian
+- name: 13,14,15|CN_speednode_0002
   network: tcp
   password: b00abf05-5768-4ac9-8d20-6b1bd605bcf6
   port: 42765
@@ -657,6 +657,7 @@ proxies:
   skip-cert-verify: true
   sni: v1-dy.ixigua.com
   type: trojan
+  udp: true
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -719,13 +720,14 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国3|@ripaojiedian
+- name: 13,14,15|CN_speednode_0003
   network: tcp
   password: BxceQaOe
   port: 43567
   server: 36.156.102.74
   skip-cert-verify: true
   type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: 13|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -733,29 +735,32 @@ proxies:
   server: 103.186.155.238
   tfo: false
   type: ss
-- flow: xtls-rprx-vision
-  name: 15|CN_speednode_0001
-  port: 53214
-  server: linkgulang.evoay.com
-  servername: www.lamer.com.hk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6c0472bc-82df-449e-90bd-2f91c6a46402
-- flow: xtls-rprx-vision
-  name: 15|KR_speednode_0002
-  port: 443
+- name: 15|DE_speednode_0004
+  port: 6666
   reality-opts:
-    public-key: yh4yX6_pM_VzpAx-tYb33PCzHYE6vC9w7Ov1FwNUjR8
-  server: 3.36.62.128
-  servername: www.ebay.com
+    public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
+    short-id: b525ecd2fc
+  server: 188.68.53.100
+  servername: Tgju.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ead2118c-8b60-4805-b264-bb794c8600d0
-- name: 15|KR_speednode_0003
+  uuid: 0abf9050-c7be-464d-80af-24094c2b97de
+- flow: xtls-rprx-vision
+  name: 15|JP_speednode_0005
+  port: 51623
+  reality-opts:
+    public-key: ln4RiHk9_Ea_EyeI2GpZfzilPyrqKYDBqis09esVECo
+    short-id: 6ba85179e30d4fc2
+  server: softbank88.xzcloudnode.sbs
+  servername: itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8129a335-37d4-4932-8dca-ac4358ce60b7
+- name: 15|KR_speednode_0006
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -765,54 +770,33 @@ proxies:
   udp: true
   username: test
 - flow: xtls-rprx-vision
-  name: 15|RU_speednode_0004
+  name: 15|LB_speednode_0007
   port: 443
   reality-opts:
-    public-key: s1YS6OaMKypumOxq7u22Pf_FaSjEbRvgLrJf1iTOKWY
-    short-id: bce24697c04e
-  server: usa.savanet.pro
-  servername: yandex.com
+    public-key: -Bdu8i-HU28Xmx87RMou5okYo8TqfbyZ8Ufs9RodUGE
+    short-id: 097de35e52ec5256
+  server: 77.110.127.105
+  servername: st.ozone.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 87eff1bd-d55f-4df2-a5ad-863368a16cb7
-- flow: xtls-rprx-vision
-  name: 15|US_speednode_0006
-  port: 25599
-  reality-opts:
-    public-key: SsbeZ_JdMe3r2IqTESBWRSUMrcm3PdpFzlab5xrKUlU
-  server: 172.238.22.96
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ff06f97b-09f6-4b8b-8a12-7d2f51b28a75
-- flow: xtls-rprx-vision
-  name: 15|US_speednode_0008
+  uuid: 72239cbc-5a25-411c-b4f5-b9167a10f5e1
+- client-fingerprint: random
+  name: 15|UA_speednode_0008
+  network: ws
   port: 443
-  reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-  server: usa84.freednet.org
-  servername: www.utexas.edu
-  skip-cert-verify: false
+  server: freeyx.cloudflare88.eu.org
+  servername: do-syd1.008883.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: f2f5905b-e814-4a9f-beae-8b1353f25a06
-- flow: xtls-rprx-vision
-  name: 15|US_speednode_0009
-  port: 443
-  reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-  server: usa102.unlockspace.org
-  servername: www.utexas.edu
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c9f0284-a8da-40f0-9bca-da9a98049fb0
+  uuid: a7a89fed-0fa5-48ea-9cc9-ccf67d0b6cb2
+  ws-opts:
+    headers:
+      Host: do-syd1.008883.xyz
+    path: /announcement?ed=2048
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -824,97 +808,95 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - '11|MCi--@IRAN_V2RAY1 #3'
-  - '11|🇳🇱@FreakConfig #2'
-  - 11|All--@V2rayAlpha--8
-  - 13,14|美国|@ripaojiedian
-  - '11|MCI-@V2rayAlpha--1 #1'
-  - 11|@Selinc
-  - 11|WiFi-@V2rayAlpha--6
-  - 13,14|日本3|@ripaojiedian
-  - 11|@meli_proxyy
-  - 11|telegram--MTMVPN 6
-  - '11|All--@V2rayAlpha--5 #1'
-  - 13,14|台湾|@ripaojiedian
-  - '11|All-@V2rayAlpha--11 #1'
-  - 11|All--@V2rayAlpha--2
-  - '11|@Daily_Configs #3'
-  - '11|MCi--@IRAN_V2RAY1 #1'
-  - 11|telegram--MTMVPN 2
-  - 13,14|美国2|@ripaojiedian
-  - 11|🇳🇱@FreakConfig
-  - '11|@sunflowerplato🌻 #2'
-  - '11|MCI-@V2rayAlpha--3 #2'
-  - 13,14|香港5|@ripaojiedian
-  - 11|telegram-@ISVvpn
-  - 11|telegram--MTMVPN 1
-  - 11|WiFi-@V2rayAlpha--7
-  - '11|@IRAN_V2RAY1 #5'
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - '11| @vistav2ray  👈کانا '
-  - 15|CN_speednode_0001
-  - '11|All-@V2rayAlpha--8 #2'
-  - '11|DE-telegram-@ISVvpn   : کا '
-  - '11|All-@V2rayAlpha--2 #1'
-  - 11|All-@V2rayAlpha--7
-  - 11|All-@V2rayAlpha--16
-  - 13,14|香港3|@ripaojiedian
-  - 13,14|香港|@ripaojiedian
-  - 13,14|日本|@ripaojiedian
-  - 11|All-@V2rayAlpha--17
-  - 11|telegram--MTMVPN 18
-  - 15|US_speednode_0009
-  - 11|All-@V2rayAlpha--3
-  - 11|All-@V2rayAlpha--10
-  - 11|telegram--MTMVPN 13
-  - 13,14|新加坡3|@ripaojiedian
-  - '11|🇳🇱@FreakConfig #1'
-  - 11|All--@V2rayAlpha--1
-  - 11|All--@V2rayAlpha--7
-  - 13,14|新加坡|@ripaojiedian
-  - '11|@meli_proxyy #4'
+  - 13,14,15|CN_speednode_0003
   - 11|@FreakConfig
-  - '11|@meli_proxyy #2'
-  - 11|🇺🇲@FreakConfig
-  - 11|telegram--MTMVPN 22
-  - 13|tg频道:@ripaojiedian
-  - 11|https://t.me/Selinc
-  - 11|usa-telegram-@ISVvpn
-  - 11|@Daily_Configs
-  - '11|@sunflowerplato🌻 #4'
-  - 13,14|新加坡2|@ripaojiedian
-  - 11|telegram--MTMVPN 15
-  - '11|@meli_proxyy #3'
-  - 11|MCi--@IRAN_V2RAY1
-  - 13,14|美国3|@ripaojiedian
-  - 15|KR_speednode_0003
-  - 11|@Mr_Config_Group✌️
-  - '11|🇳🇱@FreakConfig #4'
-  - 11|All--@V2rayAlpha--9
-  - 11|MCI-@V2rayAlpha--5
-  - 11|telegram--MTMVPN 5
-  - '11|MCI-@V2rayAlpha--3 #1'
-  - 13|🇻🇳 越南|@ripaojiedian
-  - 15|US_speednode_0006
-  - 11|telegram--MTMVPN 7
-  - 11|MCI-@V2rayAlpha--2
-  - '11|telegram-@ISVvpn #2'
-  - 15|RU_speednode_0004
-  - 11|کانفیگ ای یش ر ن گا💎 Config_Ra...
-  - 11|telegram--MTMVPN 3
-  - 15|KR_speednode_0002
-  - 11|✅ @vistav2ray  👈👈کانال ما
-  - 13,14|日本2|@ripaojiedian
-  - 11|All-@V2rayAlpha--11
-  - 15|US_speednode_0008
-  - '11|All-@V2rayAlpha--6 #1'
   - 11|All-@V2rayAlpha--15
-  - 13,14|香港4|@ripaojiedian
-  - 11|All-@V2rayAlpha--1
+  - 13,14|美国|@ripaojiedian
+  - 11|🇺🇲@FreakConfig
+  - 15|DE_speednode_0004
+  - 11|کانفیگ ای یش ر ن گا💎 Config_Ra...
+  - 11|@meli_proxyy
+  - '11|MCi--@IRAN_V2RAY1 #1'
+  - '11|@meli_proxyy #2'
+  - 15|KR_speednode_0006
+  - 11|All-@V2rayAlpha--3
   - '11|🇳🇱@FreakConfig #3'
-  - '11|telegram-@ISVvpn #1'
-  - 11|telegram--MTMVPN 11
+  - 11|All--@V2rayAlpha--8
+  - '11|MCi--@IRAN_V2RAY1 #3'
+  - '11|All-@V2rayAlpha--2 #1'
+  - 11|telegram--MTMVPN 7
+  - 13,14|日本2|@ripaojiedian
+  - 11|telegram--MTMVPN 22
+  - 13,14|香港4|@ripaojiedian
+  - 11|telegram--MTMVPN 2
+  - 11|WiFi-@V2rayAlpha--6
+  - 11|All-@V2rayAlpha--7
+  - 11|All-@V2rayAlpha--17
+  - '11|All--@V2rayAlpha--5 #1'
+  - '11| @vistav2ray  👈کانا '
+  - 15|LB_speednode_0007
+  - 13|tg频道:@ripaojiedian
+  - '11|All-@V2rayAlpha--8 #2'
+  - 11|All--@V2rayAlpha--7
+  - 11|All--@V2rayAlpha--9
+  - 11|All--@V2rayAlpha--1
+  - 11|All-@V2rayAlpha--10
+  - 11|🇳🇱@FreakConfig
+  - '11|🇳🇱@FreakConfig #4'
+  - 11|MCI-@V2rayAlpha--2
+  - 11|telegram--MTMVPN 1
+  - '11|MCI-@V2rayAlpha--1 #1'
+  - 13|🇭🇰 香港2|@ripaojiedian
   - '11|@Daily_Configs #1'
+  - 13,14|香港|@ripaojiedian
+  - 11|telegram--MTMVPN 6
+  - 11|All--@V2rayAlpha--2
+  - '11|@sunflowerplato🌻 #2'
+  - '11|@meli_proxyy #4'
+  - 13,14|日本3|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
+  - 11|WiFi-@V2rayAlpha--7
+  - 13|🇻🇳 越南|@ripaojiedian
+  - 11|telegram--MTMVPN 5
+  - 13,14|香港3|@ripaojiedian
+  - '11|@sunflowerplato🌻 #4'
+  - 11|https://t.me/Selinc
+  - 13,14|新加坡3|@ripaojiedian
+  - 13,14|新加坡2|@ripaojiedian
+  - 11|telegram--MTMVPN 11
+  - '11|@IRAN_V2RAY1 #5'
+  - 13,14|新加坡|@ripaojiedian
+  - 11|telegram--MTMVPN 13
+  - 11|All-@V2rayAlpha--1
+  - 11|MCI-@V2rayAlpha--5
+  - 11|@Daily_Configs
+  - 11|✅ @vistav2ray  👈👈کانال ما
+  - '11|@Daily_Configs #3'
+  - 11|@Selinc
+  - 11|telegram--MTMVPN 3
+  - '11|MCI-@V2rayAlpha--3 #2'
+  - 11|telegram--MTMVPN 15
+  - 11|MCi--@IRAN_V2RAY1
+  - 11|telegram--MTMVPN 18
+  - 13,14,15|CN_speednode_0002
+  - 15|JP_speednode_0005
+  - 11|All-@V2rayAlpha--16
+  - 11|usa-telegram-@ISVvpn
+  - 11|@Mr_Config_Group✌️
+  - 11|telegram-@ISVvpn
+  - '11|All-@V2rayAlpha--6 #1'
+  - 13,14|日本|@ripaojiedian
+  - 15|UA_speednode_0008
+  - '11|🇳🇱@FreakConfig #2'
+  - '11|@meli_proxyy #3'
+  - '11|🇳🇱@FreakConfig #1'
+  - '11|telegram-@ISVvpn #1'
+  - 11|All-@V2rayAlpha--11
+  - 13,14|香港5|@ripaojiedian
+  - '11|MCI-@V2rayAlpha--3 #1'
+  - '11|All-@V2rayAlpha--11 #1'
+  - '11|telegram-@ISVvpn #2'
+  - '11|DE-telegram-@ISVvpn   : کا '
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -973,23 +955,21 @@ proxy-groups:
   - 13,14|日本|@ripaojiedian
   - 13,14|日本2|@ripaojiedian
   - 13,14|日本3|@ripaojiedian
+  - 15|JP_speednode_0005
   type: select
 - name: 🇺🇸 美国
   proxies:
   - 13,14|美国|@ripaojiedian
   - 13,14|美国2|@ripaojiedian
-  - 13,14|美国3|@ripaojiedian
-  - 15|US_speednode_0006
-  - 15|US_speednode_0008
-  - 15|US_speednode_0009
+  - 13,14,15|CN_speednode_0003
   type: select
 - name: 🇨🇳 台湾
   proxies:
-  - 13,14|台湾|@ripaojiedian
+  - 13,14,15|CN_speednode_0002
   type: select
 - name: 🇨🇳 中国
   proxies:
-  - 15|CN_speednode_0001
+  - REJECT
   type: select
 - name: 🇭🇰 香港
   proxies:
@@ -1019,16 +999,16 @@ proxy-groups:
   type: select
 - name: 🇰🇷 韩国
   proxies:
-  - 15|KR_speednode_0002
-  - 15|KR_speednode_0003
+  - 15|KR_speednode_0006
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
-  - 15|RU_speednode_0004
+  - REJECT
   type: select
 - name: 🇩🇪 德国
   proxies:
   - '11|DE-telegram-@ISVvpn   : کا '
+  - 15|DE_speednode_0004
   type: select
 rules:
 - MATCH,DIRECT
