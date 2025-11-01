@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 13,14|日本|@ripaojiedian
+  name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 487
@@ -8,7 +8,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|日本2|@ripaojiedian
+  name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
   port: 4452
@@ -17,7 +17,7 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|日本3|@ripaojiedian
+  name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
   port: 3161
@@ -25,17 +25,3 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|JP_speednode_0005
-  port: 51623
-  reality-opts:
-    public-key: ln4RiHk9_Ea_EyeI2GpZfzilPyrqKYDBqis09esVECo
-    short-id: 6ba85179e30d4fc2
-  server: softbank88.xzcloudnode.sbs
-  servername: itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8129a335-37d4-4932-8dca-ac4358ce60b7
