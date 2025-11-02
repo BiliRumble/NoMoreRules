@@ -1,4 +1,11 @@
 proxies:
+- name: 15|CN_speednode_0002
+  password: BxceQaOe
+  port: 4861
+  server: 36.156.102.74
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: 15|CN_speednode_0003
   password: 7197668c-0332-466e-9553-41639c4bc95f
   port: 23100
@@ -15,11 +22,27 @@ proxies:
   sni: db01.xxxxyyyysbs.sbs
   type: trojan
   udp: true
+- name: 15|CN_speednode_0005
+  password: bca467b8c15211d189008a93c7519d3b
+  port: 5041
+  server: 117.172.176.24
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
 - name: 15|CN_speednode_0006
   password: f128c8a8-d184-4f9d-8aa2-503266130126
   port: 23100
   server: n001.xunxunmimisbs.sbs
   skip-cert-verify: false
   sni: uk01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0007
+  password: bca467b8c15211d189008a93c7519d3b
+  port: 5321
+  server: 117.172.176.24
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
   udp: true
