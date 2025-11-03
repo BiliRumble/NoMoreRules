@@ -1,4 +1,4 @@
-# Update: 2025-11-03 17:13
+# Update: 2025-11-03 20:21
 allow-lan: false
 dns:
   enable: true
@@ -71,14 +71,13 @@ proxies:
   server: 36.151.192.242
   skip-cert-verify: true
   type: trojan
-- name: 13,14,15|HK_speednode_0004
+- name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
   server: 203.198.122.129
   skip-cert-verify: true
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 13|🇭🇰 香港6|@ripaojiedian
@@ -178,23 +177,23 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13|🇭🇰 香港6|@ripaojiedian
-  - 13|🇻🇳 越南|@ripaojiedian
-  - 14|香港6|@ripaojiedian
-  - 13,14|美国3|@ripaojiedian
-  - 13,14|日本2|@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
-  - 13,14|香港3|@ripaojiedian
-  - 13,14,15|HK_speednode_0004
-  - 13,14|美国|@ripaojiedian
-  - 13,14|香港|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
-  - 13,14|日本3|@ripaojiedian
-  - 13,14|美国2|@ripaojiedian
-  - 13,14|新加坡2|@ripaojiedian
   - 13|🇭🇰 香港2|@ripaojiedian
-  - 13,14|新加坡3|@ripaojiedian
+  - 13,14|香港3|@ripaojiedian
+  - 13,14|香港|@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
   - 13,14|日本|@ripaojiedian
+  - 13|tg频道:@ripaojiedian
+  - 13,14|美国3|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 13,14|香港5|@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
+  - 13,14|新加坡2|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
+  - 13|🇻🇳 越南|@ripaojiedian
+  - 13|🇭🇰 香港6|@ripaojiedian
+  - 13,14|美国|@ripaojiedian
+  - 14|香港6|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
