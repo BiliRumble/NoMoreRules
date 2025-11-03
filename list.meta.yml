@@ -1,4 +1,4 @@
-# Update: 2025-11-03 14:17
+# Update: 2025-11-03 17:13
 allow-lan: false
 dns:
   enable: true
@@ -18,6 +18,16 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
+- name: '10,11|🇳🇱 - NL - @freeOnlineVPN #5'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 35000
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
 - name: 10|@NoForcedheaven
   obfs: salamander
   obfs-password: 9242a8bf
@@ -25,6 +35,13 @@ proxies:
   port: 443
   server: 46.62.152.236
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '10|Channel id: @ShadowProxy66🇺🇸'
+  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: 97cc76e9-t53wg0-tiqsce-t6fv.us.hyhuawei.com
+  sni: 97cc76e9-t53wg0-tiqsce-t6fv.us.hyhuawei.com
   tls: false
   type: hysteria2
 - name: 10,11|🇺🇲@FreakConfig
@@ -35,7 +52,7 @@ proxies:
   sni: fus01.mistea.top
   tls: false
   type: hysteria2
-- name: '10|Channel id: @ShadowProxy66🇺🇸 #1'
+- name: '10|Channel id: @ShadowProxy66🇺🇸 #2'
   password: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46
   port: 41951
   server: 192.3.60.176
@@ -85,7 +102,7 @@ proxies:
   sni: gb.gomeow.online
   tls: false
   type: hysteria2
-- name: 11|All-@V2rayAlpha--16
+- name: 11|@FreakConfig
   password: 20050105zhu
   port: 51541
   server: 204.44.110.129
@@ -103,7 +120,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 11|@Daily_Configs
+- name: 11|@sunflowerplato
   password: 2429bee3-e0c1-47dd-b420-75e6512b184b
   port: 30300
   server: 129.153.59.26
@@ -325,7 +342,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '11|DE-telegram-@ISVvpn   :  '
+- name: '11|DE-telegram-@ISVvpn   :  🇺🇲'
   password: 70197404-7b40-45e4-bb9c-8bc8995012ae
   port: 24568
   server: fra-nb-01.linlujs.pw
@@ -362,7 +379,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '11|@Daily_Configs #1'
+- name: 11|@sunflowerplato🌻
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: xg1.mangshe.xyz
@@ -398,7 +415,7 @@ proxies:
   sni: drhystuichdfy.samanidempire.org
   tls: false
   type: hysteria2
-- name: 11|🇳🇱 - NL - @freeOnlineVPN
+- name: '11|🇳🇱 - NL - @freeOnlineVPN #1'
   obfs: salamander
   obfs-password: GdQ4bgvT8RFwuWi2
   password: 8864aa9f-7517-4fd5-aef1-32050eb3095d
@@ -408,7 +425,7 @@ proxies:
   sni: net2025.afsharidempire.uk
   tls: false
   type: hysteria2
-- name: '11|🇳🇱 - NL - @freeOnlineVPN #2'
+- name: '11|🇳🇱 - NL - @freeOnlineVPN #3'
   obfs: salamander
   obfs-password: GdQ4bgvT8RFwuWi2
   password: 8864aa9f-7517-4fd5-aef1-32050eb3095d
@@ -604,7 +621,7 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: 11|@FreakConfig
+- name: '11|@FreakConfig #1'
   obfs: salamander
   obfs-password: telegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystal
   password: TkxSjbOR6w
@@ -640,17 +657,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '11|🇳🇱 - NL - @freeOnlineVPN #4'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 35000
-  server: 206.71.158.37
-  skip-cert-verify: true
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: '11|🇳🇱 - NL - @freeOnlineVPN #7'
+- name: '11|🇳🇱 - NL - @freeOnlineVPN #8'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -660,7 +667,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '11|🇳🇱 - NL - @freeOnlineVPN #10'
+- name: '11|🇳🇱 - NL - @freeOnlineVPN #11'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -670,7 +677,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '11|🇳🇱 - NL - @freeOnlineVPN #12'
+- name: '11|🇳🇱 - NL - @freeOnlineVPN #13'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -680,7 +687,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '11|🇳🇱 - NL - @freeOnlineVPN #16'
+- name: '11|🇳🇱 - NL - @freeOnlineVPN #17'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -743,12 +750,22 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '11|🇳🇱 - NL - @freeOnlineVPN #18'
+- name: '11|🇳🇱 - NL - @freeOnlineVPN #19'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
   port: 35000
   server: 206.71.158.41
+  skip-cert-verify: true
+  sni: jnir.pichondan.com
+  tls: false
+  type: hysteria2
+- name: '11|🇳🇱@FreakConfig #5'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: dir.cybsecguru.com
   skip-cert-verify: true
   sni: jnir.pichondan.com
   tls: false
@@ -867,7 +884,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '11|@Daily_Configs #4'
+- name: '11|@Daily_Configs #2'
   password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
   port: 30000
   server: de3.oomz.ru
@@ -981,7 +998,7 @@ proxies:
   server: 36.151.192.242
   skip-cert-verify: true
   type: trojan
-- name: 13,14,15|HK_speednode_0009
+- name: 13,14,15|HK_speednode_0004
   network: tcp
   password: BxceQaOe
   port: 443
@@ -1006,7 +1023,7 @@ proxies:
   server: 36.150.215.197
   skip-cert-verify: true
   type: trojan
-- name: 13,14,15|CN_speednode_0003
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
   port: 1332
@@ -1014,7 +1031,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
@@ -1023,7 +1039,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14,15|CN_speednode_0004
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
   port: 2283
@@ -1031,7 +1047,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -1079,241 +1094,9 @@ proxies:
   tls: false
   type: vmess
   uuid: de32752c-0661-467e-82d3-35bc740a787f
-- flow: xtls-rprx-vision
-  name: 15|CA_speednode_0001
-  port: 42557
-  reality-opts:
-    public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
-    short-id: f430927d
-  server: 40.233.118.103
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
-- name: 15|CA_speednode_0002
-  network: ws
-  port: 2087
-  server: axe.soyet2j.ir
-  servername: latte.gejeh683bm.ir.
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4cf3c711-58e1-4abb-a628-3b48bdba8052
-  ws-opts:
-    headers:
-      Host: latte.gejeh683bm.ir
-    path: /index.html?ed=2560
-- name: 15|CN_speednode_0005
-  password: adbac894-90b9-4913-b77e-a715a8d4ebc8
-  port: 20021
-  server: oss-cn-shanghai.letssepub.com
-  skip-cert-verify: false
-  sni: dingding-doc.com
-  type: trojan
-  udp: true
-- name: 15|IQ_speednode_0010
-  network: ws
-  port: 4040
-  server: refreshcloud-ger.parsgit.com
-  servername: refreshcloud-ger.parsgit.com.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: ba29c23c-2174-46c2-9c99-65cacc2237df
-  ws-opts:
-    headers:
-      Host: refreshcloud-ger.parsgit.com.
-    path: /admin?ed=1024
-- name: 15|JP_speednode_0020
-  network: ws
-  password: trojan
-  port: 443
-  server: 103.116.7.1
-  skip-cert-verify: false
-  sni: wahaha.yingyangkuaixian.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: wahaha.yingyangkuaixian.dpdns.org
-    path: /
-- name: 15|KR_speednode_0021
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
-- flow: xtls-rprx-vision
-  name: 15|LB_speednode_0022
-  port: 443
-  reality-opts:
-    public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
-    short-id: 07e904766d29b958
-  server: 77.110.119.225
-  servername: st.ozone.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
-- flow: xtls-rprx-vision
-  name: 15|RU_speednode_0023
-  port: 443
-  reality-opts:
-    public-key: fwyaXZJrcorp1BQM4O2SicK-n15VNO53GWvvFsecbhM
-    short-id: 10f76a02167e9b
-  server: russia22.clearorbitllc.com
-  servername: russia22.clearorbitllc.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c1bc547-6ed3-4234-873e-966d9eef5d27
-- flow: xtls-rprx-vision
-  name: 15|RU_speednode_0024
-  port: 8443
-  reality-opts:
-    public-key: cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg
-    short-id: 3f8ad1
-  server: fi.aliusvpn.ru
-  servername: yandex.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1bbc55ca-3200-48d8-bffe-948788d72ed0
-- flow: xtls-rprx-vision
-  name: 15|RU_speednode_0025
-  port: 443
-  reality-opts:
-    public-key: s1YS6OaMKypumOxq7u22Pf_FaSjEbRvgLrJf1iTOKWY
-    short-id: bce24697c04e
-  server: usa.savanet.pro
-  servername: yandex.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 87eff1bd-d55f-4df2-a5ad-863368a16cb7
-- client-fingerprint: random
-  name: 15|UA_speednode_0026
-  network: ws
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  servername: do-sfo3.862400.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: bda91ce0-d0d7-4d6a-a6e2-10860f655cf5
-  ws-opts:
-    headers:
-      Host: do-sfo3.862400.xyz
-    path: /announcement?ed=2048
-- client-fingerprint: random
-  name: 15|UA_speednode_0027
-  network: ws
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  servername: do-fra1.862400.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: bda91ce0-d0d7-4d6a-a6e2-10860f655cf5
-  ws-opts:
-    headers:
-      Host: do-fra1.862400.xyz
-    path: /announcement?ed=2048
-- client-fingerprint: random
-  name: 15|UA_speednode_0028
-  network: ws
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  servername: do-syd1.862400.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: bda91ce0-d0d7-4d6a-a6e2-10860f655cf5
-  ws-opts:
-    headers:
-      Host: do-syd1.862400.xyz
-    path: /announcement?ed=2048
-- alpn:
-  - h2
-  - http/1.1
-  name: 15|US_speednode_0056
-  network: ws
-  port: 443
-  server: 172.66.44.183
-  servername: a-4km.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c3975f60-60d4-4f14-9780-070ce18c1dda
-  ws-opts:
-    headers:
-      Host: a-4km.pages.dev
-    path: /doa9bvfjd83ix3v9?ed=2560
-- client-fingerprint: randomized
-  name: 15|US_speednode_0057
-  network: ws
-  port: 8443
-  server: www.speedtest.net
-  servername: 0HvsNO270bvRxG6EKbY8uMsQn-6941Fa.paGeS.dEV
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1addf1e-6c1d-4410-bfa5-cf26328319d9
-  ws-opts:
-    headers:
-      Host: 0HvsNO270bvRxG6EKbY8uMsQn-6941Fa.paGeS.dEV
-    path: /CmxkS1704Zcx8p3M?ed=2560
-- client-fingerprint: random
-  name: 15|US_speednode_0058
-  network: ws
-  port: 8443
-  server: www.visa.com.sg
-  servername: azadnet-2f7.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: azadnet-2f7.pages.dev
-    path: /?ed=2560
-- alpn:
-  - h2
-  - http/1.1
-  name: 15|US_speednode_0059
-  network: ws
-  port: 443
-  server: aliakb3435.pages.dev
-  servername: aliakb3435.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 97c4550f-8ecc-42fa-ae66-3b550c986cd2
-  ws-opts:
-    headers:
-      Host: aliakb3435.pages.dev
-    path: /
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 15|US_speednode_0060
+  name: 15|US_speednode_0028
   port: 443
   reality-opts:
     public-key: 9VgEU9n4XfImCSwSdLXEAqotO7zVvZRSaolrtxJKEns
@@ -1325,50 +1108,6 @@ proxies:
   type: vless
   udp: true
   uuid: 9daf8f3e-089b-4989-9502-dd3d727edb6c
-- name: 15|US_speednode_0061
-  network: ws
-  port: 443
-  server: 69.84.182.18
-  servername: cdn-node-oss-63.paofu.de
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a25ff90c-964c-485a-b72a-858864a27dc0
-  ws-opts:
-    headers:
-      Host: cdn-node-oss-63.paofu.de
-    path: /profile/sharenode
-- client-fingerprint: random
-  name: 15|US_speednode_0062
-  network: ws
-  port: 443
-  server: freev2.cloudflare.182682.xyz
-  servername: do-sgp1.862400.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: bda91ce0-d0d7-4d6a-a6e2-10860f655cf5
-  ws-opts:
-    headers:
-      Host: do-sgp1.862400.xyz
-    path: /announcement
-- client-fingerprint: random
-  name: 15|US_speednode_0063
-  network: ws
-  port: 443
-  server: ct.877774.xyz
-  servername: do-lon1.862400.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: bda91ce0-d0d7-4d6a-a6e2-10860f655cf5
-  ws-opts:
-    headers:
-      Host: do-lon1.862400.xyz
-    path: /announcement
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -1380,149 +1119,131 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - '11|@sunflowerplato🌻 #2'
-  - 11|v2raybluecrystal2-la
-  - '11|🇳🇱 - NL - @freeOnlineVPN #2'
-  - '11|@V2rayNG3 #1'
-  - '11|@Selinc #5'
-  - 15|CN_speednode_0005
-  - 15|US_speednode_0060
-  - 11|All--@V2ray_Alpha-2
-  - '11|🇸🇪 - SE - @freeOnlineVPN #1'
-  - 15|CA_speednode_0002
-  - '10|Channel id: @ShadowProxy66'
-  - '11|@meli_proxyy #2'
-  - 11|v2raybluecrystal2-ger
-  - 11|MCi--@IRAN_V2RAY1
-  - '11|@V2rayNG3 #2'
-  - 11|All-@V2rayAlpha--1
-  - 11|All-@V2rayAlpha--16
-  - 13,14,15|CN_speednode_0004
-  - 11|All-@V2rayAlpha--10
-  - '11|🇳🇱 - NL - @freeOnlineVPN #18'
-  - 11|v2raybluecrystal
-  - 15|UA_speednode_0026
-  - 11|usa-telegram-@ISVvpn
-  - '10|Channel id: @ShadowProxy66🇭🇰'
-  - 15|UA_speednode_0027
   - 11|v2raybluecrystal-ger
-  - 11|v2raybluecrystal2
-  - '11|MCi--@IRAN_V2RAY1 #1'
-  - 15|LB_speednode_0022
-  - '11|MCi--@IRAN_V2RAY1 #3'
-  - '11|@V2rayNG3 #12'
-  - 11|v2raybluecrystal4-tur
-  - '11|@meli_proxyy #3'
-  - 13,14|香港|@ripaojiedian
-  - 11|v2raybluecrystal3-ger
-  - '11|@Selinc #2'
-  - 11|telegram-@ISVvpn
-  - '11|@Daily_Configs #4'
-  - 11|v2raybluecrystal2-tur
-  - 13|🇭🇰 香港6|@ripaojiedian
-  - 11|v2raybluecrystal-ind
-  - 13,14|日本3|@ripaojiedian
-  - 11|All-@V2rayAlpha--11
-  - '11|v2raybluecrystal2 #1'
-  - 11|@V2rayNG3
-  - 11|v2raybluecrystal3
-  - 11|rema
-  - '11|@V2rayNG3 #18'
-  - 15|RU_speednode_0023
-  - '11|All-@V2rayAlpha--6 #1'
-  - 11|v2raybluecrystal-la
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 11|All-@V2rayAlpha--15
-  - 11|MCI-@V2rayAlpha--2
-  - 11|v2raybluecrystal2-ind
-  - 11|All-@V2rayAlpha--7
-  - 11|All--@V2rayAlpha--7
-  - 13,14|美国2|@ripaojiedian
-  - '11|🇳🇱@FreakConfig #1'
-  - '11|v2raybluecrystal3 #1'
-  - 11|v2raybluecrystal-hou
-  - 11|All--@V2ray_Alpha-1
-  - 15|JP_speednode_0020
-  - '11|@V2rayNG3 #11'
-  - 11|All--@V2rayAlpha--9
-  - 15|US_speednode_0057
-  - '11|v2raybluecrystal #1'
-  - 15|RU_speednode_0024
-  - 13,14|美国|@ripaojiedian
-  - '11|telegram-@ISVvpn #1'
-  - '11|@Selinc #6'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #10'
-  - '11|All-@V2rayAlpha--7 #1'
-  - 11|All-@V2rayAlpha--3
-  - '11|🇳🇱 - NL - @freeOnlineVPN #12'
-  - '11|@meli_proxyy #4'
-  - 15|US_speednode_0063
-  - 15|CA_speednode_0001
-  - '10|Channel id: @ShadowProxy66🇺🇸 #1'
-  - 15|US_speednode_0061
+  - '11|@Selinc #5'
   - 13|tg频道:@ripaojiedian
-  - 11|v2raybluecrystal3-la
-  - 15|US_speednode_0056
-  - 11|🇳🇱 - NL - @freeOnlineVPN
-  - 13,14|美国3|@ripaojiedian
-  - 15|US_speednode_0058
-  - 11|@Mr_Config_Group✌️
-  - '11|@Daily_Configs #1'
-  - 10,11|🇺🇲@FreakConfig
-  - 13,14,15|HK_speednode_0009
-  - 11|@meli_proxyy
-  - '11|@V2rayNG3 #16'
-  - '11|All-@V2rayAlpha--2 #1'
-  - '11|telegram-@ISVvpn #2'
-  - 11|All-@V2rayAlpha--6
-  - 13,14|香港4|@ripaojiedian
-  - 11|v2raybluecrystal3-hou
-  - 11|🇬🇧 - GB - @freeOnlineVPN
-  - 11|@Selinc
-  - '11|All-@V2rayAlpha--8 #1'
-  - '11|@V2rayNG3 #9'
-  - 11|کای  یش ر ن را💎 Config_Rayegan...
-  - '11|DE-telegram-@ISVvpn   :  '
-  - '11|@V2rayNG3 #13'
-  - '11| @vistav2ray  👈کانا '
+  - 11|usa-telegram-@ISVvpn
+  - '11|@Selinc #6'
+  - 11|v2raybluecrystal2-ind
+  - 11|v2raybluecrystal2-ger
+  - '11|All-@V2rayAlpha--6 #1'
+  - 11|All-@V2rayAlpha--7
+  - '11|@sunflowerplato🌻 #4'
+  - 11|v2raybluecrystal2
+  - '11|@V2rayNG3 #11'
+  - 13,14|香港|@ripaojiedian
+  - 11|v2raybluecrystal4-tur
+  - '11|@Selinc #2'
+  - 11|All-@V2ray_Alpha--2
+  - '11|🇸🇪 - SE - @freeOnlineVPN #1'
+  - 11|v2raybluecrystal3-ind
+  - 13|🇻🇳 越南|@ripaojiedian
+  - 11|All--@V2rayAlpha--2
+  - '10|Channel id: @ShadowProxy66'
+  - 11|@sunflowerplato
+  - 13,14|美国|@ripaojiedian
+  - 11|@FreakConfig
+  - 13,14|美国2|@ripaojiedian
   - 11|All--@V2rayAlpha--1
+  - 11|v2raybluecrystal
+  - 11|🇳🇱@FreakConfig
+  - 11|v2raybluecrystal-tur
   - 11|@GVgg#v2raybluecrystal3-tur
   - 11|All-@V2rayAlpha--17
-  - 13|🇻🇳 越南|@ripaojiedian
-  - 11|🇳🇱@FreakConfig
-  - 11|@FreakConfig
-  - 11|v2raybluecrystal3-ind
-  - 15|UA_speednode_0028
-  - '11|All-@V2rayAlpha--8 #2'
-  - '11|🇸🇪 - SE - @freeOnlineVPN #3'
-  - 11|@Daily_Configs
-  - 11|All-@V2ray_Alpha--2
-  - '11|🇳🇱 - NL - @freeOnlineVPN #7'
-  - 11|MCI-@V2rayAlpha--5
-  - 11|All-@V2rayAlpha--5
-  - 13,14|日本|@ripaojiedian
-  - 15|RU_speednode_0025
-  - 11|v2raybluecrystal-tur
-  - 15|KR_speednode_0021
-  - 11|https://t.me/Selinc
-  - 11|rema2
-  - 14|香港6|@ripaojiedian
-  - 13,14|香港3|@ripaojiedian
-  - 11|WiFi-@V2rayAlpha--7
-  - 11|WiFi-@V2rayAlpha--6
-  - 11|All--@V2rayAlpha--3
-  - '11|🇳🇱 - NL - @freeOnlineVPN #16'
-  - 15|IQ_speednode_0010
-  - '11|🇳🇱 - NL - @freeOnlineVPN #4'
-  - 13,14|新加坡3|@ripaojiedian
-  - 15|US_speednode_0062
-  - '11|@V2rayNG3 #10'
-  - 13,14,15|CN_speednode_0003
-  - 11|v2raybluecrystal2-hou
-  - 15|US_speednode_0059
   - 10|@NoForcedheaven
-  - '11|@sunflowerplato🌻 #4'
-  - 11|All--@V2rayAlpha--2
+  - 11|https://t.me/Selinc
+  - '11|@V2rayNG3 #16'
+  - 11|All-@V2rayAlpha--1
+  - '10|Channel id: @ShadowProxy66🇺🇸'
+  - '11|All-@V2rayAlpha--2 #1'
+  - 11|@Mr_Config_Group✌️
+  - 11|v2raybluecrystal2-tur
+  - 13|🇭🇰 香港6|@ripaojiedian
+  - '11|v2raybluecrystal2 #1'
+  - '11|🇳🇱 - NL - @freeOnlineVPN #1'
+  - 11|All-@V2rayAlpha--10
+  - 11|All--@V2ray_Alpha-1
+  - '11|🇳🇱 - NL - @freeOnlineVPN #8'
+  - '11|@V2rayNG3 #10'
+  - 10,11|🇺🇲@FreakConfig
+  - '11|MCi--@IRAN_V2RAY1 #1'
+  - '11|v2raybluecrystal #1'
+  - 11|MCI-@V2rayAlpha--2
+  - 11|All--@V2rayAlpha--7
+  - '11| @vistav2ray  👈کانا '
+  - 11|v2raybluecrystal3-la
+  - '11|🇳🇱 - NL - @freeOnlineVPN #11'
+  - '11|@V2rayNG3 #18'
+  - 13,14|新加坡2|@ripaojiedian
+  - '11|v2raybluecrystal3 #1'
+  - '11|@V2rayNG3 #1'
+  - '11|MCi--@IRAN_V2RAY1 #3'
+  - 11|All-@V2rayAlpha--11
+  - '11|@meli_proxyy #4'
+  - 11|v2raybluecrystal-ind
+  - 11|کای  یش ر ن را💎 Config_Rayegan...
+  - 13,14|日本3|@ripaojiedian
+  - 11|All-@V2rayAlpha--6
+  - 11|All-@V2rayAlpha--3
+  - 11|@Selinc
+  - '10|Channel id: @ShadowProxy66🇺🇸 #2'
+  - 11|telegram-@ISVvpn
+  - 11|v2raybluecrystal2-la
+  - 11|v2raybluecrystal3-hou
+  - 13,14,15|HK_speednode_0004
+  - 11|WiFi-@V2rayAlpha--7
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 11|🇬🇧 - GB - @freeOnlineVPN
+  - '11|All-@V2rayAlpha--8 #2'
+  - '11|@meli_proxyy #3'
+  - '11|DE-telegram-@ISVvpn   :  🇺🇲'
+  - 11|rema2
+  - '11|telegram-@ISVvpn #2'
+  - '11|@V2rayNG3 #12'
+  - '11|@Daily_Configs #2'
+  - 11|v2raybluecrystal3
+  - 11|All--@V2ray_Alpha-2
+  - 13,14|日本|@ripaojiedian
+  - '11|🇸🇪 - SE - @freeOnlineVPN #3'
+  - 11|v2raybluecrystal3-ger
+  - '11|🇳🇱@FreakConfig #1'
+  - '10|Channel id: @ShadowProxy66🇭🇰'
+  - 11|WiFi-@V2rayAlpha--6
+  - 13,14|香港3|@ripaojiedian
+  - 11|All-@V2rayAlpha--15
+  - '11|@V2rayNG3 #13'
+  - 15|US_speednode_0028
+  - '11|🇳🇱 - NL - @freeOnlineVPN #13'
+  - 13,14|美国3|@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
+  - 11|All--@V2rayAlpha--3
+  - 13,14|香港4|@ripaojiedian
+  - '11|🇳🇱 - NL - @freeOnlineVPN #19'
+  - '11|telegram-@ISVvpn #1'
+  - 11|v2raybluecrystal2-hou
+  - '11|All-@V2rayAlpha--7 #1'
+  - 14|香港6|@ripaojiedian
+  - '11|🇳🇱@FreakConfig #5'
+  - '11|🇳🇱 - NL - @freeOnlineVPN #3'
+  - 11|All--@V2rayAlpha--9
+  - 11|@meli_proxyy
+  - '11|@meli_proxyy #2'
+  - '11|@FreakConfig #1'
+  - 11|@sunflowerplato🌻
+  - 13,14|新加坡3|@ripaojiedian
+  - '10,11|🇳🇱 - NL - @freeOnlineVPN #5'
+  - 11|MCi--@IRAN_V2RAY1
+  - '11|@V2rayNG3 #9'
+  - '11|@V2rayNG3 #2'
+  - '11|All-@V2rayAlpha--8 #1'
+  - 11|v2raybluecrystal-hou
+  - 11|rema
+  - 11|MCI-@V2rayAlpha--5
+  - '11|@sunflowerplato🌻 #2'
+  - 11|@V2rayNG3
+  - 11|All-@V2rayAlpha--5
+  - '11|🇳🇱 - NL - @freeOnlineVPN #17'
+  - 11|v2raybluecrystal-la
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1579,25 +1300,18 @@ proxy-groups:
 - name: 🇯🇵 日本
   proxies:
   - 13,14|日本|@ripaojiedian
-  - 13,14,15|CN_speednode_0003
+  - 13,14|日本2|@ripaojiedian
   - 13,14|日本3|@ripaojiedian
-  - 15|JP_speednode_0020
   type: select
 - name: 🇺🇸 美国
   proxies:
+  - '10|Channel id: @ShadowProxy66🇺🇸'
   - 10,11|🇺🇲@FreakConfig
-  - '10|Channel id: @ShadowProxy66🇺🇸 #1'
+  - '10|Channel id: @ShadowProxy66🇺🇸 #2'
   - 13,14|美国|@ripaojiedian
   - 13,14|美国2|@ripaojiedian
   - 13,14|美国3|@ripaojiedian
-  - 15|US_speednode_0056
-  - 15|US_speednode_0057
-  - 15|US_speednode_0058
-  - 15|US_speednode_0059
-  - 15|US_speednode_0060
-  - 15|US_speednode_0061
-  - 15|US_speednode_0062
-  - 15|US_speednode_0063
+  - 15|US_speednode_0028
   type: select
 - name: 🇨🇳 台湾
   proxies:
@@ -1605,7 +1319,7 @@ proxy-groups:
   type: select
 - name: 🇨🇳 中国
   proxies:
-  - 15|CN_speednode_0005
+  - REJECT
   type: select
 - name: 🇭🇰 香港
   proxies:
@@ -1614,14 +1328,13 @@ proxy-groups:
   - 13|🇭🇰 香港2|@ripaojiedian
   - 13,14|香港3|@ripaojiedian
   - 13,14|香港4|@ripaojiedian
-  - 13,14,15|HK_speednode_0009
+  - 13,14,15|HK_speednode_0004
   - 13|🇭🇰 香港6|@ripaojiedian
   - 14|香港6|@ripaojiedian
   type: select
 - name: 🇨🇦 加拿大
   proxies:
-  - 15|CA_speednode_0001
-  - 15|CA_speednode_0002
+  - REJECT
   type: select
 - name: 🇫🇷 法国
   proxies:
@@ -1629,7 +1342,7 @@ proxy-groups:
   type: select
 - name: 🇸🇬 新加坡
   proxies:
-  - 13,14,15|CN_speednode_0004
+  - 13,14|新加坡2|@ripaojiedian
   - 13,14|新加坡3|@ripaojiedian
   type: select
 - name: 🇬🇧 英国
@@ -1638,17 +1351,15 @@ proxy-groups:
   type: select
 - name: 🇰🇷 韩国
   proxies:
-  - 15|KR_speednode_0021
+  - REJECT
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
-  - 15|RU_speednode_0023
-  - 15|RU_speednode_0024
-  - 15|RU_speednode_0025
+  - REJECT
   type: select
 - name: 🇩🇪 德国
   proxies:
-  - '11|DE-telegram-@ISVvpn   :  '
+  - '11|DE-telegram-@ISVvpn   :  🇺🇲'
   type: select
 rules:
 - MATCH,DIRECT
