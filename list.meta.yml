@@ -1,4 +1,4 @@
-# Update: 2025-11-03 05:08
+# Update: 2025-11-03 08:54
 allow-lan: false
 dns:
   enable: true
@@ -965,13 +965,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 13,14|日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 4492
-  server: 36.150.215.236
-  skip-cert-verify: true
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 13|🇭🇰 香港6|@ripaojiedian
@@ -982,6 +975,13 @@ proxies:
   tls: false
   type: vmess
   uuid: de32752c-0661-467e-82d3-35bc740a787f
+- name: 13,14|日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 8112
+  server: 36.150.215.197
+  skip-cert-verify: true
+  type: trojan
 - name: 13,14,15|CN_speednode_0003
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
@@ -994,22 +994,11 @@ proxies:
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
-  port: 3161
+  port: 316
   server: 117.172.176.24
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 13|🇯🇵 日本4|@ripaojiedian
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @ripaojiedian)e9e4816:99990
-    mode: tls
-  port: 2377
-  server: 54.64.148.82
-  tfo: false
-  type: ss
 - name: 13,14,15|CN_speednode_0004
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
@@ -1019,19 +1008,11 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 13,14|新加坡2|@ripaojiedian
-  network: tcp
-  password: bca467b8c15211d189008a93c7519d3b
-  port: 5048
-  server: 160.16.107.37
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 51825
-  server: 36.150.215.197
+  port: 24392
+  server: 36.150.215.236
   skip-cert-verify: true
   type: trojan
 - name: 13,14|美国|@ripaojiedian
@@ -1057,6 +1038,13 @@ proxies:
   server: 36.151.251.47
   skip-cert-verify: true
   type: trojan
+- cipher: aes-256-cfb
+  name: 13|🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.142
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 14|香港6|@ripaojiedian
@@ -1368,147 +1356,146 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - '11|@V2rayNG3 #11'
-  - 11|All-@V2rayAlpha--1
-  - 11|v2raybluecrystal-ind
-  - 11|v2raybluecrystal3-hou
-  - 13|🇯🇵 日本4|@ripaojiedian
-  - '11|@V2rayNG3 #18'
-  - 15|US_speednode_0058
-  - 11|MCi--@IRAN_V2RAY1
-  - '11|@V2rayNG3 #9'
-  - '11|@Daily_Configs #1'
-  - '11|🇳🇱@FreakConfig #4'
-  - '11|@Daily_Configs #2'
-  - 15|US_speednode_0063
-  - 11|v2raybluecrystal3-ind
-  - '11|@V2rayNG3 #16'
-  - 15|RU_speednode_0025
-  - 15|CA_speednode_0002
-  - 11|All-@V2rayAlpha--3
-  - 15|US_speednode_0059
-  - '11|@FreakConfig #1'
-  - 11|v2raybluecrystal-tur
-  - 11|All-@V2ray_Alpha--2
-  - '11|@meli_proxyy #2'
-  - 11|v2raybluecrystal4-tur
-  - 11|v2raybluecrystal2-ind
-  - 13,14|香港3|@ripaojiedian
-  - 11|MCI-@V2rayAlpha--2
-  - '11|🇳🇱@FreakConfig #1'
-  - 11|v2raybluecrystal-hou
-  - 11|WiFi-@V2rayAlpha--7
-  - '11|@V2rayNG3 #2'
-  - 15|KR_speednode_0021
-  - 15|UA_speednode_0028
-  - 11|All--@V2rayAlpha--3
-  - 11|rema2
-  - 15|JP_speednode_0020
-  - '11|All-@V2rayAlpha--8 #2'
-  - '11|MCI-@V2rayAlpha--3 #1'
-  - 11|v2raybluecrystal-ger
-  - 14|香港6|@ripaojiedian
-  - 15|CN_speednode_0005
-  - 13,14|美国3|@ripaojiedian
-  - 11|All--@V2rayAlpha--1
-  - 11|v2raybluecrystal3
-  - '11|All-@V2rayAlpha--6 #1'
-  - '11|🇳🇱@FreakConfig #2'
-  - 11|v2raybluecrystal2-la
-  - 11|All-@V2rayAlpha--10
-  - 13,14|美国|@ripaojiedian
-  - '11|@meli_proxyy #3'
-  - 11|All-@V2rayAlpha--5
-  - 11|v2raybluecrystal
-  - 11|v2raybluecrystal2
-  - 11|All-@V2rayAlpha--17
-  - 11|v2raybluecrystal3-ger
-  - 13,14|新加坡2|@ripaojiedian
-  - 11|v2raybluecrystal2-hou
-  - 11|All--@V2rayAlpha--2
-  - '11|MCI-@V2rayAlpha--1 #1'
-  - 15|CA_speednode_0001
   - '11|telegram-@ISVvpn #1'
-  - '11|@Daily_Configs #4'
-  - 13,14|日本3|@ripaojiedian
-  - 11|All--@V2rayAlpha--9
-  - 11|کای  یش ر ن را💎 Config_Rayegan...
-  - 15|RU_speednode_0023
-  - 13,14,15|CN_speednode_0004
-  - 13,14|日本|@ripaojiedian
-  - '11|@meli_proxyy #4'
-  - 13,14,15|CN_speednode_0003
-  - 11|v2raybluecrystal2-ger
-  - '11|MCi--@IRAN_V2RAY1 #3'
-  - 11|@meli_proxyy
-  - '11|All-@V2rayAlpha--7 #1'
-  - 15|US_speednode_0060
-  - 11|WiFi-@V2rayAlpha--6
-  - 13,14,15|HK_speednode_0009
-  - '11|@V2rayNG3 #13'
-  - 13|tg频道:@ripaojiedian
-  - 11|@Mr_Config_Group✌️
-  - 11|@Selinc
-  - '11| @vistav2ray  👈کانا '
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 11|All-@V2rayAlpha--11
-  - 15|UA_speednode_0027
-  - '11|v2raybluecrystal #1'
-  - 15|IQ_speednode_0010
-  - 15|US_speednode_0062
-  - 11|All-@V2rayAlpha--6
-  - 15|US_speednode_0056
-  - '11|All-@V2rayAlpha--8 #1'
-  - 11|🇺🇲@FreakConfig
-  - '11|All--@V2rayAlpha--5 #1'
-  - 10|@NoForcedheaven
-  - '11|@sunflowerplato🌻 #2'
-  - '11|telegram-@ISVvpn #2'
-  - '11|@Selinc #2'
-  - 13,14|新加坡3|@ripaojiedian
-  - '11|All-@V2rayAlpha--2 #1'
-  - '11|@V2rayNG3 #10'
-  - 11|All-@V2rayAlpha--7
-  - 11|https://t.me/Selinc
-  - 11|All-@V2rayAlpha--16
-  - 15|RU_speednode_0024
-  - 15|US_speednode_0061
-  - 11|usa-telegram-@ISVvpn
-  - 15|LB_speednode_0022
-  - '11|v2raybluecrystal2 #1'
   - '11|MCi--@IRAN_V2RAY1 #1'
-  - 11|@V2rayNG3
-  - 11|v2raybluecrystal-la
-  - 13,14|香港|@ripaojiedian
-  - 11|@Daily_Configs
-  - 11|All--@V2rayAlpha--7
-  - 11|rema
-  - '11|@Selinc #6'
-  - 13,14|美国2|@ripaojiedian
-  - '11|@V2rayNG3 #1'
-  - 11|All--@V2rayAlpha--8
-  - 11|🇳🇱@FreakConfig
+  - 11|All--@V2rayAlpha--2
   - 15|US_speednode_0057
-  - 11|All-@V2rayAlpha--15
-  - '11|@sunflowerplato🌻 #4'
-  - 11|v2raybluecrystal3-la
-  - '11|🇳🇱@FreakConfig #3'
-  - 11|All--@V2ray_Alpha-1
+  - 11|All-@V2rayAlpha--1
+  - 14|香港6|@ripaojiedian
   - 11|v2raybluecrystal2-tur
-  - 15|UA_speednode_0026
-  - '11|@Selinc #5'
-  - '11|v2raybluecrystal3 #1'
-  - 11|MTN--@IRAN_V2RAY1
-  - 13,14|香港4|@ripaojiedian
-  - '11|@IRAN_V2RAY1 #5'
-  - 11|@FreakConfig
-  - '11|@V2rayNG3 #12'
-  - 11|All--@V2ray_Alpha-2
-  - 11|@GVgg#v2raybluecrystal3-tur
-  - 13|🇭🇰 香港6|@ripaojiedian
-  - '11|DE-telegram-@ISVvpn   :  '
-  - 11|telegram-@ISVvpn
+  - 13|tg频道:@ripaojiedian
+  - '11|@Daily_Configs #4'
+  - 11|All-@V2rayAlpha--16
+  - '11|All-@V2rayAlpha--6 #1'
+  - 11|v2raybluecrystal-hou
   - 11|MCI-@V2rayAlpha--5
+  - 11|🇺🇲@FreakConfig
+  - 11|v2raybluecrystal-ind
+  - '11|@V2rayNG3 #11'
+  - 11|usa-telegram-@ISVvpn
+  - 15|US_speednode_0060
+  - 11|@Daily_Configs
+  - 11|All--@V2rayAlpha--1
+  - '11|MCI-@V2rayAlpha--3 #1'
+  - 15|JP_speednode_0020
+  - 11|کای  یش ر ن را💎 Config_Rayegan...
+  - 11|🇳🇱@FreakConfig
+  - '11|@sunflowerplato🌻 #4'
+  - 11|WiFi-@V2rayAlpha--7
+  - 11|MTN--@IRAN_V2RAY1
+  - 11|All--@V2ray_Alpha-1
+  - '11|@meli_proxyy #2'
+  - 11|v2raybluecrystal2-ger
+  - '11|All-@V2rayAlpha--2 #1'
+  - 15|US_speednode_0056
+  - 11|v2raybluecrystal-la
+  - 11|v2raybluecrystal3-ind
+  - 11|All--@V2rayAlpha--3
+  - 13,14|日本3|@ripaojiedian
+  - 13,14,15|CN_speednode_0003
+  - '11|@V2rayNG3 #1'
+  - 15|RU_speednode_0025
+  - 15|UA_speednode_0028
+  - 11|All-@V2rayAlpha--17
+  - 15|CA_speednode_0002
+  - 11|v2raybluecrystal-ger
+  - 13,14|美国|@ripaojiedian
+  - 15|US_speednode_0058
+  - 11|All-@V2rayAlpha--3
+  - 11|WiFi-@V2rayAlpha--6
+  - 13,14|香港|@ripaojiedian
+  - 11|rema
+  - 11|MCI-@V2rayAlpha--2
+  - 13,14|美国2|@ripaojiedian
+  - '11|@meli_proxyy #3'
+  - 11|v2raybluecrystal2-ind
+  - '11|telegram-@ISVvpn #2'
+  - 11|@V2rayNG3
+  - 11|All-@V2ray_Alpha--2
+  - 15|RU_speednode_0023
+  - '11|DE-telegram-@ISVvpn   :  '
+  - 11|All-@V2rayAlpha--7
+  - '11|MCi--@IRAN_V2RAY1 #3'
+  - '11|@meli_proxyy #4'
+  - 11|All--@V2rayAlpha--7
+  - 13,14|香港3|@ripaojiedian
+  - 15|IQ_speednode_0010
+  - '11|v2raybluecrystal2 #1'
+  - 11|All-@V2rayAlpha--6
+  - 11|All--@V2rayAlpha--9
+  - '11|@V2rayNG3 #16'
+  - '11|@Selinc #2'
+  - 11|@Selinc
+  - '11|v2raybluecrystal3 #1'
+  - '11|All--@V2rayAlpha--5 #1'
+  - 13,14|新加坡3|@ripaojiedian
+  - 11|@GVgg#v2raybluecrystal3-tur
+  - 11|All--@V2rayAlpha--8
+  - 11|All-@V2rayAlpha--15
+  - 15|US_speednode_0061
+  - 11|MCi--@IRAN_V2RAY1
+  - '11|@Daily_Configs #1'
+  - 15|UA_speednode_0026
+  - '11|@V2rayNG3 #2'
+  - 11|All-@V2rayAlpha--10
+  - '11|🇳🇱@FreakConfig #4'
+  - 11|v2raybluecrystal3-la
+  - 15|US_speednode_0062
+  - 13,14|日本|@ripaojiedian
+  - '11|@Selinc #6'
+  - 11|v2raybluecrystal2-hou
+  - 15|KR_speednode_0021
+  - 11|v2raybluecrystal-tur
+  - 11|https://t.me/Selinc
+  - '11|🇳🇱@FreakConfig #2'
+  - '11|🇳🇱@FreakConfig #3'
+  - 11|@Mr_Config_Group✌️
+  - '11|All-@V2rayAlpha--7 #1'
+  - 13,14,15|CN_speednode_0004
+  - 11|@FreakConfig
+  - '11|v2raybluecrystal #1'
+  - '11|@Selinc #5'
+  - 15|UA_speednode_0027
+  - 13,14|美国3|@ripaojiedian
+  - 11|All-@V2rayAlpha--5
+  - 15|US_speednode_0063
+  - '11|@sunflowerplato🌻 #2'
+  - 13,14|香港4|@ripaojiedian
+  - '11| @vistav2ray  👈کانا '
+  - 15|CA_speednode_0001
+  - 15|LB_speednode_0022
+  - 15|US_speednode_0059
+  - 11|v2raybluecrystal3
+  - 11|All-@V2rayAlpha--11
+  - 13|🇭🇰 香港6|@ripaojiedian
+  - 10|@NoForcedheaven
+  - '11|@V2rayNG3 #9'
+  - 11|v2raybluecrystal3-hou
+  - 11|telegram-@ISVvpn
+  - 13|🇻🇳 越南|@ripaojiedian
+  - 11|v2raybluecrystal2
+  - '11|All-@V2rayAlpha--8 #2'
+  - 11|v2raybluecrystal
+  - 13,14,15|HK_speednode_0009
+  - '11|@V2rayNG3 #12'
+  - 11|rema2
+  - 11|@meli_proxyy
+  - '11|@V2rayNG3 #13'
+  - 11|v2raybluecrystal3-ger
+  - '11|🇳🇱@FreakConfig #1'
+  - 11|All--@V2ray_Alpha-2
+  - '11|MCI-@V2rayAlpha--1 #1'
+  - 11|v2raybluecrystal2-la
+  - '11|@IRAN_V2RAY1 #5'
+  - '11|@FreakConfig #1'
+  - 15|CN_speednode_0005
+  - '11|All-@V2rayAlpha--8 #1'
+  - '11|@V2rayNG3 #18'
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - '11|@Daily_Configs #2'
+  - 15|RU_speednode_0024
+  - 11|v2raybluecrystal4-tur
+  - '11|@V2rayNG3 #10'
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1567,7 +1554,6 @@ proxy-groups:
   - 13,14|日本|@ripaojiedian
   - 13,14,15|CN_speednode_0003
   - 13,14|日本3|@ripaojiedian
-  - 13|🇯🇵 日本4|@ripaojiedian
   - 15|JP_speednode_0020
   type: select
 - name: 🇺🇸 美国
@@ -1614,7 +1600,6 @@ proxy-groups:
 - name: 🇸🇬 新加坡
   proxies:
   - 13,14,15|CN_speednode_0004
-  - 13,14|新加坡2|@ripaojiedian
   - 13,14|新加坡3|@ripaojiedian
   type: select
 - name: 🇬🇧 英国
