@@ -1,4 +1,4 @@
-# Update: 2025-11-06 11:41
+# Update: 2025-11-06 14:16
 allow-lan: false
 dns:
   enable: true
@@ -1128,86 +1128,257 @@ proxies:
   tls: false
   type: vmess
   uuid: 841550b4-d4bf-4e3e-de9c-cff7baa47df3
-- name: 15|CN_speednode_0030
-  password: d0d86fb6-7597-4382-8bd8-773d0cd26e59
-  port: 24100
+- flow: xtls-rprx-vision
+  name: 15|CA_speednode_0001
+  port: 40106
+  reality-opts:
+    public-key: gqmHb9i4USmQ78auzhAFJMQIrUpnq8QaykJgnjHDTBg
+    short-id: f44fd3dd
+  server: 132.145.99.18
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: dcdd09ad-4519-46f7-8107-4c4290a9b2a3
+- name: 15|CN_speednode_0002
+  password: 5a27a43b-c50f-4374-85b0-300c4e0a77f2
+  port: 41300
+  server: n001.xunxunmimisbs.sbs
+  skip-cert-verify: true
+  sni: jp01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0005
+  password: 5a27a43b-c50f-4374-85b0-300c4e0a77f2
+  port: 31200
   server: n001.xunxunmimisbs.sbs
   skip-cert-verify: false
-  sni: us01.xxxxyyyysbs.sbs
+  sni: sg01.xxxxyyyysbs.sbs
   type: trojan
   udp: true
-- name: 15|CN_speednode_0036
-  password: BxceQaOe
-  port: 1655
-  server: 36.150.215.231
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
+- name: 15|CN_speednode_0008
+  password: 85c7bad3-d246-4ca4-8ecf-f10317bc1c21
+  port: 21201
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: hk02.xxxxyyyysbs.sbs
   type: trojan
   udp: true
-- name: 15|FR_speednode_0037
-  password: dcbaee4d-2204-11ed-b659-f23c91cfbbc9
-  port: 8443
-  server: fd7388fc-t5bb40-tdvaex-1ixuf.fr.cdnkuaishou.com
-  skip-cert-verify: true
-  tls: true
-  type: http
+- name: 15|CN_speednode_0009
+  password: a7bb66bd-973c-424e-90ef-3f2841b2c44f
+  port: 31200
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: sg01.xxxxyyyysbs.sbs
+  type: trojan
   udp: true
-  username: dcbaee4d-2204-11ed-b659-f23c91cfbbc9
-- name: 15|FR_speednode_0038
-  password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-  port: 8443
-  server: 7b3fb675-t5bb40-t6tn6w-jjv2.fr.cdnkuaishou.com
-  skip-cert-verify: true
-  tls: true
-  type: http
+- name: 15|CN_speednode_0010
+  password: a7bb66bd-973c-424e-90ef-3f2841b2c44f
+  port: 31200
+  server: n001.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: sg01.xxxxyyyysbs.sbs
+  type: trojan
   udp: true
-  username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-- name: 15|HK_speednode_0039
-  password: BxceQaOe
-  port: 443
-  server: 203.198.122.129
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
+- name: 15|CN_speednode_0011
+  password: 85c7bad3-d246-4ca4-8ecf-f10317bc1c21
+  port: 27100
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: in01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0012
+  password: 85c7bad3-d246-4ca4-8ecf-f10317bc1c21
+  port: 28300
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: tai01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0013
+  password: 85c7bad3-d246-4ca4-8ecf-f10317bc1c21
+  port: 28200
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: vn01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0014
+  password: a7bb66bd-973c-424e-90ef-3f2841b2c44f
+  port: 28200
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: vn01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0015
+  password: 5a27a43b-c50f-4374-85b0-300c4e0a77f2
+  port: 22100
+  server: n001.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: kr01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0016
+  password: 85c7bad3-d246-4ca4-8ecf-f10317bc1c21
+  port: 31200
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: sg01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0017
+  password: 85c7bad3-d246-4ca4-8ecf-f10317bc1c21
+  port: 28200
+  server: n001.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: vn01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0018
+  password: a7bb66bd-973c-424e-90ef-3f2841b2c44f
+  port: 28300
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: tai01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0020
+  password: 5a27a43b-c50f-4374-85b0-300c4e0a77f2
+  port: 22100
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: kr01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0022
+  password: a7bb66bd-973c-424e-90ef-3f2841b2c44f
+  port: 28200
+  server: n001.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: vn01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0023
+  password: 5a27a43b-c50f-4374-85b0-300c4e0a77f2
+  port: 31200
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: sg01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0024
+  password: 85c7bad3-d246-4ca4-8ecf-f10317bc1c21
+  port: 26100
+  server: n001.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: fr01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0025
+  password: 85c7bad3-d246-4ca4-8ecf-f10317bc1c21
+  port: 26100
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: fr01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0026
+  password: 5a27a43b-c50f-4374-85b0-300c4e0a77f2
+  port: 23100
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: uk01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0027
+  password: 5a27a43b-c50f-4374-85b0-300c4e0a77f2
+  port: 27100
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: in01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0028
+  password: 5a27a43b-c50f-4374-85b0-300c4e0a77f2
+  port: 28300
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: tai01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0029
+  password: 5a27a43b-c50f-4374-85b0-300c4e0a77f2
+  port: 23100
+  server: n001.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: uk01.xxxxyyyysbs.sbs
   type: trojan
   udp: true
 - flow: xtls-rprx-vision
-  name: 15|US_speednode_0045
-  port: 17597
-  server: usvless.yydzx.xyz
-  servername: usvless.yydzx.xyz
+  name: 15|LB_speednode_0031
+  port: 443
+  reality-opts:
+    public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
+    short-id: 07e904766d29b958
+  server: 77.110.119.225
+  servername: st.ozone.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
-- name: 15|US_speednode_0048
-  network: ws
-  port: 2095
-  server: linux.do
-  servername: fangbinxingnmsl.pusytroller.cf
+  uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 15|RU_speednode_0032
+  port: 30866
+  reality-opts:
+    public-key: RQGgenaHaaros5JI8XOnAuv4k7t43Gug_mpHjQTRdjE
+    short-id: a242c9aa
+  server: g72oiqhd.tun.nodeflex.cc
+  servername: www.varejaodasmaquinas.com
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fangbinxingnmsl.pusytroller.cf
-    path: /
-- name: 15|US_speednode_0049
-  network: ws
-  port: 2095
-  server: www.npmjs.com
-  servername: fangbinxingnmsl.pusytroller.cf
+  uuid: 1922fd72-8ebf-44f8-86ea-a032be1d26d7
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 15|RU_speednode_0033
+  port: 30865
+  reality-opts:
+    public-key: RQGgenaHaaros5JI8XOnAuv4k7t43Gug_mpHjQTRdjE
+    short-id: a242c9aa
+  server: g72oiqhd.tun.nodeflex.cc
+  servername: www.varejaodasmaquinas.com
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: d43bc5b9-21f8-42a7-adf8-8db943de75eb
+- name: 15|TW_speednode_0034
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 15|US_speednode_0036
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: true
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: fangbinxingnmsl.pusytroller.cf
-    path: /
+      Host: epge.muarua.filegear-sg.me
+    path: /?ed=2560
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -1219,140 +1390,160 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|越南|@ripaojiedian
-  - '11|🇳🇱 - NL - @freeOnlineVPN #11'
-  - 11|v2raybluecrystal3
-  - '11|@Selinc #5'
-  - '11|🇳🇱@FreakConfig #4'
-  - 11|v2raybluecrystal2-hou
-  - 10,11|🇺🇲@FreakConfig
-  - 11|telegram-@ISVvpn
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - '11|@Selinc #6'
-  - 13,14|日本3|@ripaojiedian
-  - 15|FR_speednode_0037
-  - '11|@V2rayNG3 #9'
-  - 11|@V2rayNG3
-  - 11|WiFi-@V2rayAlpha--6
-  - 11|All-@V2rayAlpha--1
-  - 13,14|香港|@ripaojiedian
-  - 11|🇬🇧 - GB - @freeOnlineVPN
-  - 13|🇻🇳 越南|@ripaojiedian
-  - '11|🇸🇪 - SE - @freeOnlineVPN #3'
-  - 11|@sunflowerplato
-  - 13,14|香港4|@ripaojiedian
-  - 11|usa-telegram-@ISVvpn
-  - 11|MCI-@V2rayAlpha--5
-  - 11|v2raybluecrystal2-ger
-  - 11|MCI-@V2rayAlpha--2
-  - 11|v2raybluecrystal3-ger
-  - '11|🇺🇲@FreakConfig #1'
   - 13|tg频道:@ripaojiedian
-  - 11|کای  یش ر ن را💎 Config_Rayegan...
-  - 13,14|新加坡3|@ripaojiedian
-  - '11|All-@V2rayAlpha--2 #1'
-  - '11|@sunflowerplato🌻 #3'
-  - '10|Channel id: @ShadowProxy66'
-  - 11|All--@V2ray_Alpha-2
+  - 15|CN_speednode_0013
+  - 11|rema
+  - 11|v2raybluecrystal3-la
   - '11|@V2rayNG3 #12'
-  - '11|DE-telegram-@ISVvpn   :  🇺🇲'
+  - 10|@NoForcedheaven
+  - 11|v2raybluecrystal2-ger
+  - 11|🇬🇧 - GB - @freeOnlineVPN
+  - '11|@V2rayNG3 #1'
+  - 15|CN_speednode_0005
   - '11|@sunflowerplato🌻 #2'
-  - 15|FR_speednode_0038
-  - '11|🇳🇱@FreakConfig #3'
-  - 13|🇭🇰 香港6|@ripaojiedian
-  - '11|@FreakConfig #1'
-  - '11|@V2rayNG3 #13'
-  - 11|v2raybluecrystal4-tur
-  - '10,11|🇳🇱 - NL - @freeOnlineVPN #5'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #12'
-  - 11|🇳🇱@FreakConfig
-  - 11|@Mr_Config_Group✌️
-  - 11|All-@V2rayAlpha--15
-  - 11|v2raybluecrystal3-ind
-  - '11|@sunflowerplato🌻 #4'
+  - 13,14|香港3|@ripaojiedian
+  - 13,14|新加坡2|@ripaojiedian
+  - 15|CN_speednode_0018
+  - 15|TW_speednode_0034
+  - 11|v2raybluecrystal-la
   - 11|WiFi-@V2rayAlpha--7
+  - '11|🇳🇱@FreakConfig #3'
+  - 11|All--@V2rayAlpha--1
+  - 15|CN_speednode_0012
+  - 15|CN_speednode_0022
+  - 11|@Daily_Configs
+  - 11|v2raybluecrystal4-tur
+  - '11|@sunflowerplato🌻 #4'
+  - 11|v2raybluecrystal3-hou
+  - 13|🇯🇵 日本4|@ripaojiedian
+  - 15|CN_speednode_0017
+  - '11|@V2rayNG3 #18'
+  - 15|CN_speednode_0024
+  - 11|@Mr_Config_Group✌️
+  - 11|v2raybluecrystal-ger
+  - 15|CN_speednode_0014
+  - 11|v2raybluecrystal-ind
+  - 13,14|日本3|@ripaojiedian
+  - 11|v2raybluecrystal2-ind
+  - 11|کای  یش ر ن را💎 Config_Rayegan...
+  - 11|All-@V2rayAlpha--15
+  - 15|US_speednode_0036
+  - 11|https://t.me/Selinc
+  - '11|MCi--@IRAN_V2RAY1 #3'
+  - 15|CN_speednode_0010
+  - '11|@V2rayNG3 #9'
+  - 11|MCI-@V2rayAlpha--2
+  - 11|v2raybluecrystal2-tur
+  - 11|@sunflowerplato🌻
+  - '11|v2raybluecrystal2 #1'
+  - '11|@V2rayNG3 #11'
+  - 11|usa-telegram-@ISVvpn
+  - '11|🇳🇱@FreakConfig #1'
   - 11|v2raybluecrystal-hou
-  - '11|telegram-@ISVvpn #2'
-  - 11|All--@V2rayAlpha--2
+  - 11|v2raybluecrystal2
+  - '11|@Selinc #6'
+  - '11|@V2rayNG3 #16'
+  - 11|All--@V2rayAlpha--9
+  - '11|🇳🇱 - NL - @freeOnlineVPN #3'
+  - '11|🇺🇲@FreakConfig #2'
+  - 11|@FreakConfig
+  - 11|All-@V2rayAlpha--6
+  - 13,14|新加坡|@ripaojiedian
+  - 11|All--@V2ray_Alpha-2
+  - 11|WiFi-@V2rayAlpha--6
+  - '11|@Selinc #2'
+  - '11|@IRAN_V2RAY1 #5'
+  - 13,14|新加坡3|@ripaojiedian
+  - '10|Channel id: @ShadowProxy66🇺🇸 #2'
+  - '11|All-@V2rayAlpha--2 #1'
+  - 15|CN_speednode_0016
+  - 11|All--@V2rayAlpha--3
+  - 11|v2raybluecrystal3
+  - 15|CN_speednode_0008
   - 13,14|美国2|@ripaojiedian
   - '11|@V2rayNG3 #2'
-  - '11|All-@V2rayAlpha--6 #1'
-  - 13,14|新加坡|@ripaojiedian
-  - 11|All--@V2rayAlpha--9
-  - 11|v2raybluecrystal3-la
-  - 11|v2raybluecrystal2-tur
-  - 11|All-@V2rayAlpha--7
-  - 11|rema
-  - '11|@V2rayNG3 #18'
-  - 11|v2raybluecrystal2-ind
-  - '11|MCi--@IRAN_V2RAY1 #1'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #1'
-  - '10|Channel id: @ShadowProxy66🇺🇸'
-  - '11|MCi--@IRAN_V2RAY1 #3'
-  - 15|US_speednode_0045
-  - '11|v2raybluecrystal3 #1'
-  - 15|US_speednode_0049
-  - 15|CN_speednode_0036
-  - 15|CN_speednode_0030
-  - '11|All-@V2rayAlpha--8 #1'
-  - 13,14|日本2|@ripaojiedian
-  - 11|v2raybluecrystal-ind
-  - 11|v2raybluecrystal-la
-  - 11|https://t.me/Selinc
-  - 13,14|香港5|@ripaojiedian
-  - '11|@Selinc #2'
-  - 11|All-@V2ray_Alpha--2
-  - 11|All-@V2rayAlpha--6
+  - 11|@sunflowerplato
   - 13|🇰🇷 韩国|@ripaojiedian
-  - 15|HK_speednode_0039
-  - 11|@Daily_Configs
-  - '11|🇳🇱 - NL - @freeOnlineVPN #3'
-  - 11|All-@V2rayAlpha--11
-  - '11| @vistav2ray  👈کانا '
-  - 13,14|美国3|@ripaojiedian
-  - 11|@sunflowerplato🌻
-  - 11|MCi--@IRAN_V2RAY1
-  - 10|@NoForcedheaven
-  - 11|v2raybluecrystal2
-  - 14|香港6|@ripaojiedian
-  - 11|All--@V2rayAlpha--7
-  - '10|Channel id: @ShadowProxy66🇭🇰'
-  - 11|@FreakConfig
-  - 11|All--@V2rayAlpha--3
-  - '11|v2raybluecrystal #1'
-  - 14|日本4|@ripaojiedian
-  - 11|v2raybluecrystal
-  - '11|All-@V2rayAlpha--5 #1'
-  - 13,14|美国|@ripaojiedian
-  - '11|🇺🇲@FreakConfig #2'
-  - '11|🇸🇪 - SE - @freeOnlineVPN #1'
-  - '11|telegram-@ISVvpn #1'
-  - '11|@V2rayNG3 #10'
-  - 11|@Selinc
-  - 14|韩国|@ripaojiedian
-  - '11|@V2rayNG3 #1'
-  - 11|All--@V2rayAlpha--1
-  - '11|@V2rayNG3 #16'
-  - 13,14|新加坡2|@ripaojiedian
-  - '11|@V2rayNG3 #11'
-  - '10|Channel id: @ShadowProxy66🇺🇸 #2'
-  - 13|🇯🇵 日本4|@ripaojiedian
-  - 13,14|日本|@ripaojiedian
+  - 15|CN_speednode_0009
+  - 15|CN_speednode_0027
+  - 11|All--@V2rayAlpha--2
+  - '10|Channel id: @ShadowProxy66'
+  - 15|CN_speednode_0015
   - 11|All-@V2rayAlpha--3
-  - 13,14|香港3|@ripaojiedian
-  - 11|v2raybluecrystal2-la
-  - 11|rema2
-  - 11|v2raybluecrystal-tur
-  - 11|All-@V2rayAlpha--17
-  - '11|🇺🇲@FreakConfig #3'
-  - 15|US_speednode_0048
-  - 11|v2raybluecrystal3-hou
-  - 11|@GVgg#v2raybluecrystal3-tur
-  - '11|@IRAN_V2RAY1 #5'
-  - '11|🇳🇱@FreakConfig #1'
+  - 11|telegram-@ISVvpn
+  - 11|All-@V2rayAlpha--11
   - 11|All--@V2ray_Alpha-1
-  - '11|v2raybluecrystal2 #1'
-  - 11|v2raybluecrystal-ger
+  - 13,14|美国|@ripaojiedian
+  - 11|All-@V2rayAlpha--7
+  - '11|@V2rayNG3 #13'
+  - 14|香港6|@ripaojiedian
+  - '11|v2raybluecrystal #1'
+  - 11|v2raybluecrystal2-hou
+  - 13,14|日本|@ripaojiedian
+  - '10,11|🇳🇱 - NL - @freeOnlineVPN #5'
+  - 14|韩国|@ripaojiedian
+  - 15|CN_speednode_0011
+  - '11|All-@V2rayAlpha--6 #1'
+  - '11| @vistav2ray  👈کانا '
+  - '11|@FreakConfig #1'
+  - 11|🇳🇱@FreakConfig
+  - '11|@Selinc #5'
+  - '11|v2raybluecrystal3 #1'
+  - '11|🇳🇱 - NL - @freeOnlineVPN #11'
+  - 15|CA_speednode_0001
+  - 13|🇭🇰 香港6|@ripaojiedian
+  - 11|All-@V2rayAlpha--1
+  - 15|CN_speednode_0020
+  - 11|v2raybluecrystal2-la
+  - 11|MCi--@IRAN_V2RAY1
+  - '11|🇺🇲@FreakConfig #1'
+  - '10|Channel id: @ShadowProxy66🇭🇰'
+  - 11|@GVgg#v2raybluecrystal3-tur
+  - 11|v2raybluecrystal-tur
+  - '11|🇳🇱 - NL - @freeOnlineVPN #12'
+  - '11|🇳🇱 - NL - @freeOnlineVPN #1'
+  - 11|All-@V2rayAlpha--17
+  - '11|🇳🇱@FreakConfig #4'
+  - 11|rema2
+  - 15|RU_speednode_0033
+  - 15|LB_speednode_0031
+  - 11|MCI-@V2rayAlpha--5
+  - 13,14|香港4|@ripaojiedian
+  - 15|CN_speednode_0028
+  - 13,14|香港|@ripaojiedian
+  - '11|MCi--@IRAN_V2RAY1 #1'
+  - 11|All--@V2rayAlpha--7
+  - '11|@sunflowerplato🌻 #3'
+  - 13,14|美国3|@ripaojiedian
+  - 11|@V2rayNG3
+  - '11|@V2rayNG3 #10'
+  - 15|CN_speednode_0029
+  - '11|All-@V2rayAlpha--5 #1'
+  - 11|All-@V2ray_Alpha--2
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
+  - 11|v2raybluecrystal3-ger
+  - 11|v2raybluecrystal3-ind
+  - '11|DE-telegram-@ISVvpn   :  🇺🇲'
+  - 15|CN_speednode_0025
+  - 14|越南|@ripaojiedian
+  - '11|🇸🇪 - SE - @freeOnlineVPN #3'
+  - 11|@Selinc
+  - '11|telegram-@ISVvpn #1'
+  - 13|🇻🇳 越南|@ripaojiedian
+  - 15|RU_speednode_0032
+  - 15|CN_speednode_0023
+  - '10|Channel id: @ShadowProxy66🇺🇸'
+  - 13,14|香港5|@ripaojiedian
+  - 14|日本4|@ripaojiedian
+  - 15|CN_speednode_0026
+  - '11|🇸🇪 - SE - @freeOnlineVPN #1'
+  - 11|v2raybluecrystal
+  - 10,11|🇺🇲@FreakConfig
+  - '11|All-@V2rayAlpha--8 #1'
+  - 15|CN_speednode_0002
+  - '11|telegram-@ISVvpn #2'
+  - '11|🇺🇲@FreakConfig #3'
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1422,18 +1613,36 @@ proxy-groups:
   - 13,14|美国|@ripaojiedian
   - 13,14|美国2|@ripaojiedian
   - 13,14|美国3|@ripaojiedian
-  - 15|US_speednode_0045
-  - 15|US_speednode_0048
-  - 15|US_speednode_0049
+  - 15|US_speednode_0036
   type: select
 - name: 🇨🇳 台湾
   proxies:
-  - REJECT
+  - 15|TW_speednode_0034
   type: select
 - name: 🇨🇳 中国
   proxies:
-  - 15|CN_speednode_0030
-  - 15|CN_speednode_0036
+  - 15|CN_speednode_0002
+  - 15|CN_speednode_0005
+  - 15|CN_speednode_0008
+  - 15|CN_speednode_0009
+  - 15|CN_speednode_0010
+  - 15|CN_speednode_0011
+  - 15|CN_speednode_0012
+  - 15|CN_speednode_0013
+  - 15|CN_speednode_0014
+  - 15|CN_speednode_0015
+  - 15|CN_speednode_0016
+  - 15|CN_speednode_0017
+  - 15|CN_speednode_0018
+  - 15|CN_speednode_0020
+  - 15|CN_speednode_0022
+  - 15|CN_speednode_0023
+  - 15|CN_speednode_0024
+  - 15|CN_speednode_0025
+  - 15|CN_speednode_0026
+  - 15|CN_speednode_0027
+  - 15|CN_speednode_0028
+  - 15|CN_speednode_0029
   type: select
 - name: 🇭🇰 香港
   proxies:
@@ -1445,16 +1654,14 @@ proxy-groups:
   - 13,14|香港5|@ripaojiedian
   - 13|🇭🇰 香港6|@ripaojiedian
   - 14|香港6|@ripaojiedian
-  - 15|HK_speednode_0039
   type: select
 - name: 🇨🇦 加拿大
   proxies:
-  - REJECT
+  - 15|CA_speednode_0001
   type: select
 - name: 🇫🇷 法国
   proxies:
-  - 15|FR_speednode_0037
-  - 15|FR_speednode_0038
+  - REJECT
   type: select
 - name: 🇸🇬 新加坡
   proxies:
@@ -1473,7 +1680,8 @@ proxy-groups:
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
-  - REJECT
+  - 15|RU_speednode_0032
+  - 15|RU_speednode_0033
   type: select
 - name: 🇩🇪 德国
   proxies:
