@@ -1,4 +1,4 @@
-# Update: 2025-11-06 20:21
+# Update: 2025-11-06 23:11
 allow-lan: false
 dns:
   enable: true
@@ -1135,35 +1135,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 841550b4-d4bf-4e3e-de9c-cff7baa47df3
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15|RU_speednode_0007
-  port: 30865
-  reality-opts:
-    public-key: RQGgenaHaaros5JI8XOnAuv4k7t43Gug_mpHjQTRdjE
-    short-id: a242c9aa
-  server: g72oiqhd.tun.nodeflex.cc
-  servername: www.varejaodasmaquinas.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d43bc5b9-21f8-42a7-adf8-8db943de75eb
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 15|RU_speednode_0008
-  port: 30866
-  reality-opts:
-    public-key: RQGgenaHaaros5JI8XOnAuv4k7t43Gug_mpHjQTRdjE
-    short-id: a242c9aa
-  server: g72oiqhd.tun.nodeflex.cc
-  servername: www.varejaodasmaquinas.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1922fd72-8ebf-44f8-86ea-a032be1d26d7
-- name: 15|TW_speednode_0009
+- name: 15|TW_speednode_0008
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -1182,136 +1154,134 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - '11|@IRAN_V2RAY1 #5'
-  - '11|🇸🇪 - SE - @freeOnlineVPN #1'
-  - 11|v2raybluecrystal3-la
-  - '11|All-@V2rayAlpha--5 #1'
-  - '11|telegram-@ISVvpn #2'
-  - 11|v2raybluecrystal2
-  - 11|All--@V2ray_Alpha-2
-  - '11|@Selinc #6'
-  - '10|Channel id: @ShadowProxy66🇺🇸 #2'
-  - 11|All--@V2rayAlpha--1
-  - 13|🇻🇳 越南|@ripaojiedian
-  - 11|@sunflowerplato🌻
-  - 11|@Selinc
-  - '11|DE-telegram-@ISVvpn   :  🇺🇲'
-  - '11|@V2rayNG3 #12'
-  - '11|🇳🇱@FreakConfig #4'
-  - '11|All-@V2rayAlpha--2 #1'
-  - '11|v2raybluecrystal2 #1'
-  - 11|@GVgg#v2raybluecrystal3-tur
-  - 11|v2raybluecrystal2-tur
-  - '11|@Selinc #2'
-  - 11|rema2
-  - 13,14|香港5|@ripaojiedian
-  - 13|🇭🇰 香港6|@ripaojiedian
-  - 11|All--@V2rayAlpha--7
-  - '11|MCi--@IRAN_V2RAY1 #3'
-  - '11|All-@V2rayAlpha--6 #1'
-  - '11|@V2rayNG3 #16'
-  - 11|telegram-@ISVvpn
-  - 11|All-@V2rayAlpha--7
-  - 11|v2raybluecrystal3-hou
-  - 11|@sunflowerplato
-  - 11|All--@V2rayAlpha--2
-  - '11|🇳🇱@FreakConfig #3'
-  - 11|All-@V2rayAlpha--11
-  - '11|🇺🇲@FreakConfig #3'
-  - 13,14|美国2|@ripaojiedian
-  - '11|@Daily_Configs #1'
-  - 13,14|日本2|@ripaojiedian
-  - 11|v2raybluecrystal2-ind
-  - '11|MCi--@IRAN_V2RAY1 #1'
-  - 11|v2raybluecrystal
-  - 11|usa-telegram-@ISVvpn
-  - '10|Channel id: @ShadowProxy66🇭🇰'
-  - 14|日本4|@ripaojiedian
-  - '11|🇺🇲@FreakConfig #2'
-  - 11|All--@V2rayAlpha--8
-  - 11|WiFi-@V2rayAlpha--7
-  - 11|MCI-@V2rayAlpha--5
-  - 10,11|🇺🇲@FreakConfig
-  - 11|🇬🇧 - GB - @freeOnlineVPN
-  - 11|v2raybluecrystal-la
-  - 11|https://t.me/Selinc
-  - 15|RU_speednode_0008
-  - '11|🇳🇱 - NL - @freeOnlineVPN #1'
-  - 13,14|新加坡|@ripaojiedian
-  - 13,14|香港3|@ripaojiedian
-  - 11|v2raybluecrystal3
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 11|MCi--@IRAN_V2RAY1
-  - 13,14|香港4|@ripaojiedian
-  - 11|WiFi-@V2rayAlpha--6
-  - '11|@sunflowerplato🌻 #2'
-  - 14|香港6|@ripaojiedian
-  - '11|@Selinc #5'
-  - 11|@FreakConfig
-  - 13,14|香港|@ripaojiedian
-  - 11|v2raybluecrystal4-tur
-  - 11|کای  یش ر ن را💎 Config_Rayegan...
-  - 11|All-@V2rayAlpha--6
-  - '11|@V2rayNG3 #9'
-  - 14|越南|@ripaojiedian
-  - 11|rema
-  - 11|MCI-@V2rayAlpha--2
-  - 13,14|日本|@ripaojiedian
-  - 11|All--@V2ray_Alpha-1
-  - 11|v2raybluecrystal3-ger
-  - '11|telegram-@ISVvpn #1'
-  - 15|TW_speednode_0009
-  - 15|RU_speednode_0007
-  - 11|@V2rayNG3
-  - 11|All-@V2ray_Alpha--2
-  - '11| @vistav2ray  👈کانا '
-  - 11|v2raybluecrystal2-hou
-  - 11|@Mr_Config_Group✌️
-  - '11|@V2rayNG3 #18'
-  - '10|Channel id: @ShadowProxy66🇺🇸'
-  - '11|@V2rayNG3 #10'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #10'
-  - 11|v2raybluecrystal-hou
-  - '11|🇳🇱@FreakConfig #5'
-  - 13|tg频道:@ripaojiedian
-  - 11|v2raybluecrystal2-la
-  - 11|v2raybluecrystal-tur
-  - '11|All-@V2rayAlpha--8 #1'
-  - 11|@Daily_Configs
-  - 13,14|日本3|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
-  - '11|@sunflowerplato🌻 #4'
-  - 11|All-@V2rayAlpha--3
-  - '10|Channel id: @ShadowProxy66'
-  - '10,11|🇳🇱 - NL - @freeOnlineVPN #4'
-  - '11|@V2rayNG3 #1'
-  - '11|v2raybluecrystal #1'
-  - '11|@FreakConfig #1'
-  - 11|v2raybluecrystal3-ind
-  - 11|All-@V2rayAlpha--17
-  - '11|@V2rayNG3 #11'
-  - 11|v2raybluecrystal-ind
-  - '11|@V2rayNG3 #13'
-  - 11|All--@V2rayAlpha--3
-  - 14|韩国|@ripaojiedian
-  - 11|All--@V2rayAlpha--9
-  - 13|🇰🇷 韩国|@ripaojiedian
-  - '11|v2raybluecrystal3 #1'
-  - 11|v2raybluecrystal-ger
-  - 13,14|美国3|@ripaojiedian
-  - 11|🇳🇱@FreakConfig
-  - '11|🇸🇪 - SE - @freeOnlineVPN #3'
-  - 10|@NoForcedheaven
-  - '11|@sunflowerplato🌻 #3'
-  - '11|🇺🇲@FreakConfig #1'
-  - '11|@V2rayNG3 #2'
-  - 13|🇯🇵 日本4|@ripaojiedian
   - 11|v2raybluecrystal2-ger
-  - 13,14|新加坡3|@ripaojiedian
-  - 11|All-@V2rayAlpha--1
-  - 13,14|新加坡2|@ripaojiedian
-  - 11|All-@V2rayAlpha--15
+  - 11|کای  یش ر ن را💎 Config_Rayegan...
+  - 11|v2raybluecrystal-ger
+  - '11|@V2rayNG3 #1'
+  - '11|🇳🇱@FreakConfig #3'
+  - 11|v2raybluecrystal-ind
+  - 11|MCI-@V2rayAlpha--5
+  - 11|🇳🇱@FreakConfig
+  - '11|telegram-@ISVvpn #2'
+  - 11|All--@V2rayAlpha--8
+  - 11|v2raybluecrystal3-hou
   - '11|🇳🇱@FreakConfig #1'
+  - 11|All-@V2rayAlpha--6
+  - 13,14|香港|@ripaojiedian
+  - '11|🇳🇱 - NL - @freeOnlineVPN #1'
+  - 13,14|美国2|@ripaojiedian
+  - 13|🇭🇰 香港6|@ripaojiedian
+  - '11|All-@V2rayAlpha--8 #1'
+  - 11|@V2rayNG3
+  - '10|Channel id: @ShadowProxy66🇭🇰'
+  - '11|🇸🇪 - SE - @freeOnlineVPN #1'
+  - '11|🇳🇱 - NL - @freeOnlineVPN #10'
+  - '11|🇺🇲@FreakConfig #3'
+  - 11|MCi--@IRAN_V2RAY1
+  - '10|Channel id: @ShadowProxy66🇺🇸 #2'
+  - 13,14|香港5|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - '11|🇳🇱@FreakConfig #4'
+  - 11|All--@V2ray_Alpha-1
+  - 11|v2raybluecrystal
+  - '11|@V2rayNG3 #10'
+  - 11|rema2
+  - 11|v2raybluecrystal3-ger
+  - '11|DE-telegram-@ISVvpn   :  🇺🇲'
+  - '11|@sunflowerplato🌻 #4'
+  - 13,14|香港3|@ripaojiedian
+  - 11|v2raybluecrystal2-ind
+  - '11|@sunflowerplato🌻 #2'
+  - 13,14|日本|@ripaojiedian
+  - '11|@IRAN_V2RAY1 #5'
+  - 11|All--@V2rayAlpha--3
+  - 13,14|新加坡3|@ripaojiedian
+  - '11|MCi--@IRAN_V2RAY1 #3'
+  - '11|@V2rayNG3 #9'
+  - 13|🇯🇵 日本4|@ripaojiedian
+  - 11|All--@V2rayAlpha--1
+  - 11|v2raybluecrystal3
+  - 11|v2raybluecrystal4-tur
+  - 14|越南|@ripaojiedian
+  - 11|All--@V2rayAlpha--9
+  - '11|@V2rayNG3 #18'
+  - 11|All-@V2rayAlpha--1
+  - 11|v2raybluecrystal2-tur
+  - '11|🇺🇲@FreakConfig #2'
+  - 11|v2raybluecrystal3-ind
+  - '11|All-@V2rayAlpha--2 #1'
+  - 11|MCI-@V2rayAlpha--2
+  - 13,14|美国|@ripaojiedian
+  - '11|All-@V2rayAlpha--6 #1'
+  - 11|rema
+  - 11|All-@V2rayAlpha--3
+  - 11|All-@V2rayAlpha--17
+  - 11|v2raybluecrystal-tur
+  - 11|All--@V2rayAlpha--2
+  - 14|香港6|@ripaojiedian
+  - 11|All-@V2rayAlpha--11
+  - '11|telegram-@ISVvpn #1'
+  - 11|All-@V2ray_Alpha--2
+  - 11|@FreakConfig
+  - 11|@GVgg#v2raybluecrystal3-tur
+  - 11|All-@V2rayAlpha--15
+  - 13,14|日本2|@ripaojiedian
+  - 11|v2raybluecrystal2-hou
+  - 13,14|美国3|@ripaojiedian
+  - '10|Channel id: @ShadowProxy66🇺🇸'
+  - '11|@FreakConfig #1'
+  - 11|v2raybluecrystal2-la
+  - 13,14|新加坡|@ripaojiedian
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 13|🇰🇷 韩国|@ripaojiedian
+  - 11|WiFi-@V2rayAlpha--6
+  - '10,11|🇳🇱 - NL - @freeOnlineVPN #4'
+  - 11|All-@V2rayAlpha--7
+  - '11|@V2rayNG3 #12'
+  - '11|@Selinc #5'
+  - 14|韩国|@ripaojiedian
+  - 11|WiFi-@V2rayAlpha--7
+  - '11| @vistav2ray  👈کانا '
+  - '11|v2raybluecrystal2 #1'
+  - 11|@Selinc
+  - 11|@sunflowerplato🌻
+  - 11|v2raybluecrystal-hou
+  - 11|All--@V2rayAlpha--7
+  - 11|telegram-@ISVvpn
+  - 13,14|新加坡2|@ripaojiedian
+  - 13|🇻🇳 越南|@ripaojiedian
+  - 11|usa-telegram-@ISVvpn
+  - '11|@V2rayNG3 #16'
+  - 15|TW_speednode_0008
+  - 10,11|🇺🇲@FreakConfig
+  - '11|@Selinc #2'
+  - '11|MCi--@IRAN_V2RAY1 #1'
+  - 11|v2raybluecrystal3-la
+  - '11|v2raybluecrystal #1'
+  - 11|All--@V2ray_Alpha-2
+  - '10|Channel id: @ShadowProxy66'
+  - '11|@V2rayNG3 #13'
+  - '11|🇳🇱@FreakConfig #5'
+  - '11|All-@V2rayAlpha--5 #1'
+  - 10|@NoForcedheaven
+  - 11|@Mr_Config_Group✌️
+  - 13,14|日本3|@ripaojiedian
+  - '11|🇺🇲@FreakConfig #1'
+  - '11|🇸🇪 - SE - @freeOnlineVPN #3'
+  - 13|tg频道:@ripaojiedian
+  - 14|日本4|@ripaojiedian
+  - 11|v2raybluecrystal-la
+  - '11|@Selinc #6'
+  - '11|@Daily_Configs #1'
+  - '11|@V2rayNG3 #2'
+  - 11|@Daily_Configs
+  - '11|@V2rayNG3 #11'
+  - 11|v2raybluecrystal2
+  - 11|https://t.me/Selinc
+  - '11|v2raybluecrystal3 #1'
+  - 11|@sunflowerplato
+  - '11|@sunflowerplato🌻 #3'
+  - 11|🇬🇧 - GB - @freeOnlineVPN
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1384,7 +1354,7 @@ proxy-groups:
   type: select
 - name: 🇨🇳 台湾
   proxies:
-  - 15|TW_speednode_0009
+  - 15|TW_speednode_0008
   type: select
 - name: 🇨🇳 中国
   proxies:
@@ -1426,8 +1396,7 @@ proxy-groups:
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
-  - 15|RU_speednode_0007
-  - 15|RU_speednode_0008
+  - REJECT
   type: select
 - name: 🇩🇪 德国
   proxies:
