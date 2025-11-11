@@ -1,4 +1,4 @@
-# Update: 2025-11-11 05:09
+# Update: 2025-11-11 08:52
 allow-lan: false
 dns:
   enable: true
@@ -700,7 +700,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 3.9.17.198
-  tfo: false
   type: ss
 - alterId: 2
   cipher: auto
@@ -710,7 +709,6 @@ proxies:
   server: v9.heduian.link
   servername: ''
   skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -731,21 +729,20 @@ proxies:
     tls: true
   port: 443
   server: 103.103.245.158
-  tfo: false
   type: ss
 - name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
-  port: 443
-  server: 58.152.110.25
+  port: 3841
+  server: 221.128.195.13
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1251
-  server: 36.150.215.247
+  port: 443
+  server: 203.198.122.97
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -757,21 +754,11 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰 香港6|@ripaojiedian
-  port: 28034
-  server: 175.29.22.101
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d2540325-9ad6-33d7-be86-259b5bba4ef8
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 881
-  server: 36.150.215.248
+  port: 5156
+  server: 36.150.215.246
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -779,23 +766,32 @@ proxies:
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
   port: 1334
-  server: 117.172.176.22
+  server: 160.16.136.130
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
-  port: 4095
-  server: 117.172.176.22
+  port: 3169
+  server: 160.16.136.130
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|🇰🇷 韩国|@ripaojiedian
+  port: 27578
+  server: 1.32.216.163
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 3b3aff88-2ed2-4c68-bc0f-d1efe4131e2c
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
   port: 2283
-  server: 117.172.176.22
+  server: 160.16.138.24
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -803,53 +799,58 @@ proxies:
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
   port: 2173
-  server: 117.172.176.22
+  server: 160.16.138.24
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 8041
-  server: 36.150.215.248
+  port: 4666
+  server: 36.150.215.147
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
-  port: 5097
-  server: 153.121.44.99
+  port: 674
+  server: 160.16.138.24
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: e4e262d453466988575c397a30562337
-  port: 4173
-  server: 117.172.176.22
+  port: 674
+  server: 160.16.138.24
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14,15|CN_speednode_0012
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 38799
-  server: 36.151.251.38
+  port: 4569
+  server: 116.49.237.130
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
+- cipher: aes-256-cfb
+  name: 13|🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.59
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 14|香港6|@ripaojiedian
+  name: 14|韩国|@ripaojiedian
   network: tcp
-  port: '28034'
-  server: 175.29.22.101
+  port: '27578'
+  server: 1.32.216.163
   servername: ''
   tls: false
   type: vmess
-  uuid: d2540325-9ad6-33d7-be86-259b5bba4ef8
+  uuid: 3b3aff88-2ed2-4c68-bc0f-d1efe4131e2c
 - flow: xtls-rprx-vision
   name: 15|AT_speednode_0001
   port: 56765
@@ -965,6 +966,14 @@ proxies:
   type: http
   udp: true
   username: e515ce48-fdfa-11ee-9970-f23c91cfbbc9
+- name: 15|CN_speednode_0012
+  password: BxceQaOe
+  port: 38799
+  server: 36.151.251.38
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - flow: xtls-rprx-vision
   name: 15|DE_speednode_0013
   port: 39352
@@ -1174,128 +1183,130 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 11|All-@V2ray_Alpha--3
-  - '10,11|🇳🇱 - NL - @freeOnlineVPN #5'
-  - '11|@V2rayNG3 #12'
-  - 15|CN_speednode_0009
-  - 15|NL_speednode_0025
-  - '11|@V2rayNG3 #17'
-  - 11|MCI-@V2rayAlpha--5
-  - 13,14|香港3|@ripaojiedian
-  - '11|@Selinc #6'
-  - 13,14|香港5|@ripaojiedian
   - 11|@Selinc
-  - 11|https://t.me/Selinc
-  - 15|FI_speednode_0019
-  - 11|All-@V2rayAlpha--5
-  - 11|کای  یش ر ن را💎 Config_Rayegan...
-  - 13|tg频道:@ripaojiedian
   - 11|All-@V2rayAlpha--3
-  - 15|AT_speednode_0004
-  - 15|CA_speednode_0007
-  - 11|All-@V2rayAlpha--1
-  - '11|All-@V2rayAlpha--5 #1'
-  - 11|@Mr_Config_Group✌️
-  - 15|AT_speednode_0005
-  - 11|🇩🇪 - DE - @freeOnlineVPN
-  - 13,14|新加坡2|@ripaojiedian
-  - 11|@V2rayNG3
-  - 11|@V2rayAlpha--All-3
-  - '11|@sunflowerplato🌻 #3'
-  - '11|@sunflowerplato🌻 #4'
-  - 11|All--@V2rayAlpha--2
-  - '11|🇳🇱 - NL - @freeOnlineVPN #8'
   - 11|All--@V2ray_Alpha-2
-  - '11|All-@V2ray_Alpha--2 #1'
-  - '11|All-@V2rayAlpha--8 #1'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #1'
-  - 11|All-@V2rayAlpha--11
-  - 13|🇭🇰 香港6|@ripaojiedian
-  - 13,14|日本2|@ripaojiedian
-  - 11|telegram-@ISVvpn
-  - 15|SI_speednode_0026
-  - '11|@V2rayNG3 #1'
-  - '11|🇸🇪 - SE - @freeOnlineVPN #3'
-  - 11|All-@V2ray_Alpha--6
-  - 15|GB_speednode_0021
-  - 11|@Daily_Configs
-  - '11|@Selinc #2'
-  - '11|telegram-@ISVvpn #1'
-  - 11|All--@V2ray_Alpha-1
-  - 11|All--@V2rayAlpha--1
-  - '11|telegram-@ISVvpn #2'
-  - '11|@Selinc #5'
-  - 11|MCI-@V2rayAlpha--2
-  - '11|@V2rayNG3 #8'
-  - 15|FI_speednode_0016
-  - 11|@sunflowerplato🌻
-  - 13,14|日本3|@ripaojiedian
-  - 11|All-@V2rayAlpha--7
-  - 13,14|新加坡|@ripaojiedian
-  - 11|All-@V2ray_Alpha--7
-  - 15|AT_speednode_0006
-  - 11|@sunflowerplato
-  - 15|FI_speednode_0015
-  - 15|FR_speednode_0020
-  - 11|All-@V2ray_Alpha--1
-  - 14|香港6|@ripaojiedian
-  - 15|GB_speednode_0022
-  - 13,14|美国|@ripaojiedian
-  - 11|All-@V2ray_Alpha--2
-  - '11|@V2rayNG3 #10'
-  - '11|All-@V2rayAlpha--2 #1'
-  - 11|WiFi-@V2rayAlpha--7
-  - 11|All-@V2ray_Alpha--5
-  - 11|All--@V2rayAlpha--9
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 15|US_speednode_0028
-  - 10|@NoForcedheaven
-  - 11|🇳🇱@FreakConfig
-  - 15|DE_speednode_0013
-  - 13,14|新加坡3|@ripaojiedian
-  - '11|🇳🇱@FreakConfig #1'
-  - 15|CN_speednode_0011
-  - '11|🇳🇱 - NL - @freeOnlineVPN #3'
-  - '11|DE-telegram-@ISVvpn   :  '
-  - 15|AT_speednode_0001
-  - 15|AT_speednode_0002
-  - 11|All-@V2ray_Alpha--4
+  - 15|CA_speednode_0007
   - '11|🇳🇱@FreakConfig #4'
-  - 15|US_speednode_0029
-  - '11|🇳🇱@FreakConfig #5'
+  - 15|CN_speednode_0012
+  - 13|tg频道:@ripaojiedian
+  - 13,14|香港3|@ripaojiedian
+  - 11|@Daily_Configs
+  - 13,14|日本3|@ripaojiedian
+  - 11|🇳🇱@FreakConfig
+  - 11|🇩🇪 - DE - @freeOnlineVPN
   - 11|WiFi-@V2rayAlpha--6
-  - 11|MCi--@IRAN_V2RAY1
-  - 15|AT_speednode_0003
-  - '11|🇸🇪 - SE - @freeOnlineVPN #1'
-  - '11|@Daily_Configs #1'
-  - 11|🇬🇧 - GB - @freeOnlineVPN
-  - 15|TR_speednode_0027
-  - 11|All-@V2rayAlpha--17
-  - 11|All--@V2rayAlpha--7
-  - '11|@V2rayNG3 #15'
-  - '11|@sunflowerplato🌻 #1'
-  - 13,14,15|CN_speednode_0012
-  - 15|CN_speednode_0010
+  - 11|All-@V2ray_Alpha--1
   - 13,14|日本|@ripaojiedian
-  - 11|usa-telegram-@ISVvpn
-  - '11|@V2rayNG3 #9'
-  - 13,14|香港|@ripaojiedian
-  - '11|All-@V2rayAlpha--6 #1'
+  - '11|@V2rayNG3 #15'
+  - 13,14|新加坡|@ripaojiedian
+  - 11|All-@V2rayAlpha--15
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 11|All-@V2rayAlpha--1
+  - 13|🇰🇷 韩国|@ripaojiedian
+  - 15|NL_speednode_0025
+  - '11|🇳🇱@FreakConfig #5'
+  - 15|FI_speednode_0016
+  - '11|@Daily_Configs #1'
+  - 13,14|香港5|@ripaojiedian
+  - 13,14|美国3|@ripaojiedian
+  - '11|@sunflowerplato🌻 #1'
+  - '11|@V2rayNG3 #11'
   - 15|FI_speednode_0018
+  - 11|@V2rayNG3
+  - '11|@sunflowerplato🌻 #4'
+  - '11|All-@V2rayAlpha--8 #1'
+  - 11|All--@V2rayAlpha--1
+  - 11|All-@V2ray_Alpha--3
+  - 11|All-@V2ray_Alpha--6
+  - 15|CN_speednode_0010
+  - 15|DE_speednode_0014
+  - 15|FI_speednode_0017
+  - '11|@V2rayNG3 #1'
+  - 13|🇻🇳 越南|@ripaojiedian
+  - 11|MCI-@V2rayAlpha--5
+  - '11|🇳🇱 - NL - @freeOnlineVPN #1'
+  - 11|MCi--@IRAN_V2RAY1
+  - '11|🇸🇪 - SE - @freeOnlineVPN #3'
+  - 11|All-@V2rayAlpha--5
+  - 15|CN_speednode_0009
+  - 15|TR_speednode_0027
+  - 13,14|美国2|@ripaojiedian
+  - 11|@sunflowerplato🌻
+  - '10,11|🇳🇱 - NL - @freeOnlineVPN #5'
+  - 13,14|美国|@ripaojiedian
+  - '11|@Selinc #5'
+  - 15|GB_speednode_0021
+  - 15|AT_speednode_0002
+  - 11|@sunflowerplato
+  - 15|CN_speednode_0011
+  - 15|HK_speednode_0023
+  - '11|@Selinc #6'
+  - '11|@V2rayNG3 #17'
+  - 15|AT_speednode_0001
+  - '11|@sunflowerplato🌻 #3'
+  - 13,14|新加坡2|@ripaojiedian
+  - '11|DE-telegram-@ISVvpn   :  '
+  - '11|🇳🇱 - NL - @freeOnlineVPN #7'
+  - 11|@Mr_Config_Group✌️
+  - 10|@NoForcedheaven
+  - 15|FR_speednode_0020
+  - '11|🇸🇪 - SE - @freeOnlineVPN #1'
+  - '11|telegram-@ISVvpn #1'
+  - 11|@V2rayAlpha--All-3
+  - 11|All-@V2ray_Alpha--5
+  - 15|AT_speednode_0004
+  - 15|US_speednode_0029
+  - '11|@sunflowerplato🌻 #2'
+  - '11|@V2rayNG3 #9'
+  - 11|All-@V2ray_Alpha--7
+  - '11|All-@V2rayAlpha--2 #1'
+  - 11|https://t.me/Selinc
+  - 15|US_speednode_0028
+  - 11|usa-telegram-@ISVvpn
+  - 11|MCI-@V2rayAlpha--2
+  - '11|🇳🇱 - NL - @freeOnlineVPN #3'
+  - '11|MCi--@IRAN_V2RAY1 #1'
+  - '11|@Selinc #2'
+  - 11|All--@V2rayAlpha--2
+  - 15|SI_speednode_0026
+  - 11|All--@V2rayAlpha--3
+  - 11|All-@V2rayAlpha--7
+  - 11|All-@V2ray_Alpha--2
+  - 13,14|日本2|@ripaojiedian
+  - 11|WiFi-@V2rayAlpha--7
+  - '11|🇳🇱 - NL - @freeOnlineVPN #8'
+  - 11|All--@V2rayAlpha--7
+  - 13,14|新加坡3|@ripaojiedian
+  - 15|FI_speednode_0015
+  - '11|@V2rayNG3 #12'
+  - 11|🇬🇧 - GB - @freeOnlineVPN
+  - 11|کای  یش ر ن را💎 Config_Rayegan...
+  - 15|AT_speednode_0005
+  - 11|telegram-@ISVvpn
+  - 11|All-@V2rayAlpha--6
+  - '11|🇳🇱@FreakConfig #1'
+  - 15|FI_speednode_0019
+  - 11|All--@V2ray_Alpha-1
+  - 13,14|香港|@ripaojiedian
+  - '11|@V2rayNG3 #10'
+  - 15|AT_speednode_0003
+  - 11|All-@V2ray_Alpha--4
+  - 15|GB_speednode_0022
+  - 14|韩国|@ripaojiedian
+  - '11|All-@V2rayAlpha--5 #1'
+  - '11|telegram-@ISVvpn #2'
   - 11|@FreakConfig
   - '11|MCi--@IRAN_V2RAY1 #3'
+  - 15|AT_speednode_0006
+  - 11|All-@V2rayAlpha--17
+  - 11|All--@V2rayAlpha--9
+  - '11|@V2rayNG3 #8'
+  - '11|All-@V2ray_Alpha--2 #1'
+  - '11|All-@V2rayAlpha--6 #1'
+  - 11|All-@V2rayAlpha--11
   - 13,14|香港4|@ripaojiedian
-  - 15|FI_speednode_0017
-  - 11|All-@V2rayAlpha--6
-  - '11|🇳🇱 - NL - @freeOnlineVPN #7'
-  - 15|DE_speednode_0014
-  - '11|@V2rayNG3 #11'
-  - '11|MCi--@IRAN_V2RAY1 #1'
-  - 11|All-@V2rayAlpha--15
-  - '11|@sunflowerplato🌻 #2'
-  - 15|HK_speednode_0023
-  - 11|All--@V2rayAlpha--3
-  - 13,14|美国2|@ripaojiedian
+  - 15|DE_speednode_0013
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1359,7 +1370,7 @@ proxy-groups:
   proxies:
   - 13,14|美国|@ripaojiedian
   - 13,14|美国2|@ripaojiedian
-  - 13,14,15|CN_speednode_0012
+  - 13,14|美国3|@ripaojiedian
   - 15|US_speednode_0028
   - 15|US_speednode_0029
   type: select
@@ -1372,6 +1383,7 @@ proxy-groups:
   - 15|CN_speednode_0009
   - 15|CN_speednode_0010
   - 15|CN_speednode_0011
+  - 15|CN_speednode_0012
   type: select
 - name: 🇭🇰 香港
   proxies:
@@ -1380,8 +1392,6 @@ proxy-groups:
   - 13,14|香港3|@ripaojiedian
   - 13,14|香港4|@ripaojiedian
   - 13,14|香港5|@ripaojiedian
-  - 13|🇭🇰 香港6|@ripaojiedian
-  - 14|香港6|@ripaojiedian
   - 15|HK_speednode_0023
   type: select
 - name: 🇨🇦 加拿大
@@ -1406,7 +1416,8 @@ proxy-groups:
   type: select
 - name: 🇰🇷 韩国
   proxies:
-  - REJECT
+  - 13|🇰🇷 韩国|@ripaojiedian
+  - 14|韩国|@ripaojiedian
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
