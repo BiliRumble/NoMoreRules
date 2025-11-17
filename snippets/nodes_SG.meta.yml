@@ -1,19 +1,21 @@
 proxies:
-- name: 14|新加坡|@ripaojiedian
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   port: 5553
   server: 202.181.103.246
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14|新加坡2|@ripaojiedian
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   port: 127
   server: 162.16.131.243
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14|新加坡3|@ripaojiedian
+- name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 3579
