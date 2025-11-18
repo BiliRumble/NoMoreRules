@@ -1,4 +1,4 @@
-# Update: 2025-11-18 20:21
+# Update: 2025-11-18 23:12
 allow-lan: false
 dns:
   enable: true
@@ -1224,123 +1224,36 @@ proxies:
   tls: false
   type: vmess
   uuid: edf4c847-3164-4d63-ab9b-c98acba96f1e
-- flow: xtls-rprx-vision
-  name: 15|AT_speednode_0001
-  port: 26861
-  reality-opts:
-    public-key: IIdE2p3vqHDjHfLrvJXkrLoYpYMJH0R1tacCkHiDtAA
-    short-id: ecc1c4
-  server: shadowshaman.fonixapp.org
-  servername: groww.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- name: 15|CH_speednode_0001
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 194.87.18.124
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
   udp: true
-  uuid: 04db6938-72dc-42b4-a096-cc6a5e8316d2
 - flow: xtls-rprx-vision
-  name: 15|AT_speednode_0002
-  port: 12645
-  reality-opts:
-    public-key: U15vYKJBiI0x1Sltv3qZrtuRoGlw5fIu-jlHfN1hBB4
-    short-id: 3fd623
-  server: graygoat.fonixapp.org
-  servername: smallpdf.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8d5bca78-f49f-4e49-ad7b-bb58da44d40b
-- flow: xtls-rprx-vision
-  name: 15|AT_speednode_0003
-  port: 27274
-  reality-opts:
-    public-key: tK-R4w5CsF0DSBD0ycQcRQLKgYqOi0TBQFZCHmsaa1Q
-    short-id: 992756930320c803
-  server: windrunner.fonixapp.org
-  servername: ilovepdf.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f07cb7d9-36d3-4b65-b4dd-186be58218dd
-- flow: xtls-rprx-vision
-  name: 15|AT_speednode_0004
-  port: 31502
-  reality-opts:
-    public-key: oenAlMhG602prGwOqnAt5yZ55yuDEfZwGZXn-WaxizM
-    short-id: e1814a
-  server: silverzebra.fonixapp.org
-  servername: marmiton.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b20c12e7-f071-4829-94e7-17dc4e43a37a
-- flow: xtls-rprx-vision
-  name: 15|DE_speednode_0005
-  port: 22155
-  reality-opts:
-    public-key: DWplnF7h0HInlj88rSKUTwBti6hH_yFhxEtX3TKZn08
-    short-id: 9ec128
-  server: facelessvoid.fonixapp.org
-  servername: steampowered.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1d83ca4e-9708-4338-b177-403aa258488b
-- name: 15|GB_speednode_0009
-  port: 40721
-  reality-opts:
-    public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
-    short-id: df8611c07d
-  server: 140.238.100.35
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
-- flow: xtls-rprx-vision
-  name: 15|GR_speednode_0010
+  name: 15|GB_speednode_0005
   port: 443
   reality-opts:
-    public-key: 1pX4yQMG3Gji_VeRpJgZ0dCxHafgiK0ul1_Paje38S4
-    short-id: 4395cf86
-  server: 185.242.84.182
-  servername: vk.cc
+    public-key: Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs
+    short-id: 428ef87fd47a3a32
+  server: nl.nodes.rocketnetwork.ru
+  servername: nl.nodes.rocketnetwork.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3c0e49cb-8940-561a-83b8-1efbb17f7cf7
-- flow: xtls-rprx-vision
-  name: 15|LB_speednode_0011
+  uuid: bccbecc9-c1d2-45d1-b3fa-771a19b9831c
+- name: 15|IL_speednode_0006
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
   port: 443
-  reality-opts:
-    public-key: -Bdu8i-HU28Xmx87RMou5okYo8TqfbyZ8Ufs9RodUGE
-    short-id: 097de35e52ec5256
-  server: 77.110.127.105
-  servername: st.ozone.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  server: 45.144.172.243
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
   udp: true
-  uuid: 72239cbc-5a25-411c-b4f5-b9167a10f5e1
-- flow: xtls-rprx-vision
-  name: 15|LB_speednode_0012
-  port: 443
-  reality-opts:
-    public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
-    short-id: 07e904766d29b958
-  server: 77.110.119.225
-  servername: st.ozone.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
-- name: 15|RU_speednode_0013
+- name: 15|RU_speednode_0012
   network: ws
   port: 1443
   server: 81.161.98.228
@@ -1354,6 +1267,22 @@ proxies:
     headers:
       Host: cdn.filterai.ru
     path: /websocketpl
+- name: 15|US_speednode_0013
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 108.165.255.5
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
+- name: 15|US_speednode_0014
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 96.126.190.132
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -1365,157 +1294,153 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 11|All--@V2rayAlpha--9
-  - 13,14|新加坡2|@ripaojiedian
-  - '11|🇳🇱 - NL - @freeOnlineVPN #11'
-  - '11|@sunflowerplato🌻 #4'
-  - '11|@meli_proxyy #1'
-  - '11|🇸🇪 - SE - @freeOnlineVPN #3'
-  - 13,14|香港5|@ripaojiedian
-  - '11|未命名 #1'
-  - '11|@sunflowerplato🌻 #1'
-  - 11|All-@V2ray_Alpha--4
-  - 11|All-@V2ray_Alpha--6
-  - 15|LB_speednode_0011
+  - '11|@Selinc #2'
+  - '11|All--@IRAN_V2RAY1🇺🇸 #3'
+  - 15|US_speednode_0013
   - 11|MCI-IR--@V2rayAlpha-2
-  - '11|💎کانفیگ های بیشتر در چنل تلگرا... #1'
-  - 13,14|香港4|@ripaojiedian
-  - '11|@V2rayNG3 #18'
-  - '11|@sunflowerplato🌻 #3'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #17'
-  - 14|日本4|@ripaojiedian
-  - 11|r♡ya
-  - 13,14|日本3|@ripaojiedian
-  - '11|@Selinc #5'
-  - 11|https://t.me/Selinc
-  - '11|r♡ya #1'
-  - '11|r♡ya #5'
-  - 11|MCI-IR--@V2rayAlpha-3
-  - 11|All--@V2rayAlpha--3
-  - '11|MCi--@IRAN_V2RAY1 #3'
-  - '11|🇪 - DE - @freeOnlineVPN #3'
-  - 13|🇯🇵 日本4|@ripaojiedian
-  - 11|All-@V2rayAlpha--37
-  - '11|@meli_proxyy #24'
-  - 11|MCi--@IRAN_V2RAY1
-  - 11|@sunflowerplato🌻
-  - 11|All--@V2rayAlpha--8
-  - 11|rya
-  - 11|usa-telegram-@ISVvpn
-  - '11|🇳🇱 - NL - @freeOnlineVPN #5'
-  - 15|DE_speednode_0005
-  - '11|🇬🇧 - GB - @freeOnlineVPN #1'
-  - 11|All--@V2rayAlpha--1
-  - 11|telegram-@ISVvpn
-  - 10|@NoForcedheaven
+  - 13,14|美国2|@ripaojiedian
   - 13,14|美国3|@ripaojiedian
+  - '11|@sunflowerplato🌻 #4'
+  - '11|@meli_proxyy #23'
+  - 11|r♡ya
+  - 11|All--@V2rayAlpha--7
+  - 11|All-@V2rayAlpha--38
+  - 11|MCI-IR--@V2rayAlpha-11
+  - '11|@V2rayNG3 #11'
+  - 13,14|香港5|@ripaojiedian
+  - 11|MCI-IR--@V2rayAlpha-14
+  - 11|All--@IRAN_V2RAY1
+  - 11|All-@V2rayAlpha--33
+  - 11|All-@V2ray_Alpha--6
+  - 11|MCI-IR--@V2rayAlpha-4
+  - 11|All-@V2rayAlpha--44
+  - 11|All-@V2ray_Alpha--2
+  - 11|All-@V2ray_Alpha--4
+  - 11|MCi--@IRAN_V2RAY1
+  - '11|🇩🇪 - DE - @freeOnlineVPN #2'
+  - 11|MCI-IR--@V2rayAlpha-8
+  - '11|@sunflowerplato🌻 #3'
+  - 15|IL_speednode_0006
   - 11|All-@V2rayAlpha--6
-  - '11|🇳🇱@FreakConfig #1'
-  - 11|@IRAN_V2RAY1
-  - '11|r♡ya #4'
-  - 11|MCI-IR--@V2rayAlpha-12
-  - 11|All-@V2rayAlpha--3
+  - 11|All--@V2rayAlpha--9
+  - 11|rya
+  - '11|💎کانفیگ های بیشتر در چنل تلگرا... #1'
+  - '11|@V2rayNG3 #13'
+  - 11|All--@V2rayAlpha--2
+  - 13,14|日本|@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
+  - 11|@sunflowerplato
+  - '11|@V2rayNG3 #10'
+  - 11|@V2RayyNGvpn🇱🇷 اراتر ها
+  - '11|🇳🇱 - NL - @freeOnlineVPN #17'
+  - '11|All--@IRAN_V2RAY1🇺🇸 #4'
+  - '11|r♡ya #6'
+  - '11|@meli_proxyy #24'
+  - 11|All-@V2rayAlpha--37
+  - 11|MCI-IR--@V2rayAlpha-9
+  - '11|@V2rayNG3 #1'
+  - 13,14|新加坡3|@ripaojiedian
+  - '11|All--@IRAN_V2RAY1🇺🇸 #1'
+  - '11|telegram-@ISVvpn #2'
+  - '11|MCi--@IRAN_V2RAY1 #3'
+  - '11|All-@V2rayAlpha--8 #2'
+  - 11|MCI-IR--@V2rayAlpha-7
+  - 11|MCI-IR--@V2rayAlpha-16
+  - '11|@V2rayNG3 #16'
+  - 11|All-@V2ray_Alpha--3
+  - '11|🇳🇱 - NL - @freeOnlineVPN #16'
+  - '11|r♡ya #1'
+  - '11|DE-telegram-@ISVvpn   : یا 🇺'
+  - '11|@V2rayNG3 #9'
+  - 13|🇯🇵 日本4|@ripaojiedian
+  - 15|CH_speednode_0001
+  - 11|All-@V2rayAlpha--5
+  - '11|🇸🇪 - SE - @freeOnlineVPN #3'
+  - 11|All--@V2rayAlpha--3
+  - '11|@sunflowerplato🌻 #1'
+  - 11|🇸🇪 - SE - @freeOnlineVPN
+  - '11|🇪 - DE - @freeOnlineVPN #3'
+  - 11|All-@V2rayAlpha--1
+  - 15|US_speednode_0014
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 11|All--@V2rayAlpha-2
   - 13,14|香港|@ripaojiedian
   - 13,14|美国|@ripaojiedian
-  - '11|telegram-@ISVvpn #1'
-  - '11|All--@IRAN_V2RAY1🇺🇸 #1'
-  - '11|@Selinc #6'
-  - 11|All-@V2rayAlpha--1
-  - 13,14|新加坡3|@ripaojiedian
-  - '11|🇳🇱@FreakConfig #2'
-  - 11|MCI-IR--@V2rayAlpha-11
-  - '11|@V2rayNG3 #16'
-  - '11|telegram-@ISVvpn #2'
-  - 11|@sunflowerplato
-  - 11|MCI-IR--@V2rayAlpha-9
-  - 11|MCI-@V2rayAlpha--5
-  - '11|🇩🇪 - DE - @freeOnlineVPN #2'
-  - 11|All-@V2rayAlpha--46
-  - 11|All--@IRAN_V2RAY1
-  - 11|MCI-IR--@V2rayAlpha-8
-  - '11|@Selinc #2'
-  - '11|All--@IRAN_V2RAY1🇺🇸 #2'
-  - 11|@V2RayyNGvpn🇱🇷 اراتر ها
-  - 11|All-@V2rayAlpha--29
-  - 11|کانفیگ ای یش ر ن تلگرام💎 Confi...
-  - 11|All--@V2rayAlpha-2
-  - '11|All--@IRAN_V2RAY1🇺🇸 #3'
   - 13|🇻🇳 越南|@ripaojiedian
-  - 15|AT_speednode_0003
-  - 11|🇳🇱 - NL - @freeOnlineVPN
-  - 11|MCI-IR--@V2rayAlpha-14
-  - 11|MCI-IR--@V2rayAlpha-13
-  - 11| - GB - @freeOnlineVPN
-  - 11|All-@V2rayAlpha--44
-  - 11|All-@V2ray_Alpha--1
-  - '11|🇪 - DE - @freeOnlineVPN #2'
-  - 11|All-@V2rayAlpha--7
-  - 11|All-@V2rayAlpha--11
-  - 11|All-@V2rayAlpha--5
-  - '11|@V2rayNG3 #13'
-  - 13,14|日本|@ripaojiedian
-  - '11|@V2rayNG3 #1'
-  - '11|All--@V2rayAlpha--5 #1'
-  - '11|r♡ya #3'
-  - 11|🇳🇱@FreakConfig
-  - 11|All-@V2ray_Alpha--2
-  - 11|All--@V2rayAlpha-1
-  - 11|未命名
-  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
-  - 11|All-@V2rayAlpha--38
-  - 11|All-@V2ray_Alpha--3
-  - 11|All--@V2rayAlpha--7
-  - 11|MCI-IR--@V2rayAlpha-16
-  - 13,14|新加坡|@ripaojiedian
-  - 11|MCI-IR--@V2rayAlpha-1
-  - '11|🇳🇱 - NL - @freeOnlineVPN #7'
-  - 11|All--@V2rayAlpha--2
-  - 11|All--@V2ray_Alpha-2
-  - '11|DE-telegram-@ISVvpn   : یا 🇺'
-  - '11|All-@V2rayAlpha--5 #1'
   - '11|@V2rayNG3 #2'
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - '11|All-@V2ray_Alpha--2 #1'
-  - 13,14|美国2|@ripaojiedian
-  - 13,14|香港3|@ripaojiedian
-  - 15|AT_speednode_0001
-  - '11|🇳🇱 - NL - @freeOnlineVPN #16'
-  - 11|@Selinc
-  - '11|All-@V2rayAlpha--8 #2'
-  - '11|@V2rayNG3 #9'
-  - 15|RU_speednode_0013
-  - 11|All-@V2rayAlpha--33
-  - '11|All-@V2rayAlpha--2 #1'
-  - '11|@sunflowerplato🌻 #2'
-  - '11|@meli_proxyy #23'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #12'
-  - '11|All--@IRAN_V2RAY1🇺🇸 #4'
-  - '11|MCi--@IRAN_V2RAY1 #1'
-  - 11|MCI-IR--@V2rayAlpha-15
-  - 11|MCI-IR--@V2rayAlpha-7
-  - 15|GB_speednode_0009
-  - 15|AT_speednode_0004
-  - 11|telegram  𝗮
-  - 13,14|日本2|@ripaojiedian
-  - 15|AT_speednode_0002
-  - 11|MCI-IR--@V2rayAlpha-4
-  - '11|r♡ya #6'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #9'
   - 11|ا ا MTMVPN@
-  - 11|All-@V2rayAlpha--42
-  - 15|LB_speednode_0012
-  - 11|MCI-IR--@V2rayAlpha-17
-  - 15|GR_speednode_0010
-  - '11|@V2rayNG3 #10'
-  - 11|All-@V2rayAlpha--43
-  - 13|tg频道:@ripaojiedian
+  - 11|🇳🇱 - NL - @freeOnlineVPN
   - 11|@V2rayNG3
-  - 11|All--@V2ray_Alpha-1
-  - 11|🇸🇪 - SE - @freeOnlineVPN
+  - 11|All-@V2rayAlpha--43
+  - '11|r♡ya #5'
+  - '11|All--@V2rayAlpha--5 #1'
+  - '11|All-@V2ray_Alpha--2 #1'
+  - '11|@Selinc #5'
+  - '11|MCi--@IRAN_V2RAY1 #1'
+  - 11|All--@V2ray_Alpha-2
+  - '11|未命名 #1'
+  - 11|All--@V2rayAlpha-1
+  - 13,14|新加坡|@ripaojiedian
+  - 11|🇳🇱@FreakConfig
+  - 10|@NoForcedheaven
+  - 11|All-@V2rayAlpha--3
+  - 15|GB_speednode_0005
+  - '11|🇳🇱@FreakConfig #2'
+  - '11|r♡ya #3'
+  - 11|MCI-IR--@V2rayAlpha-12
+  - 11|All-@V2rayAlpha--11
+  - 11|MCI-IR--@V2rayAlpha-17
+  - '11|🇳🇱 - NL - @freeOnlineVPN #7'
+  - '11|All--@IRAN_V2RAY1🇺🇸 #2'
+  - 13|tg频道:@ripaojiedian
+  - 11|telegram-@ISVvpn
+  - 11|telegram  𝗮
+  - 11|未命名
+  - 11|All--@V2rayAlpha--1
+  - 13,14|香港3|@ripaojiedian
+  - '11|@meli_proxyy #1'
+  - 11|All-@V2rayAlpha--7
+  - '11|@V2rayNG3 #18'
+  - '11|🇬🇧 - GB - @freeOnlineVPN #1'
+  - 15|RU_speednode_0012
+  - 11|All--@V2rayAlpha--8
+  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
+  - 11|https://t.me/Selinc
+  - 13,14|香港4|@ripaojiedian
+  - '11|@Selinc #6'
+  - 11|MCI-@V2rayAlpha--5
+  - '11|telegram-@ISVvpn #1'
+  - '11|🇳🇱 - NL - @freeOnlineVPN #5'
+  - 11|All-@V2rayAlpha--46
+  - 11|All-@V2rayAlpha--29
+  - 11|@IRAN_V2RAY1
+  - 11|MCI-IR--@V2rayAlpha-1
+  - 11|MCI-IR--@V2rayAlpha-3
+  - '11|All-@V2rayAlpha--2 #1'
   - '11|@V2rayNG3 #12'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #4'
+  - '11|🇳🇱 - NL - @freeOnlineVPN #11'
+  - 11|All--@V2ray_Alpha-1
+  - 11|@sunflowerplato🌻
+  - 13,14|新加坡2|@ripaojiedian
+  - 11| - GB - @freeOnlineVPN
+  - 11|کانفیگ ای یش ر ن تلگرام💎 Confi...
+  - 13,14|日本2|@ripaojiedian
   - 11|MCI-IR--@V2rayAlpha-6
-  - '11|@V2rayNG3 #11'
+  - '11|All-@V2rayAlpha--5 #1'
+  - '11|🇪 - DE - @freeOnlineVPN #2'
+  - '11|🇳🇱 - NL - @freeOnlineVPN #4'
+  - '11|🇳🇱 - NL - @freeOnlineVPN #12'
+  - 11|MCI-IR--@V2rayAlpha-13
+  - 11|MCI-IR--@V2rayAlpha-15
+  - 14|日本4|@ripaojiedian
+  - '11|r♡ya #4'
+  - 11|All-@V2rayAlpha--42
+  - '11|🇳🇱@FreakConfig #1'
+  - '11|@sunflowerplato🌻 #2'
+  - 11|usa-telegram-@ISVvpn
+  - '11|🇳🇱 - NL - @freeOnlineVPN #9'
+  - 11|@Selinc
+  - 11|All-@V2ray_Alpha--1
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1586,6 +1511,8 @@ proxy-groups:
   - 13,14|美国|@ripaojiedian
   - 13,14|美国2|@ripaojiedian
   - 13,14|美国3|@ripaojiedian
+  - 15|US_speednode_0013
+  - 15|US_speednode_0014
   type: select
 - name: 🇨🇳 台湾
   proxies:
@@ -1621,7 +1548,7 @@ proxy-groups:
   proxies:
   - 11| - GB - @freeOnlineVPN
   - '11|🇬🇧 - GB - @freeOnlineVPN #1'
-  - 15|GB_speednode_0009
+  - 15|GB_speednode_0005
   type: select
 - name: 🇰🇷 韩国
   proxies:
@@ -1629,7 +1556,7 @@ proxy-groups:
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
-  - 15|RU_speednode_0013
+  - 15|RU_speednode_0012
   type: select
 - name: 🇩🇪 德国
   proxies:
@@ -1637,7 +1564,6 @@ proxy-groups:
   - '11|🇪 - DE - @freeOnlineVPN #2'
   - '11|🇪 - DE - @freeOnlineVPN #3'
   - '11|🇩🇪 - DE - @freeOnlineVPN #2'
-  - 15|DE_speednode_0005
   type: select
 rules:
 - MATCH,DIRECT

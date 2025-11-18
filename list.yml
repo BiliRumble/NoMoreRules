@@ -1,4 +1,4 @@
-# Update: 2025-11-18 20:21
+# Update: 2025-11-18 23:12
 allow-lan: false
 dns:
   enable: true
@@ -174,6 +174,38 @@ proxies:
   tls: false
   type: vmess
   uuid: edf4c847-3164-4d63-ab9b-c98acba96f1e
+- name: 15|CH_speednode_0001
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 194.87.18.124
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
+- name: 15|IL_speednode_0006
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 45.144.172.243
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
+- name: 15|US_speednode_0013
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 108.165.255.5
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
+- name: 15|US_speednode_0014
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 96.126.190.132
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -185,24 +217,28 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13,14|日本3|@ripaojiedian
-  - 13|🇯🇵 日本4|@ripaojiedian
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 13,14|新加坡2|@ripaojiedian
-  - 13,14|新加坡3|@ripaojiedian
+  - 15|US_speednode_0013
   - 13,14|美国2|@ripaojiedian
+  - 13,14|美国3|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
+  - 13,14|香港5|@ripaojiedian
+  - 13|🇯🇵 日本4|@ripaojiedian
+  - 15|CH_speednode_0001
+  - 13,14|新加坡2|@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
+  - 15|US_speednode_0014
+  - 13|tg频道:@ripaojiedian
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 13,14|香港|@ripaojiedian
+  - 15|IL_speednode_0006
+  - 14|日本4|@ripaojiedian
+  - 13,14|美国|@ripaojiedian
+  - 13|🇻🇳 越南|@ripaojiedian
   - 13,14|香港3|@ripaojiedian
   - 13,14|日本|@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
   - 13,14|香港4|@ripaojiedian
-  - 13,14|香港|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - 13,14|日本2|@ripaojiedian
-  - 13,14|美国3|@ripaojiedian
-  - 13|🇻🇳 越南|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
-  - 14|日本4|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
