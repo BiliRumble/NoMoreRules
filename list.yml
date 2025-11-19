@@ -1,4 +1,4 @@
-# Update: 2025-11-19 20:21
+# Update: 2025-11-19 23:11
 allow-lan: false
 dns:
   enable: true
@@ -61,7 +61,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|香港4|@ripaojiedian
+- name: 13,14,15|HK_speednode_0012
   network: tcp
   password: BxceQaOe
   port: 443
@@ -69,6 +69,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -174,36 +175,12 @@ proxies:
   tls: false
   type: vmess
   uuid: 2a49163d-eaff-38d2-bb0e-5048a031f6b6
-- name: 15|CH_speednode_0001
-  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+- name: 15|HK_speednode_0013
+  password: BxceQaOe
   port: 443
-  server: 194.87.18.124
+  server: 58.152.26.173
   skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-  udp: true
-- name: 15|IL_speednode_0006
-  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
-  port: 443
-  server: 45.144.172.243
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-  udp: true
-- name: 15|US_speednode_0013
-  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
-  port: 443
-  server: 108.165.255.5
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-  udp: true
-- name: 15|US_speednode_0014
-  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
-  port: 443
-  server: 96.126.190.132
-  skip-cert-verify: true
-  sni: www.bilibili.com
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
 proxy-groups:
@@ -217,27 +194,24 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13,14|新加坡3|@ripaojiedian
   - 14|台湾|@ripaojiedian
-  - 13,14|美国2|@ripaojiedian
-  - 15|US_speednode_0014
-  - 13,14|香港|@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
-  - 13,14|香港3|@ripaojiedian
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 13,14|日本|@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - 13|🇭🇰 香港6|@ripaojiedian
-  - 13,14|日本2|@ripaojiedian
-  - 15|IL_speednode_0006
-  - 13,14|新加坡2|@ripaojiedian
-  - 15|CH_speednode_0001
-  - 15|US_speednode_0013
+  - 15|HK_speednode_0013
   - 13|🇹🇼 台湾|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
+  - 13,14|香港3|@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
+  - 13,14|香港5|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 13,14|香港|@ripaojiedian
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
+  - 13,14|新加坡2|@ripaojiedian
   - 13,14|美国3|@ripaojiedian
+  - 13|🇭🇰 香港6|@ripaojiedian
+  - 13,14|日本|@ripaojiedian
+  - 13,14|美国|@ripaojiedian
+  - 13,14,15|HK_speednode_0012
+  - 13|tg频道:@ripaojiedian
   - 13,14|日本3|@ripaojiedian
   type: fallback
   url: https://www.google.com/
