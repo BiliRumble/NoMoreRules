@@ -1,18 +1,4 @@
 proxies:
-- name: 10|👉🆔@v2ray_configs_pool📡®️United...
-  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-  port: 443
-  server: eca509d2-t56dc0-tcjtj6-d70y.la.shifen.uk
-  sni: eca509d2-t56dc0-tcjtj6-d70y.la.shifen.uk
-  tls: false
-  type: hysteria2
-- name: 10|👉🆔@v2ray_configs_pool📡🇺🇸®️Unit...
-  password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-  port: 443
-  server: 8b56a93d-t58800-tcm6ys-deip.la.shifen.uk
-  sni: 8b56a93d-t58800-tcm6ys-deip.la.shifen.uk
-  tls: false
-  type: hysteria2
 - name: 11|All-@V2rayAlpha--46
   password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 1743
@@ -57,45 +43,32 @@ proxies:
   network: tcp
   password: 2cf6d686799e6fa95316394064f26c0a
   port: 4054
-  server: 160.16.240.91
+  server: 160.16.70.180
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 2cf6d686799e6fa95316394064f26c0a
-  port: 4054
-  server: 160.16.116.227
+  port: 2890
+  server: 160.16.117.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4569
-  server: 18.162.187.235
+  port: 2569
+  server: 18.183.209.234
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-cfb
   name: 13|🇺🇸 美国4|@ripaojiedian
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 14|美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  password: amazonskr05
+  port: 443
+  server: 107.23.148.46
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|US_speednode_0037
