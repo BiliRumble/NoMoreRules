@@ -75,3 +75,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 22550b74-3ebf-49b5-ea36-3078b5d47ed9
+- alterId: 2
+  cipher: auto
+  name: 14|香港7|@ripaojiedian
+  network: ws
+  port: '80'
+  server: a48b0e7b-t6ngg0-t8tsp0-1szmi.hk3.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ba151628-b3a2-11ef-bdb9-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
