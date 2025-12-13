@@ -1,4 +1,4 @@
-# Update: 2025-12-13 23:10
+# Update: 2025-12-14 02:14
 allow-lan: false
 dns:
   enable: true
@@ -18,14 +18,6 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 10|73@oneclickvpnkeys
-  password: 06b2ac52-fcc6-11ec-bb74-f23c9164ca5d
-  port: 443
-  server: 21a3b260-t6pb40-t9byd7-1jfvb.hk1.hyhuawei.com
-  skip-cert-verify: true
-  sni: 21a3b260-t6pb40-t9byd7-1jfvb.hk1.hyhuawei.com
-  tls: false
-  type: hysteria2
 - name: 10|未命名
   password: 16461a78-363c-457a-92f9-83b0a68edc37
   port: 2056
@@ -66,30 +58,6 @@ proxies:
   sni: zp1.eyujichang.xyz
   tls: false
   type: hysteria2
-- name: 10|️76@oneclickvpnkeys
-  password: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
-  port: 443
-  server: 1ee38495-t6t0g0-t94bdb-mrtr.hk1.hyhuawei.com
-  skip-cert-verify: true
-  sni: 1ee38495-t6t0g0-t94bdb-mrtr.hk1.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: 10|⚛️77@oneclickvpnkeys
-  password: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
-  port: 443
-  server: 369741ab-t48f40-tbpu76-1thmd.hk1.hyhuawei.com
-  skip-cert-verify: true
-  sni: 369741ab-t48f40-tbpu76-1thmd.hk1.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: 10|⚛️79@oneclickvpnkeys
-  password: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b
-  port: 443
-  server: 220.246.94.129
-  skip-cert-verify: true
-  sni: bb06bea8-t6e740-tb3p3s-lj7z.hk1.hyhuawei.com
-  tls: false
-  type: hysteria2
 - name: 10|UK
   password: 3C8h8X6kimbOX68joVe3kTERw
   port: 7197
@@ -114,28 +82,12 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 10|⚛️78@oneclickvpnkeys
-  password: 40639730-e027-11ea-87ad-f23c913c8d2b
-  port: 443
-  server: 96d1fb9f-t6ngg0-t9lc3n-z93q.hk1.hyhuawei.com
-  skip-cert-verify: true
-  sni: 96d1fb9f-t6ngg0-t9lc3n-z93q.hk1.hyhuawei.com
-  tls: false
-  type: hysteria2
 - name: 10|FR
   password: 45b46edb-679b-4ea5-befd-88c05bb94f80
   port: 2056
   server: de.eyucdn.xyz
   skip-cert-verify: true
   sni: de.eyucdn.xyz
-  tls: false
-  type: hysteria2
-- name: 10|⚛️75@oneclickvpnkeys
-  password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
-  port: 443
-  server: 2185b8c5-t48f40-t6v6ki-1phla.hk1.hyhuawei.com
-  skip-cert-verify: true
-  sni: 2185b8c5-t48f40-t6v6ki-1phla.hk1.hyhuawei.com
   tls: false
   type: hysteria2
 - name: 10|💠84@oneclickvpnkeys
@@ -159,22 +111,6 @@ proxies:
   server: 52.221.210.182
   skip-cert-verify: true
   sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 10|⚛️74@oneclickvpnkeys
-  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-  port: 443
-  server: aa563af0-t48f40-tgzvop-hns7.hk1.hyhuawei.com
-  skip-cert-verify: true
-  sni: aa563af0-t48f40-tgzvop-hns7.hk1.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: 10|⚛️90@oneclickvpnkeys
-  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-  port: 443
-  server: 12f7c432-t6t0g0-t87m8y-1pr35.hk1.hyhuawei.com
-  skip-cert-verify: true
-  sni: 12f7c432-t6t0g0-t87m8y-1pr35.hk1.hyhuawei.com
   tls: false
   type: hysteria2
 - name: 10|KR
@@ -265,14 +201,6 @@ proxies:
   sni: tw2.jueduibupao.top
   tls: false
   type: hysteria2
-- name: 10|⚛️91@oneclickvpnkeys
-  password: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
-  port: 443
-  server: 96052821-t53wg0-t51bp0-1nyy5.hk1.hyhuawei.com
-  skip-cert-verify: true
-  sni: 96052821-t53wg0-t51bp0-1nyy5.hk1.hyhuawei.com
-  tls: false
-  type: hysteria2
 - name: '10|JP #1'
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
@@ -287,16 +215,7 @@ proxies:
   sni: dg1.xiaohuolongjc.top
   tls: false
   type: hysteria2
-- name: 10|⚛️68@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: KevinZakarian
-  password: '@KevinZakarian'
-  port: 22002
-  server: kevin.vpny.online
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 10|️77@oneclickvpnkeys
+- name: 10|⚙️77@oneclickvpnkeys
   obfs: salamander
   obfs-password: KevinZakarian
   password: '@KevinZakarian'
@@ -407,14 +326,6 @@ proxies:
   sni: cn.cremedelamer.com
   tls: false
   type: hysteria2
-- name: 10|⚛️67@oneclickvpnkeys
-  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: 97cc76e9-t53wg0-tiqsce-t6fv.us.hyhuawei.com
-  skip-cert-verify: true
-  sni: 97cc76e9-t53wg0-tiqsce-t6fv.us.hyhuawei.com
-  tls: false
-  type: hysteria2
 - name: '10,11|🇳🇱 - NL - @freeOnlineVPN #4'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -425,7 +336,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 10,11|All--@V2rayAlpha--27
+- name: '10,11|🇳🇱 - NL - @freeOnlineVPN #5'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -455,22 +366,6 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: 10|⚛️73@oneclickvpnkeys
-  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
-  port: 443
-  server: 75b4f9c3-t48f40-t7eqjm-m0b9.hk1.hyhuawei.com
-  skip-cert-verify: true
-  sni: 75b4f9c3-t48f40-t7eqjm-m0b9.hk1.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: 10,11|All--@V2rayAlpha--19
-  password: bf36227c-0191-11f0-aee1-f23c91cfbbc9
-  port: 443
-  server: 4ec4fca5-t6r5s0-tc2sod-1tizo.hk1.hyhuawei.com
-  skip-cert-verify: false
-  sni: 4ec4fca5-t6r5s0-tc2sod-1tizo.hk1.hyhuawei.com
-  tls: false
-  type: hysteria2
 - name: 10,11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆¹
   password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
   port: 443
@@ -495,7 +390,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|⚛️3@oneclickvpnkeys
+- name: 10|️3@oneclickvpnkeys
   password: dongtaiwang.com
   port: 33880
   server: 195.154.206.231
@@ -509,14 +404,6 @@ proxies:
   server: 51.159.111.32
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 10|⚛️94@oneclickvpnkeys
-  password: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9
-  port: 443
-  server: ca7ed722-t48f40-tfeciy-1iddy.hk1.hyhuawei.com
-  skip-cert-verify: true
-  sni: ca7ed722-t48f40-tfeciy-1iddy.hk1.hyhuawei.com
   tls: false
   type: hysteria2
 - name: '10|SG #7'
@@ -535,54 +422,12 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 10,11|All--@V2rayAlpha--22
-  password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
-  port: 443
-  server: 950c68df-t6t0g0-t85ssw-1bonh.hk1.hyhuawei.com
-  skip-cert-verify: false
-  sni: 950c68df-t6t0g0-t85ssw-1bonh.hk1.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: 10|⚛️72@oneclickvpnkeys
-  password: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
-  port: 443
-  server: d9d68b3a-t48f40-taklwz-12bd.hk1.hyhuawei.com
-  skip-cert-verify: true
-  sni: d9d68b3a-t48f40-taklwz-12bd.hk1.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: 10,11|All--@V2rayAlpha--23
-  password: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
-  port: 443
-  server: 6b62b419-t6t0g0-tfjz9x-1t5n1.hk1.hyhuawei.com
-  skip-cert-verify: false
-  sni: 6b62b419-t6t0g0-tfjz9x-1t5n1.hk1.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: 10|⚛️86@oneclickvpnkeys
-  password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
-  port: 443
-  server: a9252616-t4c4g0-tlvq5w-1jcwu.hk1.hyhuawei.com
-  skip-cert-verify: true
-  sni: a9252616-t4c4g0-tlvq5w-1jcwu.hk1.hyhuawei.com
-  tls: false
-  type: hysteria2
 - name: '10|SG #8'
   password: fWydUhyG3woKe4a0kcKKKdx78
   port: 6467
   server: 8.219.232.60
   skip-cert-verify: true
   sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 10|28YB5qK!5t#U#⚛️81@oneclickvpnk...
-  obfs: salamander
-  obfs-password: '&O'
-  password: freehomesvpnmahsa3
-  port: 16396
-  server: donate1.mahsa.homes
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: 10|US
@@ -952,7 +797,7 @@ proxies:
   sni: dd.ircybersec.org
   tls: false
   type: hysteria2
-- name: 11|ا ها ر ر ن ترا💎 Config_Rayegan...
+- name: 11|کانفیگ ها ر ر ن تگا💎 Config_Ra...
   password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28
   port: 31468
   server: 77.223.214.193
@@ -1183,7 +1028,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '11|🇩🇪 - DE - @freeOnlineVPN #3'
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: TA524PW3Hg
@@ -1371,20 +1216,20 @@ proxies:
   sni: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
   tls: false
   type: hysteria2
+- name: 11|All--@V2rayAlpha--19
+  password: bf36227c-0191-11f0-aee1-f23c91cfbbc9
+  port: 443
+  server: 4ec4fca5-t6r5s0-tc2sod-1tizo.hk1.hyhuawei.com
+  skip-cert-verify: false
+  sni: 4ec4fca5-t6r5s0-tc2sod-1tizo.hk1.hyhuawei.com
+  tls: false
+  type: hysteria2
 - name: 11|All-@V2rayAlpha--41
   password: c1785de0-212f-11ef-92aa-f23c9164ca5d
   port: 443
   server: 9c25e30b-t6ccg0-tfpsin-1q3dm.hk1.hyhuawei.com
   skip-cert-verify: false
   sni: 9c25e30b-t6ccg0-tfpsin-1q3dm.hk1.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: 11|@sunflowerplato
-  password: c232f411-96b5-4b07-b2f7-66a434725ffb
-  port: 23891
-  server: 108.165.213.197
-  skip-cert-verify: true
-  sni: fus01.mistea.top
   tls: false
   type: hysteria2
 - name: 11|ورهایبیشتردرکانا:prrofile_purp...
@@ -1489,12 +1334,28 @@ proxies:
   sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
   tls: false
   type: hysteria2
+- name: 11|All--@V2rayAlpha--22
+  password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
+  port: 443
+  server: 950c68df-t6t0g0-t85ssw-1bonh.hk1.hyhuawei.com
+  skip-cert-verify: false
+  sni: 950c68df-t6t0g0-t85ssw-1bonh.hk1.hyhuawei.com
+  tls: false
+  type: hysteria2
 - name: 11|All--@V2rayAlpha--24
   password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
   port: 443
   server: 9c329770-t6ngg0-t6k5ga-1bonh.hk1.hyhuawei.com
   skip-cert-verify: false
   sni: 9c329770-t6ngg0-t6k5ga-1bonh.hk1.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: 11|All--@V2rayAlpha--23
+  password: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
+  port: 443
+  server: 6b62b419-t6t0g0-tfjz9x-1t5n1.hk1.hyhuawei.com
+  skip-cert-verify: false
+  sni: 6b62b419-t6t0g0-tfjz9x-1t5n1.hk1.hyhuawei.com
   tls: false
   type: hysteria2
 - name: 11|✅سرورهایبیشتردرکانال:prrofile_...
@@ -1904,223 +1765,206 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #1'
-  - 15|US_speednode_0013
-  - 11|All-@V2ray_Alpha--6
-  - 11|All-#V2rayAlpha--17
-  - '10,11|@Hddify #3'
-  - 14|香港|@ripaojiedian
-  - 11|🇺@V2RayyNGvpn🇺همه اوپراتور ها
-  - '11|🔸@IRAN_V2RAY1💘 #3'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17'
-  - 11|All-@V2rayAlpha--42
-  - 11|@V2ray_confing33
-  - 15|US_speednode_0012
-  - 10,11|کانفیگ های بیشتر در چنل تلگرام...
-  - 11|🔸@IRAN_V2RAY1💘
-  - '10,11|🇳🇱 - NL - @freeOnlineVPN #2'
-  - 10|⚛️3@oneclickvpnkeys
-  - 11|All-@V2ray_Alpha--3
-  - 13,14|香港3|@ripaojiedian
-  - '10,11|🔸@IRAN_V2RAY1💘 #4'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22'
-  - 13,14|香港5|@ripaojiedian
-  - '10|SG #8'
-  - 11|All--@V2rayAlpha--21
-  - 10,11|All--@V2rayAlpha--22
-  - 10|⚛️78@oneclickvpnkeys
-  - 11|ا ها ر ر ن ترا💎 Config_Rayegan...
-  - 11|All--@V2rayAlpha--25
-  - 10|SG
-  - 11|telegram  𝗶𝗻𝗮
-  - '11|@V2RayyNGvpn🇩🇪  '
-  - 10|新加坡
-  - 10|⚛️86@oneclickvpnkeys
-  - 11|All-@V2rayAlpha--33
-  - 11|All-#V2rayAlpha--14
-  - '10|JP #1'
-  - 13,14|新加坡3|@ripaojiedian
-  - '10|SG #5'
-  - 10|香港
-  - 10|⚛️68@oneclickvpnkeys
-  - 11|MCI-IR--@V2rayAlpha-3
-  - '11|All--@IRAN_V2RAY1 #5'
-  - 15|RU_speednode_0005
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #14'
-  - 11|All-@V2ray_Alpha--9
-  - 10|⚛️75@oneclickvpnkeys
-  - 10|KR
-  - 15|RU_speednode_0006
-  - 11|MCI-IR--@V2rayAlpha-14
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #7'
-  - '11|All--@IRAN_V2RAY1🇺🇸 #4'
-  - 11|MCI-IR--@V2rayAlpha-6
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #15'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #4'
-  - 10|新加坡1
-  - 10|🇭🇰 HK
-  - 13,14|美国|@ripaojiedian
-  - 13,14|日本|@ripaojiedian
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16'
-  - 10|US
-  - 11|MCI-IR--@V2rayAlpha-16
-  - '11|All-@V2ray_Alpha--7 #1'
-  - '11|All--@IRAN_V2RAY1🇺🇸 #2'
-  - '11|🇩🇪 - DE - @freeOnlineVPN #1'
-  - 13,14|日本2|@ripaojiedian
-  - 11|@Daily_Configs
-  - '11|🇳🇱@FreakConfig #1'
-  - '10,11|🇳🇱 - NL - @freeOnlineVPN #4'
-  - 11|MCI-IR--@V2rayAlpha-1
-  - 11|All--@V2rayAlpha--20
-  - '11|All--@IRAN_V2RAY1 #2'
-  - 10|⚛️67@oneclickvpnkeys
-  - 11|MCI-IR--@V2rayAlpha-17
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2'
-  - '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2'
-  - 13,14|香港4|@ripaojiedian
-  - 15|BG_speednode_0001
-  - 10|⚛️77@oneclickvpnkeys
-  - 10,11|All--@V2rayAlpha--27
-  - '11|All--@IRAN_V2RAY1🇺🇸 #1'
-  - '10|SG #7'
-  - '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #4'
-  - 11|@sunflowerplato
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 11|All-@V2rayAlpha--43
-  - 11|All-@V2rayAlpha--46
-  - 11|All-@V2rayAlpha--29
-  - 11|All-@V2rayAlpha--2
-  - '11|🔸@IRAN_V2RAY1💘 #10'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #3'
-  - '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #1'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20'
-  - 14|新加坡4|@ripaojiedian
-  - 11|MCI-IR--@V2rayAlpha-12
-  - '10|SG #2'
-  - 10|⚛️72@oneclickvpnkeys
-  - 10,11|🇪@FreakConfig
-  - 11|MCI-IR--@V2rayAlpha-11
-  - 13,14|美国2|@ripaojiedian
-  - 11|All--@V2rayAlpha--14
-  - 10|TW
-  - 10,11|All--@V2rayAlpha--19
-  - 11|All--@V2rayAlpha--26
-  - 11|🇱@FreakConfig
-  - 11|All-#V2rayAlpha--16
-  - '11|28YB5qK!5t#U&insecure=1&sni=na... #1'
-  - '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #3'
-  - 11|All-@V2rayAlpha--44
-  - 10|️76@oneclickvpnkeys
-  - 11|All-@V2ray_Alpha--30
-  - 11|All--@V2rayAlpha-1
-  - 11|MCI-IR--@V2rayAlpha-2
-  - '10,11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10'
-  - '11|All-@V2ray_Alpha--6 #1'
-  - 10,11|All-@V2ray_Alpha--8
-  - '10|JP #2'
-  - 11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه...
-  - 11|ورهایبیشتردرکانا:prrofile_purp...
-  - 11|All-#V2rayAlpha--10
-  - 10,11|💎کانفیگ های بیشتر در چنل تلگرا...
-  - 11|All-@V2ray_Alpha--1
-  - '11|🔸@IRAN_V2RAY1💘 #8'
-  - '10|未命名 #1'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #21'
-  - 13|tg频道:@ripaojiedian
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 10,11|All--@V2rayAlpha--23
-  - 11|All-@V2ray_Alpha--2
-  - '11|All-@V2ray_Alpha--3 #1'
-  - '10|SG #3'
-  - 10|⚛️91@oneclickvpnkeys
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19'
-  - 11|MCI-IR--@V2rayAlpha-7
-  - '11|🔸@IRAN_V2RAY1💘 #7'
-  - 10|⚛️73@oneclickvpnkeys
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6'
-  - 13,14|美国3|@ripaojiedian
-  - 11|All--@V2rayAlpha--18
-  - '10|SG #1'
-  - '10|未命名 #2'
-  - '11|All--@IRAN_V2RAY1 #6'
-  - 11|All-#V2rayAlpha--19
-  - 15|TW_speednode_0011
-  - 10|💠84@oneclickvpnkeys
-  - 10|⚛️79@oneclickvpnkeys
-  - 10|⚛️74@oneclickvpnkeys
-  - '11|@IRAN_V2RAY1 #5'
-  - 15|IL_speednode_0004
-  - 10|HK
-  - 13|🇸🇬 新加坡4|@ripaojiedian
-  - '10|UK #1'
-  - 11|MCI-IR--@V2rayAlpha-13
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #18'
-  - '10|JP #4'
-  - 10|UK
-  - 11|All-@V2rayAlpha-26
-  - 11|@Hddify
-  - 10|73@oneclickvpnkeys
-  - 10|FR
-  - 14|香港2|@ripaojiedian
-  - '10|SG #6'
-  - 10|未命名
-  - '11|🇩🇪 - DE - @freeOnlineVPN #3'
-  - 10,11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆¹
-  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-  - 11|MCI-IR--@V2rayAlpha-8
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #13'
-  - 11|All-@V2ray_Alpha--4
-  - 15|RU_speednode_0008
-  - '11|✅سرورهایبیشتردرکانال:prrofile_... #1'
-  - 11|✅سرورهایبیشتردرکانال:prrofile_...
-  - 15|SG_speednode_0010
-  - '11|All--@IRAN_V2RAY1 #1'
-  - 13,14|新加坡2|@ripaojiedian
-  - 10|🇷🇺 - RU - @freeOnlineVPN
-  - 11|All-@V2rayAlpha--38
-  - '11|🔸@IRAN_V2RAY1💘 #1'
-  - 13|🇻🇳 越南|@ripaojiedian
-  - 11|All-@V2rayAlpha-25
-  - 15|RU_speednode_0009
-  - 10|⚛️94@oneclickvpnkeys
-  - 11|MTN--@IRAN_V2RAY1
-  - 11|MCI-IR--@V2rayAlpha-15
-  - '10|HK #2'
-  - 10|美国2
-  - '10|HK #1'
-  - 11|All--@V2rayAlpha--17
-  - 10|️77@oneclickvpnkeys
-  - 10|⭕40@oneclickvpnkeys
-  - 10|DE
-  - 10|🇭🇰香港
-  - 11|MCI-IR--@V2rayAlpha-4
   - '10,11|All-@V2ray_Alpha--4 #1'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9'
-  - 11|All--@V2rayAlpha--24
-  - 13,14|日本3|@ripaojiedian
-  - 10|⚛️90@oneclickvpnkeys
-  - 11|All-@V2rayAlpha--37
-  - 10,11|@IRAN_V2RAY1💘
-  - 11|All--@V2rayAlpha-2
-  - '10|未命名 #3'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #3'
-  - '11|🇩🇪 - DE - @freeOnlineVPN #2'
-  - '11|🔸@IRAN_V2RAY1💘 #9'
-  - 11|All-#V2rayAlpha--21
-  - 15|RU_speednode_0007
-  - 10|🇺
-  - '10|JP #3'
-  - 10|28YB5qK!5t#U#⚛️81@oneclickvpnk...
-  - 11|All-@V2ray_Alpha--29
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #5'
-  - '10|TW #1'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #11'
-  - 10|美国
+  - '10|HK #2'
+  - 11|@V2ray_confing33
+  - 11|All-#V2rayAlpha--16
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6'
+  - '11|All--@IRAN_V2RAY1 #1'
   - 13,14|新加坡|@ripaojiedian
+  - 11|All--@V2rayAlpha--23
+  - 11|All--@V2rayAlpha--24
+  - 10,11|@IRAN_V2RAY1💘
+  - '10|SG #3'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #7'
+  - 11|All-@V2rayAlpha--29
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9'
+  - 13,14|新加坡3|@ripaojiedian
+  - 10|🇺
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19'
+  - 11|MCI-IR--@V2rayAlpha-16
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #5'
+  - 11|All-@V2ray_Alpha--3
+  - '11|All--@IRAN_V2RAY1🇺🇸 #2'
+  - 10|香港
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2'
+  - '10,11|🇳🇱 - NL - @freeOnlineVPN #2'
+  - 10|美国
+  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
+  - 10|新加坡1
+  - 11|MCI-IR--@V2rayAlpha-13
+  - '10,11|🇳🇱 - NL - @freeOnlineVPN #4'
+  - '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #3'
+  - '10|SG #5'
+  - '11|All-@V2ray_Alpha--3 #1'
+  - '10|SG #8'
+  - 15|RU_speednode_0008
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12'
+  - '10,11|🔸@IRAN_V2RAY1💘 #4'
+  - '11|@V2RayyNGvpn🇩🇪  '
+  - 14|新加坡4|@ripaojiedian
+  - 15|BG_speednode_0001
+  - 10|⚙️77@oneclickvpnkeys
+  - '10|SG #1'
+  - 10|US
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - '11|All--@IRAN_V2RAY1 #2'
+  - 11|All--@V2rayAlpha--19
+  - 15|RU_speednode_0006
+  - '10|SG #2'
+  - '11|All--@IRAN_V2RAY1 #5'
+  - 15|IL_speednode_0004
+  - 10|💠84@oneclickvpnkeys
+  - 11|MCI-IR--@V2rayAlpha-8
+  - 11|@Hddify
+  - '11|🇩🇪 - DE - @freeOnlineVPN #1'
+  - '11|🔸@IRAN_V2RAY1💘 #3'
+  - 13,14|日本3|@ripaojiedian
+  - 11|کانفیگ ها ر ر ن تگا💎 Config_Ra...
+  - '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2'
+  - 10|⭕40@oneclickvpnkeys
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #1'
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 10|新加坡
+  - 10|🇭🇰 HK
+  - 11|MCI-IR--@V2rayAlpha-3
+  - 11|All-@V2rayAlpha--37
+  - '11|All--@IRAN_V2RAY1 #6'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16'
+  - 13|🇸🇬 新加坡4|@ripaojiedian
+  - 10,11|💎کانفیگ های بیشتر در چنل تلگرا...
+  - '10|SG #7'
+  - 10|HK
+  - '10|JP #4'
+  - 14|香港|@ripaojiedian
+  - 10|KR
   - 11|All-@V2rayAlpha--41
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20'
+  - 15|RU_speednode_0009
+  - '11|🔸@IRAN_V2RAY1💘 #8'
+  - 10|美国2
+  - '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #1'
+  - '11|🔸@IRAN_V2RAY1💘 #1'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #21'
+  - '11|🇩🇪 - DE - @freeOnlineVPN #2'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #11'
+  - 13,14|日本2|@ripaojiedian
+  - '11|🔸@IRAN_V2RAY1💘 #9'
+  - 13,14|美国|@ripaojiedian
+  - '11|@IRAN_V2RAY1 #5'
+  - 11|🇱@FreakConfig
+  - 11|MCI-IR--@V2rayAlpha-12
+  - 11|All-@V2ray_Alpha--29
+  - 13,14|日本|@ripaojiedian
+  - 11|All-@V2rayAlpha-26
+  - 15|RU_speednode_0005
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #3'
+  - 15|SG_speednode_0010
+  - '10|TW #1'
+  - 11|🔸@IRAN_V2RAY1💘
+  - 11|All--@V2rayAlpha-2
+  - 14|香港2|@ripaojiedian
+  - 11|MCI-IR--@V2rayAlpha-4
+  - 11|All-@V2ray_Alpha--30
+  - 10,11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆¹
+  - '10,11|🇳🇱 - NL - @freeOnlineVPN #5'
+  - 11|All--@V2rayAlpha--21
+  - 11|All-@V2ray_Alpha--9
+  - '11|✅سرورهایبیشتردرکانال:prrofile_... #1'
+  - '11|All-@V2ray_Alpha--6 #1'
+  - 10|️3@oneclickvpnkeys
+  - 11|telegram  𝗶𝗻𝗮
+  - '10,11|@Hddify #3'
+  - 11|All-@V2rayAlpha--42
+  - 10,11|🇪@FreakConfig
+  - 11|All-@V2ray_Alpha--1
+  - 11|MCI-IR--@V2rayAlpha-1
+  - 15|RU_speednode_0007
+  - 11|All--@V2rayAlpha--26
+  - 11|ورهایبیشتردرکانا:prrofile_purp...
+  - 13,14|新加坡2|@ripaojiedian
+  - 11|All-#V2rayAlpha--14
+  - 11|All--@V2rayAlpha--25
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #15'
+  - 11|All-@V2rayAlpha--2
+  - 11|All--@V2rayAlpha--20
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22'
+  - 11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه...
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #13'
+  - '11|🔸@IRAN_V2RAY1💘 #7'
+  - 10|UK
+  - 13,14|香港3|@ripaojiedian
+  - 11|MCI-IR--@V2rayAlpha-14
+  - 11|All-@V2ray_Alpha--4
+  - 11|All-#V2rayAlpha--19
+  - 10|DE
+  - 11|MCI-IR--@V2rayAlpha-15
   - '11|@Hddify #1'
+  - 11|All-#V2rayAlpha--10
+  - 13,14|香港4|@ripaojiedian
+  - 11|All--@V2rayAlpha--14
+  - 10|FR
+  - 11|All-@V2rayAlpha-25
+  - '10|JP #2'
+  - '11|🇳🇱 - NL - @freeOnlineVPN #3'
+  - 11|All--@V2rayAlpha--18
+  - 11|All-#V2rayAlpha--21
+  - 15|US_speednode_0012
+  - 11|All-@V2ray_Alpha--2
+  - '10|HK #1'
+  - '11|All-@V2ray_Alpha--7 #1'
+  - '10|未命名 #1'
+  - 11|All--@V2rayAlpha--22
+  - 15|US_speednode_0013
+  - 13,14|美国3|@ripaojiedian
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #18'
+  - 10|TW
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17'
+  - '10|JP #3'
+  - 15|TW_speednode_0011
+  - 10|未命名
+  - 11|All--@V2rayAlpha-1
+  - 11|All-@V2ray_Alpha--6
+  - 10,11|All-@V2ray_Alpha--8
+  - 11|MCI-IR--@V2rayAlpha-2
+  - 11|All-#V2rayAlpha--17
+  - 11|All-@V2rayAlpha--38
+  - 11|All-@V2rayAlpha--33
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #14'
+  - 13,14|香港5|@ripaojiedian
+  - 11|All--@V2rayAlpha--17
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #4'
+  - '11|28YB5qK!5t#U&insecure=1&sni=na... #1'
+  - 13|tg频道:@ripaojiedian
+  - '10,11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1'
+  - '10|SG #6'
+  - 11|All-@V2rayAlpha--46
+  - '11|🇳🇱@FreakConfig #1'
+  - 11|All-@V2rayAlpha--43
+  - 13,14|美国2|@ripaojiedian
+  - 11|✅سرورهایبیشتردرکانال:prrofile_...
+  - '10|JP #1'
+  - 11|MCI-IR--@V2rayAlpha-11
+  - '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #4'
+  - 11|All-@V2rayAlpha--44
+  - 10|SG
+  - 11|@Daily_Configs
+  - 10|🇷🇺 - RU - @freeOnlineVPN
+  - 11|🇺@V2RayyNGvpn🇺همه اوپراتور ها
+  - 11|MCI-IR--@V2rayAlpha-7
+  - 11|MCI-IR--@V2rayAlpha-6
+  - '11|All--@IRAN_V2RAY1🇺🇸 #4'
+  - '11|All--@IRAN_V2RAY1🇺🇸 #1'
+  - 10|🇭🇰香港
+  - '10|未命名 #2'
+  - 13|🇻🇳 越南|@ripaojiedian
+  - 11|MTN--@IRAN_V2RAY1
+  - 10,11|کانفیگ های بیشتر در چنل تلگرام...
+  - '11|🔸@IRAN_V2RAY1💘 #10'
+  - '10|未命名 #3'
+  - '10|UK #1'
+  - 11|MCI-IR--@V2rayAlpha-17
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -2292,7 +2136,7 @@ proxy-groups:
   - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9'
   - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10'
   - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #11'
-  - '11|🇩🇪 - DE - @freeOnlineVPN #3'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12'
   - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #13'
   - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #14'
   - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #15'
