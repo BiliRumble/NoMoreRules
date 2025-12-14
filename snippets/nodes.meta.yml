@@ -1,4 +1,12 @@
 proxies:
+- name: 10|73@oneclickvpnkeys
+  password: 06b2ac52-fcc6-11ec-bb74-f23c9164ca5d
+  port: 443
+  server: 21a3b260-t6pb40-t9byd7-1jfvb.hk1.hyhuawei.com
+  skip-cert-verify: true
+  sni: 21a3b260-t6pb40-t9byd7-1jfvb.hk1.hyhuawei.com
+  tls: false
+  type: hysteria2
 - name: 10|未命名
   password: 16461a78-363c-457a-92f9-83b0a68edc37
   port: 2056
@@ -230,22 +238,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 10,11|@IRAN_V2RAY1💘
-  password: SNItest
-  port: 443
-  server: 37.18.14.169
-  skip-cert-verify: true
-  sni: megafon.ru
-  tls: false
-  type: hysteria2
-- name: 10|🇷🇺 - RU - @freeOnlineVPN
-  password: SNItest
-  port: 443
-  server: 46.243.235.119
-  skip-cert-verify: true
-  sni: gazprombank.ru
-  tls: false
-  type: hysteria2
 - name: '10|SG #6'
   password: XON4wZ0sXe1YaqFY2FeM7uZY4
   port: 15221
@@ -299,7 +291,7 @@ proxies:
   sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 10|🇺
+- name: '10|未命名 #5'
   password: a52663f7-bd8e-4553-a5de-ff6403a0ccfc
   port: 443
   server: 192.9.165.40
@@ -307,7 +299,7 @@ proxies:
   sni: cn.cremedelamer.com
   tls: false
   type: hysteria2
-- name: '10,11|🇳🇱 - NL - @freeOnlineVPN #4'
+- name: 10,11|All-@V2rayAlpha--7
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -702,7 +694,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '11|🇩🇪 - DE - @freeOnlineVPN #1'
+- name: 11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه...
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: 3FyodfybrY
@@ -959,7 +951,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '11|🇩🇪 - DE - @freeOnlineVPN #2'
+- name: '11|🇩🇪 - DE - @freeOnlineVPN #1'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: GsM2gHXMdz
@@ -1007,6 +999,14 @@ proxies:
   server: 91.99.225.11
   skip-cert-verify: true
   sni: refersion.com
+  tls: false
+  type: hysteria2
+- name: 11|@IRAN_V2RAY1💘
+  password: SNItest
+  port: 443
+  server: 37.18.14.169
+  skip-cert-verify: true
+  sni: megafon.ru
   tls: false
   type: hysteria2
 - name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12'
@@ -1109,7 +1109,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '11|🇳🇱@FreakConfig #1'
+- name: '11|🇳🇱 - NL - @freeOnlineVPN #4'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
