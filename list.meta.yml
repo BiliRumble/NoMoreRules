@@ -1,4 +1,4 @@
-# Update: 2025-12-16 11:53
+# Update: 2025-12-16 14:18
 allow-lan: false
 dns:
   enable: true
@@ -1448,7 +1448,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 13,14|香港3|@ripaojiedian
+- name: 13,14,15|HK_speednode_0010
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 443
@@ -1456,7 +1456,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|香港4|@ripaojiedian
+  udp: true
+- name: 13,14,15|HK_speednode_0005
   network: tcp
   password: BxceQaOe
   port: 443
@@ -1464,7 +1465,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 13,14|香港5|@ripaojiedian
+  udp: true
+- name: 13,14,15|HK_speednode_0009
   network: tcp
   password: BxceQaOe
   port: 443
@@ -1472,6 +1474,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -1576,7 +1579,41 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 15|IL_speednode_0006
+- flow: xtls-rprx-vision
+  name: 15|DE_speednode_0001
+  port: 443
+  reality-opts:
+    public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
+    short-id: 7cad5040
+  server: 91.99.106.117
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+- name: 15|HK_speednode_0006
+  password: BxceQaOe
+  port: 443
+  server: 219.79.214.159
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- flow: xtls-rprx-vision
+  name: 15|HK_speednode_0008
+  port: 10001
+  reality-opts:
+    public-key: 7qP6YKWx5CJXia1qjQoIcD7FRjUBbioaioioI729D34
+    short-id: 2afe4310
+  server: 85.208.104.42
+  servername: www.icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
+- name: 15|IL_speednode_0011
   port: 24170
   reality-opts:
     public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
@@ -1588,87 +1625,134 @@ proxies:
   type: vless
   udp: true
   uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
-- name: 15|US_speednode_0009
-  network: ws
-  port: 2095
-  server: ns.cloudflare.com
-  servername: snippets.pusytroller.cf
-  skip-cert-verify: false
-  tls: false
-  type: vless
+- name: 15|KR_speednode_0012
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: snippets.pusytroller.cf
-    path: /
-- name: 15|US_speednode_0010
-  network: ws
-  port: 2095
-  server: www.shopify.com
-  servername: snippets.pusytroller.cf
-  skip-cert-verify: false
-  tls: false
-  type: vless
+  username: test
+- name: 15|NL_speednode_0013
+  port: 1080
+  server: 161.35.82.57
+  type: socks5
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: snippets.pusytroller.cf
-    path: /
-- name: 15|US_speednode_0011
-  network: ws
-  password: b1fec179-3d5a-4ec5-bf3c-e10668543b4b
-  port: 8443
-  server: 69.84.182.108
-  skip-cert-verify: false
-  sni: cdn-node-oss-61.anycdn.de
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cdn-node-oss-61.anycdn.de
-    path: /profile/us1
-- name: 15|US_speednode_0012
-  network: ws
-  password: b1fec179-3d5a-4ec5-bf3c-e10668543b4b
-  port: 8443
-  server: 69.84.182.18
-  skip-cert-verify: false
-  sni: cdn-node-oss-62.anycdn.de
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cdn-node-oss-62.anycdn.de
-    path: /profile/us2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0013
-  port: 16823
+- flow: xtls-rprx-vision
+  name: 15|NN_speednode_0014
+  port: 20331
   reality-opts:
-    public-key: E_shv34FH2gd70EMyMqogqpq-nY7tFHFLs7hJnUjpGU
-  server: 45.41.204.122
-  servername: www.iij.ad.jp
+    public-key: 4AuA5S-ik84HPG2pAQQ4pPF5zNYVSKw6isoueaaJCBU
+    short-id: fe
+  server: yk.bunnywaffle.org
+  servername: tesla.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ccd725e6-38fb-4a37-be0b-830533c4242f
-- name: 15|US_speednode_0014
+  uuid: 2ab7786d-a7cf-432c-8d09-2422315bdd35
+- flow: xtls-rprx-vision
+  name: 15|RU_speednode_0016
+  port: 4443
+  reality-opts:
+    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+    short-id: aa7e96542880027a
+  server: 212.60.21.104
+  servername: github.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: edb3d24d-1a55-42f7-8752-6ae216f18cf4
+- flow: xtls-rprx-vision
+  name: 15|SE_speednode_0018
+  port: 4443
+  reality-opts:
+    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+    short-id: aa7e96542880027a
+  server: 89.23.123.17
+  servername: github.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: edb3d24d-1a55-42f7-8752-6ae216f18cf4
+- name: 15|SE_speednode_0019
+  network: ws
+  port: 2052
+  server: 185.146.173.185
+  servername: fggvggvvvv.fggghbvhh-ghvghggg-fgvg-mahdi-net-irancel.BLOG
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 5a3e6548-a706-4f50-ab13-a913eb33283f
+  ws-opts:
+    headers:
+      Host: fggvggvvvv.fggghbvhh-ghvghggg-fgvg-mahdi-net-irancel.BLOG
+    path: /Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-
+- alpn:
+  - h2
+  - http/1.1
+  name: 15|US_speednode_0020
+  network: ws
+  port: 2087
+  server: www.speedtest.net
+  servername: dl4.hajalwi.ir.
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bc6f95a3-a6e5-4a7a-afa5-1f3533e3329e
+  ws-opts:
+    headers:
+      Host: dl4.hajalwi.ir.
+    path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
+- alpn:
+  - h2
+  - http/1.1
+  name: 15|US_speednode_0021
+  network: ws
+  port: 2087
+  server: www.speedtest.net
+  servername: dl4.hajalwi.ir.
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c1444d72-6b3c-4b4b-9525-2ea5ef08bc21
+  ws-opts:
+    headers:
+      Host: dl4.hajalwi.ir.
+    path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
+- name: 15|US_speednode_0022
   network: ws
   port: 443
-  server: 69.84.182.13
-  servername: jp1-jp1.aiopen.sbs
+  server: www.speedtest.net
+  servername: havij.mrconfigur.site
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: e4dbde8d-b194-4a64-afe0-093ffd258e8e
+  uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
   ws-opts:
     headers:
-      Host: jp1-jp1.aiopen.sbs
-    path: /kbjc/jp1
+      Host: havij.mrconfigur.site
+    path: /
+- flow: xtls-rprx-vision
+  name: 15|US_speednode_0023
+  port: 4443
+  reality-opts:
+    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+    short-id: aa7e96542880027a
+  server: 45.15.127.139
+  servername: github.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: edb3d24d-1a55-42f7-8752-6ae216f18cf4
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -1680,197 +1764,204 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #18'
-  - 11|MCI-IR--@V2rayAlpha-2
-  - 11|All-@V2ray_Alpha--2
-  - 11|All-@V2rayAlpha--37
-  - 10|⭕40@oneclickvpnkeys
-  - 15|US_speednode_0013
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #11'
-  - '10|JP #1'
-  - 10|HK
-  - 10|DE
-  - 11|All-@V2rayAlpha--41
-  - '10|未命名 #1'
-  - 11|All-@V2rayAlpha--29
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9'
-  - '11|All--@IRAN_V2RAY1 #2'
-  - 11|All-@V2ray_Alpha--30
-  - 10|美国2
-  - 10|KR
-  - 11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه...
-  - 13,14|美国3|@ripaojiedian
-  - 11|MCI-IR--@V2rayAlpha-7
-  - 11|All--@V2rayAlpha--21
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #14'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #21'
-  - 11|MCI-IR--@V2rayAlpha-4
-  - 11|All-@V2ray_Alpha--9
-  - 13,14|日本3|@ripaojiedian
-  - 15|US_speednode_0012
-  - 10|FR
-  - 11|All-@V2ray_Alpha--1
-  - '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2'
-  - 13,14|新加坡3|@ripaojiedian
-  - '10,11|🇩🇪 - DE - @freeOnlineVPN #1'
-  - 11|MCI-IR--@V2rayAlpha-12
-  - 11|All-@V2rayAlpha--2
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22'
-  - 11|MCI-IR--@V2rayAlpha-14
-  - 11|telegram  𝗶𝗻𝗮
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19'
-  - '11|@V2RayyNGvpn🇩🇪  '
-  - 11|MCI-IR--@V2rayAlpha-6
-  - 15|US_speednode_0010
-  - 13,14|日本|@ripaojiedian
-  - 13|🇺🇸 美国4|@ripaojiedian
-  - '11|All-@V2ray_Alpha--7 #1'
-  - 13,14|美国|@ripaojiedian
-  - 11|All--@V2rayAlpha--24
-  - 11|ا ها ر ر ن ترا💎 Config_Rayegan...
-  - '10|HK #1'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20'
-  - 10|SG
-  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-  - 13,14|香港4|@ripaojiedian
-  - '11|🔸@IRAN_V2RAY1💘 #12'
-  - 10,11|🇪 - DE - @freeOnlineVPN
-  - 11|کانفیگ های بیشتر در چنل تلگرام...
-  - 11|🔸@IRAN_V2RAY1💘
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #23'
-  - 11|@Daily_Configs
-  - 11|All--@V2rayAlpha--23
-  - 11|MCI-IR--@V2rayAlpha-17
-  - '11|🇳🇱@FreakConfig #1'
-  - '10|SG #6'
-  - 11|All-#V2rayAlpha--16
-  - 10,11|All-@V2ray_Alpha--8
-  - 11|🇱@FreakConfig
-  - '11|🔸@IRAN_V2RAY1💘 #1'
-  - 11|All-@V2rayAlpha--42
-  - '11|@Hddify #1'
-  - '11|All--@IRAN_V2RAY1 #5'
-  - 11|All--@V2rayAlpha--20
-  - 11|All-@V2ray_Alpha--6
-  - 11|@Hddify
-  - 11|All-@V2rayAlpha-26
-  - '11|@Hddify #3'
-  - '10|SG #7'
-  - 10,11|💎کانفیگ های بیشتر در چنل تلگرا...
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #15'
-  - 11|All-@V2rayAlpha--46
-  - 13,14|香港5|@ripaojiedian
-  - '10|JP #4'
-  - 10|77@oneclickvpnkeys
-  - 11|MCI-IR--@V2rayAlpha-3
-  - '10|HK #2'
-  - 15|IL_speednode_0006
-  - 10,11|MCI-IR--@V2rayAlpha-10
-  - 11|All--@V2rayAlpha--18
-  - '11|🔸@IRAN_V2RAY1💘 #2'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #5'
-  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆¹
-  - 10|新加坡1
-  - 11|MCI-IR--@V2rayAlpha-15
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #4'
-  - '10|SG #3'
-  - 11|All-@V2ray_Alpha--29
-  - 10|未命名
-  - 13,14|日本2|@ripaojiedian
-  - 11|MCI-IR--@V2rayAlpha-16
-  - 10|法兰克福
-  - '11|All-@V2ray_Alpha--6 #1'
-  - '10,11|🔸@IRAN_V2RAY1💘 #5'
-  - '11|@IRAN_V2RAY1 #5'
-  - 11|✅سرورهایبیشتردرکانال:prrofile_...
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12'
-  - 11|All-@V2rayAlpha--33
-  - '10|未命名 #3'
-  - 13,14|新加坡2|@ripaojiedian
-  - '11|All--@IRAN_V2RAY1🇺🇸 #1'
-  - 11|All--@V2rayAlpha--19
-  - '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #4'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #3'
-  - '11|🔸@IRAN_V2RAY1💘 #10'
-  - 11|ورهایبیشتردرکانا:prrofile_purp...
-  - 11|All-#V2rayAlpha--21
-  - '10,11|All-@V2ray_Alpha--4 #1'
-  - 10,11|All-@V2rayAlpha--7
-  - '10|JP #2'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #8'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #7'
-  - 10|TW
-  - '11|All-@V2ray_Alpha--3 #1'
-  - '11|🔸@IRAN_V2RAY1💘 #11'
-  - 11|MCI-IR--@V2rayAlpha-8
-  - '10|TW #1'
-  - '10|JP #3'
-  - 11|All-#V2rayAlpha--10
-  - 13|🇺🇸 美国5|@ripaojiedian
-  - '10|SG #5'
-  - '11|All--@IRAN_V2RAY1 #6'
-  - 10|香港
-  - '11|🔸@IRAN_V2RAY1💘 #9'
-  - 11|All--@V2rayAlpha--17
-  - 15|US_speednode_0011
-  - 11|🇳🇱@FreakConfig
-  - 10|US
-  - '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #1'
-  - '11|All--@IRAN_V2RAY1🇺🇸 #4'
-  - 10|UK
-  - 10|🇭🇰 HK
-  - 10|72@oneclickvpnkeys
   - 10|🇭🇰香港
-  - '11|All--@IRAN_V2RAY1 #1'
-  - 14|香港|@ripaojiedian
-  - 10|新加坡
-  - '10|SG #2'
-  - '10,11|🇳🇱 - NL - @freeOnlineVPN #2'
-  - '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #3'
-  - 11|All-@V2rayAlpha--38
-  - 11|All--@V2rayAlpha--25
-  - 11|All--@V2rayAlpha--22
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6'
-  - 11|🇺@V2RayyNGvpn🇺همه اوپراتور ها
-  - 11|All-#V2rayAlpha--19
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10'
-  - '11|28YB5qK!5t#U&insecure=1&sni=na... #1'
-  - 13,14|新加坡|@ripaojiedian
-  - '10|UK #1'
-  - '11|🔸@IRAN_V2RAY1💘 #4'
-  - 11|All-@V2ray_Alpha--3
-  - 11|All-@V2rayAlpha--43
-  - 11|All-@V2rayAlpha-25
-  - 11|All-#V2rayAlpha--14
-  - 10|️3@oneclickvpnkeys
-  - 13|🇻🇳 越南|@ripaojiedian
-  - 11|All-#V2rayAlpha--17
-  - 13,14|美国2|@ripaojiedian
-  - 11|All-@V2rayAlpha--44
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17'
-  - 11|All--@V2rayAlpha--14
-  - 11|@IRAN_V2RAY1
-  - 11|MCI-IR--@V2rayAlpha-13
-  - 13|🇭🇰 香港|@ripaojiedian
-  - '11|All--@IRAN_V2RAY1🇺🇸 #2'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #13'
-  - 10|美国
-  - 15|US_speednode_0009
   - 11|MCI-IR--@V2rayAlpha-1
-  - 11|All-@V2ray_Alpha--4
-  - 13|tg频道:@ripaojiedian
-  - '10|SG #8'
-  - 15|US_speednode_0014
-  - 11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه...
-  - 11|MCI-IR--@V2rayAlpha-11
-  - '11|✅سرورهایبیشتردرکانال:prrofile_... #1'
-  - '10|SG #1'
-  - 11|MTN--@IRAN_V2RAY1
-  - 13,14|香港3|@ripaojiedian
+  - 11|🇺@V2RayyNGvpn🇺همه اوپراتور ها
+  - 11|All-@V2ray_Alpha--30
+  - '11|All--@IRAN_V2RAY1🇺🇸 #4'
+  - 10|KR
+  - 15|HK_speednode_0006
+  - 11|All-@V2ray_Alpha--6
+  - 11|@Daily_Configs
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6'
+  - 11|All--@V2rayAlpha--24
+  - 10,11|All-@V2ray_Alpha--8
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #23'
+  - 15|US_speednode_0023
+  - 11|All--@V2rayAlpha--20
+  - '10|未命名 #1'
+  - 11|All-#V2rayAlpha--10
+  - 11|All-@V2ray_Alpha--2
+  - 11|MCI-IR--@V2rayAlpha-12
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20'
+  - '11|All--@IRAN_V2RAY1 #2'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #7'
+  - 11|All-@V2rayAlpha--42
+  - 11|✅سرورهایبیشتردرکانال:prrofile_...
+  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
+  - 11|All-@V2ray_Alpha--1
+  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆¹
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17'
+  - '10,11|🔸@IRAN_V2RAY1💘 #5'
+  - 10|US
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #21'
+  - '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #4'
+  - '10|HK #2'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12'
+  - 13|🇻🇳 越南|@ripaojiedian
+  - 13,14|美国3|@ripaojiedian
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2'
+  - 10|SG
+  - 10|⭕40@oneclickvpnkeys
+  - 15|US_speednode_0022
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #5'
+  - 13|🇺🇸 美国5|@ripaojiedian
+  - 15|HK_speednode_0008
+  - 11|All--@V2rayAlpha--14
+  - 10|法兰克福
+  - 10|️3@oneclickvpnkeys
+  - 11|All--@V2rayAlpha--21
+  - 10|77@oneclickvpnkeys
+  - '10|SG #5'
+  - '10|UK #1'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #4'
+  - '10|TW #1'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #11'
+  - 11|All-@V2ray_Alpha--29
+  - 10|🇭🇰 HK
+  - '11|All--@IRAN_V2RAY1 #1'
+  - 10|美国
+  - 10|未命名
+  - 11|All-#V2rayAlpha--19
+  - 11|MCI-IR--@V2rayAlpha-14
+  - 11|All-#V2rayAlpha--21
+  - 10|FR
+  - 13,14|日本2|@ripaojiedian
+  - '11|All--@IRAN_V2RAY1🇺🇸 #2'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #15'
   - 11|All--@V2rayAlpha--26
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #1'
+  - '10|SG #3'
+  - 11|MCI-IR--@V2rayAlpha-11
+  - 11|All-#V2rayAlpha--17
+  - 10,11|MCI-IR--@V2rayAlpha-10
+  - 11|telegram  𝗶𝗻𝗮
+  - 11|All--@V2rayAlpha--23
+  - 11|All-@V2ray_Alpha--4
+  - 11|MCI-IR--@V2rayAlpha-7
+  - 15|NL_speednode_0013
+  - 11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه...
+  - 13,14|美国|@ripaojiedian
   - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16'
+  - '10|JP #4'
+  - 11|All-@V2rayAlpha--38
+  - 11|All-@V2ray_Alpha--3
+  - 13,14,15|HK_speednode_0010
+  - '11|🔸@IRAN_V2RAY1💘 #1'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10'
+  - 15|SE_speednode_0019
+  - 15|DE_speednode_0001
+  - 13|🇺🇸 美国4|@ripaojiedian
+  - 13|tg频道:@ripaojiedian
+  - '10,11|All-@V2ray_Alpha--4 #1'
+  - 11|All-@V2rayAlpha--33
+  - 11|MCI-IR--@V2rayAlpha-6
+  - 10|DE
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #1'
+  - 13,14|日本|@ripaojiedian
+  - '11|@Hddify #1'
+  - 11|🇳🇱@FreakConfig
+  - '10|未命名 #3'
+  - 11|MCI-IR--@V2rayAlpha-8
+  - '10|SG #6'
+  - '10|JP #1'
+  - '10|SG #7'
+  - 11|MCI-IR--@V2rayAlpha-15
+  - '10,11|🇳🇱 - NL - @freeOnlineVPN #2'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19'
+  - '10|JP #2'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #18'
+  - 10,11|All-@V2rayAlpha--7
+  - 13,14|新加坡|@ripaojiedian
+  - 11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه...
+  - 11|All--@V2rayAlpha--22
+  - '11|✅سرورهایبیشتردرکانال:prrofile_... #1'
+  - 15|IL_speednode_0011
+  - '10|JP #3'
+  - '11|🔸@IRAN_V2RAY1💘 #12'
+  - 13,14|日本3|@ripaojiedian
+  - 11|All-@V2rayAlpha--37
+  - 11|All--@V2rayAlpha--17
+  - '11|🔸@IRAN_V2RAY1💘 #11'
+  - 11|All-@V2rayAlpha--43
+  - 14|香港|@ripaojiedian
+  - 11|All-@V2ray_Alpha--9
+  - 11|ورهایبیشتردرکانا:prrofile_purp...
+  - 15|SE_speednode_0018
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #13'
+  - 11|All-@V2rayAlpha--46
+  - 11|All--@V2rayAlpha--25
+  - 10|新加坡
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #3'
+  - 11|🔸@IRAN_V2RAY1💘
+  - '11|All-@V2ray_Alpha--6 #1'
+  - '10,11|🇩🇪 - DE - @freeOnlineVPN #1'
+  - '10|SG #8'
+  - '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #1'
+  - '11|@V2RayyNGvpn🇩🇪  '
+  - 11|🇱@FreakConfig
+  - '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2'
+  - 11|کانفیگ های بیشتر در چنل تلگرام...
+  - '11|🔸@IRAN_V2RAY1💘 #9'
+  - 15|NN_speednode_0014
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #8'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #14'
+  - 10|72@oneclickvpnkeys
+  - 13,14,15|HK_speednode_0005
+  - '11|🔸@IRAN_V2RAY1💘 #2'
+  - 15|RU_speednode_0016
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 10|TW
+  - '11|@IRAN_V2RAY1 #5'
+  - 13,14|新加坡3|@ripaojiedian
+  - 11|All-#V2rayAlpha--16
+  - '11|All--@IRAN_V2RAY1 #6'
+  - 11|MCI-IR--@V2rayAlpha-13
+  - 13,14|新加坡2|@ripaojiedian
+  - 15|KR_speednode_0012
+  - 10|HK
+  - 11|MTN--@IRAN_V2RAY1
+  - '11|28YB5qK!5t#U&insecure=1&sni=na... #1'
+  - 13,14,15|HK_speednode_0009
+  - 15|US_speednode_0021
+  - 11|MCI-IR--@V2rayAlpha-16
+  - 11|All-@V2rayAlpha-25
+  - 11|MCI-IR--@V2rayAlpha-4
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9'
+  - '11|All--@IRAN_V2RAY1 #5'
+  - 11|All--@V2rayAlpha--18
+  - 13,14|美国2|@ripaojiedian
+  - '11|All-@V2ray_Alpha--7 #1'
+  - 11|MCI-IR--@V2rayAlpha-2
+  - 10|香港
+  - '11|All-@V2ray_Alpha--3 #1'
+  - 11|All-@V2rayAlpha--44
+  - 15|US_speednode_0020
+  - '11|All--@IRAN_V2RAY1🇺🇸 #1'
+  - '10|HK #1'
+  - 10,11|🇪 - DE - @freeOnlineVPN
+  - '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #3'
+  - 11|All-@V2rayAlpha--2
+  - '10|SG #1'
+  - 10|UK
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22'
+  - '11|@Hddify #3'
+  - 11|@IRAN_V2RAY1
+  - 10,11|💎کانفیگ های بیشتر در چنل تلگرا...
+  - 11|@Hddify
+  - 11|MCI-IR--@V2rayAlpha-17
+  - '11|🔸@IRAN_V2RAY1💘 #10'
+  - 11|All-#V2rayAlpha--14
+  - '11|🇳🇱@FreakConfig #1'
+  - 11|All-@V2rayAlpha--41
+  - '10|SG #2'
+  - 11|MCI-IR--@V2rayAlpha-3
+  - 11|All-@V2rayAlpha-26
+  - 10|新加坡1
+  - 10|美国2
+  - '11|🔸@IRAN_V2RAY1💘 #4'
+  - 11|All--@V2rayAlpha--19
+  - 11|All-@V2rayAlpha--29
+  - 11|ا ها ر ر ن ترا💎 Config_Rayegan...
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1950,12 +2041,10 @@ proxy-groups:
   - 13,14|美国3|@ripaojiedian
   - 13|🇺🇸 美国4|@ripaojiedian
   - 13|🇺🇸 美国5|@ripaojiedian
-  - 15|US_speednode_0009
-  - 15|US_speednode_0010
-  - 15|US_speednode_0011
-  - 15|US_speednode_0012
-  - 15|US_speednode_0013
-  - 15|US_speednode_0014
+  - 15|US_speednode_0020
+  - 15|US_speednode_0021
+  - 15|US_speednode_0022
+  - 15|US_speednode_0023
   type: select
 - name: 🇨🇳 台湾
   proxies:
@@ -1975,10 +2064,12 @@ proxy-groups:
   - 10|🇭🇰 HK
   - 10|🇭🇰香港
   - 13|🇭🇰 香港|@ripaojiedian
-  - 13,14|香港3|@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
+  - 13,14,15|HK_speednode_0010
+  - 13,14,15|HK_speednode_0005
+  - 13,14,15|HK_speednode_0009
   - 14|香港|@ripaojiedian
+  - 15|HK_speednode_0006
+  - 15|HK_speednode_0008
   type: select
 - name: 🇨🇦 加拿大
   proxies:
@@ -2014,10 +2105,11 @@ proxy-groups:
 - name: 🇰🇷 韩国
   proxies:
   - 10|KR
+  - 15|KR_speednode_0012
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
-  - REJECT
+  - 15|RU_speednode_0016
   type: select
 - name: 🇩🇪 德国
   proxies:
@@ -2049,6 +2141,7 @@ proxy-groups:
   - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #21'
   - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22'
   - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #23'
+  - 15|DE_speednode_0001
   type: select
 rules:
 - MATCH,DIRECT
