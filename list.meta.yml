@@ -1,4 +1,4 @@
-# Update: 2025-12-20 23:10
+# Update: 2025-12-21 02:14
 allow-lan: false
 dns:
   enable: true
@@ -26,12 +26,6 @@ proxies:
   server: it1.miyazono-kaori.com
   skip-cert-verify: true
   sni: it1.miyazono-kaori.com
-  tls: false
-  type: hysteria2
-- name: 10|🎨2@oneclickvpnkeys
-  password: 693a3ce6-2188-4fe9-82c0-c5c289532534
-  port: 20000
-  server: hl.dabache.top
   tls: false
   type: hysteria2
 - name: 10,11|🇩🇪 | @HajmVPN_Config
@@ -74,28 +68,12 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 10|15@oneclickvpnkeys
-  password: dongtaiwang.com
-  port: 33880
-  server: 195.154.206.231
-  skip-cert-verify: true
-  sni: apple.com
-  tls: false
-  type: hysteria2
 - name: 11|All--@V2rayAlpha--17
   password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
   port: 443
   server: 9bc9db69-t6t0g0-tee612-2r82.hk1.hyhuawei.com
   skip-cert-verify: true
   sni: 9bc9db69-t6t0g0-tee612-2r82.hk1.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: 11|MCI-IR--@V2rayAlpha-16
-  password: 05fd3f79-dca0-4358-a803-c8d4711c17a3
-  port: 58338
-  server: lsyd1.lansecs.top
-  skip-cert-verify: true
-  sni: lsyd1.lansecs.top
   tls: false
   type: hysteria2
 - name: 11|All-#V2rayAlpha--19
@@ -584,16 +562,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 11|🇺@V2RayyNGvpn🇺همه اوپراتور ها
-  obfs: salamander
-  obfs-password: MiracleV2RayyNGvpnfreeconf
-  password: ByBeTp5j5C
-  port: 2053
-  server: 83.147.253.96
-  skip-cert-verify: true
-  sni: webservice-admin.tgju.org
-  tls: false
-  type: hysteria2
 - name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #7'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
@@ -713,16 +681,6 @@ proxies:
 - name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #15'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
-  password: VPcKd5VGwx
-  port: 443
-  server: 91.99.225.11
-  skip-cert-verify: true
-  sni: refersion.com
-  tls: false
-  type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16'
-  obfs: salamander
-  obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: YW97PxmYTj
   port: 443
   server: 91.99.225.11
@@ -730,7 +688,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '11|All--@IRAN_V2RAY1 #3'
+- name: '11|All--@IRAN_V2RAY1 #4'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -750,7 +708,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '11|All--@IRAN_V2RAY1 #5'
+- name: '11|All--@IRAN_V2RAY1 #6'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -790,7 +748,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17'
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: YrOF8xfcUG
@@ -800,7 +758,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '11|All--@IRAN_V2RAY1 #6'
+- name: '11|All--@IRAN_V2RAY1 #7'
   obfs: salamander
   obfs-password: khameniiko@smad@ret
   password: YwuvGJk36B
@@ -926,7 +884,7 @@ proxies:
   sni: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #18'
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: c58dvt7oE4
@@ -936,7 +894,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19'
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #18'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: cUY1UIE1ef
@@ -1054,7 +1012,7 @@ proxies:
   server: channel1.saghetalaie.homes
   tls: false
   type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20'
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: oivSVs1Wgz
@@ -1064,7 +1022,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: 11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه...
+- name: 11|🇺@V2RayyNGvpn🇺همه اوپراتور ها
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: p1zskFmlFN
@@ -1084,7 +1042,7 @@ proxies:
   sni: ghasem.kotlet.org
   tls: false
   type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #21'
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: uoGRSTIwX9
@@ -1094,7 +1052,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22'
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #21'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: wXh99oRDIt
@@ -1104,7 +1062,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #23'
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: wkAHoJxpH6
@@ -1114,7 +1072,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #24'
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #23'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: yrBnLOzhOi
@@ -1124,7 +1082,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #25'
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #24'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: zdUcTseVJy
@@ -1293,153 +1251,148 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 11|MCI-IR--@V2rayAlpha-13
-  - 13,14|香港3|@ripaojiedian
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20'
-  - '11|🔸@IRAN_V2RAY1💘 #4'
-  - 11|All--@V2rayAlpha--24
-  - 10,11|🇩🇪@FreakConfig
-  - '11|@V2RayyNGvpn🇩🇪  '
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12'
-  - 11|All-@V2ray_Alpha--4
-  - 11|ورهایبیشتردرکانا:prrofile_purp...
-  - '11|@IRAN_V2RAY1 #6'
-  - 10,11|🇩🇪 | @HajmVPN_Config
-  - 11|@Broz_time > کانفیگ رایگان
-  - 11|MCI-IR--@V2rayAlpha-6
-  - 11|کانفیگ های بیشتر در چنل تلگرام...
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #11'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #23'
-  - 11|All-@V2rayAlpha--42
-  - 11|All--@V2rayAlpha--25
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #1'
-  - 15|NL_speednode_0013
-  - 11|@Hddify
-  - 11|All-#V2rayAlpha--17
-  - 11|@IRAN_V2RAY1
-  - 11|All-#V2rayAlpha--19
-  - '11|🔸@IRAN_V2RAY1💘 #8'
-  - 11|All--@V2rayAlpha--26
-  - 11|All-@V2ray_Alpha--8
-  - 11|All-#V2rayAlpha--14
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #18'
-  - 11|MCI-IR--@V2rayAlpha-14
-  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
-  - 13,14|日本2|@ripaojiedian
-  - 11|All--@V2rayAlpha--22
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #5'
-  - 11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه...
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19'
-  - 14|香港|@ripaojiedian
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #4'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2'
-  - 11|MCI-IR--@V2rayAlpha-1
-  - 11|All--@V2rayAlpha--14
-  - 13|🇲🇾 马来西亚|@ripaojiedian
-  - 11|MCI-IR--@V2rayAlpha-7
-  - 11|All-@V2rayAlpha--38
-  - 11|MCI-IR--@V2rayAlpha-4
-  - '11|All-@V2rayAlpha--6 #1'
-  - '11|@Hddify #3'
-  - 11|All--@V2rayAlpha--23
-  - 11|All--@V2rayAlpha--20
-  - '11|All--@IRAN_V2RAY1 #6'
-  - 11|MCI-IR--@V2rayAlpha-16
-  - 11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه...
-  - 11|All-@V2ray_Alpha--9
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #21'
-  - 13,14|日本|@ripaojiedian
-  - '11|🔸@IRAN_V2RAY1💘 #10'
-  - '11|All-@IRAN_V2RAY1 #3'
-  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-  - 11|All-@V2ray_Alpha--3
-  - 13,14|新加坡2|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - '11|🔸@IRAN_V2RAY1💘 #2'
-  - 11|All--@V2rayAlpha--21
-  - '11|🔸@IRAN_V2RAY1💘 #9'
-  - 11|MCI-IR--@V2rayAlpha-2
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16'
-  - '11|All--@IRAN_V2RAY1🇺🇸 #2'
-  - '11|🔸@IRAN_V2RAY1💘 #1'
-  - '11|All--@IRAN_V2RAY1 #3'
-  - 11|All-@V2rayAlpha--29
-  - 11|All-@V2ray_Alpha--7
-  - '11|🔸@IRAN_V2RAY1💘 #11'
+  - 11|telegram  𝗶𝗻𝗮
   - '11|All-@IRAN_V2RAY1 #4'
+  - 11|MCI-IR--@V2rayAlpha-17
+  - 13,14|新加坡|@ripaojiedian
+  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆¹
+  - '11|@Hddify #3'
+  - 11|All--@V2rayAlpha--21
+  - '11|All--@IRAN_V2RAY1🇺🇸 #1'
+  - 11|All--@V2rayAlpha--22
+  - 15|NL_speednode_0013
+  - 11|@IRAN_V2RAY1
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9'
+  - 11|All-@V2ray_Alpha--3
+  - 11|ا ها ر ر ن ترا💎 Config_Rayegan...
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #21'
+  - 11|All--@V2rayAlpha--24
+  - 11|All--@V2rayAlpha--19
+  - 11|All--@V2rayAlpha--20
+  - 11|MCI-IR--@V2rayAlpha-1
+  - 11|All--@V2rayAlpha--25
+  - 11|All-@V2rayAlpha--46
+  - 11|MCI-IR--@V2rayAlpha-8
+  - '11|🔸@IRAN_V2RAY1💘 #2'
+  - 11|All--@V2rayAlpha--14
+  - 11|All--@V2rayAlpha--23
+  - 11|MCI-IR--@V2rayAlpha-12
+  - 10,11|🇩🇪@FreakConfig
+  - '11|All-@IRAN_V2RAY1 #2'
+  - 11|All-@V2ray_Alpha--9
+  - 11|All-@V2ray_Alpha--8
+  - '11|All--@IRAN_V2RAY1 #2'
+  - 13,14|新加坡2|@ripaojiedian
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #18'
+  - 13,14|香港3|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 11|All-@V2rayAlpha--41
+  - '11|🔸@IRAN_V2RAY1💘 #10'
+  - 11|All-@V2rayAlpha--43
+  - '11|All--@IRAN_V2RAY1🇺🇸 #4'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16'
+  - '11|🔸@IRAN_V2RAY1💘 #11'
+  - 10,11|🇩🇪 | @HajmVPN_Config
+  - 11|4j0iQnX"&insecure=1&sni=ftp.de...
+  - 11|All-@V2rayAlpha--42
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #23'
+  - '11|All--@IRAN_V2RAY1 #6'
+  - 13|tg频道:@ripaojiedian
+  - 14|香港|@ripaojiedian
   - 10|🎨4@oneclickvpnkeys
   - 11|🇺@V2RayyNGvpn🇺همه اوپراتور ها
-  - 11|MCI-IR--@V2rayAlpha-15
-  - 13,14|美国2|@ripaojiedian
-  - 11|MCI-IR--@V2rayAlpha-3
-  - 11|All-@V2rayAlpha--34
-  - '11|All-@IRAN_V2RAY1 #2'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #7'
-  - 11|All-@V2rayAlpha-26
-  - '11|28YB5qK!5t#U&insecure=1&sni=na... #1'
-  - 11|All-@V2ray_Alpha--30
   - 13,14|新加坡3|@ripaojiedian
-  - 11|All-@V2rayAlpha--37
-  - 11|ا ها ر ر ن ترا💎 Config_Rayegan...
   - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #8'
-  - 11|All--@V2rayAlpha--17
-  - 13,14|美国3|@ripaojiedian
-  - 11|MCI-IR--@V2rayAlpha-17
-  - 11|🔸@IRAN_V2RAY1💘
-  - 13,14|新加坡|@ripaojiedian
-  - 11|All-@V2rayAlpha--2
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 11|All--@V2rayAlpha--19
-  - 11|✅سرورهایبیشتردرکانال:prrofile_...
-  - 13,14|香港4|@ripaojiedian
-  - 14|马来西亚|@ripaojiedian
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #25'
+  - 13,14|日本|@ripaojiedian
+  - 11|MCI-IR--@V2rayAlpha-7
   - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #15'
-  - 11|All-@V2ray_Alpha--6
-  - '11|All--@IRAN_V2RAY1 #2'
-  - 11|All-@V2rayAlpha--43
-  - 11|All--@V2rayAlpha--18
-  - 10,11|All-@V2rayAlpha--7
-  - 13|tg频道:@ripaojiedian
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6'
-  - 11|All-@V2rayAlpha--41
-  - 13,14|日本3|@ripaojiedian
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10'
-  - 10|15@oneclickvpnkeys
-  - '11|All--@IRAN_V2RAY1 #1'
-  - 11|All-#V2rayAlpha--10
-  - 11|All-@V2rayAlpha-25
-  - 13,14|美国|@ripaojiedian
-  - '11|@Hddify #1'
-  - 11|All-@V2ray_Alpha--29
-  - 11|MCI-IR--@V2rayAlpha-11
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22'
-  - 11|All-@V2rayAlpha--33
-  - 11|All-@V2rayAlpha--46
-  - 11|MCI-IR--@V2rayAlpha-12
-  - '11|All--@IRAN_V2RAY1 #5'
-  - '11|𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #2'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #24'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #3'
-  - 11|All-@V2rayAlpha--44
-  - 11|All-#V2rayAlpha--16
-  - 10|🎨2@oneclickvpnkeys
-  - 11|@IRAN_V2RAY1💘
-  - '11|All--@IRAN_V2RAY1🇺🇸 #4'
-  - 11|MTN--@IRAN_V2RAY1
-  - 11|MCI-IR--@V2rayAlpha-8
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #13'
-  - 11|telegram  𝗶𝗻𝗮
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9'
-  - 10,11|r♡ya
-  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆¹
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #14'
+  - 11|🔸@IRAN_V2RAY1💘
+  - '11|All--@IRAN_V2RAY1 #7'
   - '11|✅سرورهایبیشتردرکانال:prrofile_... #1'
-  - '11|All--@IRAN_V2RAY1🇺🇸 #1'
-  - 11|4j0iQnX"&insecure=1&sni=ftp.de...
-  - 11|@Daily_Configs
+  - 11|@Hddify
+  - 14|马来西亚|@ripaojiedian
+  - 11|MCI-IR--@V2rayAlpha-13
+  - '11|@Hddify #1'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6'
+  - 11|@Broz_time > کانفیگ رایگان
+  - '11|@IRAN_V2RAY1 #6'
+  - 11|All-#V2rayAlpha--17
+  - 13,14|美国2|@ripaojiedian
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #14'
+  - 13|🇲🇾 马来西亚|@ripaojiedian
+  - 11|All--@V2rayAlpha--17
+  - 10,11|r♡ya
+  - '11|🔸@IRAN_V2RAY1💘 #8'
+  - 13,14|美国3|@ripaojiedian
+  - 13,14|美国|@ripaojiedian
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #24'
+  - 13,14|日本3|@ripaojiedian
+  - 11|All-@V2rayAlpha--38
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10'
+  - 11|All--@V2rayAlpha--26
+  - 11|All--@V2rayAlpha--18
+  - 11|All-@V2rayAlpha-25
+  - 11|All-@V2rayAlpha--37
+  - '11|🔸@IRAN_V2RAY1💘 #9'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17'
+  - 11|All-#V2rayAlpha--14
+  - '11|@V2RayyNGvpn🇩🇪  '
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #11'
   - 11|All-#V2rayAlpha--21
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #13'
+  - 13,14|香港5|@ripaojiedian
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #5'
+  - '11|28YB5qK!5t#U&insecure=1&sni=na... #1'
+  - 13,14|日本2|@ripaojiedian
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20'
+  - 11|All-#V2rayAlpha--19
+  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
+  - 11|All-#V2rayAlpha--16
+  - 11|All-@V2ray_Alpha--30
+  - 11|All-@V2rayAlpha--29
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #7'
+  - '11|𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #2'
+  - 11|All-@V2rayAlpha-26
+  - '11|🔸@IRAN_V2RAY1💘 #1'
+  - 11|MCI-IR--@V2rayAlpha-3
+  - 11|All-@V2rayAlpha--44
+  - 11|All-@V2rayAlpha--34
+  - 11|All-@V2rayAlpha--33
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19'
+  - 11|All-@V2ray_Alpha--29
+  - 11|@IRAN_V2RAY1💘
+  - '11|All--@IRAN_V2RAY1 #4'
+  - 11|All-@V2ray_Alpha--7
+  - 11|✅سرورهایبیشتردرکانال:prrofile_...
+  - '11|All--@IRAN_V2RAY1 #1'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2'
+  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
+  - 11|کانفیگ های بیشتر در چنل تلگرام...
+  - 11|ورهایبیشتردرکانا:prrofile_purp...
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 11|MCI-IR--@V2rayAlpha-2
+  - 11|MCI-IR--@V2rayAlpha-15
+  - 11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه...
+  - 11|MCI-IR--@V2rayAlpha-11
+  - '11|All--@IRAN_V2RAY1🇺🇸 #2'
+  - 11|MCI-IR--@V2rayAlpha-6
+  - 11|All-@V2ray_Alpha--6
+  - 11|MCI-IR--@V2rayAlpha-14
+  - 11|MCI-IR--@V2rayAlpha-4
+  - 11|All-@V2rayAlpha--2
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #1'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #3'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #4'
+  - 11|@Daily_Configs
+  - '11|All-@V2rayAlpha--6 #1'
+  - 10,11|All-@V2rayAlpha--7
+  - '11|All-@IRAN_V2RAY1 #3'
+  - 11|All-@V2ray_Alpha--4
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22'
+  - 11|MTN--@IRAN_V2RAY1
+  - '11|🔸@IRAN_V2RAY1💘 #4'
+  - 11|All-#V2rayAlpha--10
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1580,7 +1533,6 @@ proxy-groups:
   - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22'
   - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #23'
   - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #24'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #25'
   type: select
 rules:
 - MATCH,DIRECT
