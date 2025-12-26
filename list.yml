@@ -1,4 +1,4 @@
-# Update: 2025-12-26 17:13
+# Update: 2025-12-26 20:21
 allow-lan: false
 dns:
   enable: true
@@ -164,7 +164,55 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 15|RU_speednode_0005
+- name: 15|CN_speednode_0001
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27043
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0002
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27033
+  server: lt-jpn.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0003
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27031
+  server: lt-jpn.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0004
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27044
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0005
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27041
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0006
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27045
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: 15|RU_speednode_0009
   network: ws
   password: 5a2c16f9
   port: 443
@@ -177,7 +225,7 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- name: 15|US_speednode_0007
+- name: 15|RU_speednode_0010
   network: ws
   password: 5a2c16f9
   port: 443
@@ -201,26 +249,32 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13,14|新加坡2|@ripaojiedian
-  - 13,14|新加坡3|@ripaojiedian
+  - 15|CN_speednode_0006
   - 14|香港|@ripaojiedian
-  - 13,14|美国2|@ripaojiedian
+  - 15|RU_speednode_0009
   - 13|🇻🇳 越南|@ripaojiedian
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
   - 13,14|日本2|@ripaojiedian
-  - 13,14|美国3|@ripaojiedian
-  - 13,14|日本|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
+  - 15|CN_speednode_0003
+  - 15|RU_speednode_0010
   - 13,14|新加坡|@ripaojiedian
-  - 15|US_speednode_0007
-  - 13,14|香港4|@ripaojiedian
-  - 13,14|香港3|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - 13,14|日本3|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
   - 14|美国4|@ripaojiedian
-  - 15|RU_speednode_0005
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 13,14|新加坡2|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 15|CN_speednode_0001
+  - 15|CN_speednode_0002
+  - 13,14|香港5|@ripaojiedian
   - 13|🇺🇸 美国4|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
+  - 13,14|日本|@ripaojiedian
+  - 13|tg频道:@ripaojiedian
+  - 13,14|美国|@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
+  - 13,14|美国3|@ripaojiedian
+  - 15|CN_speednode_0005
+  - 15|CN_speednode_0004
+  - 13,14|香港3|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300

@@ -1,4 +1,4 @@
-# Update: 2025-12-26 17:13
+# Update: 2025-12-26 20:21
 allow-lan: false
 dns:
   enable: true
@@ -1153,47 +1153,81 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 15|DE_speednode_0001
-  network: ws
-  port: 80
-  server: 77.37.33.169
-  servername: vless.hubp.de
-  skip-cert-verify: false
-  tls: false
-  type: vless
+- name: 15|CN_speednode_0001
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27043
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
   udp: true
-  uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
-  ws-opts:
-    headers:
-      Host: vless.hubp.de
-    path: /
+- name: 15|CN_speednode_0002
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27033
+  server: lt-jpn.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0003
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27031
+  server: lt-jpn.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0004
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27044
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0005
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27041
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0006
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27045
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
 - flow: xtls-rprx-vision
-  name: 15|RU_speednode_0003
-  port: 8443
+  name: 15|HK_speednode_0007
+  port: 10122
   reality-opts:
-    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    short-id: 8f222b3475800821
-  server: 158.160.201.80
-  servername: m.vk.com
+    public-key: TU2OTQBiMyK-mKCI3G6fENadfG-fdNlWJF7Qv9ywkFY
+    short-id: 8a6394aa28d6
+  server: 1.36.189.217
+  servername: music.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3d4525a8-3345-4743-a1dd-0e6cca32b6e7
+  uuid: 7f60f6e7-8419-4cff-9e1b-14179f677a5e
 - flow: xtls-rprx-vision
-  name: 15|RU_speednode_0004
-  port: 443
+  name: 15|NN_speednode_0008
+  port: 26978
   reality-opts:
-    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    short-id: 887c0d72e771a934
-  server: 158.160.201.80
-  servername: m.vk.com
+    public-key: n2w4hj7Q7wN6P21LSJJwIPitfYZbwWh5a2seJHH58SE
+    short-id: 28bf
+  server: sakura.bunnywaffle.org
+  servername: tesla.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3d4525a8-3345-4743-a1dd-0e6cca32b6e7
-- name: 15|RU_speednode_0005
+  uuid: 9042affd-0ad3-4014-adbc-e52f00891ea2
+- name: 15|RU_speednode_0009
   network: ws
   password: 5a2c16f9
   port: 443
@@ -1206,21 +1240,7 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- name: 15|SG_speednode_0006
-  network: ws
-  port: 443
-  server: 34.143.159.175
-  servername: qqq-3t8.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: qqq-3t8.pages.dev
-    path: /
-- name: 15|US_speednode_0007
+- name: 15|RU_speednode_0010
   network: ws
   password: 5a2c16f9
   port: 443
@@ -1244,144 +1264,148 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2'
-  - 13,14|新加坡2|@ripaojiedian
-  - 13,14|新加坡3|@ripaojiedian
-  - 11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه...
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #18'
-  - 14|香港|@ripaojiedian
-  - '11|@Hddify #3'
-  - 11|@IRAN_V2RAY1
-  - 11|✅سرورهایبیشتردرکانال:prrofile_...
-  - 11|All-@V2rayAlpha--44
-  - 11|All-@V2rayAlpha--34
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16'
-  - 11|All-#V2rayAlpha--16
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12'
-  - 11|All-#V2rayAlpha--21
-  - '11|🔸@IRAN_V2RAY1💘 #10'
-  - 10,11|@V2rayNGVPN <= کانفیگ رایگان
-  - 11|🔸@IRAN_V2RAY1💘
-  - 13,14|香港4|@ripaojiedian
-  - 11|All-@V2rayAlpha--46
-  - '11|🔸@IRAN_V2RAY1💘 #2'
-  - 11|🇩🇪 - DE - @freeOnlineVPN
-  - 11|All-@V2ray_Alpha--30
-  - 11|All--@V2rayAlpha--26
-  - 10,11|All-@V2rayAlpha--7
-  - '11|🔸@IRAN_V2RAY1💘 #11'
-  - 11|All-#V2rayAlpha--10
-  - 11|@IRAN_V2RAY1💘
-  - 15|RU_speednode_0005
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #15'
-  - 11|All-@V2rayAlpha--37
-  - 11|کانفیگ های بیشتر در چنل تلگرام...
+  - 15|CN_speednode_0006
   - '11|All--@IRAN_V2RAY1 #4'
-  - '11|@V2RayyNGvpn🇩🇪  '
-  - 10|🧊49@oneclickvpnkeys
-  - 13,14|美国2|@ripaojiedian
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #1'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10'
-  - 11|28YB5qK!5t#U&insecure=1&sni=ww...
-  - 11|All-@V2ray_Alpha--29
-  - 11|All-@V2ray_Alpha--9
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #8'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #3'
-  - 11|MTN--@IRAN_V2RAY1
-  - 10|⛄49@oneclickvpnkeys
-  - '11|All-@IRAN_V2RAY1 #3'
-  - '11|🔸@IRAN_V2RAY1💘 #4'
-  - 10|🧊40@oneclickvpnkeys
-  - '11|@Hddify #1'
-  - '10,11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #2'
-  - '10,11|🇳🇱 - NL - @freeOnlineVPN #1'
-  - '11|All--@IRAN_V2RAY1🇺🇸 #2'
-  - 11|All-#V2rayAlpha--14
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #14'
-  - 11|All-@V2ray_Alpha--7
-  - '11|🔸@IRAN_V2RAY1💘 #9'
-  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆¹
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #4'
-  - '11|🔸@IRAN_V2RAY1💘 #8'
-  - 11|All-@V2rayAlpha--38
-  - 11|All--@V2rayAlpha--19
-  - 13,14|日本3|@ripaojiedian
-  - 11|@TapsiVpn • JOIN 🇺🇸  @TapsiVpn...
-  - '11|All-@IRAN_V2RAY1 #4'
-  - 10,11|🇪 - DE - @freeOnlineVPN
-  - 10|28YB5qK!5t#U#⛄11@oneclickvpnke...
-  - 15|DE_speednode_0001
-  - 11|All--@V2rayAlpha--21
-  - 11|All--@V2rayAlpha--22
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6'
-  - 13|🇻🇳 越南|@ripaojiedian
-  - 11|All--@V2rayAlpha--24
-  - 13,14|日本2|@ripaojiedian
-  - 11|All--@V2rayAlpha--17
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #5'
-  - 11|All-@V2rayAlpha-26
-  - 13,14|日本|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
-  - 11|All-@V2rayAlpha--41
-  - 11|ا ها ر ر ن ترا💎 Config_Rayegan...
-  - 11|All-@V2ray_Alpha--6
-  - 11|All-#V2rayAlpha--17
-  - 11|All-@V2rayAlpha--2
-  - '11|✅سرورهایبیشتردرکانال:prrofile_... #1'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20'
-  - '10,11|𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1'
-  - 11|ورهایبیشتردرکانا:prrofile_purp...
-  - '11|@IRAN_V2RAY1 #6'
-  - 11|@Hddify
-  - 15|US_speednode_0007
-  - 13,14|香港3|@ripaojiedian
-  - 11|All-@V2rayAlpha--29
-  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
-  - 11|All-@V2rayAlpha--42
-  - 11|All--@V2rayAlpha--18
-  - 13,14|香港5|@ripaojiedian
-  - 11|All-@V2ray_Alpha--8
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #13'
-  - 13|🇺🇸 美国4|@ripaojiedian
-  - 11|All-@V2rayAlpha--8
-  - 11|All-@V2rayAlpha-25
-  - 11|All-@V2rayAlpha--43
-  - 11|@TapsiVpn. join
-  - 11|All--@V2rayAlpha--25
-  - 11|All-#V2rayAlpha--19
-  - 10|28YB5qK!5t#U#⛄43@oneclickvpnke...
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 15|SG_speednode_0006
-  - 13|tg频道:@ripaojiedian
-  - '11|🔸@IRAN_V2RAY1💘 #1'
-  - 13,14|美国3|@ripaojiedian
-  - 15|RU_speednode_0003
-  - '11|28YB5qK!5t#U&insecure=1&sni=na... #1'
-  - 11|All-@V2rayAlpha--28
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #7'
-  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-  - 13,14|新加坡|@ripaojiedian
-  - 11|🇳🇱@FreakConfig
-  - 11|All--@V2rayAlpha--20
-  - 11|All--@V2rayAlpha--23
-  - 11|All-@V2ray_Alpha--3
-  - '11|All--@IRAN_V2RAY1🇺🇸 #1'
   - '11|All--@IRAN_V2RAY1 #3'
-  - '11|All-@IRAN_V2RAY1 #2'
-  - 11|All-@V2ray_Alpha--4
-  - 15|RU_speednode_0004
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #11'
-  - '11|All--@IRAN_V2RAY1🇺🇸 #4'
-  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #21'
-  - 11|All--@V2rayAlpha--14
-  - 10|19@oneclickvpnkeys
-  - 11|telegram  𝗶𝗻𝗮
-  - 14|美国4|@ripaojiedian
+  - 11|All--@V2rayAlpha--17
+  - 11|@IRAN_V2RAY1💘
+  - '11|🇳🇱 - NL - @freeOnlineVPN #2'
+  - 10|⛄49@oneclickvpnkeys
+  - 11|All-#V2rayAlpha--14
+  - 13|🇻🇳 越南|@ripaojiedian
+  - 15|CN_speednode_0003
   - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17'
+  - 11|All-@V2rayAlpha--37
+  - 11|MTN--@IRAN_V2RAY1
+  - 11|All-#V2rayAlpha--10
+  - 11|All-@V2rayAlpha--34
+  - '11|🔸@IRAN_V2RAY1💘 #10'
+  - '11|🔸@IRAN_V2RAY1💘 #2'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #15'
+  - 11|@Hddify
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #18'
+  - 11|All-@V2rayAlpha--2
+  - 10|🧊49@oneclickvpnkeys
+  - 11|All-@V2ray_Alpha--9
+  - 13|🇺🇸 美国4|@ripaojiedian
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12'
+  - '10,11|𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1'
+  - 11|All-@V2ray_Alpha--6
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6'
+  - 11|All-@V2rayAlpha--44
+  - 13,14|日本3|@ripaojiedian
+  - 11|All-@V2rayAlpha--29
+  - 11|All-@V2ray_Alpha--29
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #8'
+  - 15|HK_speednode_0007
+  - 11|28YB5qK!5t#U&insecure=1&sni=ww...
+  - 15|CN_speednode_0004
+  - 13,14|香港3|@ripaojiedian
+  - '11|All-@IRAN_V2RAY1 #4'
   - 11|All-@V2rayAlpha--33
+  - 10|28YB5qK!5t#U#⛄11@oneclickvpnke...
+  - 11|All--@V2rayAlpha--24
+  - 14|香港|@ripaojiedian
+  - 10,11|🇪 - DE - @freeOnlineVPN
+  - 11|All-@V2ray_Alpha--3
+  - '11|@Hddify #3'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #7'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #13'
+  - '11|@Hddify #1'
+  - '11|✅سرورهایبیشتردرکانال:prrofile_... #1'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #5'
+  - 11|کانفیگ های بیشتر در چنل تلگرام...
+  - '10,11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1'
+  - 11|All--@V2rayAlpha--21
+  - '11|28YB5qK!5t#U&insecure=1&sni=na... #1'
+  - '11|All--@IRAN_V2RAY1🇺🇸 #4'
+  - 13|tg频道:@ripaojiedian
+  - '11|🔸@IRAN_V2RAY1💘 #11'
+  - 10|19@oneclickvpnkeys
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20'
+  - 15|CN_speednode_0005
+  - 11|🔸@IRAN_V2RAY1💘
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #21'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #1'
+  - 11|All-@V2ray_Alpha--8
+  - 11|All-@V2rayAlpha--42
+  - 11|✅سرورهایبیشتردرکانال:prrofile_...
+  - '11|All-@IRAN_V2RAY1 #2'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #11'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #14'
+  - '11|All--@IRAN_V2RAY1🇺🇸 #1'
+  - 11|All-#V2rayAlpha--21
+  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆¹
+  - 11|All-@V2rayAlpha--28
+  - 11|All--@V2rayAlpha--26
+  - 13,14|日本2|@ripaojiedian
+  - '11|🔸@IRAN_V2RAY1💘 #1'
+  - 11|All--@V2rayAlpha--22
+  - 11|All--@V2rayAlpha--19
+  - 11|ا ها ر ر ن ترا💎 Config_Rayegan...
+  - 11|All-@V2ray_Alpha--30
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19'
+  - '11|All--@IRAN_V2RAY1🇺🇸 #2'
+  - 11|@IRAN_V2RAY1
+  - 11|All-#V2rayAlpha--16
+  - 11|All--@V2rayAlpha--23
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 11|All-@V2rayAlpha--46
+  - 11|telegram  𝗶𝗻𝗮
+  - 11|All-#V2rayAlpha--19
+  - 11|ورهایبیشتردرکانا:prrofile_purp...
+  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
+  - 13,14|香港5|@ripaojiedian
+  - 10,11|All-@V2rayAlpha--7
+  - 13,14|美国2|@ripaojiedian
+  - 11|All-@V2ray_Alpha--4
+  - '11|@V2RayyNGvpn🇩🇪  '
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #4'
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10'
+  - 13,14|美国3|@ripaojiedian
+  - '11|All-@IRAN_V2RAY1 #3'
+  - 11|All-@V2rayAlpha-26
+  - 11|🇳🇱@FreakConfig
+  - 11|🇩🇪 - DE - @freeOnlineVPN
+  - 10|🧊40@oneclickvpnkeys
+  - 11|All-@V2rayAlpha-25
+  - 11|All-@V2rayAlpha--41
+  - 15|NN_speednode_0008
+  - 15|RU_speednode_0009
+  - '11|🔸@IRAN_V2RAY1💘 #8'
+  - 10,11|@V2rayNGVPN <= کانفیگ رایگان
+  - 11|All-@V2rayAlpha--38
+  - '10,11|🇳🇱 - NL - @freeOnlineVPN #1'
+  - 15|RU_speednode_0010
+  - 11|@TapsiVpn • JOIN 🇺🇸  @TapsiVpn...
+  - 13,14|新加坡|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
+  - 10|28YB5qK!5t#U#⛄43@oneclickvpnke...
+  - 14|美国4|@ripaojiedian
+  - 11|All-@V2ray_Alpha--7
+  - '11|🔸@IRAN_V2RAY1💘 #4'
+  - 13,14|新加坡2|@ripaojiedian
+  - '11|@IRAN_V2RAY1 #6'
+  - 13,14|香港4|@ripaojiedian
+  - 11|All--@V2rayAlpha--14
+  - 15|CN_speednode_0001
+  - 15|CN_speednode_0002
+  - '11|🔸@IRAN_V2RAY1💘 #9'
+  - 11|All-@V2rayAlpha--8
+  - 13,14|日本|@ripaojiedian
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16'
+  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
+  - 13,14|美国|@ripaojiedian
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #3'
+  - 11|All--@V2rayAlpha--25
+  - 11|All-@V2rayAlpha--43
+  - 11|All--@V2rayAlpha--18
+  - 11|All-#V2rayAlpha--17
+  - 11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه...
+  - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2'
+  - 11|All--@V2rayAlpha--20
+  - 11|@TapsiVpn. join
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1454,7 +1478,6 @@ proxy-groups:
   - 13,14|美国3|@ripaojiedian
   - 13|🇺🇸 美国4|@ripaojiedian
   - 14|美国4|@ripaojiedian
-  - 15|US_speednode_0007
   type: select
 - name: 🇨🇳 台湾
   proxies:
@@ -1462,7 +1485,12 @@ proxy-groups:
   type: select
 - name: 🇨🇳 中国
   proxies:
-  - REJECT
+  - 15|CN_speednode_0001
+  - 15|CN_speednode_0002
+  - 15|CN_speednode_0003
+  - 15|CN_speednode_0004
+  - 15|CN_speednode_0005
+  - 15|CN_speednode_0006
   type: select
 - name: 🇭🇰 香港
   proxies:
@@ -1471,6 +1499,7 @@ proxy-groups:
   - 13,14|香港4|@ripaojiedian
   - 13,14|香港5|@ripaojiedian
   - 14|香港|@ripaojiedian
+  - 15|HK_speednode_0007
   type: select
 - name: 🇨🇦 加拿大
   proxies:
@@ -1485,7 +1514,6 @@ proxy-groups:
   - 13,14|新加坡|@ripaojiedian
   - 13,14|新加坡2|@ripaojiedian
   - 13,14|新加坡3|@ripaojiedian
-  - 15|SG_speednode_0006
   type: select
 - name: 🇬🇧 英国
   proxies:
@@ -1497,9 +1525,8 @@ proxy-groups:
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
-  - 15|RU_speednode_0003
-  - 15|RU_speednode_0004
-  - 15|RU_speednode_0005
+  - 15|RU_speednode_0009
+  - 15|RU_speednode_0010
   type: select
 - name: 🇩🇪 德国
   proxies:
@@ -1526,7 +1553,6 @@ proxy-groups:
   - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19'
   - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20'
   - '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #21'
-  - 15|DE_speednode_0001
   type: select
 rules:
 - MATCH,DIRECT
