@@ -1,4 +1,4 @@
-# Update: 2025-12-27 14:17
+# Update: 2025-12-27 17:11
 allow-lan: false
 dns:
   enable: true
@@ -164,162 +164,21 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 15|RU_speednode_0004
-  network: ws
-  password: 5a2c16f9
+- name: 15|HK_speednode_0002
+  password: BxceQaOe
   port: 443
-  server: freeyx.cloudflare88.eu.org
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: 15|US_speednode_0007
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.17.162.3
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: 15|US_speednode_0010
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.17.167.134
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: 15|US_speednode_0011
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.19.220.22
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: 15|US_speednode_0016
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: one.cf.cdn.hyli.xyz
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: 15|US_speednode_0017
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.16.246.188
+  server: 203.198.84.221
   skip-cert-verify: true
-  sni: snippets.kkii.eu.org
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: 15|US_speednode_0020
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.26.1.110
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: 15|US_speednode_0021
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: cf.130519.xyz
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: 15|US_speednode_0022
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.169
+- name: 15|US_speednode_0009
+  password: kkzh2prsyr2ik47as615
+  port: 57142
+  server: 64.94.95.118
   skip-cert-verify: true
-  sni: snippets.kkii.eu.org
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: 15|US_speednode_0023
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 162.159.128.253
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: 15|US_speednode_0025
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.2
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: 15|US_speednode_0026
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 162.159.24.131
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -331,36 +190,26 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13,14|香港4|@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 14|美国4|@ripaojiedian
-  - 15|US_speednode_0025
-  - 13,14|美国3|@ripaojiedian
-  - 15|US_speednode_0017
-  - 13,14|日本2|@ripaojiedian
-  - 15|US_speednode_0021
-  - 13,14|新加坡2|@ripaojiedian
-  - 13,14|日本|@ripaojiedian
-  - 14|香港|@ripaojiedian
-  - 15|US_speednode_0010
-  - 15|US_speednode_0016
-  - 13|🇸🇬 新加坡4|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
-  - 13|🇺🇸 美国4|@ripaojiedian
-  - 15|US_speednode_0011
-  - 13,14|新加坡3|@ripaojiedian
-  - 13,14|美国2|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - 15|US_speednode_0026
-  - 15|RU_speednode_0004
-  - 13,14|美国|@ripaojiedian
-  - 15|US_speednode_0020
   - 13|🇭🇰 香港|@ripaojiedian
-  - 13,14|日本3|@ripaojiedian
-  - 15|US_speednode_0023
-  - 15|US_speednode_0007
-  - 15|US_speednode_0022
+  - 15|HK_speednode_0002
+  - 13,14|美国2|@ripaojiedian
+  - 13|🇸🇬 新加坡4|@ripaojiedian
+  - 13,14|美国|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 14|香港|@ripaojiedian
   - 13,14|香港3|@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
+  - 13|🇺🇸 美国4|@ripaojiedian
+  - 13,14|新加坡2|@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
+  - 15|US_speednode_0009
+  - 13,14|日本|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
+  - 13|tg频道:@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 13,14|香港5|@ripaojiedian
+  - 13,14|美国3|@ripaojiedian
+  - 14|美国4|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
