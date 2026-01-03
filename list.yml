@@ -1,4 +1,4 @@
-# Update: 2026-01-03 08:53
+# Update: 2026-01-03 11:50
 allow-lan: false
 dns:
   enable: true
@@ -157,19 +157,66 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 15|US_speednode_0018
+- name: 15|AE_speednode_0001
   network: ws
-  password: iwangjie
-  port: 15805
-  server: 158.101.11.204
-  skip-cert-verify: false
-  sni: nodes.830901.xyz
+  password: 5a2c16f9
+  port: 2096
+  server: 94.140.0.238
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: nodes.830901.xyz
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 15|GB_speednode_0005
+  password: R8ufkVqwRZAgtwjyrA
+  port: 443
+  server: uk-1.fishchipsexpress.com
+  skip-cert-verify: true
+  sni: uk-1.fishchipsexpress.com
+  type: trojan
+  udp: true
+- name: 15|US_speednode_0019
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
     path: /
+- name: 15|US_speednode_0020
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: /?ed=2560
+- name: 15|US_speednode_0021
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 135.84.73.238
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -181,25 +228,29 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13,14|新加坡|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - 15|US_speednode_0018
-  - 14|香港|@ripaojiedian
-  - 13,14|新加坡3|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
-  - 13,14|香港3|@ripaojiedian
   - 13,14|日本3|@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
-  - 13,14|日本|@ripaojiedian
-  - 13|🇯🇵 日本4|@ripaojiedian
-  - 13,14|美国2|@ripaojiedian
-  - 13|🇭🇰 香港|@ripaojiedian
+  - 15|AE_speednode_0001
+  - 15|US_speednode_0021
   - 13,14|日本2|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
-  - 13,14|新加坡2|@ripaojiedian
+  - 15|GB_speednode_0005
   - 13,14|美国3|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
+  - 13,14|香港5|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 13,14|新加坡2|@ripaojiedian
+  - 13,14|美国|@ripaojiedian
+  - 15|US_speednode_0020
+  - 13,14|香港3|@ripaojiedian
+  - 14|香港|@ripaojiedian
+  - 15|US_speednode_0019
   - 13|🇻🇳 越南|@ripaojiedian
+  - 13,14|日本|@ripaojiedian
+  - 13|🇭🇰 香港|@ripaojiedian
   - 13|🇰🇷 韩国|@ripaojiedian
+  - 13|🇯🇵 日本4|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 13|tg频道:@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
