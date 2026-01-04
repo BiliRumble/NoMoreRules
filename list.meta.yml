@@ -1,4 +1,4 @@
-# Update: 2026-01-04 12:06
+# Update: 2026-01-04 14:17
 allow-lan: false
 dns:
   enable: true
@@ -1063,7 +1063,7 @@ proxies:
     headers:
       Host: hkt.gotochinatown.net
     path: /
-- name: 13,14|香港3|@ripaojiedian
+- name: 13,14,15|HK_speednode_0008
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 443
@@ -1071,6 +1071,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -1206,92 +1207,86 @@ proxies:
   type: vless
   udp: true
   uuid: 1a598715-d629-4d8c-910b-dbe5ebdc0b53
-- flow: xtls-rprx-vision
-  name: 15|DE_speednode_0003
-  port: 46942
-  reality-opts:
-    public-key: omg0dIfTHQbMADo5g6COKn73nEFoSYC1X5lV-goPBEg
-    short-id: 1709fe47a82c202e
-  server: ooooooof.ir.fizikade.ir
-  servername: refersion.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c403d3e-81fb-29af-a76e-5a5ab279824b
-- flow: xtls-rprx-vision
-  name: 15|FI_speednode_0004
-  port: 4443
-  reality-opts:
-    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
-    short-id: aa7e96542880027a
-  server: 138.249.117.30
-  servername: github.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 526552b2-f67f-489c-9d0d-3e00e7d890d1
-- name: 15|GB_speednode_0005
-  password: R8ufkVqwRZAgtwjyrA
-  port: 443
-  server: uk-1.fishchipsexpress.com
+- name: 15|DE_speednode_0003
+  network: ws
+  password: 554f139b-f31f-41c4-99f9-73d60647db26
+  port: 8443
+  server: 178.250.187.3
   skip-cert-verify: true
-  sni: uk-1.fishchipsexpress.com
+  sni: snippets.kkii.eu.org
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 15|DE_speednode_0004
+  network: ws
+  password: 554f139b-f31f-41c4-99f9-73d60647db26
+  port: 443
+  server: 193.23.197.183
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
 - flow: xtls-rprx-vision
-  name: 15|NL_speednode_0012
-  port: 4443
+  name: 15|FI_speednode_0005
+  port: 8443
   reality-opts:
-    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
-    short-id: aa7e96542880027a
-  server: 45.87.153.176
-  servername: github.com
+    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
+    short-id: 58c512b4422e2517
+  server: 78.153.139.68
+  servername: images.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 526552b2-f67f-489c-9d0d-3e00e7d890d1
+  uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
 - flow: xtls-rprx-vision
-  name: 15|RU_speednode_0013
-  port: 443
+  name: 15|GB_speednode_0007
+  port: 47009
   reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: 17802e8ff84f12df
-  server: 51.250.65.209
+    public-key: tr79fhd6jVvu8d-Rp9gCEO8XtMyNpusiu3rLmIiKEnU
+    short-id: e21f2248d3f24140
+  server: 152.114.193.158
+  servername: sun6-21.userapi.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b07b61e-7c71-75fa-f97d-f4a82c66cfb5
+- name: 15|KR_speednode_0015
+  network: ws
+  port: 8443
+  server: 59.3.3.161
+  servername: x.kkii.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3afad5df-e056-4301-846d-665b4ef51968
+  ws-opts:
+    headers:
+      Host: x.kkii.eu.org
+    path: /59.3.3.161:8443
+- flow: xtls-rprx-vision
+  name: 15|RU_speednode_0018
+  port: 1488
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+  server: 51.250.104.85
   servername: ads.x5.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
-- name: 15|RU_speednode_0014
-  port: 443
-  reality-opts:
-    public-key: t0Gj0moa6d8jMp9LazLtWPenE3wl_M9tMHveifor8GU
-    short-id: 4d4421a0bac569
-  server: vkll.takovpn.ru
-  servername: eh.vk.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 846c5d45-936c-42f6-9120-2d13830d5fa0
-- flow: xtls-rprx-vision
-  name: 15|RU_speednode_0015
-  port: 4443
-  reality-opts:
-    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
-    short-id: aa7e96542880027a
-  server: s9.vless-balancer.ru
-  servername: github.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 96605f21-f706-45ae-8eeb-ec71efbca6a2
-- name: 15|RU_speednode_0016
+  uuid: d2d79fd8-a3d4-4792-9766-e472e1fe8a5f
+- name: 15|RU_speednode_0019
   port: 443
   reality-opts:
     public-key: t0Gj0moa6d8jMp9LazLtWPenE3wl_M9tMHveifor8GU
@@ -1303,60 +1298,202 @@ proxies:
   type: vless
   udp: true
   uuid: 846c5d45-936c-42f6-9120-2d13830d5fa0
-- flow: xtls-rprx-vision
-  name: 15|RU_speednode_0017
+- name: 15|RU_speednode_0020
   port: 443
   reality-opts:
-    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-    short-id: d1579a8745398e34
-  server: 89.169.137.193
+    public-key: t0Gj0moa6d8jMp9LazLtWPenE3wl_M9tMHveifor8GU
+    short-id: 4d4421a0bac569
+  server: vkll.takovpn.ru
   servername: eh.vk.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 2c8adcaa-e428-4cea-9c88-e88166651ab3
-- name: 15|SG_speednode_0018
+  uuid: 846c5d45-936c-42f6-9120-2d13830d5fa0
+- name: 15|RU_speednode_0021
   network: ws
-  port: 42841
-  server: 43.165.190.11
-  servername: mot.morisi.ggff.net
+  password: 554f139b-f31f-41c4-99f9-73d60647db26
+  port: 2096
+  server: 45.135.235.238
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 15|RU_speednode_0022
+  network: ws
+  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
+  port: 2096
+  server: 45.135.235.238
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- flow: xtls-rprx-vision
+  name: 15|RU_speednode_0023
+  port: 1488
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+  server: 51.250.28.232
+  servername: ads.x5.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: mot.morisi.ggff.net
-    path: /@Marisa_kristi
-- name: 15|US_speednode_0019
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
+  uuid: d2d79fd8-a3d4-4792-9766-e472e1fe8a5f
+- flow: xtls-rprx-vision
+  name: 15|RU_speednode_0024
+  port: 47009
+  reality-opts:
+    public-key: tr79fhd6jVvu8d-Rp9gCEO8XtMyNpusiu3rLmIiKEnU
+    short-id: e21f2248d3f24140
+  server: 185.218.204.203
+  servername: sun6-21.userapi.com
   skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 1b07b61e-7c71-75fa-f97d-f4a82c66cfb5
+- name: 15|SG_speednode_0025
+  port: 443
+  server: 14.new.sahanwickramasinghevip.shop
+  servername: 14.new.sahanwickramasinghevip.shop
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f39d0f5-d087-4983-b6da-e7ca82181f7b
+- name: 15|US_speednode_0027
+  network: ws
+  port: 2086
+  server: 104.21.233.186
+  servername: index.harmony610.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 636de463-b509-4631-adc6-400b21733278
   ws-opts:
     headers:
-      Host: epge.muarua.filegear-sg.me
+      Host: index.harmony610.workers.dev
+    path: /vgn80ag4q5o0oxj5
+- name: 15|US_speednode_0028
+  network: ws
+  port: 443
+  server: 108.162.198.185
+  servername: snippets.kkii.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
     path: /
-- name: 15|US_speednode_0020
+- name: 15|US_speednode_0029
   network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
+  port: 443
+  server: 104.17.69.244
+  servername: snippets.kkii.eu.org
   skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 15|US_speednode_0030
+  network: ws
+  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
+  port: 443
+  server: 64.181.227.82
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /?ed=2560
-- name: 15|US_speednode_0021
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 15|US_speednode_0031
+  network: ws
+  port: 2053
+  server: cfxr.eu.org
+  servername: sss.2026.loseyourip.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6958a4fa-d3de-cfe7-664a-5fc2d3ea190e
+  ws-opts:
+    headers:
+      Host: sss.2026.loseyourip.com
+    path: /proxyip=sjc.o00o.ooo
+- name: 15|US_speednode_0032
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: one.cf.cdn.hyli.xyz
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 15|US_speednode_0033
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.17.237.219
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 15|US_speednode_0034
+  network: ws
+  port: 443
+  server: v1.dabache.top
+  servername: snippets.kkii.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /fp=chrome
+- name: 15|US_speednode_0035
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.55
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 15|US_speednode_0036
   network: ws
   password: 5a2c16f9
   port: 2096
@@ -1369,6 +1506,72 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /Telegram🇨🇳WangCai2
+- name: 15|US_speednode_0037
+  network: ws
+  port: 2053
+  server: convera.com
+  servername: sss.2026.loseyourip.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6958a4fa-d3de-cfe7-664a-5fc2d3ea190e
+  ws-opts:
+    headers:
+      Host: sss.2026.loseyourip.com
+    path: /proxyip=sjc.o00o.ooo
+- name: 15|US_speednode_0038
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: cf.130519.xyz
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 15|US_speednode_0039
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 135.84.73.238
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /TelegramU0001F1E8U0001F1F3WangCai2
+- name: 15|US_speednode_0040
+  network: ws
+  password: 5a2c16f9
+  port: 2053
+  server: 199.119.137.77
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram@V2rayAlpha
+- name: 15|US_speednode_0041
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.65
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -1380,161 +1583,176 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - '11|All--@IRAN_V2RAY1🇺🇸 #3'
-  - '10,11|🔸@IRAN_V2RAY1💘 #5'
-  - 10,11|𝗝𝗼𝗶𝗻 ➠ @Daily_Configs 🫆
-  - 15|US_speednode_0020
-  - 11|All-@V2rayAlpha--41
-  - 15|RU_speednode_0015
-  - 10|SG
-  - '11|🇳🇱 - NL - @freeOnlineVPN #4'
-  - '11|All-@IRAN_V2RAY1 #3'
-  - 10|DE
-  - 15|NL_speednode_0012
-  - '11|All-@IRAN_V2RAY1 #5'
-  - 10|UK
-  - '11|🔸@IRAN_V2RAY1💘 #1'
-  - '11|All--@IRAN_V2RAY1🇺🇸 #2'
-  - '11|28YB5qK!5t#U&insecure=1&sni=na... #2'
-  - 10|KR
-  - 11|   ر ن را💎 Config_Rayegan@
-  - 15|US_speednode_0019
-  - '11|🇳🇱 - NL - @freeOnlineVPN #8'
-  - '10|未命名 #3'
-  - '10|SG #2'
-  - 10,11|41@ConfigV2RayNG
-  - 10|TW
-  - '11|🇩🇪 - DE - @freeOnlineVPN #2'
-  - 11|All-@IRAN_V2RAY1
-  - 11|🇫🇷@TapsiVpn. join
-  - '11|28YB5qK!5t#U&insecure=1&sni=ww... #1'
-  - 13,14|新加坡|@ripaojiedian
-  - '11|All--@IRAN_V2RAY1 #8'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #9'
-  - 10|1@oneclickvpnkeys
-  - 15|SG_speednode_0018
-  - '10|未命名 #1'
-  - 15|DE_speednode_0003
-  - '11|@IRAN_V2RAY1 #6'
-  - 11|All--@V2rayAlpha--19
-  - '11|All-@IRAN_V2RAY1 #4'
-  - '11|All-@IRAN_V2RAY1 #2'
-  - '10|UK #1'
-  - '10|SG #3'
-  - 11|All-@V2rayAlpha-26
-  - '11|All--@IRAN_V2RAY1 #4'
-  - 10|️22@oneclickvpnkeys
-  - 11|All--@V2rayAlpha--20
-  - '10|HK #1'
-  - 15|US_speednode_0021
-  - '11|All--@IRAN_V2RAY1🇺🇸 #1'
-  - 13|🇻🇳 越南|@ripaojiedian
-  - '10,11|🇩🇪 - DE - @freeOnlineVPN #4'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #1'
-  - 11|All--@V2rayAlpha-18
-  - 13,14|新加坡3|@ripaojiedian
-  - 11|All-#V2rayAlpha--17
-  - 13,14|日本2|@ripaojiedian
-  - 11|All--@V2rayAlpha--17
-  - '11|@Hddify #1'
-  - '11|🔸@IRAN_V2RAY1💘 #2'
-  - 13,14|美国3|@ripaojiedian
-  - 15|RU_speednode_0017
-  - 11|🔸@IRAN_V2RAY1💘
-  - 10|法兰克福
-  - 10|新加坡1
-  - 13,14|香港2|@ripaojiedian
-  - 13,14|新加坡2|@ripaojiedian
-  - '11|𝗝𝗼𝗶𝗻 ➠ @Daily_Configs 🫆 #1'
-  - 11|🇪 - DE - @freeOnlineVPN
-  - 11|All-#V2rayAlpha--21
-  - 11|All--@V2rayAlpha--22
-  - 11|All-#V2rayAlpha--10
-  - '11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #3'
-  - 11|All--@V2rayAlpha--24
-  - 10|🇭🇰香港
-  - '11|🔸@IRAN_V2RAY1💘 #9'
-  - '10,11|💎کانفیگ های بیشتر در چنل تلگرا... #1'
-  - 13|🇰🇷 韩国|@ripaojiedian
-  - 10|美国2
-  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-  - '11|All-@IRAN_V2RAY1 #1'
-  - 11|22@ConfigV2RayNG
-  - '11|🇪 - DE - @freeOnlineVPN #1'
-  - 10|新加坡
-  - '11|✅سرورهایبیشتردرکانال:prrofile_... #1'
-  - 13,14|日本3|@ripaojiedian
-  - 15|AE_speednode_0001
-  - 13,14|日本|@ripaojiedian
-  - 10|FR
-  - 11|All--@V2rayAlpha--25
-  - 13,14|香港5|@ripaojiedian
-  - 10|US
-  - 11|All--@V2rayAlpha--26
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 10|香港
-  - 13,14|香港3|@ripaojiedian
-  - '10|新加坡 #1'
-  - '10|SG #5'
-  - 11|All--@V2rayAlpha-16
-  - '10|JP #2'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #7'
-  - '10|JP #1'
-  - '11|🔸@IRAN_V2RAY1💘 #10'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #5'
-  - '10|SG #7'
-  - 11|All--@V2rayAlpha-15
-  - 11|All--@V2rayAlpha-17
-  - 15|RU_speednode_0013
-  - 15|RU_speednode_0016
-  - '11|@IRAN_V2RAY1💘 #1'
-  - 10|未命名
-  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
-  - '11|🔸@IRAN_V2RAY1💘 #8'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #2'
-  - 15|FI_speednode_0004
-  - 15|GB_speednode_0005
-  - '10,11|ConfigV2RayNG #3'
-  - 11|All--@V2rayAlpha--18
-  - 15|RU_speednode_0014
-  - 10|美国
-  - '10|JP #4'
-  - 11|telegram  𝗶𝗻𝗮
-  - 11|@FreakConfig
-  - 11|All--@V2rayAlpha--21
-  - '11|🇩🇪 - DE - @freeOnlineVPN #3'
-  - 11|All--@V2rayAlpha-14
-  - 15|CN_speednode_0002
-  - '10|未命名 #2'
-  - '10|TW #1'
-  - 11|@Arshiavpn12 جوین شو قطع نشی
   - '10|JP #3'
   - 11|🇩🇪 - DE - @freeOnlineVPN
-  - 11|All-#V2rayAlpha--16
-  - 13,14|美国|@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
-  - '10|SG #8'
-  - '10|SG #6'
-  - 11|All-@V2rayAlpha-25
-  - 11|ConfigV2RayNG
-  - '10|SG #1'
-  - '11|🇳🇱 - NL - @freeOnlineVPN #6'
-  - 11|All--@IRAN_V2RAY1🇺🇸
-  - 14|香港|@ripaojiedian
-  - 11|✅سرورهایبیشتردرکانال:prrofile_...
-  - 11|All-#V2rayAlpha--14
-  - 11|All--@V2rayAlpha--23
-  - 10|🇭🇰 HK
-  - '10|HK #2'
+  - 15|AE_speednode_0001
+  - '11|All-@IRAN_V2RAY1 #3'
   - 13|tg频道:@ripaojiedian
-  - 11|All--@V2rayAlpha--14
-  - 11|All-#V2rayAlpha--19
+  - 10|UK
+  - 11|All-@V2rayAlpha-25
+  - '11|🔸@IRAN_V2RAY1💘 #8'
+  - 15|US_speednode_0027
+  - 15|DE_speednode_0003
+  - 15|FI_speednode_0005
+  - '10|JP #1'
+  - '10|HK #2'
+  - 15|GB_speednode_0007
+  - 15|US_speednode_0031
+  - '10,11|🔸@IRAN_V2RAY1💘 #5'
+  - '11|All--@IRAN_V2RAY1 #8'
+  - '11|@IRAN_V2RAY1💘 #1'
+  - 10|DE
+  - '11|🇳🇱 - NL - @freeOnlineVPN #8'
+  - 15|CN_speednode_0002
+  - '10|HK #1'
+  - '10|JP #2'
+  - 10|新加坡1
+  - 11|All--@V2rayAlpha--23
+  - 15|US_speednode_0033
+  - 11|All--@V2rayAlpha-16
+  - 10|法兰克福
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 10|1@oneclickvpnkeys
+  - 13,14|新加坡|@ripaojiedian
+  - 15|US_speednode_0036
+  - 15|RU_speednode_0019
+  - '11|All-@IRAN_V2RAY1 #1'
+  - 10|SG
+  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
+  - 11|All--@V2rayAlpha--26
+  - '10|TW #1'
+  - '10|UK #1'
+  - '10|未命名 #2'
+  - '10|SG #8'
+  - 10|未命名
+  - 15|US_speednode_0037
+  - '11|@Hddify #1'
   - 10|HK
-  - 13,14|美国2|@ripaojiedian
-  - 11|@IRAN_V2RAY1
+  - '10,11|🇩🇪 - DE - @freeOnlineVPN #4'
+  - 15|RU_speednode_0020
+  - 13|🇰🇷 韩国|@ripaojiedian
+  - 11|All--@IRAN_V2RAY1🇺🇸
+  - 11|💎کانفیگ های بیشتر در چنل تلگرا...
+  - 11|All--@V2rayAlpha--22
+  - 15|US_speednode_0030
   - 11| - FR - @freeOnlineVPN
-  - 11|رایبیشتردرکانال:prrofile_purpl...
+  - 11|All--@V2rayAlpha--24
+  - 10|🇭🇰香港
+  - 13,14|日本2|@ripaojiedian
+  - 11|All--@V2rayAlpha--17
+  - '11|@IRAN_V2RAY1 #6'
+  - 11|All-@V2rayAlpha-26
+  - 15|US_speednode_0038
+  - 15|DE_speednode_0004
+  - '11|🇩🇪 - DE - @freeOnlineVPN #3'
+  - '10,11|💎کانفیگ های بیشتر در چنل تلگرا... #1'
+  - '10|JP #4'
+  - 11|🔸@IRAN_V2RAY1💘
+  - 10|香港
+  - '11|28YB5qK!5t#U&insecure=1&sni=ww... #1'
+  - 15|RU_speednode_0022
+  - '10|SG #5'
+  - 11|All--@V2rayAlpha--20
+  - '10|SG #2'
+  - 10|美国
+  - '11|🔸@IRAN_V2RAY1💘 #1'
+  - 10|FR
+  - 11|All-#V2rayAlpha--14
+  - '11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #3'
   - 11|All-@V2rayAlpha--2
+  - 15|US_speednode_0039
+  - '10,11|ConfigV2RayNG #3'
+  - 13,14|美国|@ripaojiedian
+  - '11|All--@IRAN_V2RAY1🇺🇸 #2'
+  - 13,14|新加坡2|@ripaojiedian
+  - 15|SG_speednode_0025
+  - 10|KR
+  - 15|RU_speednode_0018
+  - 15|KR_speednode_0015
+  - 11|🇪 - DE - @freeOnlineVPN
+  - 11|All--@V2rayAlpha--21
+  - '11|All-@IRAN_V2RAY1 #2'
+  - '11|🔸@IRAN_V2RAY1💘 #2'
+  - 11|All-#V2rayAlpha--16
+  - 13|🇻🇳 越南|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 15|US_speednode_0028
+  - 10,11|𝗝𝗼𝗶𝗻 ➠ @Daily_Configs 🫆
+  - 11|All--@V2rayAlpha-17
+  - 13,14|香港5|@ripaojiedian
+  - 11|@Arshiavpn12 جوین شو قطع نشی
+  - 11|@IRAN_V2RAY1
+  - '11|All--@IRAN_V2RAY1🇺🇸 #1'
+  - '11|🇳🇱 - NL - @freeOnlineVPN #6'
+  - '11|All--@IRAN_V2RAY1 #4'
+  - '11|28YB5qK!5t#U&insecure=1&sni=na... #2'
+  - 10|TW
+  - '10|SG #3'
+  - 10,11|41@ConfigV2RayNG
+  - 11|All--@V2rayAlpha-14
+  - '11|All--@IRAN_V2RAY1🇺🇸 #3'
+  - 11|   ر ن را💎 Config_Rayegan@
+  - '11|🇳🇱 - NL - @freeOnlineVPN #1'
+  - 10|美国2
+  - '10|SG #1'
+  - 15|US_speednode_0029
+  - '11|✅سرورهایبیشتردرکانال:prrofile_... #1'
+  - '11|🔸@IRAN_V2RAY1💘 #9'
+  - '11|🇳🇱 - NL - @freeOnlineVPN #5'
+  - 13,14|香港2|@ripaojiedian
+  - 13,14|美国3|@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
+  - '11|All-@IRAN_V2RAY1 #5'
+  - 15|US_speednode_0032
+  - 10|🇭🇰 HK
+  - 11|All-#V2rayAlpha--17
+  - 11|✅سرورهایبیشتردرکانال:prrofile_...
+  - 15|RU_speednode_0024
+  - '10|新加坡 #1'
+  - 11|All-#V2rayAlpha--19
+  - '10|SG #7'
+  - 13,14|美国2|@ripaojiedian
+  - '11|🇳🇱 - NL - @freeOnlineVPN #2'
+  - 11|All--@V2rayAlpha--19
+  - 15|US_speednode_0034
+  - 11|22@ConfigV2RayNG
+  - 15|RU_speednode_0023
+  - 13,14,15|HK_speednode_0008
+  - '11|All-@IRAN_V2RAY1 #4'
+  - 10|️22@oneclickvpnkeys
+  - 11|All--@V2rayAlpha-15
+  - 11|All--@V2rayAlpha--18
+  - 11|ConfigV2RayNG
+  - '11|🇳🇱 - NL - @freeOnlineVPN #7'
+  - 11|All--@V2rayAlpha--25
+  - '11|𝗝𝗼𝗶𝗻 ➠ @Daily_Configs 🫆 #1'
+  - 10|新加坡
+  - 15|US_speednode_0041
+  - 15|US_speednode_0040
+  - 11|🇫🇷@TapsiVpn. join
+  - 11|All--@V2rayAlpha--14
+  - '11|🇳🇱 - NL - @freeOnlineVPN #9'
+  - '11|🇪 - DE - @freeOnlineVPN #1'
+  - 11|@FreakConfig
+  - '10|SG #6'
+  - 11|All--@V2rayAlpha-18
+  - '10|未命名 #1'
+  - 11|رایبیشتردرکانال:prrofile_purpl...
+  - 15|RU_speednode_0021
+  - '11|🇳🇱 - NL - @freeOnlineVPN #4'
+  - 13,14|新加坡3|@ripaojiedian
+  - 11|All-#V2rayAlpha--10
+  - '11|🇩🇪 - DE - @freeOnlineVPN #2'
+  - 11|telegram  𝗶𝗻𝗮
+  - 10|US
+  - 15|US_speednode_0035
+  - 11|All-#V2rayAlpha--21
+  - '11|🔸@IRAN_V2RAY1💘 #10'
+  - 11|All-@IRAN_V2RAY1
+  - 13,14|日本|@ripaojiedian
+  - 11|All-@V2rayAlpha--41
+  - '10|未命名 #3'
+  - 14|香港|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1611,9 +1829,21 @@ proxy-groups:
   - 13,14|美国|@ripaojiedian
   - 13,14|美国2|@ripaojiedian
   - 13,14|美国3|@ripaojiedian
-  - 15|US_speednode_0019
-  - 15|US_speednode_0020
-  - 15|US_speednode_0021
+  - 15|US_speednode_0027
+  - 15|US_speednode_0028
+  - 15|US_speednode_0029
+  - 15|US_speednode_0030
+  - 15|US_speednode_0031
+  - 15|US_speednode_0032
+  - 15|US_speednode_0033
+  - 15|US_speednode_0034
+  - 15|US_speednode_0035
+  - 15|US_speednode_0036
+  - 15|US_speednode_0037
+  - 15|US_speednode_0038
+  - 15|US_speednode_0039
+  - 15|US_speednode_0040
+  - 15|US_speednode_0041
   type: select
 - name: 🇨🇳 台湾
   proxies:
@@ -1634,7 +1864,7 @@ proxy-groups:
   - 10|🇭🇰香港
   - 13|🇭🇰 香港|@ripaojiedian
   - 13,14|香港2|@ripaojiedian
-  - 13,14|香港3|@ripaojiedian
+  - 13,14,15|HK_speednode_0008
   - 13,14|香港4|@ripaojiedian
   - 13,14|香港5|@ripaojiedian
   - 14|香港|@ripaojiedian
@@ -1665,26 +1895,29 @@ proxy-groups:
   - 13,14|新加坡|@ripaojiedian
   - 13,14|新加坡2|@ripaojiedian
   - 13,14|新加坡3|@ripaojiedian
-  - 15|SG_speednode_0018
+  - 15|SG_speednode_0025
   type: select
 - name: 🇬🇧 英国
   proxies:
   - 10|UK
   - '10|UK #1'
-  - 15|GB_speednode_0005
+  - 15|GB_speednode_0007
   type: select
 - name: 🇰🇷 韩国
   proxies:
   - 10|KR
   - 13|🇰🇷 韩国|@ripaojiedian
+  - 15|KR_speednode_0015
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
-  - 15|RU_speednode_0013
-  - 15|RU_speednode_0014
-  - 15|RU_speednode_0015
-  - 15|RU_speednode_0016
-  - 15|RU_speednode_0017
+  - 15|RU_speednode_0018
+  - 15|RU_speednode_0019
+  - 15|RU_speednode_0020
+  - 15|RU_speednode_0021
+  - 15|RU_speednode_0022
+  - 15|RU_speednode_0023
+  - 15|RU_speednode_0024
   type: select
 - name: 🇩🇪 德国
   proxies:
@@ -1693,6 +1926,7 @@ proxy-groups:
   - 11|🇪 - DE - @freeOnlineVPN
   - 11|🇩🇪 - DE - @freeOnlineVPN
   - 15|DE_speednode_0003
+  - 15|DE_speednode_0004
   type: select
 rules:
 - MATCH,DIRECT
