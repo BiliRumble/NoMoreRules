@@ -1,4 +1,4 @@
-# Update: 2026-01-06 20:23
+# Update: 2026-01-06 23:12
 allow-lan: false
 dns:
   enable: true
@@ -42,7 +42,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 13,14,15|HK_speednode_0007
+- name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 443
@@ -50,7 +50,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -165,110 +164,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 15|AE_speednode_0001
-  network: ws
-  password: 5a2c16f9
-  port: 2096
-  server: 94.140.0.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /TelegramU0001F1E8U0001F1F3WangCai2
-- name: 15|DE_speednode_0003
-  network: ws
-  password: 554f139b-f31f-41c4-99f9-73d60647db26
-  port: 443
-  server: 193.23.197.183
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- name: 15|DE_speednode_0004
-  network: ws
-  password: 554f139b-f31f-41c4-99f9-73d60647db26
-  port: 8443
-  server: 178.250.187.3
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- name: 15|RU_speednode_0011
-  network: ws
-  password: 554f139b-f31f-41c4-99f9-73d60647db26
-  port: 2096
-  server: 45.135.235.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- name: 15|RU_speednode_0013
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 2096
-  server: 45.135.235.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- name: 15|US_speednode_0015
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 443
-  server: 64.181.227.82
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- name: 15|US_speednode_0016
-  network: ws
-  password: 5a2c16f9
-  port: 2096
-  server: 135.84.73.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /TelegramU0001F1E8U0001F1F3WangCai2
-- name: 15|US_speednode_0017
-  network: ws
-  password: 5a2c16f9
-  port: 2096
-  server: 135.84.73.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -280,32 +175,24 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13,14|新加坡2|@ripaojiedian
-  - 15|AE_speednode_0001
-  - 13,14|新加坡|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
+  - 13|🇭🇰 香港|@ripaojiedian
   - 13,14|美国|@ripaojiedian
-  - 15|US_speednode_0015
-  - 13,14,15|HK_speednode_0007
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 13,14|美国3|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
+  - 13,14|香港3|@ripaojiedian
+  - 13|🇰🇷 韩国|@ripaojiedian
+  - 13|tg频道:@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
   - 13,14|日本|@ripaojiedian
-  - 15|RU_speednode_0011
-  - 15|DE_speednode_0004
+  - 13,14|日本2|@ripaojiedian
+  - 13,14|美国3|@ripaojiedian
+  - 14|香港2|@ripaojiedian
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 13,14|香港5|@ripaojiedian
   - 14|香港|@ripaojiedian
   - 13,14|美国2|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 13,14|新加坡2|@ripaojiedian
   - 13,14|日本3|@ripaojiedian
-  - 15|US_speednode_0016
-  - 14|香港2|@ripaojiedian
-  - 13,14|日本2|@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
-  - 13|🇰🇷 韩国|@ripaojiedian
-  - 15|RU_speednode_0013
-  - 15|DE_speednode_0003
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 15|US_speednode_0017
-  - 13,14|新加坡3|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
