@@ -88,6 +88,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇭🇰 香港6|@ripaojiedian
+  password: sxnCPKb70DGRo62-goXFVHrjzF-5oMbD
+  port: 33007
+  server: 103.109.23.165
+  type: ss
 - alterId: 2
   cipher: auto
   name: 14|香港|@ripaojiedian
@@ -108,17 +114,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 15|HK_speednode_0002
-  network: ws
-  port: 443
-  server: 149.104.30.91
-  servername: new7370.h2333.ggff.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75bc2f7a-0e6c-46ad-8639-283deaa701c3
-  ws-opts:
-    headers:
-      Host: new7370.h2333.ggff.net
-    path: /?ed=2560

@@ -25,3 +25,18 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  name: 15|DE_speednode_0002
+  network: ws
+  port: 20531
+  server: 82.115.31.209
+  servername: miku.mikuru.ip-ddns.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: miku.mikuru.ip-ddns.com
+    path: /@Marisa_kristi
