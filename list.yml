@@ -1,4 +1,4 @@
-# Update: 2026-01-08 11:57
+# Update: 2026-01-08 14:18
 allow-lan: false
 dns:
   enable: true
@@ -170,6 +170,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 48d361a8-e9a1-3c28-9b51-47775d62077e
+- name: 15|US_speednode_0080
+  network: ws
+  password: f52d0a04-94ad-4f9e-9945-4c3d43374e36
+  port: 2096
+  server: www.shopify.com
+  skip-cert-verify: true
+  sni: ts888.yumige.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ts888.yumige.dpdns.org
+    path: /http://45.32.19.198:30005
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -181,25 +194,26 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13|🇰🇷 韩国|@ripaojiedian
-  - 13,14|日本2|@ripaojiedian
-  - 13,14|美国3|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - 13,14|美国2|@ripaojiedian
-  - 14|香港|@ripaojiedian
-  - 14|香港2|@ripaojiedian
-  - 13,14|日本3|@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 13|🇲🇾 马来西亚|@ripaojiedian
-  - 13,14|新加坡3|@ripaojiedian
   - 13,14|日本|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
+  - 13,14|香港5|@ripaojiedian
   - 13,14|香港4|@ripaojiedian
-  - 13,14|新加坡2|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
+  - 13|🇭🇰 香港2|@ripaojiedian
   - 13|🇭🇰 香港|@ripaojiedian
   - 13,14|香港3|@ripaojiedian
+  - 13|🇰🇷 韩国|@ripaojiedian
+  - 13,14|美国3|@ripaojiedian
+  - 13|tg频道:@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
+  - 13,14|新加坡2|@ripaojiedian
+  - 14|香港|@ripaojiedian
+  - 13|🇲🇾 马来西亚|@ripaojiedian
+  - 15|US_speednode_0080
+  - 14|香港2|@ripaojiedian
+  - 13,14|美国|@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
