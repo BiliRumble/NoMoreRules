@@ -1,4 +1,4 @@
-# Update: 2026-01-09 17:18
+# Update: 2026-01-09 20:22
 allow-lan: false
 dns:
   enable: true
@@ -149,22 +149,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 15|DE_speednode_0002
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.66.94.128
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: 15|DE_speednode_0003
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.66.94.128
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -176,25 +160,23 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
+  - 13,14|美国3|@ripaojiedian
   - 13,14|日本3|@ripaojiedian
   - 13,14|新加坡3|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
+  - 13|🇸🇬 新加坡4|@ripaojiedian
   - 13|tg频道:@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - 13,14|日本2|@ripaojiedian
-  - 15|DE_speednode_0002
-  - 13|🇰🇷 韩国|@ripaojiedian
-  - 14|香港|@ripaojiedian
-  - 15|DE_speednode_0003
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 13,14|香港3|@ripaojiedian
+  - 13,14|美国|@ripaojiedian
   - 13,14|美国2|@ripaojiedian
   - 13|🇯🇵 日本4|@ripaojiedian
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 13,14|美国3|@ripaojiedian
+  - 13,14|香港5|@ripaojiedian
+  - 14|香港|@ripaojiedian
   - 13,14|日本|@ripaojiedian
-  - 13|🇸🇬 新加坡4|@ripaojiedian
-  - 13,14|香港3|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 13|🇰🇷 韩国|@ripaojiedian
   - 13,14|新加坡2|@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
