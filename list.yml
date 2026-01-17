@@ -1,4 +1,4 @@
-# Update: 2026-01-17 20:19
+# Update: 2026-01-17 23:10
 allow-lan: false
 dns:
   enable: true
@@ -19,21 +19,21 @@ mixed-port: 7890
 mode: rule
 proxies:
 - cipher: aes-256-cfb
-  name: 12|tg频道:@ripaojiedian
+  name: 13|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: 12|🇭🇰 香港|@ripaojiedian
+  name: 13|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 12,13|香港3|@ripaojiedian
+- name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 443
@@ -41,7 +41,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|香港4|@ripaojiedian
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 4329
@@ -49,7 +49,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 12,13|香港5|@ripaojiedian
+- name: 13,14,15|HK_speednode_0014
   network: tcp
   password: BxceQaOe
   port: 443
@@ -57,7 +57,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 12,13|日本|@ripaojiedian
+  udp: true
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2053
@@ -65,7 +66,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|日本2|@ripaojiedian
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 1933
@@ -73,7 +74,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 4006
@@ -81,7 +82,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡|@ripaojiedian
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 3076
@@ -89,7 +90,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 3901
@@ -97,7 +98,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡3|@ripaojiedian
+- name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 3579
@@ -106,12 +107,12 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: 12|🇸🇬 新加坡4|@ripaojiedian
+  name: 13|🇸🇬 新加坡4|@ripaojiedian
   password: d2umVadPT1m/FwIn
   port: 8388
   server: 194.87.10.161
   type: ss
-- name: 12,13|美国|@ripaojiedian
+- name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 5076
@@ -119,7 +120,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 5076
@@ -127,7 +128,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 4569
@@ -137,7 +138,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 13|香港|@ripaojiedian
+  name: 14|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -145,7 +146,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 14|CA_speednode_0001
+- name: 15|CA_speednode_0001
   password: 30077070-596e-48ea-9400-14c8ed07bd97
   port: 443
   server: tuntro006.instconn.com
@@ -164,23 +165,23 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12,13|美国2|@ripaojiedian
-  - 12|tg频道:@ripaojiedian
-  - 12,13|日本2|@ripaojiedian
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
-  - 12,13|美国|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|CA_speednode_0001
-  - 12,13|美国3|@ripaojiedian
-  - 12,13|香港5|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
-  - 12,13|日本|@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 12,13|香港3|@ripaojiedian
-  - 12|🇸🇬 新加坡4|@ripaojiedian
+  - 14|香港|@ripaojiedian
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 13,14|美国3|@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 15|CA_speednode_0001
+  - 13,14|美国|@ripaojiedian
+  - 13,14|日本|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
+  - 13,14,15|HK_speednode_0014
+  - 13|🇸🇬 新加坡4|@ripaojiedian
+  - 13,14|新加坡2|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 13|tg频道:@ripaojiedian
+  - 13,14|香港3|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
