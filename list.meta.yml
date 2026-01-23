@@ -1,4 +1,4 @@
-# Update: 2026-01-23 14:19
+# Update: 2026-01-23 17:20
 allow-lan: false
 dns:
   enable: true
@@ -39,6 +39,16 @@ proxies:
   port: 13778
   server: jp7.dexlos.com
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 10|rya@V2rayBaaz
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36400
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
 - name: 10|DE
@@ -87,17 +97,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 11|22@ConfigV2RayNG
-  obfs: salamander
-  obfs-password: Telegram-->@Ln2Ray
-  password: Telegram-->@Ln2Ray
-  port: 45000
-  server: 206.71.158.23
-  skip-cert-verify: true
-  sni: gavazn.55994421.xyz
-  tls: false
-  type: hysteria2
-- name: 11| @ConfigV2RayNG ( )
+- name: '11|@hopev2ray '
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -107,7 +107,7 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: 11|82@ConfigV2RayNG
+- name: 11|@hopev2ray
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -117,7 +117,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 11|⚡Telegram = @vmessorg
+- name: '11|⚡Telegram = @SOSkeyNET #3'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -125,96 +125,6 @@ proxies:
   server: 206.71.158.37
   skip-cert-verify: true
   sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: 11|ConfigV2RayNG
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36300
-  server: 206.71.158.37
-  skip-cert-verify: false
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: 11|@ConfigV2RayNG
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36400
-  server: 206.71.158.37
-  skip-cert-verify: true
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: '11|ConfigV2RayNG #1'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36600
-  server: 206.71.158.37
-  skip-cert-verify: true
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: '11|ConfigV2RayNG #2'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 35200
-  server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: false
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: '11|ConfigV2RayNG #3'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36300
-  server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: false
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: '11|ConfigV2RayNG #4'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36400
-  server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: false
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: '11|ConfigV2RayNG #5'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 181.214.231.121
-  skip-cert-verify: false
-  sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: '11|ConfigV2RayNG #6'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 181.214.99.162
-  skip-cert-verify: false
-  sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: '11|ConfigV2RayNG #7'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 206.71.158.40
-  skip-cert-verify: false
-  sni: api.kermanshahi.org
   tls: false
   type: hysteria2
 - name: 11|telegram  𝗮
@@ -227,17 +137,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '11|@ConfigV2RayNG #1'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 5.175.249.174
-  skip-cert-verify: false
-  sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 11|️73@ConfigV2RayNG
+- name: 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -255,20 +155,12 @@ proxies:
   sni: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '11|28YB5qK!5t#U&insecure=1&sni=na... #1'
+- name: 11|28YB5qK!5t#U&insecure=1&sni=na...
   obfs: salamander
   obfs-password: '&O'
   password: freehomesvpnchannel3
   port: 46914
   server: channel1.saghetalaie.homes
-  tls: false
-  type: hysteria2
-- name: 11|28YB5qK!5t#U&insecure=1&sni=ww...
-  obfs: salamander
-  obfs-password: '&O'
-  password: yhqy5AHofQq
-  port: 46914
-  server: channel3.saghetalaie.homes
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -716,74 +608,63 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - '11|@ConfigV2RayNG #1'
-  - '11|ConfigV2RayNG #2'
-  - 15|CH_speednode_0001
-  - '11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1'
-  - 15|MD_speednode_0006
-  - 10| HK
-  - 15|RU_speednode_0018
-  - 10|1
-  - 11|@ConfigV2RayNG
-  - 15|RU_speednode_0012
-  - 15|US_speednode_0025
-  - 15|RU_speednode_0016
-  - 13,14|新加坡2|@ripaojiedian
-  - '11|ConfigV2RayNG #7'
-  - '11|ConfigV2RayNG #5'
-  - 13,14|新加坡3|@ripaojiedian
-  - '11|ConfigV2RayNG #6'
-  - 10|JP
-  - '11|ConfigV2RayNG #1'
-  - 15|LV_speednode_0004
-  - 15|RU_speednode_0017
-  - 10|美国2
-  - 15|RU_speednode_0010
-  - 11|telegram  𝗮
-  - 15|NN_speednode_0008
   - 13,14|日本2|@ripaojiedian
-  - 15|RU_speednode_0014
-  - 13,14|香港3|@ripaojiedian
-  - 11|28YB5qK!5t#U&insecure=1&sni=ww...
-  - 15|RU_speednode_0009
-  - 15|RU_speednode_0013
-  - 11|82@ConfigV2RayNG
-  - 11|ConfigV2RayNG
-  - 15|RU_speednode_0019
-  - 15|RU_speednode_0021
-  - 13,14|日本3|@ripaojiedian
-  - 13,14|美国2|@ripaojiedian
-  - 10|DE
-  - 11| @ConfigV2RayNG ( )
-  - '11|ConfigV2RayNG #3'
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 15|RU_speednode_0015
-  - 10|SG
-  - '11|ConfigV2RayNG #4'
-  - 15|GR_speednode_0003
-  - 13|tg频道:@ripaojiedian
-  - 15|RU_speednode_0020
-  - 11|⚡Telegram = @vmessorg
-  - 13,14|香港4|@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
-  - 11|22@ConfigV2RayNG
-  - '11|28YB5qK!5t#U&insecure=1&sni=na... #1'
-  - 13,14|美国3|@ripaojiedian
-  - 14|香港|@ripaojiedian
-  - 15|LV_speednode_0005
-  - 15|RU_speednode_0011
-  - 15|FI_speednode_0002
-  - 10|TW
-  - 15|RU_speednode_0022
-  - 15|NL_speednode_0007
-  - 11|@NIM_VPN_ir
-  - 11|⚡Telegram = @SOSkeyNET
-  - 13,14|日本|@ripaojiedian
-  - 15|UA_speednode_0024
-  - 11|️73@ConfigV2RayNG
+  - 15|RU_speednode_0018
+  - 10|JP
+  - '11|⚡Telegram = @SOSkeyNET #3'
   - 13,14|香港5|@ripaojiedian
+  - 15|LV_speednode_0005
+  - 13,14|香港3|@ripaojiedian
+  - 15|MD_speednode_0006
+  - 11|⚡Telegram = @SOSkeyNET
+  - 15|RU_speednode_0021
+  - 11|@hopev2ray
+  - 15|FI_speednode_0002
+  - 13,14|美国|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
+  - 15|NN_speednode_0008
+  - 13,14|新加坡2|@ripaojiedian
+  - 10|美国2
+  - 10|SG
+  - 15|RU_speednode_0009
+  - 11|telegram  𝗮
   - 15|RU_speednode_0023
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 13,14|日本|@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
+  - 15|CH_speednode_0001
+  - 15|GR_speednode_0003
+  - 15|RU_speednode_0020
+  - 15|RU_speednode_0022
+  - 10|DE
+  - 15|RU_speednode_0015
+  - 13,14|新加坡3|@ripaojiedian
+  - 15|RU_speednode_0010
+  - 15|RU_speednode_0017
+  - 15|RU_speednode_0013
+  - 13|tg频道:@ripaojiedian
+  - 11|@NIM_VPN_ir
+  - '11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1'
+  - 15|RU_speednode_0011
+  - 10|rya@V2rayBaaz
+  - 15|NL_speednode_0007
+  - 13,14|新加坡|@ripaojiedian
+  - 11|28YB5qK!5t#U&insecure=1&sni=na...
+  - 10| HK
+  - '11|@hopev2ray '
+  - 14|香港|@ripaojiedian
+  - 15|RU_speednode_0014
+  - 15|UA_speednode_0024
+  - 10|TW
+  - 13,14|美国3|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 15|LV_speednode_0004
+  - 15|RU_speednode_0012
+  - 15|RU_speednode_0019
+  - 15|RU_speednode_0016
+  - 15|US_speednode_0025
+  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
+  - 10|1
   type: fallback
   url: https://www.google.com/
 - interval: 300
