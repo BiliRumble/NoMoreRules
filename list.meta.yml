@@ -1,4 +1,4 @@
-# Update: 2026-01-23 05:13
+# Update: 2026-01-23 08:58
 allow-lan: false
 dns:
   enable: true
@@ -271,15 +271,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰 香港2|@ripaojiedian
-  port: 34659
-  server: 47.242.192.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 8482671e-846f-45c7-aec4-531c79f775ec
 - name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
@@ -378,12 +369,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: 13|🇻🇳 越南|@ripaojiedian
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.51
-  type: ss
 - alterId: 2
   cipher: auto
   name: 14|香港|@ripaojiedian
@@ -394,16 +379,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 14|香港2|@ripaojiedian
-  network: tcp
-  port: '34659'
-  server: 47.242.192.233
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8482671e-846f-45c7-aec4-531c79f775ec
 - flow: xtls-rprx-vision
   name: 15|CH_speednode_0001
   port: 443
@@ -845,86 +820,83 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 15|RU_speednode_0016
-  - 15|RU_speednode_0033
-  - 14|香港2|@ripaojiedian
-  - 15|NL_speednode_0014
-  - 15|RU_speednode_0025
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 13,14|香港3|@ripaojiedian
-  - 15|RU_speednode_0031
-  - 11|@ConfigV2RayNG
-  - 15|DK_speednode_0005
-  - 15|US_speednode_0039
-  - 15|US_speednode_0037
-  - 10| HK
-  - 11| @ConfigV2RayNG ( )
-  - 15|RU_speednode_0027
-  - 13,14|美国3|@ripaojiedian
-  - '11|ConfigV2RayNG #2'
-  - 15|RU_speednode_0028
-  - 13|tg频道:@ripaojiedian
-  - 14|香港|@ripaojiedian
-  - 13,14|日本|@ripaojiedian
-  - 15|RU_speednode_0019
-  - 11|28YB5qK!5t#U&insecure=1&sni=ww...
-  - 15|RU_speednode_0026
-  - 11|ConfigV2RayNG
-  - 15|RU_speednode_0020
-  - 13|🇻🇳 越南|@ripaojiedian
-  - '11|ConfigV2RayNG #7'
-  - 15|DE_speednode_0002
-  - 11|telegram  𝗮
-  - 15|KZ_speednode_0011
-  - 13,14|香港4|@ripaojiedian
-  - 15|CH_speednode_0001
-  - 11| ConfigV2RayNG
-  - 15|RU_speednode_0015
-  - 10|1
-  - 15|RU_speednode_0021
-  - '11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1'
-  - 15|RU_speednode_0032
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 15|UA_speednode_0036
-  - '11|ConfigV2RayNG #6'
-  - 10|SG
-  - '11|ConfigV2RayNG #1'
-  - 11|️73@ConfigV2RayNG
-  - 15|KZ_speednode_0012
-  - '11|@ConfigV2RayNG #1'
-  - 15|RU_speednode_0024
-  - '11|ConfigV2RayNG #5'
-  - 13,14|香港5|@ripaojiedian
-  - 15|IL_speednode_0008
-  - 15|FR_speednode_0006
   - 15|LV_speednode_0013
-  - 15|RU_speednode_0034
-  - 15|RU_speednode_0023
-  - 10|TW
-  - 15|US_speednode_0038
-  - '11|ConfigV2RayNG #4'
-  - 13,14|美国|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
+  - 11| ConfigV2RayNG
+  - 15|RU_speednode_0029
+  - 15|DE_speednode_0002
+  - 15|RU_speednode_0016
+  - 15|IL_speednode_0008
+  - '11|ConfigV2RayNG #7'
   - 10|DE
-  - 10|美国2
+  - '11|28YB5qK!5t#U&insecure=1&sni=na... #1'
+  - 13,14|香港3|@ripaojiedian
+  - 15|CH_speednode_0001
+  - 15|US_speednode_0038
+  - 15|RU_speednode_0031
+  - 10|TW
+  - 15|RU_speednode_0017
+  - 15|RU_speednode_0028
+  - 15|RU_speednode_0033
+  - 11|@ConfigV2RayNG
+  - '11|ConfigV2RayNG #3'
+  - 15|RU_speednode_0034
+  - 15|RU_speednode_0025
+  - '11|ConfigV2RayNG #2'
+  - 11|28YB5qK!5t#U&insecure=1&sni=ww...
+  - 13|tg频道:@ripaojiedian
+  - 15|FR_speednode_0007
+  - '11|ConfigV2RayNG #6'
+  - 13,14,15|JP_speednode_0009
+  - 15|KZ_speednode_0011
+  - 15|RU_speednode_0030
+  - 15|RU_speednode_0032
+  - '11|ConfigV2RayNG #4'
+  - 15|RU_speednode_0026
+  - 15|RU_speednode_0027
+  - 13,14|日本|@ripaojiedian
+  - 15|DK_speednode_0005
+  - 10|SG
+  - 11|ConfigV2RayNG
+  - '11|@ConfigV2RayNG #1'
+  - 10|1
+  - '11|ConfigV2RayNG #5'
+  - '11|ConfigV2RayNG #1'
   - 13,14,15|JP_speednode_0010
+  - 13,14|香港5|@ripaojiedian
+  - 15|US_speednode_0037
+  - '11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1'
+  - 15|NL_speednode_0014
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
+  - 15|RU_speednode_0020
+  - 10| HK
+  - 13,14|香港4|@ripaojiedian
+  - 13,14|美国3|@ripaojiedian
   - 10|JP
   - 15|RU_speednode_0022
-  - 11|22@ConfigV2RayNG
-  - 13,14,15|JP_speednode_0009
-  - 13,14|新加坡3|@ripaojiedian
+  - 15|DE_speednode_0003
+  - 11|️73@ConfigV2RayNG
+  - 15|RU_speednode_0019
+  - 15|US_speednode_0039
+  - 15|RU_speednode_0021
+  - 15|KZ_speednode_0012
+  - 15|RU_speednode_0015
   - 13,14|新加坡2|@ripaojiedian
   - 13,14|美国2|@ripaojiedian
-  - 15|FR_speednode_0007
-  - 15|RU_speednode_0017
-  - 15|RU_speednode_0029
-  - 11|82@ConfigV2RayNG
-  - 15|DE_speednode_0004
-  - '11|ConfigV2RayNG #3'
-  - 13,14|日本2|@ripaojiedian
-  - 15|RU_speednode_0030
-  - '11|28YB5qK!5t#U&insecure=1&sni=na... #1'
-  - 15|DE_speednode_0003
+  - 11| @ConfigV2RayNG ( )
   - 15|RU_speednode_0018
+  - 15|RU_speednode_0024
+  - 15|DE_speednode_0004
+  - 14|香港|@ripaojiedian
+  - 15|RU_speednode_0023
+  - 15|FR_speednode_0006
+  - 15|UA_speednode_0036
+  - 11|22@ConfigV2RayNG
+  - 13,14|美国|@ripaojiedian
+  - 11|82@ConfigV2RayNG
+  - 11|telegram  𝗮
+  - 10|美国2
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1007,12 +979,10 @@ proxy-groups:
   proxies:
   - 10| HK
   - 13|🇭🇰 香港|@ripaojiedian
-  - 13|🇭🇰 香港2|@ripaojiedian
   - 13,14|香港3|@ripaojiedian
   - 13,14|香港4|@ripaojiedian
   - 13,14|香港5|@ripaojiedian
   - 14|香港|@ripaojiedian
-  - 14|香港2|@ripaojiedian
   type: select
 - name: 🇨🇦 加拿大
   proxies:
