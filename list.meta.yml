@@ -1,4 +1,4 @@
-# Update: 2026-01-24 08:55
+# Update: 2026-01-24 11:55
 allow-lan: false
 dns:
   enable: true
@@ -72,12 +72,14 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 11|@NIM_VPN_ir
-  password: 98b5354b-fbd1-4be0-86aa-65356637aa4c
-  port: 20061
-  server: 129.150.43.139
+- name: 11|@hopev2ray ❤️
+  obfs: salamander
+  obfs-password: Telegram-->@Ln2Ray
+  password: Telegram-->@Ln2Ray
+  port: 45000
+  server: gavazn.lnmarketplace.net
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
 - name: 11|@hopev2ray
@@ -90,21 +92,21 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 11|Telegram = @SOSkeyNET
+- name: 11|@SimChin_iR  ی
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
   port: 35200
   server: 206.71.158.37
-  skip-cert-verify: false
-  sni: YAPC-1.afshin.i
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '11|⚡Telegram = @SOSkeyNET #2'
+- name: 11|⚡Telegram = @vmessorg
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
-  port: 35200
+  port: 36600
   server: 206.71.158.37
   skip-cert-verify: true
   sni: YAPC-1.afshin.ir
@@ -562,59 +564,59 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13,14|日本3|@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
-  - 10|TW
-  - 10|JP
-  - 15|AT_speednode_0004
-  - 15|GB_speednode_0006
-  - 15|US_speednode_0016
-  - 10| HK
-  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-  - 15|US_speednode_0018
-  - 15|US_speednode_0021
-  - 15|US_speednode_0022
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 15|RU_speednode_0014
-  - 13,14|美国3|@ripaojiedian
-  - 15|GB_speednode_0005
-  - 15|RU_speednode_0012
-  - 13,14|美国|@ripaojiedian
-  - 15|US_speednode_0020
-  - '11|⚡Telegram = @SOSkeyNET #2'
-  - 10|美国2
-  - 14|香港|@ripaojiedian
-  - 11|telegram  𝗮
-  - 13,14|日本|@ripaojiedian
-  - 13,14|美国2|@ripaojiedian
-  - 11|@hopev2ray
-  - 13|tg频道:@ripaojiedian
-  - 11|Telegram = @SOSkeyNET
-  - 13,14|日本2|@ripaojiedian
-  - 15|LV_speednode_0008
-  - 15|LV_speednode_0009
-  - 15|US_speednode_0025
-  - 15|NL_speednode_0011
-  - 10|SG
-  - 13,14|新加坡2|@ripaojiedian
-  - 15|US_speednode_0019
-  - 13,14|香港3|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - 15|US_speednode_0015
-  - 11|28YB5qK!5t#U&insecure=1&sni=na...
   - 15|US_speednode_0024
+  - 13,14|日本|@ripaojiedian
+  - 11|28YB5qK!5t#U&insecure=1&sni=na...
+  - 13,14|香港4|@ripaojiedian
+  - 13,14|新加坡2|@ripaojiedian
+  - 15|US_speednode_0022
+  - 15|GB_speednode_0005
+  - 15|US_speednode_0020
   - 15|US_speednode_0023
-  - 15|US_speednode_0026
-  - 15|MD_speednode_0010
-  - 15|US_speednode_0017
-  - '11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1'
-  - 10|1
-  - 13,14|新加坡|@ripaojiedian
-  - 11|@NIM_VPN_ir
-  - 13,14|新加坡3|@ripaojiedian
   - 15|US_speednode_0027
-  - 10|DE
+  - 10|1
+  - 13,14|日本2|@ripaojiedian
+  - 10|美国2
+  - 11|telegram  𝗮
+  - 15|LV_speednode_0008
+  - 15|RU_speednode_0014
+  - 15|US_speednode_0016
+  - 15|US_speednode_0018
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 13,14|香港5|@ripaojiedian
   - 15|RU_speednode_0013
+  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
+  - 15|US_speednode_0025
+  - 15|GB_speednode_0006
+  - '11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1'
+  - 13,14|美国|@ripaojiedian
+  - 13,14|美国3|@ripaojiedian
+  - 10| HK
+  - 13|tg频道:@ripaojiedian
+  - 11|⚡Telegram = @vmessorg
+  - 10|JP
+  - 13,14|美国2|@ripaojiedian
+  - 15|US_speednode_0026
+  - 15|US_speednode_0015
+  - 13,14|日本3|@ripaojiedian
+  - 15|US_speednode_0021
+  - 15|RU_speednode_0012
+  - 15|AT_speednode_0004
+  - 13,14|新加坡|@ripaojiedian
+  - 15|LV_speednode_0009
+  - 10|TW
+  - 14|香港|@ripaojiedian
+  - 15|US_speednode_0019
+  - 10|SG
+  - 13,14|香港3|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
+  - 15|MD_speednode_0010
+  - 11|@hopev2ray ❤️
+  - 11|@SimChin_iR  ی
+  - 15|NL_speednode_0011
+  - 15|US_speednode_0017
+  - 11|@hopev2ray
+  - 10|DE
   type: fallback
   url: https://www.google.com/
 - interval: 300
