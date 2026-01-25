@@ -1,4 +1,4 @@
-# Update: 2026-01-25 05:09
+# Update: 2026-01-25 09:03
 allow-lan: false
 dns:
   enable: true
@@ -18,7 +18,7 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 10|美国2
+- name: 9|美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: mg2.mangshe.xyz
@@ -26,7 +26,7 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 10|1
+- name: 9|1
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2055
   server: xjp1.mangshe.xyz
@@ -34,14 +34,14 @@ proxies:
   sni: xjp1.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 10|JP
+- name: 9|JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
   server: jp7.dexlos.com
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 10|DE
+- name: 9|DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -49,14 +49,14 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: 10| HK
+- name: 9| HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 10|SG
+- name: 9|SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -64,7 +64,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 10|TW
+- name: 9|TW
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: tw.oomz.ru
@@ -72,7 +72,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '11|@SimChin_iR  '
+- name: '10|@SimChin_iR  '
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -82,7 +82,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 11|⚡Telegram = @vmessorg
+- name: 10|⚡Telegram = @vmessorg
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -92,7 +92,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 11|telegram  𝗮
+- name: 10|telegram  𝗮
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -102,7 +102,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
+- name: 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -112,7 +112,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1'
+- name: '10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1'
   password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
   port: 443
   server: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
@@ -120,7 +120,7 @@ proxies:
   sni: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 11|28YB5qK!5t#U&insecure=1&sni=na...
+- name: 10|28YB5qK!5t#U&insecure=1&sni=na...
   obfs: salamander
   obfs-password: '&O'
   password: freehomesvpnchannel3
@@ -129,38 +129,35 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
-  name: 13|tg频道:@ripaojiedian
+  name: 12|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: 13|🇭🇰 香港|@ripaojiedian
+  name: 12|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 13,14|香港3|@ripaojiedian
-  network: tcp
+- name: 12|🇭🇰 香港3|@ripaojiedian
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 443
   server: 58.152.18.124
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|香港4|@ripaojiedian
-  network: tcp
+- name: 12|🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
   port: 432
   server: 16.162.90.147
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 13,14,15|HK_speednode_0026
-  network: tcp
+- name: 12,14|HK_speednode_0026
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
@@ -168,72 +165,63 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: 13,14|日本|@ripaojiedian
-  network: tcp
+- name: 12|🇯🇵 日本|@ripaojiedian
   password: BxceQaOe
   port: 2762
   server: 13.114.168.40
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 13,14|日本2|@ripaojiedian
-  network: tcp
+- name: 12|🇯🇵 日本2|@ripaojiedian
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 4006
   server: 160.16.130.21
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|日本3|@ripaojiedian
-  network: tcp
+- name: 12|🇯🇵 日本3|@ripaojiedian
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 1933
   server: 160.16.105.192
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡|@ripaojiedian
-  network: tcp
+- name: 12|🇸🇬 新加坡|@ripaojiedian
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 544
   server: 160.16.72.205
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡2|@ripaojiedian
-  network: tcp
+- name: 12|🇸🇬 新加坡2|@ripaojiedian
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 3076
   server: 160.16.124.17
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡3|@ripaojiedian
-  network: tcp
+- name: 12|🇸🇬 新加坡3|@ripaojiedian
   password: BxceQaOe
   port: 1691
   server: 3.112.224.244
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 13,14|美国|@ripaojiedian
-  network: tcp
+- name: 12|🇺🇸 美国|@ripaojiedian
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 5076
   server: 160.16.130.21
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国2|@ripaojiedian
-  network: tcp
+- name: 12|🇺🇸 美国2|@ripaojiedian
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 5076
   server: 160.16.85.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国3|@ripaojiedian
-  network: tcp
+- name: 12|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
   port: 2173
   server: 18.167.42.188
@@ -242,7 +230,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 14|香港|@ripaojiedian
+  name: 13|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -250,7 +238,97 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 15|BG_speednode_0001
+- name: 13|香港3|@ripaojiedian
+  network: tcp
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 443
+  server: 58.152.110.193
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13|香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.45
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 13|香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 432
+  server: 43.199.45.223
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 13|日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 2762
+  server: 18.176.57.17
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 13|日本2|@ripaojiedian
+  network: tcp
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 3423
+  server: 160.16.132.38
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13|日本3|@ripaojiedian
+  network: tcp
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 4006
+  server: 160.16.132.38
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13|新加坡|@ripaojiedian
+  network: tcp
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 544
+  server: 160.16.72.33
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13|新加坡2|@ripaojiedian
+  network: tcp
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 3901
+  server: 160.16.72.33
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13|新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 1691
+  server: 43.198.102.247
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 13|美国|@ripaojiedian
+  network: tcp
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 5076
+  server: 160.16.132.38
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13|美国2|@ripaojiedian
+  network: tcp
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 5076
+  server: 160.16.72.33
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13|美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 3159
+  server: 43.198.102.247
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 14|BG_speednode_0001
   port: 8443
   reality-opts:
     public-key: llSF90j8PQdR0alqH2OGlh7fEtoxO-xfZW_B4bQ4eSw
@@ -262,7 +340,7 @@ proxies:
   type: vless
   udp: true
   uuid: cc235335-34f0-4f1b-b3e3-5f32e2eeaa89
-- name: 15|CH_speednode_0002
+- name: 14|CH_speednode_0002
   network: ws
   port: 443
   server: query2048-deadline-rightaqata-chatgpt-digikala-kala45-torob.wrongguy.top
@@ -277,7 +355,7 @@ proxies:
       Host: query2048-deadline-rightaqata-chatgpt-digikala-kala45-torob.wrongguy.top
     path: /query2048-deadline-rightaqata-chatgpt-digikala-kala45-torob.wrongguy.top
 - flow: xtls-rprx-vision
-  name: 15|CN_speednode_0009
+  name: 14|CN_speednode_0009
   port: 443
   reality-opts:
     public-key: AgYuuE6KtHmk4e-wX2m4xl7pD0TKoWf1IEMuXCzJdR4
@@ -290,7 +368,7 @@ proxies:
   udp: true
   uuid: 3d0b6533-d3ba-4a0d-a46e-27c258ca5c3e
 - flow: xtls-rprx-vision
-  name: 15|DE_speednode_0010
+  name: 14|DE_speednode_0010
   port: 443
   reality-opts:
     public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
@@ -305,7 +383,7 @@ proxies:
 - alpn:
   - h2
   flow: xtls-rprx-vision
-  name: 15|DE_speednode_0011
+  name: 14|DE_speednode_0011
   port: 443
   reality-opts:
     public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
@@ -317,7 +395,7 @@ proxies:
   udp: true
   uuid: 8fcaebab-d39a-46eb-b1cc-20ea883c4183
 - flow: xtls-rprx-vision
-  name: 15|DE_speednode_0012
+  name: 14|DE_speednode_0012
   port: 443
   reality-opts:
     public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
@@ -336,7 +414,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 15|ES_speednode_0013
+  name: 14|ES_speednode_0013
   network: http
   port: 7426
   server: sv20.farsdataco.top
@@ -346,7 +424,7 @@ proxies:
   type: vless
   udp: true
   uuid: 2221280a-7fdb-48e8-8ce3-8d55ac2d1b52
-- name: 15|ES_speednode_0014
+- name: 14|ES_speednode_0014
   network: ws
   port: 2053
   server: 193.17.183.157
@@ -362,7 +440,7 @@ proxies:
     path: /?ed=2048
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 15|FI_speednode_0015
+  name: 14|FI_speednode_0015
   port: 8443
   reality-opts:
     public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
@@ -375,7 +453,7 @@ proxies:
   udp: true
   uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
 - client-fingerprint: random
-  name: 15|FR_speednode_0018
+  name: 14|FR_speednode_0018
   port: 50511
   reality-opts:
     public-key: Mz0OqGiU1O1s9cYbJ94zcpdmUskGBAt-r1DKKKEDwFA
@@ -387,7 +465,7 @@ proxies:
   type: vless
   udp: true
   uuid: 3bc9c90e-dd6c-400d-bfb0-1d06b13fe46c
-- name: 15|GB_speednode_0020
+- name: 14|GB_speednode_0020
   network: ws
   port: 443
   server: 132.145.29.208
@@ -401,7 +479,7 @@ proxies:
     headers:
       Host: ccffllyy.1412.me
     path: /?ed=2048
-- name: 15|GR_speednode_0021
+- name: 14|GR_speednode_0021
   network: ws
   port: 50121
   server: 185.126.238.239
@@ -415,7 +493,7 @@ proxies:
     headers:
       Host: ccffllyy.1412.me
     path: /?ed=2048
-- name: 15|GR_speednode_0022
+- name: 14|GR_speednode_0022
   network: ws
   port: 2053
   server: 38.54.29.210
@@ -430,7 +508,7 @@ proxies:
       Host: ccffllyy.1412.me
     path: /?ed=2048
 - flow: xtls-rprx-vision
-  name: 15|GR_speednode_0023
+  name: 14|GR_speednode_0023
   port: 443
   reality-opts:
     public-key: Yu1_Agl1_bJb298G9ukjGuvfksVTUs1X7laYJ3VqwwQ
@@ -443,7 +521,7 @@ proxies:
   udp: true
   uuid: dd92c4f8-be88-4c61-84eb-d261f798071e
 - client-fingerprint: random
-  name: 15|HK_speednode_0024
+  name: 14|HK_speednode_0024
   network: ws
   port: 443
   server: 154.211.8.18
@@ -458,7 +536,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|HK_speednode_0025
+  name: 14|HK_speednode_0025
   network: ws
   port: 443
   server: 154.211.8.18
@@ -472,7 +550,7 @@ proxies:
     headers:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
-- name: 15|IE_speednode_0027
+- name: 14|IE_speednode_0027
   network: ws
   port: 443
   server: 54.170.181.57
@@ -493,7 +571,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 15|IR_speednode_0028
+  name: 14|IR_speednode_0028
   network: http
   port: 15310
   server: 62.60.148.57
@@ -503,7 +581,7 @@ proxies:
   type: vless
   udp: true
   uuid: a75ed77a-6af8-447c-8984-d892e791bc59
-- name: 15|IT_speednode_0029
+- name: 14|IT_speednode_0029
   network: ws
   port: 2053
   server: 185.58.194.141
@@ -517,7 +595,7 @@ proxies:
     headers:
       Host: ccffllyy.1412.me
     path: /?ed=2048
-- name: 15|JP_speednode_0030
+- name: 14|JP_speednode_0030
   network: ws
   port: 34606
   server: 45.143.235.209
@@ -532,7 +610,7 @@ proxies:
       Host: ccffllyy.1412.me
     path: /?ed=2048
 - flow: xtls-rprx-vision
-  name: 15|LV_speednode_0031
+  name: 14|LV_speednode_0031
   port: 8443
   reality-opts:
     public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
@@ -545,7 +623,7 @@ proxies:
   udp: true
   uuid: d0dea598-9047-4567-a934-84c2797c0978
 - flow: xtls-rprx-vision
-  name: 15|LV_speednode_0032
+  name: 14|LV_speednode_0032
   port: 8443
   reality-opts:
     public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
@@ -558,7 +636,7 @@ proxies:
   udp: true
   uuid: d0dea598-9047-4567-a934-84c2797c0978
 - flow: xtls-rprx-vision
-  name: 15|LV_speednode_0033
+  name: 14|LV_speednode_0033
   port: 8443
   reality-opts:
     public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
@@ -571,7 +649,7 @@ proxies:
   udp: true
   uuid: d0dea598-9047-4567-a934-84c2797c0978
 - flow: xtls-rprx-vision
-  name: 15|LV_speednode_0034
+  name: 14|LV_speednode_0034
   port: 8443
   reality-opts:
     public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
@@ -583,7 +661,7 @@ proxies:
   type: vless
   udp: true
   uuid: d0dea598-9047-4567-a934-84c2797c0978
-- name: 15|MX_speednode_0035
+- name: 14|MX_speednode_0035
   network: ws
   port: 443
   server: 216.238.92.231
@@ -598,7 +676,7 @@ proxies:
       Host: ccffllyy.1412.me
     path: /?ed=2048
 - client-fingerprint: random
-  name: 15|MY_speednode_0036
+  name: 14|MY_speednode_0036
   network: ws
   port: 443
   server: 8.39.125.165
@@ -613,7 +691,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|MY_speednode_0037
+  name: 14|MY_speednode_0037
   network: ws
   port: 443
   server: 8.39.125.151
@@ -628,7 +706,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|MY_speednode_0038
+  name: 14|MY_speednode_0038
   network: ws
   port: 443
   server: 8.35.211.144
@@ -643,7 +721,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|MY_speednode_0039
+  name: 14|MY_speednode_0039
   network: ws
   port: 443
   server: 8.39.125.80
@@ -657,7 +735,7 @@ proxies:
     headers:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
-- name: 15|NL_speednode_0040
+- name: 14|NL_speednode_0040
   network: ws
   port: 443
   server: 193.109.69.214
@@ -673,7 +751,7 @@ proxies:
     path: /?ed=2048
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 15|NL_speednode_0041
+  name: 14|NL_speednode_0041
   port: 443
   reality-opts:
     public-key: AFQAIB5u9Uu6nf9fkP1BdcSHivSuUv97l4FH-LoFYgw
@@ -686,7 +764,7 @@ proxies:
   udp: true
   uuid: 39a5f471-6ac7-4279-98ef-a3ad0601c816
 - flow: xtls-rprx-vision
-  name: 15|NL_speednode_0042
+  name: 14|NL_speednode_0042
   port: 443
   reality-opts:
     public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
@@ -698,7 +776,7 @@ proxies:
   type: vless
   udp: true
   uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
-- name: 15|NZ_speednode_0043
+- name: 14|NZ_speednode_0043
   network: ws
   port: 2096
   server: 202.37.33.80
@@ -712,7 +790,7 @@ proxies:
     headers:
       Host: ccffllyy.1412.me
     path: /?ed=2048
-- name: 15|PT_speednode_0044
+- name: 14|PT_speednode_0044
   network: ws
   port: 443
   server: 89.115.133.255
@@ -727,7 +805,7 @@ proxies:
       Host: ccffllyy.1412.me
     path: /?ed=2048
 - flow: xtls-rprx-vision
-  name: 15|RU_speednode_0046
+  name: 14|RU_speednode_0046
   port: 51191
   reality-opts:
     public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
@@ -739,7 +817,7 @@ proxies:
   type: vless
   udp: true
   uuid: 62770d79-dc4d-07d0-b01c-ea30399725aa
-- name: 15|RU_speednode_0047
+- name: 14|RU_speednode_0047
   port: 8443
   reality-opts:
     public-key: 8j9xx2O2pywcSy1EiGsMALbyzZXLs2EEbihC-E9E7nw
@@ -751,7 +829,7 @@ proxies:
   type: vless
   udp: true
   uuid: 71031aa1-067e-425e-97f5-37875f838a10
-- name: 15|RU_speednode_0048
+- name: 14|RU_speednode_0048
   port: 59152
   reality-opts:
     public-key: y8f0sznQFqvSOPFcFvPcQFfXbz0Ag10ySB4A88OXMy0
@@ -763,7 +841,7 @@ proxies:
   type: vless
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-- name: 15|RU_speednode_0049
+- name: 14|RU_speednode_0049
   port: 4443
   reality-opts:
     public-key: mklKRO-pXLd-1SA5ZqCZEfr9mEz54D74W6O-QMlgqWw
@@ -775,7 +853,7 @@ proxies:
   type: vless
   udp: true
   uuid: 71031aa1-067e-425e-97f5-37875f838a10
-- name: 15|RU_speednode_0050
+- name: 14|RU_speednode_0050
   port: 443
   reality-opts:
     public-key: l4azftcUwR_aMZbzpUTQN_NbsYCVlnQbMhGdhzcnMws
@@ -787,7 +865,7 @@ proxies:
   type: vless
   udp: true
   uuid: 71031aa1-067e-425e-97f5-37875f838a10
-- name: 15|RU_speednode_0051
+- name: 14|RU_speednode_0051
   network: ws
   port: 2096
   server: 213.241.198.85
@@ -802,7 +880,7 @@ proxies:
       Host: ccffllyy.1412.me
     path: /?ed=2048
 - flow: xtls-rprx-vision
-  name: 15|RU_speednode_0052
+  name: 14|RU_speednode_0052
   port: 47051
   reality-opts:
     public-key: y8f0sznQFqvSOPFcFvPcQFfXbz0Ag10ySB4A88OXMy0
@@ -815,7 +893,7 @@ proxies:
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
 - flow: xtls-rprx-vision
-  name: 15|RU_speednode_0053
+  name: 14|RU_speednode_0053
   port: 443
   reality-opts:
     public-key: Uwz6QjH6QTonKba4RVv35LNmhJLA6c2kxtI2nXRQWTg
@@ -827,7 +905,7 @@ proxies:
   type: vless
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-- name: 15|RU_speednode_0054
+- name: 14|RU_speednode_0054
   port: 59152
   reality-opts:
     public-key: y8f0sznQFqvSOPFcFvPcQFfXbz0Ag10ySB4A88OXMy0
@@ -840,7 +918,7 @@ proxies:
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
 - flow: xtls-rprx-vision
-  name: 15|RU_speednode_0055
+  name: 14|RU_speednode_0055
   port: 443
   reality-opts:
     public-key: Uwz6QjH6QTonKba4RVv35LNmhJLA6c2kxtI2nXRQWTg
@@ -852,7 +930,7 @@ proxies:
   type: vless
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-- name: 15|RU_speednode_0056
+- name: 14|RU_speednode_0056
   port: 8443
   reality-opts:
     public-key: RvXGOytWBo66hK0ZzVU_XGwB4gq1b8AsAOb05aMwBC0
@@ -865,7 +943,7 @@ proxies:
   udp: true
   uuid: 71031aa1-067e-425e-97f5-37875f838a10
 - flow: xtls-rprx-vision
-  name: 15|RU_speednode_0057
+  name: 14|RU_speednode_0057
   port: 443
   reality-opts:
     public-key: Uwz6QjH6QTonKba4RVv35LNmhJLA6c2kxtI2nXRQWTg
@@ -877,7 +955,7 @@ proxies:
   type: vless
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-- name: 15|RU_speednode_0058
+- name: 14|RU_speednode_0058
   port: 59152
   reality-opts:
     public-key: y8f0sznQFqvSOPFcFvPcQFfXbz0Ag10ySB4A88OXMy0
@@ -889,7 +967,7 @@ proxies:
   type: vless
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-- name: 15|SE_speednode_0059
+- name: 14|SE_speednode_0059
   network: ws
   port: 443
   server: 193.180.208.234
@@ -904,7 +982,7 @@ proxies:
       Host: ccffllyy.1412.me
     path: /?ed=2048
 - client-fingerprint: random
-  name: 15|SG_speednode_0060
+  name: 14|SG_speednode_0060
   network: ws
   port: 443
   server: 27.50.48.2
@@ -919,7 +997,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|SG_speednode_0061
+  name: 14|SG_speednode_0061
   network: ws
   port: 443
   server: 27.50.49.104
@@ -934,7 +1012,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|SG_speednode_0062
+  name: 14|SG_speednode_0062
   network: ws
   port: 443
   server: 27.50.48.8
@@ -949,7 +1027,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|SG_speednode_0063
+  name: 14|SG_speednode_0063
   network: ws
   port: 443
   server: 27.50.48.6
@@ -964,7 +1042,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|SG_speednode_0064
+  name: 14|SG_speednode_0064
   network: ws
   port: 443
   server: 27.50.48.2
@@ -979,7 +1057,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|SG_speednode_0065
+  name: 14|SG_speednode_0065
   network: ws
   port: 443
   server: 27.50.48.13
@@ -994,7 +1072,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|SG_speednode_0066
+  name: 14|SG_speednode_0066
   network: ws
   port: 443
   server: 27.50.49.104
@@ -1009,7 +1087,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|SG_speednode_0067
+  name: 14|SG_speednode_0067
   network: ws
   port: 443
   server: 27.50.48.8
@@ -1024,7 +1102,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|SG_speednode_0068
+  name: 14|SG_speednode_0068
   network: ws
   port: 443
   server: 27.50.48.6
@@ -1039,7 +1117,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|SG_speednode_0069
+  name: 14|SG_speednode_0069
   network: ws
   port: 443
   server: 27.50.48.13
@@ -1053,7 +1131,7 @@ proxies:
     headers:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
-- name: 15|TW_speednode_0072
+- name: 14|TW_speednode_0072
   password: mrwdfNTD8M79LCukCieldrqZWqs=
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -1062,7 +1140,7 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 15|TW_speednode_0073
+- name: 14|TW_speednode_0073
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -1070,7 +1148,7 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 15|TW_speednode_0074
+- name: 14|TW_speednode_0074
   network: ws
   port: 443
   server: 125.228.236.138
@@ -1085,7 +1163,7 @@ proxies:
       Host: ccffllyy.1412.me
     path: /?ed=2048
 - flow: xtls-rprx-vision
-  name: 15|US_speednode_0075
+  name: 14|US_speednode_0075
   port: 443
   reality-opts:
     public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
@@ -1097,7 +1175,7 @@ proxies:
   type: vless
   udp: true
   uuid: 3d0b6533-d3ba-4a0d-a46e-27c258ca5c3e
-- name: 15|US_speednode_0076
+- name: 14|US_speednode_0076
   network: ws
   port: 443
   server: 104.17.25.173
@@ -1111,7 +1189,7 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
-- name: 15|US_speednode_0077
+- name: 14|US_speednode_0077
   port: 21486
   server: 64.81.32.183
   skip-cert-verify: false
@@ -1119,7 +1197,7 @@ proxies:
   type: vless
   udp: true
   uuid: 76be3888-75e3-47dc-8c9c-8f9f759a2261
-- name: 15|US_speednode_0078
+- name: 14|US_speednode_0078
   network: ws
   port: 443
   server: 104.16.147.32
@@ -1133,7 +1211,7 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
-- name: 15|US_speednode_0079
+- name: 14|US_speednode_0079
   network: ws
   port: 443
   server: 104.18.185.26
@@ -1147,7 +1225,7 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
-- name: 15|US_speednode_0080
+- name: 14|US_speednode_0080
   network: ws
   port: 443
   server: 104.21.227.134
@@ -1161,7 +1239,7 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
-- name: 15|US_speednode_0081
+- name: 14|US_speednode_0081
   network: ws
   port: 443
   server: cloudflare.182682.xyz
@@ -1175,7 +1253,7 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     path: /x-aniu/?ed=2560
-- name: 15|US_speednode_0082
+- name: 14|US_speednode_0082
   network: ws
   port: 443
   server: 104.16.250.22
@@ -1189,7 +1267,7 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     path: /x-aniu/?ed=2560
-- name: 15|US_speednode_0083
+- name: 14|US_speednode_0083
   network: ws
   port: 443
   server: cloudflare.182682.xyz
@@ -1203,7 +1281,7 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
-- name: 15|US_speednode_0084
+- name: 14|US_speednode_0084
   network: ws
   port: 443
   server: 104.16.250.22
@@ -1217,7 +1295,7 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
-- name: 15|US_speednode_0085
+- name: 14|US_speednode_0085
   network: ws
   port: 443
   server: 162.159.45.232
@@ -1232,7 +1310,7 @@ proxies:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0086
+  name: 14|US_speednode_0086
   network: ws
   port: 443
   server: 162.159.44.248
@@ -1246,7 +1324,7 @@ proxies:
     headers:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
-- name: 15|US_speednode_0087
+- name: 14|US_speednode_0087
   network: ws
   port: 443
   server: 162.159.44.142
@@ -1260,7 +1338,7 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
-- name: 15|US_speednode_0088
+- name: 14|US_speednode_0088
   network: ws
   port: 443
   server: 162.159.16.63
@@ -1274,7 +1352,7 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
-- name: 15|US_speednode_0089
+- name: 14|US_speednode_0089
   network: ws
   port: 443
   server: 162.159.44.142
@@ -1288,7 +1366,7 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     path: /x-aniu/?ed=2560
-- name: 15|US_speednode_0090
+- name: 14|US_speednode_0090
   network: ws
   port: 443
   server: v3.dabache.top
@@ -1303,7 +1381,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0091
+  name: 14|US_speednode_0091
   network: ws
   port: 443
   server: 108.162.198.70
@@ -1318,7 +1396,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0092
+  name: 14|US_speednode_0092
   network: ws
   port: 443
   server: cf.877774.xyz
@@ -1333,7 +1411,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0093
+  name: 14|US_speednode_0093
   network: ws
   port: 443
   server: 172.64.52.157
@@ -1347,7 +1425,7 @@ proxies:
     headers:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
-- name: 15|US_speednode_0094
+- name: 14|US_speednode_0094
   network: ws
   port: 443
   server: 104.17.47.68
@@ -1362,7 +1440,7 @@ proxies:
       Host: ccffllyy.1412.me
     path: /?ed=2048
 - client-fingerprint: random
-  name: 15|US_speednode_0095
+  name: 14|US_speednode_0095
   network: ws
   port: 443
   server: 172.64.229.147
@@ -1376,7 +1454,7 @@ proxies:
     headers:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
-- name: 15|US_speednode_0096
+- name: 14|US_speednode_0096
   network: ws
   port: 443
   server: 104.19.39.23
@@ -1391,7 +1469,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0097
+  name: 14|US_speednode_0097
   network: ws
   port: 443
   server: 173.245.59.173
@@ -1412,7 +1490,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 15|US_speednode_0098
+  name: 14|US_speednode_0098
   network: http
   port: 443
   server: 23.81.34.138
@@ -1423,7 +1501,7 @@ proxies:
   udp: true
   uuid: 85571fb3-6d15-49b0-e1d6-cf8b6dbd623e
 - client-fingerprint: random
-  name: 15|US_speednode_0099
+  name: 14|US_speednode_0099
   network: ws
   port: 443
   server: 162.159.46.131
@@ -1438,7 +1516,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0100
+  name: 14|US_speednode_0100
   network: ws
   port: 443
   server: 172.64.53.45
@@ -1453,7 +1531,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0101
+  name: 14|US_speednode_0101
   network: ws
   port: 443
   server: 162.159.39.82
@@ -1467,7 +1545,7 @@ proxies:
     headers:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
-- name: 15|US_speednode_0102
+- name: 14|US_speednode_0102
   network: ws
   port: 443
   server: 104.19.174.107
@@ -1481,7 +1559,7 @@ proxies:
     headers:
       Host: ccffllyy.1412.me
     path: /?ed=2048
-- name: 15|US_speednode_0103
+- name: 14|US_speednode_0103
   network: ws
   port: 443
   server: 104.16.111.93
@@ -1496,7 +1574,7 @@ proxies:
       Host: ccffllyy.1412.me
     path: /?ed=2048
 - client-fingerprint: random
-  name: 15|US_speednode_0104
+  name: 14|US_speednode_0104
   network: ws
   port: 443
   server: 173.245.58.218
@@ -1510,7 +1588,7 @@ proxies:
     headers:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
-- name: 15|US_speednode_0105
+- name: 14|US_speednode_0105
   network: ws
   port: 443
   server: 104.18.255.101
@@ -1524,7 +1602,7 @@ proxies:
     headers:
       Host: ccffllyy.1412.me
     path: /?ed=2048
-- name: 15|US_speednode_0106
+- name: 14|US_speednode_0106
   network: ws
   port: 443
   server: 104.16.223.28
@@ -1538,7 +1616,7 @@ proxies:
     headers:
       Host: ccffllyy.1412.me
     path: /?ed=2048
-- name: 15|US_speednode_0107
+- name: 14|US_speednode_0107
   network: ws
   port: 443
   server: unicom.twitter.now.cc
@@ -1552,7 +1630,7 @@ proxies:
     headers:
       Host: ccffllyy.1412.me
     path: /?ed=2048
-- name: 15|US_speednode_0108
+- name: 14|US_speednode_0108
   network: ws
   port: 443
   server: 162.159.38.241
@@ -1566,7 +1644,7 @@ proxies:
     headers:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
-- name: 15|US_speednode_0109
+- name: 14|US_speednode_0109
   network: ws
   port: 443
   server: mobile.twitter.now.cc
@@ -1580,7 +1658,7 @@ proxies:
     headers:
       Host: ccffllyy.1412.me
     path: /?ed=2048
-- name: 15|US_speednode_0110
+- name: 14|US_speednode_0110
   network: ws
   port: 443
   server: 162.159.46.48
@@ -1595,7 +1673,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0111
+  name: 14|US_speednode_0111
   network: ws
   port: 443
   server: staticdelivery.nexusmods.com
@@ -1610,7 +1688,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0112
+  name: 14|US_speednode_0112
   network: ws
   port: 443
   server: 104.16.16.110
@@ -1625,7 +1703,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - flow: xtls-rprx-vision
-  name: 15|US_speednode_0113
+  name: 14|US_speednode_0113
   port: 443
   reality-opts:
     public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
@@ -1636,7 +1714,7 @@ proxies:
   type: vless
   udp: true
   uuid: cb33f36c-b531-4318-9be3-568e8d6c56c7
-- name: 15|US_speednode_0114
+- name: 14|US_speednode_0114
   network: ws
   port: 443
   server: 104.16.111.235
@@ -1651,7 +1729,7 @@ proxies:
       Host: ccffllyy.1412.me
     path: /?ed=2048
 - client-fingerprint: random
-  name: 15|US_speednode_0115
+  name: 14|US_speednode_0115
   network: ws
   port: 443
   server: 198.41.208.47
@@ -1665,7 +1743,7 @@ proxies:
     headers:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
-- name: 15|US_speednode_0116
+- name: 14|US_speednode_0116
   network: ws
   port: 443
   server: cf.twitter.now.cc
@@ -1680,7 +1758,7 @@ proxies:
       Host: ccffllyy.1412.me
     path: /?ed=2048
 - client-fingerprint: random
-  name: 15|US_speednode_0117
+  name: 14|US_speednode_0117
   network: ws
   port: 443
   server: 198.41.208.186
@@ -1695,7 +1773,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0118
+  name: 14|US_speednode_0118
   network: ws
   port: 443
   server: 172.64.150.239
@@ -1709,7 +1787,7 @@ proxies:
     headers:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
-- name: 15|US_speednode_0119
+- name: 14|US_speednode_0119
   network: ws
   port: 443
   server: 104.16.31.49
@@ -1723,7 +1801,7 @@ proxies:
     headers:
       Host: ccffllyy.1412.me
     path: /?ed=2048
-- name: 15|US_speednode_0120
+- name: 14|US_speednode_0120
   network: ws
   port: 443
   server: mfa.gov.ua
@@ -1737,7 +1815,7 @@ proxies:
     headers:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
-- name: 15|US_speednode_0121
+- name: 14|US_speednode_0121
   network: ws
   port: 80
   server: www.speedtest.net
@@ -1752,7 +1830,7 @@ proxies:
       Host: Www.speedtest.net.sIgmasigmaboy.site.
     path: /-ViV2ry@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN?ed=2048
 - client-fingerprint: random
-  name: 15|US_speednode_0122
+  name: 14|US_speednode_0122
   network: ws
   port: 443
   server: 104.19.49.169
@@ -1766,7 +1844,7 @@ proxies:
     headers:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
-- name: 15|US_speednode_0123
+- name: 14|US_speednode_0123
   network: ws
   port: 443
   server: 162.159.16.63
@@ -1781,7 +1859,7 @@ proxies:
       Host: l.ayovo.netlib.re
     path: /x-aniu/?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0124
+  name: 14|US_speednode_0124
   network: ws
   port: 443
   server: 104.19.47.178
@@ -1796,7 +1874,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0125
+  name: 14|US_speednode_0125
   network: ws
   port: 443
   server: 162.159.42.254
@@ -1811,7 +1889,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0126
+  name: 14|US_speednode_0126
   network: ws
   port: 443
   server: 141.101.114.110
@@ -1826,7 +1904,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0127
+  name: 14|US_speednode_0127
   network: ws
   port: 443
   server: 104.18.250.198
@@ -1841,7 +1919,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0128
+  name: 14|US_speednode_0128
   network: ws
   port: 443
   server: 162.159.152.7
@@ -1856,7 +1934,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0129
+  name: 14|US_speednode_0129
   network: ws
   port: 443
   server: 162.159.254.41
@@ -1871,7 +1949,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0130
+  name: 14|US_speednode_0130
   network: ws
   port: 443
   server: 104.19.60.248
@@ -1886,7 +1964,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0131
+  name: 14|US_speednode_0131
   network: ws
   port: 443
   server: 162.159.253.1
@@ -1901,7 +1979,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0132
+  name: 14|US_speednode_0132
   network: ws
   port: 443
   server: cloudflare.182682.xyz
@@ -1916,7 +1994,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0133
+  name: 14|US_speednode_0133
   network: ws
   port: 443
   server: 198.41.211.195
@@ -1931,7 +2009,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0134
+  name: 14|US_speednode_0134
   network: ws
   port: 443
   server: 104.19.35.119
@@ -1946,7 +2024,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0135
+  name: 14|US_speednode_0135
   network: ws
   port: 443
   server: 162.159.152.43
@@ -1961,7 +2039,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0136
+  name: 14|US_speednode_0136
   network: ws
   port: 443
   server: 104.19.125.68
@@ -1976,7 +2054,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0137
+  name: 14|US_speednode_0137
   network: ws
   port: 443
   server: 162.159.38.75
@@ -1991,7 +2069,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0138
+  name: 14|US_speednode_0138
   network: ws
   port: 443
   server: 104.19.236.8
@@ -2006,7 +2084,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0139
+  name: 14|US_speednode_0139
   network: ws
   port: 443
   server: 104.16.211.225
@@ -2021,7 +2099,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0140
+  name: 14|US_speednode_0140
   network: ws
   port: 443
   server: 162.159.45.170
@@ -2036,7 +2114,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0141
+  name: 14|US_speednode_0141
   network: ws
   port: 443
   server: 198.41.209.202
@@ -2051,7 +2129,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0142
+  name: 14|US_speednode_0142
   network: ws
   port: 443
   server: 104.26.5.200
@@ -2066,7 +2144,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0143
+  name: 14|US_speednode_0143
   network: ws
   port: 443
   server: 162.159.44.5
@@ -2081,7 +2159,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0144
+  name: 14|US_speednode_0144
   network: ws
   port: 443
   server: 162.159.39.108
@@ -2096,7 +2174,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0145
+  name: 14|US_speednode_0145
   network: ws
   port: 443
   server: 104.18.83.102
@@ -2111,7 +2189,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0146
+  name: 14|US_speednode_0146
   network: ws
   port: 443
   server: 162.159.44.66
@@ -2126,7 +2204,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0147
+  name: 14|US_speednode_0147
   network: ws
   port: 443
   server: 162.159.45.104
@@ -2141,7 +2219,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0148
+  name: 14|US_speednode_0148
   network: ws
   port: 443
   server: 162.159.45.171
@@ -2156,7 +2234,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0149
+  name: 14|US_speednode_0149
   network: ws
   port: 443
   server: 162.159.44.53
@@ -2171,7 +2249,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0150
+  name: 14|US_speednode_0150
   network: ws
   port: 443
   server: 162.159.20.205
@@ -2186,7 +2264,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0151
+  name: 14|US_speednode_0151
   network: ws
   port: 443
   server: 162.159.39.49
@@ -2201,7 +2279,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0152
+  name: 14|US_speednode_0152
   network: ws
   port: 443
   server: 162.159.43.6
@@ -2216,7 +2294,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0153
+  name: 14|US_speednode_0153
   network: ws
   port: 443
   server: 162.159.38.89
@@ -2230,7 +2308,7 @@ proxies:
     headers:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
-- name: 15|US_speednode_0154
+- name: 14|US_speednode_0154
   network: ws
   port: 44000
   server: 199.193.125.229
@@ -2245,7 +2323,7 @@ proxies:
       Host: ccffllyy.1412.me
     path: /?ed=2048
 - flow: xtls-rprx-vision
-  name: 15|US_speednode_0155
+  name: 14|US_speednode_0155
   port: 8443
   reality-opts:
     public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
@@ -2258,7 +2336,7 @@ proxies:
   udp: true
   uuid: 0ee2d410-3e64-4c41-a571-3e5d2b5b8982
 - client-fingerprint: random
-  name: 15|US_speednode_0156
+  name: 14|US_speednode_0156
   network: ws
   port: 443
   server: 162.159.38.74
@@ -2273,7 +2351,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0157
+  name: 14|US_speednode_0157
   network: ws
   port: 443
   server: registry.cyou
@@ -2288,7 +2366,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0158
+  name: 14|US_speednode_0158
   network: ws
   port: 443
   server: 162.159.42.72
@@ -2303,7 +2381,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0159
+  name: 14|US_speednode_0159
   network: ws
   port: 443
   server: registry.cyou
@@ -2318,7 +2396,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0160
+  name: 14|US_speednode_0160
   network: ws
   port: 443
   server: 162.159.35.39
@@ -2332,7 +2410,7 @@ proxies:
     headers:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
-- name: 15|US_speednode_0161
+- name: 14|US_speednode_0161
   network: ws
   port: 443
   server: 38.244.145.50
@@ -2347,7 +2425,7 @@ proxies:
       Host: ccffllyy.1412.me
     path: /?ed=2048
 - client-fingerprint: firefox
-  name: 15|US_speednode_0162
+  name: 14|US_speednode_0162
   port: 10001
   reality-opts:
     public-key: kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM
@@ -2360,7 +2438,7 @@ proxies:
   udp: true
   uuid: 53cd8178-2ee6-43d9-a2a7-881f287fd408
 - client-fingerprint: random
-  name: 15|US_speednode_0163
+  name: 14|US_speednode_0163
   network: ws
   port: 443
   server: 162.159.153.6
@@ -2375,7 +2453,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0164
+  name: 14|US_speednode_0164
   network: ws
   port: 443
   server: 104.19.45.93
@@ -2390,7 +2468,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0165
+  name: 14|US_speednode_0165
   network: ws
   port: 443
   server: 162.159.249.42
@@ -2405,7 +2483,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0166
+  name: 14|US_speednode_0166
   network: ws
   port: 443
   server: 104.16.144.148
@@ -2420,7 +2498,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0167
+  name: 14|US_speednode_0167
   network: ws
   port: 443
   server: 104.18.152.235
@@ -2435,7 +2513,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0168
+  name: 14|US_speednode_0168
   network: ws
   port: 443
   server: 104.19.42.101
@@ -2449,7 +2527,7 @@ proxies:
     headers:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
-- name: 15|US_speednode_0169
+- name: 14|US_speednode_0169
   network: ws
   port: 443
   server: 104.21.224.5
@@ -2464,7 +2542,7 @@ proxies:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0170
+  name: 14|US_speednode_0170
   network: ws
   port: 443
   server: 104.19.52.176
@@ -2479,7 +2557,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0171
+  name: 14|US_speednode_0171
   network: ws
   port: 443
   server: 162.159.152.146
@@ -2494,7 +2572,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0172
+  name: 14|US_speednode_0172
   network: ws
   port: 443
   server: 104.19.56.47
@@ -2509,7 +2587,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0173
+  name: 14|US_speednode_0173
   network: ws
   port: 443
   server: 104.19.40.244
@@ -2524,7 +2602,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0174
+  name: 14|US_speednode_0174
   network: ws
   port: 443
   server: 108.162.198.122
@@ -2539,7 +2617,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0175
+  name: 14|US_speednode_0175
   network: ws
   port: 443
   server: 108.162.198.155
@@ -2554,7 +2632,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0176
+  name: 14|US_speednode_0176
   network: ws
   port: 443
   server: 173.245.59.205
@@ -2569,7 +2647,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0177
+  name: 14|US_speednode_0177
   network: ws
   port: 443
   server: zrf.cf.090227.xyz
@@ -2583,7 +2661,7 @@ proxies:
     headers:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
-- name: 15|US_speednode_0178
+- name: 14|US_speednode_0178
   network: ws
   port: 443
   server: 172.64.157.145
@@ -2598,7 +2676,7 @@ proxies:
       Host: ccffllyy.1412.me
     path: /?ed=2048
 - client-fingerprint: random
-  name: 15|US_speednode_0179
+  name: 14|US_speednode_0179
   network: ws
   port: 443
   server: 104.26.4.239
@@ -2613,7 +2691,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0180
+  name: 14|US_speednode_0180
   network: ws
   port: 443
   server: 172.64.229.186
@@ -2628,7 +2706,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0181
+  name: 14|US_speednode_0181
   network: ws
   port: 443
   server: 172.64.145.31
@@ -2643,7 +2721,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0182
+  name: 14|US_speednode_0182
   network: ws
   port: 443
   server: 172.67.70.108
@@ -2657,7 +2735,7 @@ proxies:
     headers:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
-- name: 15|US_speednode_0183
+- name: 14|US_speednode_0183
   network: ws
   port: 443
   server: 65.49.205.213
@@ -2672,7 +2750,7 @@ proxies:
       Host: ccffllyy.1412.me
     path: /?ed=2048
 - client-fingerprint: random
-  name: 15|US_speednode_0184
+  name: 14|US_speednode_0184
   network: ws
   port: 443
   server: 172.64.52.83
@@ -2687,7 +2765,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0185
+  name: 14|US_speednode_0185
   network: ws
   port: 443
   server: cf.877774.xyz
@@ -2702,7 +2780,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0186
+  name: 14|US_speednode_0186
   network: ws
   port: 443
   server: time.is
@@ -2717,7 +2795,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0187
+  name: 14|US_speednode_0187
   network: ws
   port: 443
   server: 172.64.53.38
@@ -2732,7 +2810,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0188
+  name: 14|US_speednode_0188
   network: ws
   port: 443
   server: 172.64.229.211
@@ -2746,7 +2824,7 @@ proxies:
     headers:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
-- name: 15|US_speednode_0189
+- name: 14|US_speednode_0189
   network: ws
   port: 443
   server: v2.dabache.top
@@ -2761,7 +2839,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0190
+  name: 14|US_speednode_0190
   network: ws
   port: 443
   server: time.is
@@ -2776,7 +2854,7 @@ proxies:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0191
+  name: 14|US_speednode_0191
   network: ws
   port: 443
   server: 172.64.53.40
@@ -2791,7 +2869,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0192
+  name: 14|US_speednode_0192
   network: ws
   port: 443
   server: 104.26.4.35
@@ -2806,7 +2884,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0193
+  name: 14|US_speednode_0193
   network: ws
   port: 443
   server: 172.67.73.201
@@ -2821,7 +2899,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0194
+  name: 14|US_speednode_0194
   network: ws
   port: 443
   server: 172.67.72.109
@@ -2836,7 +2914,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0195
+  name: 14|US_speednode_0195
   network: ws
   port: 443
   server: 172.64.52.179
@@ -2851,7 +2929,7 @@ proxies:
       Host: snip.zrf.hidns.co
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|US_speednode_0196
+  name: 14|US_speednode_0196
   network: ws
   port: 443
   server: 172.67.67.105
@@ -2865,7 +2943,7 @@ proxies:
     headers:
       Host: snip.zrfs.indevs.in
     path: /?ed=2560
-- name: 15|US_speednode_0197
+- name: 14|US_speednode_0197
   network: ws
   port: 80
   server: www.speedtest.net
@@ -2879,7 +2957,7 @@ proxies:
     headers:
       Host: Www.speedtest.net.sIgmasigmaboy.site.
     path: /-ViV2ry@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN
-- name: 15|US_speednode_0198
+- name: 14|US_speednode_0198
   network: ws
   port: 2053
   server: iran.zone-server-irani.ir
@@ -2893,7 +2971,7 @@ proxies:
     headers:
       Host: wizwiz.vidboxco.ir
     path: /?ed=2048
-- name: 15|US_speednode_0199
+- name: 14|US_speednode_0199
   network: ws
   port: 2053
   server: cf.zone-server-irani.ir
@@ -2918,220 +2996,232 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 15|ES_speednode_0013
-  - 15|US_speednode_0180
-  - 15|GB_speednode_0020
-  - 13,14|新加坡|@ripaojiedian
-  - 15|US_speednode_0160
-  - 15|RU_speednode_0057
-  - 15|US_speednode_0179
-  - 15|US_speednode_0195
-  - 15|US_speednode_0103
-  - 15|US_speednode_0197
-  - 15|US_speednode_0162
-  - 13,14,15|HK_speednode_0026
-  - 15|US_speednode_0077
-  - 15|RU_speednode_0058
-  - 15|US_speednode_0170
-  - 15|US_speednode_0109
-  - 15|US_speednode_0111
-  - 15|RU_speednode_0047
-  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-  - 15|IE_speednode_0027
-  - 15|NL_speednode_0040
-  - 15|US_speednode_0091
-  - 15|US_speednode_0144
-  - 15|SG_speednode_0063
-  - 15|US_speednode_0184
-  - 15|SG_speednode_0067
-  - 15|RU_speednode_0054
-  - 15|US_speednode_0164
-  - 15|LV_speednode_0032
-  - 15|US_speednode_0089
-  - 10|DE
-  - 15|TW_speednode_0074
-  - 15|US_speednode_0163
-  - 15|RU_speednode_0050
-  - 11|telegram  𝗮
-  - 15|US_speednode_0126
-  - 15|US_speednode_0166
-  - 13,14|香港3|@ripaojiedian
-  - 15|US_speednode_0132
-  - 15|LV_speednode_0033
-  - 15|RU_speednode_0053
-  - 15|ES_speednode_0014
-  - 15|US_speednode_0181
-  - 15|CH_speednode_0002
-  - 15|US_speednode_0151
-  - 11|28YB5qK!5t#U&insecure=1&sni=na...
-  - 15|RU_speednode_0048
-  - 15|US_speednode_0198
-  - 15|US_speednode_0076
-  - 15|US_speednode_0136
-  - 15|US_speednode_0095
-  - 15|US_speednode_0131
-  - 15|US_speednode_0168
-  - 15|HK_speednode_0024
-  - 15|US_speednode_0113
-  - 15|US_speednode_0135
-  - 15|MY_speednode_0038
-  - 15|NL_speednode_0042
-  - 13,14|新加坡2|@ripaojiedian
-  - 15|SG_speednode_0066
-  - 15|US_speednode_0120
-  - 13,14|香港4|@ripaojiedian
-  - 15|US_speednode_0082
-  - 13,14|美国3|@ripaojiedian
-  - 15|US_speednode_0116
-  - 13,14|日本3|@ripaojiedian
-  - 15|US_speednode_0107
-  - 15|US_speednode_0174
-  - 15|US_speednode_0104
-  - 15|US_speednode_0084
-  - 15|US_speednode_0172
-  - 15|BG_speednode_0001
-  - 15|US_speednode_0110
-  - 15|US_speednode_0085
-  - 15|SE_speednode_0059
-  - 15|US_speednode_0096
-  - 15|US_speednode_0140
-  - 15|NZ_speednode_0043
-  - 15|US_speednode_0159
-  - 15|RU_speednode_0052
-  - 15|US_speednode_0189
-  - 15|US_speednode_0191
-  - 15|US_speednode_0175
-  - 15|US_speednode_0188
-  - 15|RU_speednode_0055
-  - 15|US_speednode_0093
-  - 15|US_speednode_0173
-  - 15|FI_speednode_0015
-  - 15|US_speednode_0078
-  - 15|US_speednode_0081
-  - 14|香港|@ripaojiedian
-  - 15|SG_speednode_0065
-  - 15|US_speednode_0108
-  - 15|RU_speednode_0046
-  - 15|US_speednode_0075
-  - 15|TW_speednode_0073
-  - 15|US_speednode_0101
-  - 15|US_speednode_0106
-  - 15|US_speednode_0127
-  - 15|US_speednode_0137
-  - 15|DE_speednode_0012
-  - 15|US_speednode_0128
-  - 15|IR_speednode_0028
-  - 15|US_speednode_0155
-  - 15|MY_speednode_0037
-  - 15|US_speednode_0147
-  - 15|US_speednode_0186
-  - 15|GR_speednode_0021
-  - 15|US_speednode_0079
-  - 15|NL_speednode_0041
-  - 15|US_speednode_0133
-  - 15|DE_speednode_0011
-  - 15|SG_speednode_0069
-  - 15|US_speednode_0178
-  - 13|tg频道:@ripaojiedian
-  - 15|US_speednode_0080
-  - 10|1
-  - 15|US_speednode_0115
-  - 15|US_speednode_0182
-  - 10| HK
-  - 15|US_speednode_0150
-  - 15|RU_speednode_0056
-  - 15|US_speednode_0121
-  - '11|@SimChin_iR  '
-  - 15|US_speednode_0157
-  - 15|SG_speednode_0064
-  - 15|US_speednode_0117
-  - 15|US_speednode_0100
-  - 13,14|日本2|@ripaojiedian
-  - 15|TW_speednode_0072
-  - 15|US_speednode_0142
-  - 15|US_speednode_0152
-  - 15|DE_speednode_0010
-  - 15|US_speednode_0185
-  - 15|US_speednode_0097
-  - 15|US_speednode_0087
-  - 15|US_speednode_0134
-  - 15|US_speednode_0098
-  - 15|US_speednode_0086
-  - 15|US_speednode_0165
-  - 10|SG
-  - 15|US_speednode_0102
-  - 15|US_speednode_0119
-  - 15|US_speednode_0143
-  - 13,14|新加坡3|@ripaojiedian
-  - 15|PT_speednode_0044
-  - 15|US_speednode_0149
-  - 15|US_speednode_0199
-  - 15|US_speednode_0083
-  - 15|GR_speednode_0022
-  - 15|US_speednode_0125
-  - 15|US_speednode_0156
-  - 15|US_speednode_0112
-  - 15|JP_speednode_0030
-  - 13,14|美国|@ripaojiedian
-  - 15|US_speednode_0099
-  - 15|MY_speednode_0036
-  - 15|SG_speednode_0061
-  - 15|HK_speednode_0025
-  - 15|US_speednode_0169
-  - 15|US_speednode_0092
-  - 15|US_speednode_0190
-  - 15|US_speednode_0187
-  - 15|US_speednode_0167
-  - 15|US_speednode_0114
-  - 15|GR_speednode_0023
-  - 15|SG_speednode_0062
-  - 15|US_speednode_0183
-  - 10|TW
-  - 10|美国2
-  - 15|US_speednode_0130
-  - 15|RU_speednode_0049
-  - 15|US_speednode_0088
-  - 15|US_speednode_0154
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 15|US_speednode_0196
-  - 15|US_speednode_0129
-  - 15|US_speednode_0194
-  - 15|IT_speednode_0029
-  - 15|US_speednode_0138
-  - 15|US_speednode_0148
-  - 15|US_speednode_0176
-  - 15|US_speednode_0105
-  - 15|US_speednode_0123
-  - 15|LV_speednode_0034
-  - 15|US_speednode_0094
-  - 15|SG_speednode_0068
-  - 15|MY_speednode_0039
-  - 15|RU_speednode_0051
-  - 15|LV_speednode_0031
-  - 15|SG_speednode_0060
-  - 11|⚡Telegram = @vmessorg
-  - 15|US_speednode_0153
-  - 13,14|日本|@ripaojiedian
-  - 15|MX_speednode_0035
-  - 15|US_speednode_0090
-  - 15|US_speednode_0161
-  - 10|JP
-  - 15|US_speednode_0122
-  - 15|US_speednode_0158
-  - 15|US_speednode_0177
-  - 15|US_speednode_0118
-  - 13,14|美国2|@ripaojiedian
-  - '11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1'
-  - 15|US_speednode_0192
-  - 15|US_speednode_0141
-  - 15|US_speednode_0145
-  - 15|US_speednode_0171
-  - 15|CN_speednode_0009
-  - 15|US_speednode_0146
-  - 15|US_speednode_0124
-  - 15|US_speednode_0139
-  - 15|US_speednode_0193
-  - 15|FR_speednode_0018
+  - 14|MX_speednode_0035
+  - 14|US_speednode_0089
+  - 14|US_speednode_0092
+  - 14|US_speednode_0127
+  - 14|US_speednode_0102
+  - 14|IE_speednode_0027
+  - 14|JP_speednode_0030
+  - 14|US_speednode_0110
+  - 14|US_speednode_0182
+  - 14|US_speednode_0145
+  - 14|MY_speednode_0039
+  - 14|US_speednode_0081
+  - 14|CH_speednode_0002
+  - 14|US_speednode_0159
+  - 13|日本|@ripaojiedian
+  - 14|GB_speednode_0020
+  - 14|US_speednode_0161
+  - 14|US_speednode_0091
+  - 14|US_speednode_0155
+  - 14|GR_speednode_0023
+  - 14|HK_speednode_0025
+  - 14|US_speednode_0078
+  - 13|日本3|@ripaojiedian
+  - 14|US_speednode_0149
+  - 14|US_speednode_0164
+  - 13|香港3|@ripaojiedian
+  - 14|GR_speednode_0022
+  - 14|RU_speednode_0049
+  - 13|新加坡2|@ripaojiedian
+  - 14|SG_speednode_0060
+  - 14|US_speednode_0134
+  - 14|DE_speednode_0012
+  - 14|US_speednode_0080
+  - 14|US_speednode_0156
+  - 14|US_speednode_0152
+  - 9| HK
+  - 14|US_speednode_0099
+  - 14|US_speednode_0184
+  - 14|IR_speednode_0028
+  - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
+  - 14|RU_speednode_0052
+  - 14|US_speednode_0176
+  - 14|US_speednode_0128
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|US_speednode_0181
+  - 14|US_speednode_0191
+  - 14|FR_speednode_0018
+  - 14|LV_speednode_0031
+  - 14|US_speednode_0197
+  - 14|BG_speednode_0001
+  - 14|US_speednode_0084
+  - 14|US_speednode_0174
+  - 12|🇯🇵 日本3|@ripaojiedian
+  - 14|US_speednode_0172
+  - 13|美国2|@ripaojiedian
+  - 14|SG_speednode_0065
+  - 14|US_speednode_0190
+  - 14|US_speednode_0120
+  - 14|US_speednode_0179
+  - 14|SG_speednode_0061
+  - 14|US_speednode_0121
+  - 14|US_speednode_0166
+  - 14|CN_speednode_0009
+  - 14|US_speednode_0133
+  - 14|US_speednode_0104
+  - 14|US_speednode_0108
+  - 14|SE_speednode_0059
+  - 14|US_speednode_0085
+  - 14|US_speednode_0151
+  - 10|⚡Telegram = @vmessorg
+  - 14|RU_speednode_0058
+  - 14|MY_speednode_0037
+  - 12|🇸🇬 新加坡|@ripaojiedian
+  - 12|🇺🇸 美国2|@ripaojiedian
+  - 14|US_speednode_0113
+  - 14|US_speednode_0199
+  - 14|US_speednode_0118
+  - 14|US_speednode_0138
+  - 14|ES_speednode_0014
+  - 9|JP
+  - 14|US_speednode_0094
+  - 14|US_speednode_0124
+  - 14|US_speednode_0167
+  - 10|28YB5qK!5t#U&insecure=1&sni=na...
+  - 14|US_speednode_0083
+  - 14|DE_speednode_0010
+  - '10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1'
+  - 14|US_speednode_0180
+  - 14|US_speednode_0196
+  - 13|香港5|@ripaojiedian
+  - 14|US_speednode_0185
+  - 13|香港|@ripaojiedian
+  - 12|🇸🇬 新加坡2|@ripaojiedian
+  - 14|US_speednode_0139
+  - 14|US_speednode_0077
+  - 14|SG_speednode_0067
+  - 14|US_speednode_0100
+  - 14|US_speednode_0076
+  - 14|US_speednode_0130
+  - 14|US_speednode_0123
+  - 14|US_speednode_0137
+  - 14|US_speednode_0146
+  - 14|US_speednode_0129
+  - 14|SG_speednode_0069
+  - 9|TW
+  - '10|@SimChin_iR  '
+  - 12|🇭🇰 香港3|@ripaojiedian
+  - 14|US_speednode_0101
+  - 9|1
+  - 14|RU_speednode_0054
+  - 12|🇺🇸 美国3|@ripaojiedian
+  - 14|US_speednode_0087
+  - 12|🇭🇰 香港4|@ripaojiedian
+  - 14|GR_speednode_0021
+  - 14|SG_speednode_0062
+  - 14|US_speednode_0153
+  - 13|美国|@ripaojiedian
+  - 14|US_speednode_0189
+  - 14|MY_speednode_0038
+  - 14|US_speednode_0171
+  - 14|HK_speednode_0024
+  - 14|US_speednode_0144
+  - 14|RU_speednode_0048
+  - 14|SG_speednode_0063
+  - 14|US_speednode_0154
+  - 14|US_speednode_0093
+  - 14|US_speednode_0173
+  - 14|LV_speednode_0032
+  - 14|NL_speednode_0042
+  - 14|US_speednode_0168
+  - 13|新加坡3|@ripaojiedian
+  - 14|TW_speednode_0072
+  - 14|US_speednode_0105
+  - 14|US_speednode_0193
+  - 12,14|HK_speednode_0026
+  - 14|US_speednode_0169
+  - 14|RU_speednode_0053
+  - 14|US_speednode_0086
+  - 14|US_speednode_0186
+  - 14|US_speednode_0098
+  - 14|US_speednode_0142
+  - 14|SG_speednode_0068
+  - 14|US_speednode_0148
+  - 14|RU_speednode_0056
+  - 14|TW_speednode_0074
+  - 14|US_speednode_0143
+  - 12|🇯🇵 日本2|@ripaojiedian
+  - 9|DE
+  - 14|US_speednode_0158
+  - 14|US_speednode_0150
+  - 14|US_speednode_0177
+  - 14|RU_speednode_0057
+  - 14|US_speednode_0187
+  - 14|US_speednode_0194
+  - 13|美国3|@ripaojiedian
+  - 14|US_speednode_0111
+  - 14|ES_speednode_0013
+  - 14|SG_speednode_0066
+  - 14|US_speednode_0119
+  - 14|IT_speednode_0029
+  - 14|US_speednode_0175
+  - 14|US_speednode_0131
+  - 12|🇺🇸 美国|@ripaojiedian
+  - 14|US_speednode_0075
+  - 14|US_speednode_0140
+  - 14|US_speednode_0096
+  - 14|US_speednode_0141
+  - 14|RU_speednode_0055
+  - 12|tg频道:@ripaojiedian
+  - 14|NL_speednode_0041
+  - 14|LV_speednode_0034
+  - 14|US_speednode_0170
+  - 14|US_speednode_0126
+  - 14|US_speednode_0195
+  - 14|US_speednode_0198
+  - 14|FI_speednode_0015
+  - 14|US_speednode_0132
+  - 14|RU_speednode_0047
+  - 14|MY_speednode_0036
+  - 14|NZ_speednode_0043
+  - 14|US_speednode_0163
+  - 14|US_speednode_0192
+  - 13|新加坡|@ripaojiedian
+  - 14|US_speednode_0097
+  - 14|US_speednode_0112
+  - 14|US_speednode_0183
+  - 14|US_speednode_0114
+  - 14|PT_speednode_0044
+  - 14|NL_speednode_0040
+  - 10|telegram  𝗮
+  - 14|LV_speednode_0033
+  - 14|US_speednode_0125
+  - 14|US_speednode_0147
+  - 14|TW_speednode_0073
+  - 14|US_speednode_0117
+  - 9|美国2
+  - 12|🇯🇵 日本|@ripaojiedian
+  - 14|US_speednode_0178
+  - 13|日本2|@ripaojiedian
+  - 14|US_speednode_0079
+  - 14|US_speednode_0088
+  - 14|US_speednode_0136
+  - 14|US_speednode_0107
+  - 14|US_speednode_0188
+  - 14|US_speednode_0090
+  - 14|US_speednode_0135
+  - 14|RU_speednode_0046
+  - 12|🇸🇬 新加坡3|@ripaojiedian
+  - 14|US_speednode_0160
+  - 14|US_speednode_0165
+  - 14|US_speednode_0109
+  - 14|US_speednode_0082
+  - 14|US_speednode_0157
+  - 14|US_speednode_0122
+  - 14|US_speednode_0116
+  - 14|US_speednode_0106
+  - 14|RU_speednode_0051
+  - 14|US_speednode_0095
+  - 14|RU_speednode_0050
+  - 14|US_speednode_0162
+  - 14|US_speednode_0103
+  - 14|DE_speednode_0011
+  - 14|US_speednode_0115
+  - 13|香港4|@ripaojiedian
+  - 9|SG
+  - 14|SG_speednode_0064
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -3187,165 +3277,174 @@ proxy-groups:
   type: select
 - name: 🇯🇵 日本
   proxies:
-  - 10|JP
-  - 13,14|日本|@ripaojiedian
-  - 13,14|日本2|@ripaojiedian
-  - 13,14|日本3|@ripaojiedian
-  - 15|JP_speednode_0030
+  - 9|JP
+  - 12|🇯🇵 日本|@ripaojiedian
+  - 12|🇯🇵 日本2|@ripaojiedian
+  - 12|🇯🇵 日本3|@ripaojiedian
+  - 13|日本|@ripaojiedian
+  - 13|日本2|@ripaojiedian
+  - 13|日本3|@ripaojiedian
+  - 14|JP_speednode_0030
   type: select
 - name: 🇺🇸 美国
   proxies:
-  - 10|美国2
-  - 13,14|美国|@ripaojiedian
-  - 13,14|美国2|@ripaojiedian
-  - 13,14|美国3|@ripaojiedian
-  - 15|US_speednode_0075
-  - 15|US_speednode_0076
-  - 15|US_speednode_0077
-  - 15|US_speednode_0078
-  - 15|US_speednode_0079
-  - 15|US_speednode_0080
-  - 15|US_speednode_0081
-  - 15|US_speednode_0082
-  - 15|US_speednode_0083
-  - 15|US_speednode_0084
-  - 15|US_speednode_0085
-  - 15|US_speednode_0086
-  - 15|US_speednode_0087
-  - 15|US_speednode_0088
-  - 15|US_speednode_0089
-  - 15|US_speednode_0090
-  - 15|US_speednode_0091
-  - 15|US_speednode_0092
-  - 15|US_speednode_0093
-  - 15|US_speednode_0094
-  - 15|US_speednode_0095
-  - 15|US_speednode_0096
-  - 15|US_speednode_0097
-  - 15|US_speednode_0098
-  - 15|US_speednode_0099
-  - 15|US_speednode_0100
-  - 15|US_speednode_0101
-  - 15|US_speednode_0102
-  - 15|US_speednode_0103
-  - 15|US_speednode_0104
-  - 15|US_speednode_0105
-  - 15|US_speednode_0106
-  - 15|US_speednode_0107
-  - 15|US_speednode_0108
-  - 15|US_speednode_0109
-  - 15|US_speednode_0110
-  - 15|US_speednode_0111
-  - 15|US_speednode_0112
-  - 15|US_speednode_0113
-  - 15|US_speednode_0114
-  - 15|US_speednode_0115
-  - 15|US_speednode_0116
-  - 15|US_speednode_0117
-  - 15|US_speednode_0118
-  - 15|US_speednode_0119
-  - 15|US_speednode_0120
-  - 15|US_speednode_0121
-  - 15|US_speednode_0122
-  - 15|US_speednode_0123
-  - 15|US_speednode_0124
-  - 15|US_speednode_0125
-  - 15|US_speednode_0126
-  - 15|US_speednode_0127
-  - 15|US_speednode_0128
-  - 15|US_speednode_0129
-  - 15|US_speednode_0130
-  - 15|US_speednode_0131
-  - 15|US_speednode_0132
-  - 15|US_speednode_0133
-  - 15|US_speednode_0134
-  - 15|US_speednode_0135
-  - 15|US_speednode_0136
-  - 15|US_speednode_0137
-  - 15|US_speednode_0138
-  - 15|US_speednode_0139
-  - 15|US_speednode_0140
-  - 15|US_speednode_0141
-  - 15|US_speednode_0142
-  - 15|US_speednode_0143
-  - 15|US_speednode_0144
-  - 15|US_speednode_0145
-  - 15|US_speednode_0146
-  - 15|US_speednode_0147
-  - 15|US_speednode_0148
-  - 15|US_speednode_0149
-  - 15|US_speednode_0150
-  - 15|US_speednode_0151
-  - 15|US_speednode_0152
-  - 15|US_speednode_0153
-  - 15|US_speednode_0154
-  - 15|US_speednode_0155
-  - 15|US_speednode_0156
-  - 15|US_speednode_0157
-  - 15|US_speednode_0158
-  - 15|US_speednode_0159
-  - 15|US_speednode_0160
-  - 15|US_speednode_0161
-  - 15|US_speednode_0162
-  - 15|US_speednode_0163
-  - 15|US_speednode_0164
-  - 15|US_speednode_0165
-  - 15|US_speednode_0166
-  - 15|US_speednode_0167
-  - 15|US_speednode_0168
-  - 15|US_speednode_0169
-  - 15|US_speednode_0170
-  - 15|US_speednode_0171
-  - 15|US_speednode_0172
-  - 15|US_speednode_0173
-  - 15|US_speednode_0174
-  - 15|US_speednode_0175
-  - 15|US_speednode_0176
-  - 15|US_speednode_0177
-  - 15|US_speednode_0178
-  - 15|US_speednode_0179
-  - 15|US_speednode_0180
-  - 15|US_speednode_0181
-  - 15|US_speednode_0182
-  - 15|US_speednode_0183
-  - 15|US_speednode_0184
-  - 15|US_speednode_0185
-  - 15|US_speednode_0186
-  - 15|US_speednode_0187
-  - 15|US_speednode_0188
-  - 15|US_speednode_0189
-  - 15|US_speednode_0190
-  - 15|US_speednode_0191
-  - 15|US_speednode_0192
-  - 15|US_speednode_0193
-  - 15|US_speednode_0194
-  - 15|US_speednode_0195
-  - 15|US_speednode_0196
-  - 15|US_speednode_0197
-  - 15|US_speednode_0198
-  - 15|US_speednode_0199
+  - 9|美国2
+  - 12|🇺🇸 美国|@ripaojiedian
+  - 12|🇺🇸 美国2|@ripaojiedian
+  - 12|🇺🇸 美国3|@ripaojiedian
+  - 13|美国|@ripaojiedian
+  - 13|美国2|@ripaojiedian
+  - 13|美国3|@ripaojiedian
+  - 14|US_speednode_0075
+  - 14|US_speednode_0076
+  - 14|US_speednode_0077
+  - 14|US_speednode_0078
+  - 14|US_speednode_0079
+  - 14|US_speednode_0080
+  - 14|US_speednode_0081
+  - 14|US_speednode_0082
+  - 14|US_speednode_0083
+  - 14|US_speednode_0084
+  - 14|US_speednode_0085
+  - 14|US_speednode_0086
+  - 14|US_speednode_0087
+  - 14|US_speednode_0088
+  - 14|US_speednode_0089
+  - 14|US_speednode_0090
+  - 14|US_speednode_0091
+  - 14|US_speednode_0092
+  - 14|US_speednode_0093
+  - 14|US_speednode_0094
+  - 14|US_speednode_0095
+  - 14|US_speednode_0096
+  - 14|US_speednode_0097
+  - 14|US_speednode_0098
+  - 14|US_speednode_0099
+  - 14|US_speednode_0100
+  - 14|US_speednode_0101
+  - 14|US_speednode_0102
+  - 14|US_speednode_0103
+  - 14|US_speednode_0104
+  - 14|US_speednode_0105
+  - 14|US_speednode_0106
+  - 14|US_speednode_0107
+  - 14|US_speednode_0108
+  - 14|US_speednode_0109
+  - 14|US_speednode_0110
+  - 14|US_speednode_0111
+  - 14|US_speednode_0112
+  - 14|US_speednode_0113
+  - 14|US_speednode_0114
+  - 14|US_speednode_0115
+  - 14|US_speednode_0116
+  - 14|US_speednode_0117
+  - 14|US_speednode_0118
+  - 14|US_speednode_0119
+  - 14|US_speednode_0120
+  - 14|US_speednode_0121
+  - 14|US_speednode_0122
+  - 14|US_speednode_0123
+  - 14|US_speednode_0124
+  - 14|US_speednode_0125
+  - 14|US_speednode_0126
+  - 14|US_speednode_0127
+  - 14|US_speednode_0128
+  - 14|US_speednode_0129
+  - 14|US_speednode_0130
+  - 14|US_speednode_0131
+  - 14|US_speednode_0132
+  - 14|US_speednode_0133
+  - 14|US_speednode_0134
+  - 14|US_speednode_0135
+  - 14|US_speednode_0136
+  - 14|US_speednode_0137
+  - 14|US_speednode_0138
+  - 14|US_speednode_0139
+  - 14|US_speednode_0140
+  - 14|US_speednode_0141
+  - 14|US_speednode_0142
+  - 14|US_speednode_0143
+  - 14|US_speednode_0144
+  - 14|US_speednode_0145
+  - 14|US_speednode_0146
+  - 14|US_speednode_0147
+  - 14|US_speednode_0148
+  - 14|US_speednode_0149
+  - 14|US_speednode_0150
+  - 14|US_speednode_0151
+  - 14|US_speednode_0152
+  - 14|US_speednode_0153
+  - 14|US_speednode_0154
+  - 14|US_speednode_0155
+  - 14|US_speednode_0156
+  - 14|US_speednode_0157
+  - 14|US_speednode_0158
+  - 14|US_speednode_0159
+  - 14|US_speednode_0160
+  - 14|US_speednode_0161
+  - 14|US_speednode_0162
+  - 14|US_speednode_0163
+  - 14|US_speednode_0164
+  - 14|US_speednode_0165
+  - 14|US_speednode_0166
+  - 14|US_speednode_0167
+  - 14|US_speednode_0168
+  - 14|US_speednode_0169
+  - 14|US_speednode_0170
+  - 14|US_speednode_0171
+  - 14|US_speednode_0172
+  - 14|US_speednode_0173
+  - 14|US_speednode_0174
+  - 14|US_speednode_0175
+  - 14|US_speednode_0176
+  - 14|US_speednode_0177
+  - 14|US_speednode_0178
+  - 14|US_speednode_0179
+  - 14|US_speednode_0180
+  - 14|US_speednode_0181
+  - 14|US_speednode_0182
+  - 14|US_speednode_0183
+  - 14|US_speednode_0184
+  - 14|US_speednode_0185
+  - 14|US_speednode_0186
+  - 14|US_speednode_0187
+  - 14|US_speednode_0188
+  - 14|US_speednode_0189
+  - 14|US_speednode_0190
+  - 14|US_speednode_0191
+  - 14|US_speednode_0192
+  - 14|US_speednode_0193
+  - 14|US_speednode_0194
+  - 14|US_speednode_0195
+  - 14|US_speednode_0196
+  - 14|US_speednode_0197
+  - 14|US_speednode_0198
+  - 14|US_speednode_0199
   type: select
 - name: 🇨🇳 台湾
   proxies:
-  - 10|TW
-  - 15|TW_speednode_0072
-  - 15|TW_speednode_0073
-  - 15|TW_speednode_0074
+  - 9|TW
+  - 14|TW_speednode_0072
+  - 14|TW_speednode_0073
+  - 14|TW_speednode_0074
   type: select
 - name: 🇨🇳 中国
   proxies:
-  - 15|CN_speednode_0009
+  - 14|CN_speednode_0009
   type: select
 - name: 🇭🇰 香港
   proxies:
-  - 10| HK
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 13,14|香港3|@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
-  - 13,14,15|HK_speednode_0026
-  - 14|香港|@ripaojiedian
-  - 15|HK_speednode_0024
-  - 15|HK_speednode_0025
+  - 9| HK
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 12|🇭🇰 香港3|@ripaojiedian
+  - 12|🇭🇰 香港4|@ripaojiedian
+  - 12,14|HK_speednode_0026
+  - 13|香港|@ripaojiedian
+  - 13|香港3|@ripaojiedian
+  - 13|香港4|@ripaojiedian
+  - 13|香港5|@ripaojiedian
+  - 14|HK_speednode_0024
+  - 14|HK_speednode_0025
   type: select
 - name: 🇨🇦 加拿大
   proxies:
@@ -3353,28 +3452,31 @@ proxy-groups:
   type: select
 - name: 🇫🇷 法国
   proxies:
-  - 15|FR_speednode_0018
+  - 14|FR_speednode_0018
   type: select
 - name: 🇸🇬 新加坡
   proxies:
-  - 10|SG
-  - 13,14|新加坡|@ripaojiedian
-  - 13,14|新加坡2|@ripaojiedian
-  - 13,14|新加坡3|@ripaojiedian
-  - 15|SG_speednode_0060
-  - 15|SG_speednode_0061
-  - 15|SG_speednode_0062
-  - 15|SG_speednode_0063
-  - 15|SG_speednode_0064
-  - 15|SG_speednode_0065
-  - 15|SG_speednode_0066
-  - 15|SG_speednode_0067
-  - 15|SG_speednode_0068
-  - 15|SG_speednode_0069
+  - 9|SG
+  - 12|🇸🇬 新加坡|@ripaojiedian
+  - 12|🇸🇬 新加坡2|@ripaojiedian
+  - 12|🇸🇬 新加坡3|@ripaojiedian
+  - 13|新加坡|@ripaojiedian
+  - 13|新加坡2|@ripaojiedian
+  - 13|新加坡3|@ripaojiedian
+  - 14|SG_speednode_0060
+  - 14|SG_speednode_0061
+  - 14|SG_speednode_0062
+  - 14|SG_speednode_0063
+  - 14|SG_speednode_0064
+  - 14|SG_speednode_0065
+  - 14|SG_speednode_0066
+  - 14|SG_speednode_0067
+  - 14|SG_speednode_0068
+  - 14|SG_speednode_0069
   type: select
 - name: 🇬🇧 英国
   proxies:
-  - 15|GB_speednode_0020
+  - 14|GB_speednode_0020
   type: select
 - name: 🇰🇷 韩国
   proxies:
@@ -3382,26 +3484,26 @@ proxy-groups:
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
-  - 15|RU_speednode_0046
-  - 15|RU_speednode_0047
-  - 15|RU_speednode_0048
-  - 15|RU_speednode_0049
-  - 15|RU_speednode_0050
-  - 15|RU_speednode_0051
-  - 15|RU_speednode_0052
-  - 15|RU_speednode_0053
-  - 15|RU_speednode_0054
-  - 15|RU_speednode_0055
-  - 15|RU_speednode_0056
-  - 15|RU_speednode_0057
-  - 15|RU_speednode_0058
+  - 14|RU_speednode_0046
+  - 14|RU_speednode_0047
+  - 14|RU_speednode_0048
+  - 14|RU_speednode_0049
+  - 14|RU_speednode_0050
+  - 14|RU_speednode_0051
+  - 14|RU_speednode_0052
+  - 14|RU_speednode_0053
+  - 14|RU_speednode_0054
+  - 14|RU_speednode_0055
+  - 14|RU_speednode_0056
+  - 14|RU_speednode_0057
+  - 14|RU_speednode_0058
   type: select
 - name: 🇩🇪 德国
   proxies:
-  - 10|DE
-  - 15|DE_speednode_0010
-  - 15|DE_speednode_0011
-  - 15|DE_speednode_0012
+  - 9|DE
+  - 14|DE_speednode_0010
+  - 14|DE_speednode_0011
+  - 14|DE_speednode_0012
   type: select
 rules:
 - MATCH,DIRECT

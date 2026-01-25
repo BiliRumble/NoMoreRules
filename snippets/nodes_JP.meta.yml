@@ -1,37 +1,56 @@
 proxies:
-- name: 10|JP
+- name: 9|JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
   server: jp7.dexlos.com
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 13,14|日本|@ripaojiedian
-  network: tcp
+- name: 12|🇯🇵 日本|@ripaojiedian
   password: BxceQaOe
   port: 2762
   server: 13.114.168.40
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 13,14|日本2|@ripaojiedian
-  network: tcp
+- name: 12|🇯🇵 日本2|@ripaojiedian
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 4006
   server: 160.16.130.21
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|日本3|@ripaojiedian
-  network: tcp
+- name: 12|🇯🇵 日本3|@ripaojiedian
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 1933
   server: 160.16.105.192
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- name: 13|日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 2762
+  server: 18.176.57.17
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 13|日本2|@ripaojiedian
+  network: tcp
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 3423
+  server: 160.16.132.38
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13|日本3|@ripaojiedian
+  network: tcp
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 4006
+  server: 160.16.132.38
+  sni: www.nintendogames.net
+  type: trojan
 - client-fingerprint: chrome
-  name: 15|JP_speednode_0030
+  name: 14|JP_speednode_0030
   network: ws
   port: 34606
   server: 45.143.235.209
