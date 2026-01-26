@@ -1,4 +1,4 @@
-# Update: 2026-01-26 23:18
+# Update: 2026-01-27 02:20
 allow-lan: false
 dns:
   enable: true
@@ -72,12 +72,21 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: 10|r♡ya@V2rayBaaz◇⃟💜
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36400
+  server: 206.71.158.37
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
 - name: 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
   port: 35000
-  server: 206.71.158.41
+  server: 77.90.41.197
   skip-cert-verify: true
   sni: api.kermanshahi.org
   tls: false
@@ -838,74 +847,75 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|US_speednode_0032
-  - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-  - 14|US_speednode_0046
   - 9|TW
-  - 14|BG_speednode_0002
-  - 12,13|新加坡|@ripaojiedian
-  - 14|US_speednode_0026
-  - 14|US_speednode_0034
   - 14|US_speednode_0022
-  - 14|IR_speednode_0014
-  - 9|SG
-  - 13|日本4|@ripaojiedian
-  - 14|US_speednode_0044
-  - 14|US_speednode_0036
-  - 14|US_speednode_0045
-  - 14|SG_speednode_0020
-  - 14|GB_speednode_0013
+  - 14|FI_speednode_0011
+  - 14|US_speednode_0041
   - 14|RU_speednode_0019
-  - 12,13|香港4|@ripaojiedian
-  - 12,13|美国|@ripaojiedian
-  - 14|US_speednode_0024
-  - 14|US_speednode_0027
-  - 14|US_speednode_0033
-  - 12,13|香港3|@ripaojiedian
-  - 9|JP
-  - 14|US_speednode_0037
-  - 14|US_speednode_0025
+  - 14|US_speednode_0026
+  - 14|IR_speednode_0014
   - 9|DE
-  - 9|美国2
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 14|GB_speednode_0012
-  - 14|NL_speednode_0015
-  - 14|US_speednode_0040
-  - 14|US_speednode_0042
-  - 13|香港|@ripaojiedian
   - 14|DE_speednode_0008
-  - 14|NL_speednode_0016
-  - 12,13|日本|@ripaojiedian
-  - 14|US_speednode_0031
-  - 12,13|新加坡2|@ripaojiedian
-  - 14|US_speednode_0023
+  - 14|US_speednode_0024
+  - 14|US_speednode_0045
   - 14|US_speednode_0035
-  - 9|1
-  - 14|US_speednode_0039
-  - 14|US_speednode_0028
-  - 9| HK
-  - 14|CN_speednode_0007
+  - 14|NL_speednode_0015
+  - 14|US_speednode_0042
+  - 12,13|日本3|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 14|GB_speednode_0013
+  - 14|NN_speednode_0017
+  - 14|US_speednode_0040
   - 14|US_speednode_0047
+  - 10|r♡ya@V2rayBaaz◇⃟💜
+  - 14|US_speednode_0030
+  - 9|SG
   - 12,13|新加坡3|@ripaojiedian
   - 14|US_speednode_0038
-  - 12,13|日本2|@ripaojiedian
-  - 12|tg频道:@ripaojiedian
-  - 14|US_speednode_0021
-  - 14|US_speednode_0029
-  - 14|US_speednode_0043
-  - 12,13|美国2|@ripaojiedian
-  - 14|AT_speednode_0001
-  - 12,13|日本3|@ripaojiedian
-  - 14|FI_speednode_0011
+  - 12,13|香港4|@ripaojiedian
+  - 14|US_speednode_0039
   - 10|28YB5qK!5t#U&insecure=1&sni=na...
-  - 14|US_speednode_0030
-  - 12,13|香港5|@ripaojiedian
-  - 14|US_speednode_0041
-  - 12,13|美国3|@ripaojiedian
-  - '10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1'
-  - 14|NN_speednode_0017
-  - 12|🇯🇵 日本4|@ripaojiedian
+  - 12,13|日本|@ripaojiedian
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|AT_speednode_0001
+  - 14|BG_speednode_0002
+  - 9|JP
   - 14|DE_speednode_0010
+  - 14|SG_speednode_0020
+  - 14|US_speednode_0043
+  - 14|US_speednode_0046
+  - 14|CN_speednode_0007
+  - 12,13|香港3|@ripaojiedian
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 12|🇯🇵 日本4|@ripaojiedian
+  - 14|US_speednode_0031
+  - 12,13|香港5|@ripaojiedian
+  - 14|GB_speednode_0012
+  - 9| HK
+  - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
+  - 12|tg频道:@ripaojiedian
+  - 12,13|美国|@ripaojiedian
+  - 14|US_speednode_0021
+  - 13|香港|@ripaojiedian
+  - 12,13|日本2|@ripaojiedian
+  - 14|US_speednode_0027
+  - 14|US_speednode_0028
+  - 14|US_speednode_0032
+  - 14|US_speednode_0037
+  - 13|日本4|@ripaojiedian
+  - '10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1'
+  - 12,13|美国2|@ripaojiedian
+  - 14|US_speednode_0023
+  - 9|1
+  - 14|US_speednode_0036
+  - 14|US_speednode_0025
+  - 12,13|新加坡|@ripaojiedian
+  - 14|NL_speednode_0016
+  - 14|US_speednode_0029
+  - 14|US_speednode_0034
+  - 14|US_speednode_0033
+  - 9|美国2
+  - 14|US_speednode_0044
   type: fallback
   url: https://www.google.com/
 - interval: 300
