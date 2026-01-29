@@ -1,4 +1,4 @@
-# Update: 2026-01-29 23:25
+# Update: 2026-01-30 02:30
 allow-lan: false
 dns:
   enable: true
@@ -18,23 +18,7 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 10|r♡ya@V2rayBaaz◇⃟💜
-  password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-  port: 1743
-  server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk
-  skip-cert-verify: true
-  sni: c37b0be5-t3kyo0-t3lvgh-2gok.la.shifen.uk
-  tls: false
-  type: hysteria2
-- name: '10|r♡ya@V2rayBaaz◇⃟💜 #1'
-  password: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0
-  port: 47974
-  server: 75.127.13.83
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 10|2
+- name: 10|美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: mg2.mangshe.xyz
@@ -57,34 +41,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 10,11|@Magsin_Vpn 😍
-  password: 9c23940e-efd8-4763-bfb5-54739b50893d
-  port: 8443
-  server: 172.233.97.125
-  skip-cert-verify: true
-  sni: hy8.hy2yydsapi.top
-  tls: false
-  type: hysteria2
-- name: '10|r♡ya@V2rayBaaz◇⃟💜 #3'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 35000
-  server: 206.71.158.37
-  skip-cert-verify: true
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: '10|r♡ya@V2rayBaaz◇⃟💜 #4'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36400
-  server: 206.71.158.37
-  skip-cert-verify: true
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
 - name: 10|DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -98,16 +54,6 @@ proxies:
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '10|r♡ya@V2rayBaaz◇⃟💜 #5'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 206.71.158.40
-  skip-cert-verify: true
-  sni: api.kermanshahi.org
   tls: false
   type: hysteria2
 - name: 10|SG
@@ -124,6 +70,14 @@ proxies:
   server: tw.oomz.ru
   skip-cert-verify: true
   sni: bing.com
+  tls: false
+  type: hysteria2
+- name: 11|@Magsin_Vpn 😍
+  password: 9c23940e-efd8-4763-bfb5-54739b50893d
+  port: 8443
+  server: 172.233.97.125
+  skip-cert-verify: true
+  sni: hy8.hy2yydsapi.top
   tls: false
   type: hysteria2
 - name: 11|telegram  𝗮
@@ -844,78 +798,73 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13,14|香港5|@ripaojiedian
-  - 15|US_speednode_0019
-  - '10|r♡ya@V2rayBaaz◇⃟💜 #3'
-  - 15|US_speednode_0031
-  - 15|US_speednode_0041
-  - 15|US_speednode_0028
-  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-  - 13,14|日本|@ripaojiedian
-  - 15|US_speednode_0017
-  - 15|NL_speednode_0013
-  - 15|MD_speednode_0011
-  - 15|TW_speednode_0016
-  - 13,14|香港3|@ripaojiedian
-  - 15|US_speednode_0026
-  - 15|US_speednode_0037
-  - 10|r♡ya@V2rayBaaz◇⃟💜
-  - '10|r♡ya@V2rayBaaz◇⃟💜 #4'
-  - 14|香港|@ripaojiedian
-  - 15|US_speednode_0018
-  - 10| HK
-  - 13,14|美国3|@ripaojiedian
-  - 15|US_speednode_0025
-  - 13,14|日本3|@ripaojiedian
-  - 15|US_speednode_0021
-  - 13|🇬🇧 英国|@ripaojiedian
-  - 15|US_speednode_0030
-  - 15|US_speednode_0034
-  - 13,14|新加坡2|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
-  - 15|US_speednode_0033
-  - 15|TW_speednode_0015
-  - 10|TW
-  - 15|ID_speednode_0008
   - 15|US_speednode_0035
-  - 15|US_speednode_0042
-  - 15|US_speednode_0038
-  - 15|US_speednode_0039
-  - 13,14|新加坡3|@ripaojiedian
-  - 10|2
-  - 15|KR_speednode_0010
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 15|GR_speednode_0005
+  - 13,14|美国|@ripaojiedian
+  - 13,14|香港3|@ripaojiedian
   - 10|DE
-  - 13,14|日本2|@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 15|US_speednode_0036
-  - 15|GR_speednode_0006
-  - 11|All | @AZARBAYJAB1
-  - 15|CH_speednode_0001
-  - 15|US_speednode_0032
-  - 10|JP
-  - 15|US_speednode_0024
-  - 10,11|@Magsin_Vpn 😍
-  - 15|US_speednode_0022
-  - 13,14|美国2|@ripaojiedian
-  - 15|NL_speednode_0012
-  - 15|US_speednode_0029
-  - 15|HK_speednode_0007
-  - 11|telegram  𝗮
-  - 10|SG
-  - 15|US_speednode_0023
-  - '10|r♡ya@V2rayBaaz◇⃟💜 #5'
-  - 13|tg频道:@ripaojiedian
-  - 15|IT_speednode_0009
-  - 15|US_speednode_0020
-  - 15|US_speednode_0040
-  - '10|r♡ya@V2rayBaaz◇⃟💜 #1'
-  - 15|US_speednode_0027
-  - 10|1
+  - 15|MD_speednode_0011
   - 15|GB_speednode_0003
-  - 13,14|香港4|@ripaojiedian
+  - 15|US_speednode_0018
+  - 15|US_speednode_0027
+  - 11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
+  - 13,14|香港5|@ripaojiedian
+  - 15|US_speednode_0034
+  - 15|TW_speednode_0016
+  - 15|US_speednode_0042
+  - 15|US_speednode_0021
+  - 10|1
+  - 15|US_speednode_0038
+  - 11|telegram  𝗮
+  - 13,14|新加坡|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
   - 15|GR_speednode_0004
+  - 13,14|美国2|@ripaojiedian
+  - 14|香港|@ripaojiedian
+  - 15|TW_speednode_0015
+  - 15|US_speednode_0029
+  - 10|TW
+  - 13,14|美国3|@ripaojiedian
+  - 15|CH_speednode_0001
+  - 15|US_speednode_0020
+  - 15|US_speednode_0041
+  - 15|HK_speednode_0007
+  - 15|US_speednode_0036
+  - 13,14|日本|@ripaojiedian
+  - 13|tg频道:@ripaojiedian
+  - 11|All | @AZARBAYJAB1
+  - 13,14|新加坡2|@ripaojiedian
+  - 15|US_speednode_0024
+  - 15|US_speednode_0032
+  - 10|美国2
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 15|US_speednode_0028
+  - 13,14|香港4|@ripaojiedian
+  - 15|GR_speednode_0005
+  - 15|NL_speednode_0012
+  - 15|NL_speednode_0013
+  - 15|US_speednode_0039
+  - 15|US_speednode_0040
+  - 15|ID_speednode_0008
+  - 15|US_speednode_0030
+  - 13|🇬🇧 英国|@ripaojiedian
+  - 15|US_speednode_0022
+  - 10| HK
+  - 15|US_speednode_0033
+  - 13,14|日本2|@ripaojiedian
+  - 11|@Magsin_Vpn 😍
+  - 15|GR_speednode_0006
+  - 15|IT_speednode_0009
+  - 15|US_speednode_0019
+  - 15|KR_speednode_0010
+  - 15|US_speednode_0023
+  - 15|US_speednode_0025
+  - 15|US_speednode_0031
+  - 15|US_speednode_0026
+  - 15|US_speednode_0017
+  - 10|SG
+  - 10|JP
+  - 13,14|日本3|@ripaojiedian
+  - 15|US_speednode_0037
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -978,6 +927,7 @@ proxy-groups:
   type: select
 - name: 🇺🇸 美国
   proxies:
+  - 10|美国2
   - 13,14|美国|@ripaojiedian
   - 13,14|美国2|@ripaojiedian
   - 13,14|美国3|@ripaojiedian
