@@ -1,4 +1,4 @@
-# Update: 2026-02-01 23:14
+# Update: 2026-02-02 02:19
 allow-lan: false
 dns:
   enable: true
@@ -164,21 +164,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
-- name: 15|CN_speednode_0003
-  password: 685343f2-49e1-41f8-a7fc-5d0993afb6c6
-  port: 43533
-  server: faq1.lieerr222.cn
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 15|CN_speednode_0004
-  password: 685343f2-49e1-41f8-a7fc-5d0993afb6c6
-  port: 43533
-  server: faq1.lieerr222.cn
-  skip-cert-verify: true
-  sni: faq1.lieerr222.cn
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -190,26 +175,24 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13,14|香港3|@ripaojiedian
-  - 13,14|日本3|@ripaojiedian
-  - 13,14|新加坡2|@ripaojiedian
-  - 13|🇻🇳 越南|@ripaojiedian
-  - 15|CN_speednode_0003
-  - 13,14|香港5|@ripaojiedian
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
-  - 13|🇰🇷 韩国|@ripaojiedian
+  - 13|tg频道:@ripaojiedian
+  - 14|越南|@ripaojiedian
   - 13,14|日本2|@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
-  - 13,14|日本|@ripaojiedian
-  - 14|香港|@ripaojiedian
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 13,14|香港5|@ripaojiedian
   - 13,14|美国2|@ripaojiedian
   - 13,14|新加坡3|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
-  - 15|CN_speednode_0004
-  - 13,14|新加坡|@ripaojiedian
+  - 13,14|美国|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
   - 13,14|美国3|@ripaojiedian
-  - 14|越南|@ripaojiedian
+  - 13,14|新加坡2|@ripaojiedian
+  - 13,14|日本|@ripaojiedian
+  - 13|🇰🇷 韩国|@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
+  - 13|🇻🇳 越南|@ripaojiedian
+  - 13,14|香港3|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 14|香港|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
