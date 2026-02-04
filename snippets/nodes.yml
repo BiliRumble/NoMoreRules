@@ -22,38 +22,43 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13|🇭🇰 香港4|@ripaojiedian
+- name: 13,14|香港4|@ripaojiedian
+  network: tcp
   password: BxceQaOe
   port: 2266
-  server: 54.46.5.155
+  server: 18.177.138.102
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 13|🇭🇰 香港5|@ripaojiedian
+- name: 13,14|香港5|@ripaojiedian
+  network: tcp
   password: BxceQaOe
-  port: 2266
-  server: 57.181.26.149
+  port: 443
+  server: 58.152.30.222
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 13|🇯🇵 日本|@ripaojiedian
+- name: 13,14|日本|@ripaojiedian
+  network: tcp
   password: BxceQaOe
   port: 20539
-  server: 57.181.26.149
+  server: 43.206.238.87
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 13|🇯🇵 日本2|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
+  network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 443
-  server: 157.120.36.210
+  server: 116.80.60.36
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13|🇯🇵 日本3|@ripaojiedian
+- name: 13,14|新加坡|@ripaojiedian
+  network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 443
-  server: 116.80.76.130
+  port: 390
+  server: 160.16.87.174
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -65,26 +70,13 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13|🇸🇬 新加坡2|@ripaojiedian
-  password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 443
-  server: 178.128.114.70
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 13|🇸🇬 新加坡3|@ripaojiedian
+- name: 13,14|新加坡3|@ripaojiedian
+  network: tcp
   password: BxceQaOe
-  port: 1196
-  server: 57.181.26.149
+  port: 3579
+  server: 18.182.62.89
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 13|🇺🇸 美国|@ripaojiedian
-  password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 443
-  server: 38.180.137.196
-  skip-cert-verify: false
-  sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
@@ -94,19 +86,29 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13|🇺🇸 美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
+  network: tcp
   password: BxceQaOe
   port: 1221
-  server: 3.112.197.3
+  server: 18.182.62.89
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: 13|🇰🇷 韩国|@ripaojiedian
-  password: qwerREWQ@@
-  port: 16449
-  server: 218.50.149.114
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 13,14|香港2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 609a8c34-t9w4g0-thiwul-1gcq2.hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 759bf004-6137-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 2
   cipher: auto
   name: 14|香港|@ripaojiedian
@@ -117,74 +119,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 14|香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 2266
-  server: 18.177.138.102
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 14|香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.222
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 14|日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 20539
-  server: 43.206.238.87
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 14|日本3|@ripaojiedian
-  network: tcp
-  password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 443
-  server: 116.80.60.36
-  sni: www.nintendogames.net
-  type: trojan
-- name: 14|新加坡|@ripaojiedian
-  network: tcp
-  password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 390
-  server: 160.16.87.174
-  sni: www.nintendogames.net
-  type: trojan
-- name: 14|新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 3579
-  server: 18.182.62.89
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 14|美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 1221
-  server: 18.182.62.89
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: 14|香港2|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 609a8c34-t9w4g0-thiwul-1gcq2.hkt.gotochinatown.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 759bf004-6137-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - name: 15|IN_speednode_0022
   password: M7v%w11Se*
   port: 443
