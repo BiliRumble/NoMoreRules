@@ -1,4 +1,4 @@
-# Update: 2026-02-05 14:43
+# Update: 2026-02-05 17:33
 allow-lan: false
 dns:
   enable: true
@@ -72,7 +72,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 11|@V2rayNG3
+- name: 11|All_7--@V2rayAlpha
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -625,62 +625,62 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13,14|新加坡2|@ripaojiedian
-  - '11|@SimChin_iR  '
-  - 13,14|美国2|@ripaojiedian
-  - 10|1
-  - 15|RU_speednode_0026
-  - 14|香港|@ripaojiedian
-  - 15|RU_speednode_0027
-  - 15|RU_speednode_0033
-  - 15|US_speednode_0041
-  - 11|@V2rayNG3
-  - 15|CH_speednode_0001
-  - '11|@V2rayNG3 #3'
-  - 15|DK_speednode_0011
-  - 15|IN_speednode_0022
-  - 10|DE
-  - 13,14|新加坡3|@ripaojiedian
   - 15|GB_speednode_0015
-  - 15|GB_speednode_0017
-  - 10|美国2
-  - 15|US_speednode_0036
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 15|RU_speednode_0032
   - 15|RU_speednode_0034
-  - 13,14|日本2|@ripaojiedian
-  - 13,14|日本3|@ripaojiedian
-  - '11|@meliproxyy #1'
-  - 10|JP
-  - 15|RU_speednode_0028
-  - '11|@V2rayNG3 #1'
-  - 13,14|新加坡|@ripaojiedian
-  - 15|US_speednode_0039
-  - 15|FR_speednode_0012
-  - 13,14|香港5|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
-  - 15|SG_speednode_0035
-  - 15|GB_speednode_0014
   - 15|NL_speednode_0025
-  - 15|DE_speednode_0010
-  - 13,14|香港4|@ripaojiedian
-  - 15|GB_speednode_0016
-  - 13,14|日本|@ripaojiedian
-  - 15|US_speednode_0040
-  - 11|All | @AZARBAYJAB1
-  - 15|US_speednode_0038
-  - 15|GB_speednode_0018
-  - 13,14|香港3|@ripaojiedian
-  - 15|RU_speednode_0029
-  - 10|TW
+  - 15|RU_speednode_0030
+  - 10|DE
+  - 13,14|香港5|@ripaojiedian
+  - 15|CH_speednode_0001
   - 13|tg频道:@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 15|US_speednode_0041
+  - 13,14|日本|@ripaojiedian
+  - 15|DE_speednode_0010
+  - '11|@V2rayNG3 #1'
+  - 10| HK
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 14|香港|@ripaojiedian
+  - '11|@SimChin_iR  '
+  - 11|All_7--@V2rayAlpha
+  - 13,14|美国|@ripaojiedian
+  - 15|US_speednode_0040
+  - 15|FR_speednode_0012
+  - 15|GB_speednode_0016
+  - 15|US_speednode_0039
+  - 15|US_speednode_0036
+  - 10|美国2
+  - 15|DK_speednode_0011
   - 15|DE_speednode_0009
+  - 13,14|日本3|@ripaojiedian
+  - 15|US_speednode_0038
   - 15|US_speednode_0042
   - 10|SG
-  - 15|RU_speednode_0031
-  - 10| HK
-  - 15|RU_speednode_0030
+  - 15|RU_speednode_0027
   - 13,14|美国3|@ripaojiedian
+  - '11|@V2rayNG3 #3'
+  - 15|IN_speednode_0022
+  - 10|JP
+  - 15|SG_speednode_0035
+  - 10|TW
+  - 15|GB_speednode_0014
+  - 15|RU_speednode_0031
+  - 10|1
+  - 13,14|新加坡2|@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
+  - 15|RU_speednode_0033
+  - 13,14|新加坡3|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
+  - 15|GB_speednode_0018
+  - 13,14|香港4|@ripaojiedian
+  - 15|RU_speednode_0026
+  - 11|All | @AZARBAYJAB1
+  - 15|RU_speednode_0028
+  - 15|RU_speednode_0032
+  - 15|RU_speednode_0029
+  - '11|@meliproxyy #1'
+  - 15|GB_speednode_0017
+  - 13,14|香港3|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
