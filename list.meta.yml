@@ -1,4 +1,4 @@
-# Update: 2026-02-11 05:33
+# Update: 2026-02-11 09:18
 allow-lan: false
 dns:
   enable: true
@@ -160,40 +160,40 @@ proxies:
 - name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 3373
-  server: 43.207.166.42
+  port: 4486
+  server: 35.77.81.137
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 443
-  server: 203.198.123.162
+  port: 2826
+  server: 18.183.242.254
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 443
-  server: 58.152.18.130
+  port: 38301
+  server: 13.114.141.67
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2762
-  server: 13.115.255.135
+  port: 3760
+  server: 18.183.242.254
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 1933
-  server: 43.207.149.110
+  port: 3423
+  server: 160.16.150.76
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -201,7 +201,7 @@ proxies:
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 1933
-  server: 160.16.72.33
+  server: 54.199.40.252
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -209,47 +209,47 @@ proxies:
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 3901
-  server: 160.16.106.99
+  server: 160.16.72.205
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 544
-  server: 160.16.124.17
+  port: 3901
+  server: 160.16.150.76
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1691
-  server: 54.150.247.142
+  port: 1196
+  server: 18.183.242.254
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 276
-  server: 160.16.72.205
+  port: 443
+  server: 38.180.193.227
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 276
-  server: 43.207.149.110
+  port: 443
+  server: 38.180.193.206
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3159
-  server: 18.163.2.13
+  port: 2569
+  server: 18.183.242.254
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -798,78 +798,78 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 15|IR_speednode_0021
-  - 10|TW
-  - 10|SG
-  - 15|RU_speednode_0027
-  - 13,14|香港5|@ripaojiedian
-  - 15|DE_speednode_0015
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 15|US_speednode_0043
+  - 15|RU_speednode_0029
+  - '11|@V2rayNG3 #3'
+  - 15|SE_speednode_0035
+  - 15|RU_speednode_0034
+  - 15|SG_speednode_0037
+  - 15|IN_speednode_0020
+  - 15|NL_speednode_0025
+  - 15|US_speednode_0044
+  - 10|JP
+  - 15|DE_speednode_0014
+  - '11|@V2rayNG3 #1'
+  - 10| HK
   - 13,14|美国2|@ripaojiedian
+  - 15|US_speednode_0058
+  - 13|tg频道:@ripaojiedian
+  - 13,14|美国|@ripaojiedian
+  - 15|FR_speednode_0018
+  - 15|US_speednode_0053
+  - 15|AU_speednode_0001
+  - 15|SE_speednode_0036
+  - 15|CN_speednode_0008
+  - 15|IR_speednode_0021
+  - 15|CN_speednode_0010
+  - 15|DE_speednode_0015
+  - 15|US_speednode_0050
+  - 13,14|美国3|@ripaojiedian
+  - 13,14|香港3|@ripaojiedian
+  - 15|US_speednode_0054
+  - 15|FR_speednode_0017
+  - 10|SG
+  - 13,14|日本|@ripaojiedian
+  - 15|US_speednode_0055
+  - 10|32@oneclickvpnkeys
   - 15|RU_speednode_0028
   - 15|RU_speednode_0032
-  - 13,14|美国|@ripaojiedian
-  - 15|DE_speednode_0016
-  - 13,14|新加坡|@ripaojiedian
-  - 15|DE_speednode_0014
-  - 15|US_speednode_0055
-  - 10|美国2
-  - 15|CN_speednode_0009
-  - 15|FR_speednode_0017
-  - 15|US_speednode_0054
-  - 15|US_speednode_0058
-  - 13,14|香港4|@ripaojiedian
-  - 15|SE_speednode_0036
-  - 15|US_speednode_0044
-  - 11|IR-@V2rayAlpha--5
-  - 15|FR_speednode_0018
-  - 15|US_speednode_0052
-  - 15|US_speednode_0046
-  - 15|US_speednode_0057
   - 15|CN_speednode_0006
-  - 10|DE
-  - 13,14|日本|@ripaojiedian
-  - 15|RU_speednode_0033
-  - 15|US_speednode_0045
-  - 15|US_speednode_0049
-  - 11|@meliproxyy
-  - '11|@V2rayNG3 #1'
-  - 13,14|日本2|@ripaojiedian
-  - 15|US_speednode_0050
-  - 15|ID_speednode_0019
-  - 15|NL_speednode_0025
-  - 11|All_7--@V2rayAlpha
-  - 15|RU_speednode_0031
   - 15|US_speednode_0056
-  - 15|US_speednode_0051
   - 13,14|日本3|@ripaojiedian
-  - 15|RU_speednode_0029
-  - 13,14|美国3|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
-  - 15|CN_speednode_0011
+  - 15|US_speednode_0045
+  - 10|TW
+  - 15|CN_speednode_0009
+  - 15|US_speednode_0051
+  - 11|@meliproxyy
   - '11|@V2rayNG3 #2'
-  - 15|CN_speednode_0010
-  - 15|RU_speednode_0026
-  - 15|IN_speednode_0020
-  - 15|SE_speednode_0035
-  - 15|US_speednode_0043
-  - 15|US_speednode_0048
   - 13,14|新加坡3|@ripaojiedian
-  - 15|SG_speednode_0037
-  - 10| HK
-  - 11|Telegram:@config_proxy 💦
-  - 15|RU_speednode_0034
-  - 13,14|新加坡2|@ripaojiedian
-  - 13,14|香港3|@ripaojiedian
-  - 14|香港|@ripaojiedian
-  - 15|AU_speednode_0001
-  - '11|@V2rayNG3 #3'
-  - 15|US_speednode_0053
+  - 15|US_speednode_0048
+  - 15|US_speednode_0049
+  - 15|ID_speednode_0019
+  - 13,14|日本2|@ripaojiedian
+  - 15|RU_speednode_0033
   - 15|US_speednode_0047
-  - 15|CN_speednode_0008
-  - 10|32@oneclickvpnkeys
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 10|JP
+  - 15|US_speednode_0052
+  - 15|RU_speednode_0026
   - 15|RU_speednode_0030
+  - 15|DE_speednode_0016
+  - 15|RU_speednode_0031
+  - 15|RU_speednode_0027
+  - 11|IR-@V2rayAlpha--5
+  - 13,14|新加坡|@ripaojiedian
+  - 10|美国2
+  - 10|DE
+  - 11|Telegram:@config_proxy 💦
+  - 13,14|香港5|@ripaojiedian
+  - 11|All_7--@V2rayAlpha
+  - 15|US_speednode_0046
+  - 15|CN_speednode_0011
+  - 13,14|新加坡2|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 15|US_speednode_0057
+  - 14|香港|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
