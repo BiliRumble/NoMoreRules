@@ -1,4 +1,4 @@
-# Update: 2026-02-11 09:18
+# Update: 2026-02-11 12:55
 allow-lan: false
 dns:
   enable: true
@@ -74,14 +74,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 11|Telegram:@config_proxy 💦
-  password: 0db758b4-e2ea-4716-bc9f-089bf6a1a30b
-  port: 50017
-  server: zz.9966663.xyz
-  skip-cert-verify: true
-  sni: do-vnyear.9966663.xyz
-  tls: false
-  type: hysteria2
 - name: 11|All_7--@V2rayAlpha
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -122,7 +114,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: 11|@meliproxyy
+- name: 11|@icv2ray
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -799,77 +791,76 @@ proxy-groups:
   name: ♻ 自动选择
   proxies: &id001
   - 13|🇭🇰 香港|@ripaojiedian
-  - 15|US_speednode_0043
-  - 15|RU_speednode_0029
-  - '11|@V2rayNG3 #3'
-  - 15|SE_speednode_0035
-  - 15|RU_speednode_0034
-  - 15|SG_speednode_0037
-  - 15|IN_speednode_0020
-  - 15|NL_speednode_0025
-  - 15|US_speednode_0044
-  - 10|JP
-  - 15|DE_speednode_0014
-  - '11|@V2rayNG3 #1'
-  - 10| HK
-  - 13,14|美国2|@ripaojiedian
-  - 15|US_speednode_0058
-  - 13|tg频道:@ripaojiedian
-  - 13,14|美国|@ripaojiedian
-  - 15|FR_speednode_0018
-  - 15|US_speednode_0053
-  - 15|AU_speednode_0001
-  - 15|SE_speednode_0036
-  - 15|CN_speednode_0008
-  - 15|IR_speednode_0021
-  - 15|CN_speednode_0010
-  - 15|DE_speednode_0015
-  - 15|US_speednode_0050
-  - 13,14|美国3|@ripaojiedian
-  - 13,14|香港3|@ripaojiedian
-  - 15|US_speednode_0054
-  - 15|FR_speednode_0017
-  - 10|SG
-  - 13,14|日本|@ripaojiedian
-  - 15|US_speednode_0055
-  - 10|32@oneclickvpnkeys
-  - 15|RU_speednode_0028
-  - 15|RU_speednode_0032
-  - 15|CN_speednode_0006
-  - 15|US_speednode_0056
-  - 13,14|日本3|@ripaojiedian
-  - 15|US_speednode_0045
-  - 10|TW
-  - 15|CN_speednode_0009
-  - 15|US_speednode_0051
-  - 11|@meliproxyy
-  - '11|@V2rayNG3 #2'
   - 13,14|新加坡3|@ripaojiedian
-  - 15|US_speednode_0048
-  - 15|US_speednode_0049
-  - 15|ID_speednode_0019
-  - 13,14|日本2|@ripaojiedian
-  - 15|RU_speednode_0033
-  - 15|US_speednode_0047
-  - 15|US_speednode_0052
+  - 15|NL_speednode_0025
+  - 15|SG_speednode_0037
   - 15|RU_speednode_0026
-  - 15|RU_speednode_0030
-  - 15|DE_speednode_0016
-  - 15|RU_speednode_0031
-  - 15|RU_speednode_0027
-  - 11|IR-@V2rayAlpha--5
-  - 13,14|新加坡|@ripaojiedian
-  - 10|美国2
-  - 10|DE
-  - 11|Telegram:@config_proxy 💦
+  - 15|RU_speednode_0028
+  - 13,14|新加坡2|@ripaojiedian
   - 13,14|香港5|@ripaojiedian
+  - 15|US_speednode_0043
+  - 10|DE
+  - 15|US_speednode_0047
   - 11|All_7--@V2rayAlpha
+  - 15|US_speednode_0049
+  - 13,14|日本2|@ripaojiedian
+  - 15|US_speednode_0056
+  - 15|RU_speednode_0030
+  - 15|SE_speednode_0035
+  - 13|tg频道:@ripaojiedian
+  - 15|US_speednode_0050
+  - 13,14|香港3|@ripaojiedian
+  - 15|ID_speednode_0019
+  - 14|香港|@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
+  - 15|DE_speednode_0014
+  - 15|DE_speednode_0016
+  - 15|CN_speednode_0008
+  - 15|US_speednode_0053
+  - 15|RU_speednode_0032
+  - 15|DE_speednode_0015
+  - 15|US_speednode_0045
+  - 15|RU_speednode_0027
+  - 15|US_speednode_0057
   - 15|US_speednode_0046
   - 15|CN_speednode_0011
-  - 13,14|新加坡2|@ripaojiedian
+  - 10|JP
+  - 15|FR_speednode_0017
   - 13,14|香港4|@ripaojiedian
-  - 15|US_speednode_0057
-  - 14|香港|@ripaojiedian
+  - '11|@V2rayNG3 #3'
+  - 10|SG
+  - '11|@V2rayNG3 #2'
+  - 15|CN_speednode_0006
+  - 10|TW
+  - 15|US_speednode_0044
+  - 15|US_speednode_0058
+  - 15|RU_speednode_0031
+  - 15|RU_speednode_0033
+  - 15|CN_speednode_0009
+  - 15|RU_speednode_0029
+  - 11|IR-@V2rayAlpha--5
+  - 15|US_speednode_0051
+  - '11|@V2rayNG3 #1'
+  - 15|SE_speednode_0036
+  - 15|CN_speednode_0010
+  - 10| HK
+  - 13,14|美国3|@ripaojiedian
+  - 15|US_speednode_0052
+  - 15|US_speednode_0048
+  - 15|US_speednode_0055
+  - 10|美国2
+  - 15|IN_speednode_0020
+  - 13,14|新加坡|@ripaojiedian
+  - 13,14|美国|@ripaojiedian
+  - 11|@icv2ray
+  - 13,14|美国2|@ripaojiedian
+  - 15|FR_speednode_0018
+  - 15|IR_speednode_0021
+  - 15|RU_speednode_0034
+  - 15|US_speednode_0054
+  - 10|32@oneclickvpnkeys
+  - 13,14|日本|@ripaojiedian
+  - 15|AU_speednode_0001
   type: fallback
   url: https://www.google.com/
 - interval: 300
