@@ -1,4 +1,4 @@
-# Update: 2026-02-13 14:45
+# Update: 2026-02-13 17:32
 allow-lan: false
 dns:
   enable: true
@@ -57,7 +57,17 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 10|💫62@oneclickvpnkeys
+- name: 10|24@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36400
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: 10|62@oneclickvpnkeys
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -128,7 +138,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 11|@V2rayNG3
+- name: '11|@V2rayNG3 #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -138,7 +148,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '11|@V2rayNG3 #1'
+- name: '11|@V2rayNG3 #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -148,7 +158,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '11|@V2rayNG3 #2'
+- name: '11|@V2rayNG3 #3'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -452,50 +462,51 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 10| HK
-  - 13,14|新加坡2|@ripaojiedian
-  - 10|1
-  - 13,14|香港4|@ripaojiedian
   - 13,14|美国3|@ripaojiedian
-  - 13,14|日本3|@ripaojiedian
-  - 11|@V2rayNG3
-  - 13,14|香港3|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
-  - 15|US_speednode_0015
-  - 10|💫62@oneclickvpnkeys
-  - 15|RU_speednode_0009
-  - 15|RU_speednode_0011
-  - '11|@V2rayNG3 #2'
-  - 15|IN_speednode_0003
-  - 10|💫8@oneclickvpnkeys
-  - 10|2
-  - '11|@V2rayNG3 #1'
+  - 10|JP
   - 13,14|新加坡|@ripaojiedian
-  - 10|SG
-  - 13,14|美国2|@ripaojiedian
-  - 13,14|日本2|@ripaojiedian
-  - 10|TW
-  - 15|KR_speednode_0005
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 15|RU_speednode_0007
-  - 15|DE_speednode_0001
-  - 13|tg频道:@ripaojiedian
+  - 13,14|美国|@ripaojiedian
+  - '11|@V2rayNG3 #2'
   - 11|All_7--@V2rayAlpha
-  - 15|RU_speednode_0008
+  - 10|SG
+  - 10|62@oneclickvpnkeys
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 15|RU_speednode_0011
+  - 15|JP_speednode_0004
+  - 13|tg频道:@ripaojiedian
+  - 10|1
+  - 15|US_speednode_0014
+  - 15|KR_speednode_0005
+  - 10,11|@icv2ray
+  - 15|RU_speednode_0010
   - 15|HK_speednode_0002
+  - 13,14|美国2|@ripaojiedian
+  - 15|RU_speednode_0008
+  - 13,14|香港3|@ripaojiedian
+  - 14|香港|@ripaojiedian
+  - 10| HK
+  - 10|TW
+  - 15|IN_speednode_0003
+  - 15|US_speednode_0015
+  - 10|2
+  - 10|💫15@oneclickvpnkeys
+  - '11|@V2rayNG3 #3'
+  - 10|💫8@oneclickvpnkeys
+  - 15|RU_speednode_0009
   - 15|US_speednode_0013
   - 13,14|日本|@ripaojiedian
   - 10|DE
-  - 14|香港|@ripaojiedian
+  - 15|DE_speednode_0001
+  - 13,14|香港4|@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
   - 10,11|IR-@V2rayAlpha--5
-  - 10|💫15@oneclickvpnkeys
-  - 10,11|@icv2ray
   - 13,14|新加坡3|@ripaojiedian
-  - 15|RU_speednode_0010
   - 13,14|香港5|@ripaojiedian
-  - 15|JP_speednode_0004
-  - 15|US_speednode_0014
-  - 10|JP
+  - 10|24@oneclickvpnkeys
+  - 13,14|新加坡2|@ripaojiedian
+  - 15|RU_speednode_0007
+  - '11|@V2rayNG3 #1'
+  - 13,14|日本2|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
