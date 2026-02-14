@@ -1,4 +1,4 @@
-# Update: 2026-02-14 17:20
+# Update: 2026-02-14 20:24
 allow-lan: false
 dns:
   enable: true
@@ -26,7 +26,15 @@ proxies:
   sni: mlxy1.xiaoliyu.us
   tls: false
   type: hysteria2
-- name: 10,11|@vpnbaz
+- name: '10,11|سرور های پرسرعت بیشتر در چنل🌋@... #1'
+  password: 04c2a097-5ed8-49b6-9860-cb4667583745
+  port: 2056
+  server: mlxy2.xiaoliyu.us
+  skip-cert-verify: true
+  sni: mlxy2.xiaoliyu.us
+  tls: false
+  type: hysteria2
+- name: '10|@Trick_mobil #2'
   password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
   port: 1743
   server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk
@@ -34,7 +42,7 @@ proxies:
   sni: ''
   tls: false
   type: hysteria2
-- name: 10|84@oneclickvpnkeys
+- name: 10,11|⚡Telegram = @SOSkeyNET
   password: 41aec03d-4345-4bff-9bab-69d36d80033c
   port: 2056
   server: ru.eyucdn.xyz
@@ -114,12 +122,28 @@ proxies:
   sni: dash.cloudflare.com
   tls: false
   type: hysteria2
-- name: '11|سرور های پرسرعت بیشتر در چنل🌋@... #1'
-  password: 04c2a097-5ed8-49b6-9860-cb4667583745
+- name: 11|Telegram = @SOSkeyNET
+  password: 41aec03d-4345-4bff-9bab-69d36d80033c
   port: 2056
-  server: mlxy2.xiaoliyu.us
+  server: 94.103.3.40
   skip-cert-verify: true
-  sni: mlxy2.xiaoliyu.us
+  sni: ru.eyucdn.xyz
+  tls: false
+  type: hysteria2
+- name: '11|⚡Telegram = @SOSkeyNET #1'
+  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  port: 2056
+  server: flkf2.mangshe.xyz
+  skip-cert-verify: true
+  sni: flkf2.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: '11|⚡Telegram = @SOSkeyNET #2'
+  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  port: 2056
+  server: mg5.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg5.mangshe.xyz
   tls: false
   type: hysteria2
 - name: 11|none
@@ -486,54 +510,57 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 15|IN_speednode_0003
-  - 15|US_speednode_0015
-  - 11|none
+  - '11|⚡Telegram = @SOSkeyNET #2'
+  - 15|RU_speednode_0008
+  - 10| HK
+  - 13,14|香港3|@ripaojiedian
+  - 13,14|香港5|@ripaojiedian
+  - 13,14|日本|@ripaojiedian
+  - 10,11|سرور های پرسرعت بیشتر در چنل🌋@...
   - 13,14|美国3|@ripaojiedian
   - 15|HK_speednode_0002
-  - 11|@icv2ray
-  - 10|TW
-  - 10|1
-  - 10,11|سرور های پرسرعت بیشتر در چنل🌋@...
-  - 11|IR-@V2rayAlpha--5
-  - 15|RU_speednode_0008
-  - 15|RU_speednode_0010
-  - 15|RU_speednode_0009
-  - 10|2@oneclickvpnkeys
-  - 15|JP_speednode_0004
-  - 15|US_speednode_0013
-  - 15|RU_speednode_0011
-  - 15|US_speednode_0014
-  - 10| HK
-  - 10|SG
-  - 13,14|日本|@ripaojiedian
-  - 13,14|美国2|@ripaojiedian
-  - 10|2
-  - 13,14|日本3|@ripaojiedian
-  - '11|سرور های پرسرعت بیشتر در چنل🌋@... #1'
-  - '11|@V2rayNG3 #3'
-  - 13,14|香港4|@ripaojiedian
-  - 13,14|新加坡2|@ripaojiedian
-  - 13,14|新加坡3|@ripaojiedian
-  - 10|JP
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 10|84@oneclickvpnkeys
-  - 13|tg频道:@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - 10,11|@vpnbaz
-  - 13,14|新加坡|@ripaojiedian
-  - 13,14|香港3|@ripaojiedian
-  - 10,11|@meliproxyy
-  - 15|KR_speednode_0005
-  - 13,14|美国|@ripaojiedian
-  - 11|All_7--@V2rayAlpha
-  - '11|@V2rayNG3 #2'
-  - '11|@V2rayNG3 #1'
-  - 13,14|日本2|@ripaojiedian
-  - 10|DE
-  - 15|DE_speednode_0001
   - 15|RU_speednode_0007
+  - 15|JP_speednode_0004
+  - 10|SG
+  - 11|none
+  - 10|1
+  - 10|TW
+  - 10|JP
+  - 13,14|美国2|@ripaojiedian
+  - 11|@icv2ray
+  - 15|US_speednode_0015
+  - 10|DE
+  - 13,14|美国|@ripaojiedian
+  - 10|2
+  - 13|🇭🇰 香港|@ripaojiedian
   - 14|香港|@ripaojiedian
+  - '11|@V2rayNG3 #3'
+  - 13,14|新加坡2|@ripaojiedian
+  - 15|IN_speednode_0003
+  - '10,11|سرور های پرسرعت بیشتر در چنل🌋@... #1'
+  - '11|@V2rayNG3 #1'
+  - 11|IR-@V2rayAlpha--5
+  - 11|All_7--@V2rayAlpha
+  - 13,14|香港4|@ripaojiedian
+  - 10,11|⚡Telegram = @SOSkeyNET
+  - 13,14|新加坡|@ripaojiedian
+  - 15|US_speednode_0013
+  - 15|US_speednode_0014
+  - 15|RU_speednode_0009
+  - 15|RU_speednode_0011
+  - 13|tg频道:@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
+  - '10|@Trick_mobil #2'
+  - '11|⚡Telegram = @SOSkeyNET #1'
+  - 13,14|新加坡3|@ripaojiedian
+  - 15|DE_speednode_0001
+  - 15|KR_speednode_0005
+  - 10|2@oneclickvpnkeys
+  - '11|@V2rayNG3 #2'
+  - 11|Telegram = @SOSkeyNET
+  - 15|RU_speednode_0010
+  - 10,11|@meliproxyy
   type: fallback
   url: https://www.google.com/
 - interval: 300
