@@ -7,14 +7,6 @@ proxies:
   sni: mlxy1.xiaoliyu.us
   tls: false
   type: hysteria2
-- name: '10,11|سرور های پرسرعت بیشتر در چنل🌋@... #1'
-  password: 04c2a097-5ed8-49b6-9860-cb4667583745
-  port: 2056
-  server: mlxy2.xiaoliyu.us
-  skip-cert-verify: true
-  sni: mlxy2.xiaoliyu.us
-  tls: false
-  type: hysteria2
 - name: 10,11|@vpnbaz
   password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
   port: 1743
@@ -93,6 +85,22 @@ proxies:
   server: tw.oomz.ru
   skip-cert-verify: true
   sni: bing.com
+  tls: false
+  type: hysteria2
+- name: 10|2@oneclickvpnkeys
+  password: zhangyang
+  port: 6443
+  server: 130.61.50.75
+  skip-cert-verify: true
+  sni: dash.cloudflare.com
+  tls: false
+  type: hysteria2
+- name: '11|سرور های پرسرعت بیشتر در چنل🌋@... #1'
+  password: 04c2a097-5ed8-49b6-9860-cb4667583745
+  port: 2056
+  server: mlxy2.xiaoliyu.us
+  skip-cert-verify: true
+  sni: mlxy2.xiaoliyu.us
   tls: false
   type: hysteria2
 - name: 11|none

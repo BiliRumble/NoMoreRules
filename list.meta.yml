@@ -1,4 +1,4 @@
-# Update: 2026-02-14 14:31
+# Update: 2026-02-14 17:20
 allow-lan: false
 dns:
   enable: true
@@ -24,14 +24,6 @@ proxies:
   server: mlxy1.xiaoliyu.us
   skip-cert-verify: true
   sni: mlxy1.xiaoliyu.us
-  tls: false
-  type: hysteria2
-- name: '10,11|سرور های پرسرعت بیشتر در چنل🌋@... #1'
-  password: 04c2a097-5ed8-49b6-9860-cb4667583745
-  port: 2056
-  server: mlxy2.xiaoliyu.us
-  skip-cert-verify: true
-  sni: mlxy2.xiaoliyu.us
   tls: false
   type: hysteria2
 - name: 10,11|@vpnbaz
@@ -112,6 +104,22 @@ proxies:
   server: tw.oomz.ru
   skip-cert-verify: true
   sni: bing.com
+  tls: false
+  type: hysteria2
+- name: 10|2@oneclickvpnkeys
+  password: zhangyang
+  port: 6443
+  server: 130.61.50.75
+  skip-cert-verify: true
+  sni: dash.cloudflare.com
+  tls: false
+  type: hysteria2
+- name: '11|سرور های پرسرعت بیشتر در چنل🌋@... #1'
+  password: 04c2a097-5ed8-49b6-9860-cb4667583745
+  port: 2056
+  server: mlxy2.xiaoliyu.us
+  skip-cert-verify: true
+  sni: mlxy2.xiaoliyu.us
   tls: false
   type: hysteria2
 - name: 11|none
@@ -478,53 +486,54 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 15|JP_speednode_0004
-  - 15|RU_speednode_0009
-  - 15|RU_speednode_0007
-  - 10|2
-  - 10,11|سرور های پرسرعت بیشتر در چنل🌋@...
-  - 10|1
-  - 11|@icv2ray
-  - 15|RU_speednode_0010
-  - 10|84@oneclickvpnkeys
-  - 10,11|@meliproxyy
-  - 13,14|美国3|@ripaojiedian
-  - '11|@V2rayNG3 #1'
-  - 10|SG
-  - 10|DE
-  - 13,14|美国|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - '10,11|سرور های پرسرعت بیشتر در چنل🌋@... #1'
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 10| HK
-  - 13,14|新加坡2|@ripaojiedian
-  - 15|RU_speednode_0011
-  - 15|HK_speednode_0002
-  - 10|TW
-  - 11|All_7--@V2rayAlpha
-  - 10,11|@vpnbaz
-  - 13,14|日本3|@ripaojiedian
-  - 15|DE_speednode_0001
-  - 15|KR_speednode_0005
+  - 15|IN_speednode_0003
   - 15|US_speednode_0015
+  - 11|none
+  - 13,14|美国3|@ripaojiedian
+  - 15|HK_speednode_0002
+  - 11|@icv2ray
+  - 10|TW
+  - 10|1
+  - 10,11|سرور های پرسرعت بیشتر در چنل🌋@...
+  - 11|IR-@V2rayAlpha--5
+  - 15|RU_speednode_0008
+  - 15|RU_speednode_0010
+  - 15|RU_speednode_0009
+  - 10|2@oneclickvpnkeys
+  - 15|JP_speednode_0004
+  - 15|US_speednode_0013
+  - 15|RU_speednode_0011
+  - 15|US_speednode_0014
+  - 10| HK
+  - 10|SG
+  - 13,14|日本|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
+  - 10|2
+  - 13,14|日本3|@ripaojiedian
+  - '11|سرور های پرسرعت بیشتر در چنل🌋@... #1'
+  - '11|@V2rayNG3 #3'
+  - 13,14|香港4|@ripaojiedian
+  - 13,14|新加坡2|@ripaojiedian
   - 13,14|新加坡3|@ripaojiedian
   - 10|JP
-  - 15|IN_speednode_0003
-  - 11|IR-@V2rayAlpha--5
-  - 13,14|日本2|@ripaojiedian
-  - 14|香港|@ripaojiedian
-  - 11|none
-  - 15|RU_speednode_0008
-  - '11|@V2rayNG3 #2'
-  - 15|US_speednode_0013
-  - 13,14|美国2|@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 10|84@oneclickvpnkeys
+  - 13|tg频道:@ripaojiedian
+  - 13,14|香港5|@ripaojiedian
+  - 10,11|@vpnbaz
   - 13,14|新加坡|@ripaojiedian
   - 13,14|香港3|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
-  - 15|US_speednode_0014
-  - 13,14|日本|@ripaojiedian
-  - '11|@V2rayNG3 #3'
+  - 10,11|@meliproxyy
+  - 15|KR_speednode_0005
+  - 13,14|美国|@ripaojiedian
+  - 11|All_7--@V2rayAlpha
+  - '11|@V2rayNG3 #2'
+  - '11|@V2rayNG3 #1'
+  - 13,14|日本2|@ripaojiedian
+  - 10|DE
+  - 15|DE_speednode_0001
+  - 15|RU_speednode_0007
+  - 14|香港|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
