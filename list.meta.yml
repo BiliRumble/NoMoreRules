@@ -1,4 +1,4 @@
-# Update: 2026-02-15 14:37
+# Update: 2026-02-15 17:21
 allow-lan: false
 dns:
   enable: true
@@ -18,31 +18,15 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 10,11|سرور های پرسرعت بیشتر در چنل🌋@...
-  password: 04c2a097-5ed8-49b6-9860-cb4667583745
-  port: 2056
-  server: mlxy1.xiaoliyu.us
-  skip-cert-verify: true
-  sni: mlxy1.xiaoliyu.us
-  tls: false
-  type: hysteria2
-- name: '10,11|سرور های پرسرعت بیشتر در چنل🌋@... #1'
-  password: 04c2a097-5ed8-49b6-9860-cb4667583745
-  port: 2056
-  server: mlxy2.xiaoliyu.us
-  skip-cert-verify: true
-  sni: mlxy2.xiaoliyu.us
-  tls: false
-  type: hysteria2
-- name: '10|@Trick_mobil #2'
+- name: 10|@Trick_mobil
   password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
   port: 1743
   server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk
   skip-cert-verify: true
-  sni: ''
+  sni: 🔒
   tls: false
   type: hysteria2
-- name: 10|84@oneclickvpnkeys
+- name: 10,11|@Tweety_Proxy
   password: 41aec03d-4345-4bff-9bab-69d36d80033c
   port: 2056
   server: ru.eyucdn.xyz
@@ -122,7 +106,7 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: '11|Telegram:@config_proxy '
+- name: 11|@icv2ray
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -132,7 +116,7 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: 11|All_7--@V2rayAlpha
+- name: 11|🇳🇱 @KIA_NET🐅2
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -142,11 +126,51 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 11|@meliproxyy
+- name: 11|🇳🇱 @KIA_NET🐅8
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36300
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: 11|🇳🇱 @KIA_NET🐅9
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
   port: 36400
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '11|@V2rayngSeven #3'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36400
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: ' [By EbraSha]'
+  tls: false
+  type: hysteria2
+- name: 11|🇳🇱 @KIA_NET🐅6
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36400
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: 🔒 [By EbraSha]
+  tls: false
+  type: hysteria2
+- name: 11|🇳🇱 @KIA_NET🐅7
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36600
   server: 206.71.158.37
   skip-cert-verify: true
   sni: YAPC-1.afshin.ir
@@ -200,6 +224,16 @@ proxies:
   server: 77.90.41.197
   skip-cert-verify: true
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: '11| Telegram: @wiki_tajrobe'
+  obfs: salamander
+  obfs-password: etXTC5FrUoTkMu2xlBradrUQrLDMgHJ
+  password: flyzone
+  port: 443
+  server: 172.232.207.161
+  skip-cert-verify: true
+  sni: www.azki.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -496,55 +530,58 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 10|2@oneclickvpnkeys
-  - 15|DE_speednode_0001
-  - '11|@V2rayNG3 #2'
-  - '11|@V2rayNG3 #3'
-  - 10|2
-  - 11|elegram"@Filtering2020"
-  - 15|US_speednode_0013
-  - 13,14|日本3|@ripaojiedian
-  - 10,11|سرور های پرسرعت بیشتر در چنل🌋@...
-  - 13,14|日本|@ripaojiedian
-  - 15|HK_speednode_0002
-  - 15|RU_speednode_0007
-  - '10,11|سرور های پرسرعت بیشتر در چنل🌋@... #1'
-  - 11|All_7--@V2rayAlpha
-  - 15|JP_speednode_0004
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 15|RU_speednode_0009
-  - 15|US_speednode_0014
-  - 13,14|香港4|@ripaojiedian
-  - '10|@Trick_mobil #2'
   - 13,14|美国3|@ripaojiedian
-  - 10|TW
-  - 11|IR-@V2rayAlpha--5
+  - 10| HK
+  - 15|DE_speednode_0001
+  - 15|RU_speednode_0007
   - 13,14|美国|@ripaojiedian
-  - 14|香港|@ripaojiedian
-  - 10|84@oneclickvpnkeys
-  - 15|KR_speednode_0005
+  - '11|@V2rayNG3 #2'
+  - 11|🇳🇱 @KIA_NET🐅7
+  - '11|@V2rayNG3 #1'
+  - 15|RU_speednode_0010
+  - '11|@V2rayNG3 #3'
+  - 15|RU_speednode_0011
+  - 13,14|新加坡|@ripaojiedian
+  - 13,14|日本|@ripaojiedian
+  - 11|IR-@V2rayAlpha--5
+  - 13,14|日本3|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
   - 13,14|美国2|@ripaojiedian
+  - 15|KR_speednode_0005
+  - 10|TW
+  - 11|elegram"@Filtering2020"
+  - '11|@V2rayngSeven #3'
+  - 15|US_speednode_0014
+  - 15|IN_speednode_0003
+  - 11|@icv2ray
+  - 15|US_speednode_0013
+  - 15|RU_speednode_0009
+  - 10|2@oneclickvpnkeys
+  - '11| Telegram: @wiki_tajrobe'
+  - 10|1
+  - 13,14|新加坡3|@ripaojiedian
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 10|JP
+  - 11|🇳🇱 @KIA_NET🐅6
+  - 11|🇳🇱 @KIA_NET🐅2
   - 10|SG
-  - 13,14|香港5|@ripaojiedian
-  - 10|DE
+  - 11|🇳🇱 @KIA_NET🐅9
+  - 11|🇳🇱 @KIA_NET🐅8
+  - 13,14|新加坡2|@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
+  - 15|JP_speednode_0004
+  - 10,11|@Tweety_Proxy
+  - 10|2
+  - 13|tg频道:@ripaojiedian
+  - 13,14|香港3|@ripaojiedian
+  - 15|HK_speednode_0002
+  - 10|@Trick_mobil
+  - 15|RU_speednode_0008
   - 15|US_speednode_0015
   - 11|Telegram = @prrofile_purple
-  - 15|RU_speednode_0008
-  - 13,14|新加坡3|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 10|JP
-  - 11|@meliproxyy
-  - '11|@V2rayNG3 #1'
-  - 13,14|日本2|@ripaojiedian
-  - 10| HK
-  - 15|IN_speednode_0003
-  - 13,14|香港3|@ripaojiedian
-  - '11|Telegram:@config_proxy '
-  - 13,14|新加坡2|@ripaojiedian
-  - 10|1
-  - 15|RU_speednode_0010
-  - 15|RU_speednode_0011
+  - 14|香港|@ripaojiedian
+  - 10|DE
+  - 13,14|香港5|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -600,7 +637,6 @@ proxy-groups:
   type: select
 - name: 🇯🇵 日本
   proxies:
-  - 10|JP
   - 13,14|日本|@ripaojiedian
   - 13,14|日本2|@ripaojiedian
   - 13,14|日本3|@ripaojiedian
