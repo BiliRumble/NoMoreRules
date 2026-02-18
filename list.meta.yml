@@ -1,4 +1,4 @@
-# Update: 2026-02-18 05:25
+# Update: 2026-02-18 09:12
 allow-lan: false
 dns:
   enable: true
@@ -193,11 +193,17 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇭🇰 香港2|@ripaojiedian
+  password: 049d354a-2cf1-4956-b6d8-d04aa4969b64
+  port: 10015
+  server: assets-cfnode67.cloudflarecdn-edge.rfsconfig.com
+  type: ss
 - name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 3373
-  server: 18.183.109.29
+  server: 46.51.224.113
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -205,39 +211,47 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 54548
-  server: 57.180.15.194
+  server: 95.40.2.208
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 443
-  server: 43.207.105.49
+  port: 54548
+  server: 57.180.245.83
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 13,14|台湾|@ripaojiedian
+  network: tcp
+  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
+  port: 3462
+  server: a12.taipeicitygovernment.org.ua
+  skip-cert-verify: true
+  sni: 45.32.28.232
   type: trojan
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2595
-  server: 43.206.226.70
+  server: 13.158.130.64
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
-  port: 193
-  server: 160.16.85.33
+  port: 3423
+  server: 18.181.199.98
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
-  port: 400
-  server: 160.16.231.103
+  port: 3423
+  server: 160.16.124.17
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -260,16 +274,22 @@ proxies:
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2673
-  server: 43.199.161.245
+  port: 381
+  server: 57.180.245.83
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇸🇬 新加坡4|@ripaojiedian
+  password: 049d354a-2cf1-4956-b6d8-d04aa4969b64
+  port: 22350
+  server: assets-cfnode67.cloudflarecdn-edge.rfsconfig.com
+  type: ss
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 1281
-  server: 153.121.38.213
+  server: 43.207.73.82
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -472,52 +492,55 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 10| HK
-  - '11|Telegram : @V2ynpv'
-  - 13,14|新加坡|@ripaojiedian
   - 13,14|新加坡2|@ripaojiedian
-  - 15|RU_speednode_0007
-  - 15|RU_speednode_0009
-  - 10|2
-  - 11|All_7--@V2rayAlpha
+  - 13,14|香港4|@ripaojiedian
+  - 13,14|美国|@ripaojiedian
+  - '11| Telegram: @wiki_tajrobe'
+  - 10|TW
   - 13|🇭🇰 香港|@ripaojiedian
+  - 10|2
+  - 13,14|美国2|@ripaojiedian
+  - 13|🇸🇬 新加坡4|@ripaojiedian
+  - 14|香港|@ripaojiedian
+  - 15|US_speednode_0013
+  - 13|🇭🇰 香港2|@ripaojiedian
   - 13,14|新加坡3|@ripaojiedian
+  - 11| Hysteria-TLS | @Express_alaki...
+  - 11|🟢Ṭelegram"@Filtering2020"
+  - 13|tg频道:@ripaojiedian
+  - 10| HK
+  - 13,14|日本3|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 10|DE
+  - 13,14|香港3|@ripaojiedian
   - 13,14|日本|@ripaojiedian
   - '10|@Trick_mobil #1'
-  - 15|IN_speednode_0003
-  - 15|US_speednode_0014
+  - 15|RU_speednode_0008
+  - 15|RU_speednode_0009
+  - 15|DE_speednode_0001
+  - 15|RU_speednode_0010
+  - '11|Telegram : @V2ynpv'
+  - 15|HK_speednode_0002
+  - 11|IR-@V2rayAlpha--5
+  - 10|@Trick_mobil
+  - 15|US_speednode_0015
+  - '11|@V2rayNG3 #2'
+  - '11|@V2rayNG3 #1'
   - 10|SG
-  - '11| Telegram: @wiki_tajrobe'
-  - 13,14|美国|@ripaojiedian
+  - 10|JP
+  - '11|@V2rayNG3 #3'
+  - 13,14|美国3|@ripaojiedian
+  - 15|IN_speednode_0003
+  - 15|RU_speednode_0011
+  - 15|JP_speednode_0004
   - 13,14|香港5|@ripaojiedian
   - 15|KR_speednode_0005
-  - 10|@Trick_mobil
-  - 15|RU_speednode_0008
-  - '11|@V2rayNG3 #3'
-  - 11| Hysteria-TLS | @Express_alaki...
-  - 13,14|美国2|@ripaojiedian
-  - 13,14|美国3|@ripaojiedian
-  - 10|1
-  - 15|RU_speednode_0011
-  - 13,14|日本3|@ripaojiedian
-  - 14|香港|@ripaojiedian
-  - 15|DE_speednode_0001
-  - 11|🟢Ṭelegram"@Filtering2020"
-  - 13,14|香港3|@ripaojiedian
-  - '11|@V2rayNG3 #2'
-  - 10|TW
-  - 13|tg频道:@ripaojiedian
-  - 15|RU_speednode_0010
+  - 15|RU_speednode_0007
+  - 15|US_speednode_0014
+  - 13,14|台湾|@ripaojiedian
   - 13,14|日本2|@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
-  - 15|US_speednode_0015
-  - '11|@V2rayNG3 #1'
-  - 15|JP_speednode_0004
-  - 15|US_speednode_0013
-  - 10|JP
-  - 11|IR-@V2rayAlpha--5
-  - 15|HK_speednode_0002
-  - 10|DE
+  - 10|1
+  - 11|All_7--@V2rayAlpha
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -590,6 +613,7 @@ proxy-groups:
 - name: 🇨🇳 台湾
   proxies:
   - 10|TW
+  - 13,14|台湾|@ripaojiedian
   type: select
 - name: 🇨🇳 中国
   proxies:
@@ -599,6 +623,7 @@ proxy-groups:
   proxies:
   - 10| HK
   - 13|🇭🇰 香港|@ripaojiedian
+  - 13|🇭🇰 香港2|@ripaojiedian
   - 13,14|香港3|@ripaojiedian
   - 13,14|香港4|@ripaojiedian
   - 13,14|香港5|@ripaojiedian
@@ -619,6 +644,7 @@ proxy-groups:
   - 13,14|新加坡|@ripaojiedian
   - 13,14|新加坡2|@ripaojiedian
   - 13,14|新加坡3|@ripaojiedian
+  - 13|🇸🇬 新加坡4|@ripaojiedian
   type: select
 - name: 🇬🇧 英国
   proxies:
