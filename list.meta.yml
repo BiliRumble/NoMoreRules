@@ -1,4 +1,4 @@
-# Update: 2026-02-18 23:40
+# Update: 2026-02-19 02:37
 allow-lan: false
 dns:
   enable: true
@@ -34,7 +34,7 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 10|1
+- name: 10| Hysteria-TLS | @Express_alaki...
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2055
   server: xjp1.mangshe.xyz
@@ -57,7 +57,7 @@ proxies:
   sni: 🔒
   tls: false
   type: hysteria2
-- name: '10|@Trick_mobil #5'
+- name: 10|@V2rayBaaz
   password: Yet-Another-Public-Config-1
   port: 36400
   server: 206.71.158.37
@@ -96,15 +96,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 11|Telegram:@config_proxy 😍
-  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
-  port: 2056
-  server: flkf3.mangshe.xyz
-  skip-cert-verify: true
-  sni: flkf3.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 11|elegram"@Filtering2020"
+- name: 11|🟢Ṭelegram"@Filtering2020"
   obfs: salamander
   obfs-password: 'Telegram-->@AliXTso '
   password: Telegram-->@AliXTso
@@ -114,7 +106,7 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: 11|🟢Ṭelegram"@Filtering2020"
+- name: '11|🟢Ṭelegram"@Filtering2020" #1'
   obfs: salamander
   obfs-password: Telegram-->@AliXTso
   password: Telegram-->@AliXTso
@@ -174,7 +166,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: 11|https://t.me/ConfigX2ray
+- name: '11|Telegram : @V2ynpv'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -194,13 +186,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 11|Telegram = @SOSkeyNET
-  password: cd7e0971-4b98-41fc-9ecb-1267a2b0e4f4
-  port: 8443
-  server: hkbgp.jjxcloud.xyz
-  sni: hkbgp.jjxcloud.xyz
-  tls: false
-  type: hysteria2
 - name: '11| Telegram: @wiki_tajrobe'
   obfs: salamander
   obfs-password: etXTC5FrUoTkMu2xlBradrUQrLDMgHJ
@@ -209,6 +194,26 @@ proxies:
   server: 172.232.207.161
   skip-cert-verify: true
   sni: www.azki.com
+  tls: false
+  type: hysteria2
+- name: 11|Telegram = @SOSkeyNET
+  obfs: salamander
+  obfs-password: etXTC5FrUoTkMu2xlBradrUQrLDMgHJ
+  password: freeflyzone1
+  port: 443
+  server: 172.232.207.161
+  skip-cert-verify: true
+  sni: www.azki.com
+  tls: false
+  type: hysteria2
+- name: 11|未命名
+  obfs: salamander
+  obfs-password: etXTC5FrUoTkMu2xlBradrUQrLDMgHJ
+  password: freeflyzone1
+  port: 443
+  server: 172.232.207.161
+  skip-cert-verify: true
+  sni: www.azki.com@freenettir
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -525,59 +530,59 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 15|RU_speednode_0011
-  - 15|KR_speednode_0005
-  - '11|@V2rayNG3 #1'
   - 15|RU_speednode_0010
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - '10|@Trick_mobil #4'
-  - 10|DE
-  - 13|🇸🇬 新加坡4|@ripaojiedian
-  - 13,14|台湾|@ripaojiedian
-  - '11|@V2rayNG3 #3'
-  - 10| HK
-  - 10|@Trick_mobil
-  - 13|tg频道:@ripaojiedian
-  - 13,14|新加坡3|@ripaojiedian
-  - 13,14|日本3|@ripaojiedian
-  - 11|elegram"@Filtering2020"
-  - 15|US_speednode_0014
-  - 15|DE_speednode_0001
-  - 11|Telegram:@config_proxy 😍
-  - 13|🇭🇰 香港|@ripaojiedian
-  - '10|@Trick_mobil #5'
-  - 10|SG
-  - '11|@V2rayNG3 #2'
-  - 13,14|新加坡|@ripaojiedian
-  - 10|TW
-  - 13,14|美国2|@ripaojiedian
-  - '11| Telegram: @wiki_tajrobe'
-  - 15|US_speednode_0013
-  - 13,14|美国3|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - 15|JP_speednode_0004
-  - 15|RU_speednode_0007
-  - 15|RU_speednode_0008
-  - 10|1
-  - 11|All_7--@V2rayAlpha
-  - 15|HK_speednode_0002
-  - 15|US_speednode_0015
-  - 15|IN_speednode_0003
-  - 14|香港|@ripaojiedian
-  - 11|https://t.me/ConfigX2ray
-  - 13,14|新加坡2|@ripaojiedian
-  - 11|سرورایبیشتردر:prrofile_purple@...
-  - 13,14|香港4|@ripaojiedian
   - 15|RU_speednode_0009
-  - 13,14|香港3|@ripaojiedian
-  - 10|2
+  - 15|RU_speednode_0011
+  - 10|@V2rayBaaz
+  - 13,14|美国3|@ripaojiedian
+  - '11|Telegram : @V2ynpv'
+  - 15|US_speednode_0013
   - 13,14|美国|@ripaojiedian
-  - 13,14|日本|@ripaojiedian
-  - 10|JP
-  - 11|@Selinc
   - 13,14|日本2|@ripaojiedian
+  - 14|香港|@ripaojiedian
+  - 10|JP
+  - 13|🇸🇬 新加坡4|@ripaojiedian
+  - 11|@Selinc
+  - 13,14|香港3|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
+  - '10|@Trick_mobil #4'
+  - '11|@V2rayNG3 #2'
+  - 11|سرورایبیشتردر:prrofile_purple@...
   - 11|Telegram = @SOSkeyNET
+  - 15|HK_speednode_0002
+  - 13,14|美国2|@ripaojiedian
+  - 10|@Trick_mobil
+  - 10|DE
+  - 13|tg频道:@ripaojiedian
+  - 15|JP_speednode_0004
+  - 13,14|日本3|@ripaojiedian
+  - 11|All_7--@V2rayAlpha
+  - 13,14|香港4|@ripaojiedian
+  - 15|US_speednode_0014
+  - 10|2
+  - 13,14|新加坡|@ripaojiedian
+  - 13|🇭🇰 香港|@ripaojiedian
+  - '11|@V2rayNG3 #1'
+  - 15|DE_speednode_0001
+  - 15|RU_speednode_0007
+  - 13,14|台湾|@ripaojiedian
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 15|KR_speednode_0005
+  - '11|@V2rayNG3 #3'
+  - 10|SG
+  - '11|🟢Ṭelegram"@Filtering2020" #1'
+  - 13,14|香港5|@ripaojiedian
+  - 10| Hysteria-TLS | @Express_alaki...
   - 11|🟢Ṭelegram"@Filtering2020"
+  - 10|TW
+  - '11| Telegram: @wiki_tajrobe'
+  - 13,14|日本|@ripaojiedian
+  - 15|IN_speednode_0003
+  - 10| HK
+  - 11|未命名
+  - 13,14|新加坡2|@ripaojiedian
+  - 15|US_speednode_0015
+  - 15|RU_speednode_0008
   type: fallback
   url: https://www.google.com/
 - interval: 300
