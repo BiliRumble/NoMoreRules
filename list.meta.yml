@@ -1,4 +1,4 @@
-# Update: 2026-02-19 23:37
+# Update: 2026-02-20 02:38
 allow-lan: false
 dns:
   enable: true
@@ -117,6 +117,16 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: 11|🌀Telegram= @vpn_openet 🌀
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
+  password: 75193bef8d8fe82341e02dd083dc1399
+  port: 989
+  server: dd.openaccessnode.com
+  skip-cert-verify: false
+  sni: dd.ircybersec.org
+  tls: false
+  type: hysteria2
 - name: 11|ری:prrofile_purple@✅
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
@@ -157,7 +167,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: 11|🇩🇪 - DE - @FreeOnlineVPN
+- name: 11|@V2rayBaaz
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -187,17 +197,7 @@ proxies:
   sni: www.azki.com
   tls: false
   type: hysteria2
-- name: 11|未命名
-  obfs: salamander
-  obfs-password: etXTC5FrUoTkMu2xlBradrUQrLDMgHJ
-  password: freeflyzone1
-  port: 443
-  server: 172.232.207.161
-  skip-cert-verify: true
-  sni: www.azki.com@freenettir
-  tls: false
-  type: hysteria2
-- name: '11|未命名 #1'
+- name: '11|@V2rayBaaz #2'
   password: zhangyang
   port: 6443
   server: 130.61.50.75
@@ -526,58 +526,58 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13|🇭🇰 香港2|@ripaojiedian
+  - 10|DE
+  - 15|RU_speednode_0007
+  - 15|RU_speednode_0009
+  - 10|HP71 (11)
+  - 10|JP
+  - 14|香港2|@ripaojiedian
+  - 11|@V2rayBaaz
+  - 13,14|美国2|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - '11|@V2rayBaaz #2'
+  - 11|All_7--@V2rayAlpha
+  - 15|KR_speednode_0005
+  - 11|@Selinc
+  - 15|JP_speednode_0004
+  - 13,14|香港5|@ripaojiedian
   - 10| HK
-  - 10|HP71 (5)
-  - '10,11|@V2rayNG3 #1'
-  - 15|US_speednode_0013
-  - 13,14|美国3|@ripaojiedian
-  - '11|@V2rayNG3 #2'
-  - 13,14|新加坡2|@ripaojiedian
-  - 15|RU_speednode_0010
+  - 13,14|新加坡3|@ripaojiedian
+  - 13|tg频道:@ripaojiedian
+  - 15|IN_speednode_0003
   - 15|US_speednode_0014
+  - 14|香港|@ripaojiedian
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 15|US_speednode_0015
+  - 11|telegram @mtmvpn
+  - 10|TW
+  - 10|SG
+  - 11|ری:prrofile_purple@✅
+  - '11|@V2rayNG3 #2'
+  - 15|RU_speednode_0011
   - '10|@Trick_mobil #3'
-  - 11|未命名
+  - '11|@V2rayNG3 #3'
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
+  - 15|US_speednode_0013
+  - 13,14|美国|@ripaojiedian
+  - 10|@Trick_mobil
+  - 13,14|新加坡2|@ripaojiedian
+  - 11|🌀Telegram= @vpn_openet 🌀
+  - 15|HK_speednode_0002
+  - 10|1
+  - 15|RU_speednode_0010
+  - 13,14|日本3|@ripaojiedian
+  - '10,11|@V2rayNG3 #1'
   - 15|RU_speednode_0008
   - 10|2
-  - 11|telegram @mtmvpn
-  - 15|DE_speednode_0001
-  - 11|ری:prrofile_purple@✅
-  - 15|JP_speednode_0004
-  - 10|SG
-  - 11|@Selinc
-  - 15|KR_speednode_0005
-  - 13,14|美国|@ripaojiedian
-  - '11|@V2rayNG3 #3'
-  - 13,14|香港4|@ripaojiedian
-  - 15|IN_speednode_0003
-  - 15|RU_speednode_0011
-  - 10|TW
-  - 15|RU_speednode_0007
-  - 13,14|新加坡3|@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 10|1
-  - 10|HP71 (11)
-  - 11|🇩🇪 - DE - @FreeOnlineVPN
-  - 13,14|香港3|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - 10|JP
-  - 13,14|日本3|@ripaojiedian
-  - 13,14|日本2|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 15|RU_speednode_0009
-  - '11|未命名 #1'
-  - 15|HK_speednode_0002
-  - 15|US_speednode_0015
-  - 13,14|美国2|@ripaojiedian
-  - 11|All_7--@V2rayAlpha
+  - 13,14|美国3|@ripaojiedian
   - 13,14|日本|@ripaojiedian
-  - 14|香港2|@ripaojiedian
-  - 14|香港|@ripaojiedian
+  - 13,14|香港3|@ripaojiedian
   - 13,14|台湾|@ripaojiedian
-  - 10|@Trick_mobil
-  - 10|DE
+  - 15|DE_speednode_0001
+  - 13,14|香港4|@ripaojiedian
+  - 10|HP71 (5)
   type: fallback
   url: https://www.google.com/
 - interval: 300
