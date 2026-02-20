@@ -30,7 +30,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|@Trick_mobil #3'
+- name: '10|@Trick_mobil #4'
   password: Telegram-->@Ln2Ray
   port: 45000
   server: gavazn.lnmarketplace.net
@@ -106,6 +106,14 @@ proxies:
   server: dd.openaccessnode.com
   skip-cert-verify: false
   sni: dd.ircybersec.org
+  tls: false
+  type: hysteria2
+- name: '11|@en_vpn/  '
+  password: 80cc3426-ba58-4679-9001-f38778b1d042
+  port: 2026
+  server: us-loc01.lada.mom
+  skip-cert-verify: false
+  sni: us-loc01.lada.mom
   tls: false
   type: hysteria2
 - name: 11|none
