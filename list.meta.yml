@@ -1,4 +1,4 @@
-# Update: 2026-02-21 09:05
+# Update: 2026-02-21 12:22
 allow-lan: false
 dns:
   enable: true
@@ -276,8 +276,8 @@ proxies:
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
-  port: 193
-  server: 160.16.57.238
+  port: 3423
+  server: 160.16.144.208
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -547,60 +547,60 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 10| HK
-  - 14|台湾|@ripaojiedian
-  - '11|@V2rayNG3 #2'
-  - 13,14|新加坡2|@ripaojiedian
-  - 14|香港|@ripaojiedian
-  - 13,14|日本|@ripaojiedian
-  - 13|🇹🇼 台湾|@ripaojiedian
-  - '10,11|@WedBaZTel #1'
-  - '10|@Trick_mobil #4'
   - 15|RU_speednode_0009
-  - 11|none
-  - 15|RU_speednode_0011
-  - 13,14|新加坡3|@ripaojiedian
-  - 10|HP71 (5)
-  - 13,14|香港4|@ripaojiedian
-  - 13,14|美国3|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - 13,14|美国2|@ripaojiedian
-  - 13,14|日本2|@ripaojiedian
-  - 10|DE
-  - 10|JP
-  - 15|RU_speednode_0010
-  - 15|DE_speednode_0001
-  - 15|US_speednode_0014
-  - 11|telegram @mtmvpn
-  - 15|KR_speednode_0005
-  - 15|IN_speednode_0003
-  - 15|US_speednode_0015
-  - 13,14|新加坡|@ripaojiedian
-  - 10|1
+  - 11|@Selinc
+  - 15|HK_speednode_0002
+  - 14|香港|@ripaojiedian
+  - '10|@Trick_mobil #4'
   - '11|@en_vpn/  '
-  - '10,11|@V2rayNG3 #1'
-  - 10|TW
+  - 11|none
+  - '11|@V2rayNG3 #2'
+  - 13,14|美国3|@ripaojiedian
   - 10|@Trick_mobil
-  - 13|🇭🇰 香港|@ripaojiedian
+  - 15|KR_speednode_0005
+  - 15|RU_speednode_0011
   - 11|@WedBaZTel
   - 13,14|日本3|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
-  - 15|US_speednode_0013
-  - 15|JP_speednode_0004
-  - 13|tg频道:@ripaojiedian
-  - 11|🌀Telegram= @vpn_openet 🌀
-  - 10|2
-  - 13,14|日本4|@ripaojiedian
-  - 11|All_7--@V2rayAlpha
-  - '11|@V2rayNG3 #3'
-  - 15|RU_speednode_0008
-  - 11|@Selinc
-  - 10|SG
-  - 10|35@oneclickvpnkeys
-  - 15|HK_speednode_0002
-  - 13,14|香港3|@ripaojiedian
+  - 11|telegram @mtmvpn
+  - 14|台湾|@ripaojiedian
   - 11|🇩🇪 - DE - @FreeOnlineVPN
+  - 15|DE_speednode_0001
+  - 13,14|香港5|@ripaojiedian
+  - '10,11|@V2rayNG3 #1'
+  - 13,14|日本2|@ripaojiedian
+  - 13,14|日本|@ripaojiedian
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
+  - 15|US_speednode_0015
+  - 10|JP
+  - 15|IN_speednode_0003
   - 15|RU_speednode_0007
+  - 15|RU_speednode_0010
+  - 13,14|香港3|@ripaojiedian
+  - 10|DE
+  - 13,14|美国2|@ripaojiedian
+  - 10|HP71 (5)
+  - 13,14|日本4|@ripaojiedian
+  - 13|🇹🇼 台湾|@ripaojiedian
+  - 13|tg频道:@ripaojiedian
+  - 13,14|新加坡2|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 11|🌀Telegram= @vpn_openet 🌀
+  - '11|@V2rayNG3 #3'
+  - 13,14|新加坡|@ripaojiedian
+  - 15|US_speednode_0014
+  - 10|35@oneclickvpnkeys
+  - '10,11|@WedBaZTel #1'
+  - 13,14|美国|@ripaojiedian
+  - 15|JP_speednode_0004
+  - 15|US_speednode_0013
+  - 10| HK
+  - 15|RU_speednode_0008
+  - 10|2
+  - 10|1
+  - 11|All_7--@V2rayAlpha
+  - 10|SG
+  - 10|TW
   type: fallback
   url: https://www.google.com/
 - interval: 300
