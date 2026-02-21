@@ -1,4 +1,4 @@
-# Update: 2026-02-21 23:14
+# Update: 2026-02-22 02:19
 allow-lan: false
 dns:
   enable: true
@@ -18,7 +18,7 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 9|@Trick_mobil
+- name: 10|@Trick_mobil
   password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
   port: 1743
   server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk
@@ -26,117 +26,23 @@ proxies:
   sni: 🔒
   tls: false
   type: hysteria2
-- name: 9|2
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: mg2.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 9|1
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2055
-  server: xjp1.mangshe.xyz
-  skip-cert-verify: true
-  sni: xjp1.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 9|JP
-  password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-  port: 13778
-  server: jp7.dexlos.com
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 9|35@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: Telegram-->@Ln2Ray
-  password: Telegram-->@Ln2Ray
-  port: 45000
-  server: 206.71.158.23
-  skip-cert-verify: true
-  sni: gavazn.55994421.xyz
-  tls: false
-  type: hysteria2
-- name: '9,10|@WedBaZTel #1'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36400
-  server: 206.71.158.37
-  skip-cert-verify: true
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: 9|DE
-  password: a084933d-0b41-4571-ae0c-7163b8c71ed1
-  port: 2056
-  server: de.eyucdn.xyz
-  skip-cert-verify: true
-  sni: de.eyucdn.xyz
-  tls: false
-  type: hysteria2
-- name: 9| HK
-  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-  port: 443
-  server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
-  sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: 9|HP71 (5)
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+- name: 10|44@oneclickvpnkeys
+  password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
   port: 35000
-  server: 206.71.158.40
+  server: 129.151.251.122
   skip-cert-verify: true
-  sni: api.kermanshahi.org
+  sni: www.lamer.com.hk
   tls: false
   type: hysteria2
-- name: '9,10|@V2rayNG3 #1'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+- name: 10|📤57@oneclickvpnkeys
+  password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
   port: 35000
-  server: 206.71.158.41
+  server: 143.47.32.143
   skip-cert-verify: true
-  sni: api.kermanshahi.org
+  sni: www.lamer.com.hk
   tls: false
   type: hysteria2
-- name: 9|SG
-  password: e7965e64-e001-4e8c-8273-39c61ff4a094
-  port: 30000
-  server: sg3.oomz.ru
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 9|TW
-  password: e7965e64-e001-4e8c-8273-39c61ff4a094
-  port: 30000
-  server: tw.oomz.ru
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 9|27@oneclickvpnkeys
-  password: f40ca239-4a76-4808-b56c-84d4e9969939
-  port: 65535
-  server: 132.145.28.17
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: 9|📤30@oneclickvpnkeys
-  password: f40ca239-4a76-4808-b56c-84d4e9969939
-  port: 65535
-  server: 132.145.52.10
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: 10|🌀Telegram= @vpn_openet 🌀
+- name: 10,11|🌀Telegram= @vpn_openet 🌀
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
   password: 75193bef8d8fe82341e02dd083dc1399
@@ -146,7 +52,124 @@ proxies:
   sni: dd.ircybersec.org
   tls: false
   type: hysteria2
-- name: '10|@en_vpn/  '
+- name: 10|2
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 10|1
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2055
+  server: xjp1.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp1.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 10|JP
+  password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
+  port: 13778
+  server: jp7.dexlos.com
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '10|@Trick_mobil #4'
+  obfs: salamander
+  obfs-password: Telegram-->@Ln2Ray
+  password: Telegram-->@Ln2Ray
+  port: 45000
+  server: 206.71.158.23
+  skip-cert-verify: true
+  sni: gavazn.55994421.xyz
+  tls: false
+  type: hysteria2
+- name: '10,11|@WedBaZTel #1'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36400
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: 10|DE
+  password: a084933d-0b41-4571-ae0c-7163b8c71ed1
+  port: 2056
+  server: de.eyucdn.xyz
+  skip-cert-verify: true
+  sni: de.eyucdn.xyz
+  tls: false
+  type: hysteria2
+- name: 10| HK
+  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+  port: 443
+  server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+  sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: 10|HP71 (5)
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 206.71.158.40
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: '10,11|@V2rayNG3 #1'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 206.71.158.41
+  skip-cert-verify: true
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 10|SG
+  password: e7965e64-e001-4e8c-8273-39c61ff4a094
+  port: 30000
+  server: sg3.oomz.ru
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: 10|TW
+  password: e7965e64-e001-4e8c-8273-39c61ff4a094
+  port: 30000
+  server: tw.oomz.ru
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: 10|35@oneclickvpnkeys
+  password: f40ca239-4a76-4808-b56c-84d4e9969939
+  port: 50000
+  server: 129.151.193.163
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: 10|📤27@oneclickvpnkeys
+  password: f40ca239-4a76-4808-b56c-84d4e9969939
+  port: 65535
+  server: 132.145.28.17
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: 10|📤30@oneclickvpnkeys
+  password: f40ca239-4a76-4808-b56c-84d4e9969939
+  port: 65535
+  server: 132.145.52.10
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: '11|@en_vpn/  '
   password: 80cc3426-ba58-4679-9001-f38778b1d042
   port: 2026
   server: us-loc01.lada.mom
@@ -154,7 +177,7 @@ proxies:
   sni: us-loc01.lada.mom
   tls: false
   type: hysteria2
-- name: 10|none
+- name: 11|none
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -164,7 +187,7 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: 10|All_7--@V2rayAlpha
+- name: 11|All_7--@V2rayAlpha
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -174,7 +197,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 10|@WedBaZTel
+- name: 11|@WedBaZTel
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -184,7 +207,15 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 10| T.me/V2HUBIR | Join Now ✅️
+- name: 11|@Spartan_YT
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 206.71.158.41
+  skip-cert-verify: true
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: '11| Telegram: @wiki_tajrobe'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -194,7 +225,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: 10|configraygan_1
+- name: 11|کانفیگ ایان = t.me/arisping
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -204,7 +235,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '10|@V2rayNG3 #3'
+- name: '11|@V2rayNG3 #3'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -214,7 +245,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 10|telegram @mtmvpn
+- name: 11|telegram @mtmvpn
   obfs: salamander
   obfs-password: etXTC5FrUoTkMu2xlBradrUQrLDMgHJ
   password: freeflyzone1
@@ -225,21 +256,21 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
-  name: 12|tg频道:@ripaojiedian
+  name: 13|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: 12|🇭🇰 香港|@ripaojiedian
+  name: 13|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 12,13|香港3|@ripaojiedian
+- name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 4856
@@ -247,7 +278,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|香港4|@ripaojiedian
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2826
@@ -255,7 +286,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 12,13|香港5|@ripaojiedian
+- name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 54548
@@ -263,7 +294,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 12,13|日本|@ripaojiedian
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 20539
@@ -271,7 +302,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|日本2|@ripaojiedian
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 3423
@@ -279,7 +310,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 193
@@ -287,7 +318,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡|@ripaojiedian
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 3419
@@ -295,7 +326,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 3901
@@ -303,7 +334,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡3|@ripaojiedian
+- name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 381
@@ -311,7 +342,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|美国|@ripaojiedian
+- name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 4920
@@ -319,7 +350,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 4920
@@ -327,7 +358,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 9718
@@ -335,7 +366,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 12,13|日本4|@ripaojiedian
+- name: 13,14|日本4|@ripaojiedian
   network: tcp
   password: 736cd94d-7b94-3e44-8106-3419f64eaf09
   port: 2053
@@ -345,7 +376,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 12|🇹🇼 台湾|@ripaojiedian
+  name: 13|🇹🇼 台湾|@ripaojiedian
   port: 16811
   server: ipv6-tw02.cnddns.com
   skip-cert-verify: false
@@ -354,7 +385,7 @@ proxies:
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - alterId: 2
   cipher: auto
-  name: 13|香港|@ripaojiedian
+  name: 14|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -364,7 +395,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 13|台湾|@ripaojiedian
+  name: 14|台湾|@ripaojiedian
   network: tcp
   port: '16811'
   server: ipv6-tw02.cnddns.com
@@ -373,7 +404,7 @@ proxies:
   type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - flow: xtls-rprx-vision
-  name: 14|DE_speednode_0001
+  name: 15|DE_speednode_0001
   port: 443
   reality-opts:
     public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
@@ -387,7 +418,7 @@ proxies:
   uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 14|HK_speednode_0002
+  name: 15|HK_speednode_0002
   port: 1314
   reality-opts:
     public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
@@ -400,7 +431,7 @@ proxies:
   udp: true
   uuid: d607a577-978c-487a-a2ad-788e4129162a
 - flow: xtls-rprx-vision
-  name: 14|IN_speednode_0003
+  name: 15|IN_speednode_0003
   port: 443
   reality-opts:
     public-key: h6jFhmMYpmiEmm4sxrBLBSxtgsdM5k5EUvrv1bKNFGU
@@ -414,7 +445,7 @@ proxies:
   uuid: 1834316d-2b59-4239-970d-c764218bcdf2
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 14|JP_speednode_0004
+  name: 15|JP_speednode_0004
   port: 48816
   reality-opts:
     public-key: fk4uHkIWXJ5MbcsFASbAhKlC5gV9m-XovXftmIDSuxo
@@ -426,13 +457,13 @@ proxies:
   type: vless
   udp: true
   uuid: 570d1a03-6acf-40ca-819e-1049906235d9
-- name: 14|KR_speednode_0005
+- name: 15|KR_speednode_0005
   port: 1090
   server: 121.169.46.116
   type: socks5
   udp: true
   username: Og%3D%3D
-- name: 14|RU_speednode_0007
+- name: 15|RU_speednode_0007
   port: 8443
   reality-opts:
     public-key: 1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ
@@ -445,7 +476,7 @@ proxies:
   udp: true
   uuid: bf9931be-a7fd-46b3-9919-b858299e9f65
 - flow: xtls-rprx-vision
-  name: 14|RU_speednode_0008
+  name: 15|RU_speednode_0008
   port: 8443
   reality-opts:
     public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
@@ -458,7 +489,7 @@ proxies:
   udp: true
   uuid: 11e41a32-6672-48a0-b9cb-c8694242ecff
 - flow: xtls-rprx-vision
-  name: 14|RU_speednode_0009
+  name: 15|RU_speednode_0009
   port: 8443
   reality-opts:
     public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
@@ -471,7 +502,7 @@ proxies:
   udp: true
   uuid: 3c5c4ccc-b502-42cb-8c42-cfa714db4767
 - flow: xtls-rprx-vision
-  name: 14|RU_speednode_0010
+  name: 15|RU_speednode_0010
   port: 443
   reality-opts:
     public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
@@ -484,7 +515,7 @@ proxies:
   udp: true
   uuid: e8accc46-c511-42fb-919b-9283799a88a1
 - flow: xtls-rprx-vision
-  name: 14|RU_speednode_0011
+  name: 15|RU_speednode_0011
   port: 443
   reality-opts:
     public-key: tYFlc_8tzrwDisZbxlHj06rw_YE154TVYeEBuwOQZHE
@@ -498,7 +529,7 @@ proxies:
   uuid: 8ff544c5-303c-46f4-80fe-8e8e166fd981
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0013
+  name: 15|US_speednode_0013
   port: 443
   reality-opts:
     public-key: VFG2L-3i30fQZg3wd0DF6dEGdaT27S-PKpuYu7Hp8xU
@@ -510,7 +541,7 @@ proxies:
   type: vless
   udp: true
   uuid: c6977f74-e620-4748-a2d3-4351a588c659
-- name: 14|US_speednode_0014
+- name: 15|US_speednode_0014
   port: 443
   reality-opts:
     public-key: iv8v94q9qxkMw5WSUc0obloyLVFNTsfyy9Y3FaGlj1k
@@ -523,7 +554,7 @@ proxies:
   udp: true
   uuid: 12cb9911-a48d-4147-85cc-68dd678e94c6
 - flow: xtls-rprx-vision
-  name: 14|US_speednode_0015
+  name: 15|US_speednode_0015
   port: 443
   reality-opts:
     public-key: C7H4Nh55F4B8iHaVHWY6VK562RI6p_t8H7lrX_O8SnQ
@@ -545,60 +576,64 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 9| HK
-  - 14|RU_speednode_0011
-  - 14|DE_speednode_0001
-  - 13|香港|@ripaojiedian
-  - 14|US_speednode_0014
-  - 10|🌀Telegram= @vpn_openet 🌀
-  - 9|SG
-  - 12,13|日本3|@ripaojiedian
-  - 13|台湾|@ripaojiedian
-  - 9|27@oneclickvpnkeys
-  - '9,10|@WedBaZTel #1'
-  - 9|JP
-  - 10|@WedBaZTel
-  - 9|HP71 (5)
-  - 10|All_7--@V2rayAlpha
-  - 14|KR_speednode_0005
-  - '9,10|@V2rayNG3 #1'
-  - 12,13|美国|@ripaojiedian
-  - 9|1
-  - '10|@en_vpn/  '
-  - 9|TW
-  - 12,13|新加坡|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
-  - 14|RU_speednode_0007
-  - 12,13|日本2|@ripaojiedian
-  - 10|telegram @mtmvpn
-  - 9|DE
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 14|RU_speednode_0008
-  - 14|US_speednode_0015
-  - 12,13|日本|@ripaojiedian
-  - 12,13|香港5|@ripaojiedian
-  - 10|configraygan_1
-  - 12,13|日本4|@ripaojiedian
-  - 10|none
-  - 12,13|美国3|@ripaojiedian
-  - 14|IN_speednode_0003
-  - 14|US_speednode_0013
-  - 12,13|香港3|@ripaojiedian
-  - 9|@Trick_mobil
-  - 12,13|香港4|@ripaojiedian
-  - 9|35@oneclickvpnkeys
-  - 9|📤30@oneclickvpnkeys
-  - 14|RU_speednode_0010
-  - 14|JP_speednode_0004
-  - 12|🇹🇼 台湾|@ripaojiedian
-  - 12|tg频道:@ripaojiedian
-  - 9|2
-  - 14|RU_speednode_0009
-  - 10| T.me/V2HUBIR | Join Now ✅️
-  - '10|@V2rayNG3 #3'
-  - 14|HK_speednode_0002
-  - 12,13|美国2|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
+  - 10|📤57@oneclickvpnkeys
+  - 11|none
+  - 13,14|日本|@ripaojiedian
+  - 14|香港|@ripaojiedian
+  - 10|JP
+  - 11|@WedBaZTel
+  - 11|telegram @mtmvpn
+  - 15|IN_speednode_0003
+  - 15|RU_speednode_0007
+  - 10|2
+  - 10|44@oneclickvpnkeys
+  - '11| Telegram: @wiki_tajrobe'
+  - 11|All_7--@V2rayAlpha
+  - 10|35@oneclickvpnkeys
+  - 10|@Trick_mobil
+  - 13,14|日本4|@ripaojiedian
+  - 15|DE_speednode_0001
+  - 10| HK
+  - 10,11|🌀Telegram= @vpn_openet 🌀
+  - 13,14|美国3|@ripaojiedian
+  - 10|1
+  - 15|RU_speednode_0009
+  - 10|📤30@oneclickvpnkeys
+  - '10,11|@WedBaZTel #1'
+  - 13,14|美国2|@ripaojiedian
+  - 15|US_speednode_0014
+  - 13,14|香港3|@ripaojiedian
+  - 13,14|美国|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
+  - 11|کانفیگ ایان = t.me/arisping
+  - 13,14|新加坡2|@ripaojiedian
+  - '10|@Trick_mobil #4'
+  - 15|RU_speednode_0008
+  - 15|US_speednode_0015
+  - 13|🇹🇼 台湾|@ripaojiedian
+  - 13|tg频道:@ripaojiedian
+  - 15|RU_speednode_0011
+  - 13,14|日本3|@ripaojiedian
+  - 14|台湾|@ripaojiedian
+  - 10|DE
+  - 15|US_speednode_0013
+  - 13,14|香港4|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 10|📤27@oneclickvpnkeys
+  - '11|@V2rayNG3 #3'
+  - 10|TW
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 15|JP_speednode_0004
+  - '11|@en_vpn/  '
+  - 13,14|日本2|@ripaojiedian
+  - 10|HP71 (5)
+  - 11|@Spartan_YT
+  - 13,14|香港5|@ripaojiedian
+  - '10,11|@V2rayNG3 #1'
+  - 15|HK_speednode_0002
+  - 15|KR_speednode_0005
+  - 15|RU_speednode_0010
+  - 10|SG
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -654,26 +689,26 @@ proxy-groups:
   type: select
 - name: 🇯🇵 日本
   proxies:
-  - 12,13|日本|@ripaojiedian
-  - 12,13|日本2|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 12,13|日本4|@ripaojiedian
-  - 14|JP_speednode_0004
+  - 13,14|日本|@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
+  - 13,14|日本4|@ripaojiedian
+  - 15|JP_speednode_0004
   type: select
 - name: 🇺🇸 美国
   proxies:
-  - 12,13|美国|@ripaojiedian
-  - 12,13|美国2|@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
-  - 14|US_speednode_0013
-  - 14|US_speednode_0014
-  - 14|US_speednode_0015
+  - 13,14|美国|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
+  - 13,14|美国3|@ripaojiedian
+  - 15|US_speednode_0013
+  - 15|US_speednode_0014
+  - 15|US_speednode_0015
   type: select
 - name: 🇨🇳 台湾
   proxies:
-  - 9|TW
-  - 12|🇹🇼 台湾|@ripaojiedian
-  - 13|台湾|@ripaojiedian
+  - 10|TW
+  - 13|🇹🇼 台湾|@ripaojiedian
+  - 14|台湾|@ripaojiedian
   type: select
 - name: 🇨🇳 中国
   proxies:
@@ -681,13 +716,13 @@ proxy-groups:
   type: select
 - name: 🇭🇰 香港
   proxies:
-  - 9| HK
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 12,13|香港3|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
-  - 12,13|香港5|@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - 14|HK_speednode_0002
+  - 10| HK
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 13,14|香港3|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 13,14|香港5|@ripaojiedian
+  - 14|香港|@ripaojiedian
+  - 15|HK_speednode_0002
   type: select
 - name: 🇨🇦 加拿大
   proxies:
@@ -699,10 +734,10 @@ proxy-groups:
   type: select
 - name: 🇸🇬 新加坡
   proxies:
-  - 9|SG
-  - 12,13|新加坡|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
+  - 10|SG
+  - 13,14|新加坡|@ripaojiedian
+  - 13,14|新加坡2|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
   type: select
 - name: 🇬🇧 英国
   proxies:
@@ -710,20 +745,20 @@ proxy-groups:
   type: select
 - name: 🇰🇷 韩国
   proxies:
-  - 14|KR_speednode_0005
+  - 15|KR_speednode_0005
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
-  - 14|RU_speednode_0007
-  - 14|RU_speednode_0008
-  - 14|RU_speednode_0009
-  - 14|RU_speednode_0010
-  - 14|RU_speednode_0011
+  - 15|RU_speednode_0007
+  - 15|RU_speednode_0008
+  - 15|RU_speednode_0009
+  - 15|RU_speednode_0010
+  - 15|RU_speednode_0011
   type: select
 - name: 🇩🇪 德国
   proxies:
-  - 9|DE
-  - 14|DE_speednode_0001
+  - 10|DE
+  - 15|DE_speednode_0001
   type: select
 rules:
 - MATCH,DIRECT
