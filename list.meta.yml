@@ -1,4 +1,4 @@
-# Update: 2026-02-22 09:10
+# Update: 2026-02-22 12:43
 allow-lan: false
 dns:
   enable: true
@@ -26,10 +26,24 @@ proxies:
   sni: 🔒
   tls: false
   type: hysteria2
+- name: '10|@Trick_mobil #1'
+  password: 5046SHWqk6
+  port: 844
+  server: 91.132.51.160
+  tls: false
+  type: hysteria2
 - name: 10|44@oneclickvpnkeys
   password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
   port: 35000
   server: 129.151.251.122
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  tls: false
+  type: hysteria2
+- name: 10|📤88@oneclickvpnkeys
+  password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
+  port: 35000
+  server: 129.153.25.59
   skip-cert-verify: true
   sni: www.lamer.com.hk
   tls: false
@@ -42,13 +56,13 @@ proxies:
   sni: www.lamer.com.hk
   tls: false
   type: hysteria2
-- name: 10,11|🌀Telegram= @vpn_openet 🌀
+- name: 10|📤38@oneclickvpnkeys
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
   password: 75193bef8d8fe82341e02dd083dc1399
   port: 989
   server: dd.openaccessnode.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: dd.ircybersec.org
   tls: false
   type: hysteria2
@@ -75,7 +89,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|@Trick_mobil #4'
+- name: 10| Hysteria-TLS | @Express_alaki...
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -169,7 +183,7 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: '11|@en_vpn/  '
+- name: 11|@en_vpn/کانفیگ های بیشتر
   password: 80cc3426-ba58-4679-9001-f38778b1d042
   port: 2026
   server: us-loc01.lada.mom
@@ -215,7 +229,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '11| Telegram: @wiki_tajrobe'
+- name: '11| T.me/V2HUBIR | Join Now '
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -576,64 +590,66 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 10|@Trick_mobil
-  - 10|SG
-  - 13,14|香港4|@ripaojiedian
-  - 10|HP71 (5)
-  - 10|📤57@oneclickvpnkeys
-  - 10,11|🌀Telegram= @vpn_openet 🌀
-  - 15|IN_speednode_0003
-  - 10|2
-  - 15|RU_speednode_0011
-  - 13,14|日本3|@ripaojiedian
-  - 10|📤27@oneclickvpnkeys
-  - 10|DE
-  - '10,11|@WedBaZTel #1'
-  - 15|US_speednode_0014
-  - 10|TW
-  - 13,14|新加坡3|@ripaojiedian
-  - 13,14|美国3|@ripaojiedian
-  - 13,14|日本4|@ripaojiedian
-  - 15|HK_speednode_0002
-  - 13,14|日本2|@ripaojiedian
-  - 15|KR_speednode_0005
-  - 11|کانفیگ ایان = t.me/arisping
-  - 11|telegram @mtmvpn
-  - 13,14|日本|@ripaojiedian
-  - 14|台湾|@ripaojiedian
-  - 11|@WedBaZTel
-  - 11|@Spartan_YT
-  - 13|tg频道:@ripaojiedian
-  - '11|@V2rayNG3 #3'
-  - 15|DE_speednode_0001
-  - 13,14|新加坡|@ripaojiedian
-  - 10|35@oneclickvpnkeys
-  - 13,14|香港5|@ripaojiedian
-  - 14|香港|@ripaojiedian
-  - 11|none
   - 10|JP
-  - 15|RU_speednode_0008
+  - 13,14|日本4|@ripaojiedian
+  - 10|📤27@oneclickvpnkeys
   - 15|RU_speednode_0007
-  - '10|@Trick_mobil #4'
-  - 15|US_speednode_0013
   - 13,14|新加坡2|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
-  - 13,14|香港3|@ripaojiedian
-  - '11|@en_vpn/  '
-  - 10| HK
-  - 13|🇹🇼 台湾|@ripaojiedian
+  - 11|@Spartan_YT
   - 15|RU_speednode_0010
-  - 15|RU_speednode_0009
-  - 13,14|美国2|@ripaojiedian
-  - 10|1
-  - '10,11|@V2rayNG3 #1'
-  - 10|📤30@oneclickvpnkeys
+  - 15|US_speednode_0014
+  - 13,14|日本2|@ripaojiedian
   - 11|All_7--@V2rayAlpha
-  - 15|JP_speednode_0004
-  - '11| Telegram: @wiki_tajrobe'
-  - 10|44@oneclickvpnkeys
-  - 13|🇭🇰 香港|@ripaojiedian
+  - '10,11|@V2rayNG3 #1'
   - 15|US_speednode_0015
+  - 15|KR_speednode_0005
+  - 13,14|香港3|@ripaojiedian
+  - '10,11|@WedBaZTel #1'
+  - 10|44@oneclickvpnkeys
+  - 10| HK
+  - 14|香港|@ripaojiedian
+  - 13,14|美国3|@ripaojiedian
+  - 10|TW
+  - 10|📤30@oneclickvpnkeys
+  - 13,14|新加坡|@ripaojiedian
+  - 11|none
+  - 15|RU_speednode_0011
+  - 11|@WedBaZTel
+  - 15|JP_speednode_0004
+  - '10|@Trick_mobil #1'
+  - 14|台湾|@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 13,14|日本|@ripaojiedian
+  - 10|DE
+  - 15|DE_speednode_0001
+  - 10|HP71 (5)
+  - 10|1
+  - '11| T.me/V2HUBIR | Join Now '
+  - 13,14|新加坡3|@ripaojiedian
+  - 13,14|美国|@ripaojiedian
+  - 15|HK_speednode_0002
+  - 15|US_speednode_0013
+  - 15|IN_speednode_0003
+  - '11|@V2rayNG3 #3'
+  - 10|📤88@oneclickvpnkeys
+  - 15|RU_speednode_0009
+  - 10| Hysteria-TLS | @Express_alaki...
+  - 11|کانفیگ ایان = t.me/arisping
+  - 10|35@oneclickvpnkeys
+  - 13|tg频道:@ripaojiedian
+  - 10|@Trick_mobil
+  - 11|@en_vpn/کانفیگ های بیشتر
+  - 10|📤57@oneclickvpnkeys
+  - 10|2
+  - 10|SG
+  - 13,14|香港5|@ripaojiedian
+  - 11|telegram @mtmvpn
+  - 13|🇹🇼 台湾|@ripaojiedian
+  - 15|RU_speednode_0008
+  - 13,14|香港4|@ripaojiedian
+  - 10|📤38@oneclickvpnkeys
   type: fallback
   url: https://www.google.com/
 - interval: 300
