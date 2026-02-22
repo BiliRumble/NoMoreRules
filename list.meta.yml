@@ -1,4 +1,4 @@
-# Update: 2026-02-22 14:34
+# Update: 2026-02-22 17:20
 allow-lan: false
 dns:
   enable: true
@@ -89,16 +89,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 9| Hysteria-TLS | @Express_alaki...
-  obfs: salamander
-  obfs-password: Telegram-->@Ln2Ray
-  password: Telegram-->@Ln2Ray
-  port: 45000
-  server: 206.71.158.23
-  skip-cert-verify: true
-  sni: gavazn.55994421.xyz
-  tls: false
-  type: hysteria2
 - name: '9,10|@WedBaZTel #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -183,14 +173,6 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: 10|@en_vpn/کانفیگ های بیشتر
-  password: 80cc3426-ba58-4679-9001-f38778b1d042
-  port: 2026
-  server: us-loc01.lada.mom
-  skip-cert-verify: false
-  sni: us-loc01.lada.mom
-  tls: false
-  type: hysteria2
 - name: 10|none
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
@@ -221,6 +203,36 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
+- name: 10|未命名
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36300
+  server: 206.71.158.37
+  skip-cert-verify: false
+  sni: YAPC-1.afshin.ir@freenettir
+  tls: false
+  type: hysteria2
+- name: '10|@V2rayBaaz #1'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36600
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '10|未命名 #1'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36600
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir@freenettir
+  tls: false
+  type: hysteria2
 - name: 10|@Spartan_YT
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
   port: 35000
@@ -239,7 +251,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: 10|کانفیگ ایان = t.me/arisping
+- name: 10| یگان = t.me/arisping
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -247,6 +259,16 @@ proxies:
   server: 5.175.249.174
   skip-cert-verify: false
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: '10|未命名 #2'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 5.175.249.174
+  skip-cert-verify: false
+  sni: api.kermanshahi.org@freenettir
   tls: false
   type: hysteria2
 - name: '10|@V2rayNG3 #3'
@@ -590,66 +612,68 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|HK_speednode_0002
-  - 14|DE_speednode_0001
-  - 9|1
-  - 12|🇹🇼 台湾|@ripaojiedian
-  - 10|@en_vpn/کانفیگ های بیشتر
-  - 9|📤27@oneclickvpnkeys
-  - 12,13|香港3|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
-  - 10|کانفیگ ایان = t.me/arisping
-  - 10|@WedBaZTel
-  - 9|2
-  - 9|📤30@oneclickvpnkeys
-  - 9|📤57@oneclickvpnkeys
-  - 12,13|香港5|@ripaojiedian
-  - 14|JP_speednode_0004
-  - 9|JP
-  - 14|US_speednode_0014
-  - 12|🇭🇰 香港|@ripaojiedian
   - 9|DE
-  - 12,13|新加坡3|@ripaojiedian
-  - 9|📤38@oneclickvpnkeys
-  - 12,13|美国2|@ripaojiedian
-  - 13|台湾|@ripaojiedian
   - 9|@Trick_mobil
-  - 10|telegram @mtmvpn
   - 12,13|香港4|@ripaojiedian
-  - 14|RU_speednode_0007
+  - '10|未命名 #2'
+  - 9|1
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 9|📤38@oneclickvpnkeys
+  - 12,13|新加坡3|@ripaojiedian
   - 9|SG
-  - 10|All_7--@V2rayAlpha
-  - 12,13|日本2|@ripaojiedian
-  - 9|44@oneclickvpnkeys
-  - 12,13|日本4|@ripaojiedian
-  - 14|RU_speednode_0009
-  - 14|RU_speednode_0010
-  - 9|TW
-  - 12,13|美国3|@ripaojiedian
-  - '10|@V2rayNG3 #3'
-  - 12,13|日本|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 14|US_speednode_0015
-  - 9|HP71 (5)
-  - 9| Hysteria-TLS | @Express_alaki...
-  - 14|KR_speednode_0005
-  - 13|香港|@ripaojiedian
-  - '9,10|@V2rayNG3 #1'
-  - 9|35@oneclickvpnkeys
-  - '10| T.me/V2HUBIR | Join Now '
-  - 12,13|美国|@ripaojiedian
-  - 14|RU_speednode_0011
-  - 9| HK
-  - 12|tg频道:@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
+  - 10|@WedBaZTel
+  - 12,13|美国2|@ripaojiedian
   - 14|IN_speednode_0003
-  - 10|@Spartan_YT
-  - 10|none
-  - 9|📤88@oneclickvpnkeys
+  - 10| یگان = t.me/arisping
+  - 12|tg频道:@ripaojiedian
+  - 14|RU_speednode_0010
+  - 14|RU_speednode_0011
   - '9,10|@WedBaZTel #1'
-  - 14|US_speednode_0013
-  - '9|@Trick_mobil #1'
+  - 9|📤57@oneclickvpnkeys
+  - 13|香港|@ripaojiedian
+  - '10|@V2rayNG3 #3'
+  - 14|US_speednode_0015
+  - 9|TW
+  - 9| HK
+  - 9|JP
+  - '10|@V2rayBaaz #1'
+  - 12,13|日本|@ripaojiedian
+  - 12,13|新加坡|@ripaojiedian
+  - 10|none
+  - '9,10|@V2rayNG3 #1'
+  - 12|🇹🇼 台湾|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 14|HK_speednode_0002
+  - 10|未命名
+  - 9|📤30@oneclickvpnkeys
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|DE_speednode_0001
   - 14|RU_speednode_0008
+  - 12,13|日本3|@ripaojiedian
+  - 12,13|美国|@ripaojiedian
+  - '9|@Trick_mobil #1'
+  - 10|telegram @mtmvpn
+  - 10|@Spartan_YT
+  - 14|JP_speednode_0004
+  - '10| T.me/V2HUBIR | Join Now '
+  - 9|2
+  - 9|35@oneclickvpnkeys
+  - '10|未命名 #1'
+  - 12,13|日本2|@ripaojiedian
+  - 12,13|香港5|@ripaojiedian
+  - 9|📤88@oneclickvpnkeys
+  - 12,13|日本4|@ripaojiedian
+  - 9|HP71 (5)
+  - 14|US_speednode_0014
+  - 13|台湾|@ripaojiedian
+  - 14|RU_speednode_0007
+  - 10|All_7--@V2rayAlpha
+  - 14|KR_speednode_0005
+  - 9|📤27@oneclickvpnkeys
+  - 14|RU_speednode_0009
+  - 14|US_speednode_0013
+  - 9|44@oneclickvpnkeys
+  - 12,13|香港3|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -705,6 +729,7 @@ proxy-groups:
   type: select
 - name: 🇯🇵 日本
   proxies:
+  - 9|JP
   - 12,13|日本|@ripaojiedian
   - 12,13|日本2|@ripaojiedian
   - 12,13|日本3|@ripaojiedian
