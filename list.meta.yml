@@ -1,4 +1,4 @@
-# Update: 2026-02-23 09:09
+# Update: 2026-02-23 12:51
 allow-lan: false
 dns:
   enable: true
@@ -26,7 +26,21 @@ proxies:
   sni: 🔒
   tls: false
   type: hysteria2
+- name: 10|🪢98@oneclickvpnkeys
+  password: 1y4HweESOT
+  port: 27995
+  server: sss.ikun6.dpdns.org
+  skip-cert-verify: true
+  sni: azure.microsoft.com
+  tls: false
+  type: hysteria2
 - name: '10|@Trick_mobil #1'
+  password: 5046SHWqk6
+  port: 844
+  server: 91.132.51.160
+  tls: false
+  type: hysteria2
+- name: '10|@Trick_mobil #2'
   password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
   port: 35000
   server: 129.151.251.122
@@ -34,7 +48,7 @@ proxies:
   sni: www.lamer.com.hk
   tls: false
   type: hysteria2
-- name: 10|88@oneclickvpnkeys
+- name: '10|@Trick_mobil #3'
   password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
   port: 35000
   server: 129.153.25.59
@@ -123,6 +137,15 @@ proxies:
   server: tw.oomz.ru
   skip-cert-verify: true
   sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '11|@V2rayBaaz #1'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
+  password: 75193bef8d8fe82341e02dd083dc1399
+  port: 989
+  server: dd.openaccessnode.com
+  sni: dd.ircybersec.org
   tls: false
   type: hysteria2
 - name: 11|none
@@ -563,62 +586,65 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13,14|日本2|@ripaojiedian
-  - 13,14|美国3|@ripaojiedian
-  - 11|کان رایگان = t.me/arisping
-  - '11|@WedBaZTel #3'
-  - '11|@Hddify #3'
-  - 15|KR_speednode_0005
-  - 10|SG
-  - 13,14|美国|@ripaojiedian
-  - '11|@WedBaZTel #1'
-  - 15|US_speednode_0013
-  - 14|印度|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - 15|RU_speednode_0011
-  - '10,11|@WedBaZTel #2'
-  - 10|1
-  - '11| Telegram: @wiki_tajrobe'
   - 15|HK_speednode_0002
-  - 13|tg频道:@ripaojiedian
-  - 13|🇹🇼 台湾|@ripaojiedian
-  - 15|RU_speednode_0007
   - 15|JP_speednode_0004
-  - '11|@V2rayNG3 #3'
-  - 10|@Trick_mobil
-  - 14|台湾|@ripaojiedian
-  - 13,14|日本4|@ripaojiedian
-  - 15|RU_speednode_0010
-  - 10|TW
-  - '11|کانال تلگرام : ConfigV2RayNG@'
-  - 15|RU_speednode_0008
-  - 13,14|日本3|@ripaojiedian
-  - 14|香港|@ripaojiedian
   - 15|RU_speednode_0009
-  - 10|HP71 (5)
-  - 13,14|香港4|@ripaojiedian
-  - 13,14|日本|@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 15|US_speednode_0014
-  - 10|DE
-  - 10|88@oneclickvpnkeys
-  - 13|🇮🇳 印度|@ripaojiedian
   - 13,14|美国2|@ripaojiedian
-  - '10,11|@V2rayNG3 #1'
-  - 15|DE_speednode_0001
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 10|JP
-  - 13,14|新加坡3|@ripaojiedian
-  - 15|IN_speednode_0003
-  - 15|US_speednode_0015
-  - '10|@Trick_mobil #1'
-  - 11|none
-  - 10|2
+  - 15|KR_speednode_0005
   - 11|All_7--@V2rayAlpha
-  - 10| HK
-  - 11|@Spartan_YT
+  - 10|DE
+  - 10|HP71 (5)
+  - '10|@Trick_mobil #1'
+  - 13,14|新加坡3|@ripaojiedian
+  - 13,14|日本4|@ripaojiedian
+  - '11|@V2rayNG3 #3'
+  - 13,14|日本3|@ripaojiedian
   - 13,14|香港3|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 10|JP
+  - 15|RU_speednode_0010
+  - 11|@Spartan_YT
+  - '10,11|@WedBaZTel #2'
+  - '10|@Trick_mobil #3'
+  - '11|@WedBaZTel #3'
+  - 13|🇮🇳 印度|@ripaojiedian
+  - 15|US_speednode_0014
+  - 10| HK
+  - '11| Telegram: @wiki_tajrobe'
+  - 11|کان رایگان = t.me/arisping
+  - 13,14|日本2|@ripaojiedian
+  - 13|tg频道:@ripaojiedian
+  - 10|TW
+  - '10,11|@V2rayNG3 #1'
+  - '11|@V2rayBaaz #1'
+  - 10|🪢98@oneclickvpnkeys
+  - 10|SG
+  - 13,14|美国3|@ripaojiedian
+  - 10|@Trick_mobil
+  - 10|2
+  - 11|none
+  - 15|RU_speednode_0011
+  - '11|@WedBaZTel #1'
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 13|🇹🇼 台湾|@ripaojiedian
+  - 15|DE_speednode_0001
+  - 10|1
+  - 13,14|香港5|@ripaojiedian
+  - 15|RU_speednode_0007
+  - 15|US_speednode_0013
+  - 15|RU_speednode_0008
   - 13,14|新加坡2|@ripaojiedian
+  - 15|IN_speednode_0003
+  - 13,14|美国|@ripaojiedian
+  - '10|@Trick_mobil #2'
+  - 15|US_speednode_0015
+  - 14|印度|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 14|香港|@ripaojiedian
+  - 14|台湾|@ripaojiedian
+  - '11|@Hddify #3'
+  - 13,14|日本|@ripaojiedian
+  - '11|کانال تلگرام : ConfigV2RayNG@'
   type: fallback
   url: https://www.google.com/
 - interval: 300
