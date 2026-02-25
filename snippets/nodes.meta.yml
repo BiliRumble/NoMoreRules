@@ -1,5 +1,5 @@
 proxies:
-- name: 10|🥾65@oneclickvpnkeys
+- name: 10|65@oneclickvpnkeys
   password: 0b8a288c
   port: 65160
   server: 107.174.181.241
@@ -7,7 +7,7 @@ proxies:
   sni: en.snu.ac.kr
   tls: false
   type: hysteria2
-- name: 10|@Trick_mobil
+- name: '10|@Trick_mobil #1'
   password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
   port: 1743
   server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk
@@ -15,7 +15,7 @@ proxies:
   sni: ''
   tls: false
   type: hysteria2
-- name: '10|@Trick_mobil #1'
+- name: '10|@Trick_mobil #2'
   password: 1y4HweESOT
   port: 27995
   server: sss.ikun6.dpdns.org
@@ -80,16 +80,6 @@ proxies:
   port: 13778
   server: jp7.dexlos.com
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '10,11|@Hddify #1'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36400
-  server: 206.71.158.37
-  skip-cert-verify: true
-  sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
 - name: 10|DE
@@ -167,6 +157,16 @@ proxies:
   port: 36300
   server: 206.71.158.37
   skip-cert-verify: false
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '11|@Hddify #1'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36400
+  server: 206.71.158.37
+  skip-cert-verify: true
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
