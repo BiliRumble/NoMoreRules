@@ -1,4 +1,4 @@
-# Update: 2026-02-25 05:24
+# Update: 2026-02-25 09:14
 allow-lan: false
 dns:
   enable: true
@@ -284,25 +284,25 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 13,14|香港3|@ripaojiedian
   network: tcp
-  password: 64a59181551b5773e390bd717a7b7c06
+  password: 262f1d150049457ac1d6e66b020fa980
   port: 4856
-  server: 54.199.253.251
+  server: 13.114.51.135
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 54548
-  server: 43.198.227.190
+  port: 504
+  server: 16.162.118.238
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 504
-  server: 18.163.116.51
+  port: 3292
+  server: 43.198.185.201
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -310,88 +310,79 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 2595
-  server: 54.250.16.92
+  server: 3.112.214.167
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
-  password: 64a59181551b5773e390bd717a7b7c06
-  port: 3423
-  server: 13.192.169.14
+  password: 262f1d150049457ac1d6e66b020fa980
+  port: 193
+  server: 160.16.138.24
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
-  password: 64a59181551b5773e390bd717a7b7c06
+  password: 262f1d150049457ac1d6e66b020fa980
   port: 3423
-  server: 153.121.45.139
+  server: 43.207.87.46
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
-  password: 64a59181551b5773e390bd717a7b7c06
+  password: 262f1d150049457ac1d6e66b020fa980
   port: 3901
-  server: 52.197.219.10
+  server: 57.181.39.159
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡2|@ripaojiedian
   network: tcp
-  password: 64a59181551b5773e390bd717a7b7c06
+  password: 262f1d150049457ac1d6e66b020fa980
   port: 3419
-  server: 160.16.132.38
+  server: 160.16.85.33
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 15363
-  server: 43.198.227.190
+  port: 52951
+  server: 43.198.17.4
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|美国|@ripaojiedian
   network: tcp
-  password: 64a59181551b5773e390bd717a7b7c06
-  port: 4920
-  server: 54.150.231.83
+  password: 262f1d150049457ac1d6e66b020fa980
+  port: 1281
+  server: 160.16.68.250
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
-  password: 64a59181551b5773e390bd717a7b7c06
-  port: 1281
-  server: 54.238.209.205
+  password: 262f1d150049457ac1d6e66b020fa980
+  port: 4920
+  server: 13.231.123.180
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 50446
-  server: 43.198.227.190
+  port: 45285
+  server: 16.162.118.238
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
   name: 13|🇮🇳 印度|@ripaojiedian
-  port: 11973
-  server: board-04.ddnskunlun.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- alterId: 0
-  cipher: auto
-  name: 13|🇺🇸 美国4|@ripaojiedian
-  port: 9028
-  server: select-us.ddnskunlun.com
+  port: 11929
+  server: board-01.ddnskunlun.com
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -410,18 +401,8 @@ proxies:
   cipher: auto
   name: 14|印度|@ripaojiedian
   network: tcp
-  port: '11973'
-  server: board-04.ddnskunlun.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- alterId: 0
-  cipher: auto
-  name: 14|美国4|@ripaojiedian
-  network: tcp
-  port: '9028'
-  server: select-us.ddnskunlun.com
+  port: '11929'
+  server: board-01.ddnskunlun.com
   servername: ''
   tls: false
   type: vmess
@@ -713,75 +694,73 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 15|BY_speednode_0001
-  - 14|美国4|@ripaojiedian
-  - 11|All_7--@V2rayAlpha
-  - 10|2
-  - 13,14|新加坡2|@ripaojiedian
-  - 15|FR_speednode_0006
-  - 11|کانیگ رایگان = t.me/arisping
-  - 15|US_speednode_0024
-  - 15|RU_speednode_0019
-  - 15|NL_speednode_0016
-  - 15|SI_speednode_0020
-  - 11|elegram"@Filtering2020"
-  - 10| HK
-  - 13,14|美国|@ripaojiedian
-  - 13,14|日本3|@ripaojiedian
-  - '11|@V2rayNG3 #3'
-  - 10|🥾65@oneclickvpnkeys
-  - 10|1
-  - 13|🇺🇸 美国4|@ripaojiedian
-  - 14|印度|@ripaojiedian
-  - 10|@Trick_mobil
-  - '10,11|@Hddify #1'
-  - 15|KR_speednode_0014
-  - 11|@Spartan_YT
-  - 13,14|日本2|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
-  - 15|US_speednode_0021
-  - 13,14|香港3|@ripaojiedian
-  - 10|HP71 (5)
-  - 15|FR_speednode_0010
-  - 10|66@oneclickvpnkeys
-  - 15|NL_speednode_0017
-  - 15|US_speednode_0023
-  - 13,14|香港4|@ripaojiedian
-  - 11|@Hddify
-  - '11| Telegram: @wiki_tajrobe'
-  - 10|🥾61@oneclickvpnkeys
-  - 13,14|新加坡|@ripaojiedian
-  - 13,14|新加坡3|@ripaojiedian
-  - '11|@WedBaZTel #1'
-  - '10,11|@V2rayNG3 #1'
-  - 15|CH_speednode_0003
-  - 13,14|日本|@ripaojiedian
-  - 10|TW
-  - 15|RU_speednode_0018
-  - 13,14|美国2|@ripaojiedian
-  - 10|DE
-  - 13,14|香港5|@ripaojiedian
-  - 15|CY_speednode_0004
-  - 15|GB_speednode_0011
-  - 13|🇮🇳 印度|@ripaojiedian
-  - 10|JP
-  - 15|CH_speednode_0002
-  - '10|@Trick_mobil #1'
-  - 13|🇭🇰 香港|@ripaojiedian
-  - '11|@FarazV2ray #1'
-  - 10|🥾63@oneclickvpnkeys
-  - 10|🥾60@oneclickvpnkeys
-  - 15|IQ_speednode_0013
-  - '11|@Hddify #3'
   - 15|FR_speednode_0007
-  - 15|NL_speednode_0015
-  - 14|香港|@ripaojiedian
-  - 15|FR_speednode_0009
+  - 13|tg频道:@ripaojiedian
+  - 13,14|新加坡2|@ripaojiedian
+  - 10|2
+  - 13,14|美国3|@ripaojiedian
+  - 10|TW
+  - 15|CH_speednode_0003
+  - '10,11|@V2rayNG3 #1'
+  - 10|SG
+  - 15|GB_speednode_0011
+  - 11|elegram"@Filtering2020"
+  - 15|NL_speednode_0016
+  - 13|🇮🇳 印度|@ripaojiedian
+  - 10|1
+  - 10|HP71 (5)
+  - 11|@Spartan_YT
+  - 11|کانیگ رایگان = t.me/arisping
   - 15|DE_speednode_0005
   - 15|FR_speednode_0008
+  - 15|RU_speednode_0019
+  - 15|US_speednode_0021
+  - 13,14|日本3|@ripaojiedian
+  - 14|香港|@ripaojiedian
+  - 15|KR_speednode_0014
+  - '11|@V2rayNG3 #3'
+  - 13,14|美国|@ripaojiedian
+  - 15|CH_speednode_0002
+  - 13,14|香港4|@ripaojiedian
+  - 11|@Hddify
+  - 15|US_speednode_0023
+  - 10|66@oneclickvpnkeys
+  - '11|@WedBaZTel #1'
+  - 13,14|日本|@ripaojiedian
+  - 15|NL_speednode_0017
+  - 10|@Trick_mobil
+  - 10| HK
+  - 15|BY_speednode_0001
+  - 15|RU_speednode_0018
+  - 10|🥾63@oneclickvpnkeys
+  - 15|CY_speednode_0004
+  - 13,14|新加坡3|@ripaojiedian
+  - 15|FR_speednode_0006
+  - 13,14|日本2|@ripaojiedian
+  - 10|🥾65@oneclickvpnkeys
+  - '10|@Trick_mobil #1'
+  - 11|All_7--@V2rayAlpha
+  - '11|@Hddify #3'
+  - 13,14|美国2|@ripaojiedian
+  - 15|FR_speednode_0010
+  - 10|🥾61@oneclickvpnkeys
+  - 15|US_speednode_0024
+  - '10,11|@Hddify #1'
+  - 13,14|新加坡|@ripaojiedian
+  - 15|NL_speednode_0015
+  - 10|🥾60@oneclickvpnkeys
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 15|FR_speednode_0009
+  - '11|@FarazV2ray #1'
+  - 15|SI_speednode_0020
+  - 10|JP
   - 10|🥾59@oneclickvpnkeys
-  - 10|SG
-  - 13,14|美国3|@ripaojiedian
+  - '11| Telegram: @wiki_tajrobe'
+  - 10|DE
+  - 13,14|香港3|@ripaojiedian
+  - 13,14|香港5|@ripaojiedian
+  - 15|IQ_speednode_0013
+  - 14|印度|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -847,8 +826,6 @@ proxy-groups:
   - 13,14|美国|@ripaojiedian
   - 13,14|美国2|@ripaojiedian
   - 13,14|美国3|@ripaojiedian
-  - 13|🇺🇸 美国4|@ripaojiedian
-  - 14|美国4|@ripaojiedian
   - 15|US_speednode_0021
   - 15|US_speednode_0023
   - 15|US_speednode_0024
