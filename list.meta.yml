@@ -1,4 +1,4 @@
-# Update: 2026-02-26 23:42
+# Update: 2026-02-27 02:37
 allow-lan: false
 dns:
   enable: true
@@ -18,7 +18,7 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 10|65@oneclickvpnkeys
+- name: 10|@Trick_mobil
   password: 0b8a288c
   port: 65160
   server: 107.174.181.241
@@ -34,7 +34,7 @@ proxies:
   sni: ''
   tls: false
   type: hysteria2
-- name: 10|🥾59@oneclickvpnkeys
+- name: '10|@Trick_mobil #2'
   obfs: salamander
   obfs-password: 2g7feub2
   password: 4E8F0CEC-DF1E-4876-8897-56B7CED64D05
@@ -44,7 +44,7 @@ proxies:
   sni: ops-tyo.dexlos.com
   tls: false
   type: hysteria2
-- name: 10|🥾61@oneclickvpnkeys
+- name: '10|@Trick_mobil #3'
   obfs: salamander
   obfs-password: 2g7feub2
   password: 4E8F0CEC-DF1E-4876-8897-56B7CED64D05
@@ -54,7 +54,7 @@ proxies:
   sni: ops-tyo.dexlos.com
   tls: false
   type: hysteria2
-- name: 10|🥾63@oneclickvpnkeys
+- name: '10|@Trick_mobil #4'
   password: 5046SHWqk6
   port: 844
   server: 91.132.51.160
@@ -74,16 +74,6 @@ proxies:
   server: xjp1.mangshe.xyz
   skip-cert-verify: true
   sni: xjp1.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 10|🥾60@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: 2g7feub2
-  password: 81206489-BD9D-4916-B1F4-D1554689EEA5
-  port: 443
-  server: 160.16.104.77
-  skip-cert-verify: true
-  sni: ops-tyo.dexlos.com
   tls: false
   type: hysteria2
 - name: 10|JP
@@ -108,13 +98,12 @@ proxies:
   sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '10,11|ا ا : Free_VPN_CH@'
+- name: 10|HP71 (5)
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
   port: 35000
   server: 206.71.158.40
-  skip-cert-verify: false
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
@@ -126,14 +115,6 @@ proxies:
   server: 206.71.158.41
   skip-cert-verify: true
   sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 10|66@oneclickvpnkeys
-  password: dMqSvWDoY0h8wJA4H7ZWJDFLDLF52065
-  port: 8443
-  server: 43.153.7.213
-  skip-cert-verify: true
-  sni: bing.com
   tls: false
   type: hysteria2
 - name: 10|SG
@@ -152,10 +133,28 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: '10,11|@Golestan_VPN - '
+  password: germany_hysteria2_fastlane_5devbouui
+  port: 443
+  server: 150.241.79.106
+  skip-cert-verify: true
+  sni: de2.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
 - name: 10|1@oneclickvpnkeys
   password: zhangyang
   port: 6443
   server: 130.61.50.75
+  tls: false
+  type: hysteria2
+- name: 11|🩵+@Azarakhsh_Proxy+🩷
+  obfs: salamander
+  obfs-password: KevinZakarian
+  password: KevinZakarian
+  port: 8443
+  server: 179.61.132.96
+  skip-cert-verify: true
+  sni: 179.61.132.96
   tls: false
   type: hysteria2
 - name: 11|All_7--@V2rayAlpha
@@ -168,34 +167,35 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 11|@Hddify
+- name: 11|@VPNFARDAD
   obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36300
-  server: 206.71.158.37
+  obfs-password: cBmQKpbjFLXRD00Gxam3OOklIs6
+  password: a336317d-834f-4571-aca8-f9aa4a8b9d38
+  port: 41086
+  server: 188.166.71.213
+  skip-cert-verify: true
+  sni: 188.166.71.213
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: 11| 𝑒𝑟 ♨️@Free_World2
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 181.214.99.162
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: '11|کانال تلگرام : Free_VPN_CH@'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 181.214.99.162
   skip-cert-verify: false
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: '11|@Hddify #1'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36400
-  server: 206.71.158.37
-  skip-cert-verify: true
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: '11|Channel id: @Argo_VPN1 '
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36600
-  server: 206.71.158.37
-  skip-cert-verify: true
-  sni: YAPC-1.afshin.ir
+  sni: api.kermanshahi.org
   tls: false
   type: hysteria2
 - name: '11|@V2rayNG3 #2'
@@ -210,17 +210,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '11|کانال تلگرام : Free_VPN_CH@'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 5.175.249.174
-  skip-cert-verify: false
-  sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: '11|کانال تلگرام : Free_VPN_CH@ #1'
+  name: '11|کانال تلگرام : Free_VPN_CH@ #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -231,6 +221,16 @@ proxies:
   tls: false
   type: hysteria2
 - name: '11|کانال تلگرام : Free_VPN_CH@ #2'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 5.175.249.174
+  skip-cert-verify: false
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: '11|کانال تلگرام : Free_VPN_CH@ #3'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -250,8 +250,8 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '11|@Golestan_VPN - '
-  password: germany_hysteria2_fastlane_5devbouui
+- name: 11| T.me/V2HUBIR | Join Now ✅️
+  password: germany_hysteria2_fastlane_wxue2k6d6
   port: 443
   server: 150.241.79.106
   skip-cert-verify: true
@@ -860,83 +860,83 @@ proxy-groups:
   name: ♻ 自动选择
   proxies: &id001
   - 13,14|美国3|@ripaojiedian
-  - '11|@V2rayNG3 #3'
-  - 15|US_speednode_0024
-  - 10|65@oneclickvpnkeys
-  - 13|🇭🇰 香港|@ripaojiedian
+  - '11|کانال تلگرام : Free_VPN_CH@ #3'
   - 10|JP
-  - 15|US_speednode_0019
-  - 14|波兰|@ripaojiedian
-  - 14|香港|@ripaojiedian
-  - 10|SG
-  - 10|1@oneclickvpnkeys
-  - 13,14|日本|@ripaojiedian
-  - 13,14|日本3|@ripaojiedian
-  - '11|کانال تلگرام : Free_VPN_CH@ #1'
-  - 15|RU_speednode_0013
-  - 15|US_speednode_0036
-  - 15|KR_speednode_0011
-  - 15|FI_speednode_0004
-  - 11|@Hddify
-  - 13,14|新加坡|@ripaojiedian
-  - 15|US_speednode_0026
-  - 15|US_speednode_0039
   - 15|US_speednode_0037
-  - 10|🥾60@oneclickvpnkeys
-  - 15|US_speednode_0030
-  - 15|US_speednode_0025
-  - 13,14|新加坡3|@ripaojiedian
-  - 11|All_7--@V2rayAlpha
+  - '11|کانال تلگرام : Free_VPN_CH@ #1'
+  - 13|tg频道:@ripaojiedian
+  - 15|US_speednode_0033
+  - 10|TW
+  - 15|BY_speednode_0001
+  - 13,14|新加坡2|@ripaojiedian
+  - 15|FR_speednode_0005
+  - 13,14|香港3|@ripaojiedian
   - 10|2
-  - '10,11|ا ا : Free_VPN_CH@'
-  - '11|کانال تلگرام : Free_VPN_CH@ #2'
-  - '11|کانال تلگرام : Free_VPN_CH@'
   - 15|US_speednode_0020
-  - 15|US_speednode_0028
-  - '11|Channel id: @Argo_VPN1 '
+  - 15|US_speednode_0021
+  - 13,14|日本2|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 15|US_speednode_0027
+  - 15|GR_speednode_0009
+  - 10|HP71 (5)
+  - 10|SG
+  - 15|RU_speednode_0012
+  - '11|کانال تلگرام : Free_VPN_CH@ #2'
+  - '10|@Trick_mobil #3'
+  - 15|GB_speednode_0007
+  - 15|US_speednode_0035
   - 15|US_speednode_0029
-  - 15|RU_speednode_0015
+  - 10|@Trick_mobil
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 15|US_speednode_0032
+  - 13,14|香港4|@ripaojiedian
+  - 11|@VPNFARDAD
+  - 15|US_speednode_0034
+  - '10|@Trick_mobil #4'
+  - 15|US_speednode_0039
+  - 15|IQ_speednode_0010
+  - '11|کانال تلگرام : Free_VPN_CH@'
+  - 10|1
+  - '11|@V2rayNG3 #2'
+  - '10|@Trick_mobil #1'
+  - 13,14|日本|@ripaojiedian
+  - 15|US_speednode_0026
+  - 10|DE
+  - '10,11|@Golestan_VPN - '
+  - '10|@Trick_mobil #2'
+  - 13,14|香港5|@ripaojiedian
+  - 15|SC_speednode_0017
+  - 15|KR_speednode_0011
+  - 11| 𝑒𝑟 ♨️@Free_World2
+  - 15|US_speednode_0036
   - 10| HK
   - 15|US_speednode_0031
-  - 10|DE
-  - '10|@Trick_mobil #1'
-  - 15|FR_speednode_0005
-  - 15|US_speednode_0027
-  - 15|BY_speednode_0001
   - 15|US_speednode_0022
-  - 10|1
-  - 15|IQ_speednode_0010
-  - 13,14|新加坡2|@ripaojiedian
-  - 15|GB_speednode_0007
-  - 13,14|日本2|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
-  - 13,14|香港3|@ripaojiedian
-  - '11|@V2rayNG3 #2'
-  - 13,14|香港5|@ripaojiedian
-  - 15|RU_speednode_0012
-  - 14|美国4|@ripaojiedian
-  - 15|SC_speednode_0017
-  - 15|US_speednode_0038
-  - '11|@Golestan_VPN - '
+  - 13,14|日本3|@ripaojiedian
+  - 15|US_speednode_0030
   - 13|🇺🇸 美国4|@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
-  - 15|US_speednode_0035
-  - 15|RU_speednode_0016
-  - 15|US_speednode_0034
-  - 10|66@oneclickvpnkeys
-  - 10|TW
-  - 10|🥾61@oneclickvpnkeys
-  - '10,11| Telegram: @wiki_tajrobe'
-  - 13|tg频道:@ripaojiedian
+  - 14|美国4|@ripaojiedian
+  - 15|US_speednode_0024
+  - 15|RU_speednode_0013
+  - 14|波兰|@ripaojiedian
+  - 15|US_speednode_0025
+  - 11| T.me/V2HUBIR | Join Now ✅️
+  - 13,14|新加坡3|@ripaojiedian
+  - 15|FI_speednode_0004
+  - 15|US_speednode_0028
   - 13,14|美国2|@ripaojiedian
+  - '11|@V2rayNG3 #3'
+  - 11|🩵+@Azarakhsh_Proxy+🩷
+  - 14|香港|@ripaojiedian
+  - 15|RU_speednode_0016
+  - '10,11| Telegram: @wiki_tajrobe'
+  - 11|All_7--@V2rayAlpha
+  - 15|RU_speednode_0015
+  - 10|1@oneclickvpnkeys
   - 13|🇵🇱 波兰|@ripaojiedian
-  - 15|US_speednode_0032
-  - 10|🥾63@oneclickvpnkeys
-  - 15|US_speednode_0021
-  - 10|🥾59@oneclickvpnkeys
-  - 15|GR_speednode_0009
-  - '11|@Hddify #1'
-  - 15|US_speednode_0033
+  - 15|US_speednode_0019
+  - 13,14|美国|@ripaojiedian
+  - 15|US_speednode_0038
   type: fallback
   url: https://www.google.com/
 - interval: 300
