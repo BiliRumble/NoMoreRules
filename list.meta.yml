@@ -1,4 +1,4 @@
-# Update: 2026-02-28 23:11
+# Update: 2026-03-01 02:17
 allow-lan: false
 dns:
   enable: true
@@ -97,7 +97,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '10,11| Telegram: @wiki_tajrobe'
+- name: '10,11|@V2rayNG3 #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -123,12 +123,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 10|🍪4@oneclickvpnkeys
-  password: zhangyang
-  port: 6443
-  server: 130.61.50.75
-  tls: false
-  type: hysteria2
 - name: 11|🩵+@Azarakhsh_Proxy+🩷
   obfs: salamander
   obfs-password: KevinZakarian
@@ -149,6 +143,16 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
+- name: 11|13@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36400
+  server: yapc-1.adamhayward.co.uk
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
 - name: 11|@VPNFARDAD
   obfs: salamander
   obfs-password: cBmQKpbjFLXRD00Gxam3OOklIs6
@@ -159,15 +163,7 @@ proxies:
   sni: 188.166.71.213
   tls: false
   type: hysteria2
-- name: '11|/@en_vpn/  '
-  password: ad49d6ea-c453-4a2e-b36a-2b71a3e0ed12
-  port: 65535
-  server: 132.145.28.17
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: 11|@en_vpn/کانفیگ های بیشتر
+- name: '11|@en_vpn/  '
   password: ad49d6ea-c453-4a2e-b36a-2b71a3e0ed12
   port: 50000
   server: 139.185.32.100
@@ -213,16 +209,6 @@ proxies:
   sni: api.kermanshahi.org@freenettir
   tls: false
   type: hysteria2
-- name: '11|@V2rayng_Fast #2'
-  obfs: salamander
-  obfs-password: '@Jvi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 5.175.249.174
-  skip-cert-verify: true
-  sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   name: '11|کانال تلگرام : Free_VPN_CH@ #1'
@@ -243,24 +229,6 @@ proxies:
   server: 77.90.41.197
   skip-cert-verify: true
   sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 11|@i10VPN 🚀|  م متصل ب⚡
-  password: germany_hysteria2_fastlane_wxue2k6d6
-  port: 443
-  server: 150.241.79.106
-  skip-cert-verify: true
-  sni: de2.h.fastlanehosting.ru
-  tls: false
-  type: hysteria2
-- name: 11|🇬🇧 T.Me/V2RayyNGvpn 🇬🇧
-  obfs: salamander
-  obfs-password: V2RayyNGvpn$KroukyGod
-  password: qLLWHkBP8O
-  port: 443
-  server: 212.74.39.26
-  skip-cert-verify: true
-  sni: www.refersion.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -396,273 +364,83 @@ proxies:
   type: vless
   udp: true
   uuid: 899251ca-be66-4d21-84d8-bd7fbf10150b
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15|BG_speednode_0002
-  port: 443
+- name: 15|BG_speednode_0002
+  port: 55057
   reality-opts:
-    public-key: juH5xrivuMuDd3Qp_P-CTHfvnQIVetUgDe7XwpJvLkE
-    short-id: a56b26c2
-  server: 178.239.122.108
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ec5796b3-678b-4b11-9c1d-a53171dfd897
-- flow: xtls-rprx-vision
-  name: 15|FR_speednode_0004
-  port: 443
-  reality-opts:
-    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
-    short-id: 4fa44664f6a566d3
-  server: 185.171.202.58
-  servername: fran.scroogethebest.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
-- name: 15|FR_speednode_0005
-  port: 61873
-  reality-opts:
-    public-key: wEU32qHhiQq-FDYUvuEl7_HAM6r5nDh6M4F8WGnEhjE
-    short-id: 34d8e80d8fa40501
-  server: 45.95.233.85
+    public-key: uSzNQq_GJZGbq4SHtEsqBY93C2acsM-K-QACZC-J6Eo
+    short-id: aa5f8562357295ff
+  server: 87.120.219.99
   servername: yandex.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 8b8f4dfb-cd48-4dab-bb75-b304971176cd
-- name: 15|GB_speednode_0006
-  port: 443
-  reality-opts:
-    public-key: kWxGUQ6QtaU-SCCt8Ht-POUPS6Ue6w-KyHjxb1AYQ1w
-    short-id: 2e0f
-  server: 217.154.38.156
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a8391ef-383c-4321-ac25-89b50973ab73
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15|GB_speednode_0008
-  port: 443
-  reality-opts:
-    public-key: 2HWC3TKZmYDORsrGqTTOITNFBp6ANhwgERK6lPcVbic
-    short-id: ecd1c97d
-  server: 195.20.17.182
-  servername: www.python.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ec5796b3-678b-4b11-9c1d-a53171dfd897
-- name: 15|GR_speednode_0009
-  port: 443
-  reality-opts:
-    public-key: 2Z2meC9rRAMD3k52ne8dh8PdfRNpOs5T9yObPyFkXyQ
-    short-id: f9fe
-  server: 185.234.57.216
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b824f264-8cc3-4669-9f60-47b51ed1aa11
-- name: 15|IQ_speednode_0011
-  port: 56864
-  reality-opts:
-    public-key: AIt19ZFk_JxCvW7OOwUn4mhE_1alZJlNj-xnQOpPZCI
-    short-id: 2e3c82922ef98049
-  server: 93.94.51.19
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 87580984-c2ef-4f44-9c7e-0b216f99aa87
+  uuid: 5d837e94-967d-43a8-8e36-440ddfa4fd15
 - flow: xtls-rprx-vision
-  name: 15|LT_speednode_0012
-  port: 23335
-  reality-opts:
-    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
-    short-id: 67b1e94e4dd1ef90
-  server: 7.cdnconn.com
-  servername: icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
-- flow: xtls-rprx-vision
-  name: 15|NL_speednode_0013
+  name: 15|LB_speednode_0009
   port: 443
   reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: 86e999a2cdc2
-  server: nl04-vlr01.tcp-reset-club.net
-  servername: hls-svod.itunes.apple.com
+    public-key: WvNaAxI0W__qfUKbtysH4IwF155YENlv3PG6crCmPkA
+  server: node12.telegavpn.org
+  servername: node12.telegavpn.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 1c4aceb6-bff7-4737-8c5d-43afb3dc350b
-- flow: xtls-rprx-vision
-  name: 15|NL_speednode_0014
-  port: 443
+  uuid: 026eedbc-e0bb-444e-9751-addacc4a71e5
+- name: 15|NL_speednode_0010
+  port: 8443
   reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: 86e999a2cdc2
-  server: nl02-vlr01.tcp-reset-club.net
-  servername: hls-svod.itunes.apple.com
+    public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
+    short-id: 3ca620a7ed5f3196
+  server: 37.218.247.35
+  servername: sun6-21.userapi.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 1c4aceb6-bff7-4737-8c5d-43afb3dc350b
+  uuid: f4fec1b0-a67e-4967-b9ea-0bd832b57a4d
 - flow: xtls-rprx-vision
-  name: 15|RU_speednode_0016
-  port: 443
-  reality-opts:
-    public-key: sMMDn89-fJAD7VgeTJbdQTmyyUoyRucoMLMvVMm8hAM
-    short-id: cfdbaa7f996dd0e9
-  server: 37.139.34.237
-  servername: eh.vk.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8409d5d2-ae02-4027-b5a5-c3cca340ca6c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15|RU_speednode_0017
-  port: 6443
-  reality-opts:
-    public-key: 20kWWWp6YwJujT1penAu1FD_uvm6dcJoj2w-ZZ-JVSk
-    short-id: 9dfefbaf7319b348
-  server: 5.188.143.115
-  servername: ads.x5.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8409d5d2-ae02-4027-b5a5-c3cca340ca6c
-- flow: xtls-rprx-vision
-  name: 15|RU_speednode_0018
-  port: 443
-  reality-opts:
-    public-key: LCxSn-zcFxBKKztCytR-Wzjt3VwezZs2jN6FtZPQ3n0
-  server: 51.250.103.29
-  servername: ads.x5.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4b5fdaeb-518d-4411-b668-eaf4cb757ff2
-- flow: xtls-rprx-vision
-  name: 15|RU_speednode_0019
+  name: 15|RU_speednode_0011
   port: 443
   reality-opts:
     public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: 4b523a98e1bbd15b
-  server: 51.250.95.176
+    short-id: 17f0f0e38f01af5a
+  server: 51.250.4.119
   servername: api-maps.yandex.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 72adc5b8-146a-4bfe-921b-5c9e1df016e0
-- name: 15|RU_speednode_0020
-  port: 64527
-  reality-opts:
-    public-key: wAKyTOUr89tJU2pVUVrwt0dAsxmNfRHXhPQ3IvyGshc
-    short-id: 56abcac460c7c6ca
-  server: 212.192.14.250
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b3203210-2e42-468a-ad7d-5da9b9a1bac4
-- name: 15|SI_speednode_0021
-  port: 58198
-  reality-opts:
-    public-key: zVumFklIWzpvzrtnlkGG4YRqBbV-diGCouiiSeEwnEE
-    short-id: 2c8a6793b9de7014
-  server: 109.172.55.220
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d5d52c15-f963-42b8-971b-613fc9c5e7e3
-- name: 15|TW_speednode_0022
-  network: ws
-  port: 10443
-  server: 114.34.106.124
-  servername: 63.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e974f9e-f568-4c2a-a4db-e9b666b4ea9e
-  ws-opts:
-    headers:
-      Host: 63.hhhhh.eu.org
-    path: /114.34.106.124:10443
 - flow: xtls-rprx-vision
-  name: 15|US_speednode_0024
-  port: 443
+  name: 15|RU_speednode_0012
+  port: 18122
   reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 143.20.236.51
-  servername: yahoo.com
+    public-key: b8y-G1s0KMtKBVZR9b70nVrFvYma0FyDGV-ACq5qxyk
+    short-id: 78e225
+  server: 84.201.171.134
+  servername: ads.x5.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: 15|US_speednode_0025
-  port: 443
-  reality-opts:
-    public-key: 1xMt7stxzh55Xy31H180TZNMvRYNkhEE86StqE4CtDs
-    short-id: 2f2a
-  server: 66.179.82.126
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1267991-59ff-4b67-b141-97e3ced4e7c8
-- name: 15|US_speednode_0026
-  network: ws
-  port: 443
-  server: 198.62.62.248
-  servername: tar.alabama-tigr.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-  ws-opts:
-    headers:
-      Host: tar.alabama-tigr.info
-    path: /love
-- name: 15|US_speednode_0027
-  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
-  port: 443
-  server: 2334761b-tb89s0-tu0ezx-1m7l4.de.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: bd515574-3b10-11ee-ac14-f23c9164ca5d
+  uuid: 79cd8514-aea9-41b9-b950-db5aa8937497
 - flow: xtls-rprx-vision
-  name: 15|US_speednode_0028
+  name: 15|TR_speednode_0013
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: 8453e5fd9af927
+  server: 77.92.145.192
+  servername: hls-svod.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1c4aceb6-bff7-4737-8c5d-43afb3dc350b
+- flow: xtls-rprx-vision
+  name: 15|US_speednode_0014
   port: 443
   reality-opts:
     public-key: 3ik9ws7ATJ5dKDY2Fofv9y7_vpFYsTqgOJRxiQKwA3A
@@ -675,18 +453,17 @@ proxies:
   udp: true
   uuid: e43dd231-7c75-4606-80ec-50fbb8335ce7
 - flow: xtls-rprx-vision
-  name: 15|US_speednode_0029
-  port: 23335
+  name: 15|US_speednode_0015
+  port: 30001
   reality-opts:
-    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
-    short-id: 67b1e94e4dd1ef90
-  server: 144.31.130.59
-  servername: icloud.com
+    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
+  server: 165.154.235.194
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
+  uuid: be70763e-ab0a-4f8d-87aa-b8ae86495cca
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -698,73 +475,54 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13,14|日本|@ripaojiedian
-  - '10|@Trick_mobil #1'
-  - 10|HP71 (5)
-  - '11|کانال تلگرام : Free_VPN_CH@ #1'
-  - 13,14|香港5|@ripaojiedian
-  - 13,14|新加坡2|@ripaojiedian
-  - 11| - NL - @FreeOnlineVPN
-  - 15|SI_speednode_0021
-  - 15|US_speednode_0029
-  - '11|@V2rayNG3 #2'
-  - 10|JP
-  - 11|@VPNFARDAD
-  - '10|@Trick_mobil #2'
-  - 15|US_speednode_0026
-  - 15|RU_speednode_0020
-  - '11|کانال تلگرام : Free_VPN_CH@ #2'
-  - 13,14|新加坡3|@ripaojiedian
-  - 13,14|美国3|@ripaojiedian
-  - '11|کانال تلگرام : Free_VPN_CH@ #3'
-  - 11|@i10VPN 🚀|  م متصل ب⚡
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 15|US_speednode_0025
-  - 15|GR_speednode_0009
-  - 13,14|新加坡|@ripaojiedian
-  - 14|香港|@ripaojiedian
-  - 15|RU_speednode_0017
-  - '10,11| Telegram: @wiki_tajrobe'
-  - 15|BG_speednode_0002
-  - 13,14|日本3|@ripaojiedian
-  - 15|FR_speednode_0004
-  - 13|tg频道:@ripaojiedian
   - 13,14|香港3|@ripaojiedian
-  - 11|🩵+@Azarakhsh_Proxy+🩷
-  - 10|TW
-  - 15|TW_speednode_0022
-  - '11|@V2rayNG3 #3'
-  - 13,14|香港4|@ripaojiedian
-  - '11|/@en_vpn/  '
-  - 15|GB_speednode_0006
-  - 15|RU_speednode_0018
-  - 15|US_speednode_0024
-  - 13,14|日本2|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
-  - 15|IQ_speednode_0011
-  - 15|FR_speednode_0005
-  - '11|@V2rayng_Fast #2'
-  - 11|@en_vpn/کانفیگ های بیشتر
-  - 11|/@en_vpn/کانفیگ های بیشتر
-  - 15|RU_speednode_0019
-  - 10|DE
-  - 10|1
-  - 10|@Trick_mobil
-  - 10| HK
+  - 15|RU_speednode_0012
+  - 13|tg频道:@ripaojiedian
   - 10|SG
-  - 15|NL_speednode_0013
-  - 15|GB_speednode_0008
-  - 15|RU_speednode_0016
-  - 15|US_speednode_0028
+  - '11|@V2rayNG3 #2'
+  - 15|US_speednode_0015
+  - 13,14|新加坡2|@ripaojiedian
+  - '10|@Trick_mobil #2'
+  - 10|DE
+  - 15|BG_speednode_0002
+  - 15|NL_speednode_0010
+  - 15|RU_speednode_0011
   - '10,11|کانال تلگرام : Free_VPN_CH@'
-  - 11|🇬🇧 T.Me/V2RayyNGvpn 🇬🇧
-  - 13,14|美国2|@ripaojiedian
-  - 10|2
-  - 10|🍪4@oneclickvpnkeys
+  - '11|@en_vpn/  '
+  - 11|13@oneclickvpnkeys
+  - 13,14|新加坡|@ripaojiedian
+  - 13,14|美国3|@ripaojiedian
+  - 10|HP71 (5)
+  - 15|LB_speednode_0009
+  - 13,14|香港4|@ripaojiedian
+  - '10|@Trick_mobil #1'
+  - 11| - NL - @FreeOnlineVPN
+  - 11|@VPNFARDAD
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 11|🩵+@Azarakhsh_Proxy+🩷
+  - 10| HK
+  - 13,14|美国|@ripaojiedian
   - 15|AT_speednode_0001
-  - 15|NL_speednode_0014
-  - 15|LT_speednode_0012
-  - 15|US_speednode_0027
+  - 13,14|日本3|@ripaojiedian
+  - 10|TW
+  - 13,14|香港5|@ripaojiedian
+  - 10|1
+  - 11|/@en_vpn/کانفیگ های بیشتر
+  - '11|کانال تلگرام : Free_VPN_CH@ #1'
+  - 15|TR_speednode_0013
+  - '11|@V2rayNG3 #3'
+  - 10|@Trick_mobil
+  - 13,14|新加坡3|@ripaojiedian
+  - 10|2
+  - '11|کانال تلگرام : Free_VPN_CH@ #2'
+  - 10|JP
+  - 13,14|日本|@ripaojiedian
+  - 14|香港|@ripaojiedian
+  - '11|کانال تلگرام : Free_VPN_CH@ #3'
+  - 15|US_speednode_0014
+  - 13,14|日本2|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
+  - '10,11|@V2rayNG3 #1'
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -830,17 +588,12 @@ proxy-groups:
   - 13,14|美国|@ripaojiedian
   - 13,14|美国2|@ripaojiedian
   - 13,14|美国3|@ripaojiedian
-  - 15|US_speednode_0024
-  - 15|US_speednode_0025
-  - 15|US_speednode_0026
-  - 15|US_speednode_0027
-  - 15|US_speednode_0028
-  - 15|US_speednode_0029
+  - 15|US_speednode_0014
+  - 15|US_speednode_0015
   type: select
 - name: 🇨🇳 台湾
   proxies:
   - 10|TW
-  - 15|TW_speednode_0022
   type: select
 - name: 🇨🇳 中国
   proxies:
@@ -861,8 +614,7 @@ proxy-groups:
   type: select
 - name: 🇫🇷 法国
   proxies:
-  - 15|FR_speednode_0004
-  - 15|FR_speednode_0005
+  - REJECT
   type: select
 - name: 🇸🇬 新加坡
   proxies:
@@ -873,9 +625,7 @@ proxy-groups:
   type: select
 - name: 🇬🇧 英国
   proxies:
-  - 11|🇬🇧 T.Me/V2RayyNGvpn 🇬🇧
-  - 15|GB_speednode_0006
-  - 15|GB_speednode_0008
+  - REJECT
   type: select
 - name: 🇰🇷 韩国
   proxies:
@@ -883,15 +633,13 @@ proxy-groups:
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
-  - 15|RU_speednode_0016
-  - 15|RU_speednode_0017
-  - 15|RU_speednode_0018
-  - 15|RU_speednode_0019
-  - 15|RU_speednode_0020
+  - 15|RU_speednode_0011
+  - 15|RU_speednode_0012
   type: select
 - name: 🇩🇪 德国
   proxies:
   - 10|DE
+  - '10,11|کانال تلگرام : Free_VPN_CH@'
   type: select
 rules:
 - MATCH,DIRECT
