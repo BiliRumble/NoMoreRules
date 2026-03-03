@@ -1,4 +1,4 @@
-# Update: 2026-03-03 14:36
+# Update: 2026-03-03 17:30
 allow-lan: false
 dns:
   enable: true
@@ -145,22 +145,6 @@ proxies:
   type: hysteria2
 - name: '10|/@en_vpn/  '
   password: ad49d6ea-c453-4a2e-b36a-2b71a3e0ed12
-  port: 65535
-  server: 132.145.28.17
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: 10|@en_vpn/کانفیگ های بیشتر
-  password: ad49d6ea-c453-4a2e-b36a-2b71a3e0ed12
-  port: 50000
-  server: 139.185.32.100
-  skip-cert-verify: true
-  sni: www.hoyoverse.com
-  tls: false
-  type: hysteria2
-- name: 10|/@en_vpn/کانفیگ های بیشتر
-  password: ad49d6ea-c453-4a2e-b36a-2b71a3e0ed12
   port: 50000
   server: 208.87.242.163
   skip-cert-verify: true
@@ -217,6 +201,14 @@ proxies:
   server: 77.90.41.197
   skip-cert-verify: true
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 10|6@oneclickvpnkeys
+  password: edd0d9b9-d2ef-40a0-af10-0dca357351e3
+  port: 65535
+  server: 132.145.52.10
+  skip-cert-verify: true
+  sni: www.microsoft.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -463,53 +455,52 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 9|SG
-  - '9,10|کانال تلگرام : Free_VPN_CH@'
-  - '10|کانال تلگرام : Free_VPN_CH@ #2'
-  - 12,13|新加坡3|@ripaojiedian
   - '10|کانال تلگرام : Free_VPN_CH@ #3'
-  - '10|کانال تلگرام : Free_VPN_CH@ #1'
-  - 14|AT_speednode_0001
-  - 12,13|美国3|@ripaojiedian
-  - 14|TR_speednode_0013
-  - 10|@en_vpn/کانفیگ های بیشتر
-  - 9|@Trick_mobil
-  - '10|/@en_vpn/  '
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
-  - 12,13|美国|@ripaojiedian
-  - '10|@V2rayNG3 #2'
-  - 12,13|香港3|@ripaojiedian
-  - 14|RU_speednode_0012
-  - 13|香港|@ripaojiedian
-  - 9| HK
-  - 9|TW
-  - 10|/@en_vpn/کانفیگ های بیشتر
-  - 12,13|新加坡2|@ripaojiedian
-  - 14|RU_speednode_0011
-  - 14|LB_speednode_0009
-  - 9|JP
-  - 9|1
-  - 9|HP71 (5)
-  - '9,10|@V2rayNG3 #1'
-  - 9|2
-  - 12,13|美国2|@ripaojiedian
-  - '10|@V2rayNG3 #3'
-  - 9|DE
   - 12,13|日本|@ripaojiedian
-  - 14|BG_speednode_0002
+  - 9|TW
   - 14|US_speednode_0015
-  - 12,13|新加坡|@ripaojiedian
-  - 14|US_speednode_0014
+  - '10|@V2rayNG3 #2'
   - '9|@Trick_mobil #2'
-  - 12,13|香港5|@ripaojiedian
-  - 12,13|日本2|@ripaojiedian
-  - '9|@Trick_mobil #1'
-  - 12,13|日本3|@ripaojiedian
+  - 9|@Trick_mobil
+  - 9| HK
+  - '9,10|کانال تلگرام : Free_VPN_CH@'
+  - 12,13|美国3|@ripaojiedian
+  - '10|کانال تلگرام : Free_VPN_CH@ #2'
   - 14|NL_speednode_0010
-  - 10| - NL - @FreeOnlineVPN
+  - 9|1
+  - 9|SG
+  - '10|/@en_vpn/  '
+  - '10|کانال تلگرام : Free_VPN_CH@ #1'
+  - 12,13|新加坡3|@ripaojiedian
+  - 14|LB_speednode_0009
+  - 9|2
+  - '10|@V2rayNG3 #3'
+  - 12,13|日本3|@ripaojiedian
+  - 14|RU_speednode_0012
+  - 14|TR_speednode_0013
+  - 12,13|香港3|@ripaojiedian
+  - 9|JP
+  - 12|🇭🇰 香港|@ripaojiedian
   - 12|tg频道:@ripaojiedian
+  - 10|6@oneclickvpnkeys
+  - 13|香港|@ripaojiedian
+  - '9,10|@V2rayNG3 #1'
+  - 12,13|香港5|@ripaojiedian
+  - 10| - NL - @FreeOnlineVPN
+  - 14|AT_speednode_0001
+  - 9|HP71 (5)
+  - 12,13|日本2|@ripaojiedian
+  - 14|US_speednode_0014
   - 10|🩵+@Azarakhsh_Proxy+🩷
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|BG_speednode_0002
+  - 12,13|新加坡|@ripaojiedian
+  - 9|DE
+  - '9|@Trick_mobil #1'
+  - 12,13|美国2|@ripaojiedian
+  - 14|RU_speednode_0011
+  - 12,13|美国|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
