@@ -1,4 +1,4 @@
-# Update: 2026-03-05 14:36
+# Update: 2026-03-05 17:31
 allow-lan: false
 dns:
   enable: true
@@ -78,7 +78,7 @@ proxies:
   sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '10,11|کانال ا : Free_VPN_CH@'
+- name: '10,11|کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -153,7 +153,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '11|کانال تلگرام : Free_VPN_CH@ #1'
+- name: '11|کانال تلگرام : Free_VPN_CH@ #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -165,7 +165,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '11|کانال تلگرام : Free_VPN_CH@'
+  name: '11|کانال تلگرام : Free_VPN_CH@ #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -175,7 +175,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '11|کانال تلگرام : Free_VPN_CH@ #2'
+- name: '11|کانال تلگرام : Free_VPN_CH@ #3'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -540,59 +540,59 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 10|HP71 (5)
-  - 14|香港|@ripaojiedian
-  - 15|HK_speednode_0012
-  - 15|HK_speednode_0010
-  - 11| - NL - @FreeOnlineVPN
-  - 10|@Trick_mobil
-  - 10|SG
-  - 13,14|香港4|@ripaojiedian
-  - 15|CN_speednode_0004
-  - 15|CN_speednode_0002
   - 13,14|新加坡2|@ripaojiedian
-  - 15|HK_speednode_0009
   - 13,14|美国3|@ripaojiedian
-  - '10|@Trick_mobil #2'
-  - '11|@V2rayNG3 #3'
-  - '10,11|کانال ا : Free_VPN_CH@'
-  - 15|US_speednode_0019
-  - 13,14|新加坡|@ripaojiedian
-  - 10|JP
-  - 13|tg频道:@ripaojiedian
-  - 15|US_speednode_0017
-  - 13,14|新加坡3|@ripaojiedian
-  - 15|GB_speednode_0007
-  - 13,14|日本2|@ripaojiedian
-  - 13,14|美国2|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - 15|CN_speednode_0003
-  - 15|GB_speednode_0008
-  - '10,11|@V2rayNG3 #1'
-  - 10|TW
-  - '11|@V2rayNG3 #2'
-  - 15|HK_speednode_0011
-  - '11|کانال تلگرام : Free_VPN_CH@ #2'
-  - 10|DE
-  - 10|2
-  - 15|FR_speednode_0006
-  - 11|🩵+@Azarakhsh_Proxy+🩷
-  - 15|NN_speednode_0013
-  - 10|1
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
-  - 15|DE_speednode_0005
-  - 15|RU_speednode_0016
-  - '11|کانال تلگرام : Free_VPN_CH@ #1'
-  - 13,14|日本3|@ripaojiedian
-  - 10| HK
-  - 15|RU_speednode_0014
+  - 13,14|香港4|@ripaojiedian
+  - 14|香港|@ripaojiedian
   - 15|RU_speednode_0015
-  - '11|کانال تلگرام : Free_VPN_CH@'
+  - 15|HK_speednode_0011
+  - 10|HP71 (5)
+  - 11|🩵+@Azarakhsh_Proxy+🩷
+  - 15|RU_speednode_0016
+  - 15|US_speednode_0019
+  - 10| HK
+  - 10|1
+  - 13,14|日本3|@ripaojiedian
+  - 15|HK_speednode_0010
+  - 15|CN_speednode_0003
+  - 15|CN_speednode_0002
+  - 15|NN_speednode_0013
+  - 11| - NL - @FreeOnlineVPN
+  - '11|کانال تلگرام : Free_VPN_CH@ #1'
+  - '10,11|کانال تلگرام : Free_VPN_CH@'
+  - 10|SG
+  - 13,14|新加坡3|@ripaojiedian
+  - 15|GB_speednode_0008
+  - 13,14|新加坡|@ripaojiedian
+  - 13|🇭🇰 香港|@ripaojiedian
+  - '10,11|@V2rayNG3 #1'
+  - 15|FR_speednode_0006
+  - '11|کانال تلگرام : Free_VPN_CH@ #2'
+  - 15|US_speednode_0017
+  - 10|@Trick_mobil
+  - 10|TW
+  - '11|کانال تلگرام : Free_VPN_CH@ #3'
+  - '11|@V2rayNG3 #2'
+  - 15|DE_speednode_0005
   - '10|@Trick_mobil #1'
-  - 15|US_speednode_0018
+  - 15|GB_speednode_0007
+  - 15|HK_speednode_0012
   - 13,14|日本|@ripaojiedian
+  - 15|US_speednode_0018
+  - 13,14|美国2|@ripaojiedian
+  - 10|JP
+  - 15|CN_speednode_0004
+  - 15|HK_speednode_0009
   - 13,14|香港3|@ripaojiedian
+  - 10|2
+  - 10|DE
+  - 13|tg频道:@ripaojiedian
+  - 15|RU_speednode_0014
+  - 13,14|美国|@ripaojiedian
+  - 13,14|香港5|@ripaojiedian
+  - '11|@V2rayNG3 #3'
+  - '10|@Trick_mobil #2'
+  - 13,14|日本2|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -717,7 +717,7 @@ proxy-groups:
 - name: 🇩🇪 德国
   proxies:
   - 10|DE
-  - '10,11|کانال ا : Free_VPN_CH@'
+  - '10,11|کانال تلگرام : Free_VPN_CH@'
   - 15|DE_speednode_0005
   type: select
 rules:
