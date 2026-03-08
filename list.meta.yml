@@ -1,4 +1,4 @@
-# Update: 2026-03-08 14:29
+# Update: 2026-03-08 17:18
 allow-lan: false
 dns:
   enable: true
@@ -203,14 +203,6 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: 11|8@oneclickvpnkeys
-  password: ilikecs123!
-  port: 443
-  server: 66.154.127.121
-  skip-cert-verify: true
-  sni: cloudcone.wolfmoss.top
-  tls: false
-  type: hysteria2
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
@@ -393,47 +385,46 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 15|LB_speednode_0004
+  - 13|tg频道:@ripaojiedian
+  - '10,11|کانال تلگرام : Free_VPN_CH@'
+  - '10|@Trick_mobil #2'
+  - 14|香港|@ripaojiedian
+  - 10|JP
   - '11|@V2rayNG3 #2'
   - 13,14|日本2|@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - '11|کانال تلگرام : Free_VPN_CH@ #3'
-  - 15|US_speednode_0005
-  - 11|17@oneclickvpnkeys
-  - 13,14|美国2|@ripaojiedian
-  - 10|TW
-  - 13,14|香港4|@ripaojiedian
   - 13,14|日本3|@ripaojiedian
-  - 10|SG
-  - '11|@V2rayNG3 #3'
-  - 13,14|日本|@ripaojiedian
-  - 14|香港|@ripaojiedian
-  - 13,14|新加坡2|@ripaojiedian
-  - 10|@Trick_mobil
-  - 11|8@oneclickvpnkeys
-  - 11|🩵+@Azarakhsh_Proxy+🩷
-  - '10|@Trick_mobil #2'
-  - 10|HP71 (5)
-  - '10|@Trick_mobil #1'
-  - 13,14|新加坡3|@ripaojiedian
-  - 10|2
-  - 13,14|美国|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - '11|کانال تلگرام : Free_VPN_CH@ #2'
-  - 10|JP
-  - '11|کانال تلگرام : Free_VPN_CH@ #1'
-  - 13|tg频道:@ripaojiedian
-  - 10|1
-  - 13,14|美国3|@ripaojiedian
-  - 10| HK
-  - '10,11|@V2rayNG3 #1'
-  - '10,11|کانال تلگرام : Free_VPN_CH@'
-  - 10|DE
   - 15|ES_speednode_0003
-  - 15|DE_speednode_0002
-  - 11| - NL - @FreeOnlineVPN
   - 13,14|香港3|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 15|DE_speednode_0002
+  - 10|DE
+  - '11|کانال تلگرام : Free_VPN_CH@ #2'
+  - 13,14|美国3|@ripaojiedian
+  - 13,14|香港5|@ripaojiedian
+  - '11|@V2rayNG3 #3'
+  - 11|17@oneclickvpnkeys
+  - 10|TW
+  - 10|2
+  - 13,14|新加坡2|@ripaojiedian
+  - 11|🩵+@Azarakhsh_Proxy+🩷
+  - '11|کانال تلگرام : Free_VPN_CH@ #3'
+  - 10|1
+  - '10,11|@V2rayNG3 #1'
+  - 10|SG
+  - 10|@Trick_mobil
+  - 13,14|日本|@ripaojiedian
+  - 10| HK
+  - 15|LB_speednode_0004
+  - '10|@Trick_mobil #1'
+  - '11|کانال تلگرام : Free_VPN_CH@ #1'
+  - 11| - NL - @FreeOnlineVPN
+  - 10|HP71 (5)
+  - 13,14|新加坡|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
+  - 13,14|美国|@ripaojiedian
+  - 15|US_speednode_0005
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
