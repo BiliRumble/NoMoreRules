@@ -1,4 +1,4 @@
-# Update: 2026-03-12 09:01
+# Update: 2026-03-12 12:29
 allow-lan: false
 dns:
   enable: true
@@ -18,7 +18,21 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 9|美国2
+- name: 9|@Trick_mobil
+  password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
+  port: 1743
+  server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk
+  skip-cert-verify: true
+  sni: 🔒
+  tls: false
+  type: hysteria2
+- name: '9|@Trick_mobil #1'
+  password: 5046SHWqk6
+  port: 844
+  server: 91.132.51.160
+  tls: false
+  type: hysteria2
+- name: 9|2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: mg2.mangshe.xyz
@@ -26,11 +40,27 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
+- name: 9|1
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2055
+  server: xjp1.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp1.mangshe.xyz
+  tls: false
+  type: hysteria2
 - name: 9|JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
   server: jp7.dexlos.com
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '9|@Trick_mobil #5'
+  password: Telegram-->@Ln2Ray
+  port: 45000
+  server: 206.71.158.23
+  skip-cert-verify: true
+  sni: 🔒
   tls: false
   type: hysteria2
 - name: 9|DE
@@ -93,7 +123,17 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 10|🩵+@Azarakhsh_Proxy+🩷
+- name: 10|⚡Telegram = @SOSkeyNET
+  obfs: salamander
+  obfs-password: pGBT2RES32Gr7S8DQx
+  password: 00a40f88-0900-4c29-9555-cf053a23071b
+  port: 11801
+  server: 167.86.100.40
+  skip-cert-verify: true
+  sni: 167.86.100.40
+  tls: false
+  type: hysteria2
+- name: 10|+@Azarakhsh_Proxy+
   obfs: salamander
   obfs-password: KevinZakarian
   password: KevinZakarian
@@ -163,14 +203,6 @@ proxies:
   server: 77.90.41.197
   skip-cert-verify: true
   sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 10|13@oneclickvpnkeys
-  password: hysteria2_fastlane_qdx4o19um
-  port: 443
-  server: 150.241.79.106
-  skip-cert-verify: true
-  sni: de2.h.fastlanehosting.ru
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -651,63 +683,67 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - '10|@V2rayNG3 #3'
-  - 12,13|日本|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 12,13|美国|@ripaojiedian
-  - 14|US_speednode_0023
-  - '9,10|@V2rayNG3 #1'
-  - 14|KR_speednode_0016
-  - 14|KR_speednode_0019
-  - 14|KR_speednode_0013
-  - 12,13|香港4|@ripaojiedian
-  - 10|13@oneclickvpnkeys
-  - 14|KR_speednode_0014
-  - 12,13|新加坡3|@ripaojiedian
-  - 12,13|香港3|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
-  - 14|KR_speednode_0018
-  - 14|NL_speednode_0021
-  - 14|US_speednode_0031
-  - 14|KR_speednode_0010
-  - '10|@V2rayNG3 #2'
-  - 14|KR_speednode_0015
-  - '10|کانال تلگرام : Free_VPN_CH@ #3'
-  - 9|TW
-  - 14|US_speednode_0029
-  - 14|NL_speednode_0020
-  - 14|CN_speednode_0005
-  - 14|KR_speednode_0011
-  - 14|KR_speednode_0012
-  - 9|HP71 (5)
-  - 9|美国2
-  - 10|🩵+@Azarakhsh_Proxy+🩷
-  - 9|SG
-  - 12,13|日本2|@ripaojiedian
-  - 14|KR_speednode_0017
-  - 14|US_speednode_0030
-  - 9|JP
-  - 12,13|香港5|@ripaojiedian
-  - 14|HK_speednode_0007
-  - 12,13|新加坡2|@ripaojiedian
+  - 10|+@Azarakhsh_Proxy+
   - 14|SG_speednode_0022
-  - 14|US_speednode_0028
-  - '10|کانال تلگرام : Free_VPN_CH@ #1'
-  - 12|tg频道:@ripaojiedian
-  - 9| HK
+  - 14|KR_speednode_0017
+  - 14|KR_speednode_0012
+  - '9|@Trick_mobil #5'
+  - '10|@V2rayNG3 #2'
+  - 14|KR_speednode_0018
+  - 12,13|香港5|@ripaojiedian
+  - 14|US_speednode_0023
+  - 9|JP
+  - 9|HP71 (5)
   - 14|KR_speednode_0009
-  - 9|DE
-  - 12,13|美国2|@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
-  - 10| - NL - @FreeOnlineVPN
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - '10|کانال تلگرام : Free_VPN_CH@ #2'
-  - '9,10|کانال تلگرام : Free_VPN_CH@'
-  - 14|KR_speednode_0008
-  - 14|US_speednode_0024
-  - 14|GB_speednode_0006
   - 14|US_speednode_0027
+  - '10|کانال تلگرام : Free_VPN_CH@ #3'
+  - 9| HK
+  - 12,13|新加坡3|@ripaojiedian
+  - '10|@V2rayNG3 #3'
+  - 12,13|美国2|@ripaojiedian
+  - 14|HK_speednode_0007
+  - 14|KR_speednode_0011
+  - '10|کانال تلگرام : Free_VPN_CH@ #1'
+  - 14|KR_speednode_0019
+  - 14|US_speednode_0029
+  - 14|KR_speednode_0015
+  - 9|2
+  - '9,10|@V2rayNG3 #1'
+  - 12,13|新加坡|@ripaojiedian
+  - 14|KR_speednode_0008
+  - 9|@Trick_mobil
+  - 12,13|日本|@ripaojiedian
+  - 10|⚡Telegram = @SOSkeyNET
+  - 12,13|日本3|@ripaojiedian
+  - 14|NL_speednode_0021
+  - 14|US_speednode_0024
+  - 14|US_speednode_0031
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|GB_speednode_0006
+  - 14|US_speednode_0028
+  - 9|SG
+  - 12|tg频道:@ripaojiedian
+  - 14|US_speednode_0030
+  - 14|KR_speednode_0010
+  - 12,13|美国3|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - '10|کانال تلگرام : Free_VPN_CH@ #2'
+  - 10| - NL - @FreeOnlineVPN
+  - 12,13|日本2|@ripaojiedian
+  - 12,13|美国|@ripaojiedian
+  - 14|KR_speednode_0014
+  - 14|KR_speednode_0016
+  - '9,10|کانال تلگرام : Free_VPN_CH@'
+  - 12,13|香港3|@ripaojiedian
+  - 14|NL_speednode_0020
+  - '9|@Trick_mobil #1'
+  - 13|香港|@ripaojiedian
+  - 9|DE
+  - 14|KR_speednode_0013
+  - 9|TW
+  - 12,13|新加坡2|@ripaojiedian
+  - 9|1
+  - 14|CN_speednode_0005
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -763,14 +799,12 @@ proxy-groups:
   type: select
 - name: 🇯🇵 日本
   proxies:
-  - 9|JP
   - 12,13|日本|@ripaojiedian
   - 12,13|日本2|@ripaojiedian
   - 12,13|日本3|@ripaojiedian
   type: select
 - name: 🇺🇸 美国
   proxies:
-  - 9|美国2
   - 12,13|美国|@ripaojiedian
   - 12,13|美国2|@ripaojiedian
   - 12,13|美国3|@ripaojiedian
