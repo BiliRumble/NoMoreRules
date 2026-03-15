@@ -1,4 +1,4 @@
-# Update: 2026-03-15 09:18
+# Update: 2026-03-15 12:58
 allow-lan: false
 dns:
   enable: true
@@ -41,14 +41,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '10|@Trick_mobil #2'
-  password: Telegram--&gt;@Ln2Ray
-  port: 45000
-  server: gavazn.lnmarketplace.net
-  skip-cert-verify: true
-  sni: 🔒
-  tls: false
-  type: hysteria2
-- name: '10|@Trick_mobil #3'
   password: Telegram-->@Ln2Ray
   port: 45000
   server: 206.71.158.23
@@ -56,7 +48,7 @@ proxies:
   sni: 🔒
   tls: false
   type: hysteria2
-- name: '10|@Trick_mobil #4'
+- name: '10|@Trick_mobil #3'
   password: Telegram-->@Ln2Ray
   port: 45000
   server: gavazn.lnmarketplace.net
@@ -64,7 +56,7 @@ proxies:
   sni: 🔒
   tls: false
   type: hysteria2
-- name: '10|@Trick_mobil #5'
+- name: '10|@Trick_mobil #4'
   password: Yet-Another-Public-Config-1
   port: 36400
   server: 206.71.158.37
@@ -90,6 +82,40 @@ proxies:
   server: 167.86.100.40
   skip-cert-verify: true
   sni: 167.86.100.40
+  tls: false
+  type: hysteria2
+- name: '11|Telegram:@config_proxy '
+  password: 17b026f4-faba-4206-ba4f-8f83fd1c26ef
+  port: 48801
+  server: in-loc01.lada.mom
+  skip-cert-verify: false
+  sni: in-loc01.lada.mom
+  tls: false
+  type: hysteria2
+- name: 11|⚡Telegram = @SOSkeyNET
+  password: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0
+  port: 47974
+  server: 75.127.13.83
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 11|Telegram:@config_proxy 😍
+  password: 39002b0d-de73-48f6-b164-04d5784b0ecd
+  port: 443
+  server: nl-down1.lada.mom
+  skip-cert-verify: false
+  sni: nl-down1.lada.mom
+  tls: false
+  type: hysteria2
+- name: '11|Telegram:@config_proxy 😍 #1'
+  obfs: salamander
+  obfs-password: GRxFC3OtWF8F8f7M
+  password: 50ada071-4309-47ba-b316-8882efe79ea1
+  port: 443
+  server: us-loc03.lada.mom
+  skip-cert-verify: false
+  sni: us-loc03.lada.mom
   tls: false
   type: hysteria2
 - name: 11|19@oneclickvpnkeys
@@ -120,14 +146,6 @@ proxies:
   server: 206.71.158.37
   skip-cert-verify: true
   sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: '11|Telegram:@config_proxy '
-  password: a48d9102-3eb4-4576-8de7-482e58bc1a39
-  port: 8080
-  server: hkmax02.352343.cc
-  skip-cert-verify: true
-  sni: hkmax02.352343.cc
   tls: false
   type: hysteria2
 - name: '11|@V2rayNG3 #1'
@@ -190,6 +208,31 @@ proxies:
   server: 77.90.41.197
   skip-cert-verify: true
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: '11|⚡Telegram = @SOSkeyNET #1'
+  password: dongtaiwang.com
+  port: 22000
+  server: 62.210.124.146
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: '11|Telegram:@config_proxy 😍 #2'
+  password: f72fc7e7-f95c-4b67-9933-3d17af670102
+  port: 16666
+  server: los.zuomomo.top
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '11|Telegram:@config_proxy 😍 #3'
+  obfs: salamander
+  obfs-password: EoX5pPxXQsxyYXJu
+  password: fa220328-e905-4b67-a4f0-7fec43eac048
+  port: 53251
+  server: in-loc02.lada.mom
+  skip-cert-verify: false
+  sni: in-loc02.lada.mom
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -313,27 +356,98 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 15|CN_speednode_0005
-  password: d5fa43f9-1ace-4b8f-b865-627e67b1fe37
-  port: 35902
-  server: sg03.stimaysmhy8.com
-  skip-cert-verify: true
-  sni: jsygouer.weixin-baidu-qq.com
-  type: trojan
-  udp: true
-- name: 15|GB_speednode_0006
-  port: 443
-  reality-opts:
-    public-key: qrnqrRbyJ3KLRDdvO0Ed2ewMvTn1i5XWyF07q_4eunk
-    short-id: 8cb5caf3547681c1
-  server: 185.191.118.144
-  servername: www.microsoft.com
+- name: 15|AE_speednode_0001
+  network: ws
+  port: 8444
+  server: 217.60.60.194
+  servername: sub.mot.ip-ddns.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 7a37a4a1-0750-4311-a355-ff7d499c6797
-- name: 15|HK_speednode_0007
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+- name: 15|AT_speednode_0002
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.167
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
+- name: 15|BG_speednode_0003
+  network: ws
+  port: 444
+  server: 87.120.166.33
+  servername: ngrh5faw6tn78eudzbsmphdhkv.bpd67081tsq.ddns-ip.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: ngrh5faw6tn78eudzbsmphdhkv.bpd67081tsq.ddns-ip.net
+    path: /@Marisa_kristi
+- name: 15|DE_speednode_0012
+  network: ws
+  port: 8005
+  server: 45.145.42.170
+  servername: sub.mot.ip-ddns.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+- name: 15|HK_speednode_0014
+  network: ws
+  port: 443
+  server: n1761184282.74qxv.top
+  servername: n1761184282.74qxv.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 824dc1b1-e35b-4121-ad73-9acaf13d6410
+  ws-opts:
+    headers:
+      Host: n1761184282.74qxv.top
+    path: /824dc1b1-e35b-4121-ad73-9acaf13d6410
+- name: 15|HK_speednode_0016
+  network: ws
+  port: 7000
+  server: 202.85.53.77
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- name: 15|HK_speednode_0017
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: 15|HK_speednode_0018
   network: ws
   port: 443
   server: 83.229.123.173
@@ -347,19 +461,56 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: 15|KR_speednode_0008
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
+- flow: xtls-rprx-vision
+  name: 15|HU_speednode_0019
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 87.229.97.154
+  servername: yahoo.com
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: test
-- name: 15|KR_speednode_0009
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: 15|IR_speednode_0020
   network: ws
-  port: 15284
-  server: 221.146.116.77
+  port: 8085
+  server: 62.60.156.158
+  servername: sub.mot.ip-ddns.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+- name: 15|JP_speednode_0021
+  network: ws
+  port: 443
+  server: 188.253.23.98
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- name: 15|KR_speednode_0022
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  udp: true
+- name: 15|KR_speednode_0023
+  network: ws
+  port: 10973
+  server: 119.195.168.105
   servername: ylnhh.cc.cd
   skip-cert-verify: false
   tls: true
@@ -370,38 +521,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: 15|KR_speednode_0010
-  network: ws
-  port: 10840
-  server: 210.105.224.42
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /TelegramU0001F1E8U0001F1F3@WangCai2
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 15|KR_speednode_0011
-  network: ws
-  port: 50001
-  server: 220.73.70.34
-  servername: snippet.fgfw.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.de5.net
-    path: /danfeng
-- name: 15|KR_speednode_0012
+- name: 15|KR_speednode_0024
   network: ws
   port: 8443
   server: 59.3.3.161
@@ -415,21 +535,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳+@WangCai2
-- name: 15|KR_speednode_0013
-  network: ws
-  port: 12125
-  server: 183.97.71.221
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳+@WangCai2
-- name: 15|KR_speednode_0014
+- name: 15|KR_speednode_0025
   network: ws
   port: 8443
   server: 59.3.3.161
@@ -443,10 +549,10 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: 15|KR_speednode_0015
+- name: 15|KR_speednode_0026
   network: ws
-  port: 11099
-  server: 220.88.3.5
+  port: 22410
+  server: 211.48.77.114
   servername: ylnhh.cc.cd
   skip-cert-verify: false
   tls: true
@@ -456,39 +562,109 @@ proxies:
   ws-opts:
     headers:
       Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- name: 15|KR_speednode_0016
-  network: ws
-  port: 10448
-  server: 220.85.201.216
-  servername: ylnhh.cc.cd
+    path: /
+- name: 15|NL_speednode_0027
+  port: 1080
+  server: 5.255.99.75
+  type: socks5
+  udp: true
+- name: 15|NL_speednode_0028
+  port: 1080
+  server: 161.35.82.57
+  type: socks5
+  udp: true
+- flow: xtls-rprx-vision
+  name: 15|NN_speednode_0029
+  port: 443
+  reality-opts:
+    public-key: R0M4F0Di9oppNbz_LRIkF08whSeXbBHMNkAKVq5l-U8
+    short-id: ea80ef
+  server: 23.148.20.55
+  servername: www.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- name: 15|KR_speednode_0017
-  network: ws
-  port: 15347
-  server: 61.102.250.123
-  servername: ylnhh.cc.cd
+  uuid: e5130eee-cf44-405e-ce04-25817f961399
+- flow: xtls-rprx-vision
+  name: 15|RU_speednode_0030
+  port: 8443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: c6ef72e4635d15a5
+  server: 95.174.92.50
+  servername: rbc.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- name: 15|KR_speednode_0018
+  uuid: 6bf6705b-181d-4738-ad21-f6b428caa2e0
+- flow: xtls-rprx-vision
+  name: 15|RU_speednode_0031
+  port: 8449
+  reality-opts:
+    public-key: eWc4OGy6tScPuAS_MCVSrFpqJRj1uC9f1gh6YLc332M
+  server: 84.201.133.58
+  servername: travel.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6b9ed73a-f04d-4b5d-a760-2661fa7f6e43
+- flow: xtls-rprx-vision
+  name: 15|RU_speednode_0032
+  port: 8443
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: f4b4a6365558ea2e
+  server: 89.169.172.4
+  servername: rbc.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f1a19caa-2917-4556-a045-e60adb002048
+- flow: xtls-rprx-vision
+  name: 15|RU_speednode_0033
+  port: 443
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: f4b4a6365558ea2e
+  server: 89.169.172.4
+  servername: rbc.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f1a19caa-2917-4556-a045-e60adb002048
+- flow: xtls-rprx-vision
+  name: 15|RU_speednode_0034
+  port: 7445
+  reality-opts:
+    public-key: 1nX2U0-rg8Lw6Bz0i16x1YItJUs8X9CsvzQjCk-DOhA
+  server: 51.250.75.192
+  servername: api-maps.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 04310c16-0aed-43ce-9cdb-e8cbc6966ef5
+- flow: xtls-rprx-vision
+  name: 15|RU_speednode_0035
+  port: 7443
+  reality-opts:
+    public-key: 59iHd67rGlyJBUpDq5NXC91EB0U4AXtSlOjAQsW2D14
+  server: 51.250.72.141
+  servername: ads.x5.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 41c16584-d361-4d65-9cc9-7ccb4a1e5935
+- name: 15|SG_speednode_0036
   network: ws
-  port: 50000
-  server: 211.184.116.84
+  port: 443
+  server: 34.143.159.175
   servername: ylnhh.cc.cd
   skip-cert-verify: false
   tls: true
@@ -499,10 +675,10 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳+@WangCai2
-- name: 15|KR_speednode_0019
+- name: 15|SG_speednode_0037
   network: ws
-  port: 50000
-  server: 211.184.116.84
+  port: 443
+  server: 34.143.159.175
   servername: ylnhh.cc.cd
   skip-cert-verify: false
   tls: true
@@ -513,35 +689,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: 15|NL_speednode_0020
-  network: ws
-  port: 443
-  server: 77.93.91.159
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳+@WangCai2
-- name: 15|NL_speednode_0021
-  network: ws
-  port: 443
-  server: 77.93.91.159
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- name: 15|SG_speednode_0022
+- name: 15|SG_speednode_0038
   network: ws
   port: 8443
   server: 43.160.248.66
@@ -555,8 +703,30 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳+@WangCai2
+- name: 15|SG_speednode_0039
+  network: ws
+  port: 19457
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- name: 15|TW_speednode_0040
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - flow: xtls-rprx-vision
-  name: 15|US_speednode_0023
+  name: 15|US_speednode_0041
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -568,7 +738,72 @@ proxies:
   type: vless
   udp: true
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: 15|US_speednode_0024
+- name: 15|US_speednode_0042
+  network: ws
+  password: iwangjie
+  port: 15805
+  server: 158.101.11.204
+  skip-cert-verify: false
+  sni: nodes.830901.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: /
+- name: 15|US_speednode_0043
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: /
+- name: 15|US_speednode_0044
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: /?ed=2560
+- name: 15|US_speednode_0045
+  port: 18959
+  reality-opts:
+    public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+    short-id: d557c6895d014075
+  server: 157.254.223.44
+  servername: itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
+- name: 15|US_speednode_0046
+  network: ws
+  port: 443
+  server: 68.64.179.243
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- name: 15|US_speednode_0047
   network: ws
   port: 443
   server: 68.64.179.96
@@ -582,60 +817,28 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- flow: xtls-rprx-vision
-  name: 15|US_speednode_0027
-  port: 443
-  reality-opts:
-    public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
-    short-id: feedbacc
-  server: 144.31.2.248
-  servername: pl.fasti.win
+- name: 15|US_speednode_0048
+  network: ws
+  port: 444
+  server: 206.245.157.134
+  servername: jmc9f8ao6n5xq.saghv.filegear-sg.me
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
-- flow: xtls-rprx-vision
-  name: 15|US_speednode_0028
-  port: 443
-  reality-opts:
-    public-key: CwmIRtPbbb0VDHYxHTiDxF1xtVDG4Jr90RJZvCKQzXQ
-  server: proxy.darknet.run
-  servername: proxy.darknet.run
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 420a0e21-08c6-4e94-a965-41226b38b674
-- flow: xtls-rprx-vision
-  name: 15|US_speednode_0029
-  port: 4546
-  reality-opts:
-    public-key: 3DLDFzq0NAYBMrhDOaMM04A_Ictohao2yWOY1NdrJCk
-  server: 144.31.234.7
-  servername: enterprise.api-maps.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f37b28b-cfcb-4c2a-ae41-8f2ddc9325dd
-- flow: xtls-rprx-vision
-  name: 15|US_speednode_0030
-  port: 4546
-  reality-opts:
-    public-key: 3DLDFzq0NAYBMrhDOaMM04A_Ictohao2yWOY1NdrJCk
-  server: 144.31.234.7
-  servername: enterprise.api-maps.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b52989b9-09dc-4ca0-b722-e6fe3e8a0313
-- name: 15|US_speednode_0031
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: jmc9f8ao6n5xq.saghv.filegear-sg.me
+    path: /@Marisa_kristi
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 15|US_speednode_0049
   network: ws
   port: 443
-  server: 192.0.63.91
-  servername: snippet.fgfw.indevs.in
+  server: 192.0.54.250
+  servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: false
   tls: true
   type: vless
@@ -643,8 +846,212 @@ proxies:
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
-      Host: snippet.fgfw.indevs.in
+      Host: snippet.danfeng.theworkpc.com
     path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 15|US_speednode_0050
+  network: ws
+  port: 7000
+  server: 23.137.255.63
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 15|US_speednode_0051
+  network: ws
+  port: 443
+  server: 192.0.54.130
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 15|US_speednode_0052
+  network: ws
+  port: 443
+  server: 192.0.63.76
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng
+- client-fingerprint: safari
+  name: 15|US_speednode_0053
+  network: ws
+  port: 443
+  server: 63.141.128.188
+  servername: d2-jp1.djwstlsweb.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d46ad20a-4454-4da7-8f9c-87f9152bedee
+  ws-opts:
+    headers:
+      Host: d2-jp1.djwstlsweb.top
+    path: /djjc/jp1
+- flow: xtls-rprx-vision
+  name: 15|US_speednode_0054
+  port: 19001
+  reality-opts:
+    public-key: IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM
+  server: usadt01.jumperservice.com
+  servername: www.speedtest.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5be8e3f-a17d-479c-ebdb-9c3265c2cab7
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0055
+  port: 19001
+  reality-opts:
+    public-key: IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM
+  server: usadt01.jumperservice.com
+  servername: www.speedtest.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 719b17cb-004b-4029-b3fb-e98fafdb0271
+- name: 15|US_speednode_0056
+  network: ws
+  port: 30001
+  server: 144.31.75.246
+  servername: sub.mot.ip-ddns.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+- name: 15|US_speednode_0057
+  network: ws
+  port: 443
+  server: 192.0.63.49
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- name: 15|US_speednode_0058
+  network: ws
+  port: 443
+  server: 192.0.63.216
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng
+- name: 15|US_speednode_0059
+  network: ws
+  port: 443
+  server: 192.0.63.115
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- name: 15|US_speednode_0060
+  network: ws
+  port: 443
+  server: 192.0.63.216
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- name: 15|US_speednode_0061
+  network: ws
+  port: 443
+  server: 192.0.63.76
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- name: 15|US_speednode_0062
+  network: ws
+  port: 443
+  server: 192.0.54.250
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: ios
+  name: 15|US_speednode_0063
+  network: ws
+  port: 443
+  server: 63.141.128.188
+  servername: d2-us4.djwstlsweb.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d46ad20a-4454-4da7-8f9c-87f9152bedee
+  ws-opts:
+    headers:
+      Host: d2-us4.djwstlsweb.top
+    path: /djjc/us4
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -656,65 +1063,98 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 15|KR_speednode_0018
-  - 11|@V2HUBIR
-  - '11|@V2rayNG3 #1'
-  - 15|US_speednode_0030
-  - '11|Telegram:@config_proxy '
-  - 10|hy
+  - '11|Telegram:@config_proxy 😍 #2'
+  - 15|US_speednode_0048
+  - 15|AE_speednode_0001
+  - 15|US_speednode_0041
   - '10|@Trick_mobil #3'
-  - 13,14|香港3|@ripaojiedian
-  - 13,14|美国3|@ripaojiedian
-  - 15|KR_speednode_0016
-  - 11|19@oneclickvpnkeys
-  - 13,14|美国|@ripaojiedian
-  - 15|CN_speednode_0005
-  - 15|US_speednode_0027
-  - 15|US_speednode_0031
-  - 15|US_speednode_0024
-  - '11|@V2rayNG3 #3'
-  - 15|SG_speednode_0022
-  - '10|@Trick_mobil #5'
-  - 14|香港|@ripaojiedian
-  - 15|NL_speednode_0020
-  - 13,14|香港4|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
-  - 15|KR_speednode_0012
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 15|NL_speednode_0021
-  - 11|+@Azarakhsh_Proxy+
-  - 15|KR_speednode_0013
-  - 13,14|香港5|@ripaojiedian
-  - '10,11|کانال تلگرام : Free_VPN_CH@'
-  - 13,14|新加坡2|@ripaojiedian
-  - '10|@Trick_mobil #2'
-  - 11| - NL - @FreeOnlineVPN
-  - 15|GB_speednode_0006
-  - 15|KR_speednode_0019
-  - 15|KR_speednode_0015
-  - 15|US_speednode_0028
-  - 13,14|日本|@ripaojiedian
-  - '11|کانال تلگرام : Free_VPN_CH@ #3'
-  - 15|HK_speednode_0007
-  - 13,14|日本2|@ripaojiedian
-  - 15|US_speednode_0023
-  - 13,14|新加坡|@ripaojiedian
-  - 13,14|新加坡3|@ripaojiedian
-  - 13,14|美国2|@ripaojiedian
-  - '11|@V2rayNG3 #2'
-  - 13,14|日本3|@ripaojiedian
-  - 15|KR_speednode_0008
+  - 15|US_speednode_0042
+  - 15|RU_speednode_0033
+  - 15|US_speednode_0045
   - 10|@Trick_mobil
-  - '10|@Trick_mobil #4'
-  - '11|کانال تلگرام : Free_VPN_CH@ #2'
+  - 15|SG_speednode_0039
+  - 15|US_speednode_0056
+  - 15|US_speednode_0063
+  - 15|KR_speednode_0022
+  - 13,14|日本3|@ripaojiedian
+  - 15|BG_speednode_0003
+  - 15|KR_speednode_0024
+  - 15|RU_speednode_0031
+  - 15|US_speednode_0062
+  - '11|کانال تلگرام : Free_VPN_CH@ #3'
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
   - '10|@Trick_mobil #1'
-  - 15|KR_speednode_0010
-  - 15|US_speednode_0029
-  - 15|KR_speednode_0017
-  - 15|KR_speednode_0009
-  - 15|KR_speednode_0011
-  - 15|KR_speednode_0014
+  - 15|IR_speednode_0020
+  - 13|tg频道:@ripaojiedian
+  - 15|RU_speednode_0034
+  - 15|NN_speednode_0029
+  - '11|Telegram:@config_proxy 😍 #3'
+  - 13,14|香港4|@ripaojiedian
+  - 15|US_speednode_0046
+  - 15|KR_speednode_0023
+  - 15|SG_speednode_0038
+  - 15|US_speednode_0052
+  - 15|KR_speednode_0026
+  - 15|HK_speednode_0014
+  - 15|US_speednode_0057
+  - 15|US_speednode_0061
+  - 15|US_speednode_0050
+  - 13,14|香港5|@ripaojiedian
+  - 15|DE_speednode_0012
+  - 14|香港|@ripaojiedian
+  - 15|HU_speednode_0019
+  - '10|@Trick_mobil #2'
+  - '11|⚡Telegram = @SOSkeyNET #1'
+  - 15|US_speednode_0059
+  - '11|@V2rayNG3 #1'
+  - 13,14|新加坡2|@ripaojiedian
+  - 15|NL_speednode_0027
+  - 15|HK_speednode_0016
+  - 15|RU_speednode_0035
+  - 11|⚡Telegram = @SOSkeyNET
+  - 11|Telegram:@config_proxy 😍
+  - '11|Telegram:@config_proxy '
+  - 15|TW_speednode_0040
+  - 15|US_speednode_0055
+  - '10|@Trick_mobil #4'
   - '11|کانال تلگرام : Free_VPN_CH@ #1'
+  - 13,14|新加坡3|@ripaojiedian
+  - 15|US_speednode_0054
+  - 15|US_speednode_0060
+  - 15|US_speednode_0044
+  - 15|US_speednode_0058
+  - '11|@V2rayNG3 #2'
+  - '11|Telegram:@config_proxy 😍 #1'
+  - 10|hy
+  - 15|RU_speednode_0032
+  - 13,14|美国3|@ripaojiedian
+  - 11| - NL - @FreeOnlineVPN
+  - 15|US_speednode_0049
+  - '11|@V2rayNG3 #3'
+  - 15|HK_speednode_0018
+  - 15|KR_speednode_0025
+  - 15|US_speednode_0047
+  - 13,14|日本2|@ripaojiedian
+  - 15|US_speednode_0053
+  - 11|19@oneclickvpnkeys
+  - 15|JP_speednode_0021
+  - 15|AT_speednode_0002
+  - 11|@V2HUBIR
+  - 13,14|美国2|@ripaojiedian
+  - '10,11|کانال تلگرام : Free_VPN_CH@'
+  - '11|کانال تلگرام : Free_VPN_CH@ #2'
+  - 13,14|美国|@ripaojiedian
+  - 13,14|日本|@ripaojiedian
+  - 11|+@Azarakhsh_Proxy+
+  - 15|NL_speednode_0028
+  - 15|US_speednode_0051
+  - 15|SG_speednode_0036
+  - 13,14|香港3|@ripaojiedian
+  - 15|SG_speednode_0037
+  - 15|US_speednode_0043
+  - 15|HK_speednode_0017
+  - 15|RU_speednode_0030
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -773,27 +1213,44 @@ proxy-groups:
   - 13,14|日本|@ripaojiedian
   - 13,14|日本2|@ripaojiedian
   - 13,14|日本3|@ripaojiedian
+  - 15|JP_speednode_0021
   type: select
 - name: 🇺🇸 美国
   proxies:
   - 13,14|美国|@ripaojiedian
   - 13,14|美国2|@ripaojiedian
   - 13,14|美国3|@ripaojiedian
-  - 15|US_speednode_0023
-  - 15|US_speednode_0024
-  - 15|US_speednode_0027
-  - 15|US_speednode_0028
-  - 15|US_speednode_0029
-  - 15|US_speednode_0030
-  - 15|US_speednode_0031
+  - 15|US_speednode_0041
+  - 15|US_speednode_0042
+  - 15|US_speednode_0043
+  - 15|US_speednode_0044
+  - 15|US_speednode_0045
+  - 15|US_speednode_0046
+  - 15|US_speednode_0047
+  - 15|US_speednode_0048
+  - 15|US_speednode_0049
+  - 15|US_speednode_0050
+  - 15|US_speednode_0051
+  - 15|US_speednode_0052
+  - 15|US_speednode_0053
+  - 15|US_speednode_0054
+  - 15|US_speednode_0055
+  - 15|US_speednode_0056
+  - 15|US_speednode_0057
+  - 15|US_speednode_0058
+  - 15|US_speednode_0059
+  - 15|US_speednode_0060
+  - 15|US_speednode_0061
+  - 15|US_speednode_0062
+  - 15|US_speednode_0063
   type: select
 - name: 🇨🇳 台湾
   proxies:
-  - REJECT
+  - 15|TW_speednode_0040
   type: select
 - name: 🇨🇳 中国
   proxies:
-  - 15|CN_speednode_0005
+  - REJECT
   type: select
 - name: 🇭🇰 香港
   proxies:
@@ -802,7 +1259,10 @@ proxy-groups:
   - 13,14|香港4|@ripaojiedian
   - 13,14|香港5|@ripaojiedian
   - 14|香港|@ripaojiedian
-  - 15|HK_speednode_0007
+  - 15|HK_speednode_0014
+  - 15|HK_speednode_0016
+  - 15|HK_speednode_0017
+  - 15|HK_speednode_0018
   type: select
 - name: 🇨🇦 加拿大
   proxies:
@@ -817,34 +1277,35 @@ proxy-groups:
   - 13,14|新加坡|@ripaojiedian
   - 13,14|新加坡2|@ripaojiedian
   - 13,14|新加坡3|@ripaojiedian
-  - 15|SG_speednode_0022
+  - 15|SG_speednode_0036
+  - 15|SG_speednode_0037
+  - 15|SG_speednode_0038
+  - 15|SG_speednode_0039
   type: select
 - name: 🇬🇧 英国
   proxies:
-  - 15|GB_speednode_0006
+  - REJECT
   type: select
 - name: 🇰🇷 韩国
   proxies:
-  - 15|KR_speednode_0008
-  - 15|KR_speednode_0009
-  - 15|KR_speednode_0010
-  - 15|KR_speednode_0011
-  - 15|KR_speednode_0012
-  - 15|KR_speednode_0013
-  - 15|KR_speednode_0014
-  - 15|KR_speednode_0015
-  - 15|KR_speednode_0016
-  - 15|KR_speednode_0017
-  - 15|KR_speednode_0018
-  - 15|KR_speednode_0019
+  - 15|KR_speednode_0022
+  - 15|KR_speednode_0023
+  - 15|KR_speednode_0024
+  - 15|KR_speednode_0025
+  - 15|KR_speednode_0026
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
-  - REJECT
+  - 15|RU_speednode_0030
+  - 15|RU_speednode_0031
+  - 15|RU_speednode_0032
+  - 15|RU_speednode_0033
+  - 15|RU_speednode_0034
+  - 15|RU_speednode_0035
   type: select
 - name: 🇩🇪 德国
   proxies:
-  - REJECT
+  - 15|DE_speednode_0012
   type: select
 rules:
 - MATCH,DIRECT
