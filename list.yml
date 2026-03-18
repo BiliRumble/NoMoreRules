@@ -1,4 +1,4 @@
-# Update: 2026-03-18 20:43
+# Update: 2026-03-18 23:59
 allow-lan: false
 dns:
   enable: true
@@ -158,32 +158,22 @@ proxies:
   tls: false
   type: vmess
   uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
-- name: 15|KR_speednode_0011
-  network: ws
-  password: trojan
-  port: 11434
-  server: 114.207.99.233
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
+- name: 15|GB_speednode_0004
+  password: IL37892054
+  port: 443
+  server: upright-rhino.rooster465.autos
+  skip-cert-verify: false
+  sni: upright-rhino.rooster465.autos
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
-- name: 15|US_speednode_0021
-  network: ws
-  password: trojan
-  port: 7071
-  server: 154.17.234.78
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
+- name: 15|LU_speednode_0006
+  password: IL37892054
+  port: 443
+  server: apt-magpie.rooster465.autos
+  skip-cert-verify: false
+  sni: apt-magpie.rooster465.autos
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -195,25 +185,25 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13,14|香港3|@ripaojiedian
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 13,14|日本2|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
-  - 15|US_speednode_0021
-  - 14|香港2|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
-  - 13,14|美国3|@ripaojiedian
-  - 13,14|日本3|@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 15|KR_speednode_0011
-  - 14|香港|@ripaojiedian
-  - 13,14|新加坡3|@ripaojiedian
-  - 13|🇭🇰 香港2|@ripaojiedian
-  - 13,14|日本|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
-  - 13,14|美国2|@ripaojiedian
   - 13,14|新加坡2|@ripaojiedian
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
+  - 15|GB_speednode_0004
+  - 13|tg频道:@ripaojiedian
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 13,14|香港5|@ripaojiedian
+  - 13,14|美国|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 14|香港|@ripaojiedian
+  - 14|香港2|@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
+  - 13,14|美国3|@ripaojiedian
+  - 15|LU_speednode_0006
+  - 13,14|香港3|@ripaojiedian
+  - 13,14|日本|@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
