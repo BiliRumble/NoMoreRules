@@ -1,4 +1,4 @@
-# Update: 2026-03-19 23:41
+# Update: 2026-03-20 02:41
 allow-lan: false
 dns:
   enable: true
@@ -18,50 +18,12 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 9|@Trick_mobil
-  password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-  port: 1743
-  server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk
-  skip-cert-verify: true
-  sni: 🔒
-  tls: false
-  type: hysteria2
-- name: '9|@Trick_mobil #1'
-  password: 5046SHWqk6
-  port: 844
-  server: 91.132.51.160
-  tls: false
-  type: hysteria2
 - name: 9|hy
   password: 5046SHWqk6
   port: 844
   server: 91.132.51.160
   skip-cert-verify: true
   sni: www.refersion.com
-  tls: false
-  type: hysteria2
-- name: '9|@Trick_mobil #3'
-  password: Telegram-->@Ln2Ray
-  port: 45000
-  server: 206.71.158.23
-  skip-cert-verify: true
-  sni: 🔒
-  tls: false
-  type: hysteria2
-- name: '9|@Trick_mobil #4'
-  password: Telegram-->@Ln2Ray
-  port: 45000
-  server: gavazn.lnmarketplace.net
-  skip-cert-verify: true
-  sni: 🔒
-  tls: false
-  type: hysteria2
-- name: '9|@Trick_mobil #5'
-  password: Yet-Another-Public-Config-1
-  port: 36400
-  server: 206.71.158.37
-  skip-cert-verify: true
-  sni: 🔒
   tls: false
   type: hysteria2
 - name: '9,10|کانال تلگرام : Free_VPN_CH@'
@@ -983,86 +945,81 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13|香港2|@ripaojiedian
-  - '10|کانال تلگرام : Free_VPN_CH@ #3'
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|AE_speednode_0001
+  - 14|KR_speednode_0025
   - 14|US_speednode_0041
-  - 9|@Trick_mobil
-  - 14|US_speednode_0060
-  - '9|@Trick_mobil #4'
-  - 14|US_speednode_0042
-  - 13|香港|@ripaojiedian
-  - 14|US_speednode_0059
-  - 9|hy
-  - 12,13|日本|@ripaojiedian
-  - '10|@V2rayNG3 #2'
-  - 12,13|香港3|@ripaojiedian
-  - 14|US_speednode_0047
-  - 14|US_speednode_0034
-  - '10|کانال تلگرام : Free_VPN_CH@ #1'
-  - 14|IR_speednode_0022
-  - 14|US_speednode_0046
-  - 10|🩵+@Azarakhsh_Proxy+🩷
-  - 14|AU_speednode_0002
-  - 14|US_speednode_0035
-  - 14|US_speednode_0062
-  - '9|@Trick_mobil #5'
-  - 10| - NL - @FreeOnlineVPN
-  - 14|US_speednode_0039
-  - 14|US_speednode_0053
-  - 14|US_speednode_0048
-  - 14|US_speednode_0057
-  - '9|@Trick_mobil #1'
-  - 14|KR_speednode_0024
-  - 14|US_speednode_0029
-  - 14|US_speednode_0033
-  - '10|@V2rayNG3 #1'
-  - 14|US_speednode_0050
-  - 14|US_speednode_0051
-  - '10|کانال تلگرام : Free_VPN_CH@ #2'
-  - 12|🇹🇼 台湾|@ripaojiedian
-  - 14|US_speednode_0058
-  - 12,13|日本3|@ripaojiedian
-  - 14|CN_speednode_0004
-  - 14|US_speednode_0054
-  - 12,13|香港4|@ripaojiedian
-  - 14|HK_speednode_0021
-  - 12,13|美国2|@ripaojiedian
-  - 14|US_speednode_0038
-  - '9|@Trick_mobil #3'
   - 12|🇭🇰 香港2|@ripaojiedian
-  - 14|US_speednode_0036
-  - 12,13|香港5|@ripaojiedian
-  - 14|US_speednode_0052
-  - 14|US_speednode_0061
-  - 14|CZ_speednode_0017
-  - 12,13|新加坡2|@ripaojiedian
-  - 14|US_speednode_0030
-  - 12|tg频道:@ripaojiedian
+  - 14|PL_speednode_0026
+  - 14|US_speednode_0043
+  - 14|US_speednode_0048
   - 12,13|新加坡|@ripaojiedian
-  - 14|US_speednode_0031
+  - 14|US_speednode_0050
+  - 14|US_speednode_0060
+  - 14|US_speednode_0051
+  - 14|US_speednode_0038
+  - 14|US_speednode_0042
+  - 14|US_speednode_0029
+  - 14|US_speednode_0058
+  - 12,13|美国|@ripaojiedian
+  - 14|AU_speednode_0002
+  - 14|US_speednode_0056
+  - 12,13|香港3|@ripaojiedian
+  - 14|US_speednode_0033
+  - 14|US_speednode_0040
+  - 12,13|香港4|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|US_speednode_0028
+  - 14|US_speednode_0036
+  - 12,13|美国3|@ripaojiedian
+  - 9|hy
+  - '10|@V2rayNG3 #2'
   - 14|US_speednode_0037
   - 12,13|日本2|@ripaojiedian
-  - 14|US_speednode_0049
-  - 14|KR_speednode_0025
+  - 10| - NL - @FreeOnlineVPN
+  - 14|US_speednode_0034
+  - 14|US_speednode_0047
   - 14|RU_speednode_0027
+  - 14|US_speednode_0061
+  - 14|US_speednode_0039
   - 14|US_speednode_0044
-  - '9,10|کانال تلگرام : Free_VPN_CH@'
-  - 14|US_speednode_0040
-  - 14|PL_speednode_0026
-  - 14|US_speednode_0032
-  - 14|US_speednode_0045
-  - 14|US_speednode_0043
-  - 14|US_speednode_0056
-  - '10|@V2rayNG3 #3'
-  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|US_speednode_0035
+  - 14|HK_speednode_0021
+  - 14|US_speednode_0030
+  - 14|US_speednode_0031
+  - 14|US_speednode_0052
+  - 12|tg频道:@ripaojiedian
+  - 14|CZ_speednode_0017
   - 14|KR_speednode_0023
-  - 14|US_speednode_0028
-  - 12,13|美国|@ripaojiedian
-  - 14|US_speednode_0055
-  - 12,13|美国3|@ripaojiedian
+  - 14|US_speednode_0045
+  - 14|AE_speednode_0001
   - 14|US_speednode_0063
+  - 12,13|日本|@ripaojiedian
+  - '10|کانال تلگرام : Free_VPN_CH@ #3'
+  - 12|🇹🇼 台湾|@ripaojiedian
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 12,13|新加坡3|@ripaojiedian
+  - 14|US_speednode_0032
+  - 12,13|香港5|@ripaojiedian
+  - 14|US_speednode_0046
+  - 14|US_speednode_0053
+  - 14|US_speednode_0062
+  - 14|US_speednode_0055
+  - 14|IR_speednode_0022
+  - 14|US_speednode_0049
+  - '10|کانال تلگرام : Free_VPN_CH@ #2'
+  - '9,10|کانال تلگرام : Free_VPN_CH@'
+  - 14|US_speednode_0057
+  - 14|US_speednode_0059
+  - '10|@V2rayNG3 #1'
+  - 14|KR_speednode_0024
+  - '10|کانال تلگرام : Free_VPN_CH@ #1'
+  - 14|US_speednode_0054
+  - 13|香港2|@ripaojiedian
+  - 12,13|美国2|@ripaojiedian
+  - '10|@V2rayNG3 #3'
+  - 10|🩵+@Azarakhsh_Proxy+🩷
+  - 14|CN_speednode_0004
+  - 13|香港|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
