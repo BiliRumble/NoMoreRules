@@ -1,4 +1,4 @@
-# Update: 2026-03-20 09:09
+# Update: 2026-03-20 12:29
 allow-lan: false
 dns:
   enable: true
@@ -18,7 +18,7 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 9|hy
+- name: 10|hy
   password: 5046SHWqk6
   port: 844
   server: 91.132.51.160
@@ -26,7 +26,7 @@ proxies:
   sni: www.refersion.com
   tls: false
   type: hysteria2
-- name: '9,10|کانال تلگرام : Free_VPN_CH@'
+- name: '10,11|کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -36,7 +36,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 10|🩵+@Azarakhsh_Proxy+🩷
+- name: 11|🩵+@Azarakhsh_Proxy+🩷
   obfs: salamander
   obfs-password: KevinZakarian
   password: KevinZakarian
@@ -46,7 +46,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 10| - NL - @FreeOnlineVPN
+- name: 11| - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -56,7 +56,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '10|@V2rayNG3 #1'
+- name: '11|@V2rayNG3 #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -66,7 +66,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '10|@V2rayNG3 #2'
+- name: '11|@V2rayNG3 #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -76,7 +76,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '10|کانال تلگرام : Free_VPN_CH@ #2'
+- name: '11|کانال تلگرام : Free_VPN_CH@ #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -88,7 +88,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '10|کانال تلگرام : Free_VPN_CH@ #1'
+  name: '11|کانال تلگرام : Free_VPN_CH@ #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -98,7 +98,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '10|کانال تلگرام : Free_VPN_CH@ #3'
+- name: '11|کانال تلگرام : Free_VPN_CH@ #3'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -108,7 +108,7 @@ proxies:
   sni: api.kermanshahi.org@freenettir
   tls: false
   type: hysteria2
-- name: '10|@V2rayNG3 #3'
+- name: '11|@V2rayNG3 #3'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -119,14 +119,14 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
-  name: 12|tg频道:@ripaojiedian
+  name: 13|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: 12|🇭🇰 香港|@ripaojiedian
+  name: 13|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -135,14 +135,14 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 12|🇭🇰 香港2|@ripaojiedian
+  name: 13|🇭🇰 香港2|@ripaojiedian
   port: 6001
   server: cn01.365cloud8754.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
-- name: 12,13|香港3|@ripaojiedian
+- name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 6196
@@ -150,7 +150,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|香港4|@ripaojiedian
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 51885
@@ -158,7 +158,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 12,13|香港5|@ripaojiedian
+- name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 8044
@@ -167,12 +167,12 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: aes-128-gcm
-  name: 12|🇭🇰 香港6|@ripaojiedian
+  name: 13|🇭🇰 香港6|@ripaojiedian
   password: d72781da-3ea8-4d7f-9bca-c04ed410443b
   port: 50000
   server: 106.75.162.7
   type: ss
-- name: 12,13|日本|@ripaojiedian
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 16919
@@ -180,7 +180,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|日本2|@ripaojiedian
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 34818
@@ -188,7 +188,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 2001
@@ -196,7 +196,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡|@ripaojiedian
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 4674
@@ -204,7 +204,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 3419
@@ -212,7 +212,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡3|@ripaojiedian
+- name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 52951
@@ -220,7 +220,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|美国|@ripaojiedian
+- name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 4920
@@ -228,7 +228,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 4920
@@ -236,7 +236,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 14919
@@ -246,7 +246,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 13|香港|@ripaojiedian
+  name: 14|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -256,7 +256,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: aes-128-gcm
-  name: 13|香港2|@ripaojiedian
+  name: 14|香港2|@ripaojiedian
   network: tcp
   port: '6001'
   server: cn01.365cloud8754.com
@@ -266,7 +266,7 @@ proxies:
   uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
 - alpn:
   - http/1.1
-  name: 14|AE_speednode_0001
+  name: 15|AE_speednode_0001
   network: ws
   port: 8443
   server: 31.58.50.225
@@ -280,14 +280,14 @@ proxies:
     headers:
       Host: snippet.chinav.eu.cc
     path: /danfeng
-- name: 14|AU_speednode_0002
+- name: 15|AU_speednode_0002
   password: IL37892054
   port: 443
   server: engaged-ram.rooster465.autos
   skip-cert-verify: false
   type: trojan
   udp: true
-- name: 14|CN_speednode_0004
+- name: 15|CN_speednode_0004
   network: ws
   port: 1234
   server: 223.72.61.78
@@ -301,7 +301,7 @@ proxies:
     headers:
       Host: snippet.danfeng.gleeze.com
     path: /danfeng?ed=2560
-- name: 14|CZ_speednode_0017
+- name: 15|CZ_speednode_0017
   network: ws
   port: 443
   server: 194.87.245.253
@@ -318,7 +318,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 14|HK_speednode_0021
+  name: 15|HK_speednode_0021
   network: ws
   port: 3389
   server: 203.168.131.110
@@ -333,7 +333,7 @@ proxies:
       Host: snippet.chinav.eu.cc
     path: /danfeng
 - flow: xtls-rprx-vision
-  name: 14|IR_speednode_0022
+  name: 15|IR_speednode_0022
   port: 8443
   reality-opts:
     public-key: p6rBxt_9BHHS3ODfWh3gE3nnzsbVqidNUisM5rRk-n0
@@ -348,7 +348,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 14|KR_speednode_0023
+  name: 15|KR_speednode_0023
   network: ws
   port: 15018
   server: 61.79.126.130
@@ -362,7 +362,7 @@ proxies:
     headers:
       Host: snippet.chinav.eu.cc
     path: /danfeng
-- name: 14|KR_speednode_0024
+- name: 15|KR_speednode_0024
   network: ws
   password: trojan
   port: 11000
@@ -378,7 +378,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 14|KR_speednode_0025
+  name: 15|KR_speednode_0025
   network: ws
   port: 12345
   server: 121.174.43.148
@@ -392,7 +392,7 @@ proxies:
     headers:
       Host: snippet.chinat.eu.cc
     path: /danfeng
-- name: 14|PL_speednode_0026
+- name: 15|PL_speednode_0026
   password: IL37892054
   port: 443
   server: outgoing-ladybird.rooster465.autos
@@ -400,7 +400,7 @@ proxies:
   sni: outgoing-ladybird.rooster465.autos
   type: trojan
   udp: true
-- name: 14|RU_speednode_0027
+- name: 15|RU_speednode_0027
   network: ws
   port: 443
   server: 193.9.49.65
@@ -414,7 +414,7 @@ proxies:
     headers:
       Host: r.icy.de5.net
     path: /?ed=2560
-- name: 14|US_speednode_0028
+- name: 15|US_speednode_0028
   network: ws
   port: 443
   server: 192.0.54.131
@@ -428,7 +428,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 14|US_speednode_0029
+- name: 15|US_speednode_0029
   network: ws
   port: 443
   server: 192.0.63.56
@@ -442,7 +442,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 14|US_speednode_0030
+- name: 15|US_speednode_0030
   network: ws
   port: 443
   server: 192.0.54.225
@@ -456,7 +456,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 14|US_speednode_0031
+- name: 15|US_speednode_0031
   network: ws
   port: 443
   server: 192.0.63.134
@@ -470,7 +470,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 14|US_speednode_0032
+- name: 15|US_speednode_0032
   network: ws
   port: 443
   server: 192.0.54.188
@@ -484,7 +484,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 14|US_speednode_0033
+- name: 15|US_speednode_0033
   network: ws
   port: 443
   server: 192.0.63.230
@@ -498,7 +498,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 14|US_speednode_0034
+- name: 15|US_speednode_0034
   network: ws
   port: 443
   server: www.visa.cn
@@ -512,7 +512,7 @@ proxies:
     headers:
       Host: r.icy.de5.net
     path: /?ed=2560
-- name: 14|US_speednode_0035
+- name: 15|US_speednode_0035
   network: ws
   port: 443
   server: 192.0.63.56
@@ -526,7 +526,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- name: 14|US_speednode_0036
+- name: 15|US_speednode_0036
   network: ws
   port: 443
   server: 192.0.54.131
@@ -540,7 +540,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- name: 14|US_speednode_0037
+- name: 15|US_speednode_0037
   network: ws
   port: 443
   server: 192.0.54.188
@@ -554,7 +554,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- name: 14|US_speednode_0038
+- name: 15|US_speednode_0038
   network: ws
   port: 443
   server: 192.0.63.230
@@ -568,7 +568,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- name: 14|US_speednode_0039
+- name: 15|US_speednode_0039
   network: ws
   port: 443
   server: 192.0.63.134
@@ -582,7 +582,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- name: 14|US_speednode_0040
+- name: 15|US_speednode_0040
   network: ws
   port: 443
   server: 172.64.156.0
@@ -597,7 +597,7 @@ proxies:
       Host: r.icy.de5.net
     path: /?ed=2560
 - client-fingerprint: randomized
-  name: 14|US_speednode_0041
+  name: 15|US_speednode_0041
   network: ws
   port: 2095
   server: www.shopify.com
@@ -612,7 +612,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0042
+  name: 15|US_speednode_0042
   network: ws
   port: 2095
   server: docs.cloudflare.com
@@ -627,7 +627,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0043
+  name: 15|US_speednode_0043
   network: ws
   port: 2095
   server: www.npmjs.com
@@ -642,7 +642,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0044
+  name: 15|US_speednode_0044
   network: ws
   port: 2095
   server: support.cloudflare.com
@@ -657,7 +657,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0045
+  name: 15|US_speednode_0045
   network: ws
   port: 2095
   server: blog.cloudflare.com
@@ -672,7 +672,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0046
+  name: 15|US_speednode_0046
   network: ws
   port: 2095
   server: www.fbi.gov
@@ -687,7 +687,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0047
+  name: 15|US_speednode_0047
   network: ws
   port: 2095
   server: ns.cloudflare.com
@@ -702,7 +702,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0048
+  name: 15|US_speednode_0048
   network: ws
   port: 2095
   server: developers.cloudflare.com
@@ -717,7 +717,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0049
+  name: 15|US_speednode_0049
   network: ws
   port: 2095
   server: openai.com
@@ -732,7 +732,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0050
+  name: 15|US_speednode_0050
   network: ws
   port: 2095
   server: www.udemy.com
@@ -747,7 +747,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0051
+  name: 15|US_speednode_0051
   network: ws
   port: 2095
   server: www.wto.org
@@ -761,7 +761,7 @@ proxies:
     headers:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
-- name: 14|US_speednode_0052
+- name: 15|US_speednode_0052
   network: ws
   port: 2053
   server: convera.com
@@ -776,7 +776,7 @@ proxies:
       Host: mzees9mh.danfeng.gv.uy
     path: /danfeng?ed=2560
 - client-fingerprint: randomized
-  name: 14|US_speednode_0053
+  name: 15|US_speednode_0053
   network: ws
   port: 2095
   server: cdnjs.com
@@ -790,7 +790,7 @@ proxies:
     headers:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
-- name: 14|US_speednode_0054
+- name: 15|US_speednode_0054
   network: ws
   port: 443
   server: vip2.kaixincloud.top
@@ -805,7 +805,7 @@ proxies:
       Host: r.icy.de5.net
     path: /?ed=2560
 - client-fingerprint: randomized
-  name: 14|US_speednode_0055
+  name: 15|US_speednode_0055
   network: ws
   port: 2095
   server: www.temu.com
@@ -820,7 +820,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0056
+  name: 15|US_speednode_0056
   network: ws
   port: 2095
   server: cloudflare-dns.com
@@ -835,7 +835,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0057
+  name: 15|US_speednode_0057
   network: ws
   port: 2095
   server: cf.090227.xyz
@@ -849,7 +849,7 @@ proxies:
     headers:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
-- name: 14|US_speednode_0058
+- name: 15|US_speednode_0058
   network: ws
   port: 443
   server: alist.sm.uy
@@ -864,7 +864,7 @@ proxies:
       Host: r.icy.de5.net
     path: /?ed=2560
 - flow: xtls-rprx-vision
-  name: 14|US_speednode_0059
+  name: 15|US_speednode_0059
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -881,7 +881,7 @@ proxies:
   - h2
   - http/1.1
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0060
+  name: 15|US_speednode_0060
   port: 443
   server: pl202.mechvpn.online
   skip-cert-verify: false
@@ -889,7 +889,7 @@ proxies:
   type: vless
   udp: true
   uuid: 729764b1-149c-49f2-b170-322544df7b5b
-- name: 14|US_speednode_0061
+- name: 15|US_speednode_0061
   network: ws
   port: 2053
   server: 104.19.73.126
@@ -903,7 +903,7 @@ proxies:
     headers:
       Host: d2wiyfbwnyf.danfeng.gv.uy
     path: /danfeng?ed=2560
-- name: 14|US_speednode_0062
+- name: 15|US_speednode_0062
   network: ws
   port: 2053
   server: convera.com
@@ -920,7 +920,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: random
-  name: 14|US_speednode_0063
+  name: 15|US_speednode_0063
   network: ws
   port: 443
   server: mfa.gov.ua
@@ -945,81 +945,81 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|US_speednode_0045
-  - 9|hy
-  - 14|AU_speednode_0002
-  - 14|US_speednode_0060
-  - 14|US_speednode_0057
-  - '10|کانال تلگرام : Free_VPN_CH@ #3'
-  - 14|US_speednode_0028
-  - 14|US_speednode_0055
-  - 10|🩵+@Azarakhsh_Proxy+🩷
-  - 14|US_speednode_0050
-  - 14|US_speednode_0054
-  - 14|US_speednode_0036
-  - 14|US_speednode_0039
-  - 14|US_speednode_0033
-  - 10| - NL - @FreeOnlineVPN
-  - 14|US_speednode_0053
-  - 14|HK_speednode_0021
-  - 14|US_speednode_0031
-  - 14|US_speednode_0059
-  - 12,13|香港5|@ripaojiedian
-  - 12|🇭🇰 香港6|@ripaojiedian
-  - 14|US_speednode_0051
-  - '10|کانال تلگرام : Free_VPN_CH@ #2'
-  - 14|IR_speednode_0022
-  - 14|US_speednode_0040
-  - 12,13|日本2|@ripaojiedian
-  - 13|香港2|@ripaojiedian
-  - 14|CN_speednode_0004
-  - 14|US_speednode_0041
-  - 14|US_speednode_0046
-  - 14|PL_speednode_0026
-  - 14|US_speednode_0056
-  - 14|US_speednode_0030
-  - 12,13|美国3|@ripaojiedian
-  - 14|US_speednode_0038
-  - 14|KR_speednode_0024
-  - 12,13|香港4|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 14|US_speednode_0042
-  - 14|US_speednode_0048
-  - 14|US_speednode_0034
-  - 14|US_speednode_0043
-  - 14|US_speednode_0058
-  - 14|CZ_speednode_0017
-  - '10|@V2rayNG3 #3'
-  - 14|US_speednode_0035
-  - 14|US_speednode_0044
-  - 12,13|美国2|@ripaojiedian
-  - 14|US_speednode_0061
-  - '10|@V2rayNG3 #1'
-  - 12,13|美国|@ripaojiedian
-  - 14|US_speednode_0047
-  - 14|AE_speednode_0001
-  - 12,13|日本|@ripaojiedian
-  - 14|US_speednode_0063
-  - 14|US_speednode_0049
-  - 14|RU_speednode_0027
-  - 14|US_speednode_0052
-  - 12,13|香港3|@ripaojiedian
-  - 14|US_speednode_0062
-  - '10|کانال تلگرام : Free_VPN_CH@ #1'
-  - 12,13|新加坡3|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - 14|KR_speednode_0023
-  - 14|US_speednode_0037
-  - '10|@V2rayNG3 #2'
-  - 12|🇭🇰 香港2|@ripaojiedian
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 12|tg频道:@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
-  - '9,10|کانال تلگرام : Free_VPN_CH@'
-  - 14|US_speednode_0032
-  - 14|KR_speednode_0025
-  - 14|US_speednode_0029
+  - 14|香港|@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
+  - 15|US_speednode_0053
+  - 13,14|香港3|@ripaojiedian
+  - 13,14|日本|@ripaojiedian
+  - 15|US_speednode_0056
+  - '11|@V2rayNG3 #3'
+  - 15|US_speednode_0037
+  - '10,11|کانال تلگرام : Free_VPN_CH@'
+  - 15|US_speednode_0050
+  - 15|US_speednode_0055
+  - 14|香港2|@ripaojiedian
+  - 15|HK_speednode_0021
+  - 15|US_speednode_0031
+  - 15|US_speednode_0032
+  - 15|US_speednode_0048
+  - 15|US_speednode_0049
+  - 15|US_speednode_0062
+  - 15|IR_speednode_0022
+  - 15|US_speednode_0047
+  - 15|US_speednode_0063
+  - 11|🩵+@Azarakhsh_Proxy+🩷
+  - 13|tg频道:@ripaojiedian
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
+  - 15|CN_speednode_0004
+  - '11|@V2rayNG3 #1'
+  - 15|US_speednode_0039
+  - 13|🇭🇰 香港6|@ripaojiedian
+  - '11|کانال تلگرام : Free_VPN_CH@ #2'
+  - 15|KR_speednode_0023
+  - 15|US_speednode_0028
+  - 15|US_speednode_0043
+  - 15|US_speednode_0058
+  - 13,14|香港5|@ripaojiedian
+  - 15|AE_speednode_0001
+  - 15|AU_speednode_0002
+  - '11|کانال تلگرام : Free_VPN_CH@ #1'
+  - 15|RU_speednode_0027
+  - 15|US_speednode_0036
+  - 13,14|美国2|@ripaojiedian
+  - 13,14|美国3|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
+  - 15|US_speednode_0045
+  - 15|US_speednode_0057
+  - 15|US_speednode_0059
+  - 15|US_speednode_0029
+  - 15|US_speednode_0042
+  - 15|US_speednode_0044
+  - 13,14|新加坡2|@ripaojiedian
+  - '11|کانال تلگرام : Free_VPN_CH@ #3'
+  - 15|US_speednode_0038
+  - 15|US_speednode_0033
+  - 13,14|新加坡|@ripaojiedian
+  - 15|US_speednode_0030
+  - 13,14|美国|@ripaojiedian
+  - 15|US_speednode_0061
+  - 10|hy
+  - 15|US_speednode_0034
+  - '11|@V2rayNG3 #2'
+  - 15|US_speednode_0054
+  - 15|US_speednode_0046
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 15|PL_speednode_0026
+  - 15|US_speednode_0041
+  - 15|CZ_speednode_0017
+  - 15|KR_speednode_0025
+  - 11| - NL - @FreeOnlineVPN
+  - 13,14|香港4|@ripaojiedian
+  - 15|US_speednode_0051
+  - 15|KR_speednode_0024
+  - 15|US_speednode_0052
+  - 15|US_speednode_0060
+  - 15|US_speednode_0035
+  - 15|US_speednode_0040
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1075,51 +1075,51 @@ proxy-groups:
   type: select
 - name: 🇯🇵 日本
   proxies:
-  - 12,13|日本|@ripaojiedian
-  - 12,13|日本2|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
+  - 13,14|日本|@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
   type: select
 - name: 🇺🇸 美国
   proxies:
-  - 12,13|美国|@ripaojiedian
-  - 12,13|美国2|@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
-  - 14|US_speednode_0028
-  - 14|US_speednode_0029
-  - 14|US_speednode_0030
-  - 14|US_speednode_0031
-  - 14|US_speednode_0032
-  - 14|US_speednode_0033
-  - 14|US_speednode_0034
-  - 14|US_speednode_0035
-  - 14|US_speednode_0036
-  - 14|US_speednode_0037
-  - 14|US_speednode_0038
-  - 14|US_speednode_0039
-  - 14|US_speednode_0040
-  - 14|US_speednode_0041
-  - 14|US_speednode_0042
-  - 14|US_speednode_0043
-  - 14|US_speednode_0044
-  - 14|US_speednode_0045
-  - 14|US_speednode_0046
-  - 14|US_speednode_0047
-  - 14|US_speednode_0048
-  - 14|US_speednode_0049
-  - 14|US_speednode_0050
-  - 14|US_speednode_0051
-  - 14|US_speednode_0052
-  - 14|US_speednode_0053
-  - 14|US_speednode_0054
-  - 14|US_speednode_0055
-  - 14|US_speednode_0056
-  - 14|US_speednode_0057
-  - 14|US_speednode_0058
-  - 14|US_speednode_0059
-  - 14|US_speednode_0060
-  - 14|US_speednode_0061
-  - 14|US_speednode_0062
-  - 14|US_speednode_0063
+  - 13,14|美国|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
+  - 13,14|美国3|@ripaojiedian
+  - 15|US_speednode_0028
+  - 15|US_speednode_0029
+  - 15|US_speednode_0030
+  - 15|US_speednode_0031
+  - 15|US_speednode_0032
+  - 15|US_speednode_0033
+  - 15|US_speednode_0034
+  - 15|US_speednode_0035
+  - 15|US_speednode_0036
+  - 15|US_speednode_0037
+  - 15|US_speednode_0038
+  - 15|US_speednode_0039
+  - 15|US_speednode_0040
+  - 15|US_speednode_0041
+  - 15|US_speednode_0042
+  - 15|US_speednode_0043
+  - 15|US_speednode_0044
+  - 15|US_speednode_0045
+  - 15|US_speednode_0046
+  - 15|US_speednode_0047
+  - 15|US_speednode_0048
+  - 15|US_speednode_0049
+  - 15|US_speednode_0050
+  - 15|US_speednode_0051
+  - 15|US_speednode_0052
+  - 15|US_speednode_0053
+  - 15|US_speednode_0054
+  - 15|US_speednode_0055
+  - 15|US_speednode_0056
+  - 15|US_speednode_0057
+  - 15|US_speednode_0058
+  - 15|US_speednode_0059
+  - 15|US_speednode_0060
+  - 15|US_speednode_0061
+  - 15|US_speednode_0062
+  - 15|US_speednode_0063
   type: select
 - name: 🇨🇳 台湾
   proxies:
@@ -1127,19 +1127,19 @@ proxy-groups:
   type: select
 - name: 🇨🇳 中国
   proxies:
-  - 14|CN_speednode_0004
+  - 15|CN_speednode_0004
   type: select
 - name: 🇭🇰 香港
   proxies:
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 12|🇭🇰 香港2|@ripaojiedian
-  - 12,13|香港3|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
-  - 12,13|香港5|@ripaojiedian
-  - 12|🇭🇰 香港6|@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - 13|香港2|@ripaojiedian
-  - 14|HK_speednode_0021
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 13|🇭🇰 香港2|@ripaojiedian
+  - 13,14|香港3|@ripaojiedian
+  - 13,14|香港4|@ripaojiedian
+  - 13,14|香港5|@ripaojiedian
+  - 13|🇭🇰 香港6|@ripaojiedian
+  - 14|香港|@ripaojiedian
+  - 14|香港2|@ripaojiedian
+  - 15|HK_speednode_0021
   type: select
 - name: 🇨🇦 加拿大
   proxies:
@@ -1151,9 +1151,9 @@ proxy-groups:
   type: select
 - name: 🇸🇬 新加坡
   proxies:
-  - 12,13|新加坡|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 13,14|新加坡2|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
   type: select
 - name: 🇬🇧 英国
   proxies:
@@ -1161,17 +1161,17 @@ proxy-groups:
   type: select
 - name: 🇰🇷 韩国
   proxies:
-  - 14|KR_speednode_0023
-  - 14|KR_speednode_0024
-  - 14|KR_speednode_0025
+  - 15|KR_speednode_0023
+  - 15|KR_speednode_0024
+  - 15|KR_speednode_0025
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
-  - 14|RU_speednode_0027
+  - 15|RU_speednode_0027
   type: select
 - name: 🇩🇪 德国
   proxies:
-  - '9,10|کانال تلگرام : Free_VPN_CH@'
+  - '10,11|کانال تلگرام : Free_VPN_CH@'
   type: select
 rules:
 - MATCH,DIRECT
