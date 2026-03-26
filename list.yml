@@ -1,4 +1,4 @@
-# Update: 2026-03-26 05:27
+# Update: 2026-03-26 09:17
 allow-lan: false
 dns:
   enable: true
@@ -37,55 +37,55 @@ proxies:
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 921
-  server: 52.195.175.93
+  server: 18.183.73.66
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 6313
-  server: 54.238.27.181
+  port: 36854
+  server: 54.95.21.63
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 5823
-  server: 18.162.133.44
+  port: 6313
+  server: 54.95.21.63
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4945
-  server: 18.183.109.144
+  port: 3022
+  server: 13.113.229.223
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 4937
-  server: 18.183.109.249
+  port: 2001
+  server: 52.195.4.144
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 34818
-  server: 18.183.109.249
+  port: 4937
+  server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 1524
-  server: 160.16.70.180
+  port: 4674
+  server: 52.195.4.144
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -93,39 +93,39 @@ proxies:
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 1524
-  server: 18.183.109.144
+  server: 52.192.225.14
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 12070
-  server: 16.162.188.92
+  port: 22045
+  server: 95.40.2.4
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 3700
-  server: 160.16.70.180
+  port: 3057
+  server: 13.230.200.237
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 29370
-  server: 18.183.109.249
+  port: 4019
+  server: 52.192.225.14
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 15407
-  server: 18.183.109.144
+  port: 49534
+  server: 18.166.177.165
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -262,33 +262,33 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
+  - 15|PL_speednode_0030
+  - 13,14|香港5|@ripaojiedian
+  - 15|US_speednode_0039
+  - 15|PL_speednode_0031
+  - 13|tg频道:@ripaojiedian
+  - 15|PL_speednode_0029
+  - 15|US_speednode_0068
+  - 13,14|日本3|@ripaojiedian
+  - 15|PL_speednode_0032
+  - 15|KR_speednode_0021
+  - 15|AU_speednode_0004
+  - 15|TW_speednode_0036
+  - 13,14|新加坡2|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
   - 13,14|香港4|@ripaojiedian
   - 13,14|日本|@ripaojiedian
-  - 13,14|日本3|@ripaojiedian
-  - 13,14|新加坡3|@ripaojiedian
-  - 13|🇭🇰 香港|@ripaojiedian
+  - 13,14|美国|@ripaojiedian
   - 13,14|美国2|@ripaojiedian
-  - 15|PL_speednode_0030
-  - 13|tg频道:@ripaojiedian
-  - 15|SG_speednode_0034
-  - 13,14|日本2|@ripaojiedian
-  - 15|PL_speednode_0029
-  - 15|US_speednode_0039
-  - 15|KR_speednode_0021
-  - 15|PL_speednode_0031
-  - 13,14|新加坡|@ripaojiedian
-  - 15|KR_speednode_0026
   - 15|US_speednode_0065
   - 13,14|美国3|@ripaojiedian
-  - 15|PL_speednode_0032
-  - 13,14|香港5|@ripaojiedian
-  - 15|AU_speednode_0004
-  - 15|MD_speednode_0028
-  - 13,14|新加坡2|@ripaojiedian
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 15|SG_speednode_0034
+  - 13,14|新加坡3|@ripaojiedian
   - 13,14|香港3|@ripaojiedian
-  - 15|US_speednode_0068
-  - 13,14|美国|@ripaojiedian
-  - 15|TW_speednode_0036
+  - 15|MD_speednode_0028
+  - 15|KR_speednode_0026
   - 14|香港|@ripaojiedian
   type: fallback
   url: https://www.google.com/
