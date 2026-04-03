@@ -1,4 +1,4 @@
-# Update: 2026-04-03 17:42
+# Update: 2026-04-03 20:38
 allow-lan: false
 dns:
   enable: true
@@ -142,8 +142,8 @@ proxies:
 - name: 15|AT_speednode_0001
   network: ws
   password: trojan
-  port: 8444
-  server: 152.53.60.198
+  port: 8888
+  server: 152.53.45.251
   skip-cert-verify: false
   sni: jflsjlaf.pages.dev
   type: trojan
@@ -152,14 +152,22 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
-- name: 15|NL_speednode_0029
+- name: 15|IN_speednode_0058
+  password: M7v%w11Se*
+  port: 443
+  server: tttyder.wsone.icu
+  skip-cert-verify: true
+  sni: tttyder.wsone.icu
+  type: trojan
+  udp: true
+- name: 15|NL_speednode_0061
   password: strong-secret-pass-777
   port: 4443
   server: 94.131.105.125
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 15|NL_speednode_0030
+- name: 15|NL_speednode_0062
   password: strong-secret-pass-777
   port: 4443
   server: 94.131.105.125
@@ -178,24 +186,25 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 15|AT_speednode_0001
-  - 13,14|香港3|@ripaojiedian
-  - 13,14|新加坡2|@ripaojiedian
-  - 13,14|日本2|@ripaojiedian
   - 13,14|新加坡3|@ripaojiedian
-  - 13,14|美国3|@ripaojiedian
-  - 14|香港|@ripaojiedian
-  - 13,14|日本|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
-  - 13,14|日本3|@ripaojiedian
   - 13,14|新加坡|@ripaojiedian
+  - 15|IN_speednode_0058
+  - 13|🇭🇰 香港|@ripaojiedian
   - 13,14|香港4|@ripaojiedian
-  - 15|NL_speednode_0029
-  - 15|NL_speednode_0030
-  - 13,14|美国2|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
+  - 13,14|日本2|@ripaojiedian
   - 13,14|香港5|@ripaojiedian
+  - 13,14|日本|@ripaojiedian
+  - 13,14|美国3|@ripaojiedian
+  - 15|NL_speednode_0061
+  - 13,14|美国|@ripaojiedian
+  - 13,14|香港3|@ripaojiedian
+  - 15|NL_speednode_0062
+  - 15|AT_speednode_0001
+  - 13,14|新加坡2|@ripaojiedian
+  - 14|香港|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
+  - 13,14|日本3|@ripaojiedian
+  - 13|tg频道:@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
