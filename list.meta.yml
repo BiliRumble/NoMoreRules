@@ -1,4 +1,4 @@
-# Update: 2026-04-04 23:21
+# Update: 2026-04-05 02:26
 allow-lan: false
 dns:
   enable: true
@@ -18,16 +18,6 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 10|🏆21@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: Telegram-->@Ln2Ray
-  password: Telegram-->@Ln2Ray
-  port: 45000
-  server: 206.71.158.23
-  skip-cert-verify: true
-  sni: gavazn.55994421.xyz
-  tls: false
-  type: hysteria2
 - name: 10|21@oneclickvpnkeys
   password: dongtaiwang.com
   port: 40022
@@ -876,91 +866,90 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|CN_speednode_0018
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 14|HK_speednode_0054
   - 14|TR_speednode_0064
-  - 14|CN_speednode_0015
-  - 14|HK_speednode_0034
-  - 14|NL_speednode_0061
-  - 14|BR_speednode_0002
-  - 12,13|香港4|@ripaojiedian
-  - 14|CN_speednode_0019
   - 14|CH_speednode_0004
-  - 14|CN_speednode_0026
-  - 14|CN_speednode_0017
-  - 14|HK_speednode_0043
-  - 10|🏆41@oneclickvpnkeys
-  - 14|CN_speednode_0031
+  - 14|HK_speednode_0051
+  - 14|HK_speednode_0052
+  - 14|HK_speednode_0039
+  - 14|HK_speednode_0049
+  - 14|US_speednode_0067
+  - 12,13|新加坡|@ripaojiedian
+  - 14|CN_speednode_0027
   - 14|DE_speednode_0033
-  - 12,13|日本3|@ripaojiedian
-  - 14|HK_speednode_0050
-  - 14|HK_speednode_0048
-  - 14|HK_speednode_0056
-  - 14|CN_speednode_0007
-  - 14|HK_speednode_0055
-  - 14|CN_speednode_0013
-  - 14|US_speednode_0071
-  - 14|RU_speednode_0063
-  - 12|tg频道:@ripaojiedian
-  - 12,13|香港5|@ripaojiedian
-  - 14|CN_speednode_0011
-  - 14|DE_speednode_0032
-  - 14|HK_speednode_0053
-  - 14|CN_speednode_0014
-  - 13|香港|@ripaojiedian
+  - 14|CN_speednode_0022
   - 14|KR_speednode_0060
-  - 14|CN_speednode_0010
+  - 14|CN_speednode_0008
+  - 14|US_speednode_0070
+  - 14|CN_speednode_0014
+  - 14|CN_speednode_0009
+  - 14|NL_speednode_0061
+  - 14|AT_speednode_0001
+  - 14|HK_speednode_0040
   - 14|US_speednode_0066
   - 14|HK_speednode_0036
-  - 14|CN_speednode_0022
-  - 12,13|美国|@ripaojiedian
-  - 14|CN_speednode_0024
-  - 14|CN_speednode_0020
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|CN_speednode_0030
+  - 10|🏆41@oneclickvpnkeys
   - 14|US_speednode_0069
-  - 14|CN_speednode_0006
-  - 14|HK_speednode_0038
-  - 14|US_speednode_0072
-  - 14|US_speednode_0070
-  - 14|IN_speednode_0058
-  - 14|HK_speednode_0042
-  - 10|21@oneclickvpnkeys
-  - 14|CN_speednode_0008
-  - 12,13|新加坡2|@ripaojiedian
-  - 14|US_speednode_0067
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|US_speednode_0071
   - 14|BR_speednode_0003
-  - 14|HK_speednode_0045
-  - 14|CN_speednode_0023
-  - 14|CN_speednode_0025
-  - 14|HK_speednode_0041
-  - 12,13|美国3|@ripaojiedian
-  - 12,13|美国2|@ripaojiedian
-  - 14|HK_speednode_0049
-  - 14|HK_speednode_0035
+  - 14|CN_speednode_0011
   - 14|HK_speednode_0046
-  - 12,13|日本2|@ripaojiedian
-  - 14|CN_speednode_0012
-  - 14|NL_speednode_0062
-  - 10|🏆21@oneclickvpnkeys
-  - 14|CN_speednode_0005
-  - 14|CN_speednode_0021
-  - 14|HK_speednode_0057
-  - 14|AT_speednode_0001
-  - 14|CN_speednode_0009
-  - 14|HK_speednode_0044
-  - 12,13|新加坡|@ripaojiedian
-  - 14|HK_speednode_0037
-  - 14|HK_speednode_0052
-  - 14|HK_speednode_0051
-  - 14|CN_speednode_0016
-  - 14|HK_speednode_0039
-  - 14|CN_speednode_0027
-  - 14|HK_speednode_0040
-  - 14|HK_speednode_0047
-  - 12,13|日本|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - 13|香港|@ripaojiedian
+  - 14|HK_speednode_0048
+  - 14|CN_speednode_0031
+  - 14|HK_speednode_0041
+  - 14|CN_speednode_0015
+  - 14|DE_speednode_0032
+  - 14|CN_speednode_0024
+  - 14|CN_speednode_0006
   - 12,13|香港3|@ripaojiedian
+  - 14|NL_speednode_0062
+  - 12,13|美国2|@ripaojiedian
+  - 14|HK_speednode_0057
+  - 14|CN_speednode_0021
+  - 14|CN_speednode_0005
+  - 12,13|美国3|@ripaojiedian
+  - 14|CN_speednode_0007
+  - 14|CN_speednode_0025
+  - 10|21@oneclickvpnkeys
+  - 14|CN_speednode_0030
+  - 14|IN_speednode_0058
+  - 14|RU_speednode_0063
+  - 14|CN_speednode_0018
+  - 14|HK_speednode_0053
+  - 14|HK_speednode_0054
+  - 12,13|新加坡2|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 14|CN_speednode_0012
+  - 14|CN_speednode_0026
+  - 14|US_speednode_0072
+  - 14|HK_speednode_0056
+  - 14|CN_speednode_0020
+  - 14|HK_speednode_0050
+  - 12,13|美国|@ripaojiedian
+  - 14|HK_speednode_0043
+  - 14|CN_speednode_0010
+  - 14|CN_speednode_0013
+  - 14|HK_speednode_0037
+  - 14|HK_speednode_0047
+  - 14|CN_speednode_0017
+  - 14|CN_speednode_0019
+  - 12,13|新加坡3|@ripaojiedian
+  - 12,13|香港5|@ripaojiedian
+  - 14|HK_speednode_0035
+  - 14|HK_speednode_0045
+  - 14|CN_speednode_0016
+  - 14|HK_speednode_0042
+  - 14|CN_speednode_0023
+  - 12,13|日本|@ripaojiedian
+  - 12,13|日本2|@ripaojiedian
+  - 14|HK_speednode_0055
+  - 14|BR_speednode_0002
+  - 14|HK_speednode_0034
+  - 14|HK_speednode_0038
+  - 14|HK_speednode_0044
   type: fallback
   url: https://www.google.com/
 - interval: 300
