@@ -1,4 +1,4 @@
-# Update: 2026-04-04 05:22
+# Update: 2026-04-04 09:12
 allow-lan: false
 dns:
   enable: true
@@ -47,15 +47,15 @@ proxies:
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 921
-  server: 13.193.218.6
+  server: 16.162.33.118
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9211
-  server: 95.40.35.187
+  port: 2001
+  server: 54.168.216.209
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -63,31 +63,31 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 6313
-  server: 3.112.236.46
+  server: 3.112.197.74
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 16919
-  server: 43.207.66.138
+  port: 3122
+  server: 54.238.193.143
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 4937
-  server: 160.16.106.99
+  port: 2001
+  server: 54.168.216.209
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 2001
-  server: 160.16.106.99
+  port: 4937
+  server: 160.16.72.205
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -95,7 +95,7 @@ proxies:
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 4674
-  server: 160.16.106.99
+  server: 160.16.72.205
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -103,15 +103,15 @@ proxies:
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 4674
-  server: 3.113.31.8
+  server: 54.168.216.209
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 30726
-  server: 16.163.147.176
+  port: 28033
+  server: 18.162.169.141
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -119,23 +119,23 @@ proxies:
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 3057
-  server: 3.113.31.8
+  server: 54.168.216.209
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 3057
-  server: 160.16.106.99
+  port: 4019
+  server: 54.168.216.209
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 44386
-  server: 43.198.248.119
+  port: 23255
+  server: 13.114.26.172
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -858,89 +858,89 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13,14|日本|@ripaojiedian
-  - 15|CN_speednode_0012
-  - 15|US_speednode_0066
-  - 15|HK_speednode_0056
-  - 15|IN_speednode_0058
-  - 15|CN_speednode_0023
-  - 15|CN_speednode_0027
-  - 15|CN_speednode_0024
-  - 15|HK_speednode_0042
-  - 13|tg频道:@ripaojiedian
-  - 15|HK_speednode_0051
-  - 15|HK_speednode_0034
-  - 15|CN_speednode_0007
   - 13|🇭🇰 香港|@ripaojiedian
-  - 15|CN_speednode_0008
-  - 13,14|新加坡|@ripaojiedian
-  - 15|CH_speednode_0004
-  - 15|CN_speednode_0015
-  - 15|KR_speednode_0060
-  - 15|HK_speednode_0055
-  - 13,14|新加坡3|@ripaojiedian
-  - 15|AT_speednode_0001
-  - 15|CN_speednode_0005
-  - 15|HK_speednode_0048
-  - 15|NL_speednode_0061
-  - 15|HK_speednode_0037
-  - 13,14|香港5|@ripaojiedian
-  - 15|BR_speednode_0003
-  - 15|HK_speednode_0041
-  - 15|CN_speednode_0031
-  - 13,14|美国|@ripaojiedian
-  - 15|CN_speednode_0025
-  - 15|CN_speednode_0016
-  - 15|HK_speednode_0047
-  - 15|CN_speednode_0006
-  - 15|CN_speednode_0011
-  - 13,14|日本3|@ripaojiedian
-  - 15|CN_speednode_0018
-  - 15|DE_speednode_0032
-  - 15|HK_speednode_0046
-  - 14|香港|@ripaojiedian
-  - 15|HK_speednode_0053
-  - 15|NL_speednode_0062
   - 15|US_speednode_0070
-  - 15|DE_speednode_0033
-  - 15|HK_speednode_0040
-  - 15|CN_speednode_0017
-  - 15|HK_speednode_0057
-  - 15|HK_speednode_0044
-  - 15|HK_speednode_0049
-  - 15|CN_speednode_0013
-  - 15|CN_speednode_0009
-  - 15|HK_speednode_0043
-  - 15|CN_speednode_0021
-  - 15|BR_speednode_0002
-  - 15|CN_speednode_0014
-  - 13,14|日本2|@ripaojiedian
-  - 15|HK_speednode_0050
-  - 15|TR_speednode_0064
-  - 15|HK_speednode_0054
-  - 15|HK_speednode_0039
-  - 15|CN_speednode_0019
-  - 15|US_speednode_0071
+  - 15|HK_speednode_0034
   - 15|CN_speednode_0022
-  - 13,14|新加坡2|@ripaojiedian
-  - 13,14|美国3|@ripaojiedian
-  - 15|US_speednode_0072
-  - 15|CN_speednode_0026
-  - 13,14|美国2|@ripaojiedian
-  - 11|🏆41@oneclickvpnkeys
-  - 15|HK_speednode_0036
-  - 15|HK_speednode_0038
-  - 13,14|香港3|@ripaojiedian
-  - 15|HK_speednode_0045
-  - 15|US_speednode_0069
+  - 13,14|日本2|@ripaojiedian
+  - 15|HK_speednode_0051
   - 13,14|香港4|@ripaojiedian
+  - 15|DE_speednode_0032
+  - 13,14|日本3|@ripaojiedian
+  - 15|CN_speednode_0012
+  - 15|IN_speednode_0058
+  - 13,14|美国3|@ripaojiedian
+  - 15|CH_speednode_0004
+  - 15|HK_speednode_0039
+  - 15|CN_speednode_0031
+  - 15|CN_speednode_0005
+  - 15|BR_speednode_0002
+  - 15|CN_speednode_0019
+  - 15|CN_speednode_0018
+  - 13,14|新加坡2|@ripaojiedian
+  - 15|CN_speednode_0013
+  - 15|CN_speednode_0014
+  - 15|CN_speednode_0011
+  - 15|CN_speednode_0009
+  - 15|US_speednode_0072
+  - 15|HK_speednode_0056
+  - 15|CN_speednode_0016
+  - 15|HK_speednode_0042
+  - 15|NL_speednode_0062
+  - 15|TR_speednode_0064
+  - 15|CN_speednode_0008
+  - 15|HK_speednode_0036
+  - 15|HK_speednode_0044
+  - 15|HK_speednode_0048
   - 15|HK_speednode_0035
-  - 15|CN_speednode_0020
-  - 15|RU_speednode_0063
   - 15|US_speednode_0067
-  - 15|CN_speednode_0010
+  - 13,14|香港3|@ripaojiedian
+  - 15|CN_speednode_0021
+  - 13,14|香港5|@ripaojiedian
+  - 15|CN_speednode_0024
+  - 15|NL_speednode_0061
+  - 15|BR_speednode_0003
+  - 15|CN_speednode_0020
+  - 13|tg频道:@ripaojiedian
+  - 15|CN_speednode_0006
+  - 15|KR_speednode_0060
+  - 15|HK_speednode_0050
+  - 15|RU_speednode_0063
+  - 13,14|日本|@ripaojiedian
+  - 13,14|新加坡3|@ripaojiedian
+  - 15|HK_speednode_0046
+  - 15|DE_speednode_0033
+  - 15|HK_speednode_0037
+  - 15|CN_speednode_0025
+  - 15|CN_speednode_0027
+  - 15|HK_speednode_0057
+  - 15|HK_speednode_0038
+  - 13,14|美国|@ripaojiedian
+  - 15|HK_speednode_0055
+  - 13,14|新加坡|@ripaojiedian
   - 15|HK_speednode_0052
+  - 15|US_speednode_0066
+  - 15|US_speednode_0071
+  - 15|HK_speednode_0040
+  - 15|AT_speednode_0001
+  - 15|CN_speednode_0026
+  - 15|HK_speednode_0049
+  - 15|HK_speednode_0041
+  - 15|HK_speednode_0047
+  - 15|CN_speednode_0010
+  - 15|US_speednode_0069
+  - 15|CN_speednode_0015
+  - 15|HK_speednode_0045
+  - 15|CN_speednode_0023
+  - 15|CN_speednode_0007
   - 15|CN_speednode_0030
+  - 13,14|美国2|@ripaojiedian
+  - 15|HK_speednode_0043
+  - 15|HK_speednode_0053
+  - 14|香港|@ripaojiedian
+  - 11|🏆41@oneclickvpnkeys
+  - 15|CN_speednode_0017
+  - 15|HK_speednode_0054
   type: fallback
   url: https://www.google.com/
 - interval: 300
