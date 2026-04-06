@@ -1,4 +1,4 @@
-# Update: 2026-04-06 23:36
+# Update: 2026-04-07 02:41
 allow-lan: false
 dns:
   enable: true
@@ -401,41 +401,41 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 15|US_speednode_0012
-  - 15|HK_speednode_0005
-  - 15|US_speednode_0011
+  - 11| - NL - @FreeOnlineVPN
+  - 13,14|新加坡2|@ripaojiedian
   - 15|NL_speednode_0009
   - 14|香港|@ripaojiedian
-  - 15|FR_speednode_0002
-  - 13,14|新加坡|@ripaojiedian
-  - 10|🇩🇪 - DE - @FreeOnlineVPN
-  - 13,14|日本2|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - 13|tg频道:@ripaojiedian
-  - 13,14|香港4|@ripaojiedian
-  - 15|NL_speednode_0010
-  - 15|FR_speednode_0001
-  - 15|US_speednode_0013
-  - 13,14|美国2|@ripaojiedian
-  - 11|🧸92@oneclickvpnkeys
-  - 13,14|日本|@ripaojiedian
-  - 13,14|新加坡2|@ripaojiedian
-  - 15|US_speednode_0016
-  - 15|GB_speednode_0003
-  - 15|KR_speednode_0007
-  - 11|🧸98@oneclickvpnkeys
-  - 15|US_speednode_0014
-  - 13,14|美国|@ripaojiedian
-  - 11|🧸91@oneclickvpnkeys
-  - 15|US_speednode_0017
-  - 13,14|香港3|@ripaojiedian
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 13,14|美国3|@ripaojiedian
-  - 15|KR_speednode_0008
   - 15|HK_speednode_0004
-  - 13,14|新加坡3|@ripaojiedian
+  - 13,14|美国|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
+  - 11|🧸91@oneclickvpnkeys
+  - 15|KR_speednode_0007
+  - 13,14|美国3|@ripaojiedian
+  - 13,14|香港5|@ripaojiedian
+  - 13,14|香港3|@ripaojiedian
+  - 15|US_speednode_0011
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 15|FR_speednode_0001
   - 13,14|日本3|@ripaojiedian
-  - 11| - NL - @FreeOnlineVPN
+  - 11|🧸92@oneclickvpnkeys
+  - 15|US_speednode_0012
+  - 10|🇩🇪 - DE - @FreeOnlineVPN
+  - 15|US_speednode_0014
+  - 15|GB_speednode_0003
+  - 11|🧸98@oneclickvpnkeys
+  - 13|tg频道:@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 15|US_speednode_0017
+  - 13,14|香港4|@ripaojiedian
+  - 15|KR_speednode_0008
+  - 15|US_speednode_0013
+  - 13,14|日本2|@ripaojiedian
+  - 15|US_speednode_0016
+  - 15|NL_speednode_0010
+  - 13,14|日本|@ripaojiedian
+  - 15|FR_speednode_0002
+  - 13,14|新加坡3|@ripaojiedian
+  - 15|HK_speednode_0005
   type: fallback
   url: https://www.google.com/
 - interval: 300
