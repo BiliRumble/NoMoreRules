@@ -1,4 +1,4 @@
-# Update: 2026-04-07 02:41
+# Update: 2026-04-07 05:28
 allow-lan: false
 dns:
   enable: true
@@ -28,31 +28,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 11|🧸92@oneclickvpnkeys
-  password: 0f771058-7892-4d46-b77e-a69e811b9cbc
-  port: 443
-  server: 84.200.91.118
-  skip-cert-verify: true
-  sni: hls-svod.itunes.apple.com
-  tls: false
-  type: hysteria2
-- name: 11|🧸91@oneclickvpnkeys
-  password: 0f771058-7892-4d46-b77e-a69e811b9cbc
-  port: 443
-  server: 84.201.25.156
-  skip-cert-verify: true
-  sni: hls-svod.itunes.apple.com
-  tls: false
-  type: hysteria2
-- name: 11|🧸98@oneclickvpnkeys
-  password: 0f771058-7892-4d46-b77e-a69e811b9cbc
-  port: 443
-  server: 89.124.73.31
-  skip-cert-verify: true
-  sni: hls-svod.itunes.apple.com
-  tls: false
-  type: hysteria2
-- name: 11| - NL - @FreeOnlineVPN
+- name: 11|🇳🇱 - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -401,41 +377,38 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 11| - NL - @FreeOnlineVPN
-  - 13,14|新加坡2|@ripaojiedian
-  - 15|NL_speednode_0009
-  - 14|香港|@ripaojiedian
-  - 15|HK_speednode_0004
-  - 13,14|美国|@ripaojiedian
-  - 13,14|美国2|@ripaojiedian
-  - 11|🧸91@oneclickvpnkeys
-  - 15|KR_speednode_0007
-  - 13,14|美国3|@ripaojiedian
-  - 13,14|香港5|@ripaojiedian
-  - 13,14|香港3|@ripaojiedian
-  - 15|US_speednode_0011
-  - 13|🇭🇰 香港|@ripaojiedian
-  - 15|FR_speednode_0001
-  - 13,14|日本3|@ripaojiedian
-  - 11|🧸92@oneclickvpnkeys
-  - 15|US_speednode_0012
-  - 10|🇩🇪 - DE - @FreeOnlineVPN
-  - 15|US_speednode_0014
-  - 15|GB_speednode_0003
-  - 11|🧸98@oneclickvpnkeys
-  - 13|tg频道:@ripaojiedian
-  - 13,14|新加坡|@ripaojiedian
-  - 15|US_speednode_0017
-  - 13,14|香港4|@ripaojiedian
-  - 15|KR_speednode_0008
-  - 15|US_speednode_0013
-  - 13,14|日本2|@ripaojiedian
-  - 15|US_speednode_0016
-  - 15|NL_speednode_0010
   - 13,14|日本|@ripaojiedian
+  - 15|NL_speednode_0009
+  - 15|US_speednode_0011
+  - 13,14|日本2|@ripaojiedian
+  - 15|US_speednode_0017
+  - 13,14|新加坡2|@ripaojiedian
+  - 15|HK_speednode_0004
+  - 15|NL_speednode_0010
+  - 15|US_speednode_0014
+  - 13,14|日本3|@ripaojiedian
+  - 13,14|美国|@ripaojiedian
+  - 15|US_speednode_0012
+  - 15|KR_speednode_0007
+  - 13,14|香港4|@ripaojiedian
+  - 15|US_speednode_0013
+  - 15|FR_speednode_0001
+  - 15|GB_speednode_0003
   - 15|FR_speednode_0002
+  - 13,14|香港5|@ripaojiedian
   - 13,14|新加坡3|@ripaojiedian
+  - 13|🇭🇰 香港|@ripaojiedian
+  - 13,14|新加坡|@ripaojiedian
+  - 15|US_speednode_0016
+  - 10|🇩🇪 - DE - @FreeOnlineVPN
+  - 13,14|美国2|@ripaojiedian
+  - 13,14|香港3|@ripaojiedian
   - 15|HK_speednode_0005
+  - 13,14|美国3|@ripaojiedian
+  - 15|KR_speednode_0008
+  - 11|🇳🇱 - NL - @FreeOnlineVPN
+  - 13|tg频道:@ripaojiedian
+  - 14|香港|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
