@@ -1,4 +1,4 @@
-# Update: 2026-04-08 13:04
+# Update: 2026-04-08 15:05
 allow-lan: false
 dns:
   enable: true
@@ -377,38 +377,38 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12,13|美国3|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|FR_speednode_0002
-  - 14|NL_speednode_0010
-  - 14|KR_speednode_0008
-  - 14|US_speednode_0011
-  - 10|🇳🇱 - NL - @FreeOnlineVPN
-  - 14|KR_speednode_0007
-  - 14|GB_speednode_0003
-  - 12,13|香港3|@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - 12|tg频道:@ripaojiedian
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 12,13|美国|@ripaojiedian
-  - 14|FR_speednode_0001
-  - 14|US_speednode_0016
-  - 12,13|香港5|@ripaojiedian
-  - 14|US_speednode_0013
   - 12,13|新加坡|@ripaojiedian
   - 12,13|美国2|@ripaojiedian
-  - 14|US_speednode_0017
-  - 14|NL_speednode_0009
-  - 12,13|日本2|@ripaojiedian
-  - 14|US_speednode_0012
-  - 12,13|新加坡2|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
   - 14|HK_speednode_0005
-  - 12,13|日本|@ripaojiedian
-  - 9|🇩🇪 - DE - @FreeOnlineVPN
-  - 14|HK_speednode_0004
+  - 14|KR_speednode_0008
+  - 14|US_speednode_0017
+  - 10|🇳🇱 - NL - @FreeOnlineVPN
+  - 12,13|日本2|@ripaojiedian
+  - 14|US_speednode_0013
+  - 14|US_speednode_0016
+  - 14|US_speednode_0011
   - 12,13|日本3|@ripaojiedian
+  - 14|FR_speednode_0001
+  - 12,13|新加坡3|@ripaojiedian
+  - 14|GB_speednode_0003
+  - 14|NL_speednode_0009
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|KR_speednode_0007
+  - 14|NL_speednode_0010
+  - 12,13|美国3|@ripaojiedian
+  - 14|FR_speednode_0002
+  - 12,13|香港3|@ripaojiedian
+  - 12,13|日本|@ripaojiedian
   - 14|US_speednode_0014
+  - 12|tg频道:@ripaojiedian
+  - 12,13|香港5|@ripaojiedian
+  - 12,13|美国|@ripaojiedian
+  - 13|香港|@ripaojiedian
+  - 12,13|新加坡2|@ripaojiedian
+  - 9|🇩🇪 - DE - @FreeOnlineVPN
+  - 14|US_speednode_0012
+  - 12,13|香港4|@ripaojiedian
+  - 14|HK_speednode_0004
   type: fallback
   url: https://www.google.com/
 - interval: 300
