@@ -1,4 +1,4 @@
-# Update: 2026-04-14 09:25
+# Update: 2026-04-14 13:13
 allow-lan: false
 dns:
   enable: true
@@ -18,7 +18,7 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 8|🇩🇪 - DE - @FreeOnlineVPN
+- name: 9|🇩🇪 - DE - @FreeOnlineVPN
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -28,7 +28,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|🪺1@oneclickvpnkeys
+- name: 10|🪺1@oneclickvpnkeys
   password: 7151e6b8-0d8e-4548-a9f2-af52ccc2cdfe
   port: 4433
   server: 89.23.107.251
@@ -36,7 +36,17 @@ proxies:
   sni: nl1.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: 9|22@oneclickvpnkeys
+- name: 10| - NL - @FreeOnlineVPN
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 35000
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: 10|22@oneclickvpnkeys
   password: hysteria2_fastlane_qszb6rkh0
   port: 443
   server: 144.31.134.98
@@ -44,52 +54,22 @@ proxies:
   sni: nl1.h.smartaisupport.ru
   tls: false
   type: hysteria2
-- name: 9|97@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W
-  password: rstnnl
-  port: 443
-  server: nrealistic.nn-foto.ru
-  skip-cert-verify: true
-  sni: nrealistic.nn-foto.ru
-  tls: false
-  type: hysteria2
-- name: 9|🥮100@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: hH0l2Acqz3RtodoSCNCpNJqDSZtp4Qw
-  password: rstnnl
-  port: 443
-  server: musicclips.videolinks.ru
-  skip-cert-verify: true
-  sni: musicclips.videolinks.ru
-  tls: false
-  type: hysteria2
-- name: 9|🥮95@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: cry_me_a_r1ver_2026
-  password: strong-secret-pass-777
-  port: 444
-  server: 103.231.73.181
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
 - cipher: aes-256-cfb
-  name: 11|tg频道:@ripaojiedian
+  name: 12|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: 11|🇭🇰 香港|@ripaojiedian
+  name: 12|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 11,12|香港3|@ripaojiedian
+- name: 12,13|香港3|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 52687
@@ -97,7 +77,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|香港4|@ripaojiedian
+- name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 6313
@@ -105,7 +85,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 11,12|香港5|@ripaojiedian
+- name: 12,13|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 6313
@@ -113,7 +93,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 11,12|日本|@ripaojiedian
+- name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 3022
@@ -121,7 +101,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 11,12|日本2|@ripaojiedian
+- name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4937
@@ -129,7 +109,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|日本3|@ripaojiedian
+- name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 9201
@@ -137,7 +117,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|新加坡|@ripaojiedian
+- name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4674
@@ -145,7 +125,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|新加坡2|@ripaojiedian
+- name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4674
@@ -153,7 +133,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|新加坡3|@ripaojiedian
+- name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 25675
@@ -161,7 +141,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 11,12|美国|@ripaojiedian
+- name: 12,13|美国|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4019
@@ -169,7 +149,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|美国2|@ripaojiedian
+- name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 3057
@@ -177,7 +157,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|美国3|@ripaojiedian
+- name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 23255
@@ -187,7 +167,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 12|香港|@ripaojiedian
+  name: 13|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -196,7 +176,7 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - flow: xtls-rprx-vision
-  name: 13|GB_speednode_0002
+  name: 14|GB_speednode_0002
   port: 443
   reality-opts:
     public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
@@ -207,7 +187,7 @@ proxies:
   type: vless
   udp: true
   uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
-- name: 13|HK_speednode_0003
+- name: 14|HK_speednode_0003
   network: ws
   port: 7443
   server: 222.167.202.21
@@ -221,7 +201,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.21:7443
-- name: 13|HK_speednode_0004
+- name: 14|HK_speednode_0004
   network: ws
   port: 7443
   server: 222.167.202.23
@@ -235,7 +215,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.23:7443
-- name: 13|HK_speednode_0005
+- name: 14|HK_speednode_0005
   network: ws
   port: 7443
   server: 222.167.202.10
@@ -249,7 +229,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.10:7443
-- name: 13|HK_speednode_0006
+- name: 14|HK_speednode_0006
   network: ws
   port: 7443
   server: 222.167.202.14
@@ -263,7 +243,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.14:7443
-- name: 13|HK_speednode_0007
+- name: 14|HK_speednode_0007
   network: ws
   port: 7443
   server: 222.167.202.16
@@ -277,7 +257,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.16:7443
-- name: 13|HK_speednode_0008
+- name: 14|HK_speednode_0008
   network: ws
   port: 7443
   server: 222.167.202.47
@@ -291,7 +271,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.47:7443
-- name: 13|HK_speednode_0009
+- name: 14|HK_speednode_0009
   network: ws
   port: 7443
   server: 222.167.202.6
@@ -305,7 +285,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.6:7443
-- name: 13|HK_speednode_0010
+- name: 14|HK_speednode_0010
   network: ws
   port: 7443
   server: 222.167.202.15
@@ -319,7 +299,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.15:7443
-- name: 13|HK_speednode_0011
+- name: 14|HK_speednode_0011
   network: ws
   port: 7443
   server: 222.167.202.22
@@ -333,7 +313,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.22:7443
-- name: 13|HK_speednode_0012
+- name: 14|HK_speednode_0012
   network: ws
   port: 7443
   server: 222.167.202.50
@@ -347,7 +327,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.50:7443
-- name: 13|HK_speednode_0013
+- name: 14|HK_speednode_0013
   network: ws
   port: 7443
   server: 222.167.202.52
@@ -361,7 +341,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.52:7443
-- name: 13|HK_speednode_0014
+- name: 14|HK_speednode_0014
   network: ws
   port: 7443
   server: 222.167.202.45
@@ -375,7 +355,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.45:7443
-- name: 13|HK_speednode_0015
+- name: 14|HK_speednode_0015
   network: ws
   port: 7443
   server: 222.167.202.36
@@ -389,7 +369,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.36:7443
-- name: 13|HK_speednode_0016
+- name: 14|HK_speednode_0016
   network: ws
   port: 7443
   server: 222.167.202.2
@@ -403,7 +383,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.2:7443
-- name: 13|HK_speednode_0017
+- name: 14|HK_speednode_0017
   network: ws
   port: 7443
   server: 222.167.202.32
@@ -418,7 +398,7 @@ proxies:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.32:7443
 - flow: xtls-rprx-vision
-  name: 13|RO_speednode_0018
+  name: 14|RO_speednode_0018
   port: 443
   reality-opts:
     public-key: kkRsTNjRh_XrrTM6eZllllldzoL5Z9IqlBkDtmYLMhw
@@ -431,7 +411,7 @@ proxies:
   udp: true
   uuid: 43488128-319e-f480-64ea-0acdc712e2a8
 - flow: xtls-rprx-vision
-  name: 13|SC_speednode_0020
+  name: 14|SC_speednode_0020
   port: 52000
   reality-opts:
     public-key: dUMRGt4pHvNO-YjS6lWsEZhoiHe6DH1Dw92nqVAx_T0
@@ -445,7 +425,7 @@ proxies:
   uuid: bf263367-bb63-4663-b4a1-34946107a72e
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 13|TR_speednode_0021
+  name: 14|TR_speednode_0021
   port: 8443
   reality-opts:
     public-key: 7gzxsxnqwoh1HEfp02BQpEmMaIFHqz4RL8h68hZqsjc
@@ -457,7 +437,7 @@ proxies:
   type: vless
   udp: true
   uuid: d6cbf3e4-b7ca-a4b2-0b04-eacbdc28bc5a
-- name: 13|US_speednode_0023
+- name: 14|US_speednode_0023
   network: ws
   password: trojan
   port: 8025
@@ -481,47 +461,45 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 11,12|香港5|@ripaojiedian
-  - 9|🪺1@oneclickvpnkeys
-  - 13|HK_speednode_0008
-  - 13|HK_speednode_0010
-  - 13|HK_speednode_0015
-  - 13|HK_speednode_0017
-  - 13|HK_speednode_0003
-  - 11|🇭🇰 香港|@ripaojiedian
-  - 13|HK_speednode_0012
-  - 11|tg频道:@ripaojiedian
-  - 11,12|美国2|@ripaojiedian
-  - 13|US_speednode_0023
-  - 8|🇩🇪 - DE - @FreeOnlineVPN
-  - 13|RO_speednode_0018
-  - 11,12|香港3|@ripaojiedian
-  - 9|22@oneclickvpnkeys
-  - 11,12|香港4|@ripaojiedian
-  - 12|香港|@ripaojiedian
-  - 9|🥮100@oneclickvpnkeys
-  - 13|HK_speednode_0007
-  - 13|HK_speednode_0005
-  - 11,12|日本|@ripaojiedian
-  - 11,12|新加坡2|@ripaojiedian
-  - 13|TR_speednode_0021
-  - 13|SC_speednode_0020
-  - 11,12|日本2|@ripaojiedian
-  - 13|HK_speednode_0004
-  - 13|HK_speednode_0014
-  - 11,12|日本3|@ripaojiedian
-  - 11,12|美国3|@ripaojiedian
-  - 13|HK_speednode_0006
-  - 13|HK_speednode_0009
-  - 13|HK_speednode_0011
-  - 11,12|新加坡3|@ripaojiedian
-  - 9|🥮95@oneclickvpnkeys
-  - 13|HK_speednode_0013
-  - 13|HK_speednode_0016
-  - 11,12|美国|@ripaojiedian
-  - 13|GB_speednode_0002
-  - 11,12|新加坡|@ripaojiedian
-  - 9|97@oneclickvpnkeys
+  - 10|🪺1@oneclickvpnkeys
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 14|HK_speednode_0016
+  - 14|US_speednode_0023
+  - 14|HK_speednode_0007
+  - 12,13|美国|@ripaojiedian
+  - 14|HK_speednode_0006
+  - 12|tg频道:@ripaojiedian
+  - 14|HK_speednode_0010
+  - 14|HK_speednode_0014
+  - 14|TR_speednode_0021
+  - 14|HK_speednode_0013
+  - 9|🇩🇪 - DE - @FreeOnlineVPN
+  - 14|GB_speednode_0002
+  - 14|HK_speednode_0003
+  - 13|香港|@ripaojiedian
+  - 14|HK_speednode_0011
+  - 10|22@oneclickvpnkeys
+  - 14|SC_speednode_0020
+  - 12,13|日本|@ripaojiedian
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|HK_speednode_0015
+  - 12,13|香港3|@ripaojiedian
+  - 14|HK_speednode_0004
+  - 12,13|香港4|@ripaojiedian
+  - 12,13|美国2|@ripaojiedian
+  - 14|HK_speednode_0012
+  - 14|HK_speednode_0017
+  - 14|HK_speednode_0008
+  - 12,13|新加坡|@ripaojiedian
+  - 14|HK_speednode_0009
+  - 12,13|香港5|@ripaojiedian
+  - 12,13|新加坡3|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 10| - NL - @FreeOnlineVPN
+  - 14|HK_speednode_0005
+  - 14|RO_speednode_0018
+  - 12,13|日本2|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -577,16 +555,16 @@ proxy-groups:
   type: select
 - name: 🇯🇵 日本
   proxies:
-  - 11,12|日本|@ripaojiedian
-  - 11,12|日本2|@ripaojiedian
-  - 11,12|日本3|@ripaojiedian
+  - 12,13|日本|@ripaojiedian
+  - 12,13|日本2|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
   type: select
 - name: 🇺🇸 美国
   proxies:
-  - 11,12|美国|@ripaojiedian
-  - 11,12|美国2|@ripaojiedian
-  - 11,12|美国3|@ripaojiedian
-  - 13|US_speednode_0023
+  - 12,13|美国|@ripaojiedian
+  - 12,13|美国2|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 14|US_speednode_0023
   type: select
 - name: 🇨🇳 台湾
   proxies:
@@ -598,26 +576,26 @@ proxy-groups:
   type: select
 - name: 🇭🇰 香港
   proxies:
-  - 11|🇭🇰 香港|@ripaojiedian
-  - 11,12|香港3|@ripaojiedian
-  - 11,12|香港4|@ripaojiedian
-  - 11,12|香港5|@ripaojiedian
-  - 12|香港|@ripaojiedian
-  - 13|HK_speednode_0003
-  - 13|HK_speednode_0004
-  - 13|HK_speednode_0005
-  - 13|HK_speednode_0006
-  - 13|HK_speednode_0007
-  - 13|HK_speednode_0008
-  - 13|HK_speednode_0009
-  - 13|HK_speednode_0010
-  - 13|HK_speednode_0011
-  - 13|HK_speednode_0012
-  - 13|HK_speednode_0013
-  - 13|HK_speednode_0014
-  - 13|HK_speednode_0015
-  - 13|HK_speednode_0016
-  - 13|HK_speednode_0017
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 12,13|香港3|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 12,13|香港5|@ripaojiedian
+  - 13|香港|@ripaojiedian
+  - 14|HK_speednode_0003
+  - 14|HK_speednode_0004
+  - 14|HK_speednode_0005
+  - 14|HK_speednode_0006
+  - 14|HK_speednode_0007
+  - 14|HK_speednode_0008
+  - 14|HK_speednode_0009
+  - 14|HK_speednode_0010
+  - 14|HK_speednode_0011
+  - 14|HK_speednode_0012
+  - 14|HK_speednode_0013
+  - 14|HK_speednode_0014
+  - 14|HK_speednode_0015
+  - 14|HK_speednode_0016
+  - 14|HK_speednode_0017
   type: select
 - name: 🇨🇦 加拿大
   proxies:
@@ -629,13 +607,13 @@ proxy-groups:
   type: select
 - name: 🇸🇬 新加坡
   proxies:
-  - 11,12|新加坡|@ripaojiedian
-  - 11,12|新加坡2|@ripaojiedian
-  - 11,12|新加坡3|@ripaojiedian
+  - 12,13|新加坡|@ripaojiedian
+  - 12,13|新加坡2|@ripaojiedian
+  - 12,13|新加坡3|@ripaojiedian
   type: select
 - name: 🇬🇧 英国
   proxies:
-  - 13|GB_speednode_0002
+  - 14|GB_speednode_0002
   type: select
 - name: 🇰🇷 韩国
   proxies:
@@ -647,7 +625,7 @@ proxy-groups:
   type: select
 - name: 🇩🇪 德国
   proxies:
-  - 8|🇩🇪 - DE - @FreeOnlineVPN
+  - 9|🇩🇪 - DE - @FreeOnlineVPN
   type: select
 rules:
 - MATCH,DIRECT
