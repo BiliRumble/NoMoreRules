@@ -1,4 +1,4 @@
-# Update: 2026-04-14 15:16
+# Update: 2026-04-14 18:05
 allow-lan: false
 dns:
   enable: true
@@ -18,42 +18,6 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 9|🇩🇪 - DE - @FreeOnlineVPN
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 181.214.99.162
-  skip-cert-verify: true
-  sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 10|🪺1@oneclickvpnkeys
-  password: 7151e6b8-0d8e-4548-a9f2-af52ccc2cdfe
-  port: 4433
-  server: 89.23.107.251
-  skip-cert-verify: true
-  sni: nl1.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- name: 10| - NL - @FreeOnlineVPN
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 35000
-  server: 206.71.158.37
-  skip-cert-verify: true
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: 10|22@oneclickvpnkeys
-  password: hysteria2_fastlane_qszb6rkh0
-  port: 443
-  server: 144.31.134.98
-  skip-cert-verify: true
-  sni: nl1.h.smartaisupport.ru
-  tls: false
-  type: hysteria2
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05
@@ -462,44 +426,40 @@ proxy-groups:
   name: ♻ 自动选择
   proxies: &id001
   - 14|RO_speednode_0018
-  - 12,13|新加坡3|@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - 10|🪺1@oneclickvpnkeys
-  - 14|HK_speednode_0004
-  - 10|22@oneclickvpnkeys
-  - 12,13|新加坡2|@ripaojiedian
-  - 14|HK_speednode_0008
-  - 14|HK_speednode_0016
-  - 14|TR_speednode_0021
-  - 9|🇩🇪 - DE - @FreeOnlineVPN
-  - 12,13|日本3|@ripaojiedian
   - 12,13|美国3|@ripaojiedian
-  - 12,13|香港3|@ripaojiedian
-  - 12|tg频道:@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
-  - 12,13|美国2|@ripaojiedian
-  - 14|HK_speednode_0014
-  - 14|HK_speednode_0009
-  - 14|GB_speednode_0002
-  - 14|HK_speednode_0012
-  - 12,13|香港5|@ripaojiedian
-  - 14|HK_speednode_0013
-  - 14|HK_speednode_0015
-  - 14|US_speednode_0023
   - 14|SC_speednode_0020
-  - 14|HK_speednode_0007
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|HK_speednode_0016
+  - 14|HK_speednode_0008
+  - 14|HK_speednode_0004
+  - 12,13|香港5|@ripaojiedian
   - 14|HK_speednode_0011
+  - 14|HK_speednode_0013
+  - 12,13|美国2|@ripaojiedian
   - 14|HK_speednode_0010
-  - 12,13|美国|@ripaojiedian
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 14|HK_speednode_0006
-  - 14|HK_speednode_0017
+  - 14|HK_speednode_0012
+  - 12,13|新加坡3|@ripaojiedian
   - 14|HK_speednode_0005
-  - 14|HK_speednode_0003
-  - 10| - NL - @FreeOnlineVPN
-  - 12,13|香港4|@ripaojiedian
-  - 12,13|日本2|@ripaojiedian
+  - 14|US_speednode_0023
+  - 14|HK_speednode_0007
+  - 13|香港|@ripaojiedian
   - 12,13|日本|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - 12,13|美国|@ripaojiedian
+  - 12,13|香港3|@ripaojiedian
+  - 14|HK_speednode_0014
+  - 14|TR_speednode_0021
+  - 12,13|新加坡|@ripaojiedian
+  - 14|HK_speednode_0017
+  - 14|HK_speednode_0003
+  - 12,13|日本3|@ripaojiedian
+  - 14|HK_speednode_0009
+  - 14|HK_speednode_0006
+  - 14|GB_speednode_0002
+  - 14|HK_speednode_0015
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 12,13|日本2|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -625,7 +585,7 @@ proxy-groups:
   type: select
 - name: 🇩🇪 德国
   proxies:
-  - 9|🇩🇪 - DE - @FreeOnlineVPN
+  - REJECT
   type: select
 rules:
 - MATCH,DIRECT
