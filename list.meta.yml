@@ -1,4 +1,4 @@
-# Update: 2026-04-16 15:17
+# Update: 2026-04-16 18:06
 allow-lan: false
 dns:
   enable: true
@@ -24,14 +24,6 @@ proxies:
   server: 185.168.194.111
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 10|91@oneclickvpnkeys
-  password: 4d092122-268a-4a1a-b23f-83931c5abc3a
-  port: 2056
-  server: 37.114.49.38
-  skip-cert-verify: true
-  sni: flkf.mangshe.xyz
   tls: false
   type: hysteria2
 - name: 10|🌻81@oneclickvpnkeys
@@ -370,39 +362,38 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13|香港|@ripaojiedian
-  - 12,13|日本|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
-  - 14|US_speednode_0022
-  - 12,13|新加坡3|@ripaojiedian
-  - 12,13|香港3|@ripaojiedian
-  - 14|KR_speednode_0007
-  - 14|US_speednode_0015
-  - 12,13|日本3|@ripaojiedian
-  - 12,13|美国2|@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
-  - 12,13|日本2|@ripaojiedian
+  - 10|🌻31@oneclickvpnkeys
   - 14|SG_speednode_0011
-  - 14|US_speednode_0014
+  - 12,13|美国|@ripaojiedian
+  - 14|KR_speednode_0007
+  - 12,13|香港4|@ripaojiedian
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|US_speednode_0013
+  - 12,13|香港3|@ripaojiedian
   - 14|HK_speednode_0006
   - 14|CY_speednode_0002
-  - 14|US_speednode_0012
-  - 10|🌻31@oneclickvpnkeys
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 12|tg频道:@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
-  - 14|US_speednode_0021
-  - 10|91@oneclickvpnkeys
-  - 10|🌻81@oneclickvpnkeys
-  - 14|HK_speednode_0004
+  - 14|US_speednode_0014
+  - 12,13|美国2|@ripaojiedian
+  - 12,13|新加坡|@ripaojiedian
+  - 12,13|新加坡3|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
   - 14|RO_speednode_0009
-  - 14|NL_speednode_0008
+  - 14|HK_speednode_0004
   - 10|🌻76@oneclickvpnkeys
-  - 12,13|香港5|@ripaojiedian
-  - 14|CY_speednode_0001
-  - 14|US_speednode_0013
-  - 12,13|美国|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - 13|香港|@ripaojiedian
+  - 14|US_speednode_0012
+  - 14|US_speednode_0015
+  - 12,13|美国3|@ripaojiedian
+  - 14|US_speednode_0021
+  - 12,13|日本2|@ripaojiedian
   - 12,13|新加坡2|@ripaojiedian
+  - 12,13|香港5|@ripaojiedian
+  - 14|NL_speednode_0008
+  - 14|CY_speednode_0001
+  - 14|US_speednode_0022
+  - 10|🌻81@oneclickvpnkeys
+  - 12,13|日本|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
