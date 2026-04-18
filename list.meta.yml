@@ -1,4 +1,4 @@
-# Update: 2026-04-19 02:32
+# Update: 2026-04-19 05:23
 allow-lan: false
 dns:
   enable: true
@@ -26,14 +26,6 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: 9|🍎7@oneclickvpnkeys
-  password: ad49d6ea-c453-4a2e-b36a-2b71a3e0ed12
-  port: 65535
-  server: 132.145.52.10
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
 - name: '9|Telegram : @V2ynpv'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -42,14 +34,6 @@ proxies:
   server: 5.175.249.174
   skip-cert-verify: false
   sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 9|47@oneclickvpnkeys
-  password: dongtaiwang.com
-  port: 40022
-  server: 163.172.113.118
-  skip-cert-verify: true
-  sni: www.microsoft.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -361,39 +345,37 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13|KR_speednode_0008
-  - 13|US_speednode_0018
   - 11|🇭🇰 香港|@ripaojiedian
-  - 11,12|日本3|@ripaojiedian
-  - 9|🍎5@oneclickvpnkeys
-  - 13|AT_speednode_0001
-  - 11,12|香港4|@ripaojiedian
-  - 13|RO_speednode_0011
-  - 12|香港|@ripaojiedian
-  - 11,12|香港3|@ripaojiedian
-  - 13|KR_speednode_0009
-  - 11,12|美国2|@ripaojiedian
-  - 11|tg频道:@ripaojiedian
   - 11,12|日本|@ripaojiedian
-  - 13|US_speednode_0021
-  - '9|Telegram : @V2ynpv'
-  - 11,12|日本2|@ripaojiedian
-  - 9|🍎7@oneclickvpnkeys
-  - 11,12|新加坡2|@ripaojiedian
+  - 13|US_speednode_0018
   - 13|US_speednode_0022
+  - 11,12|香港4|@ripaojiedian
+  - 11,12|香港5|@ripaojiedian
+  - 11,12|美国2|@ripaojiedian
+  - 11,12|新加坡2|@ripaojiedian
+  - 11,12|新加坡3|@ripaojiedian
+  - 13|KR_speednode_0009
   - 13|KR_speednode_0010
+  - 13|AT_speednode_0001
+  - 13|SC_speednode_0014
+  - '9|Telegram : @V2ynpv'
+  - 11|tg频道:@ripaojiedian
+  - 11,12|日本3|@ripaojiedian
+  - 12|香港|@ripaojiedian
   - 13|GB_speednode_0006
-  - 13|KR_speednode_0007
+  - 11,12|新加坡|@ripaojiedian
+  - 9|🍎5@oneclickvpnkeys
+  - 13|DK_speednode_0004
+  - 13|RU_speednode_0013
+  - 11,12|香港3|@ripaojiedian
+  - 13|RO_speednode_0011
+  - 13|US_speednode_0021
+  - 13|KR_speednode_0008
   - 11,12|美国3|@ripaojiedian
   - 11,12|美国|@ripaojiedian
-  - 13|DK_speednode_0004
-  - 11,12|新加坡|@ripaojiedian
-  - 11,12|新加坡3|@ripaojiedian
-  - 13|SC_speednode_0014
-  - 11,12|香港5|@ripaojiedian
+  - 11,12|日本2|@ripaojiedian
   - 13|US_speednode_0020
-  - 9|47@oneclickvpnkeys
-  - 13|RU_speednode_0013
+  - 13|KR_speednode_0007
   type: fallback
   url: https://www.google.com/
 - interval: 300
