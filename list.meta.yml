@@ -1,4 +1,4 @@
-# Update: 2026-04-19 17:37
+# Update: 2026-04-19 20:35
 allow-lan: false
 dns:
   enable: true
@@ -18,21 +18,6 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 9|@anonymouskeys
-  password: 3780fcbcddd107f7d7c727eb18e28f4c
-  port: 8443
-  server: 20.230.191.53
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 10|🍎5@oneclickvpnkeys
-  password: ad49d6ea-c453-4a2e-b36a-2b71a3e0ed12
-  port: 65535
-  server: 132.145.28.17
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
 - name: '10|Telegram : @V2ynpv'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -352,38 +337,36 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|US_speednode_0020
-  - 12,13|香港3|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
-  - 14|KR_speednode_0008
-  - 14|SC_speednode_0014
-  - 10|🍎5@oneclickvpnkeys
-  - 12,13|新加坡2|@ripaojiedian
-  - 14|US_speednode_0018
-  - 12,13|新加坡3|@ripaojiedian
-  - 9|@anonymouskeys
-  - 14|RU_speednode_0013
-  - 12,13|美国3|@ripaojiedian
-  - 14|KR_speednode_0009
-  - 12,13|日本2|@ripaojiedian
-  - 12,13|美国2|@ripaojiedian
   - 13|香港|@ripaojiedian
-  - 14|KR_speednode_0007
-  - 14|US_speednode_0021
-  - 12,13|美国|@ripaojiedian
-  - 14|GB_speednode_0006
-  - 12,13|日本3|@ripaojiedian
-  - 14|US_speednode_0022
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 14|KR_speednode_0010
-  - '10|Telegram : @V2ynpv'
-  - 12,13|香港5|@ripaojiedian
-  - 14|RO_speednode_0011
-  - 14|AT_speednode_0001
-  - 12,13|香港4|@ripaojiedian
+  - 12,13|新加坡|@ripaojiedian
+  - 14|KR_speednode_0009
+  - 12,13|香港3|@ripaojiedian
   - 12|tg频道:@ripaojiedian
-  - 12,13|日本|@ripaojiedian
   - 14|DK_speednode_0004
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|SC_speednode_0014
+  - 14|US_speednode_0021
+  - 14|AT_speednode_0001
+  - 14|KR_speednode_0007
+  - 12,13|美国|@ripaojiedian
+  - 12,13|新加坡3|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 12,13|日本|@ripaojiedian
+  - 14|RO_speednode_0011
+  - 14|US_speednode_0022
+  - 14|US_speednode_0020
+  - 12,13|美国2|@ripaojiedian
+  - 14|US_speednode_0018
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 12,13|香港5|@ripaojiedian
+  - 14|KR_speednode_0010
+  - 12,13|日本3|@ripaojiedian
+  - 14|GB_speednode_0006
+  - 14|RU_speednode_0013
+  - '10|Telegram : @V2ynpv'
+  - 12,13|香港4|@ripaojiedian
+  - 12,13|日本2|@ripaojiedian
+  - 14|KR_speednode_0008
   type: fallback
   url: https://www.google.com/
 - interval: 300
