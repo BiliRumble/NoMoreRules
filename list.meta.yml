@@ -1,4 +1,4 @@
-# Update: 2026-05-01 20:53
+# Update: 2026-05-01 23:44
 allow-lan: false
 dns:
   enable: true
@@ -18,14 +18,28 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: '10|Telegram : @V2ynpv'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 5.175.249.174
-  skip-cert-verify: false
-  sni: api.kermanshahi.org
+- name: 10|🎈66@oneclickvpnkeys
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-sg-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-sg-002.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: 10|🎈67@oneclickvpnkeys
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-004.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-004.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: 10|🎈68@oneclickvpnkeys
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-vn-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-vn-001.fastervpn.world
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -920,76 +934,78 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|US_speednode_0052
-  - 14|US_speednode_0044
-  - 14|US_speednode_0017
-  - 14|US_speednode_0023
-  - 14|CY_speednode_0004
-  - 14|US_speednode_0026
-  - 14|US_speednode_0015
-  - 14|US_speednode_0053
-  - 12,13|香港3|@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|US_speednode_0045
-  - 14|US_speednode_0029
-  - 14|US_speednode_0024
-  - 14|US_speednode_0043
-  - 14|CY_speednode_0003
-  - 14|US_speednode_0041
-  - 14|US_speednode_0051
-  - 14|US_speednode_0040
-  - 13|美国5|@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 14|US_speednode_0020
-  - 14|US_speednode_0035
-  - 14|CH_speednode_0001
   - 14|US_speednode_0016
-  - 14|US_speednode_0054
-  - 14|US_speednode_0055
-  - 12,13|美国2|@ripaojiedian
-  - 14|US_speednode_0018
-  - 14|US_speednode_0042
-  - 14|US_speednode_0048
-  - 14|US_speednode_0037
-  - 14|US_speednode_0036
-  - 12,13|日本|@ripaojiedian
-  - 14|GB_speednode_0008
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 14|US_speednode_0014
-  - 14|US_speednode_0031
-  - 14|US_speednode_0019
-  - 14|US_speednode_0025
-  - 12,13|日本3|@ripaojiedian
-  - 14|SC_speednode_0011
-  - 14|US_speednode_0028
-  - 14|US_speednode_0034
-  - 14|US_speednode_0046
-  - 12,13|新加坡2|@ripaojiedian
-  - 14|US_speednode_0039
-  - 12|tg频道:@ripaojiedian
-  - 12,13|香港5|@ripaojiedian
-  - 14|DE_speednode_0005
-  - 14|US_speednode_0027
-  - 12,13|新加坡|@ripaojiedian
-  - 14|US_speednode_0030
-  - 14|US_speednode_0022
-  - 12,13|美国|@ripaojiedian
-  - 13|美国4|@ripaojiedian
-  - 14|SE_speednode_0012
-  - '10|Telegram : @V2ynpv'
-  - 14|US_speednode_0032
-  - 12|🇺🇸 美国5|@ripaojiedian
-  - 14|US_speednode_0033
-  - 14|US_speednode_0049
-  - 12,13|日本2|@ripaojiedian
+  - 14|JP_speednode_0010
   - 14|US_speednode_0050
   - 14|CH_speednode_0002
-  - 14|JP_speednode_0010
+  - 14|US_speednode_0055
+  - 14|US_speednode_0014
   - 14|US_speednode_0038
-  - 14|US_speednode_0047
+  - 12|🇺🇸 美国5|@ripaojiedian
+  - 12,13|美国2|@ripaojiedian
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|US_speednode_0041
+  - 14|US_speednode_0048
+  - 10|🎈66@oneclickvpnkeys
   - 14|US_speednode_0021
+  - 14|US_speednode_0022
+  - 10|🎈67@oneclickvpnkeys
+  - 12,13|新加坡|@ripaojiedian
+  - 14|US_speednode_0049
+  - 12,13|香港5|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 14|US_speednode_0029
+  - 13|美国4|@ripaojiedian
+  - 12,13|香港3|@ripaojiedian
+  - 14|CH_speednode_0001
+  - 14|US_speednode_0020
+  - 14|US_speednode_0026
+  - 14|US_speednode_0030
+  - 12,13|日本2|@ripaojiedian
+  - 14|US_speednode_0031
+  - 14|US_speednode_0037
+  - 14|US_speednode_0042
+  - 14|US_speednode_0046
+  - 12,13|新加坡3|@ripaojiedian
+  - 14|US_speednode_0052
+  - 13|香港|@ripaojiedian
+  - 12|🇺🇸 美国4|@ripaojiedian
+  - 14|GB_speednode_0008
+  - 14|CY_speednode_0004
+  - 14|US_speednode_0054
+  - 14|US_speednode_0015
+  - 14|US_speednode_0032
+  - 14|US_speednode_0053
+  - 12,13|日本3|@ripaojiedian
+  - 10|🎈68@oneclickvpnkeys
+  - 14|CY_speednode_0003
+  - 14|US_speednode_0018
+  - 14|US_speednode_0039
+  - 14|US_speednode_0051
+  - 13|美国5|@ripaojiedian
+  - 14|DE_speednode_0005
+  - 14|US_speednode_0027
+  - 14|US_speednode_0036
+  - 14|US_speednode_0023
+  - 14|US_speednode_0043
+  - 12,13|美国|@ripaojiedian
+  - 14|US_speednode_0028
+  - 14|US_speednode_0033
+  - 12,13|日本|@ripaojiedian
+  - 14|US_speednode_0019
+  - 14|US_speednode_0044
+  - 14|US_speednode_0025
+  - 14|US_speednode_0047
+  - 14|SC_speednode_0011
+  - 14|US_speednode_0040
+  - 14|US_speednode_0034
+  - 12|tg频道:@ripaojiedian
+  - 14|US_speednode_0024
+  - 14|US_speednode_0035
+  - 14|US_speednode_0045
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|US_speednode_0017
+  - 14|SE_speednode_0012
   type: fallback
   url: https://www.google.com/
 - interval: 300
