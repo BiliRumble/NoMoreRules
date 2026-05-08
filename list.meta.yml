@@ -1,4 +1,4 @@
-# Update: 2026-05-08 05:44
+# Update: 2026-05-08 09:59
 allow-lan: false
 dns:
   enable: true
@@ -44,7 +44,7 @@ proxies:
   sni: x.kishonline.online
   tls: false
   type: hysteria2
-- name: '10|@techbod #1'
+- name: 10|TEL;Father_vpn
   obfs: salamander
   obfs-password: kish-data-center
   password: Kz0JGcGICb
@@ -92,16 +92,16 @@ proxies:
 - name: 12,13|香港3|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
-  port: 53018
-  server: 54.46.50.228
-  skip-cert-verify: true
+  port: 2008
+  server: 16.162.192.117
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 13693
-  server: 18.181.180.183
+  port: 4327
+  server: 18.183.218.93
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -116,24 +116,24 @@ proxies:
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 54.248.66.236
+  port: 2140
+  server: 54.46.123.251
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
-  port: 8066
-  server: 54.46.50.228
+  port: 11541
+  server: 52.197.26.190
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
-  port: 11541
-  server: 13.231.106.216
+  port: 24184
+  server: 54.65.211.149
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -141,31 +141,31 @@ proxies:
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 4840
-  server: 54.46.50.228
+  server: 52.197.26.190
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
-  port: 3842
-  server: 13.231.106.216
+  port: 1180
+  server: 54.65.211.149
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2074
-  server: 43.207.186.192
+  port: 4203
+  server: 13.158.32.76
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|美国|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
-  port: 52249
-  server: 18.179.108.192
+  port: 6604
+  server: 16.162.192.117
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -173,15 +173,15 @@ proxies:
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 52249
-  server: 13.231.106.216
+  server: 43.198.85.13
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 18334
-  server: 18.181.180.183
+  port: 44386
+  server: 43.207.42.56
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -493,50 +493,50 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12,13|日本2|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 12,13|美国2|@ripaojiedian
-  - 14|GB_speednode_0009
-  - 14|RU_speednode_0015
-  - 14|RU_speednode_0014
-  - 14|US_speednode_0021
-  - 14|SG_speednode_0016
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 14|IE_speednode_0010
-  - 12,13|美国|@ripaojiedian
-  - 14|US_speednode_0022
   - 14|BE_speednode_0002
-  - 12,13|日本|@ripaojiedian
-  - 12,13|香港5|@ripaojiedian
-  - 14|SG_speednode_0017
-  - 12,13|香港3|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|KR_speednode_0012
-  - '10|@techbod #1'
-  - 14|LB_speednode_0013
-  - 12,13|新加坡2|@ripaojiedian
-  - 13|香港|@ripaojiedian
   - 14|CY_speednode_0003
-  - 10|@techbod
-  - 14|DE_speednode_0004
-  - 10|را+ال+امی+++prrofile_purple@
-  - 14|GB_speednode_0008
-  - 14|DE_speednode_0005
-  - 14|IR_speednode_0011
-  - 14|US_speednode_0025
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
-  - 9|未命名
-  - 10|@i10VPN - Psiphon 50
-  - 12,13|香港4|@ripaojiedian
-  - 13|美国4|@ripaojiedian
   - 12|tg频道:@ripaojiedian
-  - 14|US_speednode_0024
+  - 13|香港|@ripaojiedian
+  - 12,13|新加坡|@ripaojiedian
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 13|美国4|@ripaojiedian
+  - 12,13|香港5|@ripaojiedian
   - 12|🇺🇸 美国5|@ripaojiedian
+  - 14|GB_speednode_0008
+  - 14|US_speednode_0021
+  - 12,13|日本|@ripaojiedian
+  - 14|DE_speednode_0004
+  - 12,13|美国3|@ripaojiedian
+  - 14|GB_speednode_0009
+  - 12,13|日本2|@ripaojiedian
+  - 12,13|香港3|@ripaojiedian
+  - 14|KR_speednode_0012
   - '10|Telegram : @V2ynpv'
+  - 14|LB_speednode_0013
+  - 14|SG_speednode_0017
+  - 10|@i10VPN - Psiphon 50
+  - 12,13|日本3|@ripaojiedian
+  - 9|未命名
+  - 14|SG_speednode_0016
+  - 14|IR_speednode_0011
+  - 14|US_speednode_0024
+  - 12,13|新加坡3|@ripaojiedian
+  - 12|🇺🇸 美国4|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 12,13|新加坡2|@ripaojiedian
+  - 10|@techbod
+  - 14|RU_speednode_0015
+  - 14|US_speednode_0022
+  - 14|US_speednode_0025
+  - 14|RU_speednode_0014
+  - 12,13|美国2|@ripaojiedian
   - 14|BE_speednode_0001
+  - 12,13|美国|@ripaojiedian
+  - 10|را+ال+امی+++prrofile_purple@
   - 13|美国5|@ripaojiedian
+  - 14|DE_speednode_0005
+  - 14|IE_speednode_0010
+  - 10|TEL;Father_vpn
   type: fallback
   url: https://www.google.com/
 - interval: 300
