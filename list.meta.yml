@@ -1,4 +1,4 @@
-# Update: 2026-05-08 09:59
+# Update: 2026-05-08 13:21
 allow-lan: false
 dns:
   enable: true
@@ -26,7 +26,7 @@ proxies:
   sni: addons.mozilla.org
   tls: false
   type: hysteria2
-- name: 10|@techbod
+- name: 10|@iicenet
   password: DBUklcvOyH
   port: 443
   server: 45.81.19.251
@@ -493,50 +493,50 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|BE_speednode_0002
-  - 14|CY_speednode_0003
-  - 12|tg频道:@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
   - 12|🇭🇰 香港|@ripaojiedian
-  - 13|美国4|@ripaojiedian
-  - 12,13|香港5|@ripaojiedian
-  - 12|🇺🇸 美国5|@ripaojiedian
-  - 14|GB_speednode_0008
+  - 13|香港|@ripaojiedian
   - 14|US_speednode_0021
-  - 12,13|日本|@ripaojiedian
-  - 14|DE_speednode_0004
-  - 12,13|美国3|@ripaojiedian
-  - 14|GB_speednode_0009
-  - 12,13|日本2|@ripaojiedian
   - 12,13|香港3|@ripaojiedian
-  - 14|KR_speednode_0012
-  - '10|Telegram : @V2ynpv'
-  - 14|LB_speednode_0013
-  - 14|SG_speednode_0017
-  - 10|@i10VPN - Psiphon 50
+  - 14|DE_speednode_0004
   - 12,13|日本3|@ripaojiedian
-  - 9|未命名
-  - 14|SG_speednode_0016
-  - 14|IR_speednode_0011
-  - 14|US_speednode_0024
-  - 12,13|新加坡3|@ripaojiedian
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
-  - 10|@techbod
-  - 14|RU_speednode_0015
-  - 14|US_speednode_0022
-  - 14|US_speednode_0025
-  - 14|RU_speednode_0014
-  - 12,13|美国2|@ripaojiedian
-  - 14|BE_speednode_0001
-  - 12,13|美国|@ripaojiedian
-  - 10|را+ال+امی+++prrofile_purple@
-  - 13|美国5|@ripaojiedian
-  - 14|DE_speednode_0005
+  - 12,13|新加坡|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - 10|@iicenet
+  - '10|Telegram : @V2ynpv'
+  - 14|CY_speednode_0003
+  - 12,13|香港5|@ripaojiedian
   - 14|IE_speednode_0010
+  - 14|GB_speednode_0008
   - 10|TEL;Father_vpn
+  - 10|را+ال+امی+++prrofile_purple@
+  - 14|SG_speednode_0016
+  - 14|BE_speednode_0001
+  - 14|US_speednode_0024
+  - 14|BE_speednode_0002
+  - 12,13|美国2|@ripaojiedian
+  - 10|@i10VPN - Psiphon 50
+  - 12|🇺🇸 美国4|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 12|🇺🇸 美国5|@ripaojiedian
+  - 14|DE_speednode_0005
+  - 14|US_speednode_0025
+  - 12,13|新加坡3|@ripaojiedian
+  - 14|RU_speednode_0015
+  - 12,13|日本|@ripaojiedian
+  - 14|IR_speednode_0011
+  - 12,13|美国|@ripaojiedian
+  - 14|KR_speednode_0012
+  - 12,13|日本2|@ripaojiedian
+  - 14|RU_speednode_0014
+  - 14|SG_speednode_0017
+  - 14|LB_speednode_0013
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|US_speednode_0022
+  - 9|未命名
+  - 13|美国5|@ripaojiedian
+  - 13|美国4|@ripaojiedian
+  - 14|GB_speednode_0009
+  - 12,13|香港4|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
