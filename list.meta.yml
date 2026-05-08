@@ -1,4 +1,4 @@
-# Update: 2026-05-08 15:13
+# Update: 2026-05-08 18:15
 allow-lan: false
 dns:
   enable: true
@@ -18,15 +18,7 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 9|未命名
-  password: 51bfa975-92ab-4382-a21f-1963604f4fe1
-  port: 10023
-  server: zhe.stlive.top
-  skip-cert-verify: true
-  sni: addons.mozilla.org
-  tls: false
-  type: hysteria2
-- name: 10|@iicenet
+- name: '10|@appsooner کانال تلگرام '
   password: DBUklcvOyH
   port: 443
   server: 45.81.19.251
@@ -493,50 +485,49 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 10|@i10VPN - Psiphon 50
-  - 14|SG_speednode_0017
-  - 14|US_speednode_0025
-  - 9|未命名
-  - 14|BE_speednode_0002
-  - 14|LB_speednode_0013
-  - 14|BE_speednode_0001
-  - 10|را+ال+امی+++prrofile_purple@
-  - 13|香港|@ripaojiedian
-  - 14|CY_speednode_0003
-  - 14|DE_speednode_0005
-  - 14|US_speednode_0022
-  - 14|US_speednode_0021
-  - 14|DE_speednode_0004
-  - 14|RU_speednode_0015
-  - 12,13|日本|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
+  - 14|RU_speednode_0014
   - 14|IR_speednode_0011
-  - 14|US_speednode_0024
-  - 12,13|美国2|@ripaojiedian
-  - 12,13|美国|@ripaojiedian
   - 14|GB_speednode_0008
-  - 12|🇺🇸 美国5|@ripaojiedian
-  - '10|Telegram : @V2ynpv'
-  - 14|GB_speednode_0009
-  - 12|tg频道:@ripaojiedian
-  - 14|SG_speednode_0016
+  - 12,13|美国3|@ripaojiedian
   - 10|TEL;Father_vpn
   - 12,13|新加坡2|@ripaojiedian
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 13|美国5|@ripaojiedian
-  - 12,13|日本2|@ripaojiedian
-  - 12,13|香港5|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 14|IE_speednode_0010
-  - 10|@iicenet
-  - 14|RU_speednode_0014
-  - 12,13|美国3|@ripaojiedian
-  - 12,13|香港3|@ripaojiedian
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 13|美国4|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
+  - 14|CY_speednode_0003
   - 14|KR_speednode_0012
+  - 12,13|香港4|@ripaojiedian
+  - '10|Telegram : @V2ynpv'
+  - 12,13|美国2|@ripaojiedian
+  - 13|美国4|@ripaojiedian
+  - 14|US_speednode_0022
+  - 12,13|香港5|@ripaojiedian
+  - 14|US_speednode_0025
+  - 12|🇺🇸 美国4|@ripaojiedian
+  - 10|@i10VPN - Psiphon 50
+  - 10|را+ال+امی+++prrofile_purple@
+  - 14|BE_speednode_0002
+  - 14|DE_speednode_0004
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - 12,13|香港3|@ripaojiedian
+  - 12,13|美国|@ripaojiedian
+  - 14|DE_speednode_0005
+  - 14|LB_speednode_0013
+  - 14|BE_speednode_0001
+  - 13|美国5|@ripaojiedian
+  - 12|🇺🇸 美国5|@ripaojiedian
+  - 14|SG_speednode_0016
+  - 14|GB_speednode_0009
+  - '10|@appsooner کانال تلگرام '
+  - 12,13|新加坡3|@ripaojiedian
+  - 14|RU_speednode_0015
+  - 12,13|日本|@ripaojiedian
+  - 14|US_speednode_0024
+  - 12,13|日本2|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 12,13|新加坡|@ripaojiedian
+  - 14|SG_speednode_0017
+  - 14|IE_speednode_0010
+  - 13|香港|@ripaojiedian
+  - 14|US_speednode_0021
   type: fallback
   url: https://www.google.com/
 - interval: 300
