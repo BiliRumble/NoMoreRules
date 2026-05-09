@@ -1,4 +1,4 @@
-# Update: 2026-05-09 20:51
+# Update: 2026-05-09 23:40
 allow-lan: false
 dns:
   enable: true
@@ -18,7 +18,15 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: '10|@appsooner ا ا '
+- name: 9|👉🆔@v2ray_configs_pool📡🇯🇵®️Japa...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 116.206.92.109
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 10|@Proxy_Vpney v+p (4)
   password: DBUklcvOyH
   port: 443
   server: 45.81.19.251
@@ -46,7 +54,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 10|را+ال+ای+++prrofile_purple@
+- name: 10|ا++ای+++prrofile_purple@
   obfs: salamander
   obfs-password: kish-data-center
   password: tSVwuwRnNk
@@ -467,47 +475,48 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|US_speednode_0022
-  - 14|IR_speednode_0011
+  - 12,13|日本2|@ripaojiedian
+  - 14|RU_speednode_0014
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|LB_speednode_0013
+  - 12,13|日本3|@ripaojiedian
+  - 14|BE_speednode_0001
+  - 12|tg频道:@ripaojiedian
   - 10|TEL;Father_vpn
+  - 14|BE_speednode_0002
+  - 12,13|日本|@ripaojiedian
+  - 14|CY_speednode_0003
+  - 13|美国5|@ripaojiedian
   - 13|美国4|@ripaojiedian
   - 12,13|新加坡|@ripaojiedian
-  - 14|GB_speednode_0009
-  - 14|LB_speednode_0013
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 10|را+ال+ای+++prrofile_purple@
-  - 14|US_speednode_0021
-  - 14|DE_speednode_0005
-  - 14|IE_speednode_0010
-  - 14|SG_speednode_0016
-  - 12,13|香港5|@ripaojiedian
-  - 12|tg频道:@ripaojiedian
-  - 12,13|日本|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
-  - 12,13|美国2|@ripaojiedian
+  - 9|👉🆔@v2ray_configs_pool📡🇯🇵®️Japa...
   - 14|US_speednode_0025
-  - 12,13|新加坡2|@ripaojiedian
-  - 14|RU_speednode_0014
-  - '10|@appsooner ا ا '
-  - '10|Telegram : @V2ynpv'
-  - 12,13|美国|@ripaojiedian
-  - 14|BE_speednode_0002
-  - 14|CY_speednode_0003
-  - 12,13|日本3|@ripaojiedian
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
-  - 14|DE_speednode_0004
-  - 14|GB_speednode_0008
-  - 14|RU_speednode_0015
-  - 14|US_speednode_0024
-  - 12,13|香港3|@ripaojiedian
+  - 10|ا++ای+++prrofile_purple@
+  - 14|US_speednode_0021
+  - 14|GB_speednode_0009
   - 12|🇺🇸 美国5|@ripaojiedian
   - 14|SG_speednode_0017
-  - 13|香港|@ripaojiedian
+  - 14|IR_speednode_0011
   - 14|KR_speednode_0012
-  - 14|BE_speednode_0001
-  - 12,13|日本2|@ripaojiedian
-  - 13|美国5|@ripaojiedian
+  - 14|GB_speednode_0008
+  - 10|@Proxy_Vpney v+p (4)
+  - 14|US_speednode_0022
+  - 14|DE_speednode_0005
+  - 12|🇺🇸 美国4|@ripaojiedian
+  - 12,13|美国|@ripaojiedian
+  - 12,13|美国2|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 12,13|香港3|@ripaojiedian
+  - 14|RU_speednode_0015
+  - 12,13|香港5|@ripaojiedian
+  - 14|SG_speednode_0016
+  - 14|IE_speednode_0010
+  - 14|DE_speednode_0004
+  - 13|香港|@ripaojiedian
+  - 14|US_speednode_0024
+  - 12,13|新加坡3|@ripaojiedian
+  - 12|🇭🇰 香港|@ripaojiedian
+  - '10|Telegram : @V2ynpv'
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -563,6 +572,7 @@ proxy-groups:
   type: select
 - name: 🇯🇵 日本
   proxies:
+  - 9|👉🆔@v2ray_configs_pool📡🇯🇵®️Japa...
   - 12,13|日本|@ripaojiedian
   - 12,13|日本2|@ripaojiedian
   - 12,13|日本3|@ripaojiedian
