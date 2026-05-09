@@ -1,4 +1,4 @@
-# Update: 2026-05-09 05:48
+# Update: 2026-05-09 09:52
 allow-lan: false
 dns:
   enable: true
@@ -18,7 +18,7 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: '10|@appsooner کانال تلگرام '
+- name: '10|@appsooner ا ا '
   password: DBUklcvOyH
   port: 443
   server: 45.81.19.251
@@ -46,7 +46,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 10|رای+تال+امی+++prrofile_purple@
+- name: 10|را+ال+ای+++prrofile_purple@
   obfs: salamander
   obfs-password: kish-data-center
   password: tSVwuwRnNk
@@ -73,97 +73,89 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 12,13|香港3|@ripaojiedian
   network: tcp
-  password: ba62c023f9bce796ae334fecb20ef7cc
-  port: 2008
-  server: 16.162.192.117
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 12,13|香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 4327
-  server: 18.183.218.93
+  password: 7ebc402f3383366fe4f554abd8625439
+  port: 53018
+  server: 16.162.191.171
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: www.nintendogames.net
   type: trojan
 - name: 12,13|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 13963
-  server: 18.181.180.183
+  port: 3685
+  server: 13.158.22.253
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2140
-  server: 54.46.123.251
+  port: 6463
+  server: 54.178.153.235
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
-  password: ba62c023f9bce796ae334fecb20ef7cc
+  password: 7ebc402f3383366fe4f554abd8625439
   port: 11541
-  server: 52.197.26.190
+  server: 16.162.87.210
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
-  password: ba62c023f9bce796ae334fecb20ef7cc
+  password: 7ebc402f3383366fe4f554abd8625439
   port: 24184
-  server: 54.65.211.149
+  server: 16.162.87.210
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
-  password: ba62c023f9bce796ae334fecb20ef7cc
-  port: 4840
-  server: 52.197.26.190
+  password: 7ebc402f3383366fe4f554abd8625439
+  port: 2511
+  server: 54.92.68.201
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡2|@ripaojiedian
   network: tcp
-  password: ba62c023f9bce796ae334fecb20ef7cc
-  port: 1180
-  server: 54.65.211.149
+  password: 7ebc402f3383366fe4f554abd8625439
+  port: 4840
+  server: 16.162.191.171
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4203
-  server: 13.158.32.76
+  port: 2074
+  server: 54.178.153.235
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|美国|@ripaojiedian
   network: tcp
-  password: ba62c023f9bce796ae334fecb20ef7cc
-  port: 6604
-  server: 16.162.192.117
+  password: 7ebc402f3383366fe4f554abd8625439
+  port: 52249
+  server: 16.162.191.171
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国2|@ripaojiedian
   network: tcp
-  password: ba62c023f9bce796ae334fecb20ef7cc
-  port: 52249
-  server: 43.198.85.13
+  password: 7ebc402f3383366fe4f554abd8625439
+  port: 6604
+  server: 16.162.87.210
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 44386
-  server: 43.207.42.56
+  port: 50606
+  server: 54.178.153.235
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -475,48 +467,47 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12|🇺🇸 美国5|@ripaojiedian
-  - 12,13|美国2|@ripaojiedian
-  - 12,13|香港3|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
+  - 14|GB_speednode_0009
   - 14|KR_speednode_0012
-  - 14|RU_speednode_0015
-  - 14|US_speednode_0022
-  - 10|TEL;Father_vpn
+  - 10|را+ال+ای+++prrofile_purple@
   - 14|SG_speednode_0016
-  - 12|🇭🇰 香港|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - 14|US_speednode_0025
+  - '10|@appsooner ا ا '
+  - 12|🇺🇸 美国5|@ripaojiedian
+  - 13|香港|@ripaojiedian
   - 12|🇺🇸 美国4|@ripaojiedian
   - 14|SG_speednode_0017
-  - 12,13|香港5|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|BE_speednode_0002
-  - 12,13|日本2|@ripaojiedian
-  - 12|tg频道:@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 12,13|美国|@ripaojiedian
-  - 14|GB_speednode_0008
+  - 14|RU_speednode_0015
+  - 12|🇭🇰 香港|@ripaojiedian
   - 14|LB_speednode_0013
-  - 14|GB_speednode_0009
-  - 14|US_speednode_0025
-  - 14|IE_speednode_0010
-  - 14|US_speednode_0021
   - 12,13|日本|@ripaojiedian
-  - 13|美国5|@ripaojiedian
-  - 14|US_speednode_0024
-  - '10|@appsooner کانال تلگرام '
-  - 13|香港|@ripaojiedian
-  - 14|DE_speednode_0004
-  - 14|CY_speednode_0003
-  - '10|Telegram : @V2ynpv'
   - 13|美国4|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
-  - 14|DE_speednode_0005
+  - 14|GB_speednode_0008
+  - 12,13|香港5|@ripaojiedian
+  - 14|US_speednode_0024
+  - 14|BE_speednode_0002
+  - 12,13|新加坡|@ripaojiedian
   - 14|BE_speednode_0001
-  - 14|IR_speednode_0011
-  - 12,13|香港4|@ripaojiedian
-  - 10|رای+تال+امی+++prrofile_purple@
+  - 14|DE_speednode_0005
+  - 12,13|香港3|@ripaojiedian
+  - 12,13|新加坡2|@ripaojiedian
+  - 12,13|美国2|@ripaojiedian
+  - 14|US_speednode_0021
+  - '10|Telegram : @V2ynpv'
+  - 12,13|日本3|@ripaojiedian
+  - 14|CY_speednode_0003
+  - 14|IE_speednode_0010
+  - 14|DE_speednode_0004
   - 14|RU_speednode_0014
+  - 12,13|新加坡3|@ripaojiedian
+  - 12,13|日本2|@ripaojiedian
+  - 14|IR_speednode_0011
+  - 13|美国5|@ripaojiedian
+  - 14|US_speednode_0022
+  - 12,13|美国|@ripaojiedian
+  - 10|TEL;Father_vpn
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -602,7 +593,6 @@ proxy-groups:
   proxies:
   - 12|🇭🇰 香港|@ripaojiedian
   - 12,13|香港3|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
   - 12,13|香港5|@ripaojiedian
   - 13|香港|@ripaojiedian
   type: select
