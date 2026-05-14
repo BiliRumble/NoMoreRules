@@ -1,4 +1,4 @@
-# Update: 2026-05-14 21:27
+# Update: 2026-05-15 00:54
 allow-lan: false
 dns:
   enable: true
@@ -169,6 +169,19 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 14|US_speednode_0066
+  network: ws
+  password: :U]2hAN7Y[Ka0Eb_
+  port: 8443
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: TEst-63W.PaGEs.deV
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: TEst-63W.PaGEs.deV
+    path: /tre6QQRE1ue6YL7k30/NzIuMTMuMTIyLjEzNw==?ed=2560
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -180,24 +193,25 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12,13|美国|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 12,13|香港3|@ripaojiedian
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - 13|美国4|@ripaojiedian
-  - 13|美国5|@ripaojiedian
   - 12,13|日本2|@ripaojiedian
-  - 12|🇺🇸 美国5|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 12,13|日本|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
-  - 12,13|香港5|@ripaojiedian
-  - 12|tg频道:@ripaojiedian
-  - 12,13|美国2|@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
   - 12,13|新加坡2|@ripaojiedian
+  - 12,13|新加坡|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 12,13|香港3|@ripaojiedian
+  - 13|香港|@ripaojiedian
+  - 12,13|美国2|@ripaojiedian
+  - 13|美国5|@ripaojiedian
+  - 13|美国4|@ripaojiedian
+  - 14|US_speednode_0066
+  - 12,13|香港5|@ripaojiedian
+  - 12,13|新加坡3|@ripaojiedian
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 12|🇺🇸 美国5|@ripaojiedian
+  - 12,13|日本|@ripaojiedian
+  - 12,13|美国|@ripaojiedian
+  - 12|🇺🇸 美国4|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
