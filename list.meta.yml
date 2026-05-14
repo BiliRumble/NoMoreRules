@@ -1,4 +1,4 @@
-# Update: 2026-05-15 00:54
+# Update: 2026-05-15 03:26
 allow-lan: false
 dns:
   enable: true
@@ -34,16 +34,6 @@ proxies:
   server: 5.175.249.174
   skip-cert-verify: false
   sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 10|+ا+ای+++prrofile_purple@
-  obfs: salamander
-  obfs-password: kish-data-center
-  password: tSVwuwRnNk
-  port: 443
-  server: srm.kishonline.online
-  skip-cert-verify: false
-  sni: srm.kishonline.online
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -916,81 +906,80 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12,13|日本2|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
-  - 14|KR_speednode_0037
-  - 14|US_speednode_0064
-  - 14|HK_speednode_0022
-  - 14|HK_speednode_0024
-  - 14|FR_speednode_0008
   - 14|GB_speednode_0016
-  - 14|NL_speednode_0039
-  - 10|@Proxy_Vpney v+p (4)
-  - 14|KR_speednode_0035
-  - 14|US_speednode_0068
-  - 14|CY_speednode_0007
-  - 14|KR_speednode_0032
-  - 14|SE_speednode_0046
-  - 14|SG_speednode_0048
-  - 14|US_speednode_0069
-  - 12|tg频道:@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 14|US_speednode_0056
-  - 14|US_speednode_0063
-  - 14|BG_speednode_0004
-  - 10|+ا+ای+++prrofile_purple@
-  - 12,13|香港3|@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
-  - 12,13|美国2|@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - 13|美国5|@ripaojiedian
-  - 14|KR_speednode_0033
-  - 14|AE_speednode_0001
-  - 14|KR_speednode_0034
-  - 14|HK_speednode_0020
-  - 14|KR_speednode_0036
-  - 13|美国4|@ripaojiedian
-  - 14|NL_speednode_0042
   - 14|NO_speednode_0045
-  - 14|US_speednode_0058
-  - 14|US_speednode_0065
-  - 14|US_speednode_0066
-  - 12,13|香港5|@ripaojiedian
-  - 14|SG_speednode_0049
-  - 14|US_speednode_0059
-  - 14|US_speednode_0067
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|SG_speednode_0047
-  - 14|KR_speednode_0031
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 14|NN_speednode_0044
-  - 12|🇺🇸 美国5|@ripaojiedian
-  - 14|US_speednode_0060
-  - 14|CY_speednode_0006
-  - 14|AE_speednode_0002
-  - 14|GB_speednode_0014
-  - 14|HK_speednode_0018
-  - 14|KR_speednode_0029
-  - 12,13|日本|@ripaojiedian
-  - 14|BG_speednode_0003
-  - 14|LT_speednode_0038
-  - 14|NN_speednode_0043
-  - 14|US_speednode_0057
-  - 14|KR_speednode_0030
-  - 14|KR_speednode_0027
-  - 14|US_speednode_0070
+  - 14|KR_speednode_0033
+  - 14|SE_speednode_0046
+  - 10|@Proxy_Vpney v+p (4)
+  - 13|美国5|@ripaojiedian
+  - 14|US_speednode_0064
   - 14|US_speednode_0062
-  - 14|HK_speednode_0021
-  - '10|Telegram : @V2ynpv'
+  - 14|BG_speednode_0003
+  - 12,13|香港5|@ripaojiedian
+  - 12,13|日本2|@ripaojiedian
+  - 14|US_speednode_0060
+  - 14|HK_speednode_0022
+  - 14|AE_speednode_0002
+  - 14|GB_speednode_0009
+  - 14|KR_speednode_0034
+  - 13|香港|@ripaojiedian
+  - 14|NL_speednode_0039
+  - 14|US_speednode_0056
+  - 14|KR_speednode_0032
+  - 12,13|新加坡3|@ripaojiedian
+  - 14|NN_speednode_0044
+  - 12,13|香港3|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 14|GB_speednode_0014
+  - 14|KR_speednode_0036
+  - 14|US_speednode_0067
+  - 14|BG_speednode_0004
+  - 14|FR_speednode_0008
+  - 14|KR_speednode_0035
+  - 14|SG_speednode_0047
+  - 14|US_speednode_0069
+  - 14|SG_speednode_0050
+  - 14|US_speednode_0058
+  - 14|AE_speednode_0001
+  - 14|KR_speednode_0027
+  - 14|KR_speednode_0030
+  - 14|KR_speednode_0037
+  - 14|US_speednode_0063
+  - 14|US_speednode_0070
+  - 14|US_speednode_0065
+  - 12,13|新加坡|@ripaojiedian
+  - 12,13|日本|@ripaojiedian
+  - 14|KR_speednode_0029
   - 14|KR_speednode_0028
   - 14|NL_speednode_0040
-  - 12,13|美国|@ripaojiedian
   - 14|NL_speednode_0041
-  - 14|HK_speednode_0023
-  - 14|GB_speednode_0009
-  - 14|SG_speednode_0050
+  - 12,13|新加坡2|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - 14|HK_speednode_0024
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 13|美国4|@ripaojiedian
+  - 12,13|美国2|@ripaojiedian
+  - 14|US_speednode_0066
+  - 14|NL_speednode_0042
+  - 14|HK_speednode_0020
+  - 14|US_speednode_0057
   - 12|🇺🇸 美国4|@ripaojiedian
+  - 14|HK_speednode_0023
+  - 12,13|美国|@ripaojiedian
+  - 14|LT_speednode_0038
+  - '10|Telegram : @V2ynpv'
+  - 14|KR_speednode_0031
+  - 14|SG_speednode_0048
+  - 14|HK_speednode_0021
+  - 14|US_speednode_0059
+  - 14|NN_speednode_0043
+  - 12|🇺🇸 美国5|@ripaojiedian
+  - 14|CY_speednode_0006
+  - 14|US_speednode_0068
+  - 14|SG_speednode_0049
+  - 14|CY_speednode_0007
+  - 14|HK_speednode_0018
   type: fallback
   url: https://www.google.com/
 - interval: 300
