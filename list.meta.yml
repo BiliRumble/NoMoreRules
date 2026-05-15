@@ -1,4 +1,4 @@
-# Update: 2026-05-16 03:14
+# Update: 2026-05-16 05:47
 allow-lan: false
 dns:
   enable: true
@@ -18,38 +18,28 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 9|🇮🇳IN_@WangCai_8
+- name: 9|рҹҮ®рҹҮіIN_@WangCai_8
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 13.126.66.208
   skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
+  sni: https://t.me/WangCai2рҹҮЁрҹҮі
   tls: false
   type: hysteria2
-- name: '9|🇮🇳IN_@WangCai_8 #1'
+- name: '9|рҹҮ®рҹҮіIN_@WangCai_8 #1'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 3.110.31.6
   skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
+  sni: https://t.me/WangCai2рҹҮЁрҹҮі
   tls: false
   type: hysteria2
-- name: '9|🇮🇳IN_@WangCai_8 #2'
+- name: '9|рҹҮ®рҹҮіIN_@WangCai_8 #2'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 3.6.91.169
   skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 10|@B2vasl1
-  obfs: salamander
-  obfs-password: kish-data-center
-  password: 9P5zfc7S0s
-  port: 443
-  server: srm.kishonline.online
-  skip-cert-verify: false
-  sni: srm.kishonline.online
+  sni: https://t.me/WangCai2рҹҮЁрҹҮі
   tls: false
   type: hysteria2
 - name: 10|@Proxy_Vpney v+p (4)
@@ -68,6 +58,13 @@ proxies:
   server: 5.175.249.174
   skip-cert-verify: false
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: "10|\0\0\0\0\0\0\0\0\0\0\0+MELISA_HAAP_KOD+DU..."
+  password: rstnnl
+  port: 443
+  server: 185.73.126.28
+  sni: healthpp.ppnorma.ru
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -484,50 +481,50 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12,13|香港3|@ripaojiedian
-  - 12|tg频道:@ripaojiedian
+  - "10|\0\0\0\0\0\0\0\0\0\0\0+MELISA_HAAP_KOD+DU..."
   - 12,13|美国2|@ripaojiedian
-  - 14|KR_speednode_0018
   - 12,13|新加坡|@ripaojiedian
-  - 14|US_speednode_0040
-  - 12,13|新加坡3|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
-  - '10|Telegram : @V2ynpv'
-  - 13|香港|@ripaojiedian
-  - 12|🇺🇸 美国5|@ripaojiedian
-  - 14|BG_speednode_0004
-  - 14|BG_speednode_0003
-  - 14|JP_speednode_0017
-  - 14|RO_speednode_0023
-  - 10|@B2vasl1
-  - 13|美国4|@ripaojiedian
-  - 10|@Proxy_Vpney v+p (4)
-  - 9|🇮🇳IN_@WangCai_8
-  - 14|US_speednode_0037
-  - 14|US_speednode_0036
-  - 14|CA_speednode_0005
-  - 12,13|日本3|@ripaojiedian
-  - 13|美国5|@ripaojiedian
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 14|AU_speednode_0002
-  - 14|GB_speednode_0013
-  - 12,13|日本2|@ripaojiedian
-  - 14|NL_speednode_0021
-  - 14|RU_speednode_0024
-  - 12,13|香港5|@ripaojiedian
-  - 14|CA_speednode_0006
-  - 14|US_speednode_0039
-  - 14|RU_speednode_0025
-  - 12,13|日本|@ripaojiedian
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 14|NO_speednode_0022
-  - '9|🇮🇳IN_@WangCai_8 #1'
-  - 12,13|美国3|@ripaojiedian
-  - 12,13|美国|@ripaojiedian
-  - '9|🇮🇳IN_@WangCai_8 #2'
   - 14|AU_speednode_0001
+  - 14|NL_speednode_0021
+  - 12|tg频道:@ripaojiedian
+  - 14|US_speednode_0036
+  - 14|KR_speednode_0018
+  - 14|RU_speednode_0024
+  - 12,13|香港3|@ripaojiedian
   - 14|US_speednode_0038
+  - 14|RU_speednode_0025
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|US_speednode_0039
+  - 13|香港|@ripaojiedian
+  - 12,13|香港5|@ripaojiedian
+  - '9|рҹҮ®рҹҮіIN_@WangCai_8 #1'
+  - 12,13|新加坡3|@ripaojiedian
+  - 12|🇺🇸 美国5|@ripaojiedian
+  - 14|RO_speednode_0023
+  - 14|CA_speednode_0005
+  - 12|🇺🇸 美国4|@ripaojiedian
+  - 14|GB_speednode_0013
+  - 14|NO_speednode_0022
+  - 14|JP_speednode_0017
+  - '10|Telegram : @V2ynpv'
+  - 14|AU_speednode_0002
+  - 9|рҹҮ®рҹҮіIN_@WangCai_8
+  - 12,13|美国|@ripaojiedian
+  - 14|BG_speednode_0003
+  - 14|CA_speednode_0006
+  - 12,13|日本|@ripaojiedian
+  - 13|美国4|@ripaojiedian
+  - 14|US_speednode_0037
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 12,13|日本2|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
   - 14|TW_speednode_0034
+  - 10|@Proxy_Vpney v+p (4)
+  - 13|美国5|@ripaojiedian
+  - 14|US_speednode_0040
+  - 14|BG_speednode_0004
+  - '9|рҹҮ®рҹҮіIN_@WangCai_8 #2'
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -648,7 +645,7 @@ proxy-groups:
   type: select
 - name: 🇩🇪 德国
   proxies:
-  - REJECT
+  - "10|\0\0\0\0\0\0\0\0\0\0\0+MELISA_HAAP_KOD+DU..."
   type: select
 rules:
 - MATCH,DIRECT
