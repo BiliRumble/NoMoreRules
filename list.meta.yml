@@ -1,4 +1,4 @@
-# Update: 2026-05-16 15:47
+# Update: 2026-05-16 18:06
 allow-lan: false
 dns:
   enable: true
@@ -21,7 +21,7 @@ proxies:
 - name: 9|🇮🇳IN_@WangCai_8
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 65.0.182.133
+  server: 13.127.34.84
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   tls: false
@@ -29,7 +29,7 @@ proxies:
 - name: '9|🇮🇳IN_@WangCai_8 #1'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 65.2.149.92
+  server: 13.201.25.203
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   tls: false
@@ -37,7 +37,7 @@ proxies:
 - name: '9|🇮🇳IN_@WangCai_8 #2'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 65.2.179.119
+  server: 65.0.182.133
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   tls: false
@@ -58,6 +58,14 @@ proxies:
   server: 5.175.249.174
   skip-cert-verify: false
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 10|41@oneclickvpnkeys
+  password: dongtaiwang.com
+  port: 22000
+  server: 62.210.124.146
+  skip-cert-verify: true
+  sni: www.microsoft.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -474,49 +482,50 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|RO_speednode_0023
-  - 14|JP_speednode_0017
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 14|RU_speednode_0024
   - 14|AU_speednode_0002
-  - 14|AU_speednode_0001
-  - 12,13|香港5|@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - 13|美国4|@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
-  - 12|🇺🇸 美国5|@ripaojiedian
-  - '10|Telegram : @V2ynpv'
-  - 12,13|香港3|@ripaojiedian
+  - 14|RU_speednode_0024
   - 13|美国5|@ripaojiedian
-  - 14|US_speednode_0038
-  - 10|@Proxy_Vpney v+p (4)
-  - 12,13|日本3|@ripaojiedian
+  - '10|Telegram : @V2ynpv'
   - 14|CA_speednode_0005
-  - 14|US_speednode_0040
-  - 12,13|日本|@ripaojiedian
-  - 14|US_speednode_0036
+  - 12,13|香港3|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
   - 14|NO_speednode_0022
-  - 9|🇮🇳IN_@WangCai_8
-  - '9|🇮🇳IN_@WangCai_8 #2'
-  - 12,13|新加坡2|@ripaojiedian
-  - 14|CA_speednode_0006
+  - 12,13|日本|@ripaojiedian
   - 12,13|美国|@ripaojiedian
+  - 13|美国4|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 12,13|新加坡3|@ripaojiedian
+  - 14|US_speednode_0036
+  - 14|BG_speednode_0003
+  - 10|41@oneclickvpnkeys
   - 14|GB_speednode_0013
   - 14|KR_speednode_0018
-  - '9|🇮🇳IN_@WangCai_8 #1'
-  - 14|RU_speednode_0025
-  - 12|tg频道:@ripaojiedian
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
+  - 9|🇮🇳IN_@WangCai_8
+  - 14|US_speednode_0038
+  - 10|@Proxy_Vpney v+p (4)
+  - 14|JP_speednode_0017
   - 12,13|美国2|@ripaojiedian
-  - 14|US_speednode_0037
-  - 14|TW_speednode_0034
+  - 14|US_speednode_0040
+  - 14|AU_speednode_0001
   - 12,13|日本2|@ripaojiedian
-  - 14|US_speednode_0039
-  - 14|BG_speednode_0003
-  - 14|BG_speednode_0004
   - 12,13|新加坡|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - 12|🇺🇸 美国5|@ripaojiedian
+  - 13|香港|@ripaojiedian
   - 14|NL_speednode_0021
+  - 14|US_speednode_0037
+  - 14|US_speednode_0039
+  - 14|RU_speednode_0025
+  - 12|🇺🇸 美国4|@ripaojiedian
+  - 12,13|香港5|@ripaojiedian
+  - 14|RO_speednode_0023
+  - 14|TW_speednode_0034
+  - '9|🇮🇳IN_@WangCai_8 #2'
+  - 14|CA_speednode_0006
+  - '9|🇮🇳IN_@WangCai_8 #1'
+  - 14|BG_speednode_0004
+  - 12,13|新加坡2|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
