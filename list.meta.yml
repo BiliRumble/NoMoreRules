@@ -1,4 +1,4 @@
-# Update: 2026-05-17 05:38
+# Update: 2026-05-17 09:58
 allow-lan: false
 dns:
   enable: true
@@ -26,15 +26,47 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: '9|🇯🇵JP_@WangCai_8 #1'
+- name: 9|SG_@WangCai_8
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 13.115.3.140
+  server: 13.212.116.135
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: '9|🇯🇵JP_@WangCai_8 #2'
+- name: 9|🇸🇬SG_@WangCai_8
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 13.212.141.33
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: '9|🇸🇬SG_@WangCai_8 #1'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 13.212.202.17
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: '9|🇸🇬SG_@WangCai_8 #2'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 13.212.49.151
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 9|🇬SG_@WangCai_8
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 13.229.96.50
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: '9|🇯🇵JP_@WangCai_8 #1'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 13.231.162.174
@@ -42,7 +74,7 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: '9|🇯🇵JP_@WangCai_8 #3'
+- name: '9|🇯🇵JP_@WangCai_8 #2'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 13.231.21.110
@@ -50,7 +82,7 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: '9|🇯🇵JP_@WangCai_8 #4'
+- name: 9|🇵JP_@WangCai_8
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 3.112.239.167
@@ -59,14 +91,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: 9|🇳IN_@WangCai_8
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 43.205.214.214
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: '9|🇳IN_@WangCai_8 #1'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 43.205.231.160
@@ -78,6 +102,30 @@ proxies:
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 43.205.254.42
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: '9|🇵JP_@WangCai_8 #1'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.168.136.2
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: '9|🇵JP_@WangCai_8 #2'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.250.218.42
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: '9|🇯🇵JP_@WangCai_8 #3'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.250.65.230
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   tls: false
@@ -134,10 +182,18 @@ proxies:
 - name: 12,13|香港3|@ripaojiedian
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
-  port: 53018
-  server: 35.72.163.56
-  skip-cert-verify: true
+  port: 2008
+  server: 16.162.22.74
+  skip-cert-verify: false
   sni: www.nintendogames.net
+  type: trojan
+- name: 12,13|香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 4327
+  server: 18.183.160.17
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|香港5|@ripaojiedian
   network: tcp
@@ -150,16 +206,16 @@ proxies:
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 443
-  server: 116.80.61.236
+  port: 6463
+  server: 43.206.108.14
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
-  port: 3135
-  server: 43.199.35.161
+  port: 8066
+  server: 35.74.234.73
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -167,7 +223,7 @@ proxies:
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 11541
-  server: 43.206.134.169
+  server: 16.162.22.74
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -175,7 +231,7 @@ proxies:
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 4840
-  server: 35.72.163.56
+  server: 3.114.7.15
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -183,23 +239,23 @@ proxies:
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 2511
-  server: 35.72.163.56
+  server: 16.162.22.74
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1275
-  server: 35.79.221.185
+  port: 19465
+  server: 18.183.160.17
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|美国|@ripaojiedian
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
-  port: 5224
-  server: 43.206.134.169
+  port: 6604
+  server: 3.114.7.15
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -207,15 +263,15 @@ proxies:
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 2663
-  server: 16.163.138.96
+  server: 3.114.7.15
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 38692
-  server: 54.46.54.173
+  port: 14919
+  server: 43.199.143.144
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -530,56 +586,63 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|GB_speednode_0013
-  - 12,13|新加坡3|@ripaojiedian
   - 14|JP_speednode_0017
-  - 9|🇮🇳IN_@WangCai_8
-  - 10|@Proxy_Vpney v+p (4)
-  - 12,13|美国|@ripaojiedian
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 14|US_speednode_0039
-  - 14|TW_speednode_0034
-  - 13|香港|@ripaojiedian
-  - 13|美国4|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
-  - 14|RU_speednode_0025
-  - 14|AU_speednode_0002
-  - 14|RU_speednode_0024
-  - 10|🇨🇳TW_@WangCai_8
-  - 14|US_speednode_0037
-  - 14|NO_speednode_0022
-  - 12|tg频道:@ripaojiedian
-  - 12,13|美国2|@ripaojiedian
-  - '9|🇯🇵JP_@WangCai_8 #2'
-  - 14|NL_speednode_0021
-  - 12,13|香港5|@ripaojiedian
-  - '9|🇯🇵JP_@WangCai_8 #3'
-  - 9|🇯🇵JP_@WangCai_8
-  - 12,13|美国3|@ripaojiedian
-  - 14|RO_speednode_0023
-  - '10|Telegram : @V2ynpv'
-  - 14|BG_speednode_0003
-  - 14|US_speednode_0040
-  - 12,13|新加坡2|@ripaojiedian
-  - 13|美国5|@ripaojiedian
-  - 9|🇳IN_@WangCai_8
-  - 14|CA_speednode_0005
   - '9|🇯🇵JP_@WangCai_8 #1'
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 12|🇺🇸 美国5|@ripaojiedian
-  - '9|🇯🇵JP_@WangCai_8 #4'
-  - 12,13|日本2|@ripaojiedian
-  - 14|AU_speednode_0001
-  - 14|CA_speednode_0006
-  - 12,13|香港3|@ripaojiedian
-  - 12,13|日本|@ripaojiedian
-  - 14|US_speednode_0038
-  - 10|41@oneclickvpnkeys
-  - 14|BG_speednode_0004
-  - '9|🇳IN_@WangCai_8 #1'
-  - 14|US_speednode_0036
+  - 9|🇸🇬SG_@WangCai_8
+  - 14|US_speednode_0040
+  - 12|tg频道:@ripaojiedian
   - 12,13|日本3|@ripaojiedian
+  - 9|SG_@WangCai_8
+  - 14|AU_speednode_0001
+  - '9|🇵JP_@WangCai_8 #2'
+  - 14|NO_speednode_0022
+  - 12|🇺🇸 美国5|@ripaojiedian
+  - 14|RU_speednode_0024
+  - 10|@Proxy_Vpney v+p (4)
+  - '9|🇯🇵JP_@WangCai_8 #3'
+  - 14|GB_speednode_0013
+  - 14|NL_speednode_0021
+  - 14|RO_speednode_0023
+  - 12,13|日本2|@ripaojiedian
+  - 10|41@oneclickvpnkeys
+  - 13|香港|@ripaojiedian
+  - 9|🇮🇳IN_@WangCai_8
+  - '9|🇯🇵JP_@WangCai_8 #2'
+  - 12,13|美国3|@ripaojiedian
+  - 14|CA_speednode_0005
+  - '9|🇸🇬SG_@WangCai_8 #1'
+  - 12,13|香港5|@ripaojiedian
+  - 14|AU_speednode_0002
+  - 13|美国4|@ripaojiedian
+  - 10|🇨🇳TW_@WangCai_8
+  - 9|🇳IN_@WangCai_8
+  - 14|RU_speednode_0025
   - 14|KR_speednode_0018
+  - 12,13|新加坡3|@ripaojiedian
+  - 14|US_speednode_0037
+  - '10|Telegram : @V2ynpv'
+  - '9|🇸🇬SG_@WangCai_8 #2'
+  - 14|CA_speednode_0006
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|BG_speednode_0003
+  - 12,13|美国|@ripaojiedian
+  - 14|BG_speednode_0004
+  - 12,13|香港4|@ripaojiedian
+  - 9|🇵JP_@WangCai_8
+  - 9|🇯🇵JP_@WangCai_8
+  - 13|美国5|@ripaojiedian
+  - 12,13|新加坡2|@ripaojiedian
+  - 12,13|新加坡|@ripaojiedian
+  - 12|🇺🇸 美国4|@ripaojiedian
+  - 12,13|香港3|@ripaojiedian
+  - 9|🇬SG_@WangCai_8
+  - 14|US_speednode_0038
+  - '9|🇵JP_@WangCai_8 #1'
+  - 14|US_speednode_0036
+  - 12,13|日本|@ripaojiedian
+  - 14|US_speednode_0039
+  - 12,13|美国2|@ripaojiedian
+  - 14|TW_speednode_0034
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -638,8 +701,10 @@ proxy-groups:
   - 9|🇯🇵JP_@WangCai_8
   - '9|🇯🇵JP_@WangCai_8 #1'
   - '9|🇯🇵JP_@WangCai_8 #2'
+  - 9|🇵JP_@WangCai_8
+  - '9|🇵JP_@WangCai_8 #1'
+  - '9|🇵JP_@WangCai_8 #2'
   - '9|🇯🇵JP_@WangCai_8 #3'
-  - '9|🇯🇵JP_@WangCai_8 #4'
   - 12,13|日本|@ripaojiedian
   - 12,13|日本2|@ripaojiedian
   - 12,13|日本3|@ripaojiedian
@@ -673,6 +738,7 @@ proxy-groups:
   proxies:
   - 12|🇭🇰 香港|@ripaojiedian
   - 12,13|香港3|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
   - 12,13|香港5|@ripaojiedian
   - 13|香港|@ripaojiedian
   type: select
@@ -687,6 +753,11 @@ proxy-groups:
   type: select
 - name: 🇸🇬 新加坡
   proxies:
+  - 9|SG_@WangCai_8
+  - 9|🇸🇬SG_@WangCai_8
+  - '9|🇸🇬SG_@WangCai_8 #1'
+  - '9|🇸🇬SG_@WangCai_8 #2'
+  - 9|🇬SG_@WangCai_8
   - 12,13|新加坡|@ripaojiedian
   - 12,13|新加坡2|@ripaojiedian
   - 12,13|新加坡3|@ripaojiedian
