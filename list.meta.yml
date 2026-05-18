@@ -1,4 +1,4 @@
-# Update: 2026-05-19 03:22
+# Update: 2026-05-19 05:57
 allow-lan: false
 dns:
   enable: true
@@ -18,60 +18,12 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 9|👀1@oneclickvpnkeys
-  password: 2545ab46-6306-4f2b-badd-5531f384d55f
-  port: 4433
-  server: 185.228.139.247
-  skip-cert-verify: true
-  sni: de2.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- name: 9|👀2@oneclickvpnkeys
-  password: 2545ab46-6306-4f2b-badd-5531f384d55f
-  port: 4433
-  server: 202.61.205.86
-  skip-cert-verify: true
-  sni: de1.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- name: 9|👀5@oneclickvpnkeys
-  password: 2545ab46-6306-4f2b-badd-5531f384d55f
-  port: 4433
-  server: 212.192.13.242
-  skip-cert-verify: true
-  sni: hk1.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- name: 9|👀6@oneclickvpnkeys
-  password: 2545ab46-6306-4f2b-badd-5531f384d55f
-  port: 4433
-  server: 68.233.103.254
-  skip-cert-verify: true
-  sni: ln4.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- name: 9|👀4@oneclickvpnkeys
-  password: 4d092122-268a-4a1a-b23f-83931c5abc3a
-  port: 2056
-  server: 166.88.142.205
-  skip-cert-verify: true
-  sni: mg6.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 9|👀7@oneclickvpnkeys
-  password: 4d092122-268a-4a1a-b23f-83931c5abc3a
-  port: 2056
-  server: 193.123.78.85
-  skip-cert-verify: true
-  sni: db1.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 9|🇳IN_@WangCai_8
+- name: 9|🇮🇳IN_@WangCai_8
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 13.233.127.26
   skip-cert-verify: true
-  sni: https://t.me/WangCai2
+  sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
 - name: 9|HK_@WangCai_8
@@ -522,55 +474,49 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|US_speednode_0039
-  - '10|Telegram : @V2ynpv'
-  - 12,13|香港4|@ripaojiedian
-  - 9|👀4@oneclickvpnkeys
-  - 14|US_speednode_0036
-  - 14|GB_speednode_0013
-  - 12,13|日本3|@ripaojiedian
+  - 13|香港|@ripaojiedian
+  - 14|BG_speednode_0004
   - 12,13|新加坡3|@ripaojiedian
-  - 12,13|美国|@ripaojiedian
+  - 14|US_speednode_0039
+  - 14|AU_speednode_0002
+  - 14|CA_speednode_0005
+  - 14|RU_speednode_0024
+  - 14|BG_speednode_0003
+  - 14|GB_speednode_0013
+  - 12,13|美国2|@ripaojiedian
+  - 13|美国4|@ripaojiedian
+  - 12,13|香港3|@ripaojiedian
+  - 9|🇮🇳IN_@WangCai_8
+  - 12,13|新加坡|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 14|US_speednode_0036
   - 12|🇭🇰 香港|@ripaojiedian
   - 14|US_speednode_0037
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 13|美国4|@ripaojiedian
-  - 14|US_speednode_0040
-  - 14|JP_speednode_0017
-  - 14|AU_speednode_0001
-  - 14|BG_speednode_0003
   - 9|HK_@WangCai_8
-  - 12,13|新加坡|@ripaojiedian
+  - 14|AU_speednode_0001
   - 14|RO_speednode_0023
-  - 12,13|美国3|@ripaojiedian
-  - 14|CA_speednode_0005
-  - 12,13|新加坡2|@ripaojiedian
   - 12|🇺🇸 美国5|@ripaojiedian
-  - 14|NL_speednode_0021
-  - 9|👀5@oneclickvpnkeys
-  - 14|KR_speednode_0018
-  - 12,13|日本|@ripaojiedian
-  - 14|TW_speednode_0034
-  - 12,13|香港3|@ripaojiedian
   - 12,13|香港5|@ripaojiedian
-  - 12,13|美国2|@ripaojiedian
-  - 9|👀6@oneclickvpnkeys
-  - 9|👀7@oneclickvpnkeys
-  - 14|US_speednode_0038
-  - 12|tg频道:@ripaojiedian
-  - 14|AU_speednode_0002
-  - 14|BG_speednode_0004
-  - 13|香港|@ripaojiedian
-  - 14|CA_speednode_0006
-  - 9|👀1@oneclickvpnkeys
-  - 14|NO_speednode_0022
   - 12,13|日本2|@ripaojiedian
-  - 9|🇳IN_@WangCai_8
-  - 9|👀2@oneclickvpnkeys
+  - 12,13|日本3|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 14|US_speednode_0040
+  - 12,13|日本|@ripaojiedian
+  - '10|Telegram : @V2ynpv'
   - 13|美国5|@ripaojiedian
-  - 14|RU_speednode_0024
   - 10|@Proxy_Vpney v+p (4)
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|TW_speednode_0034
+  - 14|US_speednode_0038
+  - 14|CA_speednode_0006
+  - 12,13|美国|@ripaojiedian
+  - 14|KR_speednode_0018
   - 14|RU_speednode_0025
+  - 14|NL_speednode_0021
+  - 14|NO_speednode_0022
+  - 12|🇺🇸 美国4|@ripaojiedian
+  - 14|JP_speednode_0017
   type: fallback
   url: https://www.google.com/
 - interval: 300
