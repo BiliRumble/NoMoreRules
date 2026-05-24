@@ -1,4 +1,4 @@
-# Update: 2026-05-24 14:26
+# Update: 2026-05-24 18:25
 allow-lan: false
 dns:
   enable: true
@@ -18,6 +18,46 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
+- name: 10|🛡️5@oneclickvpnkeys
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 4433
+  server: 152.53.12.152
+  skip-cert-verify: true
+  sni: de3.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: 10|🛡️7@oneclickvpnkeys
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 4433
+  server: 185.228.139.247
+  skip-cert-verify: true
+  sni: de2.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: 10|🛡️4@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: T$rMIL_(dd($Ydfz
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 10086
+  server: 82.25.35.204
+  skip-cert-verify: true
+  sni: gb1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: 10|🛡️13@oneclickvpnkeys
+  password: 65bc8227-48db-4993-9e9d-68394de672a1
+  port: 443
+  server: 45.92.218.132
+  sni: holz6.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: 10|🛡️11@oneclickvpnkeys
+  password: 65bc8227-48db-4993-9e9d-68394de672a1
+  port: 443
+  server: 45.92.218.150
+  sni: holz3.api3-max.ru
+  tls: false
+  type: hysteria2
 - name: 10|@Proxy_Vpney v+p (4)
   password: DBUklcvOyH
   port: 443
@@ -34,6 +74,30 @@ proxies:
   server: 5.175.249.174
   skip-cert-verify: false
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 10|🛡️2@oneclickvpnkeys
+  password: fe9b17e8-41e1-4d1b-b588-93a23665724f
+  port: 2056
+  server: 37.114.49.38
+  skip-cert-verify: true
+  sni: flkf.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 10|🛡️6@oneclickvpnkeys
+  password: fe9b17e8-41e1-4d1b-b588-93a23665724f
+  port: 2056
+  server: 5.39.254.225
+  skip-cert-verify: true
+  sni: ld1.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 10|🛡️1@oneclickvpnkeys
+  password: fe9b17e8-41e1-4d1b-b588-93a23665724f
+  port: 2056
+  server: 84.200.33.151
+  skip-cert-verify: true
+  sni: nlb1.mangshe.xyz
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -645,62 +709,70 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|CA_speednode_0002
-  - 14|RU_speednode_0029
-  - 14|SG_speednode_0032
-  - 14|US_speednode_0047
-  - 12,13|香港4|@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - 14|GB_speednode_0019
-  - 14|RU_speednode_0030
-  - 12,13|美国|@ripaojiedian
-  - 14|GB_speednode_0015
-  - 14|GB_speednode_0017
-  - 13|美国5|@ripaojiedian
-  - 14|NN_speednode_0026
-  - 12,13|美国3|@ripaojiedian
-  - 12,13|日本2|@ripaojiedian
   - '10|Telegram : @V2ynpv'
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 14|GB_speednode_0014
-  - 14|US_speednode_0046
-  - 14|SG_speednode_0031
-  - 14|AT_speednode_0001
+  - 10|🛡️2@oneclickvpnkeys
+  - 14|GB_speednode_0019
+  - 14|CA_speednode_0002
+  - 12,13|美国3|@ripaojiedian
+  - 14|CN_speednode_0003
+  - 14|RU_speednode_0029
   - 14|US_speednode_0044
-  - 12,13|香港3|@ripaojiedian
-  - 12|🇺🇸 美国5|@ripaojiedian
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 12,13|日本|@ripaojiedian
-  - 14|GB_speednode_0018
-  - 14|US_speednode_0038
-  - 14|US_speednode_0045
+  - 14|US_speednode_0039
+  - 12|🇺🇸 美国4|@ripaojiedian
   - 12,13|美国2|@ripaojiedian
+  - 10|🛡️1@oneclickvpnkeys
+  - 14|US_speednode_0038
+  - 12|🇺🇸 美国5|@ripaojiedian
+  - 14|US_speednode_0047
+  - 14|GB_speednode_0016
+  - 14|GB_speednode_0018
+  - 14|TW_speednode_0034
+  - 14|US_speednode_0045
+  - 10|🛡️4@oneclickvpnkeys
+  - 14|GB_speednode_0014
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - 10|🛡️6@oneclickvpnkeys
+  - 14|RO_speednode_0027
+  - 10|🛡️7@oneclickvpnkeys
   - 14|TW_speednode_0035
   - 12,13|日本3|@ripaojiedian
-  - 14|US_speednode_0042
-  - 14|US_speednode_0036
-  - 14|US_speednode_0037
-  - 14|US_speednode_0041
-  - 10|@Proxy_Vpney v+p (4)
-  - 14|GB_speednode_0016
-  - 12,13|新加坡|@ripaojiedian
+  - 14|CN_speednode_0004
   - 14|US_speednode_0049
-  - 12|tg频道:@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|US_speednode_0040
+  - 13|香港|@ripaojiedian
+  - 10|@Proxy_Vpney v+p (4)
+  - 10|🛡️13@oneclickvpnkeys
   - 14|US_speednode_0048
-  - 14|NL_speednode_0025
-  - 14|KR_speednode_0022
-  - 14|US_speednode_0039
+  - 14|US_speednode_0041
+  - 12,13|新加坡|@ripaojiedian
+  - 14|RU_speednode_0030
+  - 14|SG_speednode_0032
+  - 13|美国5|@ripaojiedian
+  - 14|SG_speednode_0031
+  - 14|AT_speednode_0001
+  - 14|NN_speednode_0026
+  - 14|US_speednode_0036
   - 14|US_speednode_0043
-  - 12,13|香港5|@ripaojiedian
-  - 14|TW_speednode_0034
+  - 12,13|香港4|@ripaojiedian
   - 14|HK_speednode_0020
   - 13|美国4|@ripaojiedian
-  - 14|RO_speednode_0027
-  - 14|CN_speednode_0004
-  - 14|CN_speednode_0003
+  - 12,13|日本|@ripaojiedian
+  - 12,13|香港3|@ripaojiedian
+  - 10|🛡️11@oneclickvpnkeys
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|NL_speednode_0025
+  - 12,13|美国|@ripaojiedian
+  - 14|US_speednode_0037
+  - 14|US_speednode_0042
+  - 14|US_speednode_0046
+  - 12,13|日本2|@ripaojiedian
+  - 12,13|新加坡3|@ripaojiedian
+  - 14|GB_speednode_0015
+  - 10|🛡️5@oneclickvpnkeys
+  - 14|GB_speednode_0017
+  - 14|US_speednode_0040
+  - 14|KR_speednode_0022
+  - 12,13|香港5|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
