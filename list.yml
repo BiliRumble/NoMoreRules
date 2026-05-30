@@ -1,4 +1,4 @@
-# Update: 2026-05-30 18:42
+# Update: 2026-05-30 21:00
 allow-lan: false
 dns:
   enable: true
@@ -177,84 +177,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 14|SC_speednode_0040
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 45.130.125.76
-  skip-cert-verify: true
-  sni: www.app-cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.app-cloud.ir
-    path: /?ed=2048
-- name: 14|SC_speednode_0041
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 45.130.125.76
-  skip-cert-verify: true
-  sni: www.app-cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.app-cloud.ir
-    path: /
-- name: 14|US_speednode_0045
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 104.18.20.213
-  skip-cert-verify: false
-  sni: www.app-cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.app-cloud.ir
-    path: /?ed=2048
-- name: 14|US_speednode_0046
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 14.102.228.76
-  skip-cert-verify: true
-  sni: www.app-cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.app-cloud.ir
-    path: /?ed=2048
-- name: 14|US_speednode_0048
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 14.102.228.76
-  skip-cert-verify: true
-  sni: www.app-cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.app-cloud.ir
-    path: /
-- name: 14|US_speednode_0049
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 104.18.20.213
-  skip-cert-verify: false
-  sni: www.app-cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.app-cloud.ir
-    path: /
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -266,31 +188,25 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12|tg频道:@ripaojiedian
-  - 14|US_speednode_0049
-  - 12,13|日本3|@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
-  - 14|US_speednode_0048
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 12,13|香港3|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
-  - 13|美国5|@ripaojiedian
-  - 12,13|日本2|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|SC_speednode_0040
-  - 12,13|日本|@ripaojiedian
-  - 14|SC_speednode_0041
-  - 13|美国4|@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - 12|🇺🇸 美国5|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
-  - 14|US_speednode_0046
-  - 12|🇺🇸 美国4|@ripaojiedian
   - 12,13|美国|@ripaojiedian
-  - 14|US_speednode_0045
+  - 12,13|新加坡3|@ripaojiedian
+  - 12|🇺🇸 美国5|@ripaojiedian
+  - 12,13|香港3|@ripaojiedian
+  - 12,13|日本|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 13|美国5|@ripaojiedian
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 13|香港|@ripaojiedian
+  - 12,13|新加坡|@ripaojiedian
+  - 12,13|日本2|@ripaojiedian
+  - 12|🇺🇸 美国4|@ripaojiedian
   - 12,13|美国2|@ripaojiedian
   - 12,13|香港5|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
+  - 12,13|新加坡2|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 13|美国4|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
