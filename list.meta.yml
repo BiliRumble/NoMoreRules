@@ -1,4 +1,4 @@
-# Update: 2026-05-30 23:57
+# Update: 2026-05-31 02:57
 allow-lan: false
 dns:
   enable: true
@@ -18,7 +18,7 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 9,10|@KAFING_2
+- name: 9|🇩🇪 - DE - @FreeOnlineVPN
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -38,7 +38,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '10|@KAFING_2 #2'
+- name: '10|@KAFING_2 #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -54,6 +54,14 @@ proxies:
   server: hy2.123266.xyz
   skip-cert-verify: true
   sni: hy2.123266.xyz
+  tls: false
+  type: hysteria2
+- name: 10|75@oneclickvpnkeys
+  password: dongtaiwang.com
+  port: 22000
+  server: 62.210.124.146
+  skip-cert-verify: true
+  sni: www.microsoft.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -510,52 +518,53 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 10|@hi_proxy_iran :ا ا
-  - 14|CH_speednode_0003
-  - 14|GB_speednode_0010
-  - 14|US_speednode_0026
-  - '10|@KAFING_2 #2'
-  - 14|KR_speednode_0012
-  - 12,13|香港4|@ripaojiedian
-  - 14|RO_speednode_0018
-  - 14|US_speednode_0032
-  - 14|US_speednode_0033
-  - 12|tg频道:@ripaojiedian
-  - 14|US_speednode_0025
-  - 12,13|日本3|@ripaojiedian
-  - 13|美国4|@ripaojiedian
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 12,13|香港3|@ripaojiedian
-  - 12,13|美国|@ripaojiedian
-  - 14|BG_speednode_0001
-  - 14|US_speednode_0024
+  - 10|75@oneclickvpnkeys
   - 12,13|香港5|@ripaojiedian
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 14|RO_speednode_0019
-  - 12,13|日本2|@ripaojiedian
-  - 9,10|@KAFING_2
+  - 14|CH_speednode_0003
   - 12,13|新加坡3|@ripaojiedian
-  - 13|美国5|@ripaojiedian
-  - 14|US_speednode_0027
-  - 12,13|美国2|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
-  - 14|MD_speednode_0014
-  - 14|SG_speednode_0021
-  - 12,13|日本|@ripaojiedian
-  - 14|US_speednode_0031
-  - 12|🇺🇸 美国5|@ripaojiedian
-  - 14|US_speednode_0028
   - 14|KR_speednode_0013
-  - 14|NL_speednode_0015
-  - 14|NZ_speednode_0017
-  - 14|US_speednode_0029
-  - 14|GB_speednode_0006
-  - 10|🇳🇱 - NL - @FreeOnlineVPN
+  - 14|SG_speednode_0021
+  - 14|US_speednode_0024
+  - 13|美国5|@ripaojiedian
+  - 12,13|美国|@ripaojiedian
+  - 12|🇺🇸 美国4|@ripaojiedian
   - 12,13|美国3|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
-  - 14|US_speednode_0030
-  - 14|US_speednode_0034
+  - '10|@KAFING_2 #1'
+  - 9|🇩🇪 - DE - @FreeOnlineVPN
+  - 14|RO_speednode_0019
+  - 14|US_speednode_0031
   - 13|香港|@ripaojiedian
+  - 12,13|日本2|@ripaojiedian
+  - 14|US_speednode_0033
+  - 14|US_speednode_0027
+  - 10|🇳🇱 - NL - @FreeOnlineVPN
+  - 12|🇺🇸 美国5|@ripaojiedian
+  - 12,13|新加坡|@ripaojiedian
+  - 13|美国4|@ripaojiedian
+  - 14|US_speednode_0034
+  - 12,13|日本|@ripaojiedian
+  - 14|BG_speednode_0001
+  - 12,13|日本3|@ripaojiedian
+  - 14|US_speednode_0028
+  - 10|@hi_proxy_iran :ا ا
+  - 12,13|香港4|@ripaojiedian
+  - 14|US_speednode_0025
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|US_speednode_0032
+  - 12,13|香港3|@ripaojiedian
+  - 14|US_speednode_0030
+  - 12,13|新加坡2|@ripaojiedian
+  - 12,13|美国2|@ripaojiedian
+  - 14|GB_speednode_0006
+  - 14|KR_speednode_0012
+  - 14|US_speednode_0026
+  - 14|RO_speednode_0018
+  - 14|GB_speednode_0010
+  - 14|US_speednode_0029
+  - 14|MD_speednode_0014
+  - 14|NZ_speednode_0017
+  - 14|NL_speednode_0015
+  - 12|tg频道:@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -683,7 +692,7 @@ proxy-groups:
   type: select
 - name: 🇩🇪 德国
   proxies:
-  - 9,10|@KAFING_2
+  - 9|🇩🇪 - DE - @FreeOnlineVPN
   type: select
 rules:
 - MATCH,DIRECT
