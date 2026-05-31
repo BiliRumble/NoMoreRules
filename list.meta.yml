@@ -1,4 +1,4 @@
-# Update: 2026-05-31 14:46
+# Update: 2026-05-31 18:50
 allow-lan: false
 dns:
   enable: true
@@ -18,7 +18,7 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 9|🇩🇪 - DE - @FreeOnlineVPN
+- name: 9,10|@KAFING_2
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -28,7 +28,47 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 10|🇳🇱 - NL - @FreeOnlineVPN
+- name: 10|@filembad
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 8880
+  server: 18.157.100.78
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: 10|40071 | Telegram = t.me/SOSkey...
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 443
+  server: 18.159.104.97
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '10|@filembad #1'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 54040
+  server: 18.159.104.97
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: 10|🇩🇪40070 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 8880
+  server: 18.159.104.97
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: 10| - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -38,7 +78,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '10|@KAFING_2 #1'
+- name: '10|@KAFING_2 #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -48,7 +88,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 10|@hi_proxy_iran :ا ا
+- name: 10|@filtershekan_channel |8
   password: bce6c821-200d-421f-bf3d-7159e5246ea0
   port: 33333
   server: hy2.123266.xyz
@@ -518,53 +558,57 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|US_speednode_0031
-  - 14|MD_speednode_0014
-  - 14|US_speednode_0034
-  - 9|🇩🇪 - DE - @FreeOnlineVPN
-  - 12,13|美国3|@ripaojiedian
-  - '10|@KAFING_2 #1'
-  - 12|🇺🇸 美国5|@ripaojiedian
-  - 14|US_speednode_0027
-  - 10|🇳🇱 - NL - @FreeOnlineVPN
-  - 12,13|日本3|@ripaojiedian
-  - 14|RO_speednode_0019
-  - 13|美国4|@ripaojiedian
-  - 14|NL_speednode_0015
-  - 12,13|日本2|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
   - 14|RO_speednode_0018
-  - 14|CH_speednode_0003
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 12,13|美国2|@ripaojiedian
-  - 14|US_speednode_0025
-  - 14|GB_speednode_0006
+  - 14|SG_speednode_0021
+  - 12,13|日本3|@ripaojiedian
+  - 14|NL_speednode_0015
+  - 14|US_speednode_0029
+  - 12|tg频道:@ripaojiedian
   - 12,13|新加坡3|@ripaojiedian
-  - 13|美国5|@ripaojiedian
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|GB_speednode_0010
+  - 12|🇺🇸 美国5|@ripaojiedian
+  - 14|KR_speednode_0013
+  - '10|@KAFING_2 #2'
+  - 9,10|@KAFING_2
+  - 10|75@oneclickvpnkeys
+  - 10|🇩🇪40070 | ⚡️Telegram = t.me/SO...
+  - 14|US_speednode_0024
+  - 14|US_speednode_0034
+  - 12|🇺🇸 美国4|@ripaojiedian
+  - 10|@filtershekan_channel |8
+  - 12,13|美国2|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 14|RO_speednode_0019
+  - '10|@filembad #1'
+  - 12,13|美国3|@ripaojiedian
   - 13|香港|@ripaojiedian
+  - 14|US_speednode_0025
+  - 14|US_speednode_0027
+  - 14|NZ_speednode_0017
+  - 12,13|香港3|@ripaojiedian
+  - 14|GB_speednode_0006
+  - 12,13|日本2|@ripaojiedian
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|CH_speednode_0003
+  - 14|MD_speednode_0014
+  - 12,13|香港5|@ripaojiedian
+  - 14|US_speednode_0026
+  - 14|US_speednode_0028
+  - 13|美国4|@ripaojiedian
+  - 12,13|新加坡|@ripaojiedian
+  - 10| - NL - @FreeOnlineVPN
+  - 10|40071 | Telegram = t.me/SOSkey...
+  - 12,13|美国|@ripaojiedian
+  - 13|美国5|@ripaojiedian
+  - 12,13|日本|@ripaojiedian
   - 14|US_speednode_0032
   - 14|US_speednode_0033
-  - 12|tg频道:@ripaojiedian
-  - 14|US_speednode_0026
-  - 12,13|新加坡|@ripaojiedian
-  - 12,13|香港3|@ripaojiedian
-  - 10|@hi_proxy_iran :ا ا
-  - 14|US_speednode_0029
-  - 14|GB_speednode_0010
-  - 12,13|日本|@ripaojiedian
-  - 14|US_speednode_0028
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 10|75@oneclickvpnkeys
-  - 14|BG_speednode_0001
-  - 14|NZ_speednode_0017
-  - 14|SG_speednode_0021
-  - 14|KR_speednode_0013
-  - 14|US_speednode_0024
+  - 10|@filembad
   - 14|KR_speednode_0012
+  - 14|US_speednode_0031
   - 14|US_speednode_0030
-  - 12,13|香港5|@ripaojiedian
-  - 12,13|美国|@ripaojiedian
+  - 14|BG_speednode_0001
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -692,7 +736,8 @@ proxy-groups:
   type: select
 - name: 🇩🇪 德国
   proxies:
-  - 9|🇩🇪 - DE - @FreeOnlineVPN
+  - 9,10|@KAFING_2
+  - 10|🇩🇪40070 | ⚡️Telegram = t.me/SO...
   type: select
 rules:
 - MATCH,DIRECT
