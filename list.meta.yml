@@ -1,4 +1,4 @@
-# Update: 2026-06-01 10:36
+# Update: 2026-06-01 16:23
 allow-lan: false
 dns:
   enable: true
@@ -460,51 +460,51 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|MD_speednode_0010
-  - 12,13|日本3|@ripaojiedian
-  - 14|RO_speednode_0014
-  - 14|RO_speednode_0015
-  - 12,13|日本|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
-  - 14|RU_speednode_0025
+  - 12|tg频道:@ripaojiedian
   - 12,13|新加坡3|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
-  - 10|@V2ray_official
-  - 12,13|美国2|@ripaojiedian
-  - 14|RU_speednode_0024
-  - 10|4🔊@oneclickvpnkeys
-  - 12,13|新加坡|@ripaojiedian
+  - 14|RO_speednode_0015
+  - 14|CH_speednode_0001
+  - 14|ES_speednode_0005
+  - 14|KR_speednode_0009
+  - 12|🇺🇸 美国4|@ripaojiedian
   - 14|RO_speednode_0016
+  - 9,10|@KAFING_2
+  - 10|@V2ray_official
+  - 10|🔊76@oneclickvpnkeys
+  - 10|4🔊@oneclickvpnkeys
+  - 12,13|美国2|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 13|美国5|@ripaojiedian
+  - 14|MD_speednode_0010
+  - 10|kurdconfig
+  - 14|NL_speednode_0013
+  - 14|RO_speednode_0014
+  - 14|MD_speednode_0011
+  - 12,13|新加坡|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 10| - NL - @FreeOnlineVPN
+  - 12,13|香港3|@ripaojiedian
+  - 14|RU_speednode_0019
+  - 10|58@oneclickvpnkeys
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|RU_speednode_0022
+  - 14|RU_speednode_0021
+  - 13|香港|@ripaojiedian
+  - 14|MD_speednode_0012
+  - 14|CH_speednode_0002
+  - 14|RU_speednode_0025
+  - 12,13|美国|@ripaojiedian
+  - 12,13|香港5|@ripaojiedian
+  - 14|US_speednode_0028
+  - 12,13|新加坡2|@ripaojiedian
+  - 12,13|日本|@ripaojiedian
   - 12|🇺🇸 美国5|@ripaojiedian
   - 14|HK_speednode_0007
   - 10|@filtershekan_channel |8
-  - 14|US_speednode_0028
-  - 10|58@oneclickvpnkeys
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 14|MD_speednode_0011
-  - 12,13|美国|@ripaojiedian
-  - 10|🔊76@oneclickvpnkeys
-  - 14|RU_speednode_0021
-  - 10|kurdconfig
-  - '10|@KAFING_2 #2'
-  - 14|MD_speednode_0012
-  - 14|RU_speednode_0019
-  - 9,10|@KAFING_2
-  - 14|ES_speednode_0005
-  - 12,13|美国3|@ripaojiedian
-  - 14|KR_speednode_0009
-  - 14|RU_speednode_0022
-  - 12,13|香港3|@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - 13|美国5|@ripaojiedian
-  - 12|tg频道:@ripaojiedian
-  - 14|CH_speednode_0001
-  - 10| - NL - @FreeOnlineVPN
   - 13|美国4|@ripaojiedian
-  - 12,13|香港5|@ripaojiedian
-  - 14|NL_speednode_0013
-  - 14|CH_speednode_0002
+  - 14|RU_speednode_0024
+  - 12,13|香港4|@ripaojiedian
+  - '10|@KAFING_2 #2'
   type: fallback
   url: https://www.google.com/
 - interval: 300
