@@ -1,4 +1,4 @@
-# Update: 2026-06-01 16:23
+# Update: 2026-06-01 22:47
 allow-lan: false
 dns:
   enable: true
@@ -18,22 +18,31 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 9,10|@KAFING_2
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 181.214.99.162
-  skip-cert-verify: true
-  sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 10|kurdconfig
+- name: 9|t.me/FREECONFIGSPLUS کانفیگ ها...
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
-  port: 1040
-  server: 18.196.180.90
+  port: 444
+  server: 18.194.238.82
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: 9|IPv4.@Vasl_b
+  obfs: salamander
+  obfs-password: OzJ10Bk1Z9MfaTDFAgDX0HldGsMiI7C2
+  password: t8667063839
+  port: 443
+  server: vids.jibijij.top
+  skip-cert-verify: true
+  sni: bts.com
+  tls: false
+  type: hysteria2
+- name: 10|Echo_Center
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 54040
+  server: 18.194.238.82
   skip-cert-verify: false
   sni: qus.masir-sefid.shop
   tls: false
@@ -58,6 +67,16 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
+- name: 10|@KAFING_2
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 181.214.99.162
+  skip-cert-verify: true
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
 - name: '10|@KAFING_2 #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -76,17 +95,7 @@ proxies:
   sni: hy2.123266.xyz
   tls: false
   type: hysteria2
-- name: 10|58@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: hH0l2Acqz3RtodoSCNCpNJqDSZtp4Qw
-  password: rstnnl2705
-  port: 443
-  server: musicclips.videolinks.ru
-  skip-cert-verify: true
-  sni: musicclips.videolinks.ru
-  tls: false
-  type: hysteria2
-- name: 10|4🔊@oneclickvpnkeys
+- name: 10|4@oneclickvpnkeys
   obfs: salamander
   obfs-password: FxZylbqClUqVqAs2nezW9kPyFb2edZ2
   password: rstnnl2705
@@ -460,51 +469,52 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12|tg频道:@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|RO_speednode_0015
-  - 14|CH_speednode_0001
-  - 14|ES_speednode_0005
-  - 14|KR_speednode_0009
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 14|RO_speednode_0016
-  - 9,10|@KAFING_2
-  - 10|@V2ray_official
-  - 10|🔊76@oneclickvpnkeys
-  - 10|4🔊@oneclickvpnkeys
-  - 12,13|美国2|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 13|美国5|@ripaojiedian
-  - 14|MD_speednode_0010
-  - 10|kurdconfig
-  - 14|NL_speednode_0013
-  - 14|RO_speednode_0014
-  - 14|MD_speednode_0011
-  - 12,13|新加坡|@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
-  - 10| - NL - @FreeOnlineVPN
-  - 12,13|香港3|@ripaojiedian
-  - 14|RU_speednode_0019
-  - 10|58@oneclickvpnkeys
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 14|RU_speednode_0022
   - 14|RU_speednode_0021
+  - 14|MD_speednode_0010
+  - 9|t.me/FREECONFIGSPLUS کانفیگ ها...
+  - 14|RO_speednode_0015
   - 13|香港|@ripaojiedian
-  - 14|MD_speednode_0012
+  - 13|美国5|@ripaojiedian
+  - 14|CH_speednode_0001
+  - 10|@V2ray_official
   - 14|CH_speednode_0002
   - 14|RU_speednode_0025
-  - 12,13|美国|@ripaojiedian
-  - 12,13|香港5|@ripaojiedian
-  - 14|US_speednode_0028
-  - 12,13|新加坡2|@ripaojiedian
   - 12,13|日本|@ripaojiedian
-  - 12|🇺🇸 美国5|@ripaojiedian
-  - 14|HK_speednode_0007
-  - 10|@filtershekan_channel |8
+  - 14|KR_speednode_0009
+  - 10|🔊76@oneclickvpnkeys
+  - 12,13|新加坡|@ripaojiedian
+  - 12,13|香港3|@ripaojiedian
+  - 10|@KAFING_2
+  - 14|ES_speednode_0005
+  - 14|RU_speednode_0019
+  - 10|4@oneclickvpnkeys
+  - 12,13|美国3|@ripaojiedian
+  - 14|RO_speednode_0014
+  - 10|Echo_Center
   - 13|美国4|@ripaojiedian
-  - 14|RU_speednode_0024
+  - 12,13|日本3|@ripaojiedian
+  - 12|🇺🇸 美国4|@ripaojiedian
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 12|🇺🇸 美国5|@ripaojiedian
+  - 14|MD_speednode_0012
+  - 14|RU_speednode_0022
   - 12,13|香港4|@ripaojiedian
+  - 14|NL_speednode_0013
+  - 12|tg频道:@ripaojiedian
+  - 14|RO_speednode_0016
+  - 12,13|新加坡2|@ripaojiedian
+  - 12,13|美国2|@ripaojiedian
+  - 14|HK_speednode_0007
+  - 14|RU_speednode_0024
+  - 9|IPv4.@Vasl_b
+  - 12,13|新加坡3|@ripaojiedian
+  - 12,13|香港5|@ripaojiedian
+  - 12,13|美国|@ripaojiedian
   - '10|@KAFING_2 #2'
+  - 10|@filtershekan_channel |8
+  - 10| - NL - @FreeOnlineVPN
+  - 14|US_speednode_0028
+  - 14|MD_speednode_0011
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -565,6 +575,7 @@ proxy-groups:
   type: select
 - name: 🇺🇸 美国
   proxies:
+  - 9|t.me/FREECONFIGSPLUS کانفیگ ها...
   - 12,13|美国|@ripaojiedian
   - 12,13|美国2|@ripaojiedian
   - 12,13|美国3|@ripaojiedian
@@ -623,7 +634,7 @@ proxy-groups:
   type: select
 - name: 🇩🇪 德国
   proxies:
-  - 9,10|@KAFING_2
+  - REJECT
   type: select
 rules:
 - MATCH,DIRECT
