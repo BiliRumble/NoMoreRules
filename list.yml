@@ -1,4 +1,4 @@
-# Update: 2026-06-01 22:47
+# Update: 2026-06-02 03:50
 allow-lan: false
 dns:
   enable: true
@@ -57,7 +57,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 12,13|日本|@ripaojiedian
+- name: 12,13,14|HK_speednode_0023
   network: tcp
   password: BxceQaOe
   port: 47655
@@ -65,6 +65,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+  udp: true
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
@@ -113,7 +114,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 12,13,14|US_speednode_0053
   network: tcp
   password: BxceQaOe
   port: 2520
@@ -121,6 +122,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸 美国4|@ripaojiedian
@@ -169,11 +171,28 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 14|HK_speednode_0007
-  password: 65fQmPHHbPcBCfvSHt
-  port: 443
-  server: au-4.tr202605.com
-  skip-cert-verify: false
+- name: 14|GB_speednode_0018
+  password: da292191-b895-3264-b41c-200512b8f965
+  port: 40015
+  server: a.twodnwnpoe.xyz
+  skip-cert-verify: true
+  sni: 1.lossyesterday.xyz
+  type: trojan
+  udp: true
+- name: 14|GB_speednode_0019
+  password: da292191-b895-3264-b41c-200512b8f965
+  port: 52225
+  server: a.twodnwnpoe.xyz
+  skip-cert-verify: true
+  sni: i.comfortableyou.top
+  type: trojan
+  udp: true
+- name: 14|GB_speednode_0020
+  password: da292191-b895-3264-b41c-200512b8f965
+  port: 40017
+  server: a.twodnwnpoe.xyz
+  skip-cert-verify: true
+  sni: water.waittomorrow.top
   type: trojan
   udp: true
 proxy-groups:
@@ -187,25 +206,27 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13|香港|@ripaojiedian
-  - 13|美国5|@ripaojiedian
-  - 12,13|日本|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
-  - 12,13|香港3|@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
-  - 13|美国4|@ripaojiedian
   - 12,13|日本3|@ripaojiedian
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 12|🇺🇸 美国5|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
-  - 12|tg频道:@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
   - 12,13|美国2|@ripaojiedian
-  - 14|HK_speednode_0007
-  - 12,13|新加坡3|@ripaojiedian
-  - 12,13|香港5|@ripaojiedian
+  - 12,13,14|HK_speednode_0023
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|GB_speednode_0019
+  - 12|tg频道:@ripaojiedian
+  - 12,13|新加坡|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 14|GB_speednode_0020
+  - 13|美国4|@ripaojiedian
+  - 13|美国5|@ripaojiedian
+  - 12|🇺🇸 美国5|@ripaojiedian
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 12,13,14|US_speednode_0053
   - 12,13|美国|@ripaojiedian
+  - 13|香港|@ripaojiedian
+  - 12,13|香港5|@ripaojiedian
+  - 12,13|新加坡3|@ripaojiedian
+  - 14|GB_speednode_0018
+  - 12,13|香港3|@ripaojiedian
+  - 12|🇺🇸 美国4|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
