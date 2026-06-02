@@ -1,4 +1,4 @@
-# Update: 2026-06-02 20:32
+# Update: 2026-06-03 02:29
 allow-lan: false
 dns:
   enable: true
@@ -57,7 +57,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 12,13|日本|@ripaojiedian
+- name: 12,13,14|JP_speednode_0023
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -65,6 +65,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+  udp: true
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
@@ -81,7 +82,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡|@ripaojiedian
+- name: 12,13,14|JP_speednode_0022
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 1180
@@ -89,6 +90,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
@@ -113,7 +115,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 12,13,14|US_speednode_0054
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -121,6 +123,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸 美国4|@ripaojiedian
@@ -150,44 +153,20 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 14|GB_speednode_0018
-  password: da292191-b895-3264-b41c-200512b8f965
-  port: 40015
-  server: a.twodnwnpoe.xyz
-  skip-cert-verify: true
-  sni: 1.lossyesterday.xyz
-  type: trojan
-  udp: true
-- name: 14|GB_speednode_0019
-  password: da292191-b895-3264-b41c-200512b8f965
-  port: 52225
-  server: a.twodnwnpoe.xyz
-  skip-cert-verify: true
-  sni: i.comfortableyou.top
-  type: trojan
-  udp: true
-- name: 14|GB_speednode_0020
-  password: da292191-b895-3264-b41c-200512b8f965
-  port: 40017
-  server: a.twodnwnpoe.xyz
-  skip-cert-verify: true
-  sni: water.waittomorrow.top
-  type: trojan
-  udp: true
-- name: 14|HK_speednode_0023
-  password: BxceQaOe
-  port: 47655
-  server: 43.199.61.178
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-  udp: true
-- name: 14|US_speednode_0053
+- name: 14|US_speednode_0050
   password: BxceQaOe
   port: 2520
   server: 95.40.4.37
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: 14|US_speednode_0052
+  password: BxceQaOe
+  port: 2520
+  server: 95.40.4.37
+  skip-cert-verify: true
+  sni: 95.40.4.37
   type: trojan
   udp: true
 proxy-groups:
@@ -201,27 +180,24 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 13|香港|@ripaojiedian
+  - 12,13|美国2|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - 12,13|新加坡3|@ripaojiedian
+  - 12,13,14|JP_speednode_0023
   - 13|美国4|@ripaojiedian
+  - 14|US_speednode_0052
+  - 12|🇺🇸 美国4|@ripaojiedian
   - 12|🇭🇰 香港|@ripaojiedian
   - 12,13|香港5|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
+  - 12,13,14|US_speednode_0054
+  - 13|香港|@ripaojiedian
+  - 12,13,14|JP_speednode_0022
   - 12,13|日本2|@ripaojiedian
-  - 12|tg频道:@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
-  - 12,13|日本|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
-  - 14|US_speednode_0053
-  - 14|GB_speednode_0020
-  - 14|GB_speednode_0018
   - 12,13|新加坡2|@ripaojiedian
+  - 14|US_speednode_0050
   - 12,13|香港3|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
-  - 14|HK_speednode_0023
-  - 14|GB_speednode_0019
-  - 12,13|美国2|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
