@@ -1,4 +1,4 @@
-# Update: 2026-06-03 21:03
+# Update: 2026-06-04 02:38
 allow-lan: false
 dns:
   enable: true
@@ -73,7 +73,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 12,13,14|JP_speednode_0012
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 8066
@@ -81,6 +81,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
@@ -89,7 +90,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
+- name: 12,13,14|JP_speednode_0013
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 3842
@@ -97,6 +98,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -150,23 +152,7 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 14|JP_speednode_0022
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 1180
-  server: 18.181.199.223
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: 14|JP_speednode_0023
-  password: BxceQaOe
-  port: 4099
-  server: 18.183.163.141
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-  udp: true
-- name: 14|US_speednode_0050
+- name: 14|US_speednode_0035
   password: BxceQaOe
   port: 2520
   server: 95.40.4.37
@@ -174,20 +160,20 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: 14|US_speednode_0052
-  password: BxceQaOe
-  port: 2520
-  server: 95.40.4.37
-  skip-cert-verify: true
-  sni: 95.40.4.37
-  type: trojan
-  udp: true
-- name: 14|US_speednode_0054
+- name: 14|US_speednode_0036
   password: BxceQaOe
   port: 17801
   server: 95.40.68.192
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: 14|US_speednode_0037
+  password: BxceQaOe
+  port: 2520
+  server: 95.40.4.37
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
 proxy-groups:
@@ -201,27 +187,25 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12,13|新加坡3|@ripaojiedian
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 12|tg频道:@ripaojiedian
-  - 14|US_speednode_0052
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 12,13|香港3|@ripaojiedian
-  - 13|美国4|@ripaojiedian
-  - 12,13|日本|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 14|US_speednode_0054
-  - 12,13|香港4|@ripaojiedian
-  - 14|JP_speednode_0022
   - 12,13|香港5|@ripaojiedian
+  - 14|US_speednode_0037
+  - 12|tg频道:@ripaojiedian
+  - 12,13,14|JP_speednode_0012
   - 12,13|新加坡|@ripaojiedian
+  - 12,13|日本|@ripaojiedian
+  - 12,13|新加坡3|@ripaojiedian
   - 12,13|美国3|@ripaojiedian
-  - 12,13|日本2|@ripaojiedian
-  - 14|JP_speednode_0023
-  - 14|US_speednode_0050
   - 13|香港|@ripaojiedian
+  - 14|US_speednode_0036
   - 12,13|美国2|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 12|🇺🇸 美国4|@ripaojiedian
+  - 12,13|日本2|@ripaojiedian
+  - 14|US_speednode_0035
+  - 12,13|香港3|@ripaojiedian
+  - 12,13,14|JP_speednode_0013
+  - 13|美国4|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
