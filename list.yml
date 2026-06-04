@@ -1,4 +1,4 @@
-# Update: 2026-06-04 19:43
+# Update: 2026-06-04 22:31
 allow-lan: false
 dns:
   enable: true
@@ -158,44 +158,12 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 14|JP_speednode_0012
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 8066
-  server: 18.181.199.223
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: 14|JP_speednode_0013
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 3842
-  server: 18.181.199.223
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: 14|US_speednode_0035
-  password: BxceQaOe
-  port: 2520
-  server: 95.40.4.37
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: 14|US_speednode_0036
-  password: BxceQaOe
-  port: 17801
-  server: 95.40.68.192
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: 14|US_speednode_0037
-  password: BxceQaOe
-  port: 2520
-  server: 95.40.4.37
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
+- name: 14|DE_speednode_0011
+  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
+  port: 9443
+  server: de-1.hysteria.ltd
+  skip-cert-verify: false
+  sni: de-1.hysteria.ltd
   type: trojan
   udp: true
 proxy-groups:
@@ -209,28 +177,24 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13|美国4|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 12,13|美国2|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 14|DE_speednode_0011
+  - 12|tg频道:@ripaojiedian
+  - 12,13|新加坡3|@ripaojiedian
   - 12,13|香港3|@ripaojiedian
+  - 12,13|日本|@ripaojiedian
   - 12,13|新加坡2|@ripaojiedian
-  - 12|🇺🇸 美国4|@ripaojiedian
   - 13|香港|@ripaojiedian
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 12|🇺🇸 美国4|@ripaojiedian
+  - 13|美国4|@ripaojiedian
+  - 12,13|香港5|@ripaojiedian
+  - 12,13|日本2|@ripaojiedian
   - 12,13|美国|@ripaojiedian
   - 12,13|美国3|@ripaojiedian
-  - 14|US_speednode_0037
-  - 14|JP_speednode_0013
-  - 14|US_speednode_0036
-  - 12,13|日本|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 12|tg频道:@ripaojiedian
-  - 12,13|香港5|@ripaojiedian
   - 12,13|新加坡|@ripaojiedian
-  - 14|US_speednode_0035
-  - 12,13|香港4|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 12,13|日本2|@ripaojiedian
-  - 12,13|美国2|@ripaojiedian
-  - 14|JP_speednode_0012
   type: fallback
   url: https://www.google.com/
 - interval: 300

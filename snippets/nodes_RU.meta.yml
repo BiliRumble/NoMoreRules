@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|RU_speednode_0029
+  name: 14|RU_speednode_0039
   port: 22231
   server: r1.mizulina.top
   servername: r1.mizulina.top
@@ -12,7 +12,7 @@ proxies:
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 14|RU_speednode_0025
+  name: 14|RU_speednode_0040
   port: 443
   server: 85.234.114.53
   servername: r1.mizulina.top
@@ -23,7 +23,7 @@ proxies:
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 14|RU_speednode_0027
+  name: 14|RU_speednode_0043
   port: 22231
   server: 85.234.114.53
   servername: r1.mizulina.top
@@ -34,29 +34,15 @@ proxies:
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|RU_speednode_0028
+  name: 14|RU_speednode_0042
   port: 443
   reality-opts:
-    public-key: FurqA-2jJHS4vNj92Ya5i2ZTxf0sWSjUTaz5Y_KMBgk
-    short-id: 57cc65bfd5ef7465
-  server: 185.212.117.34
-  servername: www.scaleway.com
+    public-key: c9eCHF41FReFLIdarpg8M5edw4_E133EJBzrvYS02Ck
+    short-id: cd9a5f0edff48da4
+  server: 213.108.2.130
+  servername: cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: bb2b0112-577f-4862-886a-3c2ee004ca23
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 14|RU_speednode_0030
-  port: 443
-  reality-opts:
-    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
-    short-id: c1a7e9b4711d5f60
-  server: 193.168.46.180
-  servername: rruu.persik.host
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 54b2b357-c66c-4bb0-9e01-0afc9b85c1e4
+  uuid: 5e8ee155-0962-4307-98f2-b65f6bbbd5bb
