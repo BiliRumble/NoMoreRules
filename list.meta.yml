@@ -1,4 +1,4 @@
-# Update: 2026-06-06 18:48
+# Update: 2026-06-06 21:05
 allow-lan: false
 dns:
   enable: true
@@ -18,6 +18,44 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
+- name: 9|美国2
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 9|1
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2055
+  server: xjp1.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp1.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 9|JP
+  password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
+  port: 13778
+  server: jp7.dexlos.com
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 9|DE
+  password: a084933d-0b41-4571-ae0c-7163b8c71ed1
+  port: 2056
+  server: de.eyucdn.xyz
+  skip-cert-verify: true
+  sni: de.eyucdn.xyz
+  tls: false
+  type: hysteria2
+- name: 9| HK
+  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+  port: 443
+  server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+  sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+  tls: false
+  type: hysteria2
 - name: 9,10|@KAFING_2
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -26,6 +64,22 @@ proxies:
   server: 181.214.99.162
   skip-cert-verify: true
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 9|SG
+  password: e7965e64-e001-4e8c-8273-39c61ff4a094
+  port: 30000
+  server: sg3.oomz.ru
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: 9|TW
+  password: e7965e64-e001-4e8c-8273-39c61ff4a094
+  port: 30000
+  server: tw.oomz.ru
+  skip-cert-verify: true
+  sni: bing.com
   tls: false
   type: hysteria2
 - name: 10|🩵+@Azarakhsh_Proxy+🩷
@@ -38,7 +92,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 10|  @vistav2ray  👈ا  ✅
+- name: 10|  @vistav2ray  👈کانال  ✅
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -128,13 +182,13 @@ proxies:
   sni: qs.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: 10|CH-@VPNine1
+- name: '10|@vmesskhodam #1'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
   port: 443
-  server: 195.15.201.177
-  skip-cert-verify: true
+  server: 195.15.253.119
+  skip-cert-verify: false
   sni: free2.masir-sefid-1.my
   tls: false
   type: hysteria2
@@ -208,24 +262,44 @@ proxies:
   sni: masir-sefid.shop
   tls: false
   type: hysteria2
-- name: 10|@internet_azad_2026🇩(1)
+- name: '10|@internet_azad_2026 #9'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
-  port: 443
-  server: 84.234.29.71
+  port: 1040
+  server: 84.234.31.190
   skip-cert-verify: false
-  sni: free2.masir-sefid.shop
+  sni: free3.masir-sefid-1.my
   tls: false
   type: hysteria2
-- name: 10|@internet_azad_2026🇩🇰(3)
+- name: '10|@internet_azad_2026 #10'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 4040
+  server: 84.234.31.190
+  skip-cert-verify: false
+  sni: free3.masir-sefid-1.my
+  tls: false
+  type: hysteria2
+- name: '10|@internet_azad_2026 #11'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 54040
+  server: 84.234.31.190
+  skip-cert-verify: false
+  sni: free3.masir-sefid-1.my
+  tls: false
+  type: hysteria2
+- name: '10|@internet_azad_2026 #12'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
   port: 8880
-  server: 84.234.29.71
+  server: 84.234.31.190
   skip-cert-verify: false
-  sni: free2.masir-sefid.shop
+  sni: free3.masir-sefid-1.my
   tls: false
   type: hysteria2
 - name: 10| - NL - @FreeOnlineVPN
@@ -254,16 +328,6 @@ proxies:
   password: masir_sefid
   port: 443
   server: 18.157.51.145
-  skip-cert-verify: false
-  sni: content.masir-sefid.shop
-  tls: false
-  type: hysteria2
-- name: '10|@internet_azad_2026🇩🇪 #4'
-  obfs: salamander
-  obfs-password: masir_sefid
-  password: masir_sefid
-  port: 443
-  server: 18.194.63.255
   skip-cert-verify: false
   sni: content.masir-sefid.shop
   tls: false
@@ -774,88 +838,96 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|DE_speednode_0011
-  - 14|GB_speednode_0013
-  - 14|RU_speednode_0043
-  - '10|@internet_azad_2026🇩🇪 #4'
-  - 14|RO_speednode_0033
-  - 14|US_speednode_0047
-  - 14|CN_speednode_0007
-  - 14|CN_speednode_0004
   - 14|NN_speednode_0024
-  - 12,13|日本|@ripaojiedian
-  - '10|⚡@V2ray_official #2'
-  - 14|RO_speednode_0034
-  - 14|CN_speednode_0008
-  - 12,13|香港5|@ripaojiedian
-  - 14|CN_speednode_0003
-  - 14|NN_speednode_0023
-  - 14|US_speednode_0048
-  - 12,13|新加坡2|@ripaojiedian
-  - 10|@
-  - 14|RO_speednode_0037
-  - '10|internet_azad_2026🇩🇪 #1'
-  - 14|RU_speednode_0042
-  - 14|CN_speednode_0010
-  - '10|⚡@V2ray_official #6'
-  - '10|⚡@V2ray_official #3'
-  - 14|NN_speednode_0022
-  - 10|@@FreeConffning
-  - 12,13|香港3|@ripaojiedian
-  - 14|NN_speednode_0021
-  - 12|🇭🇰 香港|@ripaojiedian
-  - '10|⚡@V2ray_official #4'
-  - '10|⚡@V2ray_official #1'
-  - 14|RO_speednode_0032
-  - '10|⚡@V2ray_official #5'
-  - 9,10|@KAFING_2
-  - 10|🩵+@Azarakhsh_Proxy+🩷
-  - 14|RO_speednode_0031
-  - 12|tg频道:@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
-  - 14|NN_speednode_0027
-  - 14|NN_speednode_0020
-  - '10|@internet_azad_2026 #8'
-  - 14|HK_speednode_0016
-  - 14|NN_speednode_0029
-  - '10|@KAFING_2 #2'
-  - 12,13|美国2|@ripaojiedian
-  - 14|KR_speednode_0018
-  - 14|US_speednode_0046
-  - 12,13|美国|@ripaojiedian
-  - 14|NN_speednode_0028
-  - 14|CN_speednode_0005
-  - 13|香港|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 10|@internet_azad_2026🇩(1)
   - 12|🇺🇸 美国4|@ripaojiedian
-  - 14|RO_speednode_0036
-  - 14|NN_speednode_0025
-  - 12,13|新加坡3|@ripaojiedian
-  - '10|@internet_azad_2026 #4'
-  - 10|  @vistav2ray  👈ا  ✅
+  - 14|GB_speednode_0013
+  - '10|@vmesskhodam #1'
+  - 9|JP
   - 14|CN_speednode_0009
-  - 14|US_speednode_0045
-  - 14|RU_speednode_0040
-  - 14|RO_speednode_0035
-  - 10|⚡@V2ray_official
-  - 14|NN_speednode_0026
-  - 12,13|美国3|@ripaojiedian
-  - 14|CN_speednode_0006
-  - 14|GB_speednode_0014
-  - 10|@tootffarangi🍓hamrah
-  - 10|@mtproto_proserver
-  - 10|CH-@VPNine1
-  - 14|RU_speednode_0039
-  - 13|美国4|@ripaojiedian
-  - 10|internet_azad_2026
-  - 14|HK_speednode_0017
-  - 14|GB_speednode_0015
-  - 10|internet_azad_2026🇩🇪
-  - 10|@internet_azad_2026🇩🇰(3)
-  - 10| - NL - @FreeOnlineVPN
-  - 12,13|日本2|@ripaojiedian
+  - 9|DE
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|RO_speednode_0032
   - 14|NN_speednode_0030
+  - 10|  @vistav2ray  👈کانال  ✅
+  - 14|CN_speednode_0003
+  - 14|RO_speednode_0031
+  - 14|US_speednode_0047
+  - 14|CN_speednode_0005
+  - 12,13|日本2|@ripaojiedian
+  - 14|NN_speednode_0027
+  - 14|HK_speednode_0016
+  - '10|⚡@V2ray_official #4'
+  - 9|SG
+  - 14|CN_speednode_0004
+  - '10|⚡@V2ray_official #6'
+  - 9|TW
+  - 14|RO_speednode_0034
+  - 14|NN_speednode_0020
+  - 9|1
+  - 13|美国4|@ripaojiedian
+  - 10|internet_azad_2026🇩🇪
+  - 14|NN_speednode_0029
+  - 12,13|香港3|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - 12,13|日本|@ripaojiedian
+  - 14|RU_speednode_0040
+  - 10|⚡@V2ray_official
+  - 9| HK
+  - 14|NN_speednode_0022
+  - 12,13|新加坡3|@ripaojiedian
+  - 10| - NL - @FreeOnlineVPN
+  - 14|NN_speednode_0025
+  - 14|RO_speednode_0033
+  - 12,13|日本3|@ripaojiedian
+  - 14|US_speednode_0046
+  - '10|⚡@V2ray_official #1'
+  - 14|CN_speednode_0007
+  - 10|internet_azad_2026
+  - 9,10|@KAFING_2
+  - 13|香港|@ripaojiedian
+  - 14|US_speednode_0045
+  - 14|HK_speednode_0017
+  - 14|NN_speednode_0021
+  - '10|@internet_azad_2026 #4'
+  - 10|@
+  - '10|@internet_azad_2026 #8'
+  - 9|美国2
+  - 14|RU_speednode_0042
+  - '10|@internet_azad_2026 #11'
+  - 14|US_speednode_0048
+  - 14|DE_speednode_0011
+  - 14|RO_speednode_0035
+  - '10|⚡@V2ray_official #5'
+  - 12,13|美国2|@ripaojiedian
+  - 14|NN_speednode_0023
+  - 14|KR_speednode_0018
+  - 12,13|美国3|@ripaojiedian
+  - 12,13|美国|@ripaojiedian
+  - 14|GB_speednode_0015
+  - 12,13|香港5|@ripaojiedian
+  - 10|@tootffarangi🍓hamrah
+  - '10|⚡@V2ray_official #3'
+  - 10|🩵+@Azarakhsh_Proxy+🩷
+  - '10|@internet_azad_2026 #10'
+  - 14|RU_speednode_0039
+  - 14|RO_speednode_0037
+  - 10|@mtproto_proserver
+  - 14|NN_speednode_0028
+  - 14|RO_speednode_0036
+  - 14|CN_speednode_0008
+  - 14|GB_speednode_0014
+  - '10|@KAFING_2 #2'
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|NN_speednode_0026
+  - 10|@@FreeConffning
+  - '10|⚡@V2ray_official #2'
+  - '10|@internet_azad_2026 #9'
+  - '10|internet_azad_2026🇩🇪 #1'
+  - 12,13|新加坡|@ripaojiedian
+  - '10|@internet_azad_2026 #12'
+  - 14|CN_speednode_0010
+  - 14|RU_speednode_0043
+  - 14|CN_speednode_0006
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -911,12 +983,14 @@ proxy-groups:
   type: select
 - name: 🇯🇵 日本
   proxies:
+  - 9|JP
   - 12,13|日本|@ripaojiedian
   - 12,13|日本2|@ripaojiedian
   - 12,13|日本3|@ripaojiedian
   type: select
 - name: 🇺🇸 美国
   proxies:
+  - 9|美国2
   - 12,13|美国|@ripaojiedian
   - 12,13|美国2|@ripaojiedian
   - 12,13|美国3|@ripaojiedian
@@ -929,7 +1003,7 @@ proxy-groups:
   type: select
 - name: 🇨🇳 台湾
   proxies:
-  - REJECT
+  - 9|TW
   type: select
 - name: 🇨🇳 中国
   proxies:
@@ -944,6 +1018,7 @@ proxy-groups:
   type: select
 - name: 🇭🇰 香港
   proxies:
+  - 9| HK
   - 12|🇭🇰 香港|@ripaojiedian
   - 12,13|香港3|@ripaojiedian
   - 12,13|香港5|@ripaojiedian
@@ -961,6 +1036,7 @@ proxy-groups:
   type: select
 - name: 🇸🇬 新加坡
   proxies:
+  - 9|SG
   - 12,13|新加坡|@ripaojiedian
   - 12,13|新加坡2|@ripaojiedian
   - 12,13|新加坡3|@ripaojiedian
@@ -984,9 +1060,9 @@ proxy-groups:
   type: select
 - name: 🇩🇪 德国
   proxies:
+  - 9|DE
   - 9,10|@KAFING_2
   - 10|internet_azad_2026🇩🇪
-  - '10|@internet_azad_2026🇩🇪 #4'
   - 14|DE_speednode_0011
   type: select
 rules:
