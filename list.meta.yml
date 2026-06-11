@@ -1,4 +1,4 @@
-# Update: 2026-06-11 06:46
+# Update: 2026-06-11 10:35
 allow-lan: false
 dns:
   enable: true
@@ -142,16 +142,6 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: '10|@confiig_hub #2'
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: 8880
-  server: 18.157.222.169
-  skip-cert-verify: false
-  sni: free.masir-sefid.shop
-  tls: false
-  type: hysteria2
 - name: 10|kurdconfig
   obfs: salamander
   obfs-password: Masir_Sefid
@@ -232,6 +222,16 @@ proxies:
   sni: Api.masir-sefid-1.my
   tls: false
   type: hysteria2
+- name: '10|@internet_azad_2026 #5'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 443
+  server: 84.234.28.207
+  skip-cert-verify: false
+  sni: Api.masir-sefid-1.my
+  tls: false
+  type: hysteria2
 - name: 10|@V2ray_official
   obfs: salamander
   obfs-password: ao5xmpi6qiedxrs2
@@ -260,16 +260,6 @@ proxies:
   server: 5.175.249.174
   skip-cert-verify: true
   sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 10|🇩🇪62695 | ️Telegram = t.me/SOS...
-  obfs: salamander
-  obfs-password: ct7igvlhkkvuvyto
-  password: go6a426v10ckcl75
-  port: 37620
-  server: tb.zibayeman.com
-  skip-cert-verify: false
-  sni: tb.zibayeman.com
   tls: false
   type: hysteria2
 - name: 10|https://t.me/@FREE_VPN02
@@ -318,31 +308,31 @@ proxies:
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 2008
-  server: 18.163.193.177
+  server: 43.198.151.48
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 18.163.120.29
+  port: 43747
+  server: 95.40.47.95
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3515
-  server: 43.199.42.178
+  port: 50116
+  server: 95.40.47.95
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 16712
-  server: 43.199.207.202
+  port: 53307
+  server: 52.195.147.173
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -350,7 +340,7 @@ proxies:
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 5701
-  server: 18.163.193.177
+  server: 95.40.109.247
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -358,15 +348,15 @@ proxies:
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 3743
-  server: 18.162.187.222
+  server: 35.79.220.32
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 29642
-  server: 43.198.203.3
+  port: 6357
+  server: 35.79.220.32
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -374,39 +364,39 @@ proxies:
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 48738
-  server: 18.162.124.37
+  server: 95.40.109.247
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 32434
-  server: 18.163.120.29
+  port: 45744
+  server: 95.40.47.95
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|美国|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 49277
-  server: 43.198.203.3
+  port: 17005
+  server: 43.199.62.44
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 17005
-  server: 18.166.223.23
+  port: 49277
+  server: 95.40.109.247
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 18.163.120.29
+  port: 54240
+  server: 16.162.220.245
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -1033,124 +1023,123 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|RO_speednode_0058
-  - 14|US_speednode_0072
-  - 14|RO_speednode_0047
-  - 12,13|美国3|@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - 14|US_speednode_0069
-  - 14|RO_speednode_0029
-  - 14|RO_speednode_0026
-  - 14|RO_speednode_0007
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 14|RO_speednode_0017
-  - 9,10|@KAFING_2
-  - 14|RO_speednode_0033
-  - 10|https://t.me/@FREE_VPN02
-  - 14|RO_speednode_0015
-  - 14|RO_speednode_0030
-  - 10|+@Azarakhsh_Proxy+
-  - 14|US_speednode_0073
-  - 14|RO_speednode_0020
-  - 10|⚫ 18 • @spotfyhits ❤
-  - 10|⚫ 12 • @spotfyhits ❤
-  - 14|RO_speednode_0039
-  - 10|kurdconfig
-  - 14|RO_speednode_0019
-  - '10|@mehrosaboran #2'
-  - 14|RO_speednode_0041
-  - 14|RO_speednode_0056
-  - 10| - NL - @FreeOnlineVPN
-  - 12,13|日本2|@ripaojiedian
-  - 12,13|日本|@ripaojiedian
-  - 14|RO_speednode_0037
-  - 14|RO_speednode_0052
-  - 14|RO_speednode_0043
-  - 14|RO_speednode_0053
-  - 9|SG
-  - '10|@confiig_hub #2'
-  - '10|kurdconfig #1'
-  - 14|RO_speednode_0006
-  - 14|US_speednode_0068
-  - 14|US_speednode_0074
-  - '10|@KAFING_2 #2'
-  - 10|🇩🇪62695 | ️Telegram = t.me/SOS...
-  - 14|RO_speednode_0032
-  - 14|US_speednode_0067
-  - 9|TW
-  - 9|JP
-  - 14|RO_speednode_0008
-  - 12|tg频道:@ripaojiedian
-  - 14|RO_speednode_0036
-  - 14|RO_speednode_0051
-  - 14|US_speednode_0071
-  - 14|RO_speednode_0012
-  - 12,13|香港3|@ripaojiedian
-  - 14|US_speednode_0070
-  - 14|RO_speednode_0035
-  - 14|RO_speednode_0060
-  - 14|RO_speednode_0061
-  - 12,13|新加坡2|@ripaojiedian
-  - 14|RO_speednode_0045
-  - '10| 19  @spotfyhits '
   - 12,13|日本3|@ripaojiedian
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 14|RO_speednode_0021
-  - 14|RO_speednode_0009
-  - 14|RO_speednode_0011
-  - 14|RO_speednode_0042
-  - 10|@mehrosaboran
-  - 14|KR_speednode_0004
-  - 14|RU_speednode_0062
-  - 14|RO_speednode_0044
-  - 14|RO_speednode_0016
-  - 12,13|香港4|@ripaojiedian
-  - 10|17@oneclickvpnkeys
-  - 14|US_speednode_0066
-  - 14|RO_speednode_0055
-  - 14|RO_speednode_0050
-  - 14|RO_speednode_0040
-  - 10|@V2ray_official
-  - 14|RO_speednode_0013
-  - 14|RO_speednode_0023
-  - 14|RO_speednode_0027
-  - 14|US_speednode_0075
-  - 14|RO_speednode_0022
-  - 14|RO_speednode_0014
-  - '10|kurdconfig #2'
-  - 14|RO_speednode_0048
-  - 14|RO_speednode_0059
-  - '10|kurdconfig #6'
-  - 12,13|美国|@ripaojiedian
-  - 12,13|美国2|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|RO_speednode_0046
-  - 9|1
-  - 9| HK
-  - 14|HK_speednode_0002
-  - 9|DE
-  - 10|https://t.me/FREE_VPN02
-  - 14|RO_speednode_0010
-  - 14|RO_speednode_0057
-  - 14|RO_speednode_0024
-  - 14|RO_speednode_0049
-  - 12,13|香港5|@ripaojiedian
-  - 13|美国4|@ripaojiedian
-  - 10|https://t.me/AarazV2ray
-  - '10|kurdconfig #5'
+  - 14|RO_speednode_0047
   - '10|@mehrosaboran #1'
-  - 14|RO_speednode_0028
-  - 14|RO_speednode_0025
-  - 14|NL_speednode_0005
-  - 14|RO_speednode_0018
-  - 14|RO_speednode_0034
-  - 14|RO_speednode_0038
-  - 14|RO_speednode_0031
+  - 14|RO_speednode_0019
+  - 9|TW
+  - 10|⚫ 12 • @spotfyhits ❤
+  - 12,13|日本2|@ripaojiedian
+  - 14|RO_speednode_0029
+  - 14|RO_speednode_0035
+  - 14|RO_speednode_0045
+  - 14|US_speednode_0074
   - 14|RO_speednode_0054
-  - 14|ID_speednode_0003
-  - 9|美国2
-  - '10|kurdconfig #3'
+  - 13|香港|@ripaojiedian
+  - 14|RO_speednode_0037
+  - 12|🇺🇸 美国4|@ripaojiedian
+  - 14|RO_speednode_0008
+  - 14|RO_speednode_0033
+  - 12,13|香港5|@ripaojiedian
+  - 14|RO_speednode_0055
+  - 14|RO_speednode_0059
+  - 14|RO_speednode_0060
+  - 9|DE
+  - '10|kurdconfig #2'
+  - 10|https://t.me/@FREE_VPN02
   - 12,13|新加坡|@ripaojiedian
+  - 14|US_speednode_0073
+  - 14|RO_speednode_0048
+  - 14|RO_speednode_0043
+  - 10|@V2ray_official
+  - 14|RO_speednode_0044
+  - 14|RO_speednode_0011
+  - 14|RO_speednode_0023
+  - 14|RO_speednode_0009
+  - 14|RO_speednode_0034
+  - 14|RO_speednode_0020
+  - 12,13|新加坡3|@ripaojiedian
+  - '10|kurdconfig #6'
+  - 14|RO_speednode_0017
+  - 14|RO_speednode_0046
+  - 10|@mehrosaboran
+  - 14|HK_speednode_0002
+  - 14|RO_speednode_0030
+  - 14|RO_speednode_0052
+  - 10|https://t.me/AarazV2ray
+  - 14|RO_speednode_0042
+  - 10| - NL - @FreeOnlineVPN
+  - 13|美国4|@ripaojiedian
+  - 14|RO_speednode_0016
+  - 14|US_speednode_0070
+  - 9|SG
+  - '10| 19  @spotfyhits '
+  - 14|RO_speednode_0028
+  - 9,10|@KAFING_2
+  - 14|RO_speednode_0051
+  - 14|RO_speednode_0057
+  - 9|1
+  - 14|RO_speednode_0006
+  - 14|RO_speednode_0058
+  - 14|RO_speednode_0014
+  - 10|+@Azarakhsh_Proxy+
+  - 10|17@oneclickvpnkeys
+  - 14|RO_speednode_0010
+  - 14|RO_speednode_0039
+  - 12,13|美国2|@ripaojiedian
+  - 14|RO_speednode_0061
+  - 9|美国2
+  - 14|RO_speednode_0012
+  - '10|kurdconfig #5'
+  - 14|RO_speednode_0041
+  - 14|RO_speednode_0015
+  - '10|@internet_azad_2026 #5'
+  - 14|US_speednode_0071
+  - 14|KR_speednode_0004
+  - 14|RO_speednode_0026
+  - 14|RO_speednode_0024
+  - 12,13|香港3|@ripaojiedian
+  - 14|RO_speednode_0027
+  - 12,13|香港4|@ripaojiedian
+  - 14|RO_speednode_0007
+  - 14|RO_speednode_0056
+  - 14|RO_speednode_0036
+  - 14|RO_speednode_0025
+  - 14|RO_speednode_0018
+  - 12|tg频道:@ripaojiedian
+  - 14|RO_speednode_0049
+  - '10|kurdconfig #1'
+  - 14|RU_speednode_0062
+  - 14|NL_speednode_0005
+  - 14|US_speednode_0067
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|US_speednode_0069
+  - 12,13|美国|@ripaojiedian
+  - 9| HK
+  - '10|kurdconfig #3'
+  - 14|RO_speednode_0050
+  - 14|RO_speednode_0022
+  - 10|https://t.me/FREE_VPN02
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|RO_speednode_0053
+  - 9|JP
+  - '10|@KAFING_2 #2'
+  - 12,13|美国3|@ripaojiedian
+  - 14|RO_speednode_0013
+  - 14|US_speednode_0066
+  - 14|US_speednode_0068
+  - 10|⚫ 18 • @spotfyhits ❤
+  - 14|US_speednode_0072
+  - 12,13|日本|@ripaojiedian
+  - 14|US_speednode_0075
+  - '10|@mehrosaboran #2'
+  - 14|RO_speednode_0032
+  - 14|ID_speednode_0003
+  - 14|RO_speednode_0031
+  - 14|RO_speednode_0021
+  - 10|kurdconfig
+  - 14|RO_speednode_0040
+  - 14|RO_speednode_0038
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1279,7 +1268,6 @@ proxy-groups:
   proxies:
   - 9|DE
   - 9,10|@KAFING_2
-  - 10|🇩🇪62695 | ️Telegram = t.me/SOS...
   type: select
 rules:
 - MATCH,DIRECT
