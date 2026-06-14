@@ -71,6 +71,20 @@ proxies:
   sni: de1.xiaoliyu.cyou
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: 10|69428 | Telegram = t.me/SOSkey...
+  obfs: salamander
+  obfs-password: sjkdtjyv7gnxhg9f
+  password: 90h5qo8tmd4xg6a9
+  port: 37030
+  server: tr.iranfastspeed.com.tr
+  skip-cert-verify: true
+  sni: 77.83.245.253
+  tls: false
+  type: hysteria2
 - name: 10|+@Azarakhsh_Proxy+
   obfs: salamander
   obfs-password: KevinZakarian
@@ -81,7 +95,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: '10|@prrofile_purple   '
+- name: '10|@prrofile_purple  ️ '
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -139,16 +153,6 @@ proxies:
   server: 37.156.46.29
   skip-cert-verify: false
   sni: api.masir-sefid-1.my
-  tls: false
-  type: hysteria2
-- name: '10|@internet_azad_2026 #1'
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: 443
-  server: 84.234.29.238
-  skip-cert-verify: false
-  sni: Api.masir-sefid-1.my
   tls: false
   type: hysteria2
 - name: 10| - NL - @FreeOnlineVPN
