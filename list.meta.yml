@@ -1,4 +1,4 @@
-# Update: 2026-06-16 16:37
+# Update: 2026-06-16 21:21
 allow-lan: false
 dns:
   enable: true
@@ -82,6 +82,16 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: 10|🇩🇪73619 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: hg26zdlxvw7bj6pd
+  password: 0djglvgv7lh45uz9
+  port: 32254
+  server: 91.107.137.0
+  skip-cert-verify: false
+  sni: saeed.saeedposivip.ir
+  tls: false
+  type: hysteria2
 - name: 10|  @vistav2ray  👈👈اا  ✅
   obfs: salamander
   obfs-password: EsimObfs_9mK2x7
@@ -102,7 +112,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: '10|@prrofile_purple  ♥️👈 تلگرام #1'
+- name: 10|@prrofile_purple  ♥️👈 تلگرام
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -112,7 +122,7 @@ proxies:
   sni: Api1.masir-sefid-1.my
   tls: false
   type: hysteria2
-- name: '10|@prrofile_purple  ♥️👈 تلگرام #2'
+- name: '10|@prrofile_purple  ♥️👈 تلگرام #1'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -132,7 +142,7 @@ proxies:
   sni: Api1.masir-sefid-1.my
   tls: false
   type: hysteria2
-- name: '10|@prrofile_purple  ♥️👈 تلگرام #3'
+- name: '10|@prrofile_purple  ♥️👈 تلگرام #2'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -172,15 +182,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 10|64@oneclickvpnkeys
-  password: dongtaiwang.com
-  port: 22000
-  server: 62.210.10.108
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: 10|73309 | ️Telegram = t.me/SOSke...
+- name: 10|️️@ATLAS_V2VPN️️405️
   obfs: salamander
   obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
   password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
@@ -195,7 +197,7 @@ proxies:
   - h2
   - http/1.1
   fingerprint: chrome
-  name: '10|  𝗻  '
+  name: '10|🇩🇪  𝗻  '
   obfs: salamander
   obfs-password: 8s7t1sNDH36vU8_Ixd7MckIY
   password: zZlPDO5jYeaE9rYtNnjlBI0igvbIdjRX
@@ -212,14 +214,6 @@ proxies:
   server: endpoint.neoservers.ir
   skip-cert-verify: false
   sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: 10|⏰47@oneclickvpnkeys
-  password: zhangyang
-  port: 6443
-  server: 130.61.50.75
-  skip-cert-verify: true
-  sni: dash.cloudflare.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -777,96 +771,95 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|RO_speednode_0039
-  - 14|RO_speednode_0041
-  - 9,10|@KAFING_2
-  - 14|RO_speednode_0015
   - 14|RO_speednode_0045
-  - 10|MiX--@V2rayAlpha--20
-  - 13|美国4|@ripaojiedian
-  - 14|US_speednode_0050
-  - 10|64@oneclickvpnkeys
-  - '10| 19  @spotfyhits '
-  - 14|RO_speednode_0034
-  - 12|tg频道:@ripaojiedian
-  - 14|RO_speednode_0044
-  - '10|@prrofile_purple  ♥️👈 تلگرام #2'
-  - 14|RO_speednode_0033
-  - 14|RO_speednode_0036
-  - 14|KR_speednode_0003
-  - 12,13|香港3|@ripaojiedian
-  - 12,13|美国|@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - 14|RO_speednode_0011
-  - '10|@prrofile_purple  ♥️👈 تلگرام #3'
-  - 12,13|香港5|@ripaojiedian
-  - 10| - NL - @FreeOnlineVPN
-  - 9|SG
-  - 14|RO_speednode_0007
-  - 10|⚫ 18 • @spotfyhits ❤
-  - '10|  𝗻  '
-  - 12,13|日本3|@ripaojiedian
-  - 14|LB_speednode_0004
-  - 12,13|新加坡|@ripaojiedian
-  - 14|RO_speednode_0019
-  - 14|RO_speednode_0020
-  - 12,13|日本2|@ripaojiedian
-  - 14|RO_speednode_0018
-  - 14|RO_speednode_0047
-  - 12,13|美国2|@ripaojiedian
-  - 14|RO_speednode_0024
-  - 14|RO_speednode_0017
-  - 14|RO_speednode_0043
-  - 14|RO_speednode_0027
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|RO_speednode_0025
-  - 14|GB_speednode_0002
-  - 10|  @vistav2ray  👈👈اا  ✅
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 14|RO_speednode_0046
-  - 9|DE
-  - 14|RO_speednode_0021
-  - '10|@prrofile_purple  ♥️👈 تلگرام #1'
-  - 9|1
-  - 14|DE_speednode_0001
-  - 10|⏰47@oneclickvpnkeys
-  - 14|NL_speednode_0005
-  - 9|美国2
-  - 12,13|香港4|@ripaojiedian
-  - 14|RO_speednode_0042
-  - '10|@KAFING_2 #2'
-  - 14|RO_speednode_0009
-  - 10|73309 | ️Telegram = t.me/SOSke...
-  - 14|RO_speednode_0008
-  - 12,13|新加坡2|@ripaojiedian
-  - 12,13|日本|@ripaojiedian
-  - 14|RO_speednode_0040
-  - 14|US_speednode_0051
-  - 14|RO_speednode_0023
-  - 14|RO_speednode_0006
-  - 14|RO_speednode_0026
-  - 14|RO_speednode_0012
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 9| HK
-  - 14|RO_speednode_0016
-  - 14|RO_speednode_0031
-  - 14|RO_speednode_0035
   - 14|US_speednode_0049
-  - 14|RO_speednode_0032
-  - 14|RO_speednode_0029
   - 14|RO_speednode_0037
-  - 14|US_speednode_0052
-  - 9|JP
-  - 14|RO_speednode_0038
-  - 10|+@Azarakhsh_Proxy+
-  - 14|RO_speednode_0010
-  - 14|RO_speednode_0028
-  - 14|RO_speednode_0014
-  - 12,13|美国3|@ripaojiedian
-  - 14|RO_speednode_0013
-  - 14|RO_speednode_0030
-  - 9|TW
+  - 14|RO_speednode_0023
   - 14|RO_speednode_0022
+  - 9|1
+  - 9| HK
+  - 14|KR_speednode_0003
+  - 14|RO_speednode_0013
+  - 10|️️@ATLAS_V2VPN️️405️
+  - 14|RO_speednode_0047
+  - 14|RO_speednode_0014
+  - 12,13|新加坡3|@ripaojiedian
+  - '10|🇩🇪  𝗻  '
+  - 12,13|日本3|@ripaojiedian
+  - 12,13|美国2|@ripaojiedian
+  - '10| 19  @spotfyhits '
+  - 10|⚫ 18 • @spotfyhits ❤
+  - 14|RO_speednode_0035
+  - '10|@prrofile_purple  ♥️👈 تلگرام #2'
+  - 10|🇩🇪73619 | ⚡️Telegram = t.me/SO...
+  - 14|DE_speednode_0001
+  - 14|RO_speednode_0024
+  - 14|RO_speednode_0016
+  - 10|  @vistav2ray  👈👈اا  ✅
+  - 12|tg频道:@ripaojiedian
+  - 14|GB_speednode_0002
+  - 14|RO_speednode_0039
+  - 12,13|香港5|@ripaojiedian
+  - 12,13|香港3|@ripaojiedian
+  - 12,13|日本|@ripaojiedian
+  - 12,13|日本2|@ripaojiedian
+  - 12,13|美国|@ripaojiedian
+  - 14|RO_speednode_0017
+  - 14|US_speednode_0050
+  - '10|@KAFING_2 #2'
+  - 14|RO_speednode_0046
+  - 14|RO_speednode_0029
+  - 9|JP
+  - 10|+@Azarakhsh_Proxy+
+  - 14|RO_speednode_0028
+  - 14|RO_speednode_0031
+  - 9|SG
+  - 14|RO_speednode_0010
+  - 9,10|@KAFING_2
+  - 14|RO_speednode_0026
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|RO_speednode_0025
+  - 14|RO_speednode_0036
+  - 10|@prrofile_purple  ♥️👈 تلگرام
+  - 14|RO_speednode_0043
+  - 10| - NL - @FreeOnlineVPN
+  - 14|RO_speednode_0006
+  - 14|RO_speednode_0040
+  - 13|香港|@ripaojiedian
+  - 14|US_speednode_0052
+  - 14|RO_speednode_0011
+  - 14|RO_speednode_0030
+  - 13|美国4|@ripaojiedian
+  - 14|RO_speednode_0020
+  - 14|US_speednode_0051
+  - 14|RO_speednode_0041
+  - 14|RO_speednode_0015
+  - 12,13|香港4|@ripaojiedian
+  - 14|RO_speednode_0044
+  - 14|RO_speednode_0007
+  - 9|DE
+  - 9|美国2
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|RO_speednode_0027
+  - 14|RO_speednode_0019
+  - 14|RO_speednode_0034
+  - 9|TW
+  - 12|🇺🇸 美国4|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 14|RO_speednode_0009
+  - '10|@prrofile_purple  ♥️👈 تلگرام #1'
+  - 14|NL_speednode_0005
+  - 14|RO_speednode_0033
+  - 14|RO_speednode_0012
+  - 14|RO_speednode_0042
+  - 10|MiX--@V2rayAlpha--20
+  - 12,13|新加坡|@ripaojiedian
+  - 14|RO_speednode_0008
+  - 14|RO_speednode_0021
+  - 14|LB_speednode_0004
+  - 14|RO_speednode_0018
+  - 14|RO_speednode_0032
+  - 14|RO_speednode_0038
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -988,6 +981,8 @@ proxy-groups:
   proxies:
   - 9|DE
   - 9,10|@KAFING_2
+  - 10|🇩🇪73619 | ⚡️Telegram = t.me/SO...
+  - '10|🇩🇪  𝗻  '
   - 14|DE_speednode_0001
   type: select
 rules:
