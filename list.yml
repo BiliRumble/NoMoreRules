@@ -1,4 +1,4 @@
-# Update: 2026-06-17 20:43
+# Update: 2026-06-18 01:43
 allow-lan: false
 dns:
   enable: true
@@ -139,14 +139,45 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 14|DE_speednode_0001
-  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
-  port: 9443
-  server: de-1.hysteria.ltd
+- name: 14|KR_speednode_0004
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 129.154.50.159
   skip-cert-verify: false
-  sni: de-1.hysteria.ltd
+  sni: tjsp.hhxaf.cc.cd
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
+- name: 14|US_speednode_0069
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 154.17.28.152
+  skip-cert-verify: false
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+    path: /
+- name: 14|US_speednode_0070
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 69.63.223.42
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -158,22 +189,24 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12,13|美国3|@ripaojiedian
-  - 12,13|香港5|@ripaojiedian
-  - 12,13|日本|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
   - 12,13|新加坡2|@ripaojiedian
   - 13|香港|@ripaojiedian
-  - 12,13|美国|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
-  - 12,13|香港3|@ripaojiedian
-  - 12|tg频道:@ripaojiedian
+  - 14|US_speednode_0069
+  - 14|US_speednode_0070
+  - 14|KR_speednode_0004
+  - 12,13|美国3|@ripaojiedian
+  - 12,13|新加坡|@ripaojiedian
   - 12,13|日本3|@ripaojiedian
   - 12,13|日本2|@ripaojiedian
+  - 12,13|新加坡3|@ripaojiedian
   - 12,13|美国2|@ripaojiedian
+  - 12,13|香港5|@ripaojiedian
   - 12|🇭🇰 香港|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
-  - 14|DE_speednode_0001
+  - 12,13|美国|@ripaojiedian
+  - 12,13|香港3|@ripaojiedian
+  - 12,13|日本|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
