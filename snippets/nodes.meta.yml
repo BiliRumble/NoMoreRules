@@ -70,14 +70,6 @@ proxies:
   sni: de1.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: 10|75675 | ⚡️Telegram = t.me/SOSk...
-  password: 940f51d6-e0a4-4add-b96b-328e4a84b642
-  port: 51000
-  server: 140.245.27.220
-  skip-cert-verify: true
-  sni: cn.cremedelamer.com
-  tls: false
-  type: hysteria2
 - name: 10|@V2RayyNGvpn🇹🇷⚡
   obfs: salamander
   obfs-password: V2RayyNGvpn$miracle$krouky
@@ -158,25 +150,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 10|75666 | ⚡️Telegram = t.me/SOSk...
-  password: d1db0080-669a-4357-ab9f-ab16719ed736
-  port: 51000
-  server: 192.9.165.40
-  skip-cert-verify: true
-  sni: cn.cremedelamer.com
-  tls: false
-  type: hysteria2
-- name: 10|@GozargahAzad|🇺
-  obfs: salamander
-  obfs-password: '@JynMarket'
-  password: odnvqb4ihg396e5z
-  port: 37025
-  server: 104.252.19.102
-  skip-cert-verify: false
-  sni: ''
-  tls: false
-  type: hysteria2
-- name: 10|🇺🇸75820 | ⚡️Telegram = t.me/SO...
+- name: 10|75820 | ⚡️Telegram = t.me/SOSk...
   obfs: salamander
   obfs-password: '@JynMarket'
   password: odnvqb4ihg396e5z
@@ -196,14 +170,16 @@ proxies:
   sni: 104.252.19.102
   tls: false
   type: hysteria2
-- name: 10|@GozargahAzad|🇺🇸
+- alpn:
+  - h3
+  name: 10|@Vpn_jet7
   obfs: salamander
   obfs-password: '@JynMarket'
   password: odnvqb4ihg396e5z
   port: 54040
   server: 104.252.19.102
   skip-cert-verify: false
-  sni: ''
+  sni: 104.252.19.102
   tls: false
   type: hysteria2
 - name: 10|🇺🇸75819 | ⚡️Telegram = t.me/SO...
@@ -241,16 +217,6 @@ proxies:
   server: 80.66.81.78
   skip-cert-verify: false
   sni: tunel1.washing.help
-  tls: false
-  type: hysteria2
-- name: '10|@filembad #3'
-  obfs: salamander
-  obfs-password: FxZylbqClUqVqAs2nezW9kPyFb2edZ2
-  password: rstnnl2705
-  port: 443
-  server: reddeadfan.rd-team.ru
-  skip-cert-verify: true
-  sni: reddeadfan.rd-team.ru
   tls: false
   type: hysteria2
 - alpn:

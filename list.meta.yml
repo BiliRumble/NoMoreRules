@@ -1,4 +1,4 @@
-# Update: 2026-06-18 01:43
+# Update: 2026-06-18 03:56
 allow-lan: false
 dns:
   enable: true
@@ -89,14 +89,6 @@ proxies:
   sni: de1.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: 10|75675 | ⚡️Telegram = t.me/SOSk...
-  password: 940f51d6-e0a4-4add-b96b-328e4a84b642
-  port: 51000
-  server: 140.245.27.220
-  skip-cert-verify: true
-  sni: cn.cremedelamer.com
-  tls: false
-  type: hysteria2
 - name: 10|@V2RayyNGvpn🇹🇷⚡
   obfs: salamander
   obfs-password: V2RayyNGvpn$miracle$krouky
@@ -177,25 +169,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 10|75666 | ⚡️Telegram = t.me/SOSk...
-  password: d1db0080-669a-4357-ab9f-ab16719ed736
-  port: 51000
-  server: 192.9.165.40
-  skip-cert-verify: true
-  sni: cn.cremedelamer.com
-  tls: false
-  type: hysteria2
-- name: 10|@GozargahAzad|🇺
-  obfs: salamander
-  obfs-password: '@JynMarket'
-  password: odnvqb4ihg396e5z
-  port: 37025
-  server: 104.252.19.102
-  skip-cert-verify: false
-  sni: ''
-  tls: false
-  type: hysteria2
-- name: 10|🇺🇸75820 | ⚡️Telegram = t.me/SO...
+- name: 10|75820 | ⚡️Telegram = t.me/SOSk...
   obfs: salamander
   obfs-password: '@JynMarket'
   password: odnvqb4ihg396e5z
@@ -215,14 +189,16 @@ proxies:
   sni: 104.252.19.102
   tls: false
   type: hysteria2
-- name: 10|@GozargahAzad|🇺🇸
+- alpn:
+  - h3
+  name: 10|@Vpn_jet7
   obfs: salamander
   obfs-password: '@JynMarket'
   password: odnvqb4ihg396e5z
   port: 54040
   server: 104.252.19.102
   skip-cert-verify: false
-  sni: ''
+  sni: 104.252.19.102
   tls: false
   type: hysteria2
 - name: 10|🇺🇸75819 | ⚡️Telegram = t.me/SO...
@@ -260,16 +236,6 @@ proxies:
   server: 80.66.81.78
   skip-cert-verify: false
   sni: tunel1.washing.help
-  tls: false
-  type: hysteria2
-- name: '10|@filembad #3'
-  obfs: salamander
-  obfs-password: FxZylbqClUqVqAs2nezW9kPyFb2edZ2
-  password: rstnnl2705
-  port: 443
-  server: reddeadfan.rd-team.ru
-  skip-cert-verify: true
-  sni: reddeadfan.rd-team.ru
   tls: false
   type: hysteria2
 - alpn:
@@ -1086,124 +1052,120 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 9|1
-  - 14|RO_speednode_0035
-  - 14|RO_speednode_0024
-  - 12,13|新加坡|@ripaojiedian
-  - 12,13|香港5|@ripaojiedian
-  - 14|TW_speednode_0068
-  - 14|SC_speednode_0054
-  - 10|️46@oneclickvpnkeys
-  - 14|RO_speednode_0025
-  - 14|NL_speednode_0018
-  - 14|US_speednode_0069
-  - 14|NL_speednode_0009
-  - 14|RO_speednode_0029
-  - '10|@KAFING_2 #2'
-  - 14|RO_speednode_0028
-  - 14|NL_speednode_0017
-  - 14|TR_speednode_0063
-  - 10|@GozargahAzad|🇺🇸
-  - 10|🇳🇱@FreakConfig
-  - 9|美国2
-  - 14|RO_speednode_0046
-  - 14|RO_speednode_0037
-  - 14|SE_speednode_0060
-  - 14|NL_speednode_0007
-  - 14|TW_speednode_0067
-  - 14|US_speednode_0072
-  - 14|RO_speednode_0030
-  - 12,13|日本3|@ripaojiedian
-  - 14|RO_speednode_0026
-  - 10|@V2RayyNGvpn🇹🇷⚡
-  - 14|KR_speednode_0003
-  - 14|NL_speednode_0005
-  - 14|TR_speednode_0064
-  - 14|TR_speednode_0065
-  - 14|NL_speednode_0012
-  - 9,10|@KAFING_2
-  - 14|RO_speednode_0034
-  - 14|RO_speednode_0044
-  - 14|TR_speednode_0062
-  - 14|NL_speednode_0019
-  - 14|NL_speednode_0016
-  - '10|@prrofile_purple  ♥️👈 تلگرام #2'
-  - 14|RO_speednode_0050
-  - 14|RO_speednode_0032
-  - 14|RO_speednode_0041
-  - 9|DE
-  - 9|SG
-  - 14|US_speednode_0073
-  - 14|RO_speednode_0039
-  - 10|️47@oneclickvpnkeys
-  - 9|JP
-  - 14|RO_speednode_0023
-  - 14|NL_speednode_0010
-  - 14|SE_speednode_0061
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|RO_speednode_0042
-  - 14|RO_speednode_0051
-  - 14|NL_speednode_0011
-  - 12|tg频道:@ripaojiedian
-  - 10|  @vistav2ray  👈👈اا  ✅
-  - 10|MiX--@V2rayAlpha--20
   - 14|RO_speednode_0049
-  - 10|🇺🇸75821 | ⚡️Telegram = t.me/SO...
-  - 12,13|美国3|@ripaojiedian
-  - 12,13|日本2|@ripaojiedian
-  - 14|US_speednode_0071
-  - 14|TR_speednode_0066
-  - 9|TW
-  - 14|US_speednode_0070
-  - 14|SE_speednode_0056
-  - 14|NL_speednode_0020
-  - 14|NL_speednode_0006
-  - 10|✅  @vistav2ray  👈👈کانال ما ✅
-  - '10|@filembad #3'
-  - 14|SE_speednode_0055
-  - 12,13|香港4|@ripaojiedian
-  - 10|+@Azarakhsh_Proxy+
-  - 13|香港|@ripaojiedian
-  - 14|RO_speednode_0053
-  - 10|75666 | ⚡️Telegram = t.me/SOSk...
-  - 14|NL_speednode_0022
-  - 14|RO_speednode_0027
-  - 12,13|香港3|@ripaojiedian
-  - 12,13|美国|@ripaojiedian
-  - 14|RO_speednode_0047
-  - 14|RO_speednode_0038
-  - 14|RO_speednode_0033
-  - 14|NL_speednode_0013
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 14|RO_speednode_0048
-  - 12,13|日本|@ripaojiedian
-  - 10|@GozargahAzad|🇺
-  - 14|RO_speednode_0031
-  - 10|🇺🇸75819 | ⚡️Telegram = t.me/SO...
-  - 14|RO_speednode_0036
-  - 14|KR_speednode_0004
-  - 12,13|美国2|@ripaojiedian
-  - 14|SE_speednode_0059
-  - 14|RO_speednode_0040
-  - '10|🇩🇪  𝗻  '
-  - 14|NL_speednode_0021
-  - 14|RO_speednode_0045
-  - 9| HK
-  - 10|@prrofile_purple  ♥️👈 تلگرام
   - 14|SE_speednode_0058
+  - 14|RO_speednode_0025
+  - '10|@prrofile_purple  ♥️👈 تلگرام #2'
+  - 14|TW_speednode_0067
+  - 14|RO_speednode_0024
+  - 10|  @vistav2ray  👈👈اا  ✅
+  - '10|@prrofile_purple  ♥️👈 تلگرام #1'
+  - 10|+@Azarakhsh_Proxy+
+  - 14|NL_speednode_0011
+  - 14|RO_speednode_0048
+  - 9|JP
   - 14|RO_speednode_0043
   - 14|RO_speednode_0052
-  - 14|NL_speednode_0015
+  - 14|RO_speednode_0035
+  - 14|US_speednode_0073
+  - 14|TR_speednode_0062
+  - 14|NL_speednode_0017
+  - 10|️46@oneclickvpnkeys
+  - 9|1
   - 12,13|新加坡2|@ripaojiedian
-  - 14|SE_speednode_0057
-  - 10|🇺🇸75820 | ⚡️Telegram = t.me/SO...
-  - 14|NL_speednode_0014
+  - 14|NL_speednode_0018
+  - 14|NL_speednode_0019
+  - 14|RO_speednode_0038
+  - 14|RO_speednode_0036
+  - 14|US_speednode_0072
+  - 14|NL_speednode_0022
+  - 14|SE_speednode_0060
+  - 14|RO_speednode_0051
+  - 14|NL_speednode_0012
   - 14|NL_speednode_0008
-  - 10|75675 | ⚡️Telegram = t.me/SOSk...
-  - 10| - NL - @FreeOnlineVPN
+  - 14|RO_speednode_0037
+  - 10|✅  @vistav2ray  👈👈کانال ما ✅
+  - 14|RO_speednode_0030
+  - 14|TW_speednode_0068
+  - 12,13|香港5|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 14|RO_speednode_0040
+  - 14|SE_speednode_0055
+  - 10|MiX--@V2rayAlpha--20
+  - 10|🇺🇸75821 | ⚡️Telegram = t.me/SO...
+  - 14|SE_speednode_0057
+  - 14|RO_speednode_0047
+  - 14|US_speednode_0069
+  - 10|75820 | ⚡️Telegram = t.me/SOSk...
+  - 10|️47@oneclickvpnkeys
+  - 12,13|新加坡|@ripaojiedian
+  - 14|TR_speednode_0064
+  - 14|TR_speednode_0065
+  - 14|NL_speednode_0014
+  - 14|US_speednode_0070
   - 14|HK_speednode_0002
+  - 14|RO_speednode_0046
+  - 14|RO_speednode_0039
+  - 9| HK
+  - 13|香港|@ripaojiedian
+  - 14|KR_speednode_0003
+  - 14|NL_speednode_0007
+  - 14|NL_speednode_0010
+  - 12,13|日本2|@ripaojiedian
+  - 14|RO_speednode_0053
+  - 9,10|@KAFING_2
+  - 12,13|香港3|@ripaojiedian
+  - 14|RO_speednode_0033
+  - 14|RO_speednode_0023
+  - 9|美国2
+  - 9|SG
+  - 14|RO_speednode_0031
+  - 14|TR_speednode_0066
+  - 12,13|日本|@ripaojiedian
+  - 14|RO_speednode_0042
+  - 14|RO_speednode_0026
+  - 10|@V2RayyNGvpn🇹🇷⚡
+  - 14|NL_speednode_0021
+  - 14|NL_speednode_0015
+  - 14|NL_speednode_0006
+  - 14|NL_speednode_0013
+  - 14|TR_speednode_0063
+  - 10|🇳🇱@FreakConfig
+  - 14|SE_speednode_0061
+  - 9|TW
+  - 10| - NL - @FreeOnlineVPN
+  - 14|NL_speednode_0020
   - 14|DK_speednode_0001
-  - '10|@prrofile_purple  ♥️👈 تلگرام #1'
+  - 9|DE
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|RO_speednode_0050
+  - '10|🇩🇪  𝗻  '
+  - 10|@Vpn_jet7
+  - 14|NL_speednode_0005
+  - 14|NL_speednode_0009
+  - 14|KR_speednode_0004
+  - 14|RO_speednode_0028
+  - 14|RO_speednode_0044
+  - 14|SE_speednode_0059
+  - 14|RO_speednode_0032
+  - 12,13|美国2|@ripaojiedian
+  - 10|🇺🇸75819 | ⚡️Telegram = t.me/SO...
+  - 12,13|日本3|@ripaojiedian
+  - 14|SE_speednode_0056
+  - 12,13|美国|@ripaojiedian
+  - 14|NL_speednode_0016
+  - 14|SC_speednode_0054
+  - 10|@prrofile_purple  ♥️👈 تلگرام
+  - 14|RO_speednode_0045
+  - 14|RO_speednode_0029
+  - 14|US_speednode_0071
+  - 14|RO_speednode_0041
+  - 12,13|美国3|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - '10|@KAFING_2 #2'
+  - 12,13|新加坡3|@ripaojiedian
+  - 14|RO_speednode_0027
+  - 14|RO_speednode_0034
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1267,7 +1229,8 @@ proxy-groups:
 - name: 🇺🇸 美国
   proxies:
   - 9|美国2
-  - 10|@GozargahAzad|🇺🇸
+  - 10|🇺🇸75821 | ⚡️Telegram = t.me/SO...
+  - 10|🇺🇸75819 | ⚡️Telegram = t.me/SO...
   - 12,13|美国|@ripaojiedian
   - 12,13|美国2|@ripaojiedian
   - 12,13|美国3|@ripaojiedian
