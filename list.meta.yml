@@ -1,4 +1,4 @@
-# Update: 2026-06-20 19:06
+# Update: 2026-06-20 21:24
 allow-lan: false
 dns:
   enable: true
@@ -89,14 +89,6 @@ proxies:
   sni: de1.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: 10|✈️30@oneclickvpnkeys
-  password: 940f51d6-e0a4-4add-b96b-328e4a84b642
-  port: 51000
-  server: 140.245.27.220
-  skip-cert-verify: true
-  sni: cn.cremedelamer.com
-  tls: false
-  type: hysteria2
 - name: '10|@prrofile_purple  ️ '
   obfs: salamander
   obfs-password: EsimObfs_9mK2x7
@@ -157,7 +149,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 10|✈️17@oneclickvpnkeys
+- name: 10|✈️17@NetFlowTools
   password: be7441a663ef465566e3a6e441a16357
   port: 7443
   server: 188.225.80.130
@@ -165,7 +157,7 @@ proxies:
   sni: tw-vds.t1n2.com
   tls: false
   type: hysteria2
-- name: 10|✈️25@oneclickvpnkeys
+- name: 10|✈️25@NetFlowTools
   password: c6b2924e-a913-4864-a910-b446b9841b4b
   port: 443
   server: connect-ger2.gadmap.online
@@ -191,14 +183,14 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: 10|✈️5@oneclickvpnkeys
+- name: 10|✈️5@NetFlowTools
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 3.66.236.81
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 10|✈️11@oneclickvpnkeys
+- name: 10|✈️11@NetFlowTools
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 3.79.47.137
@@ -220,6 +212,16 @@ proxies:
   server: 80.66.81.78
   skip-cert-verify: false
   sni: tunel1.washing.help
+  tls: false
+  type: hysteria2
+- name: 10|🇱@V2RayyNGvpn🇱
+  obfs: salamander
+  obfs-password: T$me$V2RayyNGvpn@V2RayyNGvpn
+  password: wundefinedg2dqmQqM
+  port: 443
+  server: 82.47.63.181
+  skip-cert-verify: true
+  sni: www.wordreference.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -1012,118 +1014,118 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|SE_speednode_0058
-  - 14|TR_speednode_0065
-  - 10|🇸🇪@V2RayyNGvpn🇸🇪
-  - 14|KR_speednode_0004
-  - 14|NL_speednode_0014
-  - 14|NL_speednode_0015
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - 14|US_speednode_0073
-  - 14|RO_speednode_0047
-  - 14|TR_speednode_0063
   - 14|RO_speednode_0026
-  - 14|RO_speednode_0053
-  - 12,13|香港4|@ripaojiedian
-  - 10|telegram @mtmvpn
-  - 14|NL_speednode_0012
-  - 14|RO_speednode_0043
-  - 14|NL_speednode_0013
-  - 14|RO_speednode_0044
-  - 10|🏟️47@NetFlowTools
-  - 9|美国2
-  - 14|HK_speednode_0002
-  - 14|NL_speednode_0022
-  - 9|DE
-  - 10|✈️25@oneclickvpnkeys
-  - 12,13|美国2|@ripaojiedian
-  - 14|TR_speednode_0064
-  - 14|NL_speednode_0011
-  - 10|  @vistav2ray  👈👈اا  ✅
-  - 14|US_speednode_0071
   - 12,13|美国|@ripaojiedian
-  - 14|RO_speednode_0034
-  - 14|RO_speednode_0049
-  - 14|NL_speednode_0005
-  - 14|KR_speednode_0003
-  - '10|@prrofile_purple  ️ '
-  - 10|✈️5@oneclickvpnkeys
-  - 14|NL_speednode_0006
-  - 14|RO_speednode_0029
-  - 14|SC_speednode_0054
-  - 14|SE_speednode_0057
-  - 12,13|日本3|@ripaojiedian
-  - 14|RO_speednode_0042
-  - 9|TW
-  - 12,13|新加坡2|@ripaojiedian
-  - 14|TR_speednode_0066
-  - 14|US_speednode_0070
-  - 14|TR_speednode_0062
-  - 14|NL_speednode_0008
-  - 14|NL_speednode_0021
-  - 12,13|新加坡|@ripaojiedian
-  - 10|🇸🇪@V2RayyNGvpn🇸🇪 ام V2RayNG
-  - 14|NL_speednode_0010
-  - 14|RO_speednode_0046
-  - 14|NL_speednode_0017
-  - 14|SE_speednode_0061
-  - 14|NL_speednode_0018
-  - 10|✈️95@oneclickvpnkeys
-  - 12,13|日本|@ripaojiedian
-  - 14|NL_speednode_0007
-  - 12,13|美国3|@ripaojiedian
-  - 9|1
-  - 14|NL_speednode_0020
-  - 10|✈️30@oneclickvpnkeys
-  - 14|RO_speednode_0025
-  - 10|🏟️46@NetFlowTools
-  - 12,13|香港3|@ripaojiedian
+  - 14|NL_speednode_0014
+  - 14|RO_speednode_0032
+  - 14|TR_speednode_0064
   - 14|US_speednode_0072
-  - 10|✈️11@oneclickvpnkeys
-  - 14|RO_speednode_0023
-  - 14|RO_speednode_0041
+  - 12,13|香港3|@ripaojiedian
+  - 14|US_speednode_0073
+  - 12,13|新加坡3|@ripaojiedian
+  - 10|🇸🇪@V2RayyNGvpn🇸🇪 ام V2RayNG
+  - 14|NL_speednode_0022
+  - 10|🏟️47@NetFlowTools
+  - 9|SG
+  - 14|RO_speednode_0052
+  - 14|US_speednode_0070
   - 9,10|@KAFING_2
-  - '10|@KAFING_2 #2'
+  - 14|RO_speednode_0050
+  - 14|TR_speednode_0065
+  - 12,13|日本3|@ripaojiedian
+  - 14|RO_speednode_0038
+  - 9|1
+  - 14|US_speednode_0071
+  - 14|HK_speednode_0002
+  - 14|NL_speednode_0016
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|NL_speednode_0006
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|TW_speednode_0067
+  - 14|NL_speednode_0018
   - 14|RO_speednode_0051
   - 9| HK
-  - 14|RO_speednode_0045
   - 14|SE_speednode_0055
-  - 14|RO_speednode_0031
-  - 14|RO_speednode_0039
-  - 14|RO_speednode_0033
-  - 14|TW_speednode_0067
-  - 12,13|新加坡3|@ripaojiedian
-  - 10|+@Azarakhsh_Proxy+
-  - 12,13|香港5|@ripaojiedian
-  - 14|RO_speednode_0037
-  - 14|RO_speednode_0030
-  - 14|SE_speednode_0059
-  - 14|RO_speednode_0032
-  - 14|RO_speednode_0028
-  - 14|RO_speednode_0052
-  - 14|RO_speednode_0050
-  - 14|TW_speednode_0068
-  - 14|RO_speednode_0038
-  - 14|NL_speednode_0009
-  - 14|SE_speednode_0060
-  - 14|NL_speednode_0016
-  - 14|RO_speednode_0048
-  - 14|RO_speednode_0024
-  - 12|tg频道:@ripaojiedian
-  - 10|✈️17@oneclickvpnkeys
-  - 14|NL_speednode_0019
-  - 14|SE_speednode_0056
-  - 14|DK_speednode_0001
-  - 12,13|日本2|@ripaojiedian
-  - 9|JP
-  - 10| - NL - @FreeOnlineVPN
+  - 14|TR_speednode_0066
+  - 14|NL_speednode_0021
+  - 10|✈️5@NetFlowTools
+  - 14|TR_speednode_0062
   - 14|RO_speednode_0036
-  - 14|RO_speednode_0027
-  - 14|RO_speednode_0040
+  - 14|NL_speednode_0011
+  - 10|telegram @mtmvpn
+  - 14|RO_speednode_0053
+  - 14|RO_speednode_0048
+  - '10|@KAFING_2 #2'
+  - 14|RO_speednode_0047
   - 14|RO_speednode_0035
-  - 9|SG
+  - 10|+@Azarakhsh_Proxy+
+  - 14|NL_speednode_0008
+  - 9|JP
+  - 14|NL_speednode_0019
+  - 10| - NL - @FreeOnlineVPN
+  - 14|KR_speednode_0004
+  - 14|RO_speednode_0040
+  - 14|NL_speednode_0012
+  - '10|@prrofile_purple  ️ '
+  - 14|SE_speednode_0057
+  - 12,13|香港5|@ripaojiedian
+  - 10|🇱@V2RayyNGvpn🇱
+  - 12,13|美国3|@ripaojiedian
+  - 14|SE_speednode_0058
+  - 14|RO_speednode_0023
+  - 14|RO_speednode_0025
+  - 10|✈️11@NetFlowTools
+  - 10|✈️25@NetFlowTools
+  - 14|RO_speednode_0033
+  - 14|NL_speednode_0005
+  - 14|RO_speednode_0029
+  - 14|RO_speednode_0043
+  - 14|SE_speednode_0059
+  - 14|RO_speednode_0042
+  - 14|NL_speednode_0009
+  - 14|SE_speednode_0061
+  - 14|SE_speednode_0056
+  - 9|TW
+  - 14|RO_speednode_0027
+  - 14|RO_speednode_0046
+  - 10|✈️95@oneclickvpnkeys
+  - 12|tg频道:@ripaojiedian
+  - 12,13|新加坡|@ripaojiedian
+  - 9|DE
+  - 14|NL_speednode_0020
+  - 14|NL_speednode_0015
+  - 14|NL_speednode_0013
+  - 14|KR_speednode_0003
+  - 10|  @vistav2ray  👈👈اا  ✅
+  - 14|RO_speednode_0041
+  - 14|DK_speednode_0001
+  - 14|RO_speednode_0037
+  - 10|🇸🇪@V2RayyNGvpn🇸🇪
+  - 14|NL_speednode_0007
+  - 14|NL_speednode_0010
   - 14|US_speednode_0069
+  - 14|RO_speednode_0031
+  - 14|TW_speednode_0068
+  - 12,13|日本|@ripaojiedian
+  - 12,13|美国2|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 14|TR_speednode_0063
+  - 10|✈️17@NetFlowTools
+  - 14|RO_speednode_0045
+  - 9|美国2
+  - 14|RO_speednode_0024
+  - 14|SC_speednode_0054
+  - 13|香港|@ripaojiedian
+  - 14|RO_speednode_0034
+  - 12,13|日本2|@ripaojiedian
+  - 14|RO_speednode_0049
+  - 14|SE_speednode_0060
+  - 14|NL_speednode_0017
+  - 14|RO_speednode_0028
+  - 10|🏟️46@NetFlowTools
+  - 14|RO_speednode_0030
+  - 14|RO_speednode_0039
+  - 14|RO_speednode_0044
   type: fallback
   url: https://www.google.com/
 - interval: 300
