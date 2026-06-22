@@ -1,4 +1,4 @@
-# Update: 2026-06-22 22:24
+# Update: 2026-06-23 02:38
 allow-lan: false
 dns:
   enable: true
@@ -139,30 +139,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 14|CH_speednode_0005
-  password: SoftNetConnect
-  port: 42549
-  server: 83.228.224.161
-  skip-cert-verify: true
-  sni: www.speedtest.net
-  type: trojan
-  udp: true
-- name: 14|IN_speednode_0009
-  password: M7v%w11Se*
-  port: 443
-  server: hyfuuf6.wsone.icu
-  skip-cert-verify: true
-  sni: hyfuuf6.wsone.icu
-  type: trojan
-  udp: true
-- name: 14|JP_speednode_0011
-  password: BxceQaOe
-  port: 5408
-  server: 54.65.32.119
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -174,24 +150,21 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|CH_speednode_0005
-  - 12,13|日本3|@ripaojiedian
-  - 12,13|美国2|@ripaojiedian
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
-  - 14|IN_speednode_0009
-  - 12,13|新加坡2|@ripaojiedian
-  - 14|JP_speednode_0011
-  - 13|香港|@ripaojiedian
-  - 12,13|日本|@ripaojiedian
   - 12,13|香港5|@ripaojiedian
-  - 12,13|香港3|@ripaojiedian
-  - 12,13|日本2|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
-  - 12|tg频道:@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
   - 12,13|新加坡3|@ripaojiedian
+  - 12,13|新加坡|@ripaojiedian
+  - 12,13|新加坡2|@ripaojiedian
   - 12,13|美国|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 13|香港|@ripaojiedian
+  - 12,13|日本2|@ripaojiedian
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 12,13|香港3|@ripaojiedian
+  - 12,13|美国2|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 12,13|日本|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
