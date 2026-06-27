@@ -1,4 +1,4 @@
-# Update: 2026-06-28 03:02
+# Update: 2026-06-28 05:52
 allow-lan: false
 dns:
   enable: true
@@ -18,40 +18,13 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 9|@v2reya88 | @confinghub2
-  obfs: salamander
-  obfs-password: 8zzng75tz4tf82pj
-  password: 653m8mmiy7048p0f
-  port: 8443
-  server: musicclips.videolinks.ru
-  sni: ''
-  tls: false
-  type: hysteria2
-- name: 9|64@oneclickvpnkeys
+- name: 9|🏇64@oneclickvpnkeys
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
   password: 653m8mmiy7048p0f
   port: 8443
   server: musicclips.videolinks.ru
   sni: musicclips.videolinks.ru
-  tls: false
-  type: hysteria2
-- name: '9|@v2reya88 | @confinghub2 #1'
-  obfs: salamander
-  obfs-password: 3sv5vpdl9xr84lyb
-  password: 653m8mmiy7048p0f
-  port: 443
-  server: social.klipp.su
-  sni: ''
-  tls: false
-  type: hysteria2
-- name: 9|🏇68@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: 3sv5vpdl9xr84lyb
-  password: 653m8mmiy7048p0f
-  port: 443
-  server: social.klipp.su
-  sni: social.klipp.su
   tls: false
   type: hysteria2
 - name: 9|2
@@ -906,108 +879,105 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|RO_speednode_0042
-  - 14|FR_speednode_0004
-  - 14|RO_speednode_0023
-  - 14|RO_speednode_0025
-  - 14|GB_speednode_0006
-  - 14|RO_speednode_0033
-  - 12|tg频道:@ripaojiedian
-  - 14|RO_speednode_0039
-  - 10|🇩🇪@irconfiig
-  - 9|🏇68@oneclickvpnkeys
-  - 10|@bored_vpn
-  - 14|RO_speednode_0030
-  - 14|US_speednode_0062
-  - 9| HK
-  - 14|RO_speednode_0038
-  - 14|US_speednode_0060
-  - 14|US_speednode_0058
-  - 14|RO_speednode_0052
-  - 9|JP
-  - 14|RO_speednode_0022
-  - 14|ID_speednode_0012
-  - 9|64@oneclickvpnkeys
-  - 14|RO_speednode_0018
   - 14|RO_speednode_0031
   - 10|@V2RayyNGvpn🇫🇮
-  - 14|RO_speednode_0040
-  - 12,13|新加坡2|@ripaojiedian
-  - 14|RO_speednode_0019
-  - 9|🏇62@oneclickvpnkeys
-  - '10|@KAFING_2 #2'
-  - 9,10|@KAFING_2
-  - 12,13|日本3|@ripaojiedian
-  - 9|🇸US_@WangCai_8
-  - 12,13|日本2|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
-  - 14|TW_speednode_0053
-  - 9|SG
-  - 14|RO_speednode_0048
-  - 9|@v2reya88 | @confinghub2
-  - 14|RO_speednode_0041
-  - 9|🏇70@oneclickvpnkeys
-  - 9|1
-  - 10|🇳🇱 @rayhub_ir 0626-7
-  - 14|RO_speednode_0032
-  - 14|ID_speednode_0011
-  - 14|RO_speednode_0050
-  - 9|🏇69@oneclickvpnkeys
-  - 12,13|美国2|@ripaojiedian
-  - 14|KR_speednode_0014
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|RO_speednode_0037
-  - 10|telegram @mtmvpn
-  - 14|HK_speednode_0008
-  - 14|RO_speednode_0043
-  - 14|US_speednode_0059
-  - 14|NL_speednode_0016
-  - 14|RO_speednode_0021
-  - 12,13|日本|@ripaojiedian
-  - 14|RO_speednode_0044
-  - 10|@prrofile_purple   تلگرام
-  - 14|US_speednode_0061
-  - 14|RO_speednode_0036
-  - 13|香港|@ripaojiedian
-  - 14|RO_speednode_0034
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 14|US_speednode_0056
-  - 14|RO_speednode_0020
-  - 14|RO_speednode_0024
-  - 14|RO_speednode_0026
-  - 12,13|美国3|@ripaojiedian
-  - 9|🏇63@oneclickvpnkeys
-  - 9,10|✅  @vistav2ray  👈👈کانال ما ✅
-  - 14|GB_speednode_0007
-  - 14|RO_speednode_0049
-  - 14|RO_speednode_0035
-  - 14|AE_speednode_0001
-  - 14|ID_speednode_0010
-  - 14|RO_speednode_0028
-  - 10| - NL - @FreeOnlineVPN
-  - '9|@v2reya88 | @confinghub2 #1'
-  - 10|+@Azarakhsh_Proxy+
-  - 9|SG_@WangCai_8
-  - 10|🇫🇮 Finland hy2🇫🇮  ت ید 🔐
-  - 9|TW
   - 14|ID_speednode_0013
+  - 14|RO_speednode_0032
   - 14|RO_speednode_0045
-  - 14|RO_speednode_0046
-  - 12,13|香港5|@ripaojiedian
-  - 14|RO_speednode_0027
-  - 9|2
-  - 12,13|香港3|@ripaojiedian
-  - 14|ID_speednode_0009
-  - 14|RO_speednode_0029
-  - 14|RO_speednode_0017
-  - 14|RO_speednode_0047
-  - 14|GB_speednode_0005
-  - '10|telegram @mtmvpn #1'
-  - 9|DE
-  - 14|RO_speednode_0051
-  - 14|US_speednode_0055
+  - 10| - NL - @FreeOnlineVPN
+  - 14|RO_speednode_0039
+  - 14|US_speednode_0056
+  - 12|tg频道:@ripaojiedian
   - 14|CZ_speednode_0002
+  - 14|HK_speednode_0008
+  - 9|JP
+  - 14|RO_speednode_0019
+  - 14|RO_speednode_0037
+  - 14|RO_speednode_0024
+  - 14|RO_speednode_0052
+  - 14|US_speednode_0061
+  - 14|RO_speednode_0046
+  - 14|RO_speednode_0023
+  - 12,13|美国2|@ripaojiedian
+  - 14|RO_speednode_0028
+  - 12,13|日本2|@ripaojiedian
+  - 9|2
+  - 14|RO_speednode_0034
+  - 14|RO_speednode_0033
+  - 9| HK
+  - 10|🇳🇱 @rayhub_ir 0626-7
+  - 12,13|香港5|@ripaojiedian
+  - 14|NL_speednode_0016
+  - 13|香港|@ripaojiedian
+  - 14|RO_speednode_0040
+  - 10|@prrofile_purple   تلگرام
+  - 12,13|新加坡2|@ripaojiedian
+  - 9|🇸US_@WangCai_8
+  - 14|RO_speednode_0025
+  - 10|+@Azarakhsh_Proxy+
+  - 14|TW_speednode_0053
+  - 9|🏇69@oneclickvpnkeys
+  - 14|RO_speednode_0021
+  - 14|GB_speednode_0007
+  - 14|ID_speednode_0009
+  - 9|SG_@WangCai_8
+  - '10|@KAFING_2 #2'
+  - 10|telegram @mtmvpn
+  - 14|GB_speednode_0006
+  - 14|RO_speednode_0044
+  - 9|1
+  - 14|RO_speednode_0048
+  - 14|RO_speednode_0038
+  - 9,10|✅  @vistav2ray  👈👈کانال ما ✅
+  - 14|RO_speednode_0047
+  - 12,13|新加坡3|@ripaojiedian
+  - 14|RO_speednode_0036
+  - 14|RO_speednode_0051
+  - 9|DE
+  - 10|@bored_vpn
+  - 14|RO_speednode_0050
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|ID_speednode_0012
+  - 14|RO_speednode_0020
   - 14|US_speednode_0063
+  - 14|RO_speednode_0035
+  - 9|TW
+  - 10|🇫🇮 Finland hy2🇫🇮  ت ید 🔐
+  - 14|GB_speednode_0005
+  - 14|RO_speednode_0022
+  - 9|SG
+  - '10|telegram @mtmvpn #1'
+  - 14|RO_speednode_0049
+  - 14|US_speednode_0055
+  - 14|RO_speednode_0042
+  - 14|RO_speednode_0043
+  - 14|RO_speednode_0030
+  - 14|KR_speednode_0014
+  - 14|AE_speednode_0001
+  - 14|RO_speednode_0017
+  - 12,13|香港4|@ripaojiedian
+  - 14|US_speednode_0060
+  - 14|US_speednode_0058
+  - 9|🏇64@oneclickvpnkeys
+  - 9|🏇63@oneclickvpnkeys
+  - 14|RO_speednode_0018
+  - 14|ID_speednode_0010
+  - 9|🏇62@oneclickvpnkeys
+  - 14|US_speednode_0062
+  - 12,13|美国3|@ripaojiedian
+  - 14|RO_speednode_0026
+  - 14|RO_speednode_0027
+  - 14|RO_speednode_0029
+  - 9,10|@KAFING_2
+  - 14|RO_speednode_0041
+  - 12,13|香港3|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 10|🇩🇪@irconfiig
+  - 14|FR_speednode_0004
+  - 9|🏇70@oneclickvpnkeys
+  - 14|ID_speednode_0011
+  - 12,13|日本|@ripaojiedian
+  - 14|US_speednode_0059
   type: fallback
   url: https://www.google.com/
 - interval: 300
