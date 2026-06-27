@@ -1,4 +1,4 @@
-# Update: 2026-06-27 21:06
+# Update: 2026-06-27 23:57
 allow-lan: false
 dns:
   enable: true
@@ -123,6 +123,58 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 14|AE_speednode_0001
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 94.140.0.100
+  skip-cert-verify: false
+  sni: 95r.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: /MiTiVPN=Usa
+- name: 14|GB_speednode_0005
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 164.38.155.135
+  skip-cert-verify: false
+  sni: 95r.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: /MiTiVPN=De
+- name: 14|NL_speednode_0016
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 45.131.4.118
+  skip-cert-verify: false
+  sni: 95r.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: /MiTiVPN=Se
+- name: 14|US_speednode_0063
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: iranpoems.ir
+  skip-cert-verify: false
+  sni: www.gamingdll.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.gamingdll.ir
+    path: /usa=mitivpn
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -134,19 +186,23 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12,13|新加坡2|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
-  - 12,13|日本2|@ripaojiedian
   - 12,13|日本|@ripaojiedian
-  - 12,13|香港5|@ripaojiedian
   - 12|🇭🇰 香港|@ripaojiedian
-  - 12,13|美国2|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
-  - 12,13|香港3|@ripaojiedian
+  - 14|NL_speednode_0016
+  - 12,13|日本2|@ripaojiedian
   - 12,13|香港4|@ripaojiedian
+  - 12,13|新加坡3|@ripaojiedian
   - 13|香港|@ripaojiedian
+  - 14|AE_speednode_0001
   - 12|tg频道:@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 12,13|香港3|@ripaojiedian
+  - 12,13|香港5|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 14|GB_speednode_0005
+  - 12,13|新加坡2|@ripaojiedian
+  - 12,13|美国2|@ripaojiedian
+  - 14|US_speednode_0063
   type: fallback
   url: https://www.google.com/
 - interval: 300
