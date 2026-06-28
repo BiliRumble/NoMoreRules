@@ -1,4 +1,4 @@
-# Update: 2026-06-28 05:52
+# Update: 2026-06-28 10:27
 allow-lan: false
 dns:
   enable: true
@@ -44,24 +44,24 @@ proxies:
 - name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 50116
-  server: 18.166.59.96
+  port: 3941
+  server: 18.166.29.105
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 20744
-  server: 54.46.109.132
+  port: 3941
+  server: 18.163.56.230
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 47656
-  server: 52.196.252.9
+  port: 18021
+  server: 18.183.83.131
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -93,7 +93,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 9149
-  server: 18.162.53.161
+  server: 18.166.29.105
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -109,7 +109,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 22657
-  server: 54.46.109.132
+  server: 16.163.142.40
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -186,23 +186,23 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12,13|香港3|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 12,13|香港5|@ripaojiedian
   - 12,13|日本2|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
-  - 14|NL_speednode_0016
-  - 13|香港|@ripaojiedian
-  - 14|AE_speednode_0001
-  - 14|US_speednode_0063
+  - 12,13|美国2|@ripaojiedian
   - 12,13|美国3|@ripaojiedian
   - 14|GB_speednode_0005
-  - 12,13|日本|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
-  - 12,13|美国2|@ripaojiedian
-  - 12|🇭🇰 香港|@ripaojiedian
   - 12|tg频道:@ripaojiedian
+  - 12,13|香港5|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 12,13|新加坡3|@ripaojiedian
+  - 14|AE_speednode_0001
+  - 14|US_speednode_0063
+  - 12,13|香港3|@ripaojiedian
+  - 13|香港|@ripaojiedian
+  - 12,13|新加坡2|@ripaojiedian
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 12,13|日本|@ripaojiedian
+  - 14|NL_speednode_0016
   type: fallback
   url: https://www.google.com/
 - interval: 300
