@@ -79,6 +79,20 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  fingerprint: chrome
+  name: 10|best_internet_iran
+  obfs: salamander
+  obfs-password: 4u5lx2ldqk5oeo7y
+  password: 5xsgx28bxlhd7oc4
+  port: 38787
+  server: rx.easyiran.org
+  sni: rx.easyiran.org
+  tls: false
+  type: hysteria2
 - name: 10|💙18@oneclickvpnkeys
   obfs: salamander
   obfs-password: 3sv5vpdl9xr84lyb
@@ -228,14 +242,6 @@ proxies:
   server: 57.128.108.123
   skip-cert-verify: true
   sni: www.wordreference.com
-  tls: false
-  type: hysteria2
-- name: 10|@V2RAYBAZI
-  password: zhangyang
-  port: 6443
-  server: 130.61.50.75
-  skip-cert-verify: true
-  sni: https://www.silvercore.net
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
