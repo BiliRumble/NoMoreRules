@@ -1,4 +1,4 @@
-# Update: 2026-07-02 06:11
+# Update: 2026-07-02 10:08
 allow-lan: false
 dns:
   enable: true
@@ -44,7 +44,7 @@ proxies:
 - name: 9|SG_@WangCai_8
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 13.229.94.221
+  server: 13.229.51.19
   skip-cert-verify: true
   sni: https://t.me/WangCai2
   tls: false
@@ -52,7 +52,7 @@ proxies:
 - name: 9|🇸🇬SG_@WangCai_8
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 47.128.242.210
+  server: 54.179.149.169
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   tls: false
@@ -243,6 +243,16 @@ proxies:
   sni: tunel1.washing.help
   tls: false
   type: hysteria2
+- name: 10|@filembad
+  obfs: salamander
+  obfs-password: 60wvbymjlc9zw3gk
+  password: zru63dr6vokx56iy
+  port: 52067
+  server: tr-1.metsima.com
+  skip-cert-verify: false
+  sni: tr-1.metsima.com
+  tls: false
+  type: hysteria2
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05
@@ -260,9 +270,9 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 12,13|香港3|@ripaojiedian
   network: tcp
-  password: cbed60798db0624ba9d15418f0d0d9a4
+  password: b8494776252056a1b62e77c4ff6a6d61
   port: 2008
-  server: 95.40.113.209
+  server: 18.162.58.236
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -270,87 +280,79 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 29449
-  server: 95.40.58.222
+  server: 18.162.144.111
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3941
-  server: 16.163.149.119
+  port: 11035
+  server: 18.166.152.128
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 52904
-  server: 18.181.219.39
+  port: 10624
+  server: 52.195.161.184
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 3743
-  server: 18.163.118.4
+  password: b8494776252056a1b62e77c4ff6a6d61
+  port: 5701
+  server: 18.162.58.236
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 37973
-  server: 95.40.113.209
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 12,13|新加坡|@ripaojiedian
-  network: tcp
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 6357
-  server: 95.40.113.209
+  password: b8494776252056a1b62e77c4ff6a6d61
+  port: 3743
+  server: 16.163.138.198
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡2|@ripaojiedian
   network: tcp
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 48738
-  server: 95.40.113.209
+  password: b8494776252056a1b62e77c4ff6a6d61
+  port: 29642
+  server: 16.163.43.143
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9149
-  server: 16.162.192.195
+  port: 41421
+  server: 18.162.152.114
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|美国|@ripaojiedian
   network: tcp
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 49277
-  server: 95.40.113.209
+  password: b8494776252056a1b62e77c4ff6a6d61
+  port: 17005
+  server: 16.163.43.143
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国2|@ripaojiedian
   network: tcp
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 17005
-  server: 95.40.113.209
+  password: b8494776252056a1b62e77c4ff6a6d61
+  port: 49277
+  server: 16.163.50.86
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11993
-  server: 16.163.149.119
+  port: 44265
+  server: 18.162.152.114
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -883,104 +885,104 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|ID_speednode_0013
-  - 10|  @vistav2ray  👈👈کانال  ✅
-  - 12,13|美国2|@ripaojiedian
-  - 14|RO_speednode_0035
-  - 14|RO_speednode_0031
-  - 14|RO_speednode_0017
+  - 14|US_speednode_0063
   - 14|RO_speednode_0049
-  - 14|RO_speednode_0045
-  - 10|hysteria
-  - 10|@prrofile_purple  ♥️👈 تلگرام
-  - 14|GB_speednode_0007
-  - 14|RO_speednode_0029
-  - 14|US_speednode_0056
-  - 14|RO_speednode_0019
-  - 14|RO_speednode_0041
-  - 12,13|香港4|@ripaojiedian
-  - 14|RO_speednode_0027
-  - 9|TW
-  - 9| HK
-  - 14|RO_speednode_0025
-  - 14|ID_speednode_0010
   - 14|RO_speednode_0030
-  - 12,13|日本3|@ripaojiedian
+  - 14|RO_speednode_0040
+  - 14|RO_speednode_0025
+  - 10|telegram @mtmvpn
+  - 9|SG
   - 10|+@Azarakhsh_Proxy+
-  - 14|FR_speednode_0004
-  - 10|best_internet_iran
-  - 14|US_speednode_0061
-  - 14|RO_speednode_0026
-  - 10|💙95@oneclickvpnkeys
-  - 9|SG_@WangCai_8
-  - 14|NL_speednode_0016
-  - 9|DE
-  - '10|@KAFING_2 #2'
+  - 12,13|美国3|@ripaojiedian
+  - 14|ID_speednode_0010
+  - 14|RO_speednode_0024
+  - 14|RO_speednode_0027
+  - 14|RO_speednode_0036
+  - 10|️@ATLAS_V2VPN️️432️
+  - 9|1
+  - 14|US_speednode_0055
+  - 14|RO_speednode_0037
+  - 14|ID_speednode_0009
+  - 10| - NL - @FreeOnlineVPN
+  - 14|RO_speednode_0035
+  - 9| HK
+  - 14|RO_speednode_0047
   - 14|RO_speednode_0022
-  - 14|RO_speednode_0048
+  - 9|美国2
+  - 12,13|日本3|@ripaojiedian
+  - 14|ID_speednode_0013
+  - 14|RO_speednode_0026
+  - 14|RO_speednode_0038
+  - 12,13|香港3|@ripaojiedian
+  - 14|RO_speednode_0029
   - 14|RO_speednode_0051
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|RO_speednode_0050
-  - 14|US_speednode_0059
+  - 14|RO_speednode_0034
+  - 14|GB_speednode_0007
+  - 10|💙95@oneclickvpnkeys
+  - 14|RO_speednode_0048
+  - 13|香港|@ripaojiedian
+  - 14|KR_speednode_0014
+  - 14|ID_speednode_0011
+  - 14|RO_speednode_0045
+  - 14|FR_speednode_0004
+  - '10|@KAFING_2 #2'
   - 9,10|@KAFING_2
   - 14|RO_speednode_0043
-  - 14|RO_speednode_0024
-  - 14|CZ_speednode_0002
-  - 9|SG
-  - 12,13|香港5|@ripaojiedian
-  - 14|RO_speednode_0033
-  - 10|🇩🇪hysteria2-@hollowcon
-  - 14|RO_speednode_0018
-  - 14|US_speednode_0060
-  - 14|US_speednode_0055
-  - 9|JP
-  - 12,13|美国|@ripaojiedian
-  - 14|RO_speednode_0020
-  - 14|GB_speednode_0005
-  - 14|RO_speednode_0044
-  - 14|RO_speednode_0023
-  - 14|GB_speednode_0006
-  - 14|RO_speednode_0046
-  - 14|AE_speednode_0001
-  - 14|US_speednode_0058
-  - 14|RO_speednode_0021
-  - 14|US_speednode_0063
-  - 10|telegram @mtmvpn
-  - 14|RO_speednode_0047
-  - 14|RO_speednode_0042
-  - 10|FI-@VPNine1
-  - 14|ID_speednode_0009
-  - 14|RO_speednode_0034
-  - 10|🇩🇪💎hysteria-@hollowcon
-  - '10|اا تلگرام : MTMVPN'
-  - 12,13|日本2|@ripaojiedian
+  - 14|US_speednode_0056
   - 12,13|新加坡2|@ripaojiedian
-  - 12|tg频道:@ripaojiedian
-  - 14|RO_speednode_0040
-  - 14|RO_speednode_0038
   - 14|US_speednode_0062
-  - 14|ID_speednode_0012
-  - 14|ID_speednode_0011
-  - 10|️@ATLAS_V2VPN️️432️
-  - 12,13|香港3|@ripaojiedian
-  - 14|TW_speednode_0053
-  - 12,13|新加坡|@ripaojiedian
+  - 14|RO_speednode_0019
+  - 10|hysteria
+  - 14|RO_speednode_0050
+  - 14|RO_speednode_0021
+  - 10|🇩🇪hysteria2-@hollowcon
+  - 12,13|美国|@ripaojiedian
+  - 14|RO_speednode_0044
+  - 12,13|日本2|@ripaojiedian
   - 14|RO_speednode_0039
+  - 14|RO_speednode_0023
+  - '10|اا تلگرام : MTMVPN'
+  - 9|JP
+  - 12,13|新加坡3|@ripaojiedian
+  - 14|RO_speednode_0032
+  - 12|tg频道:@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 10|@filembad
+  - 14|TW_speednode_0053
+  - 14|RO_speednode_0042
+  - 14|RO_speednode_0018
+  - 14|GB_speednode_0005
+  - 9|TW
+  - 10|FI-@VPNine1
+  - 9|🇸🇬SG_@WangCai_8
+  - 10|best_internet_iran
+  - 14|US_speednode_0061
+  - 14|RO_speednode_0017
+  - 14|RO_speednode_0020
+  - 14|AE_speednode_0001
+  - 14|RO_speednode_0041
+  - 14|RO_speednode_0052
+  - 14|US_speednode_0058
+  - 14|CZ_speednode_0002
+  - 12,13|香港5|@ripaojiedian
+  - 10|  @vistav2ray  👈👈کانال  ✅
   - 12,13|日本|@ripaojiedian
   - 14|RO_speednode_0028
-  - 14|RO_speednode_0032
-  - 14|RO_speednode_0036
-  - 10| - NL - @FreeOnlineVPN
-  - 12,13|美国3|@ripaojiedian
-  - 14|KR_speednode_0014
-  - 14|RO_speednode_0052
-  - 14|HK_speednode_0008
-  - 14|RO_speednode_0037
-  - 9|1
-  - 9|🇸🇬SG_@WangCai_8
-  - 9|美国2
+  - 14|US_speednode_0060
+  - 14|GB_speednode_0006
+  - 9|SG_@WangCai_8
+  - 14|ID_speednode_0012
+  - 14|RO_speednode_0046
+  - 9|DE
+  - 14|RO_speednode_0031
+  - 14|NL_speednode_0016
   - 12|🇭🇰 香港|@ripaojiedian
-  - 13|香港|@ripaojiedian
+  - 14|HK_speednode_0008
+  - 10|🇩🇪💎hysteria-@hollowcon
+  - 12,13|美国2|@ripaojiedian
+  - 14|RO_speednode_0033
+  - 14|US_speednode_0059
+  - 10|@prrofile_purple  ♥️👈 تلگرام
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1088,7 +1090,6 @@ proxy-groups:
   - 9|SG_@WangCai_8
   - 9|🇸🇬SG_@WangCai_8
   - 9|SG
-  - 12,13|新加坡|@ripaojiedian
   - 12,13|新加坡2|@ripaojiedian
   - 12,13|新加坡3|@ripaojiedian
   type: select
