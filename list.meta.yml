@@ -1,4 +1,4 @@
-# Update: 2026-07-08 01:03
+# Update: 2026-07-08 03:38
 allow-lan: false
 dns:
   enable: true
@@ -90,18 +90,18 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 10|♦️74@v2ray_configs_pools
+- name: 10|♦️56@NetFlowTools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
-  server: 45.196.182.173
+  server: 45.196.182.172
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 10|♦️25@NetFlowTools
+- name: 10|♦️74@v2ray_configs_pools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
-  server: 45.196.182.175
+  server: 45.196.182.173
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   tls: false
@@ -302,6 +302,16 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
+- name: 10|V2RayyNGvpn🇩🇪
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: TWlkdqFSQH
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
 - name: '10|@prrofile_purple  ️ '
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -446,16 +456,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '10|🇩🇪@V2RayyNGvpn🇩🇪 #1'
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: t-me-V2RayyNGvpN
-  port: 40460
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪 #2'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: t-me-V2RayyNGvpn
@@ -1113,133 +1113,133 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|FR_speednode_0004
-  - 14|US_speednode_0055
-  - 14|US_speednode_0062
-  - 14|ID_speednode_0010
-  - 14|ID_speednode_0009
-  - 10|♦️73@v2ray_configs_pools
-  - 10|@V2RayyNGvpn🇩🇪
+  - 14|RO_speednode_0025
+  - 12,13|新加坡|@ripaojiedian
+  - '10|@meliproxyy #1'
+  - 12,13|香港3|@ripaojiedian
+  - 14|RO_speednode_0048
   - 12,13|香港5|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
-  - 10|🕹️48@v2ray_configs_pools
+  - 12,13|美国|@ripaojiedian
+  - 10|♦️53@NetFlowTools
+  - 9| HK
+  - 14|GB_speednode_0005
+  - 14|RO_speednode_0041
+  - 14|US_speednode_0063
+  - 14|RO_speednode_0038
+  - 14|RO_speednode_0052
+  - 10|🕹️41@v2ray_configs_pools
+  - 14|RO_speednode_0024
+  - 10|♦️69@v2ray_configs_pools
+  - 14|US_speednode_0062
+  - 9|美国2
+  - 10|♦️73@v2ray_configs_pools
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|RO_speednode_0046
+  - 10|♦️67@v2ray_configs_pools
+  - 14|RO_speednode_0044
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 10|♦️52@NetFlowTools
+  - 10|🕹️53@v2ray_configs_pools
+  - 14|NL_speednode_0016
+  - 14|ID_speednode_0009
+  - 14|RO_speednode_0032
+  - 14|US_speednode_0059
+  - 14|RO_speednode_0042
+  - 14|RO_speednode_0027
+  - 14|RO_speednode_0039
+  - '10|@KAFING_2 #2'
+  - 12,13|日本3|@ripaojiedian
+  - 14|US_speednode_0055
+  - 14|RO_speednode_0036
   - 10|♦️74@v2ray_configs_pools
-  - 9|TW
-  - 9|DE
-  - 10|🕹️49@v2ray_configs_pools
-  - 14|RO_speednode_0030
   - 14|RO_speednode_0035
-  - 12,13|日本2|@ripaojiedian
-  - 10|🕹️58@v2ray_configs_pools
+  - 12,13|新加坡3|@ripaojiedian
+  - 14|RO_speednode_0018
+  - 14|RO_speednode_0023
+  - 10|️️@ATLAS_V2VPN️️432️
+  - 14|RO_speednode_0029
+  - 14|ID_speednode_0010
+  - 14|RO_speednode_0022
+  - 14|GB_speednode_0006
+  - 14|RO_speednode_0034
+  - 10|🇩🇪hysteria2-@hollowcon
+  - 14|RO_speednode_0028
+  - 10|🇩🇪@V2RayyNGvpn🇩🇪
+  - 10|🕹️49@v2ray_configs_pools
+  - 14|RO_speednode_0031
+  - 10|♦️59@NetFlowTools
+  - 10|2♦️@v2ray_configs_pools
+  - 10|5♦️@v2ray_configs_pools
+  - 14|US_speednode_0056
+  - 13|香港|@ripaojiedian
+  - 14|RO_speednode_0020
+  - 14|RO_speednode_0047
+  - 10|♦️50@NetFlowTools
+  - 14|US_speednode_0058
   - 10|🕹️47@v2ray_configs_pools
-  - 14|AE_speednode_0001
+  - '10|@prrofile_purple  ️ '
+  - 9|SG
+  - 12,13|美国3|@ripaojiedian
+  - '10|تلگرام : MTMVPN'
+  - 14|RO_speednode_0050
+  - 10|V2RayyNGvpn🇩🇪
+  - 14|CZ_speednode_0002
+  - 10|🕹️58@v2ray_configs_pools
+  - 14|KR_speednode_0014
+  - 10|@V2RayyNGvpn🇩🇪
   - 10|hysteria
   - 14|HK_speednode_0008
-  - 14|RO_speednode_0034
+  - 14|AE_speednode_0001
+  - 10|+@Azarakhsh_Proxy+
+  - 12,13|日本2|@ripaojiedian
+  - 14|RO_speednode_0033
+  - 12,13|美国2|@ripaojiedian
+  - 14|RO_speednode_0019
+  - 10|♦️55@NetFlowTools
   - 14|RO_speednode_0037
   - 10|🕹️56@v2ray_configs_pools
-  - 10|♦️68@v2ray_configs_pools
-  - 14|ID_speednode_0011
-  - 14|RO_speednode_0026
-  - 10|♦️50@NetFlowTools
-  - 9,10|@KAFING_2
-  - 14|RO_speednode_0022
-  - 14|RO_speednode_0049
-  - 14|RO_speednode_0025
-  - 10|🕹️41@v2ray_configs_pools
-  - 14|NL_speednode_0016
-  - 10|🇩🇪💎hysteria-@hollowcon
-  - 10|♦️48@NetFlowTools
-  - 12,13|新加坡2|@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - 14|RO_speednode_0019
-  - 14|RO_speednode_0031
-  - 14|RO_speednode_0036
-  - 14|TW_speednode_0053
-  - 14|US_speednode_0063
-  - '10|@meliproxyy #1'
-  - 9|SG
-  - 14|GB_speednode_0005
+  - 9|TW
   - 14|RO_speednode_0040
-  - 14|RO_speednode_0018
-  - 9|美国2
-  - '10|تلگرام : MTMVPN'
-  - '10|🇩🇪@V2RayyNGvpn🇩🇪 #1'
-  - 14|RO_speednode_0044
-  - 14|RO_speednode_0043
-  - 10|♦️67@v2ray_configs_pools
-  - 14|CZ_speednode_0002
-  - 14|RO_speednode_0042
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 14|RO_speednode_0024
-  - 10|🇩🇪hysteria2-@hollowcon
-  - 14|GB_speednode_0006
-  - 10|♦️55@NetFlowTools
-  - 14|ID_speednode_0012
-  - 10|🕹️50@v2ray_configs_pools
-  - 14|RO_speednode_0027
-  - 14|RO_speednode_0038
-  - 10|5♦️@v2ray_configs_pools
-  - 9|JP
-  - 14|KR_speednode_0014
-  - 10|♦️52@NetFlowTools
-  - 14|RO_speednode_0017
-  - 14|RO_speednode_0046
-  - 14|US_speednode_0058
-  - 10|🇩🇪@V2raybazi
-  - 14|RO_speednode_0047
-  - 10|♦️69@v2ray_configs_pools
-  - 14|GB_speednode_0007
-  - 12,13|美国3|@ripaojiedian
-  - '10|@prrofile_purple  ️ '
-  - 14|RO_speednode_0028
-  - 12,13|新加坡3|@ripaojiedian
-  - 12,13|美国|@ripaojiedian
-  - 10|2♦️@v2ray_configs_pools
-  - 14|RO_speednode_0052
-  - 12,13|香港3|@ripaojiedian
-  - 10|♦️59@NetFlowTools
-  - 14|RO_speednode_0051
-  - 14|US_speednode_0059
-  - 14|US_speednode_0061
-  - 10|️57@v2ray_configs_pools
-  - 12,13|日本|@ripaojiedian
-  - '10|@KAFING_2 #2'
-  - 10|♦️53@NetFlowTools
-  - 10|♦️54@NetFlowTools
-  - 10|♦️58@NetFlowTools
-  - 10|+@Azarakhsh_Proxy+
-  - 9| HK
-  - 14|US_speednode_0056
-  - 10|♦️57@NetFlowTools
-  - 12|tg频道:@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 14|RO_speednode_0032
-  - 14|RO_speednode_0039
-  - 14|RO_speednode_0021
-  - 14|RO_speednode_0029
-  - 14|RO_speednode_0050
-  - 14|RO_speednode_0048
-  - 9|1
-  - 10|🕹️53@v2ray_configs_pools
-  - '10|🇩🇪@V2RayyNGvpn🇩🇪 #2'
-  - 14|RO_speednode_0041
-  - 10|♦️96@v2ray_configs_pools
-  - 10|️️@ATLAS_V2VPN️️432️
-  - 10| - NL - @FreeOnlineVPN
-  - 14|US_speednode_0060
-  - 10|🕹️54@v2ray_configs_pools
-  - 14|RO_speednode_0033
-  - 12,13|新加坡|@ripaojiedian
-  - 10|1♦️@v2ray_configs_pools
-  - 14|RO_speednode_0023
   - 14|RO_speednode_0045
-  - 14|RO_speednode_0020
   - 10|🕹️51@v2ray_configs_pools
-  - 12,13|美国2|@ripaojiedian
-  - 10|🇩🇪@V2RayyNGvpn🇩🇪
+  - 10|♦️96@v2ray_configs_pools
+  - 10|🕹️50@v2ray_configs_pools
+  - 14|RO_speednode_0051
+  - 10|♦️57@NetFlowTools
+  - 14|ID_speednode_0011
+  - 14|US_speednode_0061
   - 14|ID_speednode_0013
-  - 10|♦️25@NetFlowTools
+  - 10|️57@v2ray_configs_pools
+  - 14|RO_speednode_0030
+  - 14|US_speednode_0060
+  - '10|🇩🇪@V2RayyNGvpn🇩🇪 #1'
+  - 10|🇩🇪@V2raybazi
+  - 14|RO_speednode_0043
+  - 10|♦️56@NetFlowTools
+  - 14|TW_speednode_0053
+  - 10|🇩🇪💎hysteria-@hollowcon
+  - 14|GB_speednode_0007
+  - 10|♦️58@NetFlowTools
+  - 12,13|香港4|@ripaojiedian
+  - 9|1
+  - 10|🕹️54@v2ray_configs_pools
+  - 14|ID_speednode_0012
+  - 10| - NL - @FreeOnlineVPN
+  - 10|1♦️@v2ray_configs_pools
+  - 14|FR_speednode_0004
+  - 12,13|日本|@ripaojiedian
+  - 9|JP
+  - 14|RO_speednode_0021
+  - 9,10|@KAFING_2
+  - 10|🕹️48@v2ray_configs_pools
+  - 14|RO_speednode_0026
+  - 10|♦️48@NetFlowTools
+  - 14|RO_speednode_0049
+  - 14|RO_speednode_0017
+  - 10|♦️68@v2ray_configs_pools
+  - 9|DE
+  - 10|♦️54@NetFlowTools
+  - 12|tg频道:@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1368,10 +1368,10 @@ proxy-groups:
   - 9|DE
   - 9,10|@KAFING_2
   - 10|@V2RayyNGvpn🇩🇪
+  - 10|V2RayyNGvpn🇩🇪
   - 10|🇩🇪@V2RayyNGvpn🇩🇪
   - 10|🇩🇪hysteria2-@hollowcon
   - 10|🇩🇪💎hysteria-@hollowcon
-  - '10|🇩🇪@V2RayyNGvpn🇩🇪 #1'
   - 10|🇩🇪@V2raybazi
   type: select
 rules:
