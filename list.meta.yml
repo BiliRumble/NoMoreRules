@@ -1,4 +1,4 @@
-# Update: 2026-07-08 06:04
+# Update: 2026-07-08 09:29
 allow-lan: false
 dns:
   enable: true
@@ -581,56 +581,56 @@ proxies:
 - name: 12,13|香港3|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 2008
-  server: 16.163.138.198
+  port: 32583
+  server: 95.40.1.25
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4374
-  server: 16.162.33.88
+  port: 50115
+  server: 16.163.145.82
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29449
-  server: 16.162.119.181
+  port: 27161
+  server: 16.162.220.240
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 47656
-  server: 18.162.113.168
+  port: 4099
+  server: 16.162.24.7
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 55973
-  server: 16.163.50.86
+  port: 3743
+  server: 95.40.44.165
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 3743
-  server: 16.163.50.86
+  port: 55973
+  server: 95.40.44.165
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 6357
-  server: 18.162.58.236
+  port: 29642
+  server: 95.40.1.25
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -645,8 +645,8 @@ proxies:
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9149
-  server: 18.166.66.1
+  port: 22459
+  server: 16.163.145.82
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -654,7 +654,7 @@ proxies:
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 17005
-  server: 16.163.50.86
+  server: 95.40.44.165
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -662,15 +662,15 @@ proxies:
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
-  server: 16.163.138.198
+  server: 95.40.1.25
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 22657
-  server: 18.162.111.216
+  port: 11353
+  server: 16.162.220.240
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -1203,144 +1203,144 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|RO_speednode_0040
-  - 10|️57@v2ray_configs_pools
-  - '10|@prrofile_purple  ️ '
-  - 14|RO_speednode_0025
-  - 14|RO_speednode_0039
-  - 10|🎲94@oneclickvpnkeys
-  - 10|♦️59@NetFlowTools
-  - 10|5♦️@v2ray_configs_pools
-  - 14|KR_speednode_0014
-  - 10|🕹️49@v2ray_configs_pools
-  - '10|تلگرام : MTMVPN'
-  - 14|RO_speednode_0038
-  - 14|US_speednode_0056
-  - 12,13|香港3|@ripaojiedian
-  - 14|RO_speednode_0050
-  - 10|♦️54@NetFlowTools
-  - 10|♦️52@NetFlowTools
-  - 10|🕹️53@v2ray_configs_pools
-  - 14|US_speednode_0063
-  - 14|FR_speednode_0004
-  - 14|RO_speednode_0021
-  - 10|♦️58@NetFlowTools
-  - 14|GB_speednode_0005
-  - 10|🇩🇪@V2raybazi
-  - 14|RO_speednode_0046
-  - 10|5🎲@v2ray_configs_pools
-  - 14|RO_speednode_0047
-  - 10|2♦️@v2ray_configs_pools
-  - 14|RO_speednode_0022
-  - 14|RO_speednode_0045
-  - 10|@V2RayyNGvpn
-  - 10|98@oneclickvpnkeys
-  - 14|RO_speednode_0037
-  - 14|RO_speednode_0044
-  - 9,10|@KAFING_2
-  - 10| - NL - @FreeOnlineVPN
-  - 10|+@Azarakhsh_Proxy+
-  - 10|♦️68@v2ray_configs_pools
-  - 14|RO_speednode_0024
-  - 10|V2RayyNGvpn🇩🇪
-  - 14|ID_speednode_0009
-  - 10|♦️74@v2ray_configs_pools
   - 10|🇫🇮104403 | ⚡️Telegram = t.me/v...
-  - 14|HK_speednode_0008
-  - 12,13|美国2|@ripaojiedian
-  - 14|RO_speednode_0027
-  - 10|🕹️41@v2ray_configs_pools
-  - 14|RO_speednode_0029
-  - 9|JP
-  - 10|1♦️@v2ray_configs_pools
-  - 10|48@NetFlowTools
-  - 10|97@oneclickvpnkeys
-  - 10|🇩🇪hysteria2-@hollowcon
-  - 10|🕹️54@v2ray_configs_pools
-  - 12|tg频道:@ripaojiedian
-  - 9| HK
-  - '10|@KAFING_2 #2'
-  - 14|RO_speednode_0026
-  - 14|NL_speednode_0016
-  - 12,13|美国|@ripaojiedian
-  - 14|RO_speednode_0034
-  - 10|🇮104401 | ⚡️Telegram = t.me/v2...
-  - 10|🇩🇪@V2RayyNGvpn🇩🇪
-  - 10|🕹️56@v2ray_configs_pools
-  - 10|🕹️51@v2ray_configs_pools
-  - 14|RO_speednode_0049
-  - 14|RO_speednode_0033
-  - 10|🕹️48@v2ray_configs_pools
-  - 12,13|新加坡|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
-  - 14|RO_speednode_0051
-  - 10|️️@ATLAS_V2VPN️️432️
-  - 10|104400 | ️Telegram = t.me/v2ra...
-  - 14|ID_speednode_0012
-  - 12,13|美国3|@ripaojiedian
-  - 14|ID_speednode_0010
-  - 9|美国2
-  - 14|TW_speednode_0053
-  - 14|RO_speednode_0030
-  - 14|RO_speednode_0048
-  - 14|US_speednode_0059
-  - 14|RO_speednode_0028
-  - 10|♦️50@NetFlowTools
-  - 14|ID_speednode_0013
-  - 9|DE
-  - 14|GB_speednode_0006
-  - 10|🕹️47@v2ray_configs_pools
-  - 14|AE_speednode_0001
-  - 10|100@oneclickvpnkeys
-  - 14|RO_speednode_0035
-  - 10|🇩🇪💎hysteria-@hollowcon
-  - 14|RO_speednode_0023
-  - 10|🕹️50@v2ray_configs_pools
-  - 12,13|新加坡3|@ripaojiedian
-  - 10|🇩🇪@V2RayyNGvpn
-  - 14|RO_speednode_0031
-  - 14|RO_speednode_0043
-  - 10|🇺🇸104402 | ⚡️Telegram = t.me/v...
-  - 13|香港|@ripaojiedian
-  - 10|♦️96@v2ray_configs_pools
-  - 14|CZ_speednode_0002
-  - 12,13|日本2|@ripaojiedian
-  - 10|@tootffarangi-7
-  - 14|US_speednode_0058
-  - 12,13|香港5|@ripaojiedian
-  - 14|RO_speednode_0017
-  - 10|♦️57@NetFlowTools
-  - 14|RO_speednode_0020
-  - 14|US_speednode_0055
-  - 14|GB_speednode_0007
-  - 14|RO_speednode_0041
-  - 10|♦️69@v2ray_configs_pools
-  - '10|@meliproxyy #2'
-  - 10|♦️55@NetFlowTools
-  - 10|99@oneclickvpnkeys
-  - 10|hysteria
-  - 10|♦️53@NetFlowTools
-  - 14|US_speednode_0061
-  - 12,13|日本|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 10|♦️73@v2ray_configs_pools
+  - 9,10|@KAFING_2
+  - 10|🎲94@oneclickvpnkeys
+  - 10|♦️58@NetFlowTools
   - 12|🇭🇰 香港|@ripaojiedian
-  - 14|RO_speednode_0018
-  - 14|RO_speednode_0019
-  - 10|♦️67@v2ray_configs_pools
-  - 12,13|香港4|@ripaojiedian
+  - 10|♦️57@NetFlowTools
+  - 10|🕹️53@v2ray_configs_pools
+  - 10|🕹️50@v2ray_configs_pools
+  - '10|تلگرام : MTMVPN'
+  - 12,13|新加坡|@ripaojiedian
+  - 14|RO_speednode_0033
+  - 10|️58@v2ray_configs_pools
+  - 10| - NL - @FreeOnlineVPN
+  - 14|RO_speednode_0031
+  - 14|US_speednode_0061
+  - 14|RO_speednode_0021
+  - '10|@KAFING_2 #2'
+  - 14|US_speednode_0058
+  - 14|RO_speednode_0029
+  - 10|♦️50@NetFlowTools
+  - 10|+@Azarakhsh_Proxy+
+  - 10|99@oneclickvpnkeys
+  - 14|RO_speednode_0043
+  - 14|RO_speednode_0045
+  - 14|RO_speednode_0042
+  - 14|ID_speednode_0013
+  - 12,13|日本3|@ripaojiedian
+  - 14|KR_speednode_0014
   - 14|US_speednode_0060
   - 14|US_speednode_0062
-  - 14|RO_speednode_0036
-  - 10|️58@v2ray_configs_pools
-  - 9|SG
-  - 14|RO_speednode_0032
+  - 10|♦️55@NetFlowTools
+  - 14|RO_speednode_0020
+  - 14|RO_speednode_0038
+  - 10|104400 | ️Telegram = t.me/v2ra...
+  - 14|RO_speednode_0050
+  - 14|RO_speednode_0026
+  - 10|🕹️48@v2ray_configs_pools
+  - 14|RO_speednode_0041
+  - 12,13|香港3|@ripaojiedian
+  - 10|♦️53@NetFlowTools
   - 10|♦️56@NetFlowTools
-  - 14|RO_speednode_0052
-  - 14|RO_speednode_0042
+  - 14|RO_speednode_0028
+  - 10|♦️67@v2ray_configs_pools
+  - 10|@V2RayyNGvpn
+  - 14|RO_speednode_0046
+  - 14|FR_speednode_0004
+  - 14|RO_speednode_0017
+  - 10|100@oneclickvpnkeys
+  - 10|🕹️49@v2ray_configs_pools
+  - '10|@meliproxyy #2'
+  - 10|♦️54@NetFlowTools
+  - 14|RO_speednode_0018
+  - 14|ID_speednode_0009
+  - 12,13|日本2|@ripaojiedian
+  - 10|5🎲@v2ray_configs_pools
+  - 13|香港|@ripaojiedian
+  - 10|🇩🇪💎hysteria-@hollowcon
+  - 10|♦️52@NetFlowTools
+  - 12,13|日本|@ripaojiedian
+  - 12,13|新加坡3|@ripaojiedian
+  - 10|2♦️@v2ray_configs_pools
   - 14|ID_speednode_0011
+  - 14|RO_speednode_0030
+  - 10|🕹️41@v2ray_configs_pools
+  - 10|🇮104401 | ⚡️Telegram = t.me/v2...
+  - 14|RO_speednode_0035
+  - 14|ID_speednode_0012
+  - 14|GB_speednode_0006
+  - 14|RO_speednode_0036
+  - 14|NL_speednode_0016
+  - 14|RO_speednode_0049
+  - 14|US_speednode_0063
+  - 14|RO_speednode_0032
+  - 10|hysteria
+  - 10|5♦️@v2ray_configs_pools
   - 9|1
+  - 12,13|美国2|@ripaojiedian
+  - 14|GB_speednode_0005
+  - 9|SG
+  - 9| HK
+  - 14|TW_speednode_0053
+  - 14|AE_speednode_0001
+  - 14|RO_speednode_0051
+  - 10|98@oneclickvpnkeys
+  - 14|US_speednode_0056
+  - '10|@prrofile_purple  ️ '
+  - 9|DE
+  - 14|RO_speednode_0040
+  - 14|RO_speednode_0023
+  - 10|️️@ATLAS_V2VPN️️432️
+  - 10|🇺🇸104402 | ⚡️Telegram = t.me/v...
+  - 10|♦️74@v2ray_configs_pools
+  - 10|🇩🇪@V2RayyNGvpn
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|RO_speednode_0027
+  - 14|RO_speednode_0037
+  - 12,13|香港4|@ripaojiedian
+  - 10|🇩🇪@V2raybazi
+  - 10|♦️59@NetFlowTools
+  - 10|🕹️54@v2ray_configs_pools
+  - 14|RO_speednode_0034
+  - 10|@tootffarangi-7
+  - 14|HK_speednode_0008
+  - 14|RO_speednode_0047
+  - 12,13|美国|@ripaojiedian
+  - 10|1♦️@v2ray_configs_pools
+  - 14|US_speednode_0055
+  - 10|🕹️56@v2ray_configs_pools
+  - 10|🕹️51@v2ray_configs_pools
+  - 14|GB_speednode_0007
+  - 14|RO_speednode_0052
+  - 9|美国2
+  - 10|🕹️47@v2ray_configs_pools
+  - 14|ID_speednode_0010
   - 9|TW
+  - 12,13|香港5|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 10|48@NetFlowTools
+  - 10|♦️96@v2ray_configs_pools
+  - 10|♦️73@v2ray_configs_pools
+  - 14|CZ_speednode_0002
+  - 10|V2RayyNGvpn🇩🇪
+  - 10|🇩🇪hysteria2-@hollowcon
+  - 14|RO_speednode_0025
+  - 14|RO_speednode_0044
+  - 10|97@oneclickvpnkeys
+  - 10|♦️69@v2ray_configs_pools
+  - 14|RO_speednode_0022
+  - 9|JP
+  - 14|RO_speednode_0039
+  - 14|RO_speednode_0019
+  - 14|RO_speednode_0048
+  - 10|️57@v2ray_configs_pools
+  - 10|♦️68@v2ray_configs_pools
+  - 14|RO_speednode_0024
+  - 14|US_speednode_0059
+  - 12|tg频道:@ripaojiedian
+  - 10|🇩🇪@V2RayyNGvpn🇩🇪
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1473,7 +1473,6 @@ proxy-groups:
   - 9,10|@KAFING_2
   - 10|V2RayyNGvpn🇩🇪
   - 10|🇩🇪@V2RayyNGvpn🇩🇪
-  - 10|@tootffarangi-7
   - 10|🇩🇪hysteria2-@hollowcon
   - 10|🇩🇪💎hysteria-@hollowcon
   - 10|🇩🇪@V2raybazi
