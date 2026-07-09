@@ -1,4 +1,4 @@
-# Update: 2026-07-09 09:51
+# Update: 2026-07-09 14:33
 allow-lan: false
 dns:
   enable: true
@@ -600,6 +600,514 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 14|AE_speednode_0001
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 94.140.0.100
+  skip-cert-verify: false
+  sni: 95r.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: /MiTiVPN=Usa
+- flow: xtls-rprx-vision
+  name: 14|CZ_speednode_0002
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: PL-jIhHOxLpCUmnDvMEsB3YY3n8o7smiAT0P_SV6RCM
+    short-id: 19d6296d2621d9fa
+  server: 95.85.227.25
+  servername: pol1.hatvpn.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3e90161-fe65-443a-a3a4-e0e3a73704ca
+- name: 14|FR_speednode_0004
+  password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  port: 443
+  server: fe01bdcc-t9zts0-tan99f-1rdqg.fr.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+- name: 14|GB_speednode_0005
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 164.38.155.135
+  skip-cert-verify: false
+  sni: 95r.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: /MiTiVPN=De
+- name: 14|GB_speednode_0006
+  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+  port: 443
+  server: 663a898a-t9zts0-tatrrz-yjq0.uk.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+- name: 14|GB_speednode_0007
+  password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  port: 443
+  server: 48997541-t9zts0-tan99f-1rdqg.uk.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+- name: 14|HK_speednode_0008
+  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+  port: 8443
+  server: 19016135-te7og0-tfo5nb-yjq0.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 14|ID_speednode_0009
+  port: 8443
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 2715592069f36fe7
+  server: 45.198.87.168
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7896c501-248f-4068-bc2f-363c91ba5122
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 14|ID_speednode_0010
+  port: 8443
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 2715592069f36fe7
+  server: 45.198.87.13
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7896c501-248f-4068-bc2f-363c91ba5122
+- flow: xtls-rprx-vision
+  name: 14|ID_speednode_0011
+  port: 8443
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 2715592069f36fe7
+  server: 45.198.87.203
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7896c501-248f-4068-bc2f-363c91ba5122
+- flow: xtls-rprx-vision
+  name: 14|ID_speednode_0012
+  port: 8443
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 2715592069f36fe7
+  server: 45.198.87.102
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7896c501-248f-4068-bc2f-363c91ba5122
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 14|ID_speednode_0013
+  port: 8443
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 2715592069f36fe7
+  server: 45.198.87.33
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7896c501-248f-4068-bc2f-363c91ba5122
+- name: 14|KR_speednode_0014
+  password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  port: 31433
+  server: 701489ed-t9zts0-tan99f-1rdqg.kr.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+- name: 14|NL_speednode_0016
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 45.131.4.118
+  skip-cert-verify: false
+  sni: 95r.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: /MiTiVPN=Se
+- name: 14|RO_speednode_0017
+  port: 9002
+  server: 84.239.49.187
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0018
+  port: 9002
+  server: 84.239.49.225
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0019
+  port: 9002
+  server: 84.239.14.159
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0020
+  port: 9002
+  server: 84.239.49.154
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0021
+  port: 9002
+  server: 84.239.14.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0022
+  port: 9002
+  server: 84.239.49.227
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0023
+  port: 9002
+  server: 84.239.49.191
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0024
+  port: 9002
+  server: 84.239.49.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0025
+  port: 9002
+  server: 84.239.49.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0026
+  port: 9002
+  server: 84.239.49.253
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0027
+  port: 9002
+  server: 84.239.49.42
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0028
+  port: 9002
+  server: 84.239.49.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0029
+  port: 9002
+  server: 84.239.49.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0030
+  port: 9002
+  server: 84.239.49.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0031
+  port: 9002
+  server: 84.239.49.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0032
+  port: 9002
+  server: 84.239.49.178
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0033
+  port: 9002
+  server: 84.239.49.160
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0034
+  port: 9002
+  server: 84.239.49.239
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0035
+  port: 9002
+  server: 84.239.49.234
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0036
+  port: 9002
+  server: 84.239.49.40
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0037
+  port: 9002
+  server: 84.239.49.55
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0038
+  port: 9002
+  server: 84.239.49.57
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0039
+  port: 9002
+  server: 84.239.49.245
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0040
+  port: 9002
+  server: 84.239.14.160
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0041
+  port: 9002
+  server: 84.239.49.185
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0042
+  port: 9002
+  server: 84.239.49.39
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0043
+  port: 9002
+  server: 84.239.49.175
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0044
+  port: 9002
+  server: 84.239.49.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0045
+  port: 9002
+  server: 84.239.49.159
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0046
+  port: 9002
+  server: 84.239.49.247
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0047
+  port: 9002
+  server: 84.239.49.235
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0048
+  port: 9002
+  server: 84.239.14.152
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0049
+  port: 9002
+  server: 84.239.49.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0050
+  port: 9002
+  server: 193.176.84.32
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0051
+  port: 9002
+  server: 193.176.84.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0052
+  port: 9002
+  server: 193.176.84.37
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 14|TW_speednode_0053
+  port: 8443
+  reality-opts:
+    public-key: dY9SNEllJMW63xo-JdXufhmjAxB_4uFw_QMjgufjiD8
+    short-id: ea10cd5686751ec5
+  server: 45.206.0.29
+  servername: storage.yandex.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 52faee73-e0fe-4661-992d-67259257170f
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 14|US_speednode_0055
+  port: 14005
+  reality-opts:
+    public-key: sKWozGVep6wrIm63253QviGBtMLVrGB_W1JJHLEHi0s
+    short-id: 97a01dfaef
+  server: vip.bcjdvip.com
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 14|US_speednode_0056
+  port: 443
+  reality-opts:
+    public-key: JlcNtRODuC4k8GhBFuXwjps9cRe3asq453_RLd3o9E8
+    short-id: e9e3098b62530266
+  server: 38.244.20.69
+  servername: www.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 057f3c26-0fe7-4315-aabc-90c79d413d70
+- name: 14|US_speednode_0058
+  password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  port: 443
+  server: e760451b-ta1og0-tan99f-1rdqg.jp.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+- name: 14|US_speednode_0059
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 443
+  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 1b609740-eec2-11ef-8543-f23c93136cb3
+- name: 14|US_speednode_0060
+  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+  port: 443
+  server: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+- name: 14|US_speednode_0061
+  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+  port: 443
+  server: 786f666d-t9zts0-tatrrz-yjq0.sjc.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+- name: 14|US_speednode_0062
+  password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  port: 443
+  server: d6a15dd2-tegxs0-tejxhc-1rdqg.se.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+- name: 14|US_speednode_0063
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: iranpoems.ir
+  skip-cert-verify: false
+  sni: www.gamingdll.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.gamingdll.ir
+    path: /usa=mitivpn
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -611,77 +1119,136 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13|香港|@ripaojiedian
-  - 10| - NL - @FreeOnlineVPN
-  - 10|🕹️48@v2ray_configs_pools
-  - 10|💡53@oneclickvpnkeys
+  - 14|GB_speednode_0007
+  - 12,13|新加坡|@ripaojiedian
+  - 14|RO_speednode_0027
+  - '10|🇩🇪@V2RayyNGvpn #1'
+  - 10|104400 | Telegram = t.me/v2ray...
+  - 14|ID_speednode_0013
+  - 10|💡47@oneclickvpnkeys
   - 10|️V2rayyNGvpn
-  - 9,10|@KAFING_2
-  - 10|🇩🇪@V2raybazi
+  - 14|US_speednode_0060
+  - 10|🕹️53@v2ray_configs_pools
+  - 14|RO_speednode_0033
+  - 10|🕹️47@v2ray_configs_pools
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|US_speednode_0061
+  - 14|RO_speednode_0026
+  - 14|RO_speednode_0030
+  - 10|💡48@oneclickvpnkeys
+  - '10|@KAFING_2 #2'
+  - 10|️️@ATLAS_V2VPN️️432️
+  - 14|RO_speednode_0018
+  - 14|US_speednode_0055
+  - 12,13|新加坡3|@ripaojiedian
+  - 14|RO_speednode_0047
+  - 14|RO_speednode_0022
+  - 12,13|美国2|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - 14|GB_speednode_0005
+  - 10|💡59@oneclickvpnkeys
+  - 14|RO_speednode_0037
+  - 14|US_speednode_0056
+  - 14|US_speednode_0058
+  - 10|🇫🇮104403 | ⚡️Telegram = t.me/v...
+  - 10|🕹️51@v2ray_configs_pools
+  - 12,13|美国|@ripaojiedian
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|RO_speednode_0034
+  - 14|RO_speednode_0036
+  - 12,13|香港5|@ripaojiedian
+  - 10|58@oneclickvpnkeys
+  - 10|V2RayyNGvpn🇩🇪
+  - 10|89@oneclickvpnkeys
   - 9|TW
   - 10|️57@v2ray_configs_pools
-  - 9|JP
-  - 10|🎲94@oneclickvpnkeys
-  - 10|🇮104401 | ⚡️Telegram = t.me/v2...
-  - 10|🕹️56@v2ray_configs_pools
-  - 10|🕹️49@v2ray_configs_pools
-  - '10|@meliproxyy #2'
-  - 10|💡55@oneclickvpnkeys
-  - 10|+@Azarakhsh_Proxy+
-  - 10|💡37@v2ray_configs_pools
-  - 10|99@oneclickvpnkeys
-  - '10|@prrofile_purple  ️ '
-  - 9|DE
-  - 10|5🎲@v2ray_configs_pools
-  - 10|50@oneclickvpnkeys
-  - 12,13|日本|@ripaojiedian
-  - '10|🇩🇪@V2RayyNGvpn #1'
-  - 12|tg频道:@ripaojiedian
-  - 10|98@oneclickvpnkeys
-  - 10|52@oneclickvpnkeys
-  - 12,13|美国3|@ripaojiedian
-  - 12,13|美国|@ripaojiedian
-  - 12,13|香港3|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
-  - 10|🇫🇮104403 | ⚡️Telegram = t.me/v...
-  - 10|💡49@oneclickvpnkeys
-  - 10|️58@v2ray_configs_pools
-  - 10|💡47@oneclickvpnkeys
-  - 10|💡51@oneclickvpnkeys
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 10|97@oneclickvpnkeys
-  - 12,13|美国2|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
   - 10|100@oneclickvpnkeys
-  - 10|58@oneclickvpnkeys
-  - 10|🕹️51@v2ray_configs_pools
-  - '10|@KAFING_2 #2'
+  - 14|RO_speednode_0032
+  - 14|RO_speednode_0040
   - 12,13|日本2|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 10|104400 | Telegram = t.me/v2ray...
-  - 12,13|新加坡2|@ripaojiedian
-  - 10|💡59@oneclickvpnkeys
+  - 14|RO_speednode_0049
   - 9|1
-  - 10|@meliproxyy
-  - 10|89@oneclickvpnkeys
-  - 10|️54@v2ray_configs_pools
-  - 10|🇩🇪@V2RayyNGvpn
-  - 12,13|香港4|@ripaojiedian
-  - 10|🕹️47@v2ray_configs_pools
-  - 9| HK
-  - 12,13|香港5|@ripaojiedian
+  - 13|香港|@ripaojiedian
+  - 10| - NL - @FreeOnlineVPN
+  - '10|@meliproxyy #2'
+  - 14|TW_speednode_0053
   - 9|美国2
-  - 10|V2RayyNGvpn🇩🇪
-  - 10|🕹️53@v2ray_configs_pools
-  - 10|💡56@oneclickvpnkeys
-  - 10|🕹️50@v2ray_configs_pools
-  - 10|🇺🇸104402 | ⚡️Telegram = t.me/v...
-  - 10|💡48@oneclickvpnkeys
-  - 10|60@oneclickvpnkeys
-  - 10|@V2RayyNGvpn
-  - 9|SG
+  - '10|@prrofile_purple  ️ '
+  - 10|🕹️49@v2ray_configs_pools
+  - 14|RO_speednode_0041
+  - 9|JP
+  - 9|DE
+  - 12,13|美国3|@ripaojiedian
+  - 14|RO_speednode_0017
+  - 14|RO_speednode_0023
+  - 14|NL_speednode_0016
+  - 14|RO_speednode_0052
+  - 14|ID_speednode_0011
+  - 10|+@Azarakhsh_Proxy+
   - 10|💡46@oneclickvpnkeys
-  - 10|️️@ATLAS_V2VPN️️432️
+  - 14|RO_speednode_0028
+  - 14|ID_speednode_0009
+  - 14|RO_speednode_0038
+  - 10|💡37@v2ray_configs_pools
+  - 14|RO_speednode_0050
+  - 14|RO_speednode_0042
+  - 10|@meliproxyy
+  - 9| HK
+  - 12,13|日本|@ripaojiedian
+  - 10|💡56@oneclickvpnkeys
+  - 14|RO_speednode_0025
+  - 10|🇩🇪@V2raybazi
+  - 14|RO_speednode_0039
+  - 10|💡49@oneclickvpnkeys
+  - 10|@V2RayyNGvpn
+  - 10|🕹️56@v2ray_configs_pools
+  - 14|RO_speednode_0019
+  - 10|50@oneclickvpnkeys
+  - 10|🎲94@oneclickvpnkeys
+  - 14|RO_speednode_0045
+  - 10|60@oneclickvpnkeys
+  - 14|CZ_speednode_0002
+  - 14|US_speednode_0063
+  - 14|RO_speednode_0031
+  - 14|RO_speednode_0046
+  - 14|ID_speednode_0010
+  - 10|💡53@oneclickvpnkeys
+  - 14|ID_speednode_0012
+  - 14|RO_speednode_0048
+  - 14|RO_speednode_0035
+  - 14|US_speednode_0062
+  - 14|GB_speednode_0006
+  - 10|🇺🇸104402 | ⚡️Telegram = t.me/v...
+  - 12,13|香港3|@ripaojiedian
+  - 10|🕹️50@v2ray_configs_pools
+  - 14|RO_speednode_0020
+  - 12,13|日本3|@ripaojiedian
+  - 14|HK_speednode_0008
+  - 10|97@oneclickvpnkeys
+  - 10|️54@v2ray_configs_pools
+  - 10|98@oneclickvpnkeys
+  - 14|AE_speednode_0001
+  - 10|🇩🇪@V2RayyNGvpn
+  - 10|99@oneclickvpnkeys
+  - 14|RO_speednode_0051
+  - 10|5🎲@v2ray_configs_pools
+  - 10|🕹️48@v2ray_configs_pools
+  - 10|️58@v2ray_configs_pools
+  - 14|KR_speednode_0014
+  - 9,10|@KAFING_2
+  - 10|💡55@oneclickvpnkeys
+  - 14|RO_speednode_0024
+  - 14|RO_speednode_0021
+  - 14|RO_speednode_0044
+  - 10|🇮104401 | ⚡️Telegram = t.me/v2...
+  - 14|RO_speednode_0029
+  - 14|FR_speednode_0004
+  - 9|SG
+  - 14|RO_speednode_0043
+  - 10|💡51@oneclickvpnkeys
+  - 14|US_speednode_0059
+  - 10|52@oneclickvpnkeys
+  - 12,13|香港4|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -750,10 +1317,19 @@ proxy-groups:
   - 12,13|美国|@ripaojiedian
   - 12,13|美国2|@ripaojiedian
   - 12,13|美国3|@ripaojiedian
+  - 14|US_speednode_0055
+  - 14|US_speednode_0056
+  - 14|US_speednode_0058
+  - 14|US_speednode_0059
+  - 14|US_speednode_0060
+  - 14|US_speednode_0061
+  - 14|US_speednode_0062
+  - 14|US_speednode_0063
   type: select
 - name: 🇨🇳 台湾
   proxies:
   - 9|TW
+  - 14|TW_speednode_0053
   type: select
 - name: 🇨🇳 中国
   proxies:
@@ -767,6 +1343,7 @@ proxy-groups:
   - 12,13|香港4|@ripaojiedian
   - 12,13|香港5|@ripaojiedian
   - 13|香港|@ripaojiedian
+  - 14|HK_speednode_0008
   type: select
 - name: 🇨🇦 加拿大
   proxies:
@@ -774,7 +1351,7 @@ proxy-groups:
   type: select
 - name: 🇫🇷 法国
   proxies:
-  - REJECT
+  - 14|FR_speednode_0004
   type: select
 - name: 🇸🇬 新加坡
   proxies:
@@ -785,11 +1362,13 @@ proxy-groups:
   type: select
 - name: 🇬🇧 英国
   proxies:
-  - REJECT
+  - 14|GB_speednode_0005
+  - 14|GB_speednode_0006
+  - 14|GB_speednode_0007
   type: select
 - name: 🇰🇷 韩国
   proxies:
-  - REJECT
+  - 14|KR_speednode_0014
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
@@ -802,7 +1381,6 @@ proxy-groups:
   - 10|🇩🇪@V2RayyNGvpn
   - 10|V2RayyNGvpn🇩🇪
   - '10|🇩🇪@V2RayyNGvpn #1'
-  - 10|️V2rayyNGvpn
   - 10|🇩🇪@V2raybazi
   type: select
 rules:
