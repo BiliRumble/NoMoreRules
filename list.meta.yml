@@ -1,4 +1,4 @@
-# Update: 2026-07-10 09:49
+# Update: 2026-07-10 14:31
 allow-lan: false
 dns:
   enable: true
@@ -125,13 +125,6 @@ proxies:
   port: 8449
   server: 66.234.150.246
   sni: sni.fi-m247-02.com
-  tls: false
-  type: hysteria2
-- name: 10|💡37@oneclickvpnkeys
-  password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
-  port: 5443
-  server: france-2.hysteria.ltd
-  sni: france-2.hysteria.ltd
   tls: false
   type: hysteria2
 - name: 10|25@oneclickvpnkeys
@@ -324,16 +317,6 @@ proxies:
   port: 443
   server: 130.49.161.70
   skip-cert-verify: true
-  sni: hy2.aspidnet.xyz
-  tls: false
-  type: hysteria2
-- name: 10|@meliproxyy
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  port: 443
-  server: hy2.aspidnet.xyz
-  skip-cert-verify: false
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
@@ -1023,124 +1006,122 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|US_speednode_0055
-  - 14|RO_speednode_0034
-  - 10|💡56@oneclickvpnkeys
-  - 10| - NL - @FreeOnlineVPN
-  - 14|RO_speednode_0021
-  - 14|RO_speednode_0035
-  - 10|💡48@oneclickvpnkeys
-  - 14|TW_speednode_0053
-  - 10|💡59@oneclickvpnkeys
-  - 10|🇪@V2RayyNGvpn
-  - 9|JP
-  - 10|63@oneclickvpnkeys
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 14|US_speednode_0061
-  - 12,13|新加坡|@ripaojiedian
-  - 14|GB_speednode_0006
-  - 14|RO_speednode_0052
-  - 10|💡49@oneclickvpnkeys
-  - 14|RO_speednode_0040
-  - 12,13|美国3|@ripaojiedian
-  - 14|RO_speednode_0041
-  - 9|1
-  - 14|US_speednode_0056
-  - 12,13|日本3|@ripaojiedian
-  - 14|ID_speednode_0010
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|RO_speednode_0046
-  - '10|@prrofile_purple  ️ '
-  - 14|RO_speednode_0018
-  - 14|US_speednode_0063
-  - 10|🎍67@oneclickvpnkeys
-  - 14|RO_speednode_0030
-  - 9|TW
-  - 14|FR_speednode_0004
-  - 14|RO_speednode_0025
-  - 10|💡46@oneclickvpnkeys
-  - 12,13|香港3|@ripaojiedian
-  - '10|Channel: @Daily_Configs'
-  - 10|🎍65@oneclickvpnkeys
-  - 10|🎍7@oneclickvpnkeys
-  - 10|18@oneclickvpnkeys
-  - 14|HK_speednode_0008
-  - 14|RO_speednode_0038
-  - 10|🎍64@oneclickvpnkeys
-  - 9|SG
-  - 14|ID_speednode_0009
+  - 10|@V2RayyNGvpn🇩🇪
   - 14|RO_speednode_0039
-  - 14|RO_speednode_0032
-  - 10|💡60@oneclickvpnkeys
-  - 10|🎍68@oneclickvpnkeys
-  - 14|GB_speednode_0007
-  - 10|💡37@oneclickvpnkeys
+  - 14|ID_speednode_0012
+  - 14|RO_speednode_0023
   - 14|RO_speednode_0022
-  - '10|@KAFING_2 #2'
+  - 14|US_speednode_0063
+  - 14|RO_speednode_0024
+  - 9|美国2
+  - 9|DE
+  - 10|💡50@oneclickvpnkeys
+  - 14|RO_speednode_0020
+  - 10|💡55@oneclickvpnkeys
+  - 14|US_speednode_0058
+  - 14|ID_speednode_0010
+  - 14|ID_speednode_0013
+  - 14|RO_speednode_0047
+  - 10|💡54@oneclickvpnkeys
+  - 14|RO_speednode_0035
+  - 10|18@oneclickvpnkeys
+  - 14|US_speednode_0062
+  - 10|💡46@oneclickvpnkeys
+  - 10|💡53@oneclickvpnkeys
+  - 9|TW
+  - 10|25@oneclickvpnkeys
+  - 14|RO_speednode_0028
+  - 14|RO_speednode_0049
+  - 9|SG
+  - 14|KR_speednode_0014
+  - 12,13|新加坡3|@ripaojiedian
+  - 10|🎍68@oneclickvpnkeys
+  - 14|RO_speednode_0026
+  - 14|RO_speednode_0048
+  - 14|RO_speednode_0030
+  - 10|🇪@V2RayyNGvpn
+  - 12|tg频道:@ripaojiedian
+  - 14|US_speednode_0056
+  - 10|💡52@oneclickvpnkeys
   - 12,13|香港5|@ripaojiedian
-  - 14|RO_speednode_0029
-  - 12,13|美国2|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
   - 14|RO_speednode_0050
+  - 14|GB_speednode_0006
+  - 14|RO_speednode_0021
+  - 12,13|美国2|@ripaojiedian
+  - 10|🎍67@oneclickvpnkeys
+  - 14|RO_speednode_0033
+  - 10|💡48@oneclickvpnkeys
+  - 14|US_speednode_0059
+  - 10|🎍65@oneclickvpnkeys
+  - 14|RO_speednode_0025
+  - '10|@prrofile_purple  ️ '
+  - '10|Channel: @Daily_Configs'
+  - 14|NL_speednode_0016
+  - 10|🇩🇪@V2RayyNGvpn
+  - 14|ID_speednode_0011
+  - 14|GB_speednode_0007
+  - 10|🇩🇪@V2raybazi
+  - 10|💡60@oneclickvpnkeys
+  - 14|RO_speednode_0040
+  - 10|💡47@oneclickvpnkeys
+  - 14|HK_speednode_0008
+  - 9,10|@KAFING_2
+  - 10| - NL - @FreeOnlineVPN
+  - 13|香港|@ripaojiedian
+  - 14|RO_speednode_0043
+  - 10|💡56@oneclickvpnkeys
+  - 14|RO_speednode_0037
+  - 14|FR_speednode_0004
+  - 14|RO_speednode_0044
+  - 12,13|美国|@ripaojiedian
+  - 14|US_speednode_0061
+  - 10|🎍7@oneclickvpnkeys
+  - 14|US_speednode_0055
+  - 10|️V2rayyNGvpn
+  - 14|RO_speednode_0045
+  - 14|RO_speednode_0032
+  - 9| HK
+  - 10|63@oneclickvpnkeys
+  - 14|RO_speednode_0042
+  - 14|RO_speednode_0018
+  - 14|RO_speednode_0027
+  - 14|TW_speednode_0053
+  - 12,13|日本3|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 14|RO_speednode_0051
+  - 9|1
+  - 14|RO_speednode_0046
+  - 14|ID_speednode_0009
+  - 14|RO_speednode_0031
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|RO_speednode_0017
+  - 10|💡59@oneclickvpnkeys
+  - 12,13|香港3|@ripaojiedian
+  - 14|RO_speednode_0036
+  - 12,13|新加坡|@ripaojiedian
+  - 10|89@oneclickvpnkeys
+  - 14|RO_speednode_0038
+  - 12,13|美国3|@ripaojiedian
+  - 9|JP
+  - 10|💡49@oneclickvpnkeys
+  - '10|@KAFING_2 #2'
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|GB_speednode_0005
+  - 10|51@oneclickvpnkeys
+  - 10|️@ATLAS_V2VPN️️432️
   - 14|RO_speednode_0019
   - 12,13|日本|@ripaojiedian
-  - 14|RO_speednode_0033
-  - 10|🇩🇪@V2raybazi
-  - 14|RO_speednode_0023
-  - 14|RO_speednode_0037
-  - 10|89@oneclickvpnkeys
-  - 12|tg频道:@ripaojiedian
-  - 10|️V2rayyNGvpn
-  - 14|RO_speednode_0031
-  - 14|RO_speednode_0028
-  - 14|US_speednode_0060
-  - 10|️@ATLAS_V2VPN️️432️
-  - 14|RO_speednode_0047
-  - 14|RO_speednode_0043
-  - 10|@V2RayyNGvpn🇩🇪
-  - 14|AE_speednode_0001
-  - 13|香港|@ripaojiedian
-  - 10|💡55@oneclickvpnkeys
-  - 9|美国2
-  - 10|@meliproxyy
-  - 14|RO_speednode_0027
-  - 12,13|美国|@ripaojiedian
-  - 10|51@oneclickvpnkeys
-  - 10|🎍55@v2ray_configs_pools
-  - 14|RO_speednode_0024
-  - 10|+@Azarakhsh_Proxy+
-  - 9,10|@KAFING_2
-  - 14|ID_speednode_0011
-  - 10|💡54@oneclickvpnkeys
-  - 14|RO_speednode_0020
-  - 14|NL_speednode_0016
-  - 14|ID_speednode_0013
-  - 9| HK
-  - 10|💡47@oneclickvpnkeys
-  - 14|RO_speednode_0042
-  - 14|US_speednode_0058
-  - 14|ID_speednode_0012
-  - 14|US_speednode_0062
-  - 9|DE
-  - 14|KR_speednode_0014
-  - 14|US_speednode_0059
-  - 14|RO_speednode_0036
-  - 10|💡50@oneclickvpnkeys
-  - 14|GB_speednode_0005
-  - 10|💡52@oneclickvpnkeys
-  - 10|🇩🇪@V2RayyNGvpn
+  - 14|RO_speednode_0041
   - 10|💡58@oneclickvpnkeys
-  - 14|RO_speednode_0017
-  - 14|RO_speednode_0026
-  - 10|25@oneclickvpnkeys
-  - 14|RO_speednode_0045
-  - 14|RO_speednode_0049
+  - 14|RO_speednode_0029
+  - 14|RO_speednode_0052
   - 14|CZ_speednode_0002
-  - 10|💡53@oneclickvpnkeys
-  - 14|RO_speednode_0044
-  - 12,13|香港4|@ripaojiedian
-  - 14|RO_speednode_0048
-  - 14|RO_speednode_0051
+  - 10|🎍64@oneclickvpnkeys
+  - 14|AE_speednode_0001
+  - 10|🎍55@v2ray_configs_pools
+  - 14|RO_speednode_0034
+  - 10|+@Azarakhsh_Proxy+
+  - 14|US_speednode_0060
   type: fallback
   url: https://www.google.com/
 - interval: 300

@@ -1,4 +1,4 @@
-# Update: 2026-07-10 09:49
+# Update: 2026-07-10 14:31
 allow-lan: false
 dns:
   enable: true
@@ -194,24 +194,24 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12|tg频道:@ripaojiedian
-  - 12,13|日本|@ripaojiedian
-  - 12,13|美国|@ripaojiedian
-  - 14|US_speednode_0063
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 12,13|美国2|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
-  - 12,13|香港4|@ripaojiedian
   - 12,13|美国3|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
   - 13|香港|@ripaojiedian
-  - 14|AE_speednode_0001
   - 12,13|香港5|@ripaojiedian
   - 14|GB_speednode_0005
-  - 12,13|香港3|@ripaojiedian
   - 12,13|新加坡3|@ripaojiedian
+  - 14|AE_speednode_0001
+  - 12,13|美国2|@ripaojiedian
   - 14|NL_speednode_0016
+  - 12,13|香港3|@ripaojiedian
+  - 12,13|日本|@ripaojiedian
+  - 14|US_speednode_0063
+  - 12,13|新加坡|@ripaojiedian
+  - 12,13|美国|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 12|🇭🇰 香港|@ripaojiedian
   - 12,13|新加坡2|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
