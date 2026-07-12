@@ -1,4 +1,4 @@
-# Update: 2026-07-13 02:48
+# Update: 2026-07-13 05:38
 allow-lan: false
 dns:
   enable: true
@@ -82,7 +82,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 10|32@oneclickvpnkeys
+- name: 10|🪯32@oneclickvpnkeys
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   port: 4433
   server: 202.61.205.86
@@ -90,7 +90,7 @@ proxies:
   sni: de1.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 t-me-V2RayyNGvpn 🇩🇪
+- name: 10| t-me-V2RayyNGvpn 🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: 58cb3fdyZN
@@ -110,7 +110,7 @@ proxies:
   sni: qg.easyiran.org
   tls: false
   type: hysteria2
-- name: 10|🇩🇪109031 | ⚡️Telegram = t.me/S...
+- name: 10|🇩🇪109031 | Telegram = t.me/SOS...
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: CakZRUUlundefinedS
@@ -168,15 +168,6 @@ proxies:
   server: 91.107.152.188
   skip-cert-verify: true
   sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: 10|🇩🇪108966 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: pqvmx29fokvh8ubb
-  password: TELEgRAM-ID-conf0088
-  port: 2053
-  server: cuetara.name.cuetara.name
-  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: '10|@prrofile_purple  ️ '
@@ -250,12 +241,44 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: '10|@v2ray_configs_pools #1'
+  obfs: salamander
+  obfs-password: 53cgqwhojoxri5lr
+  password: elknam6l7izf3z71
+  port: 52018
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
 - name: 10|telegram @mtmvpn 8
   obfs: salamander
   obfs-password: 53cgqwhojoxri5lr
   password: elknam6l7izf3z71
   port: 52018
   server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 10|109138 | ⚡️Telegram = t.me/SOS...
+  obfs: salamander
+  obfs-password: mtg2vchyir6la3et
+  password: elknam6l7izf3z71
+  port: 52021
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 10|🇫🇮109138 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: mtg2vchyir6la3et
+  password: elknam6l7izf3z71
+  port: 52021
+  server: soskeynets.gateway-stream.com
   skip-cert-verify: false
   sni: assets.gateway-stream.com
   tls: false
@@ -978,115 +1001,117 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|RO_speednode_0037
-  - '10|@prrofile_purple  ️ '
-  - 10|16@oneclickvpnkeys
-  - 9|TW
-  - 12,13|日本|@ripaojiedian
-  - 14|RO_speednode_0018
-  - 9|JP
-  - 10|@v2ray_configs_pools
-  - 14|RO_speednode_0040
-  - 10|32@oneclickvpnkeys
-  - 14|US_speednode_0061
-  - 14|ID_speednode_0011
-  - 12,13|香港4|@ripaojiedian
-  - 14|CZ_speednode_0002
-  - 14|RO_speednode_0034
-  - 14|US_speednode_0060
-  - 12,13|日本2|@ripaojiedian
-  - 14|RO_speednode_0039
-  - 14|RO_speednode_0020
-  - 10|108787 | ⚡️Telegram = t.me/SOS...
-  - 14|RO_speednode_0024
-  - 10|🇩🇪108906 | ⚡️Telegram = t.me/S...
-  - 10|telegram @mtmvpn 8
-  - 14|RO_speednode_0044
-  - 10|🇩🇪109092 | ⚡️Telegram = t.me/S...
-  - 14|RO_speednode_0021
-  - 14|GB_speednode_0005
-  - '10|Channel: @Daily_Configs'
-  - 14|ID_speednode_0013
-  - 9|1
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|RO_speednode_0017
-  - 14|GB_speednode_0007
-  - 14|RO_speednode_0022
-  - 14|RO_speednode_0036
-  - 10|🇩🇪@V2rayng_Fast
-  - 12,13|香港5|@ripaojiedian
-  - 14|US_speednode_0058
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - 14|US_speednode_0062
-  - 10|🇩🇪@V2RayyNGvpn🇩🇪
-  - 10|@V2RayyNGvpn 🇵
-  - 14|NL_speednode_0016
-  - 10|🧸@v2ray_configs_pools
-  - 10|🇩🇪108966 | ⚡️Telegram = t.me/S...
-  - 10|🪯46@oneclickvpnkeys
-  - 14|RO_speednode_0025
-  - 12,13|日本3|@ripaojiedian
-  - 9| HK
-  - 10|@V2RayyNGvpn🇩🇪
-  - 12,13|美国2|@ripaojiedian
-  - 14|RO_speednode_0027
-  - 10|4@oneclickvpnkeys
-  - 12,13|美国3|@ripaojiedian
-  - 14|RO_speednode_0029
+  - 14|US_speednode_0059
+  - 9|DE
+  - 14|RO_speednode_0042
   - 14|RO_speednode_0031
+  - 14|RO_speednode_0040
+  - 14|RO_speednode_0025
+  - 14|US_speednode_0055
+  - 10|16@oneclickvpnkeys
   - 12,13|香港3|@ripaojiedian
-  - 14|RO_speednode_0019
-  - 12,13|美国|@ripaojiedian
-  - 14|RO_speednode_0041
-  - 14|GB_speednode_0006
-  - 10|🇩🇪@V2RayyNGvpn🇩🇪hy
-  - 14|RO_speednode_0050
-  - 14|FR_speednode_0004
-  - 9|美国2
-  - 14|RO_speednode_0049
-  - 14|RO_speednode_0023
-  - 10|🇱108880 | ⚡️Telegram = t.me/SO...
-  - 14|ID_speednode_0010
-  - 14|RO_speednode_0045
-  - 14|HK_speednode_0008
-  - 12|tg频道:@ripaojiedian
-  - 10|🇩🇪109085 | ⚡️Telegram = t.me/S...
-  - 14|ID_speednode_0012
-  - 14|RO_speednode_0052
-  - 14|US_speednode_0063
+  - 10|t-me-V2RayyNGvpn️
   - 14|RO_speednode_0048
-  - 10| - NL - @FreeOnlineVPN
-  - 10|🇩🇪 t-me-V2RayyNGvpn 🇩🇪
-  - 14|RO_speednode_0035
-  - 14|RO_speednode_0030
-  - 9,10|@KAFING_2
-  - 14|US_speednode_0056
-  - 14|RO_speednode_0047
+  - 12,13|新加坡|@ripaojiedian
+  - 10|109138 | ⚡️Telegram = t.me/SOS...
+  - 14|RO_speednode_0019
+  - 14|RO_speednode_0033
   - 14|RO_speednode_0051
+  - 14|RO_speednode_0038
+  - 14|ID_speednode_0013
+  - 14|US_speednode_0061
+  - 14|GB_speednode_0005
+  - 9|JP
+  - 10| - NL - @FreeOnlineVPN
+  - 10|🇱108880 | ⚡️Telegram = t.me/SO...
+  - 10| t-me-V2RayyNGvpn 🇩🇪
+  - 10|telegram @mtmvpn 8
+  - 14|RO_speednode_0039
+  - 14|RO_speednode_0035
   - 14|RO_speednode_0032
   - 14|RO_speednode_0026
-  - '10|@KAFING_2 #2'
-  - 9|SG
-  - 9|DE
-  - 14|RO_speednode_0046
-  - 10|+@Azarakhsh_Proxy+
-  - 14|US_speednode_0055
-  - 14|RO_speednode_0042
-  - 10|🇩🇪109031 | ⚡️Telegram = t.me/S...
-  - 14|RO_speednode_0028
-  - 14|RO_speednode_0033
+  - 10|@v2ray_configs_pools
   - 14|TW_speednode_0053
-  - 14|US_speednode_0059
-  - 14|RO_speednode_0038
-  - 12,13|新加坡2|@ripaojiedian
-  - 10|t-me-V2RayyNGvpn️
-  - 14|AE_speednode_0001
+  - 14|HK_speednode_0008
+  - 14|RO_speednode_0024
+  - 14|RO_speednode_0037
+  - 14|RO_speednode_0049
+  - 10|🇩🇪@V2rayng_Fast
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|US_speednode_0063
+  - 14|RO_speednode_0027
   - 14|RO_speednode_0043
-  - 12,13|新加坡|@ripaojiedian
+  - '10|Channel: @Daily_Configs'
+  - 10|🇩🇪109031 | Telegram = t.me/SOS...
+  - '10|@v2ray_configs_pools #1'
+  - 9| HK
+  - 14|ID_speednode_0011
+  - 13|香港|@ripaojiedian
   - 14|ID_speednode_0009
+  - 12,13|美国2|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 14|RO_speednode_0045
+  - 9|TW
+  - 12,13|香港5|@ripaojiedian
+  - 12,13|日本3|@ripaojiedian
+  - 14|RO_speednode_0023
+  - 9,10|@KAFING_2
   - 10|@V2RayyNGvpn🇵
+  - 14|RO_speednode_0052
+  - 10|🇫🇮109138 | ⚡️Telegram = t.me/S...
   - 14|KR_speednode_0014
+  - '10|@KAFING_2 #2'
+  - 14|US_speednode_0058
+  - 10|@V2RayyNGvpn🇩🇪
+  - 10|🇩🇪@V2RayyNGvpn🇩🇪hy
+  - 14|RO_speednode_0050
+  - 14|US_speednode_0056
+  - 14|US_speednode_0062
+  - 14|RO_speednode_0041
+  - 14|US_speednode_0060
+  - 14|RO_speednode_0020
+  - 14|RO_speednode_0017
+  - 14|ID_speednode_0010
+  - 14|RO_speednode_0021
+  - 10|🪯32@oneclickvpnkeys
+  - 14|RO_speednode_0044
+  - 14|RO_speednode_0018
+  - 12,13|新加坡2|@ripaojiedian
+  - 12,13|美国|@ripaojiedian
+  - 14|RO_speednode_0036
+  - 14|GB_speednode_0007
+  - 12,13|日本2|@ripaojiedian
+  - 12,13|日本|@ripaojiedian
+  - 10|🇩🇪109085 | ⚡️Telegram = t.me/S...
+  - 10|4@oneclickvpnkeys
+  - 14|AE_speednode_0001
+  - 9|1
+  - 9|SG
+  - 14|RO_speednode_0030
+  - 10|🧸@v2ray_configs_pools
+  - 10|🇩🇪@V2RayyNGvpn🇩🇪
+  - 12,13|新加坡3|@ripaojiedian
+  - 14|RO_speednode_0046
+  - 10|@V2RayyNGvpn 🇵
+  - 10|108787 | ⚡️Telegram = t.me/SOS...
+  - 9|美国2
+  - 14|CZ_speednode_0002
+  - 14|GB_speednode_0006
+  - 14|NL_speednode_0016
+  - '10|@prrofile_purple  ️ '
+  - 14|RO_speednode_0028
+  - 14|RO_speednode_0034
+  - 10|🪯46@oneclickvpnkeys
+  - 12|tg频道:@ripaojiedian
+  - 14|ID_speednode_0012
+  - 14|FR_speednode_0004
+  - 12,13|香港4|@ripaojiedian
+  - 14|RO_speednode_0047
+  - 14|RO_speednode_0022
+  - 14|RO_speednode_0029
+  - 10|🇩🇪108906 | ⚡️Telegram = t.me/S...
+  - 10|🇩🇪109092 | ⚡️Telegram = t.me/S...
+  - 10|+@Azarakhsh_Proxy+
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1214,13 +1239,11 @@ proxy-groups:
   proxies:
   - 9|DE
   - 9,10|@KAFING_2
-  - 10|32@oneclickvpnkeys
-  - 10|🇩🇪 t-me-V2RayyNGvpn 🇩🇪
-  - 10|🇩🇪109031 | ⚡️Telegram = t.me/S...
+  - 10| t-me-V2RayyNGvpn 🇩🇪
+  - 10|🇩🇪109031 | Telegram = t.me/SOS...
   - 10|🇩🇪108906 | ⚡️Telegram = t.me/S...
   - 10|@V2RayyNGvpn🇩🇪
   - 10|🇩🇪@V2RayyNGvpn🇩🇪
-  - 10|🇩🇪108966 | ⚡️Telegram = t.me/S...
   - 10|🇩🇪@V2RayyNGvpn🇩🇪hy
   type: select
 rules:
