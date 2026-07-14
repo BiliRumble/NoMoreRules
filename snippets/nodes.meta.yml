@@ -70,14 +70,6 @@ proxies:
   sni: hyst-1.hysteria.ltd
   tls: false
   type: hysteria2
-- name: 10|🎡15@oneclickvpnkeys
-  password: 88f839f2-c3c0-487d-aac3-f8c089d2369d
-  port: 55000
-  server: 45.154.205.25
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 10|@FreakConfig
   obfs: salamander
   obfs-password: ngljeqgna3hmfr2s
@@ -228,7 +220,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10|@vmesskhodam
+- name: '10|@vmesskhodam #1'
   obfs: salamander
   obfs-password: ielzukpwth087afx
   password: elknam6l7izf3z71
@@ -238,23 +230,11 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10|telegram @mtmvpn 12
+- name: 10|🇫🇮110446 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: cukfjxud1ebjuuzs
   password: elknam6l7izf3z71
   port: 52013
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: 10|@v2ray_configs_pools
-  obfs: salamander
-  obfs-password: 53cgqwhojoxri5lr
-  password: elknam6l7izf3z71
-  port: 52018
   server: assets.gateway-stream.com
   skip-cert-verify: false
   sni: assets.gateway-stream.com
@@ -278,16 +258,6 @@ proxies:
   server: assets.gateway-stream.com
   skip-cert-verify: false
   sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 10|@GozargahAzad|🇫🇮
-  obfs: salamander
-  obfs-password: w0tx1ju9iix6913p
-  password: elknam6l7izf3z71
-  port: 52034
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: ''
   tls: false
   type: hysteria2
 - name: 10|🇫🇮110421 | ⚡️Telegram = t.me/S...
@@ -315,6 +285,16 @@ proxies:
   obfs-password: gu74jg3ym0e21zco
   password: elknam6l7izf3z71
   port: 52000
+  server: soskeynets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: '10|🇫🇮110446 | ⚡️Telegram = t.me/S... #1'
+  obfs: salamander
+  obfs-password: cukfjxud1ebjuuzs
+  password: elknam6l7izf3z71
+  port: 52013
   server: soskeynets.gateway-stream.com
   skip-cert-verify: false
   sni: assets.gateway-stream.com
