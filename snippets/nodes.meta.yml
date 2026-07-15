@@ -1,4 +1,42 @@
 proxies:
+- name: 9|美国2
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 9|1
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2055
+  server: xjp1.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp1.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 9|JP
+  password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
+  port: 13778
+  server: jp7.dexlos.com
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 9|DE
+  password: a084933d-0b41-4571-ae0c-7163b8c71ed1
+  port: 2056
+  server: de.eyucdn.xyz
+  skip-cert-verify: true
+  sni: de.eyucdn.xyz
+  tls: false
+  type: hysteria2
+- name: 9| HK
+  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+  port: 443
+  server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+  sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+  tls: false
+  type: hysteria2
 - name: 9,10|@KAFING_2
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -7,6 +45,22 @@ proxies:
   server: 181.214.99.162
   skip-cert-verify: true
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 9|SG
+  password: e7965e64-e001-4e8c-8273-39c61ff4a094
+  port: 30000
+  server: sg3.oomz.ru
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: 9|TW
+  password: e7965e64-e001-4e8c-8273-39c61ff4a094
+  port: 30000
+  server: tw.oomz.ru
+  skip-cert-verify: true
+  sni: bing.com
   tls: false
   type: hysteria2
 - name: 10|ا  @V2RayyNGvpn
@@ -31,7 +85,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 10|@Badangellll-JOIN🤝 ل  ما ین ن ...
+  name: 10|@filembad
   obfs: salamander
   obfs-password: lwhvz2y1ntz8p5nf
   password: BADANGELLLL
@@ -71,6 +125,13 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
+- name: 10|111457 | Telegram = t.me/SOSke...
+  password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
+  port: 443
+  server: 5.255.102.165
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: 10|🇩🇪@FreakConfig
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -91,7 +152,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 10|@prrofile_purple   تا
+- name: 10|@prrofile_purple  ️ تا
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: V2RayyNgvpn
@@ -101,7 +162,7 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: 10| - NL - @FreeOnlineVPN
+- name: 10|🇳🇱 - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -131,7 +192,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '10|@Napsternetvirani #2'
+- name: 10|@Napsternetvirani👾
   obfs: salamander
   obfs-password: ielzukpwth087afx
   password: elknam6l7izf3z71
@@ -161,7 +222,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10|را ال ای ین  TelegramID Expres...
+- name: '10|@FreakConfig #1'
   obfs: salamander
   obfs-password: mtg2vchyir6la3et
   password: elknam6l7izf3z71
@@ -171,14 +232,64 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10|️️@ATLAS_V2VPN️️447️
+- name: 10|🇫🇮111425 | ⚡️Telegram = t.me/S...
   obfs: salamander
-  obfs-password: 3sv5vpdl9xr84lyb
-  password: eltgrek81o6w5cd4
-  port: 443
-  server: social.klipp.su
+  obfs-password: l6l4n5a0q9epnr5k
+  password: elknam6l7izf3z71
+  port: 52051
+  server: assets.gateway-stream.com
   skip-cert-verify: false
-  sni: social.klipp.su
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 10|🇫🇮111426 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fd3olglr2bmimgje
+  password: elknam6l7izf3z71
+  port: 52061
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 10|🇫🇮111427 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: txwr28j1lntoy0sj
+  password: elknam6l7izf3z71
+  port: 52067
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: '10|🇫🇮111425 | ⚡️Telegram = t.me/S... #1'
+  obfs: salamander
+  obfs-password: l6l4n5a0q9epnr5k
+  password: elknam6l7izf3z71
+  port: 52051
+  server: soskeynets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: '10|🇫🇮111426 | ⚡️Telegram = t.me/S... #1'
+  obfs: salamander
+  obfs-password: fd3olglr2bmimgje
+  password: elknam6l7izf3z71
+  port: 52061
+  server: soskeynets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: '10|🇫🇮111427 | ⚡️Telegram = t.me/S... #1'
+  obfs: salamander
+  obfs-password: txwr28j1lntoy0sj
+  password: elknam6l7izf3z71
+  port: 52067
+  server: soskeynets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
 - name: 10|@V2RayyNGvpn کانال ما🇩🇪
@@ -191,7 +302,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '10|@Alpha_v2rayIP #3'
+- name: '10|@erfanandroid #1'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -211,7 +322,7 @@ proxies:
   sni: tunel1.washing.help
   tls: false
   type: hysteria2
-- name: 10|🇩🇪@V2RayyNGvpn کانال ما
+- name: '10|@Alpha_v2rayIP #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: tf5LINcpQy
@@ -219,16 +330,6 @@ proxies:
   server: 91.107.152.188
   skip-cert-verify: true
   sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: '10|Channel : @Daily_Configs'
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: uQUfGOf9Mx
-  port: 33884
-  server: 140.233.177.48
-  skip-cert-verify: true
-  sni: www.oracle.com
   tls: false
   type: hysteria2
 - name: 10|🇨🇵کانال ما @V2RayyNGvpn
