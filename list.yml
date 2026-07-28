@@ -1,4 +1,4 @@
-# Update: 2026-07-29 00:26
+# Update: 2026-07-29 03:04
 allow-lan: false
 dns:
   enable: true
@@ -139,6 +139,70 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 13|CN_speednode_0002
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr2.tube-cat.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 13|US_speednode_0027
+  network: ws
+  password: MITIVPN
+  port: 2053
+  server: 104.17.147.22
+  skip-cert-verify: true
+  sni: ikk---7-MiTiVPN----o.kingnetwork.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ikk---7-MiTiVPN----o.kingnetwork.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de
+- name: 13|US_speednode_0028
+  network: ws
+  password: MiTiVPN
+  port: 2087
+  server: 104.18.6.178
+  skip-cert-verify: true
+  sni: g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nl
+- name: 13|US_speednode_0029
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20056
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 13|US_speednode_0030
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: 13|US_speednode_0031
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20056
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: 13|US_speednode_0032
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -150,21 +214,28 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
+  - 13|US_speednode_0027
   - 11,12|美国|@ripaojiedian
-  - 11,12|香港5|@ripaojiedian
-  - 11,12|香港3|@ripaojiedian
-  - 11,12|新加坡|@ripaojiedian
-  - 12|香港|@ripaojiedian
-  - 11,12|日本3|@ripaojiedian
-  - 11,12|日本2|@ripaojiedian
-  - 11,12|新加坡2|@ripaojiedian
-  - 11,12|美国2|@ripaojiedian
-  - 11,12|香港4|@ripaojiedian
-  - 11,12|日本|@ripaojiedian
-  - 11,12|美国3|@ripaojiedian
   - 11|tg频道:@ripaojiedian
+  - 13|US_speednode_0030
+  - 11,12|美国2|@ripaojiedian
   - 11,12|新加坡3|@ripaojiedian
+  - 13|US_speednode_0032
+  - 11,12|香港3|@ripaojiedian
+  - 11,12|美国3|@ripaojiedian
   - 11|🇭🇰 香港|@ripaojiedian
+  - 13|US_speednode_0028
+  - 13|CN_speednode_0002
+  - 11,12|新加坡2|@ripaojiedian
+  - 11,12|日本3|@ripaojiedian
+  - 11,12|香港4|@ripaojiedian
+  - 11,12|日本2|@ripaojiedian
+  - 11,12|新加坡|@ripaojiedian
+  - 13|US_speednode_0031
+  - 11,12|日本|@ripaojiedian
+  - 12|香港|@ripaojiedian
+  - 13|US_speednode_0029
+  - 11,12|香港5|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
