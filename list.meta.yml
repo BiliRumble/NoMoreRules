@@ -1,4 +1,4 @@
-# Update: 2026-07-30 09:20
+# Update: 2026-07-30 18:56
 allow-lan: false
 dns:
   enable: true
@@ -107,7 +107,7 @@ proxies:
   sni: usa1.spectrumproxy.shop
   tls: false
   type: hysteria2
-- name: '9|𝗲𝗶️@prrofile_purple '
+- name: 9|𝗡𝗲𝗧𝗠𝗲𝗹𝗶⚡️@prrofile_purple 🌩
   obfs: salamander
   obfs-password: l960g2kn19nphlra
   password: 84eyebdtl3tcbssn
@@ -304,7 +304,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|🇳🇱126129 | ⚡️Telegram = t.me/S...
+- name: 9|Proxy_mtm Channel 27
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -368,7 +368,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 11,12|香港3|@ripaojiedian
+- name: 11,12,13|HK_speednode_0010
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 13118
@@ -376,7 +376,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|香港4|@ripaojiedian
+  udp: true
+- name: 11,12,13|HK_speednode_0009
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -384,7 +385,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 11,12|香港5|@ripaojiedian
+  udp: true
+- name: 11,12,13|HK_speednode_0008
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -392,7 +394,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 11,12|日本|@ripaojiedian
+  udp: true
+- name: 11,12,13|US_speednode_0115
   network: tcp
   password: BxceQaOe
   port: 41421
@@ -400,7 +403,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 11,12|日本2|@ripaojiedian
+  udp: true
+- name: 11,12,13|HK_speednode_0012
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 40138
@@ -408,7 +412,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|日本3|@ripaojiedian
+  udp: true
+- name: 11,12,13|JP_speednode_0015
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
@@ -416,6 +421,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 11,12|新加坡|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -432,7 +438,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|新加坡3|@ripaojiedian
+- name: 11,12,13|HK_speednode_0011
   network: tcp
   password: BxceQaOe
   port: 32434
@@ -440,7 +446,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 11,12|美国2|@ripaojiedian
+  udp: true
+- name: 11,12,13|JP_speednode_0016
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -448,6 +455,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 11|🇺🇸 美国2|@ripaojiedian
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -455,7 +463,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|美国3|@ripaojiedian
+- name: 11,12,13|US_speednode_0128
   network: tcp
   password: BxceQaOe
   port: 15775
@@ -463,6 +471,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
   name: 12|香港|@ripaojiedian
@@ -473,7 +482,44 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 13|DE_speednode_0002
+- alpn:
+  - http/1.1
+  flow: xtls-rprx-vision
+  name: 13|AT_speednode_0001
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: sntQ0HsOXhaye-K7bKrMw1w3cRmjgp0lT5IhP-ngwlU
+    short-id: 998432bc
+  server: 152.53.55.155
+  servername: cnn.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9cddcc01-3dfb-46e0-85d8-e3c6818232cf
+- name: 13|AU_speednode_0002
+  port: 443
+  server: 103.62.50.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- flow: xtls-rprx-vision
+  name: 13|CA_speednode_0003
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: UZn-GKszDMErkbxDZAMbPmOMBk2nwEc7Av5uhZFMkgI
+    short-id: 7a3f9c2e1b8d4506
+  server: 167.17.182.192
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9a6ee382-75c3-4cc5-bacd-66494cf99daa
+- name: 13|DE_speednode_0004
   network: ws
   port: 2053
   server: 51.89.23.94
@@ -487,36 +533,44 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- client-fingerprint: qq
+- name: 13|GB_speednode_0005
+  port: 2090
+  server: 31.56.204.32
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+- name: 13|GB_speednode_0006
+  network: ws
+  port: 8880
+  server: 80.93.202.40
+  servername: vms.lifetime02.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime02.workers.dev
+    path: /
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 13|ES_speednode_0004
+  name: 13|GB_speednode_0007
   network: tcp
   port: 443
   reality-opts:
-    public-key: 5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs
-    short-id: 82f5d3a1e9c0b661
-  server: getsavesafe.net
-  servername: getsavesafe.net
+    public-key: qgQAQ19q2EhKzfolYMDsvTlmP9EAiCT8kng4uWR4QVg
+    short-id: 0a2d53503fdec721
+  server: de.prime-net.me
+  servername: de.prime-net.me
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
-- client-fingerprint: firefox
-  name: 13|GB_speednode_0005
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: 0b
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
-- name: 13|IN_speednode_0006
+  uuid: 30702f28-0a64-4f96-bd8f-cc601ca87e4d
+- name: 13|IN_speednode_0013
   network: ws
   port: 2053
   server: 103.54.16.230
@@ -530,123 +584,37 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 13|KR_speednode_0007
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
-    short-id: dbbe8dca27a92c35
-  server: 154.193.55.183
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 13|KR_speednode_0008
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
-    short-id: c76ba2c2fb172e8b
-  server: 154.193.55.183
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- name: 13|KR_speednode_0009
-  port: 1090
-  server: 121.169.46.116
-  tls: false
-  type: socks5
-  udp: true
-  username: Og%3D%3D
-- name: 13|RO_speednode_0011
+- name: 13|NL_speednode_0017
   port: 9002
-  server: 84.239.49.231
+  server: 84.17.47.150
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|RO_speednode_0012
+- name: 13|NL_speednode_0018
   port: 9002
-  server: 84.239.49.253
+  server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|RO_speednode_0013
+- name: 13|NL_speednode_0019
   port: 9002
-  server: 84.239.49.159
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 13|RO_speednode_0014
-  port: 9002
-  server: 84.239.49.249
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 13|RO_speednode_0015
-  port: 9002
-  server: 84.239.49.240
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 13|RO_speednode_0016
-  port: 9002
-  server: 84.239.49.178
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 13|RO_speednode_0017
-  port: 9002
-  server: 84.239.49.164
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 13|RO_speednode_0018
-  port: 9002
-  server: 84.239.49.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 13|RO_speednode_0019
-  port: 9002
-  server: 84.239.49.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 13|RO_speednode_0020
-  port: 9002
-  server: 84.239.49.57
+  server: 84.17.47.146
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0021
   port: 9002
-  server: 84.239.14.158
+  server: 84.239.49.220
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0022
   port: 9002
-  server: 84.239.49.182
+  server: 84.239.49.62
   skip-cert-verify: true
   tls: true
   type: http
@@ -660,35 +628,35 @@ proxies:
   udp: true
 - name: 13|RO_speednode_0024
   port: 9002
-  server: 84.239.49.38
+  server: 84.239.49.182
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0025
   port: 9002
-  server: 84.239.49.207
+  server: 84.239.49.214
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0026
   port: 9002
-  server: 84.239.49.42
+  server: 84.239.49.38
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0027
   port: 9002
-  server: 84.239.49.162
+  server: 84.239.49.225
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0028
   port: 9002
-  server: 84.239.14.148
+  server: 84.239.49.240
   skip-cert-verify: true
   tls: true
   type: http
@@ -702,77 +670,77 @@ proxies:
   udp: true
 - name: 13|RO_speednode_0030
   port: 9002
-  server: 84.239.49.220
+  server: 84.239.14.160
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0031
   port: 9002
-  server: 84.239.49.62
+  server: 84.239.49.42
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0032
   port: 9002
-  server: 84.239.49.217
+  server: 84.239.49.178
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0033
   port: 9002
-  server: 84.239.49.156
+  server: 84.239.49.162
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0034
   port: 9002
-  server: 84.239.49.48
+  server: 84.239.14.158
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0035
   port: 9002
-  server: 84.239.49.197
+  server: 84.239.49.249
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0036
   port: 9002
-  server: 84.239.49.181
+  server: 84.239.49.161
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0037
   port: 9002
-  server: 84.239.49.189
+  server: 84.239.49.207
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0038
   port: 9002
-  server: 84.239.49.165
+  server: 84.239.49.159
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0039
   port: 9002
-  server: 84.239.49.223
+  server: 84.239.49.192
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0040
   port: 9002
-  server: 84.239.49.244
+  server: 84.239.14.148
   skip-cert-verify: true
   tls: true
   type: http
@@ -786,299 +754,656 @@ proxies:
   udp: true
 - name: 13|RO_speednode_0042
   port: 9002
-  server: 84.239.49.198
+  server: 84.239.49.244
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0043
   port: 9002
-  server: 193.176.84.39
+  server: 84.239.49.165
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0044
   port: 9002
-  server: 193.176.84.21
+  server: 84.239.14.146
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0045
   port: 9002
-  server: 84.239.49.37
+  server: 84.239.49.181
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0046
   port: 9002
-  server: 84.239.49.40
+  server: 84.239.49.189
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0047
   port: 9002
-  server: 84.239.49.227
+  server: 84.239.49.197
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0048
   port: 9002
-  server: 84.239.14.159
+  server: 84.239.49.184
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0049
   port: 9002
-  server: 84.239.49.234
+  server: 84.239.49.175
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0050
   port: 9002
-  server: 84.239.49.184
+  server: 84.239.49.215
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0051
   port: 9002
-  server: 84.239.49.185
+  server: 84.239.49.235
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0052
   port: 9002
-  server: 84.239.49.54
+  server: 84.239.49.185
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0053
   port: 9002
-  server: 84.239.49.219
+  server: 84.239.49.37
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0054
   port: 9002
-  server: 193.176.84.33
+  server: 84.239.49.166
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0055
   port: 9002
-  server: 84.239.49.247
+  server: 193.176.84.40
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0056
   port: 9002
-  server: 84.239.49.211
+  server: 84.239.14.157
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0057
   port: 9002
-  server: 84.239.49.199
+  server: 84.239.49.211
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0058
   port: 9002
-  server: 84.239.14.147
+  server: 84.239.49.155
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0059
   port: 9002
-  server: 84.239.49.209
+  server: 84.239.49.247
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0060
   port: 9002
-  server: 84.239.49.183
+  server: 84.239.14.147
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0061
   port: 9002
-  server: 84.239.49.180
+  server: 84.239.49.219
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0062
   port: 9002
-  server: 84.239.14.154
+  server: 84.239.49.209
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0063
   port: 9002
-  server: 84.239.49.155
+  server: 84.239.49.54
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0064
   port: 9002
-  server: 84.239.49.176
+  server: 84.239.49.39
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0065
   port: 9002
-  server: 84.239.49.171
+  server: 193.176.84.34
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0066
   port: 9002
-  server: 84.239.14.157
+  server: 84.239.49.55
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0067
   port: 9002
-  server: 84.239.49.254
+  server: 84.239.49.171
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0068
   port: 9002
-  server: 84.239.49.212
+  server: 84.239.49.180
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0069
   port: 9002
-  server: 84.239.49.224
+  server: 84.239.49.173
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0070
   port: 9002
-  server: 84.239.49.173
+  server: 84.239.49.160
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0071
   port: 9002
-  server: 84.239.49.39
+  server: 84.239.49.201
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0072
   port: 9002
-  server: 84.239.49.245
+  server: 84.239.49.224
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0073
   port: 9002
-  server: 84.239.49.204
+  server: 84.239.49.58
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0074
   port: 9002
-  server: 84.239.49.160
+  server: 84.239.49.199
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0075
   port: 9002
-  server: 84.239.49.163
+  server: 84.239.49.239
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0076
   port: 9002
-  server: 84.239.14.152
+  server: 84.239.49.245
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0077
   port: 9002
-  server: 84.239.49.238
+  server: 84.239.49.191
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0078
   port: 9002
-  server: 193.176.84.26
+  server: 84.239.49.163
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0079
   port: 9002
-  server: 84.239.49.55
+  server: 84.239.49.204
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 13|RO_speednode_0080
   port: 9002
-  server: 84.239.49.233
+  server: 193.176.84.33
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|US_speednode_0081
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
-  server: oplosgru-c.catcat321.com
+- name: 13|RO_speednode_0081
+  port: 9002
+  server: 84.239.49.238
   skip-cert-verify: true
-  type: trojan
+  tls: true
+  type: http
   udp: true
-- name: 13|US_speednode_0082
-  network: ws
+- name: 13|RO_speednode_0082
+  port: 9002
+  server: 84.239.14.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0083
+  port: 9002
+  server: 84.239.14.152
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0084
+  port: 9002
+  server: 84.239.49.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0085
+  port: 9002
+  server: 84.239.49.187
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0086
+  port: 9002
+  server: 84.239.49.49
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0087
+  port: 9002
+  server: 84.239.49.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0088
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0089
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0090
+  port: 9002
+  server: 84.239.49.253
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0091
+  port: 9002
+  server: 84.239.49.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0092
+  port: 9002
+  server: 84.239.49.186
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0093
+  port: 9002
+  server: 84.239.49.53
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0094
+  port: 9002
+  server: 84.239.49.168
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0095
+  port: 9002
+  server: 84.239.49.48
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0096
+  port: 9002
+  server: 84.239.49.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0097
+  port: 9002
+  server: 84.239.14.155
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0098
+  port: 9002
+  server: 84.239.49.223
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0099
+  port: 9002
+  server: 84.239.49.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0100
+  port: 9002
+  server: 84.239.49.230
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0101
+  port: 9002
+  server: 84.239.49.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0102
+  port: 9002
+  server: 84.239.49.40
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0103
+  port: 9002
+  server: 193.176.84.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0104
+  port: 9002
+  server: 193.176.84.37
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 13|RU_speednode_0106
+  network: tcp
   port: 443
-  server: fast.cd-tur4.ir
-  servername: ssl.fastly.com
+  reality-opts:
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+  server: 94.139.251.189
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 13|RU_speednode_0108
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
+  server: 94.139.251.191
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d6dc1358-1bb5-4a9d-92fd-3e255567e3fc
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 13|RU_speednode_0109
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+  server: 94.139.251.189
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 13|RU_speednode_0110
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+  server: 94.139.251.9
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 13|RU_speednode_0111
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
+  server: 94.139.251.23
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d6dc1358-1bb5-4a9d-92fd-3e255567e3fc
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 13|RU_speednode_0112
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
+  server: 94.139.251.191
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 13|RU_speednode_0113
+  network: tcp
+  port: 2083
+  reality-opts:
+    public-key: SPDuT0LRzeXS9Q694fRpiMYAbwlzGqhLy8CLpa7YOTo
+  server: 176.109.88.14
+  servername: ads.x5.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f5576b8c-57b3-40cd-9c09-dba9f3106435
+  uuid: d38370cf-1269-4cec-bc23-66061d9d2a92
+- name: 13|US_speednode_0114
+  network: ws
+  port: 80
+  server: 172.67.148.41
+  servername: telegram4.freepersianland8.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 8be64379-08a5-4362-b8cf-234a65409bda
   ws-opts:
     headers:
-      Host: pan1.global.ssl.fastly.net
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-- name: 13|US_speednode_0083
+      Host: telegram4.freepersianland8.workers.dev
+    path: /eyJqdW5rIjoiOW56N0hTRm9IS252IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ==?ed=2560
+- name: 13|US_speednode_0116
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  servername: b22ntzajtafvkew6em2th68a6030-ogu.hirad228.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 06823dfb-4ced-425d-a905-3774ee9d5026
+  ws-opts:
+    headers:
+      Host: b22ntzajtafvkew6em2th68a6030-ogu.hirad228.workers.dev
+    path: /vl/SjBu4OsqQDFKOlfK2lI9TXXrPWfi
+- name: 13|US_speednode_0117
+  network: ws
+  port: 80
+  server: 50.62.90.4
+  servername: raspy-feather-12ec.137-257.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e382b6dd-2dac-49c5-b16f-1cd0a6b73bf2
+  ws-opts:
+    headers:
+      Host: raspy-feather-12ec.137-257.workers.dev
+    path: /pyip=Telegram🇨🇳 @WangCai2
+- name: 13|US_speednode_0118
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: dNfk0sOCzOlmE61B7ur7YzU2i08RqXIBcGVBA2Ne1Ck
+    short-id: 7548bc
+  server: v-de-node-03.bot-auth.com
+  servername: www.oracle.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b9b1e7c9-4160-49b4-85a4-2f096706509a
+- name: 13|US_speednode_0122
+  port: 2553
+  server: 195.21.129.117
+  servername: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-000000000000
+- name: 13|US_speednode_0120
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0121
+  network: ws
+  port: 80
+  server: 50.62.90.4
+  servername: raspy-feather-12ec.137-257.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e382b6dd-2dac-49c5-b16f-1cd0a6b73bf2
+  ws-opts:
+    headers:
+      Host: raspy-feather-12ec.137-257.workers.dev
+    path: /pyip=TelegramU0001F1E8U0001F1F3 @WangCai2
+- flow: xtls-rprx-vision
+  name: 13|US_speednode_0124
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+- name: 13|US_speednode_0125
+  network: ws
+  port: 80
+  server: www.true.th
+  servername: d2pwbkmfr5lxa4.cloudfront.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
+  ws-opts:
+    headers:
+      Host: d2pwbkmfr5lxa4.cloudfront.net
+    path: /
+- name: 13|US_speednode_0126
   network: ws
   port: 80
   server: www.true.th
@@ -1092,21 +1417,256 @@ proxies:
     headers:
       Host: d3gxy6d0a9fs18.cloudfront.net
     path: /fnetvpn2026
-- name: 13|US_speednode_0084
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20035
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
+- alpn:
+  - http/1.1
+  name: 13|US_speednode_0127
+  network: ws
+  port: 443
+  server: ezaccess1-slv-ezaccess1-1077.up.railway.app
+  servername: ezaccess1-slv-ezaccess1-1077.up.railway.app
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- name: 13|US_speednode_0085
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
-  server: oplosgru-c.catcat321.com
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ezaccess1-slv-ezaccess1-1077.up.railway.app
+    path: /ws/vless/Kiyan?ed=2048
+- name: 13|US_speednode_0129
+  port: 9002
+  server: 138.199.35.208
   skip-cert-verify: true
-  sni: oplosgru-c.catcat321.com
-  type: trojan
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0130
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0131
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: ios
+  name: 13|US_speednode_0132
+  network: ws
+  port: 443
+  server: 69.46.46.6
+  servername: rvg-production-accb.up.railway.app
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cb7c2c3e-4323-c0bf-15d1-c7e5d93f6544
+  ws-opts:
+    headers:
+      Host: rvg-production-accb.up.railway.app
+    path: /ws/cb7c2c3e-4323-c0bf-15d1-c7e5d93f6544
+- name: 13|US_speednode_0133
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0134
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0135
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0136
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0137
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0138
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0139
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0140
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0141
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0142
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0143
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0144
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0145
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0146
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 172.67.148.41
+  servername: telegram4.freepersianland8.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 8be64379-08a5-4362-b8cf-234a65409bda
+  ws-opts:
+    headers:
+      Host: telegram4.freepersianland8.workers.dev
+    path: /eyJqdW5rIjoiOW56N0hTRm9IS252IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ==
+- name: 13|US_speednode_0147
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0148
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0149
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0150
+  port: 9002
+  server: 156.146.59.43
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0151
+  port: 9002
+  server: 156.146.59.7
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0152
+  port: 9002
+  server: 156.146.59.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0154
+  port: 9002
+  server: 156.146.59.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0155
+  port: 9002
+  server: 156.146.59.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0156
+  port: 9002
+  server: 156.146.59.49
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0157
+  port: 9002
+  server: 156.146.59.25
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0158
+  port: 9002
+  server: 156.146.59.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0159
+  port: 9002
+  server: 156.146.59.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0160
+  port: 9002
+  server: 156.146.59.8
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
 proxy-groups:
 - name: 🚀 选择代理
@@ -1119,140 +1679,202 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13|RO_speednode_0058
-  - 13|RO_speednode_0056
-  - 13|RO_speednode_0049
-  - 9|@Selinc
-  - 13|IN_speednode_0006
-  - 13|RO_speednode_0070
-  - 13|RO_speednode_0074
-  - 13|RO_speednode_0068
-  - '9|کانال تلگرام : Free_VPN_CH@ #1'
-  - 9|🐰50@oneclickvpnkeys
-  - 13|RO_speednode_0053
-  - 13|RO_speednode_0027
-  - 13|RO_speednode_0041
-  - 9|hysteria
-  - 13|US_speednode_0081
-  - 9|🐰48@oneclickvpnkeys
-  - 13|RO_speednode_0026
-  - 11,12|日本3|@ripaojiedian
-  - 13|ES_speednode_0004
-  - 13|RO_speednode_0065
-  - 8|🇳🇱
-  - 13|RO_speednode_0012
-  - 13|RO_speednode_0062
-  - 13|RO_speednode_0020
-  - 13|US_speednode_0084
-  - 13|RO_speednode_0019
-  - 13|RO_speednode_0018
-  - 13|KR_speednode_0008
-  - 13|RO_speednode_0043
-  - 11,12|日本2|@ripaojiedian
-  - 13|RO_speednode_0040
-  - 9|رر ⚡
-  - 9|+@Azarakhsh_Proxy+
-  - 13|US_speednode_0085
-  - 13|RO_speednode_0046
-  - 13|RO_speednode_0011
-  - 13|RO_speednode_0015
   - 13|RO_speednode_0079
-  - '8,9|کانال را : Free_VPN_CH@'
-  - 9|🐰49@oneclickvpnkeys
-  - 11,12|新加坡2|@ripaojiedian
-  - 11,12|美国2|@ripaojiedian
-  - 13|RO_speednode_0073
+  - 13|RO_speednode_0090
+  - 13|US_speednode_0135
   - 13|RO_speednode_0044
-  - 13|RO_speednode_0077
-  - 13|RO_speednode_0037
-  - 13|US_speednode_0082
-  - 13|RO_speednode_0039
-  - 11,12|美国3|@ripaojiedian
-  - 13|RO_speednode_0047
-  - 13|RO_speednode_0013
-  - 9|🐰46@oneclickvpnkeys
-  - 9|🐰55@oneclickvpnkeys
-  - 13|RO_speednode_0078
-  - '9|𝗲𝗶️@prrofile_purple '
-  - 9|🇩🇪 Telegram= V2RayyNGvpn 🇩🇪2
-  - 11,12|新加坡3|@ripaojiedian
-  - 11,12|香港3|@ripaojiedian
-  - 9|🐰57@oneclickvpnkeys
-  - 13|RO_speednode_0031
-  - 11,12|新加坡|@ripaojiedian
-  - 9|️@ATLAS_V2VPN️️491️
-  - '9|کانال تلگرام : Free_VPN_CH@ #2'
-  - 13|RO_speednode_0042
-  - 13|RO_speednode_0060
-  - 13|KR_speednode_0009
-  - 9|@bored_vpn
-  - 13|RO_speednode_0045
-  - 9|🐰58@oneclickvpnkeys
-  - 13|GB_speednode_0005
-  - 9|🐰54@oneclickvpnkeys
-  - 13|KR_speednode_0007
-  - 13|RO_speednode_0028
-  - 9|@erfanandroid
-  - 13|RO_speednode_0038
-  - 13|RO_speednode_0017
-  - 13|RO_speednode_0063
-  - 13|RO_speednode_0021
-  - 13|US_speednode_0083
+  - 13|US_speednode_0159
+  - '9|کانال تلگرام : Free_VPN_CH@'
+  - 13|RU_speednode_0109
+  - 13|NL_speednode_0017
+  - 11,12,13|US_speednode_0128
+  - 13|RU_speednode_0112
+  - 13|RO_speednode_0080
+  - 13|US_speednode_0143
+  - 13|RO_speednode_0075
+  - 13|US_speednode_0120
+  - 13|RO_speednode_0072
+  - '9|کانال تلگرام : Free_VPN_CH@ #1'
+  - 13|US_speednode_0145
   - 13|RO_speednode_0036
-  - 9|🐰59@oneclickvpnkeys
-  - 9| Telegram= V2RayyNGvpn 🇩🇪3
-  - 13|DE_speednode_0002
-  - 13|RO_speednode_0048
+  - 13|US_speednode_0116
+  - 13|RO_speednode_0050
+  - 9|🐰57@oneclickvpnkeys
+  - 13|RO_speednode_0054
+  - 13|RO_speednode_0095
+  - 13|US_speednode_0131
+  - 13|US_speednode_0126
+  - 13|RO_speednode_0026
+  - 13|RO_speednode_0104
+  - 13|RO_speednode_0051
+  - 13|US_speednode_0148
+  - 9|hysteria
+  - 9| - NL - @FreeOnlineVPN
+  - 13|US_speednode_0127
+  - 13|RO_speednode_0039
+  - 13|RO_speednode_0038
+  - 13|US_speednode_0132
+  - 13|US_speednode_0130
+  - 8|🇳🇱
+  - 13|RO_speednode_0032
+  - 13|RO_speednode_0028
+  - 9|+@Azarakhsh_Proxy+
+  - 13|DE_speednode_0004
   - 13|RO_speednode_0033
-  - 13|RO_speednode_0076
-  - 13|RO_speednode_0059
+  - 13|RO_speednode_0087
+  - 9|𝗡𝗲𝗧𝗠𝗲𝗹𝗶⚡️@prrofile_purple 🌩
+  - 13|RO_speednode_0043
+  - 13|US_speednode_0138
+  - 11,12,13|HK_speednode_0011
   - 13|RO_speednode_0025
   - 9|  ای   TelegramID Express_free...
-  - 9|🐰56@oneclickvpnkeys
-  - 13|RO_speednode_0064
-  - 13|RO_speednode_0050
-  - '9|کانال تلگرام : Free_VPN_CH@'
-  - 13|RO_speednode_0024
-  - 13|RO_speednode_0066
-  - 13|RO_speednode_0035
-  - 9| - NL - @FreeOnlineVPN
-  - 13|RO_speednode_0022
-  - 13|RO_speednode_0069
-  - 9|60@oneclickvpnkeys
-  - 13|RO_speednode_0052
-  - 13|RO_speednode_0057
-  - 13|RO_speednode_0072
-  - 13|RO_speednode_0061
-  - 9|🐰53@oneclickvpnkeys
+  - 13|US_speednode_0136
+  - '9|کانال تلگرام : Free_VPN_CH@ #2'
+  - 13|US_speednode_0160
   - 13|RO_speednode_0055
-  - 9|🐰52@oneclickvpnkeys
-  - 13|RO_speednode_0071
-  - 13|RO_speednode_0067
-  - 9|🇩🇪 t- me - V2RayyNGvpn 🇩🇪
-  - 11|🇺🇸 美国2|@ripaojiedian
-  - 9|MTMVPN Channel 15
-  - 13|RO_speednode_0030
-  - 9|🇩🇪@V2RayyNGvpn🇩🇪
-  - 11|🇭🇰 香港|@ripaojiedian
-  - 13|RO_speednode_0054
+  - 13|GB_speednode_0007
+  - 13|RU_speednode_0113
   - 12|香港|@ripaojiedian
-  - 13|RO_speednode_0023
-  - 13|RO_speednode_0080
-  - 11|tg频道:@ripaojiedian
-  - 9|🇳🇱126129 | ⚡️Telegram = t.me/S...
-  - 11,12|香港5|@ripaojiedian
-  - 13|RO_speednode_0029
+  - 9|@Selinc
+  - 13|US_speednode_0147
+  - 13|RO_speednode_0068
+  - 13|RO_speednode_0031
+  - 9|🇩🇪 Telegram= V2RayyNGvpn 🇩🇪2
+  - 9|@bored_vpn
+  - 13|US_speednode_0121
+  - 13|AU_speednode_0002
+  - 13|RO_speednode_0022
+  - 13|US_speednode_0118
+  - 9|🐰55@oneclickvpnkeys
+  - 9|🐰54@oneclickvpnkeys
+  - 13|RO_speednode_0030
+  - 9|@erfanandroid
   - 9|🐰51@oneclickvpnkeys
-  - 13|RO_speednode_0014
+  - 13|RO_speednode_0064
+  - 11,12,13|JP_speednode_0016
+  - 9|Proxy_mtm Channel 27
+  - 13|RO_speednode_0021
+  - 9|🐰50@oneclickvpnkeys
+  - 13|RO_speednode_0069
+  - 13|US_speednode_0156
+  - 9|🐰49@oneclickvpnkeys
+  - 13|RO_speednode_0071
+  - 9|🐰46@oneclickvpnkeys
+  - 13|RO_speednode_0085
+  - 13|RO_speednode_0082
+  - 13|RO_speednode_0041
+  - 13|RO_speednode_0061
+  - 13|RO_speednode_0053
+  - 13|RU_speednode_0110
+  - 9|🐰58@oneclickvpnkeys
+  - 13|GB_speednode_0005
+  - 9|60@oneclickvpnkeys
+  - 11,12|新加坡|@ripaojiedian
+  - 13|RO_speednode_0040
+  - 13|RO_speednode_0078
+  - 13|US_speednode_0125
+  - 13|RO_speednode_0057
+  - 13|US_speednode_0149
+  - 13|US_speednode_0134
+  - 9| Telegram= V2RayyNGvpn 🇩🇪3
+  - 13|US_speednode_0137
+  - 13|RO_speednode_0067
+  - 13|RO_speednode_0059
+  - 13|RO_speednode_0060
+  - 13|US_speednode_0141
+  - 11|tg频道:@ripaojiedian
+  - 11,12,13|HK_speednode_0012
+  - 13|RU_speednode_0108
+  - 13|US_speednode_0150
+  - 13|RO_speednode_0103
+  - 13|RO_speednode_0083
+  - 13|US_speednode_0133
+  - 13|AT_speednode_0001
+  - 13|CA_speednode_0003
+  - 13|US_speednode_0155
+  - 13|GB_speednode_0006
+  - 13|RO_speednode_0081
+  - 13|RO_speednode_0102
+  - 13|RO_speednode_0052
+  - 11,12,13|US_speednode_0115
+  - 13|RO_speednode_0037
+  - 9|🐰52@oneclickvpnkeys
+  - 13|US_speednode_0114
+  - 11|🇭🇰 香港|@ripaojiedian
+  - 9|🐰59@oneclickvpnkeys
+  - 13|RO_speednode_0027
+  - 13|RO_speednode_0076
+  - 9|رر ⚡
+  - 13|RO_speednode_0042
+  - 13|US_speednode_0158
+  - 13|RU_speednode_0111
+  - 13|US_speednode_0144
+  - 13|US_speednode_0152
+  - 13|US_speednode_0146
+  - 13|RO_speednode_0066
+  - 13|US_speednode_0129
   - 9|@Napsternetvirani
-  - 13|RO_speednode_0051
-  - 13|RO_speednode_0016
-  - 13|RO_speednode_0032
-  - 9|@prrofile_purple  ️ تلگرام
-  - 11,12|日本|@ripaojiedian
-  - 11,12|香港4|@ripaojiedian
+  - 13|RO_speednode_0035
+  - 13|RO_speednode_0100
+  - 9|️@ATLAS_V2VPN️️491️
   - 13|RO_speednode_0034
-  - 13|RO_speednode_0075
+  - 11,12,13|HK_speednode_0010
+  - 13|US_speednode_0139
+  - 13|RO_speednode_0049
+  - 13|RO_speednode_0097
+  - 13|RO_speednode_0094
+  - 13|US_speednode_0151
+  - 13|RO_speednode_0046
+  - 13|RO_speednode_0062
+  - 11|🇺🇸 美国2|@ripaojiedian
+  - 13|RO_speednode_0086
+  - 13|RO_speednode_0101
+  - 13|RO_speednode_0089
+  - 13|RO_speednode_0058
+  - 11,12,13|HK_speednode_0009
+  - 13|RO_speednode_0099
+  - 13|US_speednode_0140
+  - 13|RO_speednode_0047
+  - 11,12,13|JP_speednode_0015
+  - 9|🇩🇪 t- me - V2RayyNGvpn 🇩🇪
+  - 11,12,13|HK_speednode_0008
+  - 13|RO_speednode_0023
+  - 13|US_speednode_0154
+  - 9|MTMVPN Channel 15
+  - 13|RO_speednode_0074
+  - 13|US_speednode_0117
+  - '8,9|کانال را : Free_VPN_CH@'
+  - 13|RO_speednode_0073
+  - 13|RO_speednode_0093
+  - 13|RO_speednode_0056
+  - 13|RU_speednode_0106
+  - 13|RO_speednode_0063
+  - 13|RO_speednode_0065
+  - 11,12|新加坡2|@ripaojiedian
+  - 13|RO_speednode_0098
+  - 13|RO_speednode_0024
+  - 13|US_speednode_0142
+  - 13|RO_speednode_0091
+  - 13|RO_speednode_0092
+  - 9|🐰56@oneclickvpnkeys
+  - 13|RO_speednode_0084
+  - 13|RO_speednode_0096
+  - 13|RO_speednode_0077
+  - 13|US_speednode_0124
+  - 9|🇩🇪@V2RayyNGvpn🇩🇪
+  - 13|US_speednode_0122
+  - 9|🐰53@oneclickvpnkeys
+  - 13|NL_speednode_0018
+  - 13|RO_speednode_0070
+  - 13|RO_speednode_0088
+  - 13|NL_speednode_0019
+  - 13|RO_speednode_0029
+  - 13|IN_speednode_0013
+  - 13|RO_speednode_0045
+  - 13|US_speednode_0157
+  - 9|🐰48@oneclickvpnkeys
+  - 13|RO_speednode_0048
+  - 9|@prrofile_purple  ️ تلگرام
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1308,20 +1930,57 @@ proxy-groups:
   type: select
 - name: 🇯🇵 日本
   proxies:
-  - 11,12|日本|@ripaojiedian
-  - 11,12|日本2|@ripaojiedian
-  - 11,12|日本3|@ripaojiedian
+  - 11,12,13|US_speednode_0115
+  - 11,12,13|HK_speednode_0012
+  - 11,12,13|JP_speednode_0015
   type: select
 - name: 🇺🇸 美国
   proxies:
-  - 11,12|美国2|@ripaojiedian
+  - 11,12,13|JP_speednode_0016
   - 11|🇺🇸 美国2|@ripaojiedian
-  - 11,12|美国3|@ripaojiedian
-  - 13|US_speednode_0081
-  - 13|US_speednode_0082
-  - 13|US_speednode_0083
-  - 13|US_speednode_0084
-  - 13|US_speednode_0085
+  - 11,12,13|US_speednode_0128
+  - 13|US_speednode_0114
+  - 13|US_speednode_0116
+  - 13|US_speednode_0117
+  - 13|US_speednode_0118
+  - 13|US_speednode_0122
+  - 13|US_speednode_0120
+  - 13|US_speednode_0121
+  - 13|US_speednode_0124
+  - 13|US_speednode_0125
+  - 13|US_speednode_0126
+  - 13|US_speednode_0127
+  - 13|US_speednode_0129
+  - 13|US_speednode_0130
+  - 13|US_speednode_0131
+  - 13|US_speednode_0132
+  - 13|US_speednode_0133
+  - 13|US_speednode_0134
+  - 13|US_speednode_0135
+  - 13|US_speednode_0136
+  - 13|US_speednode_0137
+  - 13|US_speednode_0138
+  - 13|US_speednode_0139
+  - 13|US_speednode_0140
+  - 13|US_speednode_0141
+  - 13|US_speednode_0142
+  - 13|US_speednode_0143
+  - 13|US_speednode_0144
+  - 13|US_speednode_0145
+  - 13|US_speednode_0146
+  - 13|US_speednode_0147
+  - 13|US_speednode_0148
+  - 13|US_speednode_0149
+  - 13|US_speednode_0150
+  - 13|US_speednode_0151
+  - 13|US_speednode_0152
+  - 13|US_speednode_0154
+  - 13|US_speednode_0155
+  - 13|US_speednode_0156
+  - 13|US_speednode_0157
+  - 13|US_speednode_0158
+  - 13|US_speednode_0159
+  - 13|US_speednode_0160
   type: select
 - name: 🇨🇳 台湾
   proxies:
@@ -1334,14 +1993,14 @@ proxy-groups:
 - name: 🇭🇰 香港
   proxies:
   - 11|🇭🇰 香港|@ripaojiedian
-  - 11,12|香港3|@ripaojiedian
-  - 11,12|香港4|@ripaojiedian
-  - 11,12|香港5|@ripaojiedian
+  - 11,12,13|HK_speednode_0010
+  - 11,12,13|HK_speednode_0009
+  - 11,12,13|HK_speednode_0008
   - 12|香港|@ripaojiedian
   type: select
 - name: 🇨🇦 加拿大
   proxies:
-  - REJECT
+  - 13|CA_speednode_0003
   type: select
 - name: 🇫🇷 法国
   proxies:
@@ -1351,21 +2010,27 @@ proxy-groups:
   proxies:
   - 11,12|新加坡|@ripaojiedian
   - 11,12|新加坡2|@ripaojiedian
-  - 11,12|新加坡3|@ripaojiedian
+  - 11,12,13|HK_speednode_0011
   type: select
 - name: 🇬🇧 英国
   proxies:
   - 13|GB_speednode_0005
+  - 13|GB_speednode_0006
+  - 13|GB_speednode_0007
   type: select
 - name: 🇰🇷 韩国
   proxies:
-  - 13|KR_speednode_0007
-  - 13|KR_speednode_0008
-  - 13|KR_speednode_0009
+  - REJECT
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
-  - REJECT
+  - 13|RU_speednode_0106
+  - 13|RU_speednode_0108
+  - 13|RU_speednode_0109
+  - 13|RU_speednode_0110
+  - 13|RU_speednode_0111
+  - 13|RU_speednode_0112
+  - 13|RU_speednode_0113
   type: select
 - name: 🇩🇪 德国
   proxies:
@@ -1374,7 +2039,7 @@ proxy-groups:
   - 9|🇩🇪@V2RayyNGvpn🇩🇪
   - 9|🇩🇪 t- me - V2RayyNGvpn 🇩🇪
   - 9|🇩🇪 Telegram= V2RayyNGvpn 🇩🇪2
-  - 13|DE_speednode_0002
+  - 13|DE_speednode_0004
   type: select
 rules:
 - MATCH,DIRECT
