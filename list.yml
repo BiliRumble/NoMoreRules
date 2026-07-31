@@ -1,4 +1,4 @@
-# Update: 2026-07-31 13:54
+# Update: 2026-07-31 16:31
 allow-lan: false
 dns:
   enable: true
@@ -33,7 +33,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 11,12,13|HK_speednode_0010
+- name: 11,12|香港3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 13118
@@ -41,7 +41,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: 11,12|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -66,7 +65,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 11,12,13|JP_speednode_0018
+- name: 11,12|日本2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
@@ -74,7 +73,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: 11,12|日本3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -83,7 +81,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12,13|HK_speednode_0012
+- name: 11,12,13|HK_speednode_0005
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
@@ -108,7 +106,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 11,12,13|HK_speednode_0011
+- name: 11,12,13|HK_speednode_0006
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17005
@@ -117,7 +115,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 11,12,13|HK_speednode_0014
+- name: 11,12,13|HK_speednode_0007
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -126,7 +124,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 11,12,13|HK_speednode_0013
+- name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 38961
@@ -134,7 +132,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - alterId: 2
   cipher: auto
   name: 12|香港|@ripaojiedian
@@ -145,22 +142,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 13|HK_speednode_0015
-  password: BxceQaOe
-  port: 38961
-  server: 16.162.122.119
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 13|US_speednode_0204
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -172,23 +153,21 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12|香港|@ripaojiedian
-  - 11,12|日本3|@ripaojiedian
-  - 11,12|日本|@ripaojiedian
-  - 11,12,13|HK_speednode_0012
-  - 11,12,13|HK_speednode_0010
-  - 11,12,13|JP_speednode_0018
-  - 11,12|新加坡3|@ripaojiedian
-  - 11,12,13|HK_speednode_0013
-  - 11,12,13|HK_speednode_0011
-  - 11,12|香港4|@ripaojiedian
-  - 11|🇭🇰 香港|@ripaojiedian
-  - 11|tg频道:@ripaojiedian
   - 11,12|香港5|@ripaojiedian
-  - 13|HK_speednode_0015
-  - 13|US_speednode_0204
+  - 11,12,13|HK_speednode_0006
+  - 11,12|香港3|@ripaojiedian
+  - 11,12|香港4|@ripaojiedian
+  - 11,12|日本2|@ripaojiedian
+  - 11,12|新加坡3|@ripaojiedian
+  - 11,12,13|HK_speednode_0007
+  - 11,12|美国3|@ripaojiedian
+  - 11,12,13|HK_speednode_0005
+  - 12|香港|@ripaojiedian
+  - 11|🇭🇰 香港|@ripaojiedian
+  - 11,12|日本3|@ripaojiedian
+  - 11|tg频道:@ripaojiedian
   - 11,12|新加坡2|@ripaojiedian
-  - 11,12,13|HK_speednode_0014
+  - 11,12|日本|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
