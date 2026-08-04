@@ -1,4 +1,4 @@
-# Update: 2026-08-05 00:45
+# Update: 2026-08-05 03:16
 allow-lan: false
 dns:
   enable: true
@@ -18,7 +18,22 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 8|🇰🇷KR
+- name: 8|西班牙
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 4433
+  server: es1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: es1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: 8|未命名
+  password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
+  port: 443
+  server: node-degame.bangboonet.ru
+  sni: node-degame.bangboonet.ru
+  tls: false
+  type: hysteria2
+- name: 8|KR
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
   server: hg1.yuanbaojc.site
@@ -34,7 +49,225 @@ proxies:
   sni: hg1.yuanbaojc.site
   tls: false
   type: hysteria2
-- name: 8|未命名
+- name: '8|未命名 #1'
+  password: 3f3da036-ab8f-405e-a5fd-e7223cb39866
+  port: 443
+  server: h1.fogplay-mts.ru
+  sni: h1.fogplay-mts.ru
+  tls: false
+  type: hysteria2
+- name: 8|🇪
+  obfs: salamander
+  obfs-password: iknjsvsjagi449mm
+  password: 4z2oldt85p494bgb
+  port: 52025
+  server: assets.gateway-stream.com
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 8|国
+  password: 5bc8aea0-04a6-4fcf-9a04-1a51518396a8
+  port: 35000
+  server: 129.151.250.154
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  tls: false
+  type: hysteria2
+- name: 8|西
+  password: 5bc8aea0-04a6-4fcf-9a04-1a51518396a8
+  port: 35000
+  server: 167.234.251.78
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: false
+  type: hysteria2
+- name: 8|🇷
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga1.api3-max.ru
+  sni: taga1.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: 8|土耳其
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga10.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: 8|🇹🇷土耳其
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga2.api3-max.ru
+  sni: taga2.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: 8|🇷土耳其
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga3.api3-max.ru
+  sni: taga3.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '8|🇷土耳其 #1'
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga4.api3-max.ru
+  sni: taga4.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: 8|🇪德国
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga5.api3-max.ru
+  sni: taga5.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '8|🇹🇷土耳其 #1'
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga6.api3-max.ru
+  skip-cert-verify: true
+  sni: taga6.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: 8|🇩🇪德国
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga8.api3-max.ru
+  sni: taga8.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '8|🇹🇷土耳其 #2'
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga9.api3-max.ru
+  sni: taga9.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '8|国 #1'
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa10.api3-max.ru
+  sni: wopa10.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: 8|🇧英国
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa3.api3-max.ru
+  sni: wopa3.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '8|🇬🇧英国 #1'
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa4.api3-max.ru
+  skip-cert-verify: true
+  sni: wopa4.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '8|🇺俄罗斯 #1'
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa5.api3-max.ru
+  sni: wopa5.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '8|🇧英国 #1'
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa6.api3-max.ru
+  sni: wopa6.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '8|🇧英国 #2'
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa8.api3-max.ru
+  skip-cert-verify: true
+  sni: wopa8.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '8|🇬🇧英国 #3'
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa9.api3-max.ru
+  sni: wopa9.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: 8|🇳🇱荷兰
+  password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
+  port: 443
+  server: finlandi.blokinet3.ru
+  skip-cert-verify: true
+  sni: finlandi.blokinet3.ru
+  tls: false
+  type: hysteria2
+- name: '8|国 #2'
+  password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
+  port: 30001
+  server: 155.117.19.221
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '8|🇷🇺俄罗斯 #1'
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 8443
+  server: 82.117.87.248
+  skip-cert-verify: true
+  sni: de-two.quiet-rogue.site
+  tls: false
+  type: hysteria2
+- name: '8|未命名 #2'
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: it-one.quiet-rogue.site
+  sni: it-one.quiet-rogue.site
+  tls: false
+  type: hysteria2
+- name: 8|德国
+  password: 8645697d-51c1-4e90-aca5-ba63a0392f11
+  port: 443
+  server: cze-01.node.lumixnet.com
+  sni: cze-01.node.lumixnet.com
+  tls: false
+  type: hysteria2
+- name: 8|🇷法国
+  password: 8bba3194-4856-46d1-8319-075817d87eb1
+  port: 31568
+  server: fr4.sodahub.online
+  sni: fr4.sodahub.online
+  tls: false
+  type: hysteria2
+- name: '8|🇩🇪德国 #2'
+  password: 8ffbff3b-12c9-4d49-af97-93a8d6cb4edb
+  port: 443
+  server: de2.sunconnecthub.com
+  sni: de2.sunconnecthub.com
+  tls: false
+  type: hysteria2
+- name: 8|荷兰
+  password: 99800091-8337-4112-8756-8cc60eb1ffa8
+  port: 10808
+  server: nl2.unlockvpn.online
+  sni: nl2.unlockvpn.online
+  tls: false
+  type: hysteria2
+- name: 8|英国
+  password: 99800091-8337-4112-8756-8cc60eb1ffa8
+  port: 10808
+  server: nl7.unlockvpn.online
+  sni: nl7.unlockvpn.online
+  tls: false
+  type: hysteria2
+- name: 8,9|41@oneclickvpnkeys
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 76.164.202.214
+  sni: mercedes-grape.yyuyy.com
+  tls: false
+  type: hysteria2
+- name: '8|🇬🇧英国 #4'
   password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
   port: 443
   server: 5.183.102.113
@@ -50,20 +283,58 @@ proxies:
   sni: iosapps.itunes.apple.com
   tls: false
   type: hysteria2
-- name: 8|🇷133266 | Telegram = t.me/SOSk...
+- name: 8|🇫🇷法国
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 15.237.197.139
+  skip-cert-verify: true
+  sni: https://t.me/clashv8🇳
+  tls: false
+  type: hysteria2
+- name: '8|🇫🇷法国 #1'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 15.237.219.57
   skip-cert-verify: true
-  sni: https://t.me/clashv8
+  sni: https://t.me/clashv8🇨🇳
   tls: false
   type: hysteria2
-- name: '8|未命名 #1'
+- name: '8|🇩🇪德国 #3'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: de2.vpn.legendaah.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tls: false
+  type: hysteria2
+- name: 8|🇱
   password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
   port: 443
   server: 5.255.102.165
   skip-cert-verify: true
   sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: 8|罗尼亚
+  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+  port: 8443
+  server: 77.74.123.134
+  sni: grape-zet-turbo-nl.yyuyy.com
+  tls: false
+  type: hysteria2
+- name: 8|🇸美国
+  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  port: 8080
+  server: 23.95.75.151
+  skip-cert-verify: true
+  sni: hopp-us.yyuyy.com
+  tls: false
+  type: hysteria2
+- name: 8|🇺🇸美国
+  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  port: 8443
+  server: 23.95.75.151
+  sni: hopp-us.yyuyy.com
   tls: false
   type: hysteria2
 - name: '8,9|کانال تلگرام : Free_VPN_CH@'
@@ -76,7 +347,14 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8|US
+- name: 8|亚
+  password: b8f1b61e-d5c4-4765-866d-ece1fc8e590b
+  port: 9443
+  server: 104.165.205.226
+  sni: onecloudstream.com
+  tls: false
+  type: hysteria2
+- name: 8|🇺🇸US
   obfs: salamander
   obfs-password: XBvVbvzQCq6Ovbnh
   password: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
@@ -85,12 +363,33 @@ proxies:
   sni: usaw2.awo-link.com
   tls: false
   type: hysteria2
-- name: 8|🇺🇸US
+- name: '8|🇺🇸US #1'
   password: c2948c84-748f-47f6-bc7a-b949ef279f85
   port: 443
   server: 78.159.240.215
   skip-cert-verify: true
   sni: quic.tyr-agentstvo.tech
+  tls: false
+  type: hysteria2
+- name: '8|德国 #1'
+  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
+  port: 443
+  server: bel-03.node.lumixnet.com
+  sni: bel-03.node.lumixnet.com
+  tls: false
+  type: hysteria2
+- name: 8,9|72@oneclickvpnkeys
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8443
+  server: 185.79.138.71
+  sni: hopp-legend-se.roxa.org
+  tls: false
+  type: hysteria2
+- name: '8|🇬🇧英国 #5'
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 205.237.109.213
+  sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
 - name: 9|Proxy_mtm 6
@@ -103,7 +402,7 @@ proxies:
   sni: 185.47.172.226
   tls: false
   type: hysteria2
-- name: 9|@SHAHSERVER1
+- name: 9|@V2rayng_Fast
   obfs: salamander
   obfs-password: w0tx1ju9iix6913p
   password: 0puq3lmwv7qtp76t
@@ -123,12 +422,26 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '9|Trkiye '
+- name: 9|88@oneclickvpnkeys
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: 143.246.136.159
+  sni: taga2.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: 9|Trkiye 🇹🇷
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: 167.104.219.217
   skip-cert-verify: false
   sni: taga5.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: 9|71@oneclickvpnkeys
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: 87.121.105.108
+  sni: swe-one.quiet-rogue.site
   tls: false
   type: hysteria2
 - name: 9|🛰️57@oneclickvpnkeys
@@ -152,13 +465,6 @@ proxies:
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
   server: 76.164.202.213
-  sni: mercedes-grape.yyuyy.com
-  tls: false
-  type: hysteria2
-- name: 9|41@oneclickvpnkeys
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 76.164.202.214
   sni: mercedes-grape.yyuyy.com
   tls: false
   type: hysteria2
@@ -242,7 +548,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: '9|@FarazV2ray #1'
+- name: 9|️TELEGRAM@SHAHSERVER1
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNjey
@@ -329,6 +635,12 @@ proxies:
   server: 91.107.174.32
   skip-cert-verify: true
   sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: 9|67@oneclickvpnkeys
+  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
+  port: 443
+  server: fr2.h2corp.org
   tls: false
   type: hysteria2
 - name: 9|🛰️98@oneclickvpnkeys
@@ -1058,130 +1370,173 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 13|RO_speednode_0044
-  - 13|NL_speednode_0014
-  - 9|️@ATLAS_V2VPN️️491️
-  - 13|JP_speednode_0011
-  - 13|US_speednode_0060
-  - 13|NL_speednode_0013
-  - 13|RO_speednode_0022
-  - 13|RO_speednode_0046
-  - '8,9|کانال تلگرام : Free_VPN_CH@'
-  - 13|US_speednode_0067
-  - 9|Proxy_mtm 5
-  - 13|RO_speednode_0035
-  - 13|RO_speednode_0052
-  - 13|US_speednode_0062
-  - 13|GB_speednode_0004
-  - 13|US_speednode_0056
-  - 11,12|日本|@ripaojiedian
-  - 11,12|新加坡3|@ripaojiedian
-  - 11,12|美国2|@ripaojiedian
-  - 13|RO_speednode_0031
-  - 9|@SHAHSERVER1
-  - 11,12|香港3|@ripaojiedian
-  - 11,12|美国|@ripaojiedian
-  - 13|RO_speednode_0037
-  - 13|RO_speednode_0048
-  - 11,12|日本2|@ripaojiedian
-  - 13|RO_speednode_0039
-  - 11,12|香港4|@ripaojiedian
-  - 13|LU_speednode_0012
-  - 13|US_speednode_0059
-  - 9|@Daily_Configs
-  - 8|未命名
-  - 13|RO_speednode_0034
-  - 13|US_speednode_0058
-  - 13|RO_speednode_0025
-  - 8|🇺🇸US
-  - 13|RO_speednode_0053
-  - 13|RO_speednode_0038
-  - 13|RO_speednode_0027
-  - 9|@Selinc
-  - 13|RO_speednode_0026
-  - 13|FR_speednode_0003
-  - '9|کانال تلگرام : Free_VPN_CH@ #3'
-  - 13|US_speednode_0070
-  - 13|RO_speednode_0045
-  - 13|RO_speednode_0042
-  - 13|US_speednode_0065
-  - 9|@FarazV2ray
-  - 13|AE_speednode_0001
-  - 13|NL_speednode_0015
-  - 13|RO_speednode_0047
-  - 13|NL_speednode_0016
-  - 13|RO_speednode_0036
-  - '9|Romania '
-  - 11,12|日本3|@ripaojiedian
-  - 9|+@Azarakhsh_Proxy+
-  - 13|IE_speednode_0009
-  - 8|🇰🇷 KR
-  - 13|NL_speednode_0018
-  - 13|US_speednode_0066
-  - 13|US_speednode_0069
-  - 9| - NL - @FreeOnlineVPN
-  - 9|🛰️84@oneclickvpnkeys
-  - 13|RO_speednode_0033
-  - 8|US
-  - 13|RO_speednode_0041
-  - 13|FR_speednode_0002
-  - 13|RO_speednode_0023
-  - 9|🛰️65@oneclickvpnkeys
-  - 9|️92@oneclickvpnkeys
-  - 13|RO_speednode_0050
   - 13|RO_speednode_0054
-  - 9|️️16@SHAHSERVER1
-  - 8|🇰🇷KR
-  - 8|🇰
+  - 8|英国
+  - 9|🛰️65@oneclickvpnkeys
+  - 9| - NL - @FreeOnlineVPN
+  - 13|US_speednode_0067
+  - 13|FR_speednode_0003
+  - '8|🇬🇧英国 #1'
+  - '8,9|کانال تلگرام : Free_VPN_CH@'
   - 9|🧬26@oneclickvpnkeys
-  - 13|HK_speednode_0008
-  - 13|RO_speednode_0030
-  - 13|RO_speednode_0051
-  - 13|RO_speednode_0024
-  - 13|RO_speednode_0029
-  - 9|🛰️98@oneclickvpnkeys
-  - '8|未命名 #1'
-  - 13|RO_speednode_0021
+  - '8|国 #2'
+  - 13|NL_speednode_0016
+  - 11,12|日本3|@ripaojiedian
+  - 13|LU_speednode_0012
   - 13|US_speednode_0071
-  - 13|US_speednode_0068
-  - 11,12|美国3|@ripaojiedian
+  - 13|RO_speednode_0050
+  - 11,12|日本2|@ripaojiedian
+  - 13|US_speednode_0066
+  - '8|🇩🇪德国 #2'
+  - 13|NL_speednode_0018
+  - 9|🛰️84@oneclickvpnkeys
+  - 9|️@ATLAS_V2VPN️️491️
+  - 13|RO_speednode_0038
+  - 9|Proxy_mtm 5
+  - '8|🇺俄罗斯 #1'
+  - 11,12|日本|@ripaojiedian
+  - 13|JP_speednode_0011
+  - 13|NL_speednode_0014
+  - 13|US_speednode_0069
+  - 13|NL_speednode_0013
   - 13|US_speednode_0063
-  - 13|GB_speednode_0005
-  - '9|@FarazV2ray #1'
-  - 11,12|新加坡2|@ripaojiedian
-  - 13|RO_speednode_0043
-  - 11|🇭🇰 香港|@ripaojiedian
-  - 13|US_speednode_0057
-  - 11,12|新加坡|@ripaojiedian
-  - 11,12|香港5|@ripaojiedian
-  - 13|US_speednode_0072
-  - 13|GB_speednode_0007
-  - 13|RO_speednode_0040
-  - 9|🛰️57@oneclickvpnkeys
-  - '9|اا تلگرام : https://t.me/Astro...'
-  - 9|3🛰️@oneclickvpnkeys
-  - 9|🛰️66@oneclickvpnkeys
-  - 9|🧬36@oneclickvpnkeys
-  - 13|JP_speednode_0010
-  - 11|tg频道:@ripaojiedian
-  - 13|RO_speednode_0049
-  - 13|GB_speednode_0006
-  - 13|RO_speednode_0055
-  - '9|کانال تلگرام : Free_VPN_CH@ #1'
-  - 8|🇷133266 | Telegram = t.me/SOSk...
-  - 12|香港|@ripaojiedian
-  - 9|  @vistav2ray  👈👈کانال  ✅
-  - 9|hysteria
-  - 13|NL_speednode_0017
-  - 9|41@oneclickvpnkeys
-  - '9|کانال تلگرام : Free_VPN_CH@ #2'
-  - 13|RO_speednode_0020
-  - 9|Proxy_mtm 6
-  - 13|US_speednode_0064
-  - 13|RO_speednode_0032
+  - '8|🇷土耳其 #1'
   - 13|RO_speednode_0028
-  - '9|Trkiye '
+  - 13|RO_speednode_0039
+  - 13|RO_speednode_0031
+  - 9|Proxy_mtm 6
+  - '8|🇫🇷法国 #1'
+  - 13|GB_speednode_0007
+  - 13|GB_speednode_0004
+  - 9|@Selinc
+  - 13|RO_speednode_0025
+  - 13|RO_speednode_0048
+  - 8|罗尼亚
+  - 13|NL_speednode_0017
+  - 13|US_speednode_0070
+  - 13|US_speednode_0057
+  - '8|🇹🇷土耳其 #2'
+  - 8|荷兰
+  - 9|🛰️57@oneclickvpnkeys
+  - 13|RO_speednode_0043
+  - 9|🧬36@oneclickvpnkeys
+  - 13|RO_speednode_0023
+  - 13|AE_speednode_0001
+  - '8|🇩🇪德国 #3'
+  - 11,12|新加坡3|@ripaojiedian
+  - 13|GB_speednode_0006
+  - 11,12|美国2|@ripaojiedian
+  - 13|RO_speednode_0036
+  - 11|tg频道:@ripaojiedian
+  - '9|کانال تلگرام : Free_VPN_CH@ #1'
+  - 9|@Daily_Configs
+  - 8|🇸美国
+  - 13|RO_speednode_0051
+  - 13|RO_speednode_0052
+  - 8|🇹🇷土耳其
+  - 13|US_speednode_0072
+  - 13|RO_speednode_0053
+  - 13|RO_speednode_0033
+  - 11,12|新加坡2|@ripaojiedian
+  - 13|US_speednode_0059
+  - '8|🇬🇧英国 #3'
   - 9|@prrofile_purple  ️ تلگرام
+  - 13|HK_speednode_0008
+  - 8|西
+  - 9|🛰️98@oneclickvpnkeys
+  - 13|RO_speednode_0030
+  - 13|RO_speednode_0021
+  - 9|67@oneclickvpnkeys
+  - '8|🇺🇸US #1'
+  - 8,9|72@oneclickvpnkeys
+  - 13|US_speednode_0068
+  - 13|US_speednode_0058
+  - '9|کانال تلگرام : Free_VPN_CH@ #2'
+  - 9|️️16@SHAHSERVER1
+  - 11,12|香港3|@ripaojiedian
+  - 9|@V2rayng_Fast
+  - 13|RO_speednode_0055
+  - 13|US_speednode_0060
+  - 13|RO_speednode_0026
+  - 13|US_speednode_0056
+  - 8|亚
+  - 11,12|香港4|@ripaojiedian
+  - 8|🇫🇷法国
+  - '8|🇬🇧英国 #5'
+  - '8|国 #1'
+  - 13|RO_speednode_0022
+  - 13|RO_speednode_0029
+  - 8|🇺🇸US
+  - 9|️TELEGRAM@SHAHSERVER1
+  - 8,9|41@oneclickvpnkeys
+  - 13|GB_speednode_0005
+  - 8|🇪德国
+  - 13|US_speednode_0062
+  - 13|RO_speednode_0042
+  - 8|土耳其
+  - 13|RO_speednode_0032
+  - 8|未命名
+  - 8|🇰
+  - 13|FR_speednode_0002
+  - '8|未命名 #1'
+  - 9|  @vistav2ray  👈👈کانال  ✅
+  - 13|NL_speednode_0015
+  - 13|RO_speednode_0020
+  - 13|RO_speednode_0035
+  - 9|88@oneclickvpnkeys
+  - 8|🇷
+  - 11,12|美国3|@ripaojiedian
+  - 11,12|美国|@ripaojiedian
+  - 9|+@Azarakhsh_Proxy+
+  - 9|3🛰️@oneclickvpnkeys
+  - 8|🇷法国
+  - '9|کانال تلگرام : Free_VPN_CH@ #3'
+  - 8|🇩🇪德国
+  - 9|hysteria
+  - '8|🇧英国 #2'
+  - 12|香港|@ripaojiedian
+  - 13|RO_speednode_0024
+  - 13|RO_speednode_0027
+  - 8|德国
+  - 8|KR
+  - 13|RO_speednode_0045
+  - 8|🇳🇱荷兰
+  - 9|@FarazV2ray
+  - 8|国
+  - 8|🇷土耳其
+  - '8|🇧英国 #1'
+  - 13|US_speednode_0064
+  - 9|️92@oneclickvpnkeys
+  - 13|US_speednode_0065
+  - '8|德国 #1'
+  - 9|71@oneclickvpnkeys
+  - 13|IE_speednode_0009
+  - 11,12|新加坡|@ripaojiedian
+  - 8|🇺🇸美国
+  - 8|🇱
+  - '9|اا تلگرام : https://t.me/Astro...'
+  - 11|🇭🇰 香港|@ripaojiedian
+  - '8|未命名 #2'
+  - 13|RO_speednode_0041
+  - '8|🇷🇺俄罗斯 #1'
+  - 13|JP_speednode_0010
+  - 11,12|香港5|@ripaojiedian
+  - 8|西班牙
+  - 8|🇰🇷 KR
+  - '8|🇹🇷土耳其 #1'
+  - 8|🇧英国
+  - 13|RO_speednode_0040
+  - 8|🇪
+  - 13|RO_speednode_0046
+  - 13|RO_speednode_0049
+  - 13|RO_speednode_0037
+  - 13|RO_speednode_0044
+  - 9|🛰️66@oneclickvpnkeys
+  - '8|🇬🇧英国 #4'
+  - 13|RO_speednode_0034
+  - 13|RO_speednode_0047
+  - 9|Trkiye 🇹🇷
+  - '9|Romania '
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1245,8 +1600,10 @@ proxy-groups:
   type: select
 - name: 🇺🇸 美国
   proxies:
-  - 8|US
+  - 8|🇸美国
+  - 8|🇺🇸美国
   - 8|🇺🇸US
+  - '8|🇺🇸US #1'
   - 11,12|美国|@ripaojiedian
   - 11,12|美国2|@ripaojiedian
   - 11,12|美国3|@ripaojiedian
@@ -1290,6 +1647,10 @@ proxy-groups:
   type: select
 - name: 🇫🇷 法国
   proxies:
+  - 8|🇷法国
+  - 8,9|41@oneclickvpnkeys
+  - 8|🇫🇷法国
+  - '8|🇫🇷法国 #1'
   - 13|FR_speednode_0002
   - 13|FR_speednode_0003
   type: select
@@ -1301,6 +1662,14 @@ proxy-groups:
   type: select
 - name: 🇬🇧 英国
   proxies:
+  - '8|🇬🇧英国 #1'
+  - '8|🇺俄罗斯 #1'
+  - '8|🇧英国 #1'
+  - '8|🇧英国 #2'
+  - '8|🇬🇧英国 #3'
+  - 8|英国
+  - '8|🇬🇧英国 #4'
+  - '8|🇬🇧英国 #5'
   - 13|GB_speednode_0004
   - 13|GB_speednode_0005
   - 13|GB_speednode_0006
@@ -1308,16 +1677,25 @@ proxy-groups:
   type: select
 - name: 🇰🇷 韩国
   proxies:
-  - 8|🇰🇷KR
+  - 8|KR
   - 8|🇰🇷 KR
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
-  - REJECT
+  - 8|🇷土耳其
+  - '8|🇷土耳其 #1'
+  - '8|🇷🇺俄罗斯 #1'
   type: select
 - name: 🇩🇪 德国
   proxies:
+  - 8|🇪德国
+  - 8|🇩🇪德国
+  - 8|🇧英国
+  - 8|德国
+  - '8|🇩🇪德国 #2'
+  - '8|🇩🇪德国 #3'
   - '8,9|کانال تلگرام : Free_VPN_CH@'
+  - '8|德国 #1'
   type: select
 rules:
 - MATCH,DIRECT
