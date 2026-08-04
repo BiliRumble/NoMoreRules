@@ -1,4 +1,4 @@
-# Update: 2026-08-04 19:13
+# Update: 2026-08-04 21:44
 allow-lan: false
 dns:
   enable: true
@@ -139,67 +139,28 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 13|HK_speednode_0007
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - name: 13|HK_speednode_0008
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 13|HK_speednode_0009
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-  udp: true
-- name: 13|JP_speednode_0010
   password: ND91608427
   port: 443
-  server: definite-sturgeon.rooster465.autos
+  server: upright-hamster.rooster465.autos
   skip-cert-verify: true
-  sni: definite-sturgeon.rooster465.autos
+  sni: upright-hamster.rooster465.autos
   type: trojan
   udp: true
-- name: 13|JP_speednode_0011
+- name: 13|IE_speednode_0009
   password: ND91608427
   port: 443
-  server: upright-impala.rooster465.autos
+  server: skilled-lioness.rooster465.autos
   skip-cert-verify: true
-  sni: upright-impala.rooster465.autos
+  sni: skilled-lioness.rooster465.autos
   type: trojan
   udp: true
-- name: 13|KR_speednode_0012
+- name: 13|LU_speednode_0012
   password: ND91608427
   port: 443
-  server: definite-malamute.rooster465.autos
+  server: eager-louse.rooster465.autos
   skip-cert-verify: true
-  sni: definite-malamute.rooster465.autos
-  type: trojan
-  udp: true
-- name: 13|KR_speednode_0013
-  password: ND91608427
-  port: 443
-  server: moved-meerkat.rooster465.autos
-  skip-cert-verify: true
-  sni: moved-meerkat.rooster465.autos
-  type: trojan
-  udp: true
-- name: 13|NL_speednode_0017
-  password: 1BARPLkaLl
-  port: 32914
-  server: 45.130.22.70
-  skip-cert-verify: true
-  sni: 45.130.22.70
+  sni: eager-louse.rooster465.autos
   type: trojan
   udp: true
 proxy-groups:
@@ -213,29 +174,24 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 11,12|香港4|@ripaojiedian
-  - 11,12|美国|@ripaojiedian
-  - 11,12|新加坡|@ripaojiedian
-  - 11,12|美国2|@ripaojiedian
-  - 13|KR_speednode_0012
-  - 11,12|美国3|@ripaojiedian
-  - 11|tg频道:@ripaojiedian
-  - 13|HK_speednode_0007
-  - 11|🇭🇰 香港|@ripaojiedian
-  - 13|KR_speednode_0013
-  - 13|JP_speednode_0010
+  - 11,12|新加坡2|@ripaojiedian
   - 12|香港|@ripaojiedian
-  - 13|HK_speednode_0008
-  - 13|JP_speednode_0011
-  - 11,12|香港3|@ripaojiedian
   - 11,12|日本|@ripaojiedian
-  - 11,12|日本3|@ripaojiedian
-  - 13|NL_speednode_0017
+  - 13|HK_speednode_0008
+  - 11|tg频道:@ripaojiedian
+  - 11|🇭🇰 香港|@ripaojiedian
+  - 11,12|美国2|@ripaojiedian
+  - 13|IE_speednode_0009
+  - 13|LU_speednode_0012
   - 11,12|新加坡3|@ripaojiedian
+  - 11,12|美国|@ripaojiedian
+  - 11,12|香港4|@ripaojiedian
+  - 11,12|美国3|@ripaojiedian
+  - 11,12|新加坡|@ripaojiedian
   - 11,12|香港5|@ripaojiedian
   - 11,12|日本2|@ripaojiedian
-  - 13|HK_speednode_0009
-  - 11,12|新加坡2|@ripaojiedian
+  - 11,12|香港3|@ripaojiedian
+  - 11,12|日本3|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
