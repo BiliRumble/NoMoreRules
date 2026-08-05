@@ -1,4 +1,4 @@
-# Update: 2026-08-05 21:39
+# Update: 2026-08-06 00:25
 allow-lan: false
 dns:
   enable: true
@@ -139,30 +139,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 14|HK_speednode_0008
-  password: ND91608427
-  port: 443
-  server: upright-hamster.rooster465.autos
-  skip-cert-verify: true
-  sni: upright-hamster.rooster465.autos
-  type: trojan
-  udp: true
-- name: 14|IE_speednode_0009
-  password: ND91608427
-  port: 443
-  server: skilled-lioness.rooster465.autos
-  skip-cert-verify: true
-  sni: skilled-lioness.rooster465.autos
-  type: trojan
-  udp: true
-- name: 14|LU_speednode_0012
-  password: ND91608427
-  port: 443
-  server: eager-louse.rooster465.autos
-  skip-cert-verify: true
-  sni: eager-louse.rooster465.autos
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -174,23 +150,20 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12,13|香港4|@ripaojiedian
+  - 12,13|新加坡|@ripaojiedian
   - 12,13|香港5|@ripaojiedian
-  - 12,13|香港3|@ripaojiedian
-  - 14|LU_speednode_0012
+  - 12,13|日本2|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - 12,13|美国|@ripaojiedian
+  - 12,13|香港4|@ripaojiedian
+  - 12|🇭🇰 香港|@ripaojiedian
   - 12,13|新加坡2|@ripaojiedian
+  - 12,13|美国2|@ripaojiedian
   - 12,13|日本|@ripaojiedian
   - 12,13|日本3|@ripaojiedian
-  - 12,13|新加坡|@ripaojiedian
-  - 12,13|美国|@ripaojiedian
-  - 14|IE_speednode_0009
-  - 12,13|美国3|@ripaojiedian
-  - 14|HK_speednode_0008
-  - 12,13|美国2|@ripaojiedian
   - 13|香港|@ripaojiedian
-  - 12,13|日本2|@ripaojiedian
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 12|tg频道:@ripaojiedian
+  - 12,13|香港3|@ripaojiedian
   - 12,13|新加坡3|@ripaojiedian
   type: fallback
   url: https://www.google.com/
