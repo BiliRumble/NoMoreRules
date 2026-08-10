@@ -1,4 +1,4 @@
-# Update: 2026-08-11 02:40
+# Update: 2026-08-11 05:30
 allow-lan: false
 dns:
   enable: true
@@ -501,14 +501,23 @@ proxies:
   sni: 185.47.172.226
   tls: false
   type: hysteria2
-- name: 10|94@oneclickvpnkeys
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: 443
-  server: 31.76.113.32
-  sni: it-one.quiet-rogue.site
+- name: 10|140010 | Telegram = t.me/SOSke...
+  password: 7836b28e-8451-4596-ad3e-e3601b2335ba
+  port: 8443
+  server: 78.159.240.69
+  skip-cert-verify: false
+  sni: quic.tyr-agentstvo.tech
   tls: false
   type: hysteria2
-- name: '10|اا تلگرام : https://t.me/Astro...'
+- name: 10|🇺140009 | ⚡️Telegram = t.me/SO...
+  password: 95c61940-2823-4665-a033-d4f2218329b6
+  port: 443
+  server: 46.8.210.209
+  skip-cert-verify: false
+  sni: ru3.kinotorg.net
+  tls: false
+  type: hysteria2
+- name: '10|  : @AstroVPN_official'
   obfs: salamander
   obfs-password: 4b6gmo4jujpapx99
   password: AstroVPN_official
@@ -516,6 +525,25 @@ proxies:
   server: hystry.accuratenetworkchecker.ir
   skip-cert-verify: false
   sni: vhd.nth.gelzaro.ir
+  tls: false
+  type: hysteria2
+- name: 10|رر   ارت ⚡️
+  obfs: salamander
+  obfs-password: hmvyfx1tpnz6pp3k
+  password: AstroVPN_official
+  port: 36896
+  server: ptserv.accuratenetworkchecker.ir
+  sni: lms22.gelzaro.ir
+  tls: false
+  type: hysteria2
+- name: 10|@filembad
+  obfs: salamander
+  obfs-password: IL+pm5"K?4gef:Jvn8^G+:N,Neyy8
+  password: Configvibes
+  port: 2096
+  server: 107.181.155.107
+  skip-cert-verify: true
+  sni: ftp.debian.org
   tls: false
   type: hysteria2
 - name: 10|+@Azarakhsh_Proxy+
@@ -546,7 +574,7 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- name: 10|  @vistav2ray  👈کانال  ✅
+- name: '10|  @vistav2ray  👈اا م '
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNjey
@@ -606,16 +634,6 @@ proxies:
   sni: www.docker.com
   tls: false
   type: hysteria2
-- name: '10|@musiclovers85 م  '
-  obfs: salamander
-  obfs-password: mtg2vchyir6la3et
-  password: k1dom6dyqelryllv
-  port: 52021
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   name: 10|N
@@ -650,7 +668,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10|@v2rayng_Fast
+- name: 10|@FarazV2ray
   obfs: salamander
   obfs-password: dscbu47eev49tv84
   password: kjq3gpn1xom1ted9
@@ -660,7 +678,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '10|@v2rayng_Fast #1'
+- name: '10|@FarazV2ray #1'
   obfs: salamander
   obfs-password: bwgy7ppdoiz448uw
   password: kjq3gpn1xom1ted9
@@ -670,7 +688,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '10|@v2rayng_Fast #2'
+- name: '10|@FarazV2ray #2'
   obfs: salamander
   obfs-password: qfsk2h15o2dm0msi
   password: kjq3gpn1xom1ted9
@@ -680,7 +698,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '10|@v2rayng_Fast #3'
+- name: '10|@FarazV2ray #3'
   obfs: salamander
   obfs-password: hitar6eeayxd7imh
   password: kjq3gpn1xom1ted9
@@ -1377,172 +1395,174 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - '9|未命名 #3'
-  - 9|🇰🇷 KR
-  - 14|RO_speednode_0031
-  - 14|GB_speednode_0007
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|RO_speednode_0046
   - 9|美国4@wxgqlfx#美国
-  - 14|RO_speednode_0060
-  - 12,13|新加坡2|@ripaojiedian
-  - '9|荷兰 #8'
-  - 14|NL_speednode_0018
-  - '9|国 #1'
-  - 12,13|日本2|@ripaojiedian
-  - 14|RO_speednode_0038
-  - 14|RO_speednode_0056
-  - 14|RO_speednode_0053
-  - '9|罗马尼亚 #1'
-  - 9|波兰
-  - 9|DE
-  - 14|RO_speednode_0030
-  - 9|国3@wxgqlfx#美国
-  - '9|英国 #1'
-  - 14|NL_speednode_0017
-  - 9|罗
-  - 14|RO_speednode_0041
-  - 12,13|美国2|@ripaojiedian
-  - 9|德国
-  - 14|NL_speednode_0019
-  - 10|@confiig_hub
-  - 10|🇩🇪@FreakConfig
-  - 14|RO_speednode_0039
-  - '10|اا تلگرام : https://t.me/Astro...'
-  - 14|FR_speednode_0003
-  - '10|@v2rayng_Fast #1'
-  - 14|FR_speednode_0004
-  - 14|RO_speednode_0067
-  - 9|BR
-  - 14|RO_speednode_0045
-  - 10|🪢30@oneclickvpnkeys
-  - 10|@v2rayng_Fast
-  - '9|荷兰 #6'
-  - '9,10|کانال تلگرام : Free_VPN_CH@'
-  - 10|hysteria
-  - 14|RO_speednode_0026
-  - 14|RO_speednode_0052
-  - 9|未命名
-  - 14|RO_speednode_0043
-  - '9|兰 #2'
-  - 14|GB_speednode_0013
-  - 10|@FreakConfig
-  - 14|RO_speednode_0040
-  - 14|RO_speednode_0048
-  - 14|RO_speednode_0066
-  - '9|荷兰 #7'
-  - 10|22@oneclickvpnkeys
-  - '9|未命名 #1'
-  - 14|GB_speednode_0011
-  - 14|RO_speednode_0032
-  - 14|RO_speednode_0029
-  - 14|RO_speednode_0028
-  - 14|RO_speednode_0025
-  - '9|德国 #2'
-  - '9|芬兰 #1'
-  - 14|RO_speednode_0034
-  - '9|德国 #4'
-  - '9|未命名 #4'
-  - 9|国
-  - 14|RO_speednode_0054
-  - 14|NL_speednode_0020
-  - 9|🇺🇸US
-  - '9|德国 #3'
-  - '10|✅  @vistav2ray  👈👈کانال ما ✅ #1'
-  - 14|FR_speednode_0005
-  - 12,13|美国3|@ripaojiedian
-  - 10|94@oneclickvpnkeys
-  - 14|GB_speednode_0009
-  - 9|US
-  - 10| - NL - @FreeOnlineVPN
-  - 9|法国
-  - '9|未命名 #5'
-  - 9|英国
-  - 10|🪢8@oneclickvpnkeys
-  - '10|کانال تلگرام : Free_VPN_CH@ #1'
-  - 14|RO_speednode_0061
-  - 14|RO_speednode_0055
-  - 14|IE_speednode_0016
-  - 14|CN_speednode_0001
-  - 12,13|日本|@ripaojiedian
-  - 14|RO_speednode_0036
-  - 14|GB_speednode_0012
-  - 14|GB_speednode_0010
-  - 12|🇭🇰 香港|@ripaojiedian
-  - '10|کانال تلگرام : Free_VPN_CH@ #3'
-  - '9|荷兰 #4'
-  - '10|@v2rayng_Fast #2'
-  - '10|کانال تلگرام : Free_VPN_CH@ #2'
-  - 14|RO_speednode_0050
-  - 9|🇭🇰HK
-  - 14|GB_speednode_0014
-  - 12,13|香港3|@ripaojiedian
   - 14|RO_speednode_0057
-  - 10|N2
-  - 14|FR_speednode_0006
-  - 9|西
-  - '9|未命名 #9'
-  - 9|芬兰
-  - 14|NL_speednode_0021
-  - 14|RO_speednode_0047
-  - '9|国 #2'
-  - 9|🇰
-  - 12,13|新加坡|@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - '9|未命名 #7'
-  - '10|@v2rayng_Fast #3'
-  - 10|N
-  - 9|兰
-  - 14|GB_speednode_0015
-  - '9|荷兰 #2'
-  - 14|RO_speednode_0042
-  - '9|荷兰 #3'
-  - '9|未命名 #6'
-  - 14|RO_speednode_0033
-  - '9|兰 #1'
-  - 14|RO_speednode_0065
-  - 12,13|日本3|@ripaojiedian
-  - 14|NL_speednode_0023
-  - 9|罗马尼亚
-  - 14|RO_speednode_0059
-  - 14|RO_speednode_0062
-  - 14|RO_speednode_0049
-  - 10|  @vistav2ray  👈کانال  ✅
+  - 14|RO_speednode_0025
   - '9|荷兰 #5'
-  - 14|RO_speednode_0044
-  - 14|RO_speednode_0064
-  - 12|tg频道:@ripaojiedian
-  - '9|未命名 #8'
   - 14|RO_speednode_0063
-  - '9|荷兰 #1'
-  - '9|法国 #1'
-  - 14|FR_speednode_0002
-  - 9,10|53@oneclickvpnkeys
-  - '9|罗马尼亚 #4'
-  - 9|新加坡
-  - 9|🇺🇸139909 | Telegram = t.me/SOS...
-  - 10|+@Azarakhsh_Proxy+
-  - 14|RO_speednode_0027
-  - 9,10|✨19@oneclickvpnkeys
-  - '9|罗马尼亚 #2'
-  - '9|未命名 #11'
-  - 14|RO_speednode_0037
-  - 14|RO_speednode_0051
-  - 9|荷兰
-  - 9|KR
-  - 14|GB_speednode_0008
-  - 14|NL_speednode_0022
-  - 14|RO_speednode_0035
-  - '10|@musiclovers85 م  '
-  - '9|未命名 #2'
-  - 9|🇯🇵JP
+  - 14|GB_speednode_0013
+  - 10| - NL - @FreeOnlineVPN
+  - 14|IE_speednode_0016
   - '9|德国 #1'
+  - '9|未命名 #3'
+  - 9|德国
+  - 10|🇺140009 | ⚡️Telegram = t.me/SO...
   - 12,13|香港4|@ripaojiedian
-  - 12,13|香港5|@ripaojiedian
-  - 14|RO_speednode_0058
+  - '9|荷兰 #2'
+  - 14|RO_speednode_0061
+  - 14|RO_speednode_0041
+  - '9|罗马尼亚 #2'
+  - 13|香港|@ripaojiedian
+  - '9|兰 #1'
+  - '10|  @vistav2ray  👈اا م '
+  - 14|RO_speednode_0035
+  - '9|未命名 #7'
+  - 9|US
+  - 9|未命名
+  - 14|RO_speednode_0032
+  - 9,10|✨19@oneclickvpnkeys
+  - 9|国
+  - '10|کانال تلگرام : Free_VPN_CH@ #2'
+  - 10|@FreakConfig
+  - 9|KR
+  - 14|RO_speednode_0053
+  - 14|RO_speednode_0067
+  - '9|未命名 #5'
+  - '9|国 #2'
+  - '9|荷兰 #6'
+  - 9|新加坡
+  - 9|芬兰
+  - 14|RO_speednode_0055
+  - 12|tg频道:@ripaojiedian
+  - 12,13|新加坡|@ripaojiedian
+  - 14|RO_speednode_0051
+  - 14|RO_speednode_0043
+  - '9|法国 #1'
+  - 14|FR_speednode_0004
+  - 14|RO_speednode_0030
+  - 12,13|新加坡3|@ripaojiedian
+  - 14|RO_speednode_0038
+  - 9|🇭🇰HK
+  - 14|RO_speednode_0040
+  - '10|@FarazV2ray #3'
+  - 14|FR_speednode_0003
   - '9|美国 #1'
+  - 14|RO_speednode_0054
+  - '9|未命名 #1'
+  - 10|N2
+  - 9|荷兰
+  - 10|hysteria
+  - 14|RO_speednode_0050
+  - 14|NL_speednode_0021
+  - '10|کانال تلگرام : Free_VPN_CH@ #1'
+  - 14|GB_speednode_0011
+  - 14|RO_speednode_0028
+  - 14|RO_speednode_0056
+  - '9|芬兰 #1'
+  - '9,10|کانال تلگرام : Free_VPN_CH@'
+  - '9|荷兰 #3'
+  - 14|FR_speednode_0002
+  - '9|未命名 #9'
+  - '9|荷兰 #8'
+  - 14|GB_speednode_0008
+  - '9|未命名 #6'
+  - 14|NL_speednode_0020
+  - 14|RO_speednode_0045
+  - 9|🇺🇸139909 | Telegram = t.me/SOS...
+  - 10|N
+  - 9|法国
+  - 14|RO_speednode_0059
+  - 10|22@oneclickvpnkeys
+  - 14|RO_speednode_0060
+  - 14|RO_speednode_0052
+  - 14|FR_speednode_0006
+  - 14|NL_speednode_0019
+  - 12,13|日本2|@ripaojiedian
+  - 12,13|美国2|@ripaojiedian
+  - '9|未命名 #4'
+  - 9|罗
+  - 10|رر   ارت ⚡️
+  - '10|  : @AstroVPN_official'
+  - 9|兰
+  - 14|RO_speednode_0066
+  - 14|GB_speednode_0015
+  - 14|RO_speednode_0033
+  - '9|英国 #1'
+  - 9|罗马尼亚
+  - '9|未命名 #11'
+  - '9|未命名 #8'
   - 9|美国
+  - 9|英国
+  - 14|NL_speednode_0023
+  - 14|FR_speednode_0005
+  - 10|🇩🇪@FreakConfig
+  - 14|RO_speednode_0042
+  - 14|NL_speednode_0018
+  - '9|德国 #3'
+  - 9|波兰
+  - 14|RO_speednode_0027
+  - 9|🇯🇵JP
+  - 12,13|日本3|@ripaojiedian
+  - 14|RO_speednode_0034
+  - '9|荷兰 #7'
+  - 14|RO_speednode_0047
+  - 14|RO_speednode_0039
+  - 9|🇰
+  - '10|کانال تلگرام : Free_VPN_CH@ #3'
+  - 14|NL_speednode_0022
+  - 10|+@Azarakhsh_Proxy+
+  - 14|GB_speednode_0014
+  - 14|RO_speednode_0029
+  - 12,13|香港3|@ripaojiedian
+  - 14|GB_speednode_0010
+  - 14|GB_speednode_0007
+  - 10|@confiig_hub
+  - 14|GB_speednode_0009
+  - 9|🇺🇸US
+  - 14|RO_speednode_0065
+  - 10|🪢8@oneclickvpnkeys
+  - 14|CN_speednode_0001
+  - '9|罗马尼亚 #4'
+  - '9|兰 #2'
+  - 9|DE
+  - 14|RO_speednode_0048
+  - '10|✅  @vistav2ray  👈👈کانال ما ✅ #1'
+  - 10|@FarazV2ray
+  - 12,13|美国3|@ripaojiedian
+  - 14|RO_speednode_0037
+  - 9|🇰🇷 KR
+  - '9|荷兰 #1'
+  - '9|未命名 #2'
+  - 14|RO_speednode_0046
+  - 14|RO_speednode_0049
+  - 14|RO_speednode_0036
+  - 9|西
+  - 14|GB_speednode_0012
+  - '10|@FarazV2ray #2'
+  - 14|RO_speednode_0064
+  - '9|德国 #2'
   - '9|罗马尼亚 #3'
+  - '9|荷兰 #4'
+  - 14|RO_speednode_0031
+  - 14|RO_speednode_0058
+  - 9|BR
+  - '9|国 #1'
+  - 10|140010 | Telegram = t.me/SOSke...
+  - 12,13|日本|@ripaojiedian
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|RO_speednode_0062
+  - '9|德国 #4'
+  - 14|RO_speednode_0026
+  - 12,13|香港5|@ripaojiedian
+  - '10|@FarazV2ray #1'
+  - 9,10|53@oneclickvpnkeys
+  - 10|@filembad
+  - 12,13|新加坡2|@ripaojiedian
+  - 14|NL_speednode_0017
+  - 14|RO_speednode_0044
+  - 9|国3@wxgqlfx#美国
+  - 10|🪢30@oneclickvpnkeys
+  - '9|罗马尼亚 #1'
   type: fallback
   url: https://www.google.com/
 - interval: 300
