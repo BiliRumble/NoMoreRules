@@ -311,7 +311,7 @@ proxies:
   sni: nl2.h.fastlanehosting.ru
   tls: false
   type: hysteria2
-- name: '9|德国 #1'
+- name: 9|🇩🇪146504 | ⚡️Telegram = t.me/S...
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: de.1.23.h2corp.org
@@ -410,6 +410,13 @@ proxies:
   sni: 185.47.172.226
   tls: false
   type: hysteria2
+- name: 10|146567 | Telegram = t.me/SOSke...
+  password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
+  port: 9080
+  server: 139.28.168.55
+  sni: grape-honk.yyuyy.com
+  tls: false
+  type: hysteria2
 - name: 10||FI|@wxgqlfx|221
   password: 133f76fc-a5ab-463e-b46d-9587d7137e55
   port: 443
@@ -418,7 +425,7 @@ proxies:
   sni: h2.vpnushka.lol
   tls: false
   type: hysteria2
-- name: 10||US|@wxgqlfx|251
+- name: 10|🇺🇸|US|@wxgqlfx|251
   password: 133f76fc-a5ab-463e-b46d-9587d7137e55
   port: 443
   server: node3.vpnushka.lol
@@ -542,11 +549,11 @@ proxies:
   sni: us65.mechvpn.online
   tls: false
   type: hysteria2
-- name: 10|🇺🇸146342 | Telegram = t.me/SOS...
-  password: 5ca83936-136d-4314-8453-4ba10a86cf60
-  port: 8443
-  server: 31.76.70.78
-  sni: quic.tyr-agentstvo.tech
+- name: 10|146501 | ⚡️Telegram = t.me/SOS...
+  password: 55b71f97202647049ce999646de57c50
+  port: 8444
+  server: f1b.wareznet.ru
+  sni: f1b.wareznet.ru
   tls: false
   type: hysteria2
 - name: 10|🇩🇪@FreakConfig
@@ -584,7 +591,7 @@ proxies:
   sni: serv21.strettenvpn.com
   tls: false
   type: hysteria2
-- name: 10||GB|@wxgqlfx|19
+- name: 10|🇬🇧|GB|@wxgqlfx|19
   password: 725bc0b69e720cd5a2cd209252507c6e
   port: 50160
   server: 94-229-64-108.liao.kdns.fr
@@ -690,7 +697,9 @@ proxies:
   sni: grape-zet-turbo-nl.yyuyy.com
   tls: false
   type: hysteria2
-- name: 10|🇩🇪146484 | ⚡️Telegram = t.me/S...
+- alpn:
+  - h3
+  name: 10|Telegram@vpnjey
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: Telegram@vpnjey
@@ -700,9 +709,7 @@ proxies:
   sni: de.vpnjey.store
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: 10|Telegram@vpnjey
+- name: 10|🇩🇪146484 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: Telegram@vpnjey
@@ -771,6 +778,14 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 10|🇵146545 | ⚡️Telegram = t.me/SO...
+  password: bc751c4c5c80f17dfbc05785c368b613
+  port: 50160
+  server: 154.31.115.179
+  skip-cert-verify: true
+  sni: 154.31.115.179
+  tls: false
+  type: hysteria2
 - name: 10|🎈50@oneclickvpnkeys
   password: bce6c821-200d-421f-bf3d-7159e5246ea0
   port: 33333
@@ -837,7 +852,7 @@ proxies:
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- name: '10|kurdconfig #2'
+- name: 10|🇫🇮@FreakConfig
   obfs: salamander
   obfs-password: gu74jg3ym0e21zco
   password: m3bqxk03mg221yi2
@@ -873,6 +888,16 @@ proxies:
   password: m3bqxk03mg221yi2
   port: 52049
   server: 95.217.96.131
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 10|@v2ray313 کانال 🇬
+  obfs: salamander
+  obfs-password: kf1lypzqidy6pimt
+  password: m3bqxk03mg221yi2
+  port: 52009
+  server: assets.gateway-stream.com
   skip-cert-verify: false
   sni: assets.gateway-stream.com
   tls: false
@@ -958,7 +983,17 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: 10|🇫🇮@FreakConfig
+- name: 10|@v2ray313 کانالمون ️
+  obfs: salamander
+  obfs-password: kf1lypzqidy6pimt
+  password: t8t2qojzsykqazfu
+  port: 52009
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: '10|🇫🇮@FreakConfig #1'
   obfs: salamander
   obfs-password: d6pv15sghiq1onts
   password: t8t2qojzsykqazfu
@@ -990,7 +1025,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 10|🇪|DE|@wxgqlfx|213
+  name: 10|🇩🇪|DE|@wxgqlfx|213
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
   server: de.1.22.washing.help
