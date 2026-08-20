@@ -7,6 +7,22 @@ proxies:
   sni: sg2.xiaoliyu.cyou
   tls: false
   type: hysteria2
+- name: '9|SG #1'
+  password: 9gWt2z3KdC9VI8kAQYVvvSvhT9e05CfI
+  port: 12645
+  server: vip-sg-1.hkd4fwmg.vip
+  skip-cert-verify: true
+  sni: vip-sg-1.hkd4fwmg.vip
+  tls: false
+  type: hysteria2
+- name: 9|🇸🇬SG
+  password: P6qkAwznuC076mbIR2cGPg==
+  port: 34567
+  server: 43.156.90.144
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
