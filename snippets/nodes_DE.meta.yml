@@ -40,6 +40,14 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
+- name: 10|🇩🇪159280 | Telegram = t.me/SOS...
+  password: 2_hysteria2_fastlane_udfa4x14j
+  port: 443
+  server: 2.27.25.75
+  skip-cert-verify: false
+  sni: de11.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   name: '10|Channel : @Daily_Configs'
@@ -74,16 +82,28 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '10|🇩🇪All | @BigSmoke_Config #1'
-  password: AstroVPN_official
-  port: 36896
-  server: ptserv.accuratenetworkchecker.ir
-  sni: lms22.gelzaro.ir
+- alpn:
+  - h3
+  name: '10|-🇩🇪 @VConfing #1'
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 8f0gvz5eul6omhq4
+  port: 52023
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 10|85@oneclickvpnkeys
+  password: b504a1c7-1bfe-461f-9329-cbc653deb3d7
+  port: 443
+  server: 144.31.217.201
+  sni: 144-31-217-201.sslip.io
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '10|-🇩🇪 @VConfing #1'
+  name: '10|-🇩🇪 @VConfing #2'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: clz08qwil91241w7
@@ -93,18 +113,10 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '10|🇩🇪All | @BigSmoke_Config #2'
+- name: '10|🇩🇪All | @BigSmoke_Config #1'
   password: jbmuokj7p4kg4h4s
   port: 52029
   server: giftcard.gateway-stream.com
   sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 10|36@oneclickvpnkeys
-  password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
-  port: 443
-  server: 5.83.129.11
-  skip-cert-verify: true
-  sni: germany1.h2corp.local
   tls: false
   type: hysteria2
