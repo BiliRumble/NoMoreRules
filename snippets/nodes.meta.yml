@@ -53,14 +53,6 @@ proxies:
   sni: cloud.mail.ru
   tls: false
   type: hysteria2
-- name: 9|荷兰
-  password: 2b3e8750-b944-42fc-b36e-ec2c64b48a98
-  port: 443
-  server: 31.177.111.213
-  skip-cert-verify: true
-  sni: hy222.routeon.pro
-  tls: false
-  type: hysteria2
 - name: 9|国
   password: 3b8c82ed-fe66-472d-915e-034ccb57103f
   port: 443
@@ -139,14 +131,6 @@ proxies:
 - name: 9|土耳其
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8080
-  server: 162.249.124.114
-  skip-cert-verify: true
-  sni: hopp-germany-new.ddnsguru.com
-  tls: false
-  type: hysteria2
-- name: '9|土耳其 #1'
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8080
   server: 162.249.124.118
   sni: hopp-germany-new.ddnsguru.com
   tls: false
@@ -186,20 +170,12 @@ proxies:
 - name: 9|德国
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
-  server: 85.204.107.174
-  skip-cert-verify: true
-  sni: hopp-romania-new.roxa.org
-  tls: false
-  type: hysteria2
-- name: '9|德国 #1'
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8080
   server: 85.204.107.178
   skip-cert-verify: true
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: '9|德国 #2'
+- name: '9|德国 #1'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.181
@@ -230,16 +206,6 @@ proxies:
   server: 45.149.147.194
   skip-cert-verify: true
   sni: hys-mesh.spliceflowtech.com
-  tls: false
-  type: hysteria2
-- name: '9|美国 #1'
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
-  port: 443
-  server: nl1.sferavpn.pro
-  skip-cert-verify: true
-  sni: nl1.sferavpn.pro
   tls: false
   type: hysteria2
 - name: 9|DE
@@ -280,7 +246,7 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: '9|德国 #3'
+- name: '9|德国 #2'
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
   server: hold.wwwinternetvideo.click
@@ -299,16 +265,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '10|@v2ray_phoenix #1'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: 1m1xfvpaa5ek4omq
-  port: 52030
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: '10|@v2ray_phoenix #2'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 1m1xfvpaa5ek4omq
@@ -361,7 +317,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '10|@v2ray_phoenix #3'
+- name: '10|@v2ray_phoenix #2'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 4savc5ig1n3549e4
@@ -540,6 +496,13 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
+- name: 10|29@oneclickvpnkeys
+  password: OD6gGbGU9a
+  port: 443
+  server: 195.133.24.124
+  sni: hys26.wba-pn.ru
+  tls: false
+  type: hysteria2
 - name: 10|🩳18@oneclickvpnkeys
   password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
   port: 8443
@@ -551,14 +514,6 @@ proxies:
   password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
   port: 8443
   server: 205.237.109.168
-  skip-cert-verify: true
-  sni: hopp-netherland-new.dynuddns.net
-  tls: false
-  type: hysteria2
-- name: 10|13@oneclickvpnkeys
-  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
-  port: 8443
-  server: 205.237.109.174
   skip-cert-verify: true
   sni: hopp-netherland-new.dynuddns.net
   tls: false
@@ -638,16 +593,6 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10|🇩🇪@AZARBAYJAB1
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: bfmf6a05bp4fjwuh
-  port: 52022
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - name: '10|@v2ray313 کانالمون '
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -663,16 +608,6 @@ proxies:
   obfs-password: fuw2k1ddrouwxr3u
   password: bfmf6a05bp4fjwuh
   port: 52030
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 10|🇹@AZARBAYJAB1
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: bfmf6a05bp4fjwuh
-  port: 52043
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
@@ -700,7 +635,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '10|Channel : @Daily_Configs #5'
+- name: '10|@v2ray313 کانالمون  #2'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: clz08qwil91241w7
@@ -774,43 +709,7 @@ proxies:
   sni: hy2.561891.xyz
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 10|dc-udp-🇱 Albania-Tirana
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: fmaznn1lrzys7ddy
-  port: 52000
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 10|dc-udp-🇦 Austria-Vienna
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: fmaznn1lrzys7ddy
-  port: 52002
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 10|dc-udp-🇦 Australia-Perth
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: fmaznn1lrzys7ddy
-  port: 52006
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: '10|@v2ray_phoenix #4'
+- name: '10|@v2ray_phoenix #3'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: fmaznn1lrzys7ddy
@@ -820,31 +719,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 10|dc-udp- Spain-Valencia
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: fmaznn1lrzys7ddy
-  port: 52028
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 10|dc-udp-🇮 Finland-Helsinki
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: fmaznn1lrzys7ddy
-  port: 52029
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 10|@proxy_kafee
+- name: '10|@Daily_Configs #4'
   password: fmaznn1lrzys7ddy
   port: 52050
   server: giftcard.gateway-stream.com
@@ -864,7 +739,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 10|dc-udp-🇦🇱 Albania-Tirana
+  name: 10|dc-udp-🇱 Albania-Tirana
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: g2d0ooqq3ykzsacc
@@ -888,7 +763,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 10|dc-udp-🇦🇹 Austria-Vienna
+  name: 10|dc-udp-🇦 Austria-Vienna
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: g2d0ooqq3ykzsacc
@@ -1007,6 +882,42 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: 10|🇫🇮162511 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: nqlool6l2dnfg45q
+  port: 52000
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: 10|🇫🇮162509 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: nqlool6l2dnfg45q
+  port: 52038
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: 10|🇫🇮162510 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: nqlool6l2dnfg45q
+  port: 52067
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - name: '10|@Daily_Configs #5'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
@@ -1015,6 +926,22 @@ proxies:
   server: 130.49.161.70
   skip-cert-verify: false
   sni: hy2.aspidnet.xyz
+  tls: false
+  type: hysteria2
+- name: 10|162469 | ⚡️Telegram = t.me/SOS...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 13.212.76.106
+  skip-cert-verify: true
+  sni: vk.com
+  tls: false
+  type: hysteria2
+- name: 10|🇸🇬162470 | ⚡️Telegram = t.me/S...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 47.129.0.20
+  skip-cert-verify: true
+  sni: vk.com
   tls: false
   type: hysteria2
 - alpn:
@@ -1033,14 +960,6 @@ proxies:
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 46.229.243.149
-  skip-cert-verify: true
-  sni: grape-turbo-fr.roxa.org
-  tls: false
-  type: hysteria2
-- name: 10|⛑️15@oneclickvpnkeys
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 46.229.243.152
   skip-cert-verify: true
   sni: grape-turbo-fr.roxa.org
   tls: false
@@ -1128,52 +1047,48 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '10|@bored_vpn #1'
+  name: 10|dc-udp-🇦🇱 Albania-Tirana
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: zvxywxoorgqk3fzb
   port: 52000
   server: giftcard.gateway-stream.com
-  skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
-  name: '10|@bored_vpn #2'
+  name: '10|dc-udp-🇦🇷 Argentina-Buenos Air... #1'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: zvxywxoorgqk3fzb
   port: 52001
   server: giftcard.gateway-stream.com
-  skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
-  name: '10|@bored_vpn #3'
+  name: 10|dc-udp-🇧 Belgium-Brussels
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: zvxywxoorgqk3fzb
   port: 52008
   server: giftcard.gateway-stream.com
-  skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
-  name: '10|@bored_vpn #4'
+  name: 10|dc-udp- Cyprus-Nicosia
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: zvxywxoorgqk3fzb
   port: 52019
   server: giftcard.gateway-stream.com
-  skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
