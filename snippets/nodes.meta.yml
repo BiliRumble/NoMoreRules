@@ -299,6 +299,13 @@ proxies:
   sni: de-four.online-vpn.online
   tls: false
   type: hysteria2
+- name: 10|🎡20@oneclickvpnkeys
+  password: 32df539b-e48b-4f0b-8d2d-30edc856cd23
+  port: 443
+  server: nl-two.online-vpn.online
+  sni: nl-two.online-vpn.online
+  tls: false
+  type: hysteria2
 - name: 10|🎡67@oneclickvpnkeys
   obfs: salamander
   obfs-password: 73221641ddc56c49b02bf110ac85afdb
@@ -420,14 +427,6 @@ proxies:
   server: 15.223.122.197
   skip-cert-verify: true
   sni: t.me
-  tls: false
-  type: hysteria2
-- name: 10|🇺166725 | ⚡️Telegram = t.me/SO...
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-au-002.fastervpn.world
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: 10|+@Azarakhsh_Proxy+
@@ -682,7 +681,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10|🇦🇺@FreakConfig
+- name: 10|🇺@FreakConfig
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: dmbbfqabkdu46mo3
@@ -849,6 +848,36 @@ proxies:
   sni: www.broadcom.com
   tls: false
   type: hysteria2
+- name: 10|166920 | ⚡️Telegram = t.me/SOS...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: ijrixp6yh62ectfw
+  port: 52000
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 10|🇮166921 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: ijrixp6yh62ectfw
+  port: 52001
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 10|🇮166922 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: ijrixp6yh62ectfw
+  port: 52002
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
@@ -976,7 +1005,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 10|- @VConfing
+  name: 10|-🇮 @VConfing
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
