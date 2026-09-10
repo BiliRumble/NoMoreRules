@@ -1,4 +1,4 @@
-# Update: 2026-09-10 15:35
+# Update: 2026-09-10 21:11
 allow-lan: false
 dns:
   enable: true
@@ -34,14 +34,6 @@ proxies:
   server: samurai.h4ck.me
   tls: false
   type: hysteria2
-- name: '9|未命名 #1'
-  password: 1671a252e2a97dc2bda4e515475931da
-  port: 50160
-  server: 132.226.226.189
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: '9|日本 #1'
   password: 184cdec28da5a09450803c8debcd2cc9
   port: 50160
@@ -50,7 +42,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|未命名 #2'
+- name: '9|未命名 #1'
   password: 19f72087-4591-4d72-930b-2697078ec2be
   port: 1933
   server: sg1.xiaoliyu.cyou
@@ -66,7 +58,7 @@ proxies:
   sni: cloud.mail.ru
   tls: false
   type: hysteria2
-- name: '9|未命名 #3'
+- name: '9|未命名 #2'
   password: 41f0d6d3-4a45-4635-8225-2abd2284189b
   port: 2056
   server: lmny.mangshe.xyz
@@ -82,7 +74,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|未命名 #4'
+- name: '9|未命名 #3'
   password: 60e2a548-96aa-4850-a279-1edab743c39b
   port: 443
   server: md1.cnyvpn.com
@@ -90,7 +82,7 @@ proxies:
   sni: md1.cnyvpn.com
   tls: false
   type: hysteria2
-- name: 9|国
+- name: '9|未命名 #4'
   password: 6dcb725e-947e-4bbe-bb35-903374d57179
   port: 443
   server: rm-eco-us-01.409648.xyz
@@ -138,7 +130,7 @@ proxies:
   sni: fin14qr.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- name: '9|国 #1'
+- name: 9|国
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 35.181.169.140
@@ -170,7 +162,7 @@ proxies:
   sni: vpn-in-001.fastervpn.world
   tls: false
   type: hysteria2
-- name: '9|国 #2'
+- name: '9|国 #1'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-uk-001.fastervpn.world
@@ -178,7 +170,7 @@ proxies:
   sni: vpn-uk-001.fastervpn.world
   tls: false
   type: hysteria2
-- name: '9|国 #3'
+- name: '9|国 #2'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.178
@@ -238,7 +230,7 @@ proxies:
   sni: de1.apexvpn.space
   tls: false
   type: hysteria2
-- name: '9|国 #4'
+- name: '9|国 #3'
   password: dsmO0439gj_nX942GJRE_9j39fbcxv52_R
   port: 8080
   server: 85.209.157.177
@@ -294,21 +286,13 @@ proxies:
   sni: news.gazette.help
   tls: false
   type: hysteria2
-- name: '9,10|Telegram: @Daily_Configs #1'
+- name: '9|芬兰 #2'
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
   password: sxc15led4b0vp5fy
   port: 8443
   server: musicclips.videolinks.ru
   sni: musicclips.videolinks.ru
-  tls: false
-  type: hysteria2
-- name: '9|德国 #1'
-  password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
-  port: 443
-  server: hold.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: germany1.h2corp.local
   tls: false
   type: hysteria2
 - name: 10|🎡21@oneclickvpnkeys
@@ -353,7 +337,14 @@ proxies:
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
-- name: '10|Telegram @cnetvpn '
+- name: 10|167220 | Telegram = t.me/SOSke...
+  password: 5beff945-adaa-492f-85c6-8aaf5df6cfa5
+  port: 22443
+  server: 91.240.86.70
+  sni: hy.quattro-tech.ru
+  tls: false
+  type: hysteria2
+- name: 10|Telegram @cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
   password: 617z9r1mbzbm1t5z
@@ -448,6 +439,26 @@ proxies:
   sni: t.me
   tls: false
   type: hysteria2
+- name: 10|3@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: HysteriaHowdy
+  password: HowdyHysteria2023w0W
+  port: 8443
+  server: 51.15.19.206
+  skip-cert-verify: true
+  sni: sni-here.com
+  tls: false
+  type: hysteria2
+- name: 10|62@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: HysteriaHowdy
+  password: HowdyHysteria2023w0W
+  port: 8443
+  server: hysteria.udpgw.com
+  skip-cert-verify: true
+  sni: sni-here.com
+  tls: false
+  type: hysteria2
 - name: 10|+@Azarakhsh_Proxy+
   obfs: salamander
   obfs-password: KevinZakarian
@@ -532,7 +543,7 @@ proxies:
   sni: se.vpnjey2.dpdns.org
   tls: false
   type: hysteria2
-- name: 10| - NL - @FreeOnlineVPN
+- name: 10|🇳🇱 - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -547,6 +558,13 @@ proxies:
   port: 443
   server: 144.31.93.126
   skip-cert-verify: true
+  sni: admin.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
+- name: 10|45@oneclickvpnkeys
+  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
+  port: 443
+  server: 45.192.12.93
   sni: admin.wwwinternetvideo.click
   tls: false
   type: hysteria2
@@ -590,7 +608,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '10|@v2ray313 کانالن '
+- name: '10|@v2ray313 کانال '
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: bfmf6a05bp4fjwuh
@@ -620,7 +638,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10|🇷🇺 V2RayyNGvpn
+- name: '10|@proxy_kafee #1'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -630,7 +648,7 @@ proxies:
   sni: ru1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: '10|Telegram: @Daily_Configs'
+- name: 10| t.me/bigAVPN ایران آزاد 👑
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -781,7 +799,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10|🇱@FreakConfig
+- name: 10|🇵🇱@FreakConfig
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: fr9p9ji70krwnup6
@@ -859,15 +877,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10|89@oneclickvpnkeys
-  password: gf1
-  port: 443
-  server: 66.94.121.46
-  skip-cert-verify: true
-  sni: www.broadcom.com
-  tls: false
-  type: hysteria2
-- name: 10|166920 | ⚡️Telegram = t.me/SOS...
+- name: 10|@ConfigV2RayNG
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: ijrixp6yh62ectfw
@@ -877,21 +887,11 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10|🇮166921 | ⚡️Telegram = t.me/SO...
+- name: 10|⭐@ConfigV2RayNG
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: ijrixp6yh62ectfw
   port: 52001
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 10|🇮166922 | ⚡️Telegram = t.me/SO...
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: ijrixp6yh62ectfw
-  port: 52002
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
@@ -953,14 +953,6 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: 10|4📀@oneclickvpnkeys
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.212.76.106
-  skip-cert-verify: true
-  sni: vk.com
-  tls: false
-  type: hysteria2
 - name: 10|🎡65@oneclickvpnkeys
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -969,7 +961,7 @@ proxies:
   sni: 13.250.120.9
   tls: false
   type: hysteria2
-- name: 10|🎡69@oneclickvpnkeys
+- name: 10|69@oneclickvpnkeys
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 47.129.0.20
@@ -1024,7 +1016,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 10|-🇮 @VConfing
+  name: 10|- @VConfing
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -1136,7 +1128,7 @@ proxies:
   sni: cabinet.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- name: 10|V2RayyNGvpn 🇩🇪
+- name: '10|@proxy_kafee #2'
   obfs: salamander
   obfs-password: b6d1f3888ab1d90dd11aac1dce427b81
   password: tnnls
@@ -2439,288 +2431,287 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|RO_speednode_0030
-  - 14|RO_speednode_0014
-  - 10|Telegram 🆔@Cnetvpn 🇺🇲
-  - 10|🎡69@oneclickvpnkeys
-  - '10|@v2ray313 کانالن '
-  - 14|RO_speednode_0015
-  - 14|NL_speednode_0010
-  - 14|RO_speednode_0057
-  - 14|RO_speednode_0115
-  - 10|🇪2@JKVPN
-  - 12,13|香港4|@ripaojiedian
-  - 14|RO_speednode_0103
-  - 14|NL_speednode_0004
-  - 14|RO_speednode_0073
-  - 14|RO_speednode_0056
-  - 14|RO_speednode_0127
-  - 14|RO_speednode_0016
-  - 14|RO_speednode_0101
-  - '9|DE #1'
-  - 10|🎡61@oneclickvpnkeys
-  - 10|dc-udp-🇧 Belgium-Brussels
-  - 14|RO_speednode_0092
-  - 10|Telegram 🆔@cnetvpn 🇪
-  - 9|亚
-  - 10| - NL - @FreeOnlineVPN
-  - 14|US_speednode_0131
-  - 14|RO_speednode_0046
-  - 10|🇸8@JKVPN
-  - 14|RO_speednode_0094
-  - 10|🇺🇸9@JKVPN
-  - 14|RO_speednode_0119
-  - 14|RO_speednode_0012
-  - 9|澳大利亚
-  - 14|RO_speednode_0083
-  - 14|RO_speednode_0099
-  - 14|RO_speednode_0031
-  - 14|RO_speednode_0059
-  - '10|Telegram 🆔@cnetvpn 🇪 #1'
-  - 14|RO_speednode_0022
-  - 14|RO_speednode_0024
-  - 14|RO_speednode_0044
-  - 14|RO_speednode_0066
-  - 14|RO_speednode_0087
-  - 10|dc-udp-🇵 Japan-Tokyo
-  - 14|RO_speednode_0029
-  - 14|RO_speednode_0125
-  - '9,10|Telegram: @Daily_Configs #1'
-  - 10|🎡64@oneclickvpnkeys
-  - '9|德国 #1'
-  - 10|🇮166921 | ⚡️Telegram = t.me/SO...
-  - '10|✅  @vistav2ray  👈👈کانال ما ✅ #2'
-  - 9|US
-  - 12|tg频道:@ripaojiedian
-  - 14|RO_speednode_0084
-  - 12,13|美国3|@ripaojiedian
-  - 10|-🇩🇪 @VConfing
-  - 14|RO_speednode_0032
-  - '9|未命名 #4'
-  - '10|Telegram@vpnjey #2'
-  - 10|🇷6@JKVPN
-  - 14|US_speednode_0134
-  - 14|RO_speednode_0095
-  - 9|兰
-  - 14|RO_speednode_0061
-  - 14|US_speednode_0133
-  - 12|🇺🇸 美国|@ripaojiedian
-  - 9|英国
-  - 14|RO_speednode_0079
-  - 10|4📀@oneclickvpnkeys
-  - 14|RO_speednode_0021
-  - 10|166920 | ⚡️Telegram = t.me/SOS...
-  - 14|RO_speednode_0110
-  - 14|NL_speednode_0007
-  - 14|RO_speednode_0071
-  - 14|RO_speednode_0018
-  - 10|🇷🇺 V2RayyNGvpn
-  - 14|RO_speednode_0025
-  - 14|RO_speednode_0085
-  - '10|@v2ray313 کانالمون  #1'
-  - 14|RO_speednode_0028
-  - '9|国 #4'
-  - 14|RO_speednode_0048
-  - 10|dc-udp-🇦🇷 Argentina-Buenos Air...
-  - 14|RO_speednode_0050
-  - 14|RO_speednode_0097
-  - 12|🇯🇵 日本3|@ripaojiedian
-  - 10|7@JKVPN
-  - 12,13|日本|@ripaojiedian
-  - 14|RO_speednode_0040
-  - 14|RO_speednode_0102
-  - 10|dc-udp-🇱 Netherlands-Amsterdam
-  - 14|RO_speednode_0019
-  - 12|🇨🇳 台湾|@ripaojiedian
-  - 14|RO_speednode_0121
-  - '10|dc-udp-🇦🇷 Argentina-Buenos Air... #1'
-  - 10|🎡20@oneclickvpnkeys
-  - 14|RO_speednode_0053
-  - 14|RO_speednode_0091
   - 12,13|香港5|@ripaojiedian
-  - 10|Telegram 🆔@cnetvpn 🇮
-  - '10|@Begoo_VPN '
-  - 14|NL_speednode_0009
-  - 10|@awlix_ir
-  - '10|🏴‍☠️@FreakConfig #1'
-  - 10| @NOFiLTERING2 | ❤️ وصل شدی جو...
-  - 10|🇧4@JKVPN
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 14|RO_speednode_0063
-  - 10|🇫🇷@AZARBAYJAB1
-  - 14|RO_speednode_0072
-  - 14|RO_speednode_0080
-  - 14|RO_speednode_0122
-  - '9|未命名 #1'
-  - 14|RO_speednode_0123
-  - 14|RO_speednode_0020
-  - 14|RO_speednode_0088
-  - 14|RO_speednode_0054
-  - '10|@V2ray_confiig #3'
-  - 10|hysteria
-  - 10|🇫3@JKVPN
-  - 9|国
-  - 14|RO_speednode_0096
-  - 14|RO_speednode_0112
-  - 14|RO_speednode_0111
-  - 14|RO_speednode_0060
-  - 14|RO_speednode_0017
-  - '10|@Sparrk_VPN #2'
-  - '9|芬兰 #1'
-  - 14|RO_speednode_0045
-  - 14|RO_speednode_0093
-  - 14|US_speednode_0141
-  - 14|US_speednode_0135
-  - 12|🇭🇰 香港2|@ripaojiedian
-  - 14|RO_speednode_0049
-  - 12|🇯🇵 日本2|@ripaojiedian
-  - '9|未命名 #3'
-  - 14|RO_speednode_0116
-  - 14|SI_speednode_0129
-  - 10|🎡67@oneclickvpnkeys
-  - '10|@V2raySaman #1'
-  - 14|RO_speednode_0120
-  - 12|🇺🇸 美国2|@ripaojiedian
-  - 10|🇩🇪@AZARBAYJAB1
-  - 14|RO_speednode_0062
-  - '10|Telegram 🆔@Cnetvpn '
-  - '9|国 #1'
-  - 14|RO_speednode_0074
-  - 14|RO_speednode_0041
-  - 14|US_speednode_0144
-  - '9|英国 #1'
-  - 9|139909 | Telegram = t.me/SOSke...
-  - 14|RO_speednode_0013
-  - 14|RO_speednode_0081
-  - 10|🎡59@oneclickvpnkeys
-  - '9|未命名 #6'
-  - 9|大利亚
-  - '10|کانال تلگرام : Free_VPN_CH@'
-  - 14|RO_speednode_0033
-  - 14|RO_speednode_0035
-  - 9,10|🎡60@oneclickvpnkeys
-  - 9,10|🎡71@oneclickvpnkeys
-  - 14|RO_speednode_0042
-  - '10|Telegram @mtmvpn #3'
-  - 14|RO_speednode_0124
-  - 14|NL_speednode_0006
-  - '9,10|کانال را : Free_VPN_CH@'
-  - 9|德国
-  - 14|RO_speednode_0070
-  - '9|未命名 #2'
-  - '10|کانال تلگرام : Free_VPN_CH@ #1'
-  - 13|香港|@ripaojiedian
-  - 10|5@oneclickvpnkeys
-  - 10|dc-udp-🇷 Brazil-Fortaleza
-  - 14|RO_speednode_0089
-  - '9|日本 #2'
-  - 10|🎡79@oneclickvpnkeys
-  - 14|RO_speednode_0082
-  - 9|AU
-  - '10|@v2ray313 کانالمون '
-  - 14|RO_speednode_0106
-  - 14|US_speednode_0140
-  - '10|@v2raybaaz #1'
-  - 10|Telegram@vpnjey
-  - 14|RO_speednode_0038
-  - '10|Telegram @cnetvpn '
-  - 14|US_speednode_0136
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|NL_speednode_0008
-  - 14|RO_speednode_0113
-  - 14|RO_speednode_0039
-  - 10|@V2ray_confiig
-  - 12|🇭🇰 香港3|@ripaojiedian
-  - 14|RO_speednode_0069
-  - 9|日本
-  - '9|国 #2'
-  - 10|📀6@oneclickvpnkeys
-  - '10|Telegram: @Daily_Configs'
-  - 14|RO_speednode_0117
-  - '9|未命名 #5'
-  - 14|RO_speednode_0055
   - 14|RO_speednode_0058
-  - 14|RO_speednode_0107
-  - 14|US_speednode_0138
-  - 10|+@Azarakhsh_Proxy+
-  - 14|RO_speednode_0076
-  - 14|RO_speednode_0126
-  - '10|@Sparrk_VPN #1'
-  - 14|US_speednode_0137
-  - 14|RO_speednode_0051
-  - '10|✅  @vistav2ray  👈👈کانال ما ✅ #1'
-  - 10|Tel-@ProxyMtAlpha5
-  - '10|@V2ray_confiig #1'
-  - 14|US_speednode_0130
-  - 14|RO_speednode_0075
-  - 10|dc-udp-🇦 Austria-Vienna
-  - '9|国 #3'
-  - 14|RO_speednode_0043
-  - 14|RO_speednode_0118
-  - 10|dc-udp-🇦 Albania-Tirana
-  - 10|🎡65@oneclickvpnkeys
-  - 14|RO_speednode_0067
-  - 10|dc-udp-🇦🇱 Albania-Tirana
-  - 10|📀31@oneclickvpnkeys
-  - 14|RO_speednode_0011
-  - 14|RO_speednode_0064
+  - '10|Telegram 🆔@cnetvpn 🇪 #1'
   - 14|RO_speednode_0090
-  - 14|RO_speednode_0027
-  - 10|️@FreakConfig
-  - 14|RO_speednode_0105
-  - 14|US_speednode_0139
-  - 10|🏴‍☠️@FreakConfig
+  - 14|RO_speednode_0072
+  - 14|RO_speednode_0123
+  - '10|✅  @vistav2ray  👈👈کانال ما ✅ #1'
   - '10|@v2ray313 کانالمون  #3'
-  - 10|dc-udp-🇦 Argentina-Buenos Aire...
-  - 14|RO_speednode_0068
-  - 10|🇳🇱5@JKVPN
-  - 14|RO_speednode_0086
-  - 9|未命名
-  - '10|Telegram@vpnjey #3'
-  - 14|RO_speednode_0026
-  - 14|US_speednode_0132
-  - '9|日本 #1'
-  - 10|V2RayyNGvpn 🇩🇪
-  - 10|🇺@FreakConfig
-  - 14|RO_speednode_0114
+  - '10|@V2raySaman #1'
   - '10|@v2ray313 کانالمون  #4'
-  - 14|RO_speednode_0034
-  - '9|未命名 #7'
-  - 14|RO_speednode_0100
-  - 10|🇱@FreakConfig
-  - 14|NL_speednode_0005
-  - 14|RO_speednode_0065
-  - '9|兰 #1'
-  - 14|RO_speednode_0077
+  - 10|45@oneclickvpnkeys
   - 9|DE
-  - 10|  @vistav2ray  👈ا  ✅
-  - 9|芬兰
-  - 10|@Sparrk_VPN
-  - 14|RO_speednode_0098
-  - 10|89@oneclickvpnkeys
-  - '10|Telegram @mtmvpn #2'
-  - 14|RO_speednode_0052
-  - 14|US_speednode_0143
-  - 14|RO_speednode_0128
-  - 10|@proxy_kafee
-  - 10|🇮166922 | ⚡️Telegram = t.me/SO...
-  - 14|RO_speednode_0036
-  - 10|Telegram 🆔@cnetvpn 🇱
-  - 14|RO_speednode_0037
-  - 14|RO_speednode_0104
-  - 10|dc-udp- Cyprus-Nicosia
-  - 14|RO_speednode_0047
+  - 14|US_speednode_0136
   - 14|US_speednode_0142
-  - '10|Telegram@vpnjey #1'
+  - 14|RO_speednode_0113
+  - '9|未命名 #1'
+  - 14|RO_speednode_0046
+  - 14|RO_speednode_0050
+  - '10|Telegram @mtmvpn #3'
+  - 10|dc-udp-🇦🇱 Albania-Tirana
   - 10|@v2ray_phoenix
-  - 14|RO_speednode_0078
-  - 10|🎡21@oneclickvpnkeys
-  - 10|✅  @vistav2ray  👈👈کانال ما ✅
-  - '10|@v2ray313 کانالمون  #2'
+  - 14|RO_speednode_0019
+  - 14|US_speednode_0139
+  - 13|香港|@ripaojiedian
+  - 14|RO_speednode_0016
+  - '10|✅  @vistav2ray  👈👈کانال ما ✅ #2'
+  - 10|dc-udp-🇦🇷 Argentina-Buenos Air...
+  - 12|🇺🇸 美国2|@ripaojiedian
+  - 14|RO_speednode_0075
+  - 14|RO_speednode_0052
+  - 14|RO_speednode_0070
+  - 10|- @VConfing
+  - '10|@proxy_kafee #2'
+  - 9|未命名
+  - 14|RO_speednode_0076
+  - 10|@awlix_ir
+  - 12|🇭🇰 香港2|@ripaojiedian
+  - 14|RO_speednode_0042
+  - '9|未命名 #2'
+  - 14|RO_speednode_0079
+  - 14|RO_speednode_0025
+  - 14|US_speednode_0141
+  - 14|RO_speednode_0121
+  - 10|Telegram 🆔@cnetvpn 🇪
+  - 12|🇨🇳 台湾|@ripaojiedian
+  - 10|7@JKVPN
+  - 10|@Sparrk_VPN
+  - 10| @NOFiLTERING2 | ❤️ وصل شدی جو...
+  - 14|RO_speednode_0039
+  - '10|@v2ray313 کانالمون  #1'
+  - 14|RO_speednode_0100
+  - 14|SI_speednode_0129
+  - '10|کانال تلگرام : Free_VPN_CH@ #1'
+  - 10|Telegram@vpnjey
+  - 14|RO_speednode_0027
+  - '10|@Begoo_VPN '
+  - 14|RO_speednode_0024
+  - '9|未命名 #4'
+  - 12,13|香港4|@ripaojiedian
+  - 14|RO_speednode_0094
+  - 14|RO_speednode_0040
+  - 14|RO_speednode_0086
+  - 10|62@oneclickvpnkeys
+  - 14|RO_speednode_0080
+  - 10|-🇩🇪 @VConfing
+  - 14|RO_speednode_0029
+  - 14|RO_speednode_0015
+  - 14|RO_speednode_0043
+  - 9|139909 | Telegram = t.me/SOSke...
+  - 10|️@FreakConfig
+  - 12|🇯🇵 日本2|@ripaojiedian
+  - 14|RO_speednode_0033
+  - 10|@V2ray_confiig
+  - 14|RO_speednode_0091
+  - 14|RO_speednode_0018
+  - 14|RO_speednode_0099
+  - 10| t.me/bigAVPN ایران آزاد 👑
+  - 10|🇪2@JKVPN
+  - 12|🇺🇸 美国|@ripaojiedian
+  - 10|🎡64@oneclickvpnkeys
+  - 14|NL_speednode_0006
+  - 14|RO_speednode_0055
+  - 14|RO_speednode_0022
+  - '10|@Sparrk_VPN #2'
+  - 14|RO_speednode_0059
+  - 14|RO_speednode_0061
+  - 14|RO_speednode_0054
+  - 14|RO_speednode_0120
+  - 14|RO_speednode_0119
+  - 14|NL_speednode_0010
+  - 10|🎡61@oneclickvpnkeys
+  - 14|RO_speednode_0031
+  - 10|🎡59@oneclickvpnkeys
+  - 10|🇷6@JKVPN
+  - 10|dc-udp-🇦 Argentina-Buenos Aire...
+  - 10|🇧4@JKVPN
+  - 14|US_speednode_0132
+  - 10|dc-udp-🇦 Albania-Tirana
+  - '10|🏴‍☠️@FreakConfig #1'
+  - 14|RO_speednode_0013
+  - 14|RO_speednode_0122
+  - 14|NL_speednode_0009
+  - 14|RO_speednode_0102
+  - 14|US_speednode_0133
+  - 10|69@oneclickvpnkeys
+  - 14|RO_speednode_0026
+  - 14|RO_speednode_0106
+  - 10|🎡20@oneclickvpnkeys
+  - 10|3@oneclickvpnkeys
+  - 9|英国
+  - '9|英国 #1'
+  - 14|RO_speednode_0112
+  - 14|RO_speednode_0116
+  - 14|RO_speednode_0047
+  - 10|167220 | Telegram = t.me/SOSke...
+  - '10|@V2ray_confiig #1'
+  - 14|RO_speednode_0063
+  - 12,13|新加坡3|@ripaojiedian
+  - 9|澳大利亚
+  - 14|RO_speednode_0087
+  - 14|RO_speednode_0124
+  - 14|RO_speednode_0036
+  - 14|RO_speednode_0068
+  - 14|RO_speednode_0049
+  - 14|US_speednode_0131
   - 14|RO_speednode_0023
+  - 10|dc-udp-🇷 Brazil-Fortaleza
+  - 14|RO_speednode_0065
+  - 14|US_speednode_0140
+  - 14|RO_speednode_0101
+  - 14|RO_speednode_0064
+  - 14|RO_speednode_0074
+  - 14|US_speednode_0130
+  - 10|🇩🇪@AZARBAYJAB1
+  - 14|RO_speednode_0089
+  - 10|🏴‍☠️@FreakConfig
+  - 14|RO_speednode_0037
+  - '9,10|کانال را : Free_VPN_CH@'
+  - 14|RO_speednode_0105
+  - 10|📀31@oneclickvpnkeys
+  - 14|RO_speednode_0083
+  - 9|AU
+  - 10|dc-udp-🇵 Japan-Tokyo
+  - 10|🇸8@JKVPN
+  - '10|@proxy_kafee #1'
+  - 10|dc-udp-🇦 Austria-Vienna
+  - '10|@v2ray313 کانال '
+  - 14|RO_speednode_0103
+  - '9|DE #1'
+  - 14|RO_speednode_0017
+  - 14|US_speednode_0143
+  - 10|🇳🇱 - NL - @FreeOnlineVPN
+  - 10|⭐@ConfigV2RayNG
+  - 10|🎡21@oneclickvpnkeys
+  - '9|国 #3'
+  - 14|RO_speednode_0035
+  - 14|RO_speednode_0038
+  - 10|+@Azarakhsh_Proxy+
+  - 10|dc-udp-🇧 Belgium-Brussels
+  - 10|Tel-@ProxyMtAlpha5
+  - 10|dc-udp- Cyprus-Nicosia
+  - '9|国 #1'
+  - 12|🇭🇰 香港3|@ripaojiedian
+  - 14|RO_speednode_0012
+  - 14|RO_speednode_0030
+  - 14|RO_speednode_0060
+  - 9|兰
+  - 14|RO_speednode_0096
+  - 10|🇵🇱@FreakConfig
+  - 14|RO_speednode_0062
+  - '9|日本 #2'
+  - 14|RO_speednode_0057
+  - 12,13|日本|@ripaojiedian
+  - 14|RO_speednode_0085
+  - 14|RO_speednode_0127
+  - 10|5@oneclickvpnkeys
+  - 14|RO_speednode_0088
+  - '9|芬兰 #1'
+  - 14|RO_speednode_0044
+  - 9|德国
+  - '10|@v2ray313 کانالمون  #2'
+  - 14|RO_speednode_0053
+  - 9,10|🎡71@oneclickvpnkeys
+  - 14|US_speednode_0144
+  - 9|US
+  - '10|@v2raybaaz #1'
+  - '10|dc-udp-🇦🇷 Argentina-Buenos Air... #1'
+  - 10|Telegram @cnetvpn 🇷🇺
+  - 9|大利亚
+  - '10|@v2ray313 کانالمون '
+  - 10|🎡67@oneclickvpnkeys
+  - 14|RO_speednode_0056
+  - 14|RO_speednode_0082
+  - 14|RO_speednode_0081
+  - 9|亚
+  - 9|国
+  - 10|🇫🇷@AZARBAYJAB1
+  - 12|tg频道:@ripaojiedian
   - 14|RO_speednode_0108
-  - 10|-🇮 @VConfing
+  - 14|US_speednode_0134
+  - '10|Telegram 🆔@Cnetvpn '
+  - 14|RO_speednode_0034
+  - 10|  @vistav2ray  👈ا  ✅
+  - 14|RO_speednode_0073
+  - 14|US_speednode_0137
+  - '10|کانال تلگرام : Free_VPN_CH@'
+  - 10|🎡65@oneclickvpnkeys
+  - 14|RO_speednode_0014
+  - 14|RO_speednode_0104
+  - 14|RO_speednode_0110
+  - 14|RO_speednode_0041
+  - 14|RO_speednode_0011
+  - 9|日本
+  - 14|RO_speednode_0028
+  - 12|🇯🇵 日本3|@ripaojiedian
+  - 14|RO_speednode_0097
+  - 14|RO_speednode_0126
+  - 14|RO_speednode_0118
   - 14|RO_speednode_0109
+  - 10|Telegram 🆔@Cnetvpn 🇺🇲
+  - 9|芬兰
+  - '9|国 #2'
+  - 14|RO_speednode_0071
+  - 14|NL_speednode_0007
+  - 14|RO_speednode_0115
+  - 10|Telegram 🆔@cnetvpn 🇮
+  - 14|RO_speednode_0098
+  - 14|NL_speednode_0004
+  - 10|🇳🇱5@JKVPN
+  - 10|🇫3@JKVPN
+  - '10|@Sparrk_VPN #1'
+  - 12,13|美国3|@ripaojiedian
+  - 9,10|🎡60@oneclickvpnkeys
+  - 14|RO_speednode_0051
+  - 14|RO_speednode_0084
+  - 14|US_speednode_0135
+  - 14|RO_speednode_0114
+  - 10|🎡79@oneclickvpnkeys
+  - 10|🇺🇸9@JKVPN
+  - '9|芬兰 #2'
+  - '10|Telegram@vpnjey #3'
+  - 14|RO_speednode_0020
+  - 10|Telegram 🆔@cnetvpn 🇱
+  - 10|@ConfigV2RayNG
+  - 14|RO_speednode_0069
+  - 14|RO_speednode_0128
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|RO_speednode_0048
+  - '9|未命名 #3'
+  - 14|RO_speednode_0077
+  - '10|Telegram@vpnjey #2'
+  - 10|hysteria
+  - 14|RO_speednode_0111
+  - 10|✅  @vistav2ray  👈👈کانال ما ✅
+  - '10|@V2ray_confiig #3'
+  - 10|🇺@FreakConfig
+  - 14|RO_speednode_0032
+  - '9|未命名 #6'
+  - '9|日本 #1'
+  - 14|NL_speednode_0008
+  - 14|RO_speednode_0021
+  - 14|NL_speednode_0005
+  - 14|RO_speednode_0066
+  - 14|RO_speednode_0092
+  - 14|RO_speednode_0107
+  - 14|RO_speednode_0117
+  - '9|兰 #1'
+  - '9|未命名 #7'
+  - 14|RO_speednode_0078
+  - 10|dc-udp-🇱 Netherlands-Amsterdam
+  - 10|📀6@oneclickvpnkeys
+  - '10|Telegram@vpnjey #1'
+  - '10|Telegram @mtmvpn #2'
+  - 14|US_speednode_0138
+  - 14|RO_speednode_0045
+  - 14|RO_speednode_0095
+  - 10|@proxy_kafee
+  - 14|RO_speednode_0125
+  - 14|RO_speednode_0067
+  - '9|未命名 #5'
+  - 14|RO_speednode_0093
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -2847,7 +2838,7 @@ proxy-groups:
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
-  - REJECT
+  - 10|Telegram @cnetvpn 🇷🇺
   type: select
 - name: 🇩🇪 德国
   proxies:
@@ -2855,7 +2846,6 @@ proxy-groups:
   - '9,10|کانال را : Free_VPN_CH@'
   - 9|DE
   - '9|DE #1'
-  - '9|德国 #1'
   - 10| @NOFiLTERING2 | ❤️ وصل شدی جو...
   - 10|-🇩🇪 @VConfing
   - 10|🇩🇪@AZARBAYJAB1
