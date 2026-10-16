@@ -15,10 +15,20 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 10|vpnsal
+- name: 10|@V2ray_confiig
   password: 033dc6b532
   port: 11592
   server: 77.232.139.128
+  sni: srv-8718e6.frd21.ru
+  tls: false
+  type: hysteria2
+- name: 10|@tootffarangi
+  obfs: salamander
+  obfs-password: eba1b4766d2a26d6c167e2d2e9efabf4
+  password: 033dc6b532
+  port: 11592
+  server: 77.232.139.128
+  skip-cert-verify: false
   sni: srv-8718e6.frd21.ru
   tls: false
   type: hysteria2
@@ -49,7 +59,7 @@ proxies:
   sni: ees92.shhflow.xyz
   tls: false
   type: hysteria2
-- name: 10|@meliproxyy
+- name: 10|@vasl_bashim
   obfs: salamander
   obfs-password: 588c76723192f87cfe6d6786816177cd2bd9773acdc545928d7d1d5e8338d4ce
   password: 56ff50da-a238-4646-95ab-dd159634bd87
@@ -234,7 +244,15 @@ proxies:
   sni: vpn.local
   tls: false
   type: hysteria2
-- name: 10|🇭🇰@FreakConfig
+- name: 10|را ال ای   TelegramID Express_...
+  password: dongtaiwang.com
+  port: 44356
+  server: hy2.561891.xyz
+  skip-cert-verify: false
+  sni: hy2.561891.xyz
+  tls: false
+  type: hysteria2
+- name: 10|kurdconfig
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
   password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
