@@ -1,4 +1,4 @@
-# Update: 2026-10-22 16:04
+# Update: 2026-10-22 22:11
 allow-lan: false
 dns:
   enable: true
@@ -41,14 +41,6 @@ proxies:
   sni: srv-8718e6.frd21.ru
   tls: false
   type: hysteria2
-- name: 10|97@oneclickvpnkeys
-  password: 099830134df5ac3a04a4b21d39b8c395
-  port: 50160
-  server: 163.192.14.135
-  skip-cert-verify: true
-  sni: vk.com
-  tls: false
-  type: hysteria2
 - name: 10|@V2rayng_mar_ket
   obfs: salamander
   obfs-password: 87d72c2949c0ca85bbda09459244e374
@@ -79,7 +71,7 @@ proxies:
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
-- name: 10|Telegram @cnetvpn 🇺
+- name: '10|Telegram @cnetvpn '
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
   password: 617z9r1mbzbm1t5z
@@ -129,7 +121,7 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 10|@v2ray_configs_pools  ⚡️
+- name: '10|@v2ray_configs_pools  '
   password: Hc9_NX924RE_Mn948rgrwiub_m93V84nll
   port: 9443
   server: 5.254.51.108
@@ -145,6 +137,13 @@ proxies:
   server: 179.61.132.96
   skip-cert-verify: true
   sni: 179.61.132.96
+  tls: false
+  type: hysteria2
+- name: 10|🇷198261 | ⚡️Telegram = t.me/SO...
+  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
+  port: 7443
+  server: me17.msjia8844.site
+  sni: me17.msjia8844.site
   tls: false
   type: hysteria2
 - name: 10|@FarazV2ray
@@ -166,9 +165,19 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: '10|Telegram@vpnjey #1'
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  password: Telegram-vpnjey
+  port: 36264
+  server: 179.61.138.145
+  skip-cert-verify: true
+  sni: de2.jey.cc.cd
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '10|Telegram@vpnjey #1'
+  name: '10|Telegram@vpnjey #2'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: Telegram-vpnjey
@@ -180,7 +189,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '10|Telegram@vpnjey #2'
+  name: '10|Telegram@vpnjey #3'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: Telegram-vpnjey
@@ -202,7 +211,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '10|Telegram@vpnjey #4'
+  name: '10|Telegram@vpnjey #5'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: Telegram
@@ -214,7 +223,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '10|Telegram@vpnjey #5'
+  name: '10|Telegram@vpnjey #6'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: Telegram
@@ -224,7 +233,7 @@ proxies:
   sni: se.vpnjey2.dpdns.org
   tls: false
   type: hysteria2
-- name: '10|Telegram@vpnjey #6'
+- name: '10|Telegram@vpnjey #7'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: Telegram@vpnjey
@@ -303,7 +312,7 @@ proxies:
   sni: vpn.local
   tls: false
   type: hysteria2
-- name: 10|🇭198215 | ⚡️Telegram = t.me/SO...
+- name: 10|198215 | ⚡️Telegram = t.me/SOS...
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
   password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
@@ -680,31 +689,41 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 14|AT_speednode_0001
+- name: 14|CA_speednode_0001
   port: 443
-  server: 146.70.244.2
+  server: 35.183.131.26
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 14|DE_speednode_0002
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
+- http-opts:
+    headers:
+      Host:
+      - play.googleapis.com
+    method: GET
+    path:
+    - /
+  name: 14|DE_speednode_0002
+  network: http
+  port: 443
+  server: 3.79.233.186
+  servername: play.googleapis.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
   udp: true
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
 - name: 14|DE_speednode_0003
+  password: None
   port: 443
-  server: 149.36.50.1
+  server: 213.109.163.119
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 14|DE_speednode_0004
   port: 443
-  server: 149.36.50.157
+  server: 213.109.163.119
   skip-cert-verify: true
   tls: true
   type: http
@@ -718,198 +737,228 @@ proxies:
   udp: true
 - name: 14|DK_speednode_0006
   port: 9002
-  server: 158.173.154.3
+  server: 158.173.154.5
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 14|DK_speednode_0007
   port: 9002
-  server: 158.173.154.4
+  server: 158.173.154.1
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 14|FR_speednode_0008
-  port: 9443
-  server: 138.199.47.247
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|GB_speednode_0009
-  password: None
   port: 443
-  server: 212.102.63.61
+  server: 82.65.162.76
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 14|GB_speednode_0010
+- name: 14|FR_speednode_0009
   port: 443
-  server: 212.102.63.61
+  server: 51.158.243.91
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 14|JP_speednode_0011
-  port: 343
-  server: 133.18.200.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|NL_speednode_0012
+- name: 14|FR_speednode_0010
   port: 443
-  server: 185.238.168.20
+  server: 51.210.167.149
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 14|NL_speednode_0013
-  port: 9443
-  server: 149.36.51.161
+- name: 14|FR_speednode_0011
+  password: 'null'
+  port: 23856
+  server: 51.159.225.196
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 14|NL_speednode_0014
-  port: 9443
-  server: 149.36.51.157
+  username: 'null'
+- name: 14|FR_speednode_0012
+  port: 8090
+  server: 83.206.1.225
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 14|NL_speednode_0015
-  password: None
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|NL_speednode_0016
-  port: 9002
-  server: 84.17.47.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|NL_speednode_0017
-  port: 9002
-  server: 84.17.47.150
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|NL_speednode_0018
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|NL_speednode_0019
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|NL_speednode_0020
-  password: None
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|NL_speednode_0021
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|NL_speednode_0022
-  port: 9002
-  server: 84.17.47.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|RO_speednode_0023
-  port: 9002
-  server: 193.176.84.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|RO_speednode_0024
+- flow: xtls-rprx-vision
+  name: 14|GB_speednode_0013
+  network: tcp
   port: 443
-  server: 185.163.110.194
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|RS_speednode_0025
-  password: None
-  port: 443
-  server: 146.70.221.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|RS_speednode_0026
-  port: 443
-  server: 146.70.221.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|SE_speednode_0027
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|US_speednode_0028
-  port: 443
-  server: 38.247.141.135
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|US_speednode_0029
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|US_speednode_0030
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: random
-  name: 14|US_speednode_0031
-  network: ws
-  port: 443
-  server: freev2.cloudflare.182682.xyz
-  servername: jp-osa.862400.xyz
+  reality-opts:
+    public-key: ui9MLRYZIz7S6_1E4fZgoamwTypfQAMwJ1olxGcWomE
+    short-id: fc70174007a393b4
+  server: netherlands02.azotvpn.xyz
+  servername: netherlands02.azotvpn.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ed6ae8d0-0ad4-4828-8fee-621a650abb39
-  ws-opts:
-    headers:
-      Host: jp-osa.862400.xyz
-    path: /announcement?ed=2048
+  uuid: a500be68-4ff6-433b-9968-472be69fab14
+- name: 14|GB_speednode_0014
+  port: 8443
+  server: 198.105.124.180
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|IE_speednode_0015
+  port: 443
+  server: 18.200.158.139
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|IL_speednode_0016
+  port: 443
+  server: 62.90.77.30
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|LV_speednode_0027
+  port: 443
+  server: 185.219.159.15
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|NL_speednode_0028
+  port: 9002
+  server: 84.17.47.124
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|NL_speednode_0029
+  password: None
+  port: 9002
+  server: 84.17.47.123
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|NL_speednode_0030
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|NL_speednode_0031
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0032
+  port: 9002
+  server: 193.176.84.24
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0033
+  port: 9002
+  server: 193.176.84.36
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0034
+  port: 9002
+  server: 193.176.84.38
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0035
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0036
+  port: 9002
+  server: 193.176.84.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0037
+  port: 9002
+  server: 193.176.84.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0038
+  port: 9002
+  server: 193.176.84.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|US_speednode_0039
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|US_speednode_0040
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|US_speednode_0041
+  port: 443
+  server: 64.98.50.100
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|US_speednode_0042
+  password: None
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|US_speednode_0043
+  password: 'null'
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 14|US_speednode_0044
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|US_speednode_0045
+  port: 8443
+  server: 44.248.167.117
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -921,100 +970,105 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12|🇯🇵 日本|@ripaojiedian
-  - 12|🇸🇬 新加坡2|@ripaojiedian
-  - 10|Telegram@vpnjey
-  - 12|🇭🇰 香港5|@ripaojiedian
-  - 10|🇺198211 | ⚡️Telegram = t.me/SO...
-  - '10|@KAFING_2 #2'
-  - 14|NL_speednode_0017
-  - 14|US_speednode_0030
-  - '10|Telegram@vpnjey #6'
-  - 10|+@Azarakhsh_Proxy+
-  - 12|🇭🇰 香港2|@ripaojiedian
-  - 14|GB_speednode_0009
-  - 10|192087 | ⚡️Telegram = t.me/v2r...
-  - 13|美国2|@ripaojiedian
-  - 13|香港4|@ripaojiedian
-  - 10|@fastkanfig کانال تلگرام
-  - 14|SE_speednode_0027
-  - 14|RS_speednode_0026
-  - 14|US_speednode_0031
-  - '10|@confiig_hub #1'
-  - 10|@v2ray_phoenix
-  - 10|@V2rayng_mar_ket
-  - 9|139909 | ⚡️Telegram = t.me/SOS...
-  - 12|🇭🇰 香港3|@ripaojiedian
-  - 14|DE_speednode_0004
-  - 12|🇸🇬 新加坡|@ripaojiedian
-  - 12|🇺🇸 美国|@ripaojiedian
-  - 14|AT_speednode_0001
-  - 14|NL_speednode_0013
-  - '10|@V2rayng_mar_ket #1'
-  - 12|🇭🇰 香港4|@ripaojiedian
-  - 12|🇺🇸 美国2|@ripaojiedian
-  - '10|Telegram@vpnjey #5'
-  - 14|NL_speednode_0018
-  - 10|@KAFING_2
-  - 14|JP_speednode_0011
-  - 14|FR_speednode_0008
-  - 14|NL_speednode_0022
-  - 9|🇩🇪192088 | ⚡️Telegram = t.me/v...
-  - 14|DE_speednode_0002
-  - 10| - NL - @FreeOnlineVPN
-  - 13|日本2|@ripaojiedian
-  - 14|NL_speednode_0016
-  - 10|vpnsal
-  - 10|@Azaranv2ray
-  - 10|@vmess_ir
-  - 10|Telegram 🆔@Cnetvpn 🇺🇲
-  - 13|美国|@ripaojiedian
-  - 10|198213 | ⚡️Telegram = t.me/SOS...
   - 13|香港5|@ripaojiedian
-  - 14|US_speednode_0028
-  - 14|RO_speednode_0024
-  - 12|🇯🇵 日本3|@ripaojiedian
-  - 14|DK_speednode_0007
-  - 10|hysteria
-  - 10|@FarazV2ray
-  - 12|tg频道:@ripaojiedian
-  - 14|RO_speednode_0023
-  - 13|香港|@ripaojiedian
-  - 14|NL_speednode_0020
-  - 10|Telegram 🆔@cnetvpn 🇱
-  - 14|NL_speednode_0015
-  - 13|香港3|@ripaojiedian
-  - 10|@v2ray_configs_pools  ⚡️
-  - 10|Telegram 🆔@cnetvpn 🇪
-  - 14|NL_speednode_0014
-  - 14|NL_speednode_0021
-  - 14|NL_speednode_0012
-  - '10|Telegram@vpnjey #4'
-  - 12|🇰🇷 韩国|@ripaojiedian
-  - 14|GB_speednode_0010
+  - 14|FR_speednode_0008
+  - 10|Telegram 🆔@Cnetvpn 🇺🇲
+  - 10| - NL - @FreeOnlineVPN
+  - 14|GB_speednode_0013
+  - 13|日本2|@ripaojiedian
+  - 9|🇩🇪192088 | ⚡️Telegram = t.me/v...
+  - 10|Telegram 🆔@cnetvpn 🇮
+  - 10|Telegram@vpnjey
+  - 14|DE_speednode_0004
+  - 14|FR_speednode_0011
   - '10|Telegram@vpnjey #1'
-  - '10|Channel : @Daily_Configs #1'
-  - 14|NL_speednode_0019
-  - 13|香港2|@ripaojiedian
+  - 10|+@Azarakhsh_Proxy+
+  - 12|🇸🇬 新加坡|@ripaojiedian
+  - 14|IL_speednode_0016
+  - 13|香港4|@ripaojiedian
+  - '10|Telegram@vpnjey #6'
+  - 14|FR_speednode_0010
+  - '10|@KAFING_2 #2'
+  - 14|DE_speednode_0002
+  - 10|@V2rayng_mar_ket
+  - 14|NL_speednode_0029
   - '10|@Begoo_VPN '
+  - 10|198213 | ⚡️Telegram = t.me/SOS...
+  - 14|US_speednode_0045
+  - 10|Telegram 🆔@cnetvpn 🇱
+  - 10|🇺198211 | ⚡️Telegram = t.me/SO...
   - 13|新加坡|@ripaojiedian
-  - 14|DK_speednode_0006
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 10|97@oneclickvpnkeys
-  - '10|Telegram 🆔@cnetvpn '
-  - '10|Telegram@vpnjey #2'
-  - 13|台湾|@ripaojiedian
-  - 10|🇭198215 | ⚡️Telegram = t.me/SO...
-  - 14|US_speednode_0029
-  - 10|Telegram @cnetvpn 🇺
-  - 14|RS_speednode_0025
-  - 14|DE_speednode_0003
+  - 12|🇺🇸 美国|@ripaojiedian
+  - '10|@V2rayng_mar_ket #1'
   - 14|DK_speednode_0005
+  - 14|GB_speednode_0014
+  - '10|Telegram@vpnjey #7'
+  - 14|RO_speednode_0033
+  - 12|🇰🇷 韩国|@ripaojiedian
+  - '10|Telegram 🆔@Cnetvpn '
+  - 14|FR_speednode_0009
+  - 14|NL_speednode_0031
+  - 14|DK_speednode_0007
+  - 14|US_speednode_0041
+  - '10|Telegram 🆔@cnetvpn '
+  - 14|RO_speednode_0037
+  - '10|Telegram@vpnjey #3'
+  - 12|🇯🇵 日本3|@ripaojiedian
   - 13|韩国|@ripaojiedian
   - 10|Telegram:@v2rayng3
-  - '10|Telegram 🆔@Cnetvpn '
-  - 10|Telegram 🆔@cnetvpn 🇮
+  - 14|NL_speednode_0028
+  - 10|@KAFING_2
+  - '10|Telegram@vpnjey #2'
+  - '10|@confiig_hub #1'
+  - 13|美国2|@ripaojiedian
+  - 12|🇺🇸 美国2|@ripaojiedian
+  - 10|🇷198261 | ⚡️Telegram = t.me/SO...
+  - 14|LV_speednode_0027
+  - 14|US_speednode_0044
+  - 12|🇯🇵 日本|@ripaojiedian
+  - 14|US_speednode_0043
+  - 13|香港3|@ripaojiedian
+  - 10|@Azaranv2ray
+  - 14|NL_speednode_0030
+  - 12|🇭🇰 香港5|@ripaojiedian
+  - 9|139909 | ⚡️Telegram = t.me/SOS...
+  - 13|美国|@ripaojiedian
+  - 12|🇭🇰 香港3|@ripaojiedian
+  - '10|Telegram@vpnjey #5'
+  - 14|US_speednode_0040
+  - '10|@v2ray_configs_pools  '
+  - 10|Telegram 🆔@cnetvpn 🇪
+  - 14|DE_speednode_0003
+  - 14|CA_speednode_0001
+  - 10|@v2ray_phoenix
+  - 12|tg频道:@ripaojiedian
+  - 13|香港|@ripaojiedian
+  - 10|vpnsal
+  - 10|198215 | ⚡️Telegram = t.me/SOS...
+  - 14|FR_speednode_0012
+  - 14|RO_speednode_0034
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 12|🇭🇰 香港4|@ripaojiedian
+  - 10|@vmess_ir
+  - 12|🇭🇰 香港2|@ripaojiedian
   - 12|🇯🇵 日本2|@ripaojiedian
+  - 10|@fastkanfig کانال تلگرام
+  - 14|RO_speednode_0032
+  - 14|US_speednode_0042
+  - 14|RO_speednode_0036
+  - 10|hysteria
+  - 10|192087 | ⚡️Telegram = t.me/v2r...
+  - 14|RO_speednode_0035
+  - 14|RO_speednode_0038
+  - '10|Channel : @Daily_Configs #1'
+  - '10|Telegram @cnetvpn '
+  - 14|IE_speednode_0015
+  - 14|DK_speednode_0006
+  - 14|US_speednode_0039
+  - 13|香港2|@ripaojiedian
+  - 10|@FarazV2ray
+  - 13|台湾|@ripaojiedian
+  - 12|🇸🇬 新加坡2|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1074,7 +1128,6 @@ proxy-groups:
   - 12|🇯🇵 日本2|@ripaojiedian
   - 12|🇯🇵 日本3|@ripaojiedian
   - 13|日本2|@ripaojiedian
-  - 14|JP_speednode_0011
   type: select
 - name: 🇺🇸 美国
   proxies:
@@ -1082,10 +1135,13 @@ proxy-groups:
   - 12|🇺🇸 美国2|@ripaojiedian
   - 13|美国|@ripaojiedian
   - 13|美国2|@ripaojiedian
-  - 14|US_speednode_0028
-  - 14|US_speednode_0029
-  - 14|US_speednode_0030
-  - 14|US_speednode_0031
+  - 14|US_speednode_0039
+  - 14|US_speednode_0040
+  - 14|US_speednode_0041
+  - 14|US_speednode_0042
+  - 14|US_speednode_0043
+  - 14|US_speednode_0044
+  - 14|US_speednode_0045
   type: select
 - name: 🇨🇳 台湾
   proxies:
@@ -1110,11 +1166,15 @@ proxy-groups:
   type: select
 - name: 🇨🇦 加拿大
   proxies:
-  - REJECT
+  - 14|CA_speednode_0001
   type: select
 - name: 🇫🇷 法国
   proxies:
   - 14|FR_speednode_0008
+  - 14|FR_speednode_0009
+  - 14|FR_speednode_0010
+  - 14|FR_speednode_0011
+  - 14|FR_speednode_0012
   type: select
 - name: 🇸🇬 新加坡
   proxies:
@@ -1124,8 +1184,8 @@ proxy-groups:
   type: select
 - name: 🇬🇧 英国
   proxies:
-  - 14|GB_speednode_0009
-  - 14|GB_speednode_0010
+  - 14|GB_speednode_0013
+  - 14|GB_speednode_0014
   type: select
 - name: 🇰🇷 韩国
   proxies:
