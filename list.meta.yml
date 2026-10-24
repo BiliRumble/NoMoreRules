@@ -1,4 +1,4 @@
-# Update: 2026-10-25 03:56
+# Update: 2026-10-25 06:46
 allow-lan: false
 dns:
   enable: true
@@ -38,6 +38,19 @@ proxies:
   sni: srv-0e5387.frd21.ru
   tls: false
   type: hysteria2
+- name: 10|97@oneclickvpnkeys
+  password: 41edb44c8e
+  port: 11592
+  server: 103.88.243.142
+  sni: srv-17e124.21freedom.net
+  tls: false
+  type: hysteria2
+- name: 10|99@oneclickvpnkeys
+  password: 41edb44c8e
+  port: 11592
+  server: srv-17e124.21freedom.net
+  tls: false
+  type: hysteria2
 - name: 10|@v2ray_phoenix
   obfs: salamander
   obfs-password: 588c76723192f87cfe6d6786816177cd2bd9773acdc545928d7d1d5e8338d4ce
@@ -58,7 +71,7 @@ proxies:
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
-- name: '10|Telegram @cnetvpn '
+- name: 10|Telegram @cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
   password: 617z9r1mbzbm1t5z
@@ -289,11 +302,17 @@ proxies:
   sni: srv-3fc7c9.21freedom.net
   tls: false
   type: hysteria2
-- name: 10|32@oneclickvpnkeys
+- name: 10|🐙32@oneclickvpnkeys
   password: d4ca9415f0eac7897472e1e5b86d2e96
   port: 443
   server: 50.7.38.243
   sni: promo.betust.net
+  tls: false
+  type: hysteria2
+- name: 10|93@oneclickvpnkeys
+  password: d4ca9415f0eac7897472e1e5b86d2e96
+  port: 443
+  server: promo.betust.net
   tls: false
   type: hysteria2
 - name: 10|@vmess_ir
@@ -853,92 +872,95 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 10|@FarazV2ray
-  - '10|Telegram @cnetvpn '
-  - 10|71@oneclickvpnkeys
-  - 14|RO_speednode_0019
-  - 12|🇭🇰 香港5|@ripaojiedian
-  - 14|IL_speednode_0011
-  - 10|Telegram 🆔@cnetvpn 🇪
-  - 13|香港4|@ripaojiedian
-  - 14|NL_speednode_0016
-  - 12|🇺🇸 美国|@ripaojiedian
-  - '10|Telegram@vpnjey #8'
-  - 14|FR_speednode_0008
-  - '10|Telegram@vpnjey #6'
-  - 10|@v2ray_configs_pools  ⚡️
-  - 13|台湾|@ripaojiedian
-  - 14|FR_speednode_0006
-  - 10|62@oneclickvpnkeys
-  - 10|Telegram 🆔@Cnetvpn 🇺🇲
-  - 13|韩国|@ripaojiedian
-  - 12|🇭🇰 香港4|@ripaojiedian
-  - 12|🇭🇰 香港3|@ripaojiedian
-  - 13|新加坡|@ripaojiedian
-  - 10|Telegram@vpnjey
-  - 10|@vmess_ir
-  - 12|tg频道:@ripaojiedian
-  - 13|香港5|@ripaojiedian
-  - 13|美国2|@ripaojiedian
-  - 10|@V2rayng_mar_ket
-  - '10|Telegram@vpnjey #2'
-  - 10|Telegram 🆔@cnetvpn 🇱
-  - 14|US_speednode_0023
-  - '10|Telegram@vpnjey #4'
   - 10|@V2ray_confiig
-  - 10|Telegram 🆔@cnetvpn 🇮
-  - 12|🇯🇵 日本3|@ripaojiedian
-  - 10|hysteria
-  - '10|@Begoo_VPN '
-  - '10|@KAFING_2 #2'
-  - 10|@v2ray_phoenix
-  - '10|Telegram@vpnjey #5'
-  - 12|🇺🇸 美国2|@ripaojiedian
-  - 14|FR_speednode_0007
-  - 14|RO_speednode_0022
-  - 14|DE_speednode_0002
-  - 14|NL_speednode_0015
-  - 10|@Azaranv2ray
-  - '10|Telegram 🆔@Cnetvpn '
-  - '10|Telegram 🆔@cnetvpn 🇪 #1'
-  - 12|🇸🇬 新加坡|@ripaojiedian
-  - 14|US_speednode_0024
-  - 14|IE_speednode_0010
-  - 14|DE_speednode_0001
-  - '10|@V2rayng_mar_ket #1'
-  - 14|GB_speednode_0009
-  - 14|NL_speednode_0017
-  - 13|香港3|@ripaojiedian
-  - 13|美国|@ripaojiedian
-  - 12|🇸🇬 新加坡2|@ripaojiedian
-  - '10|Telegram@vpnjey #7'
-  - 12|🇰🇷 韩国|@ripaojiedian
-  - 14|RO_speednode_0020
-  - 10|@pass_net
-  - 14|DK_speednode_0003
-  - 10| - NL - @FreeOnlineVPN
-  - 14|FR_speednode_0005
-  - '10|Telegram@vpnjey #1'
-  - 10|Telegram:@v2rayng3
-  - 10|@fastkanfig کانال ا
-  - 13|香港2|@ripaojiedian
-  - 10|96@oneclickvpnkeys
   - 10|🤩98@oneclickvpnkeys
-  - '10|@confiig_hub #1'
-  - 12|🇯🇵 日本2|@ripaojiedian
-  - 12|🇯🇵 日本|@ripaojiedian
-  - 9,10|@KAFING_2
-  - 13|日本2|@ripaojiedian
-  - 10|32@oneclickvpnkeys
-  - 10|+@Azarakhsh_Proxy+
+  - 12|🇺🇸 美国2|@ripaojiedian
   - 14|NL_speednode_0018
-  - 14|RO_speednode_0021
-  - '10|Telegram@vpnjey #3'
-  - 14|LV_speednode_0014
+  - 12|🇭🇰 香港5|@ripaojiedian
+  - 12|🇭🇰 香港3|@ripaojiedian
+  - 12|tg频道:@ripaojiedian
+  - 10|Telegram 🆔@cnetvpn 🇱
+  - 10|@pass_net
+  - 14|IE_speednode_0010
+  - 10|Telegram 🆔@cnetvpn 🇪
+  - 10|97@oneclickvpnkeys
+  - '10|Telegram@vpnjey #5'
+  - '10|Telegram@vpnjey #8'
+  - 10|62@oneclickvpnkeys
+  - 13|日本2|@ripaojiedian
   - 14|DK_speednode_0004
-  - 12|🇭🇰 香港|@ripaojiedian
+  - 12|🇯🇵 日本|@ripaojiedian
+  - 12|🇭🇰 香港4|@ripaojiedian
+  - 13|美国|@ripaojiedian
+  - 13|台湾|@ripaojiedian
+  - 14|DK_speednode_0003
+  - 10|+@Azarakhsh_Proxy+
+  - 10|hysteria
+  - '10|@V2rayng_mar_ket #1'
+  - 10|99@oneclickvpnkeys
+  - 10|@fastkanfig کانال ا
+  - 10|@v2ray_phoenix
+  - '10|@Begoo_VPN '
+  - 10|71@oneclickvpnkeys
+  - 14|NL_speednode_0015
+  - 10|Telegram @cnetvpn 🇷🇺
   - 12|🇭🇰 香港2|@ripaojiedian
+  - 13|美国2|@ripaojiedian
+  - 14|NL_speednode_0016
+  - 10|Telegram 🆔@cnetvpn 🇮
+  - 10|@Azaranv2ray
+  - 14|US_speednode_0024
+  - 10| - NL - @FreeOnlineVPN
+  - 14|RO_speednode_0021
+  - '10|Telegram 🆔@Cnetvpn '
+  - 12|🇯🇵 日本3|@ripaojiedian
+  - '10|Telegram 🆔@cnetvpn 🇪 #1'
   - 13|香港|@ripaojiedian
+  - 12|🇸🇬 新加坡2|@ripaojiedian
+  - 10|@FarazV2ray
+  - '10|@confiig_hub #1'
+  - 14|GB_speednode_0009
+  - 13|香港4|@ripaojiedian
+  - 14|LV_speednode_0014
+  - 9,10|@KAFING_2
+  - '10|Telegram@vpnjey #2'
+  - 13|韩国|@ripaojiedian
+  - 14|US_speednode_0023
+  - 12|🇭🇰 香港|@ripaojiedian
+  - 13|香港2|@ripaojiedian
+  - 14|IL_speednode_0011
+  - 14|NL_speednode_0017
+  - 12|🇺🇸 美国|@ripaojiedian
+  - 14|RO_speednode_0022
+  - 13|新加坡|@ripaojiedian
+  - 10|@V2rayng_mar_ket
+  - '10|Telegram@vpnjey #3'
+  - 13|香港3|@ripaojiedian
+  - 10|93@oneclickvpnkeys
+  - 10|🐙32@oneclickvpnkeys
+  - '10|Telegram@vpnjey #4'
+  - '10|@KAFING_2 #2'
+  - 10|@v2ray_configs_pools  ⚡️
+  - 14|FR_speednode_0008
+  - 10|Telegram 🆔@Cnetvpn 🇺🇲
+  - 10|Telegram@vpnjey
+  - '10|Telegram@vpnjey #1'
+  - 14|FR_speednode_0007
+  - '10|Telegram@vpnjey #6'
+  - 14|DE_speednode_0001
+  - 12|🇸🇬 新加坡|@ripaojiedian
+  - 14|RO_speednode_0019
+  - 14|FR_speednode_0005
+  - 10|Telegram:@v2rayng3
+  - 10|96@oneclickvpnkeys
+  - 14|RO_speednode_0020
+  - 10|@vmess_ir
+  - '10|Telegram@vpnjey #7'
+  - 12|🇯🇵 日本2|@ripaojiedian
+  - 14|DE_speednode_0002
+  - 13|香港5|@ripaojiedian
+  - 12|🇰🇷 韩国|@ripaojiedian
+  - 14|FR_speednode_0006
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1057,7 +1079,8 @@ proxy-groups:
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
-  - REJECT
+  - 10|99@oneclickvpnkeys
+  - 10|Telegram @cnetvpn 🇷🇺
   type: select
 - name: 🇩🇪 德国
   proxies:
