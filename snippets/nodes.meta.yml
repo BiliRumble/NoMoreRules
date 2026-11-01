@@ -9,14 +9,16 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 10|@Begoo_VPN ²⁹⁰
+- alpn:
+  - h3
+  name: 10|@FXxNET⚡️
   obfs: salamander
-  obfs-password: dzcb7hv6i2kx2zze
-  password: 5bcodmhjtyfyyrqh
-  port: 36758
-  server: 91.142.73.159
-  skip-cert-verify: true
-  sni: cdn77.dmtr.ru
+  obfs-password: litevpn
+  password: 59018379-d5df-4314-ab23-df0e838d7953
+  port: 443
+  server: 198.13.140.193
+  skip-cert-verify: false
+  sni: efa11.lumariqis.com
   tls: false
   type: hysteria2
 - name: 10|Telegram:@v2rayng3
@@ -29,7 +31,7 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: 10|🇳🇱NL-@VPNine1
+- name: 10|204271 | ⚡️Telegram = t.me/SOS...
   password: 6da2c981-8c77-4340-bda3-93399b7aea26
   port: 443
   server: 195.63.146.10
