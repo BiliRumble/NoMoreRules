@@ -1,4 +1,4 @@
-# Update: 2026-11-05 09:08
+# Update: 2026-11-05 18:00
 allow-lan: false
 dns:
   enable: true
@@ -52,7 +52,7 @@ proxies:
   sni: b8c1a181-tmm5c0-twuk0i-1hzyr.los.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 10|🇺🇸US-@VPNine1
+- name: 10|🇺🇸206889 | ⚡️Telegram = t.me/L...
   obfs: salamander
   obfs-password: sbxbz19890604
   password: 41d4f8b3-2a45-4531-a33b-938e2eebb939
@@ -346,6 +346,16 @@ proxies:
   sni: 6b9f9b99-tmm5c0-tsdg75-tlhh.los.hyhuawei.com
   tls: false
   type: hysteria2
+- name: '10|Channel id: @ConfigV2RayNG '
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  port: 5010
+  server: 152.32.254.68
+  skip-cert-verify: false
+  sni: nas.aizhzo.com
+  tls: false
+  type: hysteria2
 - name: 10|@vmess_ir
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
@@ -442,6 +452,20 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: 10|@tootffarangi🍓
+  obfs: salamander
+  obfs-password: a99lje1n7ystml9q
+  password: xo43w4tc13ou2h3x
+  port: 50000
+  server: mein-1.octavia.dpdns.org
+  skip-cert-verify: false
+  sni: main-1.octavia.dpdns.org
   tls: false
   type: hysteria2
 - name: 10|🇸🇪206923 | ⚡️Telegram = t.me/L...
@@ -2110,177 +2134,179 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12,13|🇩🇪DE10|@ripaojiedian
-  - 12,13|🇯🇵JP12|@ripaojiedian
-  - 12,13|🇯🇵JP08|@ripaojiedian
-  - 14|NL_speednode_0026
-  - 10|🍪42@oneclickvpnkeys
-  - '10|Telegram@vpnjey #4'
-  - 12,13|🇳🇱NL02|@ripaojiedian
-  - 12,13|🇫🇷FR06|@ripaojiedian
-  - 12,13|🇳🇱NL07|@ripaojiedian
-  - 12,13|🇪🇸ES09|@ripaojiedian
-  - 12,13|🇳🇱NL05|@ripaojiedian
-  - '10|@vasl_bashim #1'
-  - 12,13|🇯🇵JP15|@ripaojiedian
-  - 12,13|🇯🇵JP03|@ripaojiedian
-  - 10|Telegram@vpnjey
-  - '10|@KAFING_2 #2'
-  - 12,13|🇨🇦CA07|@ripaojiedian
-  - 12,13|🇯🇵JP04|@ripaojiedian
-  - 12,13|🇫🇷FR01|@ripaojiedian
-  - 10|🍪13@oneclickvpnkeys
-  - 12,13|🇭🇰HK06|@ripaojiedian
-  - 12,13|🇭🇰HK05|@ripaojiedian
-  - 14|RU_speednode_0030
-  - 12,13|🇫🇷FR03|@ripaojiedian
-  - 12,13|🇸🇬SG08|@ripaojiedian
-  - 12,13|🇸🇬SG01|@ripaojiedian
-  - 12,13|🇳🇱NL08|@ripaojiedian
-  - 14|RU_speednode_0037
-  - 14|RU_speednode_0036
-  - 14|DE_speednode_0004
-  - '10|Telegram@vpnjey #3'
-  - 10|99@oneclickvpnkeys
-  - 14|LV_speednode_0020
-  - 10|🧿100@oneclickvpnkeys
-  - 14|RU_speednode_0029
-  - 10|95@oneclickvpnkeys
-  - '10|@vasl_bashim #6'
-  - 12,13|🇨🇦CA04|@ripaojiedian
-  - 10|🍪73@oneclickvpnkeys
-  - 12,13|🇨🇦CA10|@ripaojiedian
-  - 12,13|🇯🇵JP06|@ripaojiedian
-  - 12,13|🇭🇰HK03|@ripaojiedian
-  - 12,13|🇸🇬SG06|@ripaojiedian
-  - 12,13|🇩🇪DE05|@ripaojiedian
-  - 14|ES_speednode_0007
-  - 14|JP_speednode_0018
-  - 12,13|🇯🇵JP01|@ripaojiedian
-  - 12,13|🇭🇰HK02|@ripaojiedian
-  - 10|⏳1@oneclickvpnkeys
-  - 12,13|🇨🇦CA08|@ripaojiedian
-  - 12,13|🇩🇪DE09|@ripaojiedian
-  - 12,13|🇫🇷FR05|@ripaojiedian
-  - 12,13|🇫🇷FR10|@ripaojiedian
-  - 12,13|🇫🇷FR04|@ripaojiedian
-  - '10|@vpnbaz #1'
-  - '10|Telegram@vpnjey #2'
-  - 12,13|🇭🇰HK04|@ripaojiedian
-  - 12,13|🇺🇸US07|@ripaojiedian
-  - 10|🇺🇸US-@VPNine1
-  - 10|🇸🇪206923 | ⚡️Telegram = t.me/L...
-  - 14|LV_speednode_0021
-  - 12,13|🇫🇷FR02|@ripaojiedian
-  - 14|PL_speednode_0028
-  - '10|@Begoo_VPN '
-  - 14|US_speednode_0043
-  - 14|RU_speednode_0032
-  - '10|Telegram@vpnjey #6'
-  - 12,13|🇳🇱NL01|@ripaojiedian
-  - 12,13|🇸🇬SG09|@ripaojiedian
-  - 14|FR_speednode_0011
-  - 12,13|🇩🇪DE06|@ripaojiedian
-  - 12,13|🇸🇬SG05|@ripaojiedian
-  - 10|hysteria
-  - 14|NL_speednode_0023
-  - 12,13|🇭🇰HK01|@ripaojiedian
-  - '10|@vpnbaz #2'
-  - 14|NL_speednode_0025
-  - 12,13|🇸🇬SG03|@ripaojiedian
-  - 12,13|🇪🇸ES08|@ripaojiedian
-  - 14|AT_speednode_0002
-  - 14|IE_speednode_0013
-  - 12,13|🇨🇦CA02|@ripaojiedian
-  - 10| - NL - @FreeOnlineVPN
-  - 12,13|🇯🇵JP10|@ripaojiedian
-  - 12,13|🇪🇸ES02|@ripaojiedian
-  - 10|️️@ATLAS_V2VPN️️631
-  - 12,13|🇳🇱NL03|@ripaojiedian
-  - 14|DK_speednode_0006
-  - 12,13|🇪🇸ES10|@ripaojiedian
-  - 12,13|🇭🇰HK08|@ripaojiedian
-  - 12,13|🇩🇪DE01|@ripaojiedian
-  - 14|NL_speednode_0027
-  - 10|🍪66@oneclickvpnkeys
-  - 14|TR_speednode_0038
-  - 10|94@oneclickvpnkeys
-  - 12,13|🇭🇰HK07|@ripaojiedian
-  - 14|FR_speednode_0010
-  - 9|139909 | Telegram = t.me/SOSke...
-  - 10|+@Azarakhsh_Proxy+
-  - 10|@vmess_ir
-  - 12,13|🇩🇪DE02|@ripaojiedian
-  - '10|@v2ray313 ا '
-  - 12,13|🇪🇸ES05|@ripaojiedian
-  - 12,13|🇸🇬SG07|@ripaojiedian
-  - 12,13|🇫🇷FR09|@ripaojiedian
-  - 14|BR_speednode_0003
-  - 14|RU_speednode_0034
-  - 10|92@oneclickvpnkeys
-  - 12,13|🇺🇸US03|@ripaojiedian
-  - 14|US_speednode_0039
-  - 12,13|🇩🇪DE04|@ripaojiedian
-  - 12,13|🇩🇪DE03|@ripaojiedian
-  - '10|Telegram@vpnjey #7'
-  - 12,13|🇪🇸ES06|@ripaojiedian
-  - 10|75@oneclickvpnkeys
-  - 10|@vpnbaz
-  - 10|@fastkanfig کانال را
-  - 10|برای اتصال دائمی جوین شو Teleg...
-  - 12,13|🇪🇸ES04|@ripaojiedian
-  - 12,13|🇯🇵JP07|@ripaojiedian
-  - '10|Telegram@vpnjey #5'
-  - 12,13|🇺🇸US05|@ripaojiedian
-  - 10|Telegram 🆔@cnetvpn 🇱
-  - '10|@confiig_hub #1'
-  - 12,13|🇩🇪DE07|@ripaojiedian
-  - 10|98@oneclickvpnkeys
-  - 14|FR_speednode_0008
-  - 12,13|🇨🇦CA06|@ripaojiedian
-  - 12,13|🇨🇦CA05|@ripaojiedian
-  - 10|96@oneclickvpnkeys
-  - 12,13|🇨🇦CA09|@ripaojiedian
-  - 12,13|🇮🇷IR01|@ripaojiedian
-  - 10| ال ای ن  TelegramID Express_f...
-  - 14|US_speednode_0041
-  - 14|RU_speednode_0035
   - 9,10|@KAFING_2
-  - 14|RU_speednode_0031
-  - 12,13|🇫🇷FR07|@ripaojiedian
-  - 10|Telegram:@v2rayng3
+  - '10|@Begoo_VPN '
+  - 10|99@oneclickvpnkeys
   - 12,13|🇸🇬SG02|@ripaojiedian
-  - 12,13|🇺🇸US06|@ripaojiedian
-  - 14|FR_speednode_0009
-  - 14|FR_speednode_0012
-  - 10|🇺🇸206884 | ⚡️Telegram = t.me/L...
-  - 14|US_speednode_0042
-  - 10|97@oneclickvpnkeys
-  - 12,13|🇨🇦CA01|@ripaojiedian
-  - 12,13|🇳🇱NL06|@ripaojiedian
-  - '10|94@oneclickvpnkeys #1'
-  - 14|DK_speednode_0005
+  - 10|98@oneclickvpnkeys
+  - 12,13|🇫🇷FR07|@ripaojiedian
+  - '10|Telegram@vpnjey #3'
+  - 12,13|🇪🇸ES08|@ripaojiedian
+  - 14|PL_speednode_0028
+  - 12,13|🇳🇱NL07|@ripaojiedian
+  - 12,13|🇪🇸ES02|@ripaojiedian
   - 14|RU_speednode_0033
-  - 12,13|🇩🇪DE08|@ripaojiedian
-  - 12,13|🇪🇸ES07|@ripaojiedian
-  - 14|NL_speednode_0024
+  - 10|🇺🇸206884 | ⚡️Telegram = t.me/L...
+  - 12,13|🇨🇦CA06|@ripaojiedian
+  - 10|@fastkanfig کانال را
+  - 14|RU_speednode_0037
+  - 12,13|🇩🇪DE07|@ripaojiedian
+  - 10|Telegram@vpnjey
+  - 14|IE_speednode_0013
+  - 12,13|🇪🇸ES05|@ripaojiedian
+  - '10|@vasl_bashim #1'
+  - 12,13|🇯🇵JP04|@ripaojiedian
+  - 12,13|🇸🇬SG06|@ripaojiedian
+  - 12,13|🇫🇷FR09|@ripaojiedian
   - 14|JP_speednode_0019
-  - 14|AT_speednode_0001
-  - 12,13|🇯🇵JP09|@ripaojiedian
-  - 12,13|🇭🇰HK09|@ripaojiedian
-  - 12,13|🇺🇸US02|@ripaojiedian
-  - 12,13|🇸🇬SG04|@ripaojiedian
+  - 14|RU_speednode_0031
+  - 10|🍪42@oneclickvpnkeys
+  - 14|US_speednode_0039
+  - 12,13|🇩🇪DE10|@ripaojiedian
+  - 10|95@oneclickvpnkeys
+  - 12,13|🇺🇸US03|@ripaojiedian
+  - '10|Channel id: @ConfigV2RayNG '
+  - 12,13|🇸🇬SG05|@ripaojiedian
+  - '10|@vpnbaz #1'
+  - 12,13|🇮🇷IR01|@ripaojiedian
   - 12,13|🇺🇸US04|@ripaojiedian
-  - 12,13|🇨🇦CA03|@ripaojiedian
-  - 12,13|🇫🇷FR08|@ripaojiedian
-  - 12,13|🇳🇱NL04|@ripaojiedian
-  - 12,13|🇪🇸ES01|@ripaojiedian
-  - '10|Telegram@vpnjey #1'
-  - 12,13|🇪🇸ES03|@ripaojiedian
-  - '10|Telegram 🆔@cnetvpn '
-  - 14|US_speednode_0040
-  - 14|NL_speednode_0022
+  - 12,13|🇯🇵JP01|@ripaojiedian
+  - 14|NL_speednode_0027
+  - 14|RU_speednode_0036
+  - 12,13|🇯🇵JP10|@ripaojiedian
+  - 12,13|🇩🇪DE01|@ripaojiedian
+  - 12,13|🇭🇰HK07|@ripaojiedian
+  - 14|RU_speednode_0029
+  - '10|@KAFING_2 #2'
+  - 14|AT_speednode_0001
+  - 10|92@oneclickvpnkeys
+  - 10|🧿100@oneclickvpnkeys
+  - 12,13|🇭🇰HK01|@ripaojiedian
   - 10|🍪61@oneclickvpnkeys
+  - 10|94@oneclickvpnkeys
+  - 12,13|🇩🇪DE04|@ripaojiedian
+  - 12,13|🇪🇸ES09|@ripaojiedian
+  - 14|NL_speednode_0026
+  - 12,13|🇨🇦CA01|@ripaojiedian
+  - 12,13|🇺🇸US02|@ripaojiedian
+  - 12,13|🇳🇱NL01|@ripaojiedian
+  - 12,13|🇫🇷FR08|@ripaojiedian
+  - 10|Telegram:@v2rayng3
+  - 12,13|🇪🇸ES03|@ripaojiedian
+  - 9|139909 | Telegram = t.me/SOSke...
+  - 12,13|🇸🇬SG04|@ripaojiedian
+  - 14|JP_speednode_0018
+  - 10|️️@ATLAS_V2VPN️️631
+  - 12,13|🇩🇪DE05|@ripaojiedian
+  - 10|hysteria
+  - '10|@confiig_hub #1'
+  - 10|96@oneclickvpnkeys
+  - 12,13|🇫🇷FR01|@ripaojiedian
+  - 14|DE_speednode_0004
+  - 14|RU_speednode_0032
+  - 14|BR_speednode_0003
+  - '10|94@oneclickvpnkeys #1'
+  - 10|برای اتصال دائمی جوین شو Teleg...
+  - 12,13|🇳🇱NL02|@ripaojiedian
+  - 14|DK_speednode_0006
+  - 10|@vmess_ir
+  - 12,13|🇭🇰HK02|@ripaojiedian
+  - 14|LV_speednode_0020
+  - 12,13|🇸🇬SG07|@ripaojiedian
+  - '10|Telegram@vpnjey #1'
+  - 12,13|🇳🇱NL05|@ripaojiedian
+  - 14|TR_speednode_0038
+  - 14|US_speednode_0041
+  - 12,13|🇺🇸US06|@ripaojiedian
+  - 14|NL_speednode_0025
+  - 14|AT_speednode_0002
+  - 10| ال ای ن  TelegramID Express_f...
+  - 12,13|🇩🇪DE08|@ripaojiedian
+  - 12,13|🇯🇵JP08|@ripaojiedian
+  - '10|Telegram@vpnjey #4'
+  - 12,13|🇪🇸ES10|@ripaojiedian
+  - 14|LV_speednode_0021
+  - 12,13|🇭🇰HK05|@ripaojiedian
+  - 14|FR_speednode_0008
+  - 10|+@Azarakhsh_Proxy+
+  - 12,13|🇨🇦CA10|@ripaojiedian
+  - 10|⏳1@oneclickvpnkeys
+  - 12,13|🇪🇸ES04|@ripaojiedian
+  - 12,13|🇩🇪DE02|@ripaojiedian
+  - 12,13|🇪🇸ES01|@ripaojiedian
+  - 14|NL_speednode_0024
+  - 12,13|🇫🇷FR03|@ripaojiedian
+  - '10|@vpnbaz #2'
+  - 14|RU_speednode_0035
+  - 12,13|🇸🇬SG08|@ripaojiedian
+  - 12,13|🇫🇷FR10|@ripaojiedian
+  - 12,13|🇨🇦CA03|@ripaojiedian
+  - 12,13|🇯🇵JP15|@ripaojiedian
+  - '10|Telegram@vpnjey #2'
+  - '10|Telegram 🆔@cnetvpn '
+  - 12,13|🇭🇰HK04|@ripaojiedian
+  - 12,13|🇯🇵JP03|@ripaojiedian
+  - 10|@tootffarangi🍓
+  - 14|RU_speednode_0034
+  - 12,13|🇪🇸ES07|@ripaojiedian
+  - 12,13|🇯🇵JP09|@ripaojiedian
+  - 12,13|🇸🇬SG01|@ripaojiedian
+  - 10|97@oneclickvpnkeys
+  - 12,13|🇯🇵JP12|@ripaojiedian
+  - 14|DK_speednode_0005
+  - '10|@vasl_bashim #6'
+  - 10|Telegram 🆔@cnetvpn 🇱
+  - 12,13|🇨🇦CA04|@ripaojiedian
+  - '10|Telegram@vpnjey #6'
+  - 14|US_speednode_0043
+  - 12,13|🇨🇦CA02|@ripaojiedian
+  - '10|Telegram@vpnjey #5'
+  - 12,13|🇭🇰HK06|@ripaojiedian
+  - 14|FR_speednode_0009
+  - 14|FR_speednode_0011
+  - 14|US_speednode_0042
+  - 12,13|🇭🇰HK09|@ripaojiedian
+  - 14|NL_speednode_0023
+  - 10|🇺🇸206889 | ⚡️Telegram = t.me/L...
+  - 14|ES_speednode_0007
+  - 12,13|🇫🇷FR05|@ripaojiedian
+  - 12,13|🇩🇪DE03|@ripaojiedian
+  - 14|US_speednode_0040
+  - 12,13|🇨🇦CA09|@ripaojiedian
+  - 10|🍪13@oneclickvpnkeys
+  - 12,13|🇺🇸US05|@ripaojiedian
+  - 12,13|🇨🇦CA07|@ripaojiedian
+  - 12,13|🇫🇷FR04|@ripaojiedian
+  - 12,13|🇭🇰HK08|@ripaojiedian
+  - 10| - NL - @FreeOnlineVPN
+  - 12,13|🇯🇵JP07|@ripaojiedian
+  - 12,13|🇪🇸ES06|@ripaojiedian
+  - 12,13|🇳🇱NL04|@ripaojiedian
+  - 12,13|🇳🇱NL03|@ripaojiedian
+  - 12,13|🇸🇬SG03|@ripaojiedian
+  - 12,13|🇯🇵JP06|@ripaojiedian
+  - 12,13|🇩🇪DE06|@ripaojiedian
+  - 12,13|🇨🇦CA05|@ripaojiedian
+  - 14|FR_speednode_0010
+  - 14|RU_speednode_0030
+  - 12,13|🇫🇷FR02|@ripaojiedian
+  - 12,13|🇨🇦CA08|@ripaojiedian
+  - 10|@vpnbaz
+  - 12,13|🇳🇱NL08|@ripaojiedian
+  - 12,13|🇫🇷FR06|@ripaojiedian
+  - 12,13|🇳🇱NL06|@ripaojiedian
+  - 14|FR_speednode_0012
+  - 12,13|🇩🇪DE09|@ripaojiedian
+  - '10|@v2ray313 ا '
+  - 10|75@oneclickvpnkeys
+  - '10|Telegram@vpnjey #7'
+  - 10|🇸🇪206923 | ⚡️Telegram = t.me/L...
+  - 10|🍪73@oneclickvpnkeys
+  - 14|NL_speednode_0022
+  - 12,13|🇸🇬SG09|@ripaojiedian
+  - 12,13|🇭🇰HK03|@ripaojiedian
+  - 12,13|🇺🇸US07|@ripaojiedian
+  - 10|🍪66@oneclickvpnkeys
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -2351,12 +2377,11 @@ proxy-groups:
   type: select
 - name: 🇺🇸 美国
   proxies:
-  - 10|🇺🇸US-@VPNine1
+  - 10|🇺🇸206889 | ⚡️Telegram = t.me/L...
   - 10|95@oneclickvpnkeys
   - 10|96@oneclickvpnkeys
   - 10|97@oneclickvpnkeys
   - 10|98@oneclickvpnkeys
-  - 10|92@oneclickvpnkeys
   - 10|99@oneclickvpnkeys
   - 12,13|🇺🇸US02|@ripaojiedian
   - 12,13|🇺🇸US03|@ripaojiedian
