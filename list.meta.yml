@@ -1,4 +1,4 @@
-# Update: 2026-11-08 11:11
+# Update: 2026-11-08 20:23
 allow-lan: false
 dns:
   enable: true
@@ -23,6 +23,14 @@ proxies:
   port: 443
   server: fi1.obxodvpn.us
   sni: fi1.obxodvpn.us
+  tls: false
+  type: hysteria2
+- name: 9| 8@exclavevpn
+  password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
+  port: 20443
+  server: 84.32.23.62
+  skip-cert-verify: true
+  sni: hy530899-3.w-mebel.pro
   tls: false
   type: hysteria2
 - name: 9|@V2ray_confiig
@@ -59,6 +67,38 @@ proxies:
   sni: steel7.hadsvpn.com
   tls: false
   type: hysteria2
+- name: 10|🇳🇱210106 | ⚡️Telegram = t.me/L...
+  password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
+  port: 20443
+  server: 84.32.102.144
+  skip-cert-verify: false
+  sni: hy62c5d8.w-mebel.pro
+  tls: false
+  type: hysteria2
+- name: 10|🇳🇱210102 | ⚡️Telegram = t.me/L...
+  password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
+  port: 20443
+  server: 84.32.102.145
+  skip-cert-verify: false
+  sni: auto.w-mebel.pro
+  tls: false
+  type: hysteria2
+- name: 10|🇳🇱210098 | ⚡️Telegram = t.me/L...
+  password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
+  port: 20443
+  server: 84.32.102.158
+  skip-cert-verify: false
+  sni: hy62c5d8.w-mebel.pro
+  tls: false
+  type: hysteria2
+- name: 10|🇳🇱210100 | ⚡️Telegram = t.me/L...
+  password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
+  port: 20443
+  server: 84.32.102.163
+  skip-cert-verify: false
+  sni: hy62c5d8.w-mebel.pro
+  tls: false
+  type: hysteria2
 - name: '10|@Begoo_VPN '
   obfs: salamander
   obfs-password: dzcb7hv6i2kx2zze
@@ -67,6 +107,16 @@ proxies:
   server: 91.142.73.159
   skip-cert-verify: true
   sni: cdn77.dmtr.ru
+  tls: false
+  type: hysteria2
+- name: 10|🇩🇪210216 | ⚡️Telegram = t.me/L...
+  obfs: salamander
+  obfs-password: 7922smqtd5qm70fu
+  password: 5ictxgawam84vgrp
+  port: 2098
+  server: 109.70.74.213
+  skip-cert-verify: false
+  sni: 109.70.74.213
   tls: false
   type: hysteria2
 - name: 10|Telegram:@v2rayng3
@@ -85,16 +135,6 @@ proxies:
   server: 46.8.210.209
   skip-cert-verify: true
   sni: ru3.kinotorg.net
-  tls: false
-  type: hysteria2
-- name: 10|7@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: HysteriaHowdy
-  password: HowdyHysteria2023w0W
-  port: 8443
-  server: 51.15.19.206
-  skip-cert-verify: true
-  sni: t.me
   tls: false
   type: hysteria2
 - name: 10|91@oneclickvpnkeys
@@ -163,14 +203,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 10|🇩🇪209673 | ⚡️Telegram = t.me/L...
-  password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
-  port: 443
-  server: 144.31.221.57
-  skip-cert-verify: true
-  sni: player.wwwinternetvideo.click
-  tls: false
-  type: hysteria2
 - name: '10|Telegram@vpnjey #4'
   obfs: salamander
   obfs-password: Telegram@vpnjey
@@ -181,7 +213,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: 10|🇧🇾209697 | ⚡️Telegram = t.me/L...
+- name: 10| ال ای ن  TelegramID Express_f...
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.188.143
@@ -189,7 +221,7 @@ proxies:
   sni: bl1.nexfile.net
   tls: false
   type: hysteria2
-- name: 10|برای اتصال دائمی جوین شو Teleg...
+- name: 10|@V2rayNGVPN > کان رایان
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.189.101
@@ -219,6 +251,14 @@ proxies:
   server: 13.143.189.149
   skip-cert-verify: false
   sni: pl2.nexfile.net
+  tls: false
+  type: hysteria2
+- name: '10|@vasl_bashim #3'
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.189.96
+  skip-cert-verify: false
+  sni: pl3.nexfile.net
   tls: false
   type: hysteria2
 - name: 10|45@oneclickvpnkeys
@@ -301,7 +341,7 @@ proxies:
   sni: pro2.riziro.ir
   tls: false
   type: hysteria2
-- name: 10|@fastkanfig کانال را
+- name: 10|@fastkanfig کانال گا
   obfs: salamander
   obfs-password: b6d1f3888ab1d90dd11aac1dce427b81
   password: tnnls
@@ -329,16 +369,6 @@ proxies:
   server: 179.61.138.145
   skip-cert-verify: true
   sni: de2.jey.cc.cd
-  tls: false
-  type: hysteria2
-- name: 10|Telegram @cnetvpn 🇪
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: vz86jgszv4zszchv
-  port: 52062
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - name: 12|🇹🇼 台湾｜02｜HiNet
@@ -1387,119 +1417,123 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 14|JP_speednode_0019
-  - 12|🇹🇼 台湾｜06｜BGP
-  - 13|JP2@ripaojiedian
-  - 13|🇸🇬新加坡｜08｜BGP
-  - 14|NL_speednode_0027
-  - 14|DE_speednode_0004
-  - 10|@Selinc
-  - 14|RU_speednode_0031
-  - 14|RU_speednode_0036
-  - 10|hysteria
-  - 12|🇹🇼 TW@ripaojiedian
-  - 10|🇩🇪209673 | ⚡️Telegram = t.me/L...
-  - '10|@KAFING_2 #2'
-  - 13|SG2@ripaojiedian
-  - 14|RU_speednode_0032
-  - 10|@fastkanfig کانال را
-  - 14|RU_speednode_0034
-  - 14|FR_speednode_0009
-  - 13|SG1@ripaojiedian
-  - 14|LV_speednode_0021
-  - '10|Telegram@vpnjey #4'
-  - 9|@V2ray_confiig
-  - 10|45@oneclickvpnkeys
-  - 14|US_speednode_0040
   - 9|🇺🇸139909 | Telegram = t.me/SOS...
-  - 10|برای اتصال دائمی جوین شو️ Tele...
-  - 12|tg频道:@ripaojiedian
-  - 10|Telegram@vpnjey
-  - 14|AT_speednode_0001
-  - 14|US_speednode_0042
-  - 14|RU_speednode_0029
-  - 13|HK1@ripaojiedian
-  - 14|DK_speednode_0005
-  - 14|NL_speednode_0023
-  - 12|🇭🇰 HK1@ripaojiedian
-  - 13|US1@ripaojiedian
-  - 14|IE_speednode_0013
-  - 12|🇺🇸 US1@ripaojiedian
-  - 12|🇸🇬 新加坡｜07｜BGP
-  - 14|LV_speednode_0020
-  - '10|Channel id: @ConfigV2RayNG '
-  - 10|91@oneclickvpnkeys
-  - 14|FR_speednode_0010
-  - 14|US_speednode_0039
-  - 10|Telegram:@v2rayng3
-  - 13|🇩🇪德国｜07｜BGP
-  - 13|KR2@ripaojiedian
-  - 10|+@Azarakhsh_Proxy+
-  - 12|🇰🇷 KR2@ripaojiedian
-  - 12|🇹🇼 台湾｜02｜HiNet
-  - 13|🇹🇼台湾｜06｜BGP
-  - '10|Telegram@vpnjey #1'
-  - 14|FR_speednode_0011
-  - 13|🇸🇬新加坡｜07｜BGP
-  - 12|🇯🇵 日本｜08｜BGP
-  - 14|NL_speednode_0025
-  - '10|Telegram@vpnjey #6'
-  - '10|@Begoo_VPN '
-  - 14|ES_speednode_0007
-  - 13|TW@ripaojiedian
-  - 12|🇯🇵 JP1@ripaojiedian
-  - 14|FR_speednode_0008
-  - '10|Telegram@vpnjey #3'
-  - 14|RU_speednode_0030
-  - 12|🇸🇬 SG1@ripaojiedian
-  - 14|NL_speednode_0024
-  - 13|HK2@ripaojiedian
-  - 12|🇰🇷 KR1@ripaojiedian
-  - 14|JP_speednode_0018
-  - 14|FR_speednode_0012
-  - 10|🇧🇾209697 | ⚡️Telegram = t.me/L...
-  - 10|6@exclavevpn
-  - '10|Telegram@vpnjey #2'
-  - 10|Telegram @cnetvpn 🇪
-  - 12|🇯🇵 JP2@ripaojiedian
-  - 12|🇸🇬 新加坡｜08｜BGP
-  - 13|JP1@ripaojiedian
-  - 9|🇺🇸 7@exclavevpn
-  - 10|2@oneclickvpnkeys
-  - '10|برای اتصال دائمی جوین شو☄️ Tel... #1'
-  - 13|HK3@ripaojiedian
-  - '10|Telegram@vpnjey #5'
-  - 10|@vpnbaz
-  - 13|KR1@ripaojiedian
-  - 14|PL_speednode_0028
-  - 12|🇺🇸 US2@ripaojiedian
-  - 12|🇩🇪 德国｜06｜BGP
-  - 14|RU_speednode_0037
-  - 12|🇭🇰 HK2@ripaojiedian
   - 12|🇸🇬 SG2@ripaojiedian
-  - 10|@FreakConfig
-  - 13|🇯🇵日本｜08｜BGP
-  - 12|🇭🇰 HK3@ripaojiedian
-  - 12|🇩🇪 德国｜07｜BGP
-  - 14|US_speednode_0043
-  - 10|برای اتصال دائمی جوین شو☄️ Tel...
-  - 14|AT_speednode_0002
-  - '10|@v2ray313 ا '
-  - 14|DK_speednode_0006
-  - 10|7@oneclickvpnkeys
-  - '13|tg频道:@ripaojiedian #1'
-  - 14|TR_speednode_0038
-  - 13|US2@ripaojiedian
-  - 14|RU_speednode_0033
-  - 14|NL_speednode_0026
   - '10|Channel : @Daily_Configs'
-  - 10|@KAFING_2
-  - 13|🇩🇪德国｜06｜BGP
+  - 9|@V2ray_confiig
+  - 14|PL_speednode_0028
+  - 10|hysteria
+  - 10|@V2rayNGVPN > کان رایان
+  - 12|🇭🇰 HK3@ripaojiedian
+  - 13|JP2@ripaojiedian
+  - 10|2@oneclickvpnkeys
+  - '10|Telegram@vpnjey #2'
   - 14|RU_speednode_0035
+  - '10|Telegram@vpnjey #5'
+  - 14|NL_speednode_0024
   - 14|US_speednode_0041
-  - 10|برای اتصال دائمی جوین شو Teleg...
-  - 14|NL_speednode_0022
+  - 13|US2@ripaojiedian
+  - 14|FR_speednode_0009
+  - 14|JP_speednode_0018
+  - 12|🇯🇵 JP2@ripaojiedian
+  - 10|@KAFING_2
+  - 14|RU_speednode_0033
+  - 12|🇸🇬 新加坡｜07｜BGP
+  - 13|JP1@ripaojiedian
+  - 13|🇹🇼台湾｜06｜BGP
+  - 10|🇳🇱210100 | ⚡️Telegram = t.me/L...
+  - 14|AT_speednode_0001
+  - 14|FR_speednode_0011
+  - 14|DE_speednode_0004
+  - '13|tg频道:@ripaojiedian #1'
+  - 13|HK1@ripaojiedian
+  - 10|@Selinc
+  - 12|🇹🇼 台湾｜06｜BGP
+  - 14|AT_speednode_0002
+  - 12|🇺🇸 US2@ripaojiedian
+  - '10|Telegram@vpnjey #1'
+  - 12|🇯🇵 日本｜08｜BGP
+  - 12|🇭🇰 HK2@ripaojiedian
+  - 13|🇸🇬新加坡｜08｜BGP
+  - 10|🇳🇱210102 | ⚡️Telegram = t.me/L...
+  - 12|🇩🇪 德国｜07｜BGP
+  - 14|TR_speednode_0038
+  - 12|🇩🇪 德国｜06｜BGP
+  - 12|🇺🇸 US1@ripaojiedian
+  - 13|HK2@ripaojiedian
+  - '10|@Begoo_VPN '
+  - 10|Telegram:@v2rayng3
+  - 12|🇸🇬 SG1@ripaojiedian
+  - 14|DK_speednode_0005
+  - 10|Telegram@vpnjey
+  - 14|NL_speednode_0026
+  - 12|🇭🇰 HK1@ripaojiedian
+  - '10|برای اتصال دائمی جوین شو☄️ Tel... #1'
+  - 14|DK_speednode_0006
+  - 10|🇩🇪210216 | ⚡️Telegram = t.me/L...
+  - 10|@vpnbaz
+  - 14|LV_speednode_0021
+  - 13|🇯🇵日本｜08｜BGP
   - 14|BR_speednode_0003
+  - 12|🇸🇬 新加坡｜08｜BGP
+  - '10|Telegram@vpnjey #6'
+  - 14|LV_speednode_0020
+  - 14|FR_speednode_0012
+  - 13|TW@ripaojiedian
+  - 14|ES_speednode_0007
+  - 10|@FreakConfig
+  - 14|RU_speednode_0036
+  - 14|RU_speednode_0034
+  - 13|US1@ripaojiedian
+  - 13|🇩🇪德国｜07｜BGP
+  - 14|NL_speednode_0022
+  - '10|Telegram@vpnjey #3'
+  - 10|@fastkanfig کانال گا
+  - 12|🇹🇼 TW@ripaojiedian
+  - 14|US_speednode_0040
+  - 14|IE_speednode_0013
+  - 10|45@oneclickvpnkeys
+  - 13|SG1@ripaojiedian
+  - '10|@v2ray313 ا '
+  - 12|🇰🇷 KR2@ripaojiedian
+  - 10|🇳🇱210098 | ⚡️Telegram = t.me/L...
+  - 13|HK3@ripaojiedian
+  - 10| ال ای ن  TelegramID Express_f...
+  - 14|NL_speednode_0023
+  - '10|@KAFING_2 #2'
+  - 10|برای اتصال دائمی جوین شو️ Tele...
+  - 13|🇸🇬新加坡｜07｜BGP
+  - '10|Channel id: @ConfigV2RayNG '
+  - 14|NL_speednode_0025
+  - 14|RU_speednode_0029
+  - 13|KR2@ripaojiedian
+  - 14|JP_speednode_0019
+  - 14|RU_speednode_0037
+  - 14|RU_speednode_0030
+  - 14|RU_speednode_0032
+  - 14|US_speednode_0042
+  - 14|US_speednode_0043
+  - 14|FR_speednode_0010
+  - 9|🇺🇸 7@exclavevpn
+  - 10|+@Azarakhsh_Proxy+
+  - 13|🇩🇪德国｜06｜BGP
+  - 10|6@exclavevpn
+  - 10|91@oneclickvpnkeys
+  - 12|🇹🇼 台湾｜02｜HiNet
+  - 10|🇳🇱210106 | ⚡️Telegram = t.me/L...
+  - 14|US_speednode_0039
+  - 12|tg频道:@ripaojiedian
+  - 9| 8@exclavevpn
+  - 13|KR1@ripaojiedian
+  - 12|🇯🇵 JP1@ripaojiedian
+  - 14|NL_speednode_0027
+  - 13|SG2@ripaojiedian
+  - '10|@vasl_bashim #3'
+  - '10|Telegram@vpnjey #4'
+  - 12|🇰🇷 KR1@ripaojiedian
+  - 10|برای اتصال دائمی جوین شو☄️ Tel...
+  - 14|FR_speednode_0008
+  - 14|RU_speednode_0031
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1647,6 +1681,7 @@ proxy-groups:
   type: select
 - name: 🇩🇪 德国
   proxies:
+  - '10|Telegram@vpnjey #5'
   - 12|🇩🇪 德国｜06｜BGP
   - 12|🇩🇪 德国｜07｜BGP
   - 13|🇩🇪德国｜06｜BGP
