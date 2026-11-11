@@ -1,4 +1,4 @@
-# Update: 2026-11-11 05:04
+# Update: 2026-11-11 11:39
 allow-lan: false
 dns:
   enable: true
@@ -17,7 +17,21 @@ ipv6: true
 log-level: warning
 mixed-port: 7890
 mode: rule
-proxies: []
+proxies:
+- cipher: aes-256-gcm
+  name: 12|🇮🇹 意大利|@ripaojiedian
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 12|🇮🇹 意大利2|@ripaojiedian
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  type: ss
+  udp: true
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -28,7 +42,9 @@ proxy-groups:
   type: select
 - interval: 300
   name: ♻ 自动选择
-  proxies: &id001 []
+  proxies: &id001
+  - 12|🇮🇹 意大利2|@ripaojiedian
+  - 12|🇮🇹 意大利|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
