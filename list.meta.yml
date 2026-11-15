@@ -1,4 +1,4 @@
-# Update: 2026-11-15 08:28
+# Update: 2026-11-15 18:06
 allow-lan: false
 dns:
   enable: true
@@ -26,7 +26,7 @@ proxies:
   sni: nlll.obxodvpn.us
   tls: false
   type: hysteria2
-- name: 9|69@oneclickvpnkeys
+- name: '9,10|69@oneclickvpnkeys #1'
   password: 307ee0e53ea04dfd86a7f2f9fcd53844
   port: 443
   server: s5.libertyrunet.store
@@ -38,6 +38,16 @@ proxies:
   port: 24433
   server: 94.183.164.119
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 9|🇳🇱215939 | ⚡️Telegram = t.me/L...
+  obfs: salamander
+  obfs-password: HysteriaHowdy
+  password: HowdyHysteria2023w0W
+  port: 8443
+  server: 51.15.19.206
+  skip-cert-verify: true
+  sni: hysteria.udpgw.co
   tls: false
   type: hysteria2
 - name: 9|🙏66@oneclickvpnkeys
@@ -71,7 +81,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|🇵🇱215632 | ⚡️Telegram = t.me/L...
+- name: 9| 🙏104@oneclickvpnkeys
   password: lCk4_xMXmmLQV45zGLuQ5BRmzKEHDU8Q
   port: 443
   server: 81.90.17.166
@@ -84,6 +94,14 @@ proxies:
   server: 54.213.89.22
   skip-cert-verify: true
   sni: vk.com
+  tls: false
+  type: hysteria2
+- name: 10|🇩🇪215956 | ⚡️Telegram = t.me/L...
+  password: 146d567c-6335-4e63-a8aa-7ec068642440
+  port: 443
+  server: 177.202.66.212
+  skip-cert-verify: true
+  sni: de1.obxodvpn.us
   tls: false
   type: hysteria2
 - name: 10|@OutlineReleasedKey
@@ -114,16 +132,6 @@ proxies:
   sni: hy2-pl.snobvpn.online
   tls: false
   type: hysteria2
-- name: 10|🪅1@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: JGIhnEi-CcIJOfNTqvNxX_5wRAYUZ0J2
-  password: 247802ca-0fbb-428a-b807-91a6e571b5c7
-  port: 8443
-  server: 206.245.153.57
-  skip-cert-verify: true
-  sni: hy2-nl.snobvpn.online
-  tls: false
-  type: hysteria2
 - name: 10|🪅97@oneclickvpnkeys
   password: 4afd4e1b1b0edd429b10d800a1cf64a7
   port: 8443
@@ -148,13 +156,6 @@ proxies:
   sni: lakes.blog-forme.ru
   tls: false
   type: hysteria2
-- name: 10|43@oneclickvpnkeys
-  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-  port: 443
-  server: guide.blog-forme.ru
-  sni: guide.blog-forme.ru
-  tls: false
-  type: hysteria2
 - name: 10|@vpnsal
   password: 54d2f622-fd71-4f5f-8813-832b68f4ca3b
   port: 8443
@@ -162,7 +163,7 @@ proxies:
   sni: speedtestmark.com
   tls: false
   type: hysteria2
-- name: 10|Telegram    @tik7net_vpn
+- name: 10|Telegram  ️  @tik7net_vpn
   obfs: salamander
   obfs-password: 7922smqtd5qm70fu
   password: 5ictxgawam84vgrp
@@ -189,7 +190,7 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: 10|214601 | ️Telegram = t.me/v2ra...
+- name: 10|214601 | ⚡️Telegram = t.me/v2r...
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
   server: 18.143.176.12
@@ -203,14 +204,6 @@ proxies:
   server: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
   skip-cert-verify: true
   sni: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: 10|🫆92@oneclickvpnkeys
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 3.69.232.199
-  skip-cert-verify: true
-  sni: vpn-de-002.fastervpn.world
   tls: false
   type: hysteria2
 - name: 10|+@Azarakhsh_Proxy+
@@ -340,7 +333,7 @@ proxies:
   sni: lv2.nexfile.net
   tls: false
   type: hysteria2
-- name: 10|15@oneclickvpnkeys
+- name: 10|🙏15@oneclickvpnkeys
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 48.102.214.167
@@ -421,341 +414,197 @@ proxies:
   server: 202.50.253.27
   type: ss
   udp: true
-- flow: xtls-rprx-vision
-  name: 12,13|日本|@ripaojiedian
-  network: tcp
+- name: 12|🇯🇵 日本|@ripaojiedian
+  network: ws
   port: 443
   reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 50.7.44.27
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
-- flow: xtls-rprx-vision
-  name: 12,13|日本2|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 50.7.44.27
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
-- flow: xtls-rprx-vision
-  name: 12,13|日本3|@ripaojiedian
-  network: tcp
-  port: 2083
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 50.7.44.27
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
-- name: 12|🇯🇵 日本4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: cdn-jp.skyvora.app
-  servername: cdn-jp.skyvora.app
+    public-key: 7PBmAR6CGAh2naIi09rlP_PtmLmqhlXF_toZEdAHmRo
+    short-id: 7c6d6833
+  server: 139.162.91.239
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
+  uuid: b0dc852a-97ec-4d4e-9179-f0e5c2ef1489
   ws-opts:
-    headers:
-      Host: cdn-jp.skyvora.app
-    path: /pmcxbjzdau6
-- flow: xtls-rprx-vision
-  name: 12,13|香港|@ripaojiedian
+    path: /ws
+- name: 12,13|美国4|@ripaojiedian
   network: tcp
-  port: 2083
+  password: MiTiVPN
+  port: 443
+  server: 167.82.76.27
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  udp: true
+- flow: xtls-rprx-vision
+  name: 12,13|法国|@ripaojiedian
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: 08a4b1f473932632
-  server: 66.90.115.123
-  servername: www.apple.com
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: edge.bookmai.com
+  servername: mother-earth.fyi
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vless
   udp: true
-  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
-- flow: xtls-rprx-vision
-  name: 12,13|香港2|@ripaojiedian
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+- name: 12,13|日本2|@ripaojiedian
   network: tcp
-  port: 2053
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: 08a4b1f473932632
-  server: 66.90.115.133
-  servername: www.apple.com
+  password: d050aca3-9df2-4461-90ec-92373c1d7636
+  port: 44184
+  server: v2jp.k1.ssnss.live
   skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
+  type: trojan
   udp: true
-  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
-- flow: xtls-rprx-vision
-  name: 12,13|香港3|@ripaojiedian
-  network: tcp
-  port: 2083
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: 08a4b1f473932632
-  server: 66.90.115.133
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
-- name: 12|🇭🇰 香港4|@ripaojiedian
+- name: 12|🇯🇵 日本3|@ripaojiedian
   network: ws
-  port: 8443
-  server: cdn-hk.skyvora.app
-  servername: cdn-hk.skyvora.app
+  port: 443
+  reality-opts:
+    public-key: Mjv5qe_CrvfHdVwgtyqYbqPesZ-1oko2XYg3dguzvxg
+    short-id: c29f9af4
+  server: 172.105.216.21
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
+  uuid: 76f1ce49-bcea-4680-b9ef-16592269445b
   ws-opts:
-    headers:
-      Host: cdn-hk.skyvora.app
-    path: /zmeadqv620k
-- flow: xtls-rprx-vision
-  name: 12,13|新加坡|@ripaojiedian
-  network: tcp
+    path: /ws
+- name: 12|🇸🇬 新加坡|@ripaojiedian
+  network: ws
   port: 443
   reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.30
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
-- flow: xtls-rprx-vision
-  name: 12,13|新加坡2|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.26
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
-- flow: xtls-rprx-vision
-  name: 12,13|新加坡3|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.27
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
-- name: 12|🇸🇬 新加坡4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: cdn-sg.skyvora.app
-  servername: cdn-sg.skyvora.app
+    public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
+    short-id: 640c807d
+  server: 139.162.20.241
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
+  uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
-    headers:
-      Host: cdn-sg.skyvora.app
-    path: /axzfrv47qcn
-- flow: xtls-rprx-vision
-  name: 12,13|美国|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
-    short-id: 66d62ef550107695
-  server: 38.145.220.39
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
+    path: /ws
 - name: 12|🇺🇸 美国2|@ripaojiedian
   network: ws
   port: 443
-  server: 188.164.248.110
-  servername: imanvipreserved.pages.dev
+  reality-opts:
+    public-key: YS1T3hKkZSWZBej5I1O2s3QQ-jf5JOAY24EZbp9faX8
+    short-id: 60e39a7e
+  server: 172.235.53.103
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
+  uuid: 38ae2bc6-577c-4e0a-b49c-81c44a0b4383
   ws-opts:
-    headers:
-      Host: imanvipreserved.pages.dev
-    path: /
-- flow: xtls-rprx-vision
-  name: 12,13|美国3|@ripaojiedian
-  network: tcp
-  port: 2053
+    path: /ws
+- name: 12|🇺🇸 美国3|@ripaojiedian
+  network: ws
+  port: 443
   reality-opts:
-    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
-    short-id: 66d62ef550107695
-  server: 38.145.220.39
-  servername: www.apple.com
+    public-key: SJAHlQal4h4gy7BFInw13ute3ZM49kXMWCkJj3F4tW0
+    short-id: 357a37e1
+  server: 172.236.239.126
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
+  ws-opts:
+    path: /ws
+- name: 12,13|美国5|@ripaojiedian
+  network: tcp
+  password: Mitivpn
+  port: 443
+  server: 151.101.110.219
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  udp: true
+- flow: ''
+  name: 13|日本|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: 7PBmAR6CGAh2naIi09rlP_PtmLmqhlXF_toZEdAHmRo
+    short-id: 7c6d6833
+  server: 139.162.91.239
+  servername: itunes.apple.com
   tls: false
   type: vless
-  udp: true
-  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
-- name: 12|🇺🇸 美国4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: cdn-us.skyvora.app
-  servername: cdn-us.skyvora.app
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
+  uuid: b0dc852a-97ec-4d4e-9179-f0e5c2ef1489
   ws-opts:
-    headers:
-      Host: cdn-us.skyvora.app
-    path: /kqdyeo2k4b1
-- flow: xtls-rprx-vision
-  name: 12,13|德国|@ripaojiedian
-  network: tcp
-  port: 2053
+    path: '%2Fws'
+- flow: ''
+  name: 13|日本3|@ripaojiedian
+  network: ws
+  port: 443
   reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 50.7.86.203
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
+    public-key: Mjv5qe_CrvfHdVwgtyqYbqPesZ-1oko2XYg3dguzvxg
+    short-id: c29f9af4
+  server: 172.105.216.21
+  servername: itunes.apple.com
   tls: false
   type: vless
-  udp: true
-  uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
-- flow: xtls-rprx-vision
-  name: 12,13|德国2|@ripaojiedian
-  network: tcp
-  port: 2053
+  uuid: 76f1ce49-bcea-4680-b9ef-16592269445b
+  ws-opts:
+    path: '%2Fws'
+- flow: ''
+  name: 13|新加坡|@ripaojiedian
+  network: ws
+  port: 443
   reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 50.7.86.214
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
+    public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
+    short-id: 640c807d
+  server: 139.162.20.241
+  servername: itunes.apple.com
   tls: false
   type: vless
-  udp: true
-  uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
-- flow: ''
-  name: 13|日本4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: cdn-jp.skyvora.app
-  servername: cdn-jp.skyvora.app
-  tls: true
-  type: vless
-  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
+  uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
-    headers:
-      Host: cdn-jp.skyvora.app
-    path: '%2Fpmcxbjzdau6'
-- flow: ''
-  name: 13|香港4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: cdn-hk.skyvora.app
-  servername: cdn-hk.skyvora.app
-  tls: true
-  type: vless
-  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
-  ws-opts:
-    headers:
-      Host: cdn-hk.skyvora.app
-    path: '%2Fzmeadqv620k'
-- flow: ''
-  name: 13|新加坡4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: cdn-sg.skyvora.app
-  servername: cdn-sg.skyvora.app
-  tls: true
-  type: vless
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
-  ws-opts:
-    headers:
-      Host: cdn-sg.skyvora.app
-    path: '%2Faxzfrv47qcn'
+    path: '%2Fws'
 - flow: ''
   name: 13|美国2|@ripaojiedian
   network: ws
   port: 443
-  server: 188.164.248.110
-  servername: imanvipreserved.pages.dev
-  tls: true
+  reality-opts:
+    public-key: YS1T3hKkZSWZBej5I1O2s3QQ-jf5JOAY24EZbp9faX8
+    short-id: 60e39a7e
+  server: 172.235.53.103
+  servername: itunes.apple.com
+  tls: false
   type: vless
-  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
+  uuid: 38ae2bc6-577c-4e0a-b49c-81c44a0b4383
   ws-opts:
-    headers:
-      Host: imanvipreserved.pages.dev
-    path: '%2F'
+    path: '%2Fws'
 - flow: ''
-  name: 13|美国4|@ripaojiedian
+  name: 13|美国3|@ripaojiedian
   network: ws
-  port: 8443
-  server: cdn-us.skyvora.app
-  servername: cdn-us.skyvora.app
-  tls: true
+  port: 443
+  reality-opts:
+    public-key: SJAHlQal4h4gy7BFInw13ute3ZM49kXMWCkJj3F4tW0
+    short-id: 357a37e1
+  server: 172.236.239.126
+  servername: itunes.apple.com
+  tls: false
   type: vless
-  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
+  uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
   ws-opts:
-    headers:
-      Host: cdn-us.skyvora.app
-    path: '%2Fkqdyeo2k4b1'
+    path: '%2Fws'
 - name: 14|AT_speednode_0001
   network: ws
   port: 8443
@@ -1167,116 +1016,106 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 9|🙏66@oneclickvpnkeys
-  - 10|@OutlineReleasedKey
-  - 13|美国2|@ripaojiedian
-  - 14|US_speednode_0039
-  - 9|🇺🇸12@exclavevpn
-  - 14|FR_speednode_0012
-  - 10|برای اتصال دائمی جوین شو️ Tele...
-  - 14|NL_speednode_0023
-  - 12,13|新加坡3|@ripaojiedian
-  - 14|AT_speednode_0001
-  - 14|LV_speednode_0020
-  - 14|AT_speednode_0002
-  - 12,13|新加坡|@ripaojiedian
-  - 12|🇮🇹 意大利2|@ripaojiedian
-  - 14|NL_speednode_0024
-  - '10|@V2ray_confiig #2'
-  - 10|@KAFING_2
-  - 9|69@oneclickvpnkeys
-  - 14|FR_speednode_0010
-  - 14|RU_speednode_0036
-  - 14|JP_speednode_0019
-  - 10|🪅97@oneclickvpnkeys
-  - 10|43@oneclickvpnkeys
-  - 14|NL_speednode_0022
-  - '10|Telegram@vpnjey #6'
-  - 12,13|德国|@ripaojiedian
-  - 10| ال ای ن  TelegramID Express_f...
-  - 10|15@oneclickvpnkeys
-  - 12,13|美国3|@ripaojiedian
-  - 9| 12@exclavevpn
-  - 12|🇭🇰 香港4|@ripaojiedian
-  - 14|IE_speednode_0013
-  - '10|@OutlineReleasedKey #3'
-  - 14|ES_speednode_0007
-  - '10|@OutlineReleasedKey #5'
-  - 12,13|日本2|@ripaojiedian
-  - 14|NL_speednode_0025
-  - 14|RU_speednode_0029
-  - 14|NL_speednode_0026
-  - 14|US_speednode_0040
-  - 10|Telegram@vpnjey
-  - 10|برای اتصال دائمی جوین شو☄️ Tel...
-  - 14|RU_speednode_0037
-  - 10|214601 | ️Telegram = t.me/v2ra...
-  - 9|🇵🇱215632 | ⚡️Telegram = t.me/L...
-  - 13|新加坡4|@ripaojiedian
-  - 14|DK_speednode_0005
-  - 13|日本4|@ripaojiedian
-  - 14|US_speednode_0043
-  - 14|TR_speednode_0038
-  - 12|🇺🇸 美国2|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
   - 10|@vpnsal
-  - '10|Telegram@vpnjey #5'
-  - 14|RU_speednode_0033
-  - 10|@vasl_bashim
-  - '10|@OutlineReleasedKey #7'
-  - 10|Telegram:@v2rayng3
-  - 14|PL_speednode_0028
-  - 14|FR_speednode_0011
-  - 12,13|美国|@ripaojiedian
-  - 10|+@Azarakhsh_Proxy+
-  - 13|香港4|@ripaojiedian
-  - 14|RU_speednode_0035
-  - 12,13|日本3|@ripaojiedian
-  - 12|🇸🇬 新加坡4|@ripaojiedian
-  - '10|Telegram@vpnjey #1'
-  - 13|美国4|@ripaojiedian
-  - 12|🇯🇵 日本4|@ripaojiedian
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 10|🪅6@oneclickvpnkeys
-  - '10|@vasl_bashim #1'
-  - 14|RU_speednode_0032
-  - 12,13|香港2|@ripaojiedian
-  - 9|🙏68@oneclickvpnkeys
-  - 10|🫆92@oneclickvpnkeys
-  - 14|US_speednode_0042
-  - 14|BR_speednode_0003
-  - 12|🇮🇹 意大利|@ripaojiedian
-  - 14|US_speednode_0041
-  - '10|@v2ray313 ا '
-  - 14|LV_speednode_0021
-  - '10|Telegram@vpnjey #2'
-  - 12,13|香港3|@ripaojiedian
-  - '10|@OutlineReleasedKey #4'
-  - 12,13|香港|@ripaojiedian
-  - 12,13|日本|@ripaojiedian
-  - 14|NL_speednode_0027
-  - 14|FR_speednode_0008
-  - 9|🙏67@oneclickvpnkeys
+  - 10| ال ای ن  TelegramID Express_f...
+  - 14|AT_speednode_0001
   - 14|FR_speednode_0009
-  - 10|Telegram    @tik7net_vpn
-  - 14|JP_speednode_0018
-  - 14|RU_speednode_0034
-  - 10|🪅32@oneclickvpnkeys
-  - '10|@KAFING_2 #2'
-  - '10|Telegram@vpnjey #3'
-  - 14|RU_speednode_0031
-  - 12,13|德国2|@ripaojiedian
-  - 10|🪅1@oneclickvpnkeys
-  - 10|42@oneclickvpnkeys
-  - '10|@OutlineReleasedKey #2'
-  - '10|@V2ray_confiig #1'
-  - 10|@vpnbaz
-  - 9|🇺🇸139909 | ⚡️Telegram = t.me/S...
-  - '10|@OutlineReleasedKey #6'
-  - 14|RU_speednode_0030
-  - 14|DK_speednode_0006
+  - '10|Telegram@vpnjey #2'
+  - 14|US_speednode_0041
+  - 10|🪅6@oneclickvpnkeys
+  - 10|+@Azarakhsh_Proxy+
+  - 9|🙏67@oneclickvpnkeys
   - 14|DE_speednode_0004
+  - '10|@OutlineReleasedKey #4'
+  - 14|BR_speednode_0003
+  - 14|FR_speednode_0008
+  - 14|US_speednode_0040
+  - 9|🙏68@oneclickvpnkeys
+  - 12|🇯🇵 日本3|@ripaojiedian
+  - 14|JP_speednode_0019
+  - 14|RU_speednode_0030
+  - '10|@OutlineReleasedKey #5'
+  - 9|🇺🇸12@exclavevpn
+  - '9,10|69@oneclickvpnkeys #1'
+  - 14|LV_speednode_0020
+  - 14|NL_speednode_0027
+  - 12|🇮🇹 意大利2|@ripaojiedian
+  - 14|RU_speednode_0029
   - 9|🙏33@oneclickvpnkeys
+  - 10|Telegram  ️  @tik7net_vpn
+  - 12|🇮🇹 意大利|@ripaojiedian
+  - 13|美国2|@ripaojiedian
+  - 14|NL_speednode_0024
+  - 9|🇺🇸139909 | ⚡️Telegram = t.me/S...
+  - 14|FR_speednode_0012
+  - 14|RU_speednode_0032
+  - 13|日本3|@ripaojiedian
+  - 12,13|美国5|@ripaojiedian
+  - 10|@vasl_bashim
+  - '10|@v2ray313 ا '
+  - 10|🪅97@oneclickvpnkeys
+  - 14|AT_speednode_0002
+  - 13|日本|@ripaojiedian
+  - 14|NL_speednode_0025
+  - '10|Telegram@vpnjey #3'
+  - '10|@OutlineReleasedKey #3'
+  - 12,13|美国4|@ripaojiedian
+  - '10|@vasl_bashim #1'
+  - 14|NL_speednode_0026
+  - 14|RU_speednode_0031
+  - 14|ES_speednode_0007
+  - 10|برای اتصال دائمی جوین شو☄️ Tel...
+  - 10|@OutlineReleasedKey
+  - 10|@vpnbaz
+  - 14|RU_speednode_0037
+  - '10|@KAFING_2 #2'
+  - 12|🇸🇬 新加坡|@ripaojiedian
+  - 14|DK_speednode_0006
+  - 10|برای اتصال دائمی جوین شو️ Tele...
+  - 10|🇩🇪215956 | ⚡️Telegram = t.me/L...
+  - 12|🇺🇸 美国2|@ripaojiedian
+  - 9| 12@exclavevpn
+  - 9| 🙏104@oneclickvpnkeys
+  - 14|US_speednode_0039
+  - 14|RU_speednode_0036
+  - 10|🪅32@oneclickvpnkeys
+  - 14|IE_speednode_0013
+  - '10|@OutlineReleasedKey #7'
+  - 14|PL_speednode_0028
+  - 14|DK_speednode_0005
+  - 10|Telegram@vpnjey
+  - 14|FR_speednode_0010
+  - 13|新加坡|@ripaojiedian
+  - 14|TR_speednode_0038
+  - 12,13|法国|@ripaojiedian
+  - 14|US_speednode_0043
+  - 13|美国3|@ripaojiedian
+  - 14|RU_speednode_0033
+  - 9|🇳🇱215939 | ⚡️Telegram = t.me/L...
+  - 10|Telegram:@v2rayng3
+  - 14|JP_speednode_0018
+  - '10|Telegram@vpnjey #6'
+  - 10|42@oneclickvpnkeys
+  - '10|Telegram@vpnjey #5'
+  - 10|🙏15@oneclickvpnkeys
+  - 9|🙏66@oneclickvpnkeys
+  - 14|RU_speednode_0035
+  - 14|LV_speednode_0021
+  - 14|US_speednode_0042
+  - 14|RU_speednode_0034
+  - 14|FR_speednode_0011
+  - 14|NL_speednode_0023
+  - '10|@V2ray_confiig #2'
+  - '10|@OutlineReleasedKey #2'
+  - 10|214601 | ⚡️Telegram = t.me/v2r...
+  - 12|🇯🇵 日本|@ripaojiedian
+  - '10|@OutlineReleasedKey #6'
+  - 10|@KAFING_2
+  - '10|@V2ray_confiig #1'
+  - '10|Telegram@vpnjey #1'
+  - 14|NL_speednode_0022
+  - 12,13|日本2|@ripaojiedian
+  - 12|🇺🇸 美国3|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1332,11 +1171,11 @@ proxy-groups:
   type: select
 - name: 🇯🇵 日本
   proxies:
-  - 12,13|日本|@ripaojiedian
+  - 12|🇯🇵 日本|@ripaojiedian
   - 12,13|日本2|@ripaojiedian
-  - 12,13|日本3|@ripaojiedian
-  - 12|🇯🇵 日本4|@ripaojiedian
-  - 13|日本4|@ripaojiedian
+  - 12|🇯🇵 日本3|@ripaojiedian
+  - 13|日本|@ripaojiedian
+  - 13|日本3|@ripaojiedian
   - 14|JP_speednode_0018
   - 14|JP_speednode_0019
   type: select
@@ -1344,12 +1183,12 @@ proxy-groups:
   proxies:
   - 9|🇺🇸12@exclavevpn
   - 9|🇺🇸139909 | ⚡️Telegram = t.me/S...
-  - 12,13|美国|@ripaojiedian
+  - 12,13|美国4|@ripaojiedian
   - 12|🇺🇸 美国2|@ripaojiedian
-  - 12,13|美国3|@ripaojiedian
-  - 12|🇺🇸 美国4|@ripaojiedian
+  - 12|🇺🇸 美国3|@ripaojiedian
+  - 12,13|美国5|@ripaojiedian
   - 13|美国2|@ripaojiedian
-  - 13|美国4|@ripaojiedian
+  - 13|美国3|@ripaojiedian
   - 14|US_speednode_0039
   - 14|US_speednode_0040
   - 14|US_speednode_0041
@@ -1366,11 +1205,7 @@ proxy-groups:
   type: select
 - name: 🇭🇰 香港
   proxies:
-  - 12,13|香港|@ripaojiedian
-  - 12,13|香港2|@ripaojiedian
-  - 12,13|香港3|@ripaojiedian
-  - 12|🇭🇰 香港4|@ripaojiedian
-  - 13|香港4|@ripaojiedian
+  - REJECT
   type: select
 - name: 🇨🇦 加拿大
   proxies:
@@ -1378,6 +1213,7 @@ proxy-groups:
   type: select
 - name: 🇫🇷 法国
   proxies:
+  - 12,13|法国|@ripaojiedian
   - 14|FR_speednode_0008
   - 14|FR_speednode_0009
   - 14|FR_speednode_0010
@@ -1386,11 +1222,8 @@ proxy-groups:
   type: select
 - name: 🇸🇬 新加坡
   proxies:
-  - 12,13|新加坡|@ripaojiedian
-  - 12,13|新加坡2|@ripaojiedian
-  - 12,13|新加坡3|@ripaojiedian
-  - 12|🇸🇬 新加坡4|@ripaojiedian
-  - 13|新加坡4|@ripaojiedian
+  - 12|🇸🇬 新加坡|@ripaojiedian
+  - 13|新加坡|@ripaojiedian
   type: select
 - name: 🇬🇧 英国
   proxies:
@@ -1414,8 +1247,6 @@ proxy-groups:
   type: select
 - name: 🇩🇪 德国
   proxies:
-  - 12,13|德国|@ripaojiedian
-  - 12,13|德国2|@ripaojiedian
   - 14|DE_speednode_0004
   type: select
 rules:
