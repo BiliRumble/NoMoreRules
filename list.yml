@@ -1,4 +1,4 @@
-# Update: 2026-11-18 18:51
+# Update: 2026-11-19 03:42
 allow-lan: false
 dns:
   enable: true
@@ -69,11 +69,11 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12,13|美国4|@ripaojiedian
   - 12,13|日本2|@ripaojiedian
-  - 12,13|美国5|@ripaojiedian
-  - 12|🇮🇹 意大利2|@ripaojiedian
   - 12|🇮🇹 意大利|@ripaojiedian
+  - 12,13|美国4|@ripaojiedian
+  - 12|🇮🇹 意大利2|@ripaojiedian
+  - 12,13|美国5|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
