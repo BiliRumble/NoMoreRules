@@ -1,4 +1,4 @@
-# Update: 2026-11-22 02:25
+# Update: 2026-11-22 08:46
 allow-lan: false
 dns:
   enable: true
@@ -32,8 +32,7 @@ proxies:
   server: 202.50.253.27
   type: ss
   udp: true
-- name: 12,13|美国4|@ripaojiedian
-  network: tcp
+- name: 12|🇺🇸 美国4|@ripaojiedian
   password: MiTiVPN
   port: 443
   server: 167.82.76.27
@@ -41,16 +40,14 @@ proxies:
   sni: ssl.fastly.com
   type: trojan
   udp: true
-- name: 12,13|日本2|@ripaojiedian
-  network: tcp
+- name: 12|🇯🇵 日本2|@ripaojiedian
   password: d050aca3-9df2-4461-90ec-92373c1d7636
   port: 44184
   server: v2jp.k1.ssnss.live
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 12,13|美国5|@ripaojiedian
-  network: tcp
+- name: 12|🇺🇸 美国5|@ripaojiedian
   password: Mitivpn
   port: 443
   server: 151.101.110.219
@@ -70,10 +67,10 @@ proxy-groups:
   name: ♻ 自动选择
   proxies: &id001
   - 12|🇮🇹 意大利2|@ripaojiedian
-  - 12,13|日本2|@ripaojiedian
   - 12|🇮🇹 意大利|@ripaojiedian
-  - 12,13|美国4|@ripaojiedian
-  - 12,13|美国5|@ripaojiedian
+  - 12|🇺🇸 美国5|@ripaojiedian
+  - 12|🇺🇸 美国4|@ripaojiedian
+  - 12|🇯🇵 日本2|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300

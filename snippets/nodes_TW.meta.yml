@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|台湾|@ripaojiedian
+  network: tcp
+  port: 11102
+  reality-opts:
+    public-key: oW6HMjniDmBJdjGKwhBAIS2zMS1VvHORubh9vdazqQ0
+    short-id: ed571d022f7bc3bf
+  server: 116.213.43.43
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 530d31fc-2690-49e4-bfc9-3f991e145008
