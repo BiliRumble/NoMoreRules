@@ -1,4 +1,4 @@
-# Update: 2026-11-22 08:46
+# Update: 2026-11-22 18:28
 allow-lan: false
 dns:
   enable: true
@@ -23,14 +23,6 @@ proxies:
   port: 443
   server: 35.221.91.82
   sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: 9|ᴇ  = @xxɴᴇᴛ
-  password: linlin-2026
-  port: 36712
-  server: 3.106.35.101
-  skip-cert-verify: true
-  sni: 3.106.35.101
   tls: false
   type: hysteria2
 - name: 9|139909 | Telegram = t.me/SOSke...
@@ -124,17 +116,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|93@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: c8827ab99e316c5bd414e21afa915ddf
-  password: 8294f130408299df8cab08c80bf6f819
-  port: 443
-  server: 24.233.8.109
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 10|DE-@VPNine1
+- name: 10|⚙️64@oneclickvpnkeys
   password: 9a9f167d-b461-466f-be50-f0ffd598a6f8
   port: 443
   server: germanyafterpool.fun
@@ -147,14 +129,6 @@ proxies:
   port: 36712
   server: 38.76.150.108
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 10|🔵92@oneclickvpnkeys
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-hk-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-hk-004.fastervpn.world
   tls: false
   type: hysteria2
 - name: '10|Channel : @Daily_Configs'
@@ -284,11 +258,31 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 10|🇷🇺223650 | ⚡️Telegram = t.me/L...
+  obfs: salamander
+  obfs-password: nTm4oBa6QCpWoAFDVtF6mpMpfMfN8CM6
+  password: b7941807-1f4d-4bda-a878-92d708b84494
+  port: 8446
+  server: 46.8.210.33
+  skip-cert-verify: false
+  sni: litelitvalitter.rooferz.surf
+  tls: false
+  type: hysteria2
 - name: '10|@OutlineReleasedKey #7'
   password: ca60984f-b1f0-4073-bd33-4c75168f749a
   port: 443
   server: 45.137.201.211
   sni: wwe.fantoff.online
+  tls: false
+  type: hysteria2
+- name: 10|5@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: HVD1C0uyo38mMz8B
+  password: capadmae6e0190
+  port: 443
+  server: 51.15.16.68
+  skip-cert-verify: true
+  sni: vpn.local
   tls: false
   type: hysteria2
 - name: 10|@v2ray_phoenix
@@ -334,7 +328,7 @@ proxies:
   sni: cloudehouse24.ru
   tls: false
   type: hysteria2
-- name: 10|🇸US-🚀@VPNine1
+- name: 10|⚙️73@oneclickvpnkeys
   password: fce629d692a7b1ad71a17dae29d8b3c6
   port: 8443
   server: 172.87.24.53
@@ -350,21 +344,6 @@ proxies:
   sni: www.amazon.com
   tls: false
   type: hysteria2
-- name: 10|🔵100@oneclickvpnkeys
-  password: linlin-2026
-  port: 36712
-  server: 13.55.52.44
-  skip-cert-verify: true
-  sni: 13.55.52.44
-  tls: false
-  type: hysteria2
-- name: 10|🇦🇺222181 | ⚡️Telegram = t.me/L...
-  password: linlin-2026
-  port: 36712
-  server: 3.106.35.101
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: '10|@confiig_hub #1'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
@@ -375,7 +354,7 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: 10|⭕73@oneclickvpnkeys
+- name: 10|73@oneclickvpnkeys
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 13.212.78.215
@@ -425,67 +404,6 @@ proxies:
   server: 202.50.253.27
   type: ss
   udp: true
-- name: 12|🇯🇵 日本|@ripaojiedian
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: 7PBmAR6CGAh2naIi09rlP_PtmLmqhlXF_toZEdAHmRo
-    short-id: 7c6d6833
-  server: 139.162.91.239
-  servername: itunes.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b0dc852a-97ec-4d4e-9179-f0e5c2ef1489
-  ws-opts:
-    path: /ws
-- name: 12|🇺🇸 美国4|@ripaojiedian
-  password: MiTiVPN
-  port: 443
-  server: 167.82.76.27
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
-  udp: true
-- flow: xtls-rprx-vision
-  name: 12|🇫🇷 法国|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: edge.bookmai.com
-  servername: mother-earth.fyi
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-- name: 12|🇯🇵 日本2|@ripaojiedian
-  password: d050aca3-9df2-4461-90ec-92373c1d7636
-  port: 44184
-  server: v2jp.k1.ssnss.live
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 12|🇯🇵 日本3|@ripaojiedian
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: Mjv5qe_CrvfHdVwgtyqYbqPesZ-1oko2XYg3dguzvxg
-    short-id: c29f9af4
-  server: 172.105.216.21
-  servername: itunes.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 76f1ce49-bcea-4680-b9ef-16592269445b
-  ws-opts:
-    path: /ws
 - name: 12|🇸🇬 新加坡|@ripaojiedian
   network: ws
   port: 443
@@ -502,46 +420,247 @@ proxies:
   uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
     path: /ws
-- name: 12|🇺🇸 美国2|@ripaojiedian
-  network: ws
-  port: 443
+    v2ray-http-upgrade: false
+- flow: xtls-rprx-vision
+  name: 12,13|香港|@ripaojiedian
+  network: tcp
+  port: 11103
   reality-opts:
-    public-key: YS1T3hKkZSWZBej5I1O2s3QQ-jf5JOAY24EZbp9faX8
-    short-id: 60e39a7e
-  server: 172.235.53.103
-  servername: itunes.apple.com
+    public-key: 5NNdXPMTBLP-xeDKFwcG-j6u-c4DhXIfnlHMqMJZ4n4
+    short-id: 9564e1a7a1cf8b3a
+  server: 116.213.43.43
+  servername: www.apple.com
   skip-cert-verify: true
   tfo: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 38ae2bc6-577c-4e0a-b49c-81c44a0b4383
-  ws-opts:
-    path: /ws
-- name: 12|🇺🇸 美国3|@ripaojiedian
-  network: ws
-  port: 443
+  uuid: bb836d81-d0c5-4f01-a584-806cdf65e36a
+- flow: xtls-rprx-vision
+  name: 12,13|香港2|@ripaojiedian
+  network: tcp
+  port: 11107
   reality-opts:
-    public-key: SJAHlQal4h4gy7BFInw13ute3ZM49kXMWCkJj3F4tW0
-    short-id: 357a37e1
-  server: 172.236.239.126
-  servername: itunes.apple.com
+    public-key: 6GRzkPbs12fKBdBBFzs5dmtmbSHCXMngUCBKLrXYm3U
+    short-id: e2ccd8eedcbee2ce
+  server: 116.213.43.43
+  servername: www.apple.com
   skip-cert-verify: true
   tfo: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
-  ws-opts:
-    path: /ws
-- name: 12|🇺🇸 美国5|@ripaojiedian
-  password: Mitivpn
-  port: 443
-  server: 151.101.110.219
+  uuid: 08a37d1f-7bf1-4b5d-a2ec-5ced6a633d7f
+- flow: xtls-rprx-vision
+  name: 12,13|台湾|@ripaojiedian
+  network: tcp
+  port: 11102
+  reality-opts:
+    public-key: oW6HMjniDmBJdjGKwhBAIS2zMS1VvHORubh9vdazqQ0
+    short-id: ed571d022f7bc3bf
+  server: 116.213.43.43
+  servername: www.apple.com
   skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
+  tfo: false
+  tls: false
+  type: vless
   udp: true
+  uuid: 530d31fc-2690-49e4-bfc9-3f991e145008
+- flow: xtls-rprx-vision
+  name: 12,13|香港3|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: NNBFlHVb2xbmURjkxXCZfqZNFmd5MprUtg5usEg_LRw
+    short-id: 58d234c8c6a009bc
+  server: 47.243.230.253
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 27c26119-090b-4ae3-80d2-e9f08a575862
+- flow: xtls-rprx-vision
+  name: 12,13|美国|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: vQgrNIQTmbTIqtauDixzp2ePvd-aK_zlTctIDRPk3wQ
+    short-id: ce90a4459f024897
+  server: 103.119.15.175
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 89be587f-0e93-4c67-822e-98ad0a56c29e
+- flow: xtls-rprx-vision
+  name: 12,13|德国|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 77HTpkO_F3cUfA5Trka3eSh8V18atRMLyclGqZ__8C8
+    short-id: b73c53b18b65dd90
+  server: 189.24.82.30
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: b354463f-ac84-422e-9a26-556c81ba001c
+- flow: xtls-rprx-vision
+  name: 12,13|美国2|@ripaojiedian
+  network: tcp
+  port: 11105
+  reality-opts:
+    public-key: ghxoNrFX488_gXprrfDt-03Lkxj3YFqS2q-DDw-m6yE
+    short-id: d9180a5730e950d2
+  server: 116.213.43.43
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 31d5b95e-aff2-4ffb-8160-b5ae941b46f6
+- flow: xtls-rprx-vision
+  name: 12,13|美国3|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AMv7Xq2QzEDvAotwLRbqCk-WAxlQ7lxxYffMCvmNGhE
+    short-id: 5bcc25a95dcd415b
+  server: 166.0.27.137
+  servername: www.samsung.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: ad45be81-9ba1-4a41-9326-f6ceb63eb79f
+- flow: xtls-rprx-vision
+  name: 12,13|英国|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: U6FtussjhSb81ka0z9IDf1n80syjsczIDrRTdmzyeGM
+    short-id: 5a6f99962a27cdbc
+  server: 8.208.101.215
+  servername: www.ebay.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3112c3f2-7172-417d-bce6-d168135d1603
+- flow: xtls-rprx-vision
+  name: 12,13|日本|@ripaojiedian
+  network: tcp
+  port: 11101
+  reality-opts:
+    public-key: 2eUT-b2e2lghUKWM3qf8uI3_Dphg9whKrQ08o4S-bzw
+    short-id: 82f99830e7b834e2
+  server: 116.213.43.43
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: ca69a29d-60ef-433a-91bc-27537be993c8
+- flow: xtls-rprx-vision
+  name: 12,13|新加坡2|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: EXPjsObdfDnKuRmw4-A9_G4k-WP2cUXuuvUo8It1sAo
+    short-id: 4d1244cd42a20e6c
+  server: 47.84.39.7
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: a6fd460c-88bd-4425-bb56-2b73d29455cc
+- flow: xtls-rprx-vision
+  name: 12,13|韩国|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: vrFq4-k-eiTSyRF3T3e7Fqmlv4XSKmByKYsw55zeX3w
+    short-id: b79a86e2b1a586a0
+  server: 43.108.109.112
+  servername: www.samsung.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4ded3111-b418-475a-93de-0360932508b2
+- flow: xtls-rprx-vision
+  name: 12,13|泰国|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: P3MHfKzFZhV5TRjdEj2r43fUr24iijLqB_k7rbSR2Bg
+    short-id: 4446248c38c846e6
+  server: 47.81.32.116
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 33330382-a046-428d-9e95-9aae8bd6b90e
+- flow: xtls-rprx-vision
+  name: 12,13|菲律宾|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: T7_XLYoPP1_kxIaOov9SovRMk-P1mS-FRhdWueHxaR0
+    short-id: 58aa532948cab4a4
+  server: 47.80.76.105
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: ecdcc5d3-644a-4606-9e9e-130315da68cd
+- flow: xtls-rprx-vision
+  name: 12,13|马来西亚|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SJyvyV7tQNPeJR-dnV11hve50q-En-mhh2eDXMX16C4
+    short-id: 2fbe9d45d0754b78
+  server: 47.250.146.252
+  servername: www.ebay.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7a09c6e0-ad6e-4f96-980e-e0b198bb722f
+- flow: xtls-rprx-vision
+  name: 12,13|印尼|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ulPGCwIg38AVGww0FBfCNROmu_0N1hykbHbhcAFgcl0
+    short-id: 6135361d11cc2b31
+  server: 147.139.197.200
+  servername: www.ebay.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: a197af05-7048-478e-8d99-c3151adb4064
 - flow: ''
   name: 13|新加坡|@ripaojiedian
   network: ws
@@ -556,390 +675,121 @@ proxies:
   uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
     path: '%2Fws'
-- flow: xtls-rprx-vision
-  name: 13|香港|@ripaojiedian
-  network: tcp
-  port: 11103
-  reality-opts:
-    public-key: 5NNdXPMTBLP-xeDKFwcG-j6u-c4DhXIfnlHMqMJZ4n4
-    short-id: 9564e1a7a1cf8b3a
-  server: 116.213.43.43
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: bb836d81-d0c5-4f01-a584-806cdf65e36a
-- flow: xtls-rprx-vision
-  name: 13|香港2|@ripaojiedian
-  network: tcp
-  port: 11107
-  reality-opts:
-    public-key: 6GRzkPbs12fKBdBBFzs5dmtmbSHCXMngUCBKLrXYm3U
-    short-id: e2ccd8eedcbee2ce
-  server: 116.213.43.43
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: 08a37d1f-7bf1-4b5d-a2ec-5ced6a633d7f
-- flow: xtls-rprx-vision
-  name: 13|台湾|@ripaojiedian
-  network: tcp
-  port: 11102
-  reality-opts:
-    public-key: oW6HMjniDmBJdjGKwhBAIS2zMS1VvHORubh9vdazqQ0
-    short-id: ed571d022f7bc3bf
-  server: 116.213.43.43
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: 530d31fc-2690-49e4-bfc9-3f991e145008
-- flow: xtls-rprx-vision
-  name: 13|香港3|@ripaojiedian
-  network: tcp
+- name: 14|BE_speednode_0001
   port: 443
-  reality-opts:
-    public-key: NNBFlHVb2xbmURjkxXCZfqZNFmd5MprUtg5usEg_LRw
-    short-id: 58d234c8c6a009bc
-  server: 47.243.230.253
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: 27c26119-090b-4ae3-80d2-e9f08a575862
-- flow: xtls-rprx-vision
-  name: 13|美国|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: vQgrNIQTmbTIqtauDixzp2ePvd-aK_zlTctIDRPk3wQ
-    short-id: ce90a4459f024897
-  server: 103.119.15.175
-  servername: www.amazon.com
-  tls: false
-  type: vless
-  uuid: 89be587f-0e93-4c67-822e-98ad0a56c29e
-- flow: xtls-rprx-vision
-  name: 13|德国|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 77HTpkO_F3cUfA5Trka3eSh8V18atRMLyclGqZ__8C8
-    short-id: b73c53b18b65dd90
-  server: 189.24.82.30
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: b354463f-ac84-422e-9a26-556c81ba001c
-- flow: xtls-rprx-vision
-  name: 13|美国2|@ripaojiedian
-  network: tcp
-  port: 11105
-  reality-opts:
-    public-key: ghxoNrFX488_gXprrfDt-03Lkxj3YFqS2q-DDw-m6yE
-    short-id: d9180a5730e950d2
-  server: 116.213.43.43
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: 31d5b95e-aff2-4ffb-8160-b5ae941b46f6
-- flow: xtls-rprx-vision
-  name: 13|美国3|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: AMv7Xq2QzEDvAotwLRbqCk-WAxlQ7lxxYffMCvmNGhE
-    short-id: 5bcc25a95dcd415b
-  server: 166.0.27.137
-  servername: www.samsung.com
-  tls: false
-  type: vless
-  uuid: ad45be81-9ba1-4a41-9326-f6ceb63eb79f
-- flow: xtls-rprx-vision
-  name: 13|英国|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: U6FtussjhSb81ka0z9IDf1n80syjsczIDrRTdmzyeGM
-    short-id: 5a6f99962a27cdbc
-  server: 8.208.101.215
-  servername: www.ebay.com
-  tls: false
-  type: vless
-  uuid: 3112c3f2-7172-417d-bce6-d168135d1603
-- flow: xtls-rprx-vision
-  name: 13|日本|@ripaojiedian
-  network: tcp
-  port: 11101
-  reality-opts:
-    public-key: 2eUT-b2e2lghUKWM3qf8uI3_Dphg9whKrQ08o4S-bzw
-    short-id: 82f99830e7b834e2
-  server: 116.213.43.43
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: ca69a29d-60ef-433a-91bc-27537be993c8
-- flow: xtls-rprx-vision
-  name: 13|新加坡2|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: EXPjsObdfDnKuRmw4-A9_G4k-WP2cUXuuvUo8It1sAo
-    short-id: 4d1244cd42a20e6c
-  server: 47.84.39.7
-  servername: www.amazon.com
-  tls: false
-  type: vless
-  uuid: a6fd460c-88bd-4425-bb56-2b73d29455cc
-- flow: xtls-rprx-vision
-  name: 13|韩国|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: vrFq4-k-eiTSyRF3T3e7Fqmlv4XSKmByKYsw55zeX3w
-    short-id: b79a86e2b1a586a0
-  server: 43.108.109.112
-  servername: www.samsung.com
-  tls: false
-  type: vless
-  uuid: 4ded3111-b418-475a-93de-0360932508b2
-- flow: xtls-rprx-vision
-  name: 13|泰国|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: P3MHfKzFZhV5TRjdEj2r43fUr24iijLqB_k7rbSR2Bg
-    short-id: 4446248c38c846e6
-  server: 47.81.32.116
-  servername: www.amazon.com
-  tls: false
-  type: vless
-  uuid: 33330382-a046-428d-9e95-9aae8bd6b90e
-- flow: xtls-rprx-vision
-  name: 13|菲律宾|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: T7_XLYoPP1_kxIaOov9SovRMk-P1mS-FRhdWueHxaR0
-    short-id: 58aa532948cab4a4
-  server: 47.80.76.105
-  servername: www.amazon.com
-  tls: false
-  type: vless
-  uuid: ecdcc5d3-644a-4606-9e9e-130315da68cd
-- flow: xtls-rprx-vision
-  name: 13|马来西亚|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SJyvyV7tQNPeJR-dnV11hve50q-En-mhh2eDXMX16C4
-    short-id: 2fbe9d45d0754b78
-  server: 47.250.146.252
-  servername: www.ebay.com
-  tls: false
-  type: vless
-  uuid: 7a09c6e0-ad6e-4f96-980e-e0b198bb722f
-- flow: xtls-rprx-vision
-  name: 13|印尼|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ulPGCwIg38AVGww0FBfCNROmu_0N1hykbHbhcAFgcl0
-    short-id: 6135361d11cc2b31
-  server: 147.139.197.200
-  servername: www.ebay.com
-  tls: false
-  type: vless
-  uuid: a197af05-7048-478e-8d99-c3151adb4064
-- name: 14|AT_speednode_0001
-  network: ws
-  port: 8443
-  server: au2.pad-sservice.lat
-  servername: au2.pad-sservice.lat
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-  ws-opts:
-    headers:
-      Host: au2.pad-service.com
-    path: /A11U
-- client-fingerprint: firefox
-  name: 14|AT_speednode_0002
-  network: ws
-  port: 8443
-  server: 152.53.31.46
-  servername: usa3.pad-sservice.lat
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-  ws-opts:
-    headers:
-      Host: usa3.pad-service.com
-    path: /U1SA
-- name: 14|BR_speednode_0003
-  network: ws
-  port: 8443
-  server: de9.pad-sservice.lat
-  servername: de9.pad-sservice.lat
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-  ws-opts:
-    headers:
-      Host: de9.pad-service.com
-    path: /DE9W
-- name: 14|DE_speednode_0004
-  port: 443
-  server: 213.109.163.119
+  server: 146.70.123.98
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 14|DK_speednode_0005
-  port: 9002
-  server: 158.173.154.5
+- name: 14|BR_speednode_0002
+  password: None
+  port: 9443
+  server: 152.233.16.174
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 14|DK_speednode_0006
+- name: 14|DE_speednode_0003
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|DK_speednode_0004
   port: 9002
   server: 158.173.154.1
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 14|ES_speednode_0007
-  network: ws
-  port: 8443
-  server: au5.pad-sservice.lat
-  servername: au5.pad-sservice.lat
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-  ws-opts:
-    headers:
-      Host: au5.pad-sservice.lat
-    path: /AU5W
-- name: 14|FR_speednode_0008
-  port: 19362
-  server: 51.159.225.197
+- name: 14|DK_speednode_0005
+  password: None
+  port: 9002
+  server: 158.173.154.4
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 14|FR_speednode_0009
-  port: 8090
-  server: 83.206.1.225
+- name: 14|DK_speednode_0006
+  port: 9002
+  server: 158.173.154.5
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 14|FR_speednode_0010
-  password: 'null'
-  port: 23856
-  server: 51.159.225.196
+- name: 14|FR_speednode_0007
+  port: 6103
+  server: 87.98.174.157
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: 'null'
-- name: 14|FR_speednode_0011
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|FR_speednode_0012
+- name: 14|GB_speednode_0008
   port: 443
-  server: 82.65.162.76
+  server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 14|IE_speednode_0013
+- name: 14|IE_speednode_0009
   port: 443
   server: 34.249.214.108
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- flow: xtls-rprx-vision
-  name: 14|JP_speednode_0018
-  network: tcp
-  port: 46105
-  reality-opts:
-    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: 28f5c1f8f98a
-  server: funagfrdfs.alixxplay.com
-  servername: www.lamer.com.sg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 14|JP_speednode_0019
-  network: tcp
-  packet-encoding: xudp
-  port: 54528
-  reality-opts:
-    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
-    short-id: 54cca3c1c1c7
-  server: funagfrdfs.alixxplay.com
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 14|LV_speednode_0020
+- name: 14|IE_speednode_0010
   port: 443
-  server: 185.219.159.15
+  server: 18.200.158.139
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 14|LV_speednode_0021
-  password: None
+- name: 14|NL_speednode_0014
   port: 443
-  server: 185.219.159.16
+  server: 149.36.51.129
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 14|NL_speednode_0022
+- name: 14|NL_speednode_0015
   password: 'null'
-  port: 443
-  server: 103.97.88.154
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 14|NL_speednode_0023
-  port: 9002
-  server: 84.17.47.124
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|NL_speednode_0024
-  password: None
   port: 9002
   server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 14|NL_speednode_0025
+  username: 'null'
+- name: 14|NL_speednode_0016
+  password: 'null'
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 14|NL_speednode_0017
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|NL_speednode_0018
+  password: 'null'
+  port: 9002
+  server: 84.17.47.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 14|NL_speednode_0019
   password: None
   port: 9002
   server: 84.17.47.149
@@ -947,14 +797,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 14|NL_speednode_0026
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|NL_speednode_0027
+- name: 14|NL_speednode_0020
   password: None
   port: 9002
   server: 84.17.47.123
@@ -962,192 +805,58 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 14|PL_speednode_0028
-  port: 443
-  server: 31.186.220.204
+- name: 14|NL_speednode_0021
+  password: None
+  port: 9002
+  server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 14|RU_speednode_0029
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 147.45.47.119
-  servername: ozon.ru
-  skip-cert-verify: false
+- name: 14|NL_speednode_0022
+  port: 9002
+  server: 84.17.47.124
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 14|RU_speednode_0030
-  network: tcp
+- name: 14|NN_speednode_0023
+  password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.151.71.145
-  servername: abuse.ozon.ru
-  skip-cert-verify: false
+  server: usgp1-cdn-route.couldflare-cdn.com
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 04edf721-b2b7-4a80-9fbd-c949438c58c9
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 14|RU_speednode_0031
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 147.45.47.117
-  servername: ozon.ru
-  skip-cert-verify: false
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 14|RO_speednode_0024
+  password: None
+  port: 9002
+  server: 193.176.84.24
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 14|RU_speednode_0032
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.151.71.159
-  servername: gb.ozon.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 14|RU_speednode_0033
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.151.71.176
-  servername: gb.ozon.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 14|RU_speednode_0034
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU
-    short-id: 88d9dc52ef39c8bd
-  server: 92.42.201.107
-  servername: node-slo02.rkitman.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d0c8aa8d-a535-432a-b521-21f0e561f643
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 14|RU_speednode_0035
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 147.45.46.183
-  servername: gb.ozon.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
 - flow: xtls-rprx-vision
-  name: 14|RU_speednode_0036
+  name: 14|TW_speednode_0026
   network: tcp
-  port: 443
+  port: 47396
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.151.71.167
-  servername: abuse.ozon.ru
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: fa514b83
+  server: free.fugui.lol
+  servername: swdist.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 14|RU_speednode_0037
-  network: tcp
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+- name: 14|US_speednode_0027
   port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 37.235.249.12
-  servername: gb.ozon.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
-- flow: xtls-rprx-vision
-  name: 14|TR_speednode_0038
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 193.160.141.27
-  servername: abuse.ozon.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
-- name: 14|US_speednode_0039
-  port: 8443
-  server: 44.248.167.117
+  server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 14|US_speednode_0040
-  port: 443
-  server: 38.247.141.135
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|US_speednode_0041
-  port: 443
-  server: 64.98.50.100
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|US_speednode_0042
-  port: 19167
-  server: mx001.zestapp778.com
-  servername: mx001.zestapp778.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- client-fingerprint: firefox
-  name: 14|US_speednode_0043
-  port: 54857
-  server: 130.94.18.208
-  servername: us001.zestapp778.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -1159,118 +868,91 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12|🇺🇸 美国2|@ripaojiedian
-  - 13|新加坡|@ripaojiedian
-  - 14|NL_speednode_0026
-  - 10|214601 | ️Telegram = t.me/v2ra...
-  - 13|德国|@ripaojiedian
-  - 9|139909 | Telegram = t.me/SOSke...
-  - 10|🔵100@oneclickvpnkeys
-  - 14|RU_speednode_0034
-  - '10|@OutlineReleasedKey #3'
-  - 14|US_speednode_0039
-  - '10|@v2ray313 کانال '
-  - 13|泰国|@ripaojiedian
-  - 14|ES_speednode_0007
-  - 14|US_speednode_0042
-  - 14|NL_speednode_0024
-  - 9| 🇯🇵 20@exclavevpn
-  - 10|🇦🇺222181 | ⚡️Telegram = t.me/L...
-  - 14|JP_speednode_0018
-  - 10|Telegram  ️  @tik7net_vpn
-  - 14|FR_speednode_0012
-  - 14|FR_speednode_0008
-  - 14|DK_speednode_0005
-  - 13|韩国|@ripaojiedian
-  - 10|DE-@VPNine1
-  - 10|⭕73@oneclickvpnkeys
-  - 13|香港3|@ripaojiedian
-  - 13|香港2|@ripaojiedian
-  - 13|印尼|@ripaojiedian
-  - 13|日本|@ripaojiedian
-  - 14|RU_speednode_0036
-  - 10|🔵92@oneclickvpnkeys
+  - 14|DE_speednode_0003
+  - 12,13|香港3|@ripaojiedian
+  - 10|⚙️64@oneclickvpnkeys
+  - 10|⭕94@oneclickvpnkeys
+  - 14|NL_speednode_0018
   - '10|@OutlineReleasedKey #4'
-  - 10|⚙️32@oneclickvpnkeys
-  - 14|RU_speednode_0033
-  - 10|@B2Hub
-  - 13|美国2|@ripaojiedian
-  - 10|@KAFING_2
-  - '10|Telegram@vpnjey #7'
-  - 10|⚙️75@oneclickvpnkeys
-  - 10|@V2rayNPVTConfig
-  - '10|Channel : @Daily_Configs'
-  - 12|🇯🇵 日本3|@ripaojiedian
-  - 14|LV_speednode_0021
-  - 14|NL_speednode_0023
-  - 14|DE_speednode_0004
-  - '10|@OutlineReleasedKey #6'
   - '10|@OutlineReleasedKey #5'
-  - 14|RU_speednode_0035
-  - '10|@OutlineReleasedKey #8'
-  - 14|RU_speednode_0031
-  - 13|台湾|@ripaojiedian
-  - 10|⭕62@oneclickvpnkeys
-  - 14|PL_speednode_0028
-  - 10|+@Azarakhsh_Proxy+
-  - 14|US_speednode_0040
-  - 14|NL_speednode_0022
-  - 14|RU_speednode_0029
-  - 10|@v2ray_phoenix
-  - '10|Telegram@vpnjey #2'
-  - 10|Telegram:@v2rayng3
-  - 10|Telegram@vpnjey
-  - 13|英国|@ripaojiedian
-  - 10|95@oneclickvpnkeys
+  - '10|Telegram@vpnjey #5'
+  - 10|5@oneclickvpnkeys
   - 12|🇮🇹 意大利|@ripaojiedian
-  - 14|RU_speednode_0032
-  - 14|LV_speednode_0020
+  - 10|214601 | ️Telegram = t.me/v2ra...
+  - 14|NL_speednode_0017
+  - '10|@OutlineReleasedKey #8'
+  - 14|NL_speednode_0021
+  - 14|DK_speednode_0004
+  - 10|@V2rayNPVTConfig
+  - 10|@B2Hub
+  - 14|IE_speednode_0010
+  - 14|GB_speednode_0008
+  - 12,13|英国|@ripaojiedian
+  - '10|@KAFING_2 #2'
+  - 14|BR_speednode_0002
+  - 10|@v2ray_phoenix
+  - 10|⚙️75@oneclickvpnkeys
+  - 14|FR_speednode_0007
+  - 10|Telegram@vpnjey
+  - '10|@OutlineReleasedKey #3'
+  - 12|🇮🇹 意大利2|@ripaojiedian
+  - 12|🇸🇬 新加坡|@ripaojiedian
+  - '10|Telegram@vpnjey #7'
+  - 14|NL_speednode_0014
+  - 12,13|印尼|@ripaojiedian
+  - 14|IE_speednode_0009
+  - '10|@OutlineReleasedKey #10'
+  - '10|@OutlineReleasedKey #6'
+  - '10|Telegram@vpnjey #8'
+  - 14|NL_speednode_0015
+  - 10|Telegram  ️  @tik7net_vpn
+  - 10|⭕62@oneclickvpnkeys
+  - 14|DK_speednode_0005
+  - 14|NL_speednode_0019
+  - 10|+@Azarakhsh_Proxy+
+  - 12,13|韩国|@ripaojiedian
   - '10|@confiig_hub #1'
-  - 13|菲律宾|@ripaojiedian
+  - '10|Channel : @Daily_Configs'
+  - 10|73@oneclickvpnkeys
+  - 9| 🇯🇵 20@exclavevpn
+  - 12,13|日本|@ripaojiedian
+  - 12,13|香港|@ripaojiedian
+  - 10|⚙️73@oneclickvpnkeys
   - 14|DK_speednode_0006
   - '10|@V2rayNPVTConfig #1'
-  - 14|NL_speednode_0027
-  - '10|@OutlineReleasedKey #9'
-  - 14|FR_speednode_0011
-  - '10|@OutlineReleasedKey #7'
-  - 10|⭕94@oneclickvpnkeys
-  - 13|美国|@ripaojiedian
-  - 14|BR_speednode_0003
-  - '10|Telegram@vpnjey #1'
-  - '10|Telegram@vpnjey #8'
-  - 12|🇯🇵 日本|@ripaojiedian
-  - 10|🇸US-🚀@VPNine1
-  - 12|🇺🇸 美国5|@ripaojiedian
+  - 14|US_speednode_0027
+  - 12,13|美国3|@ripaojiedian
+  - 14|RO_speednode_0024
+  - 10|Telegram:@v2rayng3
+  - 10|🇷🇺223650 | ⚡️Telegram = t.me/L...
   - '10|@OutlineReleasedKey #1'
-  - 14|AT_speednode_0001
-  - 10|93@oneclickvpnkeys
+  - 12,13|泰国|@ripaojiedian
+  - '10|@OutlineReleasedKey #9'
   - '10|Telegram@vpnjey #3'
-  - 14|FR_speednode_0010
-  - '10|Telegram@vpnjey #5'
-  - 13|美国3|@ripaojiedian
-  - 12|🇸🇬 新加坡|@ripaojiedian
-  - 14|US_speednode_0041
-  - 9|ᴇ  = @xxɴᴇᴛ
-  - 12|🇺🇸 美国3|@ripaojiedian
-  - 13|新加坡2|@ripaojiedian
-  - '10|@KAFING_2 #2'
-  - 12|🇯🇵 日本2|@ripaojiedian
-  - 13|香港|@ripaojiedian
-  - 14|RU_speednode_0037
-  - 14|FR_speednode_0009
-  - 14|US_speednode_0043
-  - 14|IE_speednode_0013
-  - 14|TR_speednode_0038
-  - '10|@OutlineReleasedKey #10'
-  - 12|🇫🇷 法国|@ripaojiedian
-  - 13|马来西亚|@ripaojiedian
-  - 14|JP_speednode_0019
-  - 12|🇮🇹 意大利2|@ripaojiedian
-  - 14|RU_speednode_0030
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 14|AT_speednode_0002
+  - '10|Telegram@vpnjey #1'
+  - 14|NL_speednode_0020
+  - 12,13|美国2|@ripaojiedian
+  - 10|95@oneclickvpnkeys
+  - 12,13|美国|@ripaojiedian
+  - 12,13|德国|@ripaojiedian
+  - 9|139909 | Telegram = t.me/SOSke...
+  - 12,13|菲律宾|@ripaojiedian
+  - 12,13|新加坡2|@ripaojiedian
+  - 12,13|台湾|@ripaojiedian
+  - '10|Telegram@vpnjey #2'
+  - 12,13|香港2|@ripaojiedian
+  - 14|NN_speednode_0023
+  - 14|BE_speednode_0001
+  - '10|@v2ray313 کانال '
+  - 10|⚙️32@oneclickvpnkeys
+  - 14|TW_speednode_0026
+  - 10|@KAFING_2
+  - '10|@OutlineReleasedKey #7'
+  - 12,13|马来西亚|@ripaojiedian
+  - 14|NL_speednode_0022
+  - 14|NL_speednode_0016
   - 10|⚙️61@oneclickvpnkeys
-  - 14|NL_speednode_0025
+  - 13|新加坡|@ripaojiedian
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1327,31 +1009,19 @@ proxy-groups:
 - name: 🇯🇵 日本
   proxies:
   - 9| 🇯🇵 20@exclavevpn
-  - 12|🇯🇵 日本|@ripaojiedian
-  - 12|🇯🇵 日本2|@ripaojiedian
-  - 12|🇯🇵 日本3|@ripaojiedian
-  - 13|日本|@ripaojiedian
-  - 14|JP_speednode_0018
-  - 14|JP_speednode_0019
+  - 12,13|日本|@ripaojiedian
   type: select
 - name: 🇺🇸 美国
   proxies:
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 12|🇺🇸 美国2|@ripaojiedian
-  - 12|🇺🇸 美国3|@ripaojiedian
-  - 12|🇺🇸 美国5|@ripaojiedian
-  - 13|美国|@ripaojiedian
-  - 13|美国2|@ripaojiedian
-  - 13|美国3|@ripaojiedian
-  - 14|US_speednode_0039
-  - 14|US_speednode_0040
-  - 14|US_speednode_0041
-  - 14|US_speednode_0042
-  - 14|US_speednode_0043
+  - 12,13|美国|@ripaojiedian
+  - 12,13|美国2|@ripaojiedian
+  - 12,13|美国3|@ripaojiedian
+  - 14|US_speednode_0027
   type: select
 - name: 🇨🇳 台湾
   proxies:
-  - 13|台湾|@ripaojiedian
+  - 12,13|台湾|@ripaojiedian
+  - 14|TW_speednode_0026
   type: select
 - name: 🇨🇳 中国
   proxies:
@@ -1359,9 +1029,9 @@ proxy-groups:
   type: select
 - name: 🇭🇰 香港
   proxies:
-  - 13|香港|@ripaojiedian
-  - 13|香港2|@ripaojiedian
-  - 13|香港3|@ripaojiedian
+  - 12,13|香港|@ripaojiedian
+  - 12,13|香港2|@ripaojiedian
+  - 12,13|香港3|@ripaojiedian
   type: select
 - name: 🇨🇦 加拿大
   proxies:
@@ -1369,43 +1039,31 @@ proxy-groups:
   type: select
 - name: 🇫🇷 法国
   proxies:
-  - 12|🇫🇷 法国|@ripaojiedian
-  - 14|FR_speednode_0008
-  - 14|FR_speednode_0009
-  - 14|FR_speednode_0010
-  - 14|FR_speednode_0011
-  - 14|FR_speednode_0012
+  - 14|FR_speednode_0007
   type: select
 - name: 🇸🇬 新加坡
   proxies:
   - 12|🇸🇬 新加坡|@ripaojiedian
+  - 12,13|新加坡2|@ripaojiedian
   - 13|新加坡|@ripaojiedian
-  - 13|新加坡2|@ripaojiedian
   type: select
 - name: 🇬🇧 英国
   proxies:
-  - 13|英国|@ripaojiedian
+  - 12,13|英国|@ripaojiedian
+  - 14|GB_speednode_0008
   type: select
 - name: 🇰🇷 韩国
   proxies:
-  - 13|韩国|@ripaojiedian
+  - 12,13|韩国|@ripaojiedian
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
-  - 14|RU_speednode_0029
-  - 14|RU_speednode_0030
-  - 14|RU_speednode_0031
-  - 14|RU_speednode_0032
-  - 14|RU_speednode_0033
-  - 14|RU_speednode_0034
-  - 14|RU_speednode_0035
-  - 14|RU_speednode_0036
-  - 14|RU_speednode_0037
+  - REJECT
   type: select
 - name: 🇩🇪 德国
   proxies:
-  - 13|德国|@ripaojiedian
-  - 14|DE_speednode_0004
+  - 12,13|德国|@ripaojiedian
+  - 14|DE_speednode_0003
   type: select
 rules:
 - MATCH,DIRECT
