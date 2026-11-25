@@ -1,4 +1,4 @@
-# Update: 2026-11-25 03:46
+# Update: 2026-11-25 11:51
 allow-lan: false
 dns:
   enable: true
@@ -32,24 +32,6 @@ proxies:
   server: 202.50.253.27
   type: ss
   udp: true
-- name: 12,13|日本|@ripaojiedian
-  network: tcp
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: nu2rb.supertoolify.com
-  skip-cert-verify: true
-  sni: nu2rb.supertoolify.com
-  type: trojan
-  udp: true
-- name: 12,13|越南|@ripaojiedian
-  network: tcp
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: xvxn1hkzf.mateflora.com
-  skip-cert-verify: true
-  sni: xvxn1hkzf.mateflora.com
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 🚀 选择代理
   proxies:
@@ -61,9 +43,7 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 12,13|日本|@ripaojiedian
   - 12|🇮🇹 意大利2|@ripaojiedian
-  - 12,13|越南|@ripaojiedian
   - 12|🇮🇹 意大利|@ripaojiedian
   type: fallback
   url: https://www.google.com/
