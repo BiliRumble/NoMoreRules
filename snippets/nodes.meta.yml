@@ -1,5 +1,12 @@
 proxies:
-- name: 9|🇺🇸 24@exclavevpn
+- name: 9,10|66@oneclickvpnkeys
+  password: 04920673-035c-410d-94e4-5b1469d3fb6f
+  port: 42848
+  server: 91.211.27.231
+  sni: 171.22.183.158
+  tls: false
+  type: hysteria2
+- name: 9| 24@exclavevpn
   obfs: salamander
   obfs-password: re61ep4ancwplwh8
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
@@ -29,13 +36,6 @@ proxies:
   password: 04920673-035c-410d-94e4-5b1469d3fb6f
   port: 42848
   server: 171.22.183.158
-  sni: 171.22.183.158
-  tls: false
-  type: hysteria2
-- name: 10|66@oneclickvpnkeys
-  password: 04920673-035c-410d-94e4-5b1469d3fb6f
-  port: 42848
-  server: 91.211.27.231
   sni: 171.22.183.158
   tls: false
   type: hysteria2
@@ -119,6 +119,18 @@ proxies:
   sni: bgsg2.hikigo.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: '10|@VPsave #2'
+  obfs: salamander
+  obfs-password: kydqninqtcdomlcb
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 40205
+  server: a1dgus.supertoolify.com
+  skip-cert-verify: true
+  sni: psstatic.cdn.bcebos.com
+  tls: false
+  type: hysteria2
 - name: 10|🆓69@oneclickvpnkeys
   obfs: salamander
   obfs-password: re61ep4ancwplwh8
@@ -189,6 +201,22 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: 10|KR-@VPNine1
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 443
+  server: 43.201.31.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 10|🇸🇬SG-🚀@VPNine1
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 443
+  server: 54.255.246.31
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: '10|@OutlineReleasedKey #2'
   password: 87bb2ac4-b7a1-0001-b11d-2107709ea6cb
   port: 443
@@ -212,7 +240,7 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: 10|24@exclavevpn
+- name: 10|🇷24@exclavevpn
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 13.36.234.11
@@ -318,7 +346,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '10|@VPsave #2'
+- name: '10|@VPsave #3'
   password: c358d323-c2c7-4457-bfdb-dd736ba16d38
   port: 443
   server: 177.3.252.187
@@ -337,7 +365,7 @@ proxies:
   sni: tomsk.gosgenarchive.com
   tls: false
   type: hysteria2
-- name: '10|@VPsave #3'
+- name: '10|@VPsave #4'
   password: d0975db4-e8c8-41f7-a5f3-a3d1d432e499
   port: 443
   server: 194.93.61.120
@@ -354,12 +382,19 @@ proxies:
   sni: panel.autonetshop.ir
   tls: false
   type: hysteria2
-- name: '10|24@exclavevpn #1'
+- name: 10|24@exclavevpn
   password: d4ca9415f0eac7897472e1e5b86d2e96
   port: 443
   server: 50.7.38.243
   skip-cert-verify: true
   sni: promo.betust.net
+  tls: false
+  type: hysteria2
+- name: '10|@VPsave #5'
+  password: d7121b33-e335-4921-bb00-4c0b157e7fc1
+  port: 443
+  server: r7m4.scan-cdn.com
+  sni: r7m4.scan-cdn.com
   tls: false
   type: hysteria2
 - name: 10|را اصال ای   TelegramID Expres...
