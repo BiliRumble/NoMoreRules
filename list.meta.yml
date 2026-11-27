@@ -1,4 +1,4 @@
-# Update: 2026-11-27 04:40
+# Update: 2026-11-27 11:20
 allow-lan: false
 dns:
   enable: true
@@ -430,13 +430,6 @@ proxies:
   server: 202.50.253.63
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 12|🇮🇹 意大利2|@ripaojiedian
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
-  type: ss
-  udp: true
 - name: 12|🇭🇰 香港2|@ripaojiedian
   password: 2902c46c8493
   port: 443
@@ -491,15 +484,7 @@ proxies:
   sni: docs.microsoft.com
   type: anytls
   udp: true
-- name: 12|🇭🇰 香港3|@ripaojiedian
-  password: 0324fbc29561
-  port: 443
-  server: 5641sdds.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- name: 12|🇺🇸 美国|@ripaojiedian
+- name: 12|🇺🇸 美国1|@ripaojiedian
   network: ws
   port: 443
   reality-opts:
@@ -518,181 +503,195 @@ proxies:
       Host: itunes.apple.com
     path: /ws
     v2ray-http-upgrade: false
+- name: 12|🇹🇼 台湾3|@ripaojiedian
+  password: 2902c46c8493
+  port: 443
+  server: er8u54dh.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
+  udp: true
+- flow: xtls-rprx-vision
+  name: 12,13|香港|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: KBPuCiAKJQQtlsodm5MIBFfYf-TGsrjCK5GGJzJJli4
+    short-id: 6a3c0a718181
+  server: jp2mqtt.jumpernode.site
+  servername: stg.nvbugspro.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 330a570e-c0ba-4a9d-8e37-d20540cc8eaa
+- cipher: aes-256-gcm
+  name: 12|🇮🇹 意大利2|@ripaojiedian
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+  udp: true
+- name: 12|🇯🇵 日本|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: HyAx05nhCz5mXxVxWXU1TrWRKdpYE0MHF4-V-LtyhTA
+    short-id: 0784b134
+  server: 172.105.203.15
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c8c9b995-b4b9-4915-9c7d-dee94aa733ba
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+    v2ray-http-upgrade: false
+- name: 12|🇯🇵 日本1|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: s73obybmPs4rzBkigf3zyIwAJWbRUnhPk3m6keetT3c
+    short-id: d1244137
+  server: 139.162.91.228
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 911dce8c-a2d7-4267-acb4-1dec7cc360c4
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+    v2ray-http-upgrade: false
 - name: 12|🇯🇵 日本4|@ripaojiedian
   network: ws
-  port: 8443
-  server: 166.88.14.71
-  servername: senflarelink-node-71i.pages.dev
+  port: 443
+  reality-opts:
+    public-key: EfNOl6-YAuW-WSg7Op-1YOqKZV9emIuLwH8YPhzc7ms
+    short-id: 772bef67
+  server: 172.105.197.24
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  uuid: 81f4e114-5a60-41b5-9038-8d742380c84f
   ws-opts:
     headers:
-      Host: senflarelink-node-71i.pages.dev
-    path: /
+      Host: itunes.apple.com
+    path: /ws
     v2ray-http-upgrade: false
-- name: 12|🇯🇵 日本5|@ripaojiedian
+- name: 12|🇸🇬 新加坡2|@ripaojiedian
   network: ws
-  port: 8443
-  server: 45.32.57.15
-  servername: senflarelink-node-nwz76h.pages.dev
+  port: 443
+  reality-opts:
+    public-key: 8yWkbzkxKDySkY_xUKZCb7z-XnoNIvq7bJpa_-8BiX8
+    short-id: 9360f0d0
+  server: 172.104.48.162
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  uuid: 0dbe84f8-74fd-4bd1-99fe-e67eb7eaff85
   ws-opts:
     headers:
-      Host: senflarelink-node-nwz76h.pages.dev
-    path: /
+      Host: itunes.apple.com
+    path: /ws
     v2ray-http-upgrade: false
-- name: 12|🇭🇰 香港|@ripaojiedian
+- name: 12|🇸🇬 新加坡3|@ripaojiedian
   network: ws
-  port: 8443
-  server: 185.206.171.66
-  servername: senflarelink-node-7uv.pages.dev
+  port: 443
+  reality-opts:
+    public-key: u_4r8NRmRsN5Ndbt0koyC73DLC7mCcK4wAA0YiIR4ko
+    short-id: b0af872e
+  server: 172.104.48.194
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  uuid: a28d0884-193d-4591-aa64-8638ba1481ce
   ws-opts:
     headers:
-      Host: senflarelink-node-7uv.pages.dev
-    path: /
+      Host: itunes.apple.com
+    path: /ws
+    v2ray-http-upgrade: false
+- name: 12|🇹🇼 台湾|@ripaojiedian
+  password: 2902c46c8493
+  port: 443
+  server: rtifgjdr.df6h451rh.xin
+  skip-cert-verify: true
+  sni: docs.microsoft.com
+  type: anytls
+  udp: true
+- name: 12|🇺🇸 美国2|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: f9D1ZzG6vP1HgjCaCIutbykWkab8VEDuitwuwaeuBgY
+    short-id: 4206512a
+  server: 172.233.142.149
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 61e3954d-0d66-4b69-b6cd-9b4fc2352303
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
     v2ray-http-upgrade: false
 - name: 12|🇸🇬 新加坡|@ripaojiedian
   network: ws
-  port: 2087
-  server: 13.140.95.76
-  servername: senflarelink-node-6b9.pages.dev
+  port: 443
+  reality-opts:
+    public-key: xGPjO2ukRsGiMm-vAzcLcFYu5ivYe2paztFS64q3Bkw
+    short-id: b29516da
+  server: 172.104.186.185
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  uuid: 87ff88cc-5c1f-4f46-86b8-c43f55b71dd2
   ws-opts:
     headers:
-      Host: senflarelink-node-6b9.pages.dev
-    path: /
+      Host: itunes.apple.com
+    path: /ws
     v2ray-http-upgrade: false
-- name: 12|🇺🇸 美国2|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 179.255.132.42
-  servername: senflarelink-node-71i.pages.dev
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-71i.pages.dev
-    path: /
-    v2ray-http-upgrade: false
-- name: 12|🇺🇸 美国3|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 95.169.13.59
-  servername: senflarelink-node-m3bfbn.pages.dev
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-m3bfbn.pages.dev
-    path: /
-    v2ray-http-upgrade: false
-- name: 12|🇺🇸 美国4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 179.255.137.204
-  servername: senflarelink-node-xfcyh2.pages.dev
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-xfcyh2.pages.dev
-    path: /
-    v2ray-http-upgrade: false
-- name: 12|🇰🇷 韩国|@ripaojiedian
-  network: ws
-  port: 12101
-  server: 14.44.19.57
-  servername: senflarelink-node-nwz76h.pages.dev
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-nwz76h.pages.dev
-    path: /
-    v2ray-http-upgrade: false
-- name: 12|🇩🇪 德国2|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 49.13.31.189
-  servername: senflarelink-node-c43.pages.dev
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-c43.pages.dev
-    path: /
-    v2ray-http-upgrade: false
-- name: 12|🇩🇪 德国|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 178.104.77.229
-  servername: senflarelink-node-m3bfbn.pages.dev
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-m3bfbn.pages.dev
-    path: /
-    v2ray-http-upgrade: false
-- name: 12|TG频道:@ripaojiedian
+- name: 12|🇺🇸 美国|@ripaojiedian
   network: ws
   port: 443
-  server: cloudflare.seeck.cn
-  servername: senflarelink-node-xfcyh2.pages.dev
+  reality-opts:
+    public-key: lhkyTN5zj2bK7HhMVfer5RoDz0K67YK8VyiiK8TvkEE
+    short-id: afc7874d
+  server: 172.235.36.11
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  uuid: a15c47e7-0d24-4e82-a759-891d0e951a01
   ws-opts:
     headers:
-      Host: senflarelink-node-xfcyh2.pages.dev
-    path: /
+      Host: itunes.apple.com
+    path: /ws
     v2ray-http-upgrade: false
 - flow: ''
   name: 13|日本3|@ripaojiedian
@@ -727,7 +726,7 @@ proxies:
       Host: itunes.apple.com
     path: '%2Fws'
 - flow: ''
-  name: 13|美国|@ripaojiedian
+  name: 13|美国1|@ripaojiedian
   network: ws
   port: 443
   reality-opts:
@@ -743,148 +742,133 @@ proxies:
       Host: itunes.apple.com
     path: '%2Fws'
 - flow: ''
+  name: 13|日本|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: HyAx05nhCz5mXxVxWXU1TrWRKdpYE0MHF4-V-LtyhTA
+    short-id: 0784b134
+  server: 172.105.203.15
+  servername: itunes.apple.com
+  tls: false
+  type: vless
+  uuid: c8c9b995-b4b9-4915-9c7d-dee94aa733ba
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: '%2Fws'
+- flow: ''
+  name: 13|日本1|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: s73obybmPs4rzBkigf3zyIwAJWbRUnhPk3m6keetT3c
+    short-id: d1244137
+  server: 139.162.91.228
+  servername: itunes.apple.com
+  tls: false
+  type: vless
+  uuid: 911dce8c-a2d7-4267-acb4-1dec7cc360c4
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: '%2Fws'
+- flow: ''
   name: 13|日本4|@ripaojiedian
   network: ws
-  port: 8443
-  server: 166.88.14.71
-  servername: senflarelink-node-71i.pages.dev
-  tls: true
+  port: 443
+  reality-opts:
+    public-key: EfNOl6-YAuW-WSg7Op-1YOqKZV9emIuLwH8YPhzc7ms
+    short-id: 772bef67
+  server: 172.105.197.24
+  servername: itunes.apple.com
+  tls: false
   type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  uuid: 81f4e114-5a60-41b5-9038-8d742380c84f
   ws-opts:
     headers:
-      Host: senflarelink-node-71i.pages.dev
-    path: '%2F'
+      Host: itunes.apple.com
+    path: '%2Fws'
 - flow: ''
-  name: 13|日本5|@ripaojiedian
+  name: 13|新加坡2|@ripaojiedian
   network: ws
-  port: 8443
-  server: 45.32.57.15
-  servername: senflarelink-node-nwz76h.pages.dev
-  tls: true
+  port: 443
+  reality-opts:
+    public-key: 8yWkbzkxKDySkY_xUKZCb7z-XnoNIvq7bJpa_-8BiX8
+    short-id: 9360f0d0
+  server: 172.104.48.162
+  servername: itunes.apple.com
+  tls: false
   type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  uuid: 0dbe84f8-74fd-4bd1-99fe-e67eb7eaff85
   ws-opts:
     headers:
-      Host: senflarelink-node-nwz76h.pages.dev
-    path: '%2F'
+      Host: itunes.apple.com
+    path: '%2Fws'
 - flow: ''
-  name: 13|香港|@ripaojiedian
+  name: 13|新加坡3|@ripaojiedian
   network: ws
-  port: 8443
-  server: 185.206.171.66
-  servername: senflarelink-node-7uv.pages.dev
-  tls: true
+  port: 443
+  reality-opts:
+    public-key: u_4r8NRmRsN5Ndbt0koyC73DLC7mCcK4wAA0YiIR4ko
+    short-id: b0af872e
+  server: 172.104.48.194
+  servername: itunes.apple.com
+  tls: false
   type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  uuid: a28d0884-193d-4591-aa64-8638ba1481ce
   ws-opts:
     headers:
-      Host: senflarelink-node-7uv.pages.dev
-    path: '%2F'
-- flow: ''
-  name: 13|新加坡|@ripaojiedian
-  network: ws
-  port: 2087
-  server: 13.140.95.76
-  servername: senflarelink-node-6b9.pages.dev
-  tls: true
-  type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-6b9.pages.dev
-    path: '%2F'
+      Host: itunes.apple.com
+    path: '%2Fws'
 - flow: ''
   name: 13|美国2|@ripaojiedian
   network: ws
-  port: 8443
-  server: 179.255.132.42
-  servername: senflarelink-node-71i.pages.dev
-  tls: true
+  port: 443
+  reality-opts:
+    public-key: f9D1ZzG6vP1HgjCaCIutbykWkab8VEDuitwuwaeuBgY
+    short-id: 4206512a
+  server: 172.233.142.149
+  servername: itunes.apple.com
+  tls: false
   type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  uuid: 61e3954d-0d66-4b69-b6cd-9b4fc2352303
   ws-opts:
     headers:
-      Host: senflarelink-node-71i.pages.dev
-    path: '%2F'
+      Host: itunes.apple.com
+    path: '%2Fws'
 - flow: ''
-  name: 13|美国3|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 95.169.13.59
-  servername: senflarelink-node-m3bfbn.pages.dev
-  tls: true
-  type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-m3bfbn.pages.dev
-    path: '%2F'
-- flow: ''
-  name: 13|美国4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 179.255.137.204
-  servername: senflarelink-node-xfcyh2.pages.dev
-  tls: true
-  type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-xfcyh2.pages.dev
-    path: '%2F'
-- flow: ''
-  name: 13|韩国|@ripaojiedian
-  network: ws
-  port: 12101
-  server: 14.44.19.57
-  servername: senflarelink-node-nwz76h.pages.dev
-  tls: true
-  type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-nwz76h.pages.dev
-    path: '%2F'
-- flow: ''
-  name: 13|德国2|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 49.13.31.189
-  servername: senflarelink-node-c43.pages.dev
-  tls: true
-  type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-c43.pages.dev
-    path: '%2F'
-- flow: ''
-  name: 13|德国|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 178.104.77.229
-  servername: senflarelink-node-m3bfbn.pages.dev
-  tls: true
-  type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-m3bfbn.pages.dev
-    path: '%2F'
-- flow: ''
-  name: '13|TG频道:@ripaojiedian #1'
+  name: 13|新加坡|@ripaojiedian
   network: ws
   port: 443
-  server: cloudflare.seeck.cn
-  servername: senflarelink-node-xfcyh2.pages.dev
-  tls: true
+  reality-opts:
+    public-key: xGPjO2ukRsGiMm-vAzcLcFYu5ivYe2paztFS64q3Bkw
+    short-id: b29516da
+  server: 172.104.186.185
+  servername: itunes.apple.com
+  tls: false
   type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  uuid: 87ff88cc-5c1f-4f46-86b8-c43f55b71dd2
   ws-opts:
     headers:
-      Host: senflarelink-node-xfcyh2.pages.dev
-    path: '%2F'
+      Host: itunes.apple.com
+    path: '%2Fws'
+- flow: ''
+  name: 13|美国|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: lhkyTN5zj2bK7HhMVfer5RoDz0K67YK8VyiiK8TvkEE
+    short-id: afc7874d
+  server: 172.235.36.11
+  servername: itunes.apple.com
+  tls: false
+  type: vless
+  uuid: a15c47e7-0d24-4e82-a759-891d0e951a01
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: '%2Fws'
 - name: 14|BE_speednode_0001
   port: 443
   server: 146.70.123.98
@@ -1078,106 +1062,102 @@ proxy-groups:
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
-  - 10|✅  @vistav2ray کانال ما ✅
-  - 13|香港|@ripaojiedian
-  - 14|NL_speednode_0019
-  - 13|日本4|@ripaojiedian
-  - 12|TG频道:@ripaojiedian
-  - 12|🇩🇪 德国2|@ripaojiedian
-  - 12|🇹🇼 台湾2|@ripaojiedian
-  - 14|RO_speednode_0024
-  - 10|@v2ray_phoenix
-  - 12|🇯🇵 日本2|@ripaojiedian
-  - '13|TG频道:@ripaojiedian #1'
-  - 14|US_speednode_0027
-  - 12|🇯🇵 日本5|@ripaojiedian
-  - 14|TW_speednode_0026
-  - 13|美国|@ripaojiedian
-  - 14|IE_speednode_0010
-  - 10|@OutlineReleasedKey
-  - '10|@confiig_hub #1'
-  - 14|NL_speednode_0017
-  - 13|美国2|@ripaojiedian
-  - 13|日本5|@ripaojiedian
-  - 13|美国3|@ripaojiedian
-  - 14|NL_speednode_0020
-  - 12|🇩🇪 德国|@ripaojiedian
-  - 12|🇮🇹 意大利2|@ripaojiedian
-  - '10|Telegram@vpnjey #2'
-  - '10|@OutlineReleasedKey #2'
-  - 14|NL_speednode_0021
-  - '10|Telegram@vpnjey #9'
-  - 13|德国2|@ripaojiedian
-  - 13|日本2|@ripaojiedian
+  - 12,13|香港|@ripaojiedian
+  - 12|🇺🇸 美国1|@ripaojiedian
   - 12|🇮🇹 意大利|@ripaojiedian
-  - '10|Telegram@vpnjey #1'
-  - '10|Telegram@vpnjey #11'
-  - 14|NL_speednode_0015
-  - 14|DE_speednode_0003
-  - 9|25@exclavevpn
-  - 10|  @vistav2ray ا  ✅
   - 14|DK_speednode_0006
-  - 12|🇸🇬 新加坡|@ripaojiedian
-  - 10|@tootffarangi-5
-  - 10|@tootffarangi🍓-6
-  - '10|Telegram@vpnjey #7'
-  - 10|@KAFING_2
-  - 9|🇺🇸139909 | Telegram = t.me/SOS...
-  - 14|BE_speednode_0001
+  - 10|  @vistav2ray ا  ✅
+  - 14|NL_speednode_0020
+  - 10|را اصال ای   TelegramID Expres...
+  - 13|日本1|@ripaojiedian
+  - '10|@OutlineReleasedKey #3'
+  - 14|NL_speednode_0015
+  - 14|NL_speednode_0019
   - 10|@VPsave
   - 12|🇯🇵 日本4|@ripaojiedian
-  - 10|🇷24@exclavevpn
-  - 10|+@Azarakhsh_Proxy+
-  - 13|德国|@ripaojiedian
-  - 10|@B2Hub
-  - 12|🇺🇸 美国2|@ripaojiedian
-  - 10|214601 | ️Telegram = t.me/v2ra...
-  - '10|Telegram@vpnjey #3'
-  - 10|KR-@VPNine1
-  - 10|🇸🇬SG-🚀@VPNine1
+  - 12|🇮🇹 意大利2|@ripaojiedian
+  - 9|25@exclavevpn
   - 14|DK_speednode_0004
-  - 13|日本3|@ripaojiedian
-  - 10|@tootffarangi🍓-3
-  - '10|@KAFING_2 #2'
-  - 12|🇺🇸 美国|@ripaojiedian
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - '10|@OutlineReleasedKey #1'
-  - 10|🆓13@oneclickvpnkeys
-  - 14|DK_speednode_0005
-  - 10|ᴇ  = @xxᴇᴛ
-  - 12|🇯🇵 日本3|@ripaojiedian
-  - '10|Telegram@vpnjey #12'
-  - 14|NL_speednode_0018
-  - '10|@VPsave #1'
-  - 13|美国4|@ripaojiedian
-  - 10|Telegram:@v2rayng3
-  - 9|🇺🇸 24@exclavevpn
-  - 10|🔷14@oneclickvpnkeys
-  - '10|@OutlineReleasedKey #6'
-  - 14|NN_speednode_0023
+  - 10|✅  @vistav2ray کانال ما ✅
   - 10|7@oneclickvpnkeys
-  - 12|🇰🇷 韩国|@ripaojiedian
-  - '10|@OutlineReleasedKey #3'
-  - 10|24@exclavevpn
-  - 10|Telegram%@VPNConnectd
-  - 13|韩国|@ripaojiedian
-  - 12|🇭🇰 香港3|@ripaojiedian
-  - 14|FR_speednode_0007
-  - 12|🇭🇰 香港|@ripaojiedian
+  - 14|NL_speednode_0018
+  - 10|214601 | ️Telegram = t.me/v2ra...
+  - 12|🇹🇼 台湾2|@ripaojiedian
+  - 13|美国2|@ripaojiedian
+  - 14|DE_speednode_0003
+  - '10|@KAFING_2 #2'
+  - '10|@VPsave #1'
+  - 10|KR-@VPNine1
   - '10|@OutlineReleasedKey #5'
-  - 14|GB_speednode_0008
+  - '10|@confiig_hub #1'
+  - 14|FR_speednode_0007
+  - 10|🇷24@exclavevpn
+  - '10|@OutlineReleasedKey #2'
+  - 12|🇯🇵 日本|@ripaojiedian
   - '10|✅  @vistav2ray کانال ما ✅ #1'
   - 12|🇭🇰 香港2|@ripaojiedian
-  - 14|NL_speednode_0016
-  - 14|BR_speednode_0002
-  - '10|Telegram@vpnjey #5'
-  - 10|Telegram@vpnjey
-  - 14|IE_speednode_0009
-  - 10|را اصال ای   TelegramID Expres...
   - 13|新加坡|@ripaojiedian
+  - 14|IE_speednode_0009
+  - 10|🆓13@oneclickvpnkeys
+  - 13|新加坡2|@ripaojiedian
+  - '10|Telegram@vpnjey #3'
+  - 13|日本2|@ripaojiedian
+  - 10|@tootffarangi🍓-3
+  - 13|美国|@ripaojiedian
+  - 10|🇸🇬SG-🚀@VPNine1
+  - 14|BR_speednode_0002
+  - 14|BE_speednode_0001
+  - '10|Telegram@vpnjey #1'
+  - '10|Telegram@vpnjey #9'
+  - 12|🇺🇸 美国2|@ripaojiedian
+  - 13|美国1|@ripaojiedian
+  - 14|IE_speednode_0010
+  - 12|🇯🇵 日本1|@ripaojiedian
+  - '10|Telegram@vpnjey #5'
+  - 12|🇸🇬 新加坡3|@ripaojiedian
+  - 14|US_speednode_0027
+  - 10|@tootffarangi-5
+  - '10|Telegram@vpnjey #2'
+  - 10|@v2ray_phoenix
+  - '10|Telegram@vpnjey #7'
+  - '10|Telegram@vpnjey #11'
+  - 13|日本3|@ripaojiedian
+  - '10|Telegram@vpnjey #12'
+  - 12|🇸🇬 新加坡2|@ripaojiedian
+  - 14|DK_speednode_0005
+  - 14|NL_speednode_0016
+  - 10|ᴇ  = @xxᴇᴛ
   - 14|NL_speednode_0014
-  - 12|🇺🇸 美国3|@ripaojiedian
+  - 13|新加坡3|@ripaojiedian
+  - 14|RO_speednode_0024
+  - 13|日本|@ripaojiedian
+  - 10|@OutlineReleasedKey
+  - 10|Telegram:@v2rayng3
+  - 12|🇯🇵 日本2|@ripaojiedian
+  - 12|🇸🇬 新加坡|@ripaojiedian
+  - 10|Telegram%@VPNConnectd
+  - 12|🇹🇼 台湾3|@ripaojiedian
   - 14|NL_speednode_0022
+  - 10|@B2Hub
+  - 12|🇺🇸 美国|@ripaojiedian
+  - 10|🔷14@oneclickvpnkeys
+  - '10|@OutlineReleasedKey #6'
+  - 9|🇺🇸 24@exclavevpn
+  - 10|@KAFING_2
+  - 10|Telegram@vpnjey
+  - 14|TW_speednode_0026
+  - 13|日本4|@ripaojiedian
+  - 10|@tootffarangi🍓-6
+  - 10|24@exclavevpn
+  - '10|@OutlineReleasedKey #1'
+  - 12|🇯🇵 日本3|@ripaojiedian
+  - 9|🇺🇸139909 | Telegram = t.me/SOS...
+  - 14|NL_speednode_0021
+  - 14|NN_speednode_0023
+  - 14|NL_speednode_0017
+  - 10|+@Azarakhsh_Proxy+
+  - 12|🇹🇼 台湾|@ripaojiedian
+  - 14|GB_speednode_0008
   type: fallback
   url: https://www.google.com/
 - interval: 300
@@ -1235,30 +1215,32 @@ proxy-groups:
   proxies:
   - 12|🇯🇵 日本3|@ripaojiedian
   - 12|🇯🇵 日本2|@ripaojiedian
+  - 12|🇯🇵 日本|@ripaojiedian
+  - 12|🇯🇵 日本1|@ripaojiedian
   - 12|🇯🇵 日本4|@ripaojiedian
-  - 12|🇯🇵 日本5|@ripaojiedian
   - 13|日本3|@ripaojiedian
   - 13|日本2|@ripaojiedian
+  - 13|日本|@ripaojiedian
+  - 13|日本1|@ripaojiedian
   - 13|日本4|@ripaojiedian
-  - 13|日本5|@ripaojiedian
   type: select
 - name: 🇺🇸 美国
   proxies:
   - 9|🇺🇸 24@exclavevpn
   - 9|🇺🇸139909 | Telegram = t.me/SOS...
-  - 12|🇺🇸 美国|@ripaojiedian
+  - 12|🇺🇸 美国1|@ripaojiedian
   - 12|🇺🇸 美国2|@ripaojiedian
-  - 12|🇺🇸 美国3|@ripaojiedian
-  - 12|🇺🇸 美国4|@ripaojiedian
-  - 13|美国|@ripaojiedian
+  - 12|🇺🇸 美国|@ripaojiedian
+  - 13|美国1|@ripaojiedian
   - 13|美国2|@ripaojiedian
-  - 13|美国3|@ripaojiedian
-  - 13|美国4|@ripaojiedian
+  - 13|美国|@ripaojiedian
   - 14|US_speednode_0027
   type: select
 - name: 🇨🇳 台湾
   proxies:
   - 12|🇹🇼 台湾2|@ripaojiedian
+  - 12|🇹🇼 台湾3|@ripaojiedian
+  - 12|🇹🇼 台湾|@ripaojiedian
   - 14|TW_speednode_0026
   type: select
 - name: 🇨🇳 中国
@@ -1268,9 +1250,7 @@ proxy-groups:
 - name: 🇭🇰 香港
   proxies:
   - 12|🇭🇰 香港2|@ripaojiedian
-  - 12|🇭🇰 香港3|@ripaojiedian
-  - 12|🇭🇰 香港|@ripaojiedian
-  - 13|香港|@ripaojiedian
+  - 12,13|香港|@ripaojiedian
   type: select
 - name: 🇨🇦 加拿大
   proxies:
@@ -1283,7 +1263,11 @@ proxy-groups:
 - name: 🇸🇬 新加坡
   proxies:
   - 10|🇸🇬SG-🚀@VPNine1
+  - 12|🇸🇬 新加坡2|@ripaojiedian
+  - 12|🇸🇬 新加坡3|@ripaojiedian
   - 12|🇸🇬 新加坡|@ripaojiedian
+  - 13|新加坡2|@ripaojiedian
+  - 13|新加坡3|@ripaojiedian
   - 13|新加坡|@ripaojiedian
   type: select
 - name: 🇬🇧 英国
@@ -1293,8 +1277,6 @@ proxy-groups:
 - name: 🇰🇷 韩国
   proxies:
   - 10|KR-@VPNine1
-  - 12|🇰🇷 韩国|@ripaojiedian
-  - 13|韩国|@ripaojiedian
   type: select
 - name: 🇷🇺 俄罗斯
   proxies:
@@ -1302,10 +1284,6 @@ proxy-groups:
   type: select
 - name: 🇩🇪 德国
   proxies:
-  - 12|🇩🇪 德国2|@ripaojiedian
-  - 12|🇩🇪 德国|@ripaojiedian
-  - 13|德国2|@ripaojiedian
-  - 13|德国|@ripaojiedian
   - 14|DE_speednode_0003
   type: select
 rules:
